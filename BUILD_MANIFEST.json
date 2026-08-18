@@ -1,0 +1,64 @@
+{
+  "product": "FA Market Lab",
+  "gate": 28,
+  "principles": [
+    "word_depth",
+    "gold_black",
+    "mobile_first",
+    "analytical_integrity",
+    "long_term_scalability"
+  ],
+  "status": "source_integrated_runtime_certification_blocked",
+  "weeks": [
+    31,
+    32
+  ],
+  "next_gate": "execute_build_and_browser_responsive_qa_in_vercel_or_network_enabled_environment",
+  "no_fabrication": true,
+  "source_migration": {
+    "week31": "FINAL_PUBLICATION_MIGRATION",
+    "week32": "FINAL_PUBLICATION_MIGRATION"
+  },
+  "raw_archive_present": false,
+  "hard_rule": "Never mark PUBLISHED without raw archive + verification + pre-outcome snapshot lock",
+  "qa": {
+    "structural": "PASS",
+    "provenance_guard": "PASS",
+    "mobile_tokens": "PASS",
+    "build": "NOT_EXECUTED_NETWORK_INSTALL_TIMEOUT"
+  },
+  "publication_locked": true,
+  "real_data_verified": false,
+  "real_packet_received": true,
+  "packet_scope": [
+    "week31",
+    "week32"
+  ],
+  "pre_outcome_frozen": true,
+  "outcome_attached": false,
+  "outcome_captured": true,
+  "forecast_reality_comparison": true,
+  "final_source_review": true,
+  "recap_production_ready": true,
+  "longitudinal_learning_active": true,
+  "learning_records": 1,
+  "historical_backfill": "W31_PENDING_VALIDATED_PACKET",
+  "cross_week_metrics": "EARLY_SAMPLE",
+  "week31_backfill": "BLOCKED_INCOMPLETE_VALIDATED_PACKET",
+  "longitudinal_dashboard": "PRODUCT_SURFACE_FOUNDATION",
+  "validated_learning_records": 1,
+  "master_publishing_shell": "ACTIVE_ROOT_LAYOUT",
+  "module_contracts_preserved": true,
+  "module_integration": "PENDING_REAL_MODULE_IMPLEMENTATIONS",
+  "responsive_qa": "READY_FOR_EXECUTION",
+  "module_recovery": "VERIFIED",
+  "full_integration": "SOURCE_INTEGRATED_RUNTIME_QA_PENDING",
+  "fabrication_prevention": "ACTIVE",
+  "verified_module_foundations": [
+    "intelligence"
+  ],
+  "static_source_qa": "PASS",
+  "navigation_qa": "PASS",
+  "runtime_build": "NOT_EXECUTED_NETWORK_ENVIRONMENT_REQUIRED",
+  "browser_responsive_qa": "NOT_EXECUTED"
+}
