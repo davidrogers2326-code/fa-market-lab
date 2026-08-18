@@ -98,10 +98,15 @@ export default function Home() {
     <main style={pageStyle}>
       <div style={containerStyle}>
 
-        {/* HEADER */}
+        {/* =====================================================
+            HEADER
+            ===================================================== */}
+
         <header style={headerStyle}>
-          <div>
-            <div style={eyebrowStyle}>FA MARKET LAB</div>
+          <div style={headerLeftStyle}>
+            <div style={eyebrowStyle}>
+              FA MARKET LAB
+            </div>
 
             <h1 style={titleStyle}>
               Market Intelligence
@@ -124,13 +129,19 @@ export default function Home() {
         </header>
 
 
-        {/* MARKET PULSE */}
+        {/* =====================================================
+            MARKET PULSE
+            ===================================================== */}
+
         <section style={sectionStyle}>
           <SectionTitle title="Market Pulse" />
 
           <div style={pulseGridStyle}>
             {marketWeek.pulse.map((item) => (
-              <div key={item.label} style={cardStyle}>
+              <div
+                key={item.label}
+                style={cardStyle}
+              >
                 <div style={labelStyle}>
                   {item.label}
                 </div>
@@ -139,22 +150,28 @@ export default function Home() {
                   {item.value}
                 </div>
 
-                <div style={mutedStyle}>
+                <p style={mutedStyle}>
                   {item.note}
-                </div>
+                </p>
               </div>
             ))}
           </div>
         </section>
 
 
-        {/* MACRO FRAMEWORK */}
+        {/* =====================================================
+            MACRO FRAMEWORK
+            ===================================================== */}
+
         <section style={sectionStyle}>
           <SectionTitle title="Macro Framework" />
 
           <div style={frameworkGridStyle}>
             {marketWeek.framework.map((item) => (
-              <div key={item.number} style={cardStyle}>
+              <div
+                key={item.number}
+                style={cardStyle}
+              >
                 <div style={numberStyle}>
                   {item.number}
                 </div>
@@ -172,7 +189,10 @@ export default function Home() {
         </section>
 
 
-        {/* SCENARIO ENGINE */}
+        {/* =====================================================
+            SCENARIO ENGINE
+            ===================================================== */}
+
         <section style={sectionStyle}>
           <SectionTitle title="Scenario Engine" />
 
@@ -199,7 +219,10 @@ export default function Home() {
         </section>
 
 
-        {/* KEY CATALYSTS */}
+        {/* =====================================================
+            KEY CATALYSTS
+            ===================================================== */}
+
         <section style={sectionStyle}>
           <SectionTitle title="Key Catalysts" />
 
@@ -228,7 +251,10 @@ export default function Home() {
         </section>
 
 
-        {/* FOOTER */}
+        {/* =====================================================
+            FOOTER
+            ===================================================== */}
+
         <footer style={footerStyle}>
           FA Market Lab · Market intelligence and scenario-based research
         </footer>
@@ -253,19 +279,22 @@ function SectionTitle({ title }: { title: string }) {
 
 
 /* =========================================================
-   PAGE
+   GLOBAL PAGE
    ========================================================= */
 
 const pageStyle = {
   minHeight: "100vh",
+  width: "100%",
   background: "#0b0f14",
   color: "#f5f7fa",
   fontFamily:
     "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
   padding: "40px 24px",
+  boxSizing: "border-box" as const,
 };
 
 const containerStyle = {
+  width: "100%",
   maxWidth: "1200px",
   margin: "0 auto",
 };
@@ -284,6 +313,10 @@ const headerStyle = {
   paddingBottom: "28px",
   marginBottom: "36px",
   flexWrap: "wrap" as const,
+};
+
+const headerLeftStyle = {
+  minWidth: 0,
 };
 
 const eyebrowStyle = {
@@ -316,6 +349,7 @@ const weekBadgeStyle = {
   padding: "12px 16px",
   minWidth: "150px",
   background: "#0f141b",
+  boxSizing: "border-box" as const,
 };
 
 const weekBadgeLabelStyle = {
@@ -348,21 +382,15 @@ const sectionTitleStyle = {
 
 
 /* =========================================================
-   MARKET PULSE
+   SHARED CARDS
    ========================================================= */
-
-const pulseGridStyle = {
-  display: "grid",
-  gridTemplateColumns:
-    "repeat(auto-fit, minmax(220px, 1fr))",
-  gap: "16px",
-};
 
 const cardStyle = {
   background: "#11161d",
   border: "1px solid #252b33",
   borderRadius: "10px",
   padding: "20px",
+  boxSizing: "border-box" as const,
 };
 
 const labelStyle = {
@@ -385,6 +413,18 @@ const mutedStyle = {
   fontSize: "14px",
   lineHeight: 1.65,
   margin: 0,
+};
+
+
+/* =========================================================
+   MARKET PULSE
+   ========================================================= */
+
+const pulseGridStyle = {
+  display: "grid",
+  gridTemplateColumns:
+    "repeat(auto-fit, minmax(220px, 1fr))",
+  gap: "16px",
 };
 
 
@@ -430,6 +470,7 @@ const scenarioStyle = {
   borderRadius: "10px",
   padding: "22px",
   minHeight: "155px",
+  boxSizing: "border-box" as const,
 };
 
 const scenarioHeadingStyle = {
@@ -444,10 +485,12 @@ const scenarioHeadingStyle = {
    ========================================================= */
 
 const catalystCardStyle = {
+  width: "100%",
   background: "#11161d",
   border: "1px solid #252b33",
   borderRadius: "10px",
   padding: "4px 20px",
+  boxSizing: "border-box" as const,
 };
 
 const catalystStyle = {
@@ -456,11 +499,14 @@ const catalystStyle = {
   alignItems: "center",
   gap: "20px",
   padding: "16px 0",
+  minHeight: "52px",
+  boxSizing: "border-box" as const,
 };
 
 const catalystNameStyle = {
   fontSize: "14px",
   color: "#d7dce2",
+  lineHeight: 1.5,
 };
 
 const tagStyle = {
