@@ -301,14 +301,27 @@ export default function Home() {
     Key Catalysts
   </h2>
 
-  <div style={cardStyle}>
-    {marketWeek.catalysts.map((catalyst) => (
-      <div key={catalyst.name} style={catalystStyle}>
-        <span>{catalyst.name}</span>
-        <span style={tagStyle}>{catalyst.tag}</span>
-      </div>
-    ))}
-  </div>
+  <div
+  style={{
+    ...cardStyle,
+    alignSelf: "flex-start",
+    height: "fit-content",
+    padding: "8px 20px",
+  }}
+>
+  {marketWeek.catalysts.map((catalyst) => (
+    <div
+      key={catalyst.name}
+      style={{
+        ...catalystStyle,
+        padding: "12px 0",
+      }}
+    >
+      <span>{catalyst.name}</span>
+      <span style={tagStyle}>{catalyst.tag}</span>
+    </div>
+  ))}
+</div>
 </section>
 
         {/* FOOTER */}
