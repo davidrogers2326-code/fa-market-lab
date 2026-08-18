@@ -1,4 +1,93 @@
+const marketWeek = {
+  week: "WEEK 34",
+  dateRange: "August 17–21, 2026",
 
+  pulse: [
+    {
+      label: "RISK REGIME",
+      value: "Risk-On",
+      note: "Equities remain supported by liquidity expectations.",
+    },
+    {
+      label: "FED EXPECTATIONS",
+      value: "Data Dependent",
+      note: "Incoming inflation and labour data remain key.",
+    },
+    {
+      label: "USD",
+      value: "Neutral",
+      note: "Direction depends heavily on rate expectations.",
+    },
+    {
+      label: "GOLD",
+      value: "Constructive",
+      note: "Sensitive to real yields, USD and risk sentiment.",
+    },
+  ],
+
+  framework: [
+    {
+      number: "01",
+      title: "US Data",
+      description: "Track inflation, labour markets, growth and activity data.",
+    },
+    {
+      number: "02",
+      title: "Fed Expectations",
+      description: "Translate economic data into changing rate expectations.",
+    },
+    {
+      number: "03",
+      title: "Positioning",
+      description: "Identify how positioning and flows can amplify market moves.",
+    },
+    {
+      number: "04",
+      title: "Market Reaction",
+      description: "Build scenarios instead of relying on a single directional prediction.",
+    },
+  ],
+
+  scenarios: [
+    {
+      label: "BASE CASE",
+      title: "Soft Landing",
+      description:
+        "Growth slows without a major deterioration in employment. Policy expectations remain supportive.",
+    },
+    {
+      label: "BULL CASE",
+      title: "Disinflation + Growth",
+      description:
+        "Inflation continues to cool while economic activity remains resilient.",
+    },
+    {
+      label: "BEAR CASE",
+      title: "Growth Shock",
+      description:
+        "Labour-market weakness and deteriorating activity increase recession concerns.",
+    },
+  ],
+
+  catalysts: [
+    {
+      name: "US Inflation Data",
+      tag: "HIGH IMPACT",
+    },
+    {
+      name: "US Labour Market",
+      tag: "HIGH IMPACT",
+    },
+    {
+      name: "Federal Reserve Communication",
+      tag: "HIGH IMPACT",
+    },
+    {
+      name: "Geopolitical Risk",
+      tag: "WATCH",
+    },
+  ],
+};
 export default function Home() {
   return (
     <main
@@ -207,33 +296,20 @@ export default function Home() {
         </section>
 
         {/* CATALYSTS */}
-        <section style={{ marginBottom: "32px" }}>
-          <h2 style={{ fontSize: "20px", marginBottom: "16px" }}>
-            Key Catalysts
-          </h2>
+<section style={{ marginBottom: "32px" }}>
+  <h2 style={{ fontSize: "20px", marginBottom: "16px" }}>
+    Key Catalysts
+  </h2>
 
-          <div style={cardStyle}>
-            <div style={catalystStyle}>
-              <span>US Inflation Data</span>
-              <span style={tagStyle}>HIGH IMPACT</span>
-            </div>
-
-            <div style={catalystStyle}>
-              <span>US Labour Market</span>
-              <span style={tagStyle}>HIGH IMPACT</span>
-            </div>
-
-            <div style={catalystStyle}>
-              <span>Federal Reserve Communication</span>
-              <span style={tagStyle}>HIGH IMPACT</span>
-            </div>
-
-            <div style={catalystStyle}>
-              <span>Geopolitical Risk</span>
-              <span style={tagStyle}>WATCH</span>
-            </div>
-          </div>
-        </section>
+  <div style={cardStyle}>
+    {marketWeek.catalysts.map((catalyst) => (
+      <div key={catalyst.name} style={catalystStyle}>
+        <span>{catalyst.name}</span>
+        <span style={tagStyle}>{catalyst.tag}</span>
+      </div>
+    ))}
+  </div>
+</section>
 
         {/* FOOTER */}
         <footer
