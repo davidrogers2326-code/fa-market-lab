@@ -103,10 +103,8 @@ export default function Home() {
             ===================================================== */}
 
         <header style={headerStyle}>
-          <div style={headerLeftStyle}>
-            <div style={eyebrowStyle}>
-              FA MARKET LAB
-            </div>
+          <div style={headerContentStyle}>
+            <div style={eyebrowStyle}>FA MARKET LAB</div>
 
             <h1 style={titleStyle}>
               Market Intelligence
@@ -140,7 +138,7 @@ export default function Home() {
             {marketWeek.pulse.map((item) => (
               <div
                 key={item.label}
-                style={cardStyle}
+                style={pulseCardStyle}
               >
                 <div style={labelStyle}>
                   {item.label}
@@ -170,7 +168,7 @@ export default function Home() {
             {marketWeek.framework.map((item) => (
               <div
                 key={item.number}
-                style={cardStyle}
+                style={frameworkCardStyle}
               >
                 <div style={numberStyle}>
                   {item.number}
@@ -202,7 +200,7 @@ export default function Home() {
                 key={scenario.label}
                 style={scenarioStyle}
               >
-                <div style={labelStyle}>
+                <div style={scenarioLabelStyle}>
                   {scenario.label}
                 </div>
 
@@ -226,25 +224,25 @@ export default function Home() {
         <section style={sectionStyle}>
           <SectionTitle title="Key Catalysts" />
 
-          <div style={catalystCardStyle}>
+          <div style={catalystListStyle}>
             {marketWeek.catalysts.map((catalyst, index) => (
               <div
                 key={catalyst.name}
                 style={{
-                  ...catalystStyle,
+                  ...catalystRowStyle,
                   borderBottom:
                     index === marketWeek.catalysts.length - 1
                       ? "none"
                       : "1px solid #252b33",
                 }}
               >
-                <span style={catalystNameStyle}>
+                <div style={catalystNameStyle}>
                   {catalyst.name}
-                </span>
+                </div>
 
-                <span style={tagStyle}>
+                <div style={tagStyle}>
                   {catalyst.tag}
-                </span>
+                </div>
               </div>
             ))}
           </div>
@@ -289,13 +287,18 @@ const pageStyle = {
   color: "#f5f7fa",
   fontFamily:
     "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
-  padding: "40px 24px",
+  padding: "48px 24px 56px",
   boxSizing: "border-box" as const,
 };
 
+
+/* =========================================================
+   MAIN CONTAINER
+   ========================================================= */
+
 const containerStyle = {
   width: "100%",
-  maxWidth: "1200px",
+  maxWidth: "1180px",
   margin: "0 auto",
 };
 
@@ -308,31 +311,31 @@ const headerStyle = {
   display: "flex",
   justifyContent: "space-between",
   alignItems: "flex-start",
-  gap: "24px",
+  gap: "32px",
   borderBottom: "1px solid #252b33",
-  paddingBottom: "28px",
-  marginBottom: "36px",
+  paddingBottom: "30px",
+  marginBottom: "38px",
   flexWrap: "wrap" as const,
 };
 
-const headerLeftStyle = {
-  minWidth: 0,
+const headerContentStyle = {
+  flex: "1 1 500px",
 };
 
 const eyebrowStyle = {
-  fontSize: "12px",
+  fontSize: "11px",
   color: "#8b949e",
-  letterSpacing: "2.5px",
-  fontWeight: 600,
-  marginBottom: "10px",
+  letterSpacing: "2.8px",
+  fontWeight: 700,
+  marginBottom: "11px",
 };
 
 const titleStyle = {
-  fontSize: "38px",
-  lineHeight: 1.1,
+  fontSize: "40px",
+  lineHeight: 1.08,
   margin: 0,
   fontWeight: 700,
-  letterSpacing: "-0.8px",
+  letterSpacing: "-1px",
 };
 
 const subtitleStyle = {
@@ -341,22 +344,24 @@ const subtitleStyle = {
   marginBottom: 0,
   fontSize: "15px",
   lineHeight: 1.6,
+  maxWidth: "650px",
 };
 
 const weekBadgeStyle = {
   border: "1px solid #303740",
   borderRadius: "10px",
-  padding: "12px 16px",
-  minWidth: "150px",
+  padding: "14px 17px",
+  minWidth: "155px",
   background: "#0f141b",
   boxSizing: "border-box" as const,
 };
 
 const weekBadgeLabelStyle = {
-  fontSize: "11px",
+  fontSize: "10px",
   color: "#8b949e",
-  letterSpacing: "1.5px",
-  marginBottom: "5px",
+  letterSpacing: "1.7px",
+  fontWeight: 700,
+  marginBottom: "6px",
 };
 
 const weekBadgeDateStyle = {
@@ -370,49 +375,14 @@ const weekBadgeDateStyle = {
    ========================================================= */
 
 const sectionStyle = {
-  marginBottom: "36px",
+  marginBottom: "38px",
 };
 
 const sectionTitleStyle = {
   fontSize: "20px",
   margin: "0 0 16px",
   fontWeight: 650,
-  letterSpacing: "-0.2px",
-};
-
-
-/* =========================================================
-   SHARED CARDS
-   ========================================================= */
-
-const cardStyle = {
-  background: "#11161d",
-  border: "1px solid #252b33",
-  borderRadius: "10px",
-  padding: "20px",
-  boxSizing: "border-box" as const,
-};
-
-const labelStyle = {
-  fontSize: "10px",
-  letterSpacing: "1.6px",
-  color: "#7f8994",
-  fontWeight: 600,
-  marginBottom: "10px",
-};
-
-const valueStyle = {
-  fontSize: "22px",
-  fontWeight: 700,
-  marginBottom: "10px",
-  letterSpacing: "-0.3px",
-};
-
-const mutedStyle = {
-  color: "#8b949e",
-  fontSize: "14px",
-  lineHeight: 1.65,
-  margin: 0,
+  letterSpacing: "-0.25px",
 };
 
 
@@ -427,6 +397,42 @@ const pulseGridStyle = {
   gap: "16px",
 };
 
+const pulseCardStyle = {
+  background: "#11161d",
+  border: "1px solid #252b33",
+  borderRadius: "10px",
+  padding: "20px",
+  minHeight: "150px",
+  boxSizing: "border-box" as const,
+};
+
+const labelStyle = {
+  fontSize: "10px",
+  letterSpacing: "1.6px",
+  color: "#7f8994",
+  fontWeight: 650,
+  marginBottom: "10px",
+};
+
+const valueStyle = {
+  fontSize: "22px",
+  fontWeight: 700,
+  marginBottom: "10px",
+  letterSpacing: "-0.35px",
+};
+
+
+/* =========================================================
+   GENERAL TEXT
+   ========================================================= */
+
+const mutedStyle = {
+  color: "#8b949e",
+  fontSize: "14px",
+  lineHeight: 1.65,
+  margin: 0,
+};
+
 
 /* =========================================================
    MACRO FRAMEWORK
@@ -439,17 +445,27 @@ const frameworkGridStyle = {
   gap: "16px",
 };
 
+const frameworkCardStyle = {
+  background: "#11161d",
+  border: "1px solid #252b33",
+  borderRadius: "10px",
+  padding: "20px",
+  minHeight: "170px",
+  boxSizing: "border-box" as const,
+};
+
 const numberStyle = {
-  fontSize: "11px",
+  fontSize: "10px",
   color: "#69737e",
-  letterSpacing: "1.5px",
-  fontWeight: 600,
+  letterSpacing: "1.7px",
+  fontWeight: 700,
 };
 
 const headingStyle = {
   fontSize: "18px",
-  margin: "7px 0 10px",
+  margin: "8px 0 10px",
   fontWeight: 650,
+  letterSpacing: "-0.2px",
 };
 
 
@@ -469,14 +485,22 @@ const scenarioStyle = {
   border: "1px solid #252b33",
   borderRadius: "10px",
   padding: "22px",
-  minHeight: "155px",
+  minHeight: "165px",
   boxSizing: "border-box" as const,
+};
+
+const scenarioLabelStyle = {
+  fontSize: "10px",
+  color: "#7f8994",
+  letterSpacing: "1.6px",
+  fontWeight: 700,
 };
 
 const scenarioHeadingStyle = {
   fontSize: "19px",
-  margin: "6px 0 11px",
+  margin: "8px 0 11px",
   fontWeight: 650,
+  letterSpacing: "-0.25px",
 };
 
 
@@ -484,7 +508,7 @@ const scenarioHeadingStyle = {
    KEY CATALYSTS
    ========================================================= */
 
-const catalystCardStyle = {
+const catalystListStyle = {
   width: "100%",
   background: "#11161d",
   border: "1px solid #252b33",
@@ -493,13 +517,13 @@ const catalystCardStyle = {
   boxSizing: "border-box" as const,
 };
 
-const catalystStyle = {
+const catalystRowStyle = {
+  width: "100%",
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
   gap: "20px",
-  padding: "16px 0",
-  minHeight: "52px",
+  padding: "17px 0",
   boxSizing: "border-box" as const,
 };
 
@@ -512,12 +536,13 @@ const catalystNameStyle = {
 const tagStyle = {
   flexShrink: 0,
   fontSize: "9px",
-  fontWeight: 600,
+  fontWeight: 700,
   letterSpacing: "1px",
   color: "#8b949e",
   border: "1px solid #303740",
   borderRadius: "5px",
   padding: "5px 8px",
+  whiteSpace: "nowrap" as const,
 };
 
 
@@ -528,7 +553,7 @@ const tagStyle = {
 const footerStyle = {
   borderTop: "1px solid #252b33",
   paddingTop: "20px",
-  marginTop: "10px",
+  marginTop: "8px",
   color: "#68727d",
   fontSize: "12px",
   lineHeight: 1.5,
