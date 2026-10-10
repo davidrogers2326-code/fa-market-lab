@@ -1,0 +1,157 @@
+/* ===================== Week 41 · HOLO layer: holographic HUD, chart glow, reveal, full-screen chart view ===================== */
+:root{--hg-up1:#66EBB2;--hg-up2:#139A61;--hg-dn1:#FF808A;--hg-dn2:#BF2E3A;--holo1:#F2D77A;--holo2:#2FD5C9;--holo3:#9A76D6}
+:root[data-theme="light"]{--hg-up1:#2FBF80;--hg-up2:#0C7E4C;--hg-dn1:#F06A73;--hg-dn2:#B4232F}
+
+/* ambient particle field sits under everything */
+#holoBg{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.9}
+:root[data-theme="light"] #holoBg{opacity:.6}
+
+/* HUD corners + cursor spotlight on modules, desks, terminals, part banners */
+html body section.mod,html body .dx,html body .term,html body .part{isolation:isolate}
+.hfx{position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:-1;overflow:hidden;
+ background:radial-gradient(560px circle at var(--mx,50%) var(--my,-400px),rgba(212,175,55,.075),transparent 62%)}
+.hfx:before,.hfx:after{content:"";position:absolute;width:26px;height:26px;border:1.5px solid var(--gold);opacity:.5;transition:opacity .3s,width .3s,height .3s}
+.hfx:before{top:12px;left:12px;border-right:0;border-bottom:0;border-top-left-radius:9px}
+.hfx:after{bottom:12px;right:12px;border-left:0;border-top:0;border-bottom-right-radius:9px}
+section.mod:hover>.hfx:before,section.mod:hover>.hfx:after,.dx:hover>.hfx:before,.dx:hover>.hfx:after{opacity:.95;width:38px;height:38px}
+.dx>.hfx,.term>.hfx{background:radial-gradient(420px circle at var(--mx,50%) var(--my,-400px),rgba(47,213,201,.06),transparent 60%)}
+.dx>.hfx:before,.dx>.hfx:after,.term>.hfx:before,.term>.hfx:after{border-color:var(--teal);opacity:.4;width:18px;height:18px}
+:root[data-theme="light"] .hfx{background:radial-gradient(560px circle at var(--mx,50%) var(--my,-400px),rgba(154,118,20,.07),transparent 62%)}
+
+/* holographic edge on hover */
+html body section.mod,html body .dx,html body .idea{transition:border-color .35s,box-shadow .35s}
+html body section.mod:hover{border-color:rgba(212,175,55,.32);box-shadow:0 0 0 1px rgba(212,175,55,.08),0 30px 80px -30px rgba(0,0,0,.9),0 0 60px -30px rgba(212,175,55,.35)}
+html body .dx:hover{border-color:rgba(47,213,201,.32);box-shadow:0 0 0 1px rgba(47,213,201,.10),0 26px 70px -30px rgba(0,0,0,.9),0 0 50px -24px rgba(47,213,201,.35)}
+html body .idea:hover{border-color:rgba(212,175,55,.45);box-shadow:0 0 40px -18px rgba(212,175,55,.45)}
+
+/* top bar data stream */
+html body #top:after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;background:linear-gradient(90deg,transparent 0,rgba(47,213,201,.0) 30%,rgba(47,213,201,.9) 50%,rgba(212,175,55,.0) 70%,transparent 100%);background-size:220% 100%;animation:hstream 5s linear infinite;pointer-events:none}
+@keyframes hstream{from{background-position:120% 0}to{background-position:-120% 0}}
+
+/* hero: perspective grid floor + horizon glow */
+.hero>.hgrid{position:absolute;left:-10%;right:-10%;bottom:0;height:58%;pointer-events:none;perspective:520px;overflow:hidden;
+ -webkit-mask-image:linear-gradient(180deg,transparent,#000 45%);mask-image:linear-gradient(180deg,transparent,#000 45%)}
+.hgrid i{position:absolute;left:0;right:0;bottom:-40%;height:180%;transform:rotateX(64deg);transform-origin:50% 100%;
+ background-image:linear-gradient(rgba(212,175,55,.30) 1px,transparent 1px),linear-gradient(90deg,rgba(212,175,55,.24) 1px,transparent 1px);background-size:64px 64px;animation:hfloor 7s linear infinite}
+.hgrid b{position:absolute;left:0;right:0;top:0;height:2px;background:linear-gradient(90deg,transparent,rgba(242,215,122,.55),rgba(47,213,201,.45),transparent);filter:blur(1px)}
+@keyframes hfloor{to{background-position:0 64px,0 0}}
+:root[data-theme="light"] .hgrid i{background-image:linear-gradient(rgba(154,118,20,.16) 1px,transparent 1px),linear-gradient(90deg,rgba(154,118,20,.12) 1px,transparent 1px)}
+
+/* ---------- charts ---------- */
+.vxhost{position:relative}
+.vxhost>svg.vxs,.vxhost>div>svg.vxs{transition:filter .3s}
+/* gradient candles + glow */
+html body .vxb.u{fill:url(#hgUp)}html body .vxb.d{fill:url(#hgDn)}
+.vxlive{transform-box:fill-box;transform-origin:center;animation:hlive 1.8s ease-out infinite}
+.vxlive.u{fill:var(--vx-up)}.vxlive.d{fill:var(--vx-dn)}
+@keyframes hlive{0%{stroke-width:0;stroke-opacity:.9}100%{stroke-width:22;stroke-opacity:0}}
+.vxlive.u{stroke:var(--vx-up)}.vxlive.d{stroke:var(--vx-dn)}
+/* crosshair time tag */
+.vxcxb{fill:var(--card3);stroke:var(--rule)}.vxcxbt{fill:var(--gold2);font:700 10.5px var(--hf);letter-spacing:.02em}
+/* measure tool */
+.vxmsr{stroke-width:1;stroke-dasharray:4 3}.vxmsr.u{fill:rgba(38,194,129,.14);stroke:var(--vx-up)}.vxmsr.d{fill:rgba(240,82,91,.14);stroke:var(--vx-dn)}
+.vxmsl{stroke-width:1.6}.vxmsl.u{stroke:var(--vx-up)}.vxmsl.d{stroke:var(--vx-dn)}
+.vxmsb{stroke-width:1}.vxmsb.u{fill:rgba(8,30,20,.92);stroke:var(--vx-up)}.vxmsb.d{fill:rgba(36,8,12,.92);stroke:var(--vx-dn)}
+:root[data-theme="light"] .vxmsb.u,:root[data-theme="light"] .vxmsb.d{fill:rgba(255,255,255,.95)}
+.vxmst{fill:var(--ink);font:800 14px var(--hf);font-variant-numeric:tabular-nums}.vxmst2{fill:var(--ink2);font:600 11px var(--hf);font-variant-numeric:tabular-nums}
+.vxmeasure .vxhit{cursor:crosshair}
+.dxc .vxhit{cursor:grab}.dxc .vxhit:active{cursor:grabbing}.dxc.vxmeasure .vxhit{cursor:crosshair}
+/* line hover dots + legend toggles */
+.vxhd circle{transition:opacity .12s;pointer-events:none}
+.vxlg [data-sj]{cursor:pointer;padding:2px 8px;border-radius:999px;border:1px solid transparent;transition:all .2s;user-select:none}
+.vxlg [data-sj]:hover{border-color:var(--rule);color:var(--ink)}
+.vxlg [data-sj].off{opacity:.42;text-decoration:line-through}
+/* bars, donut, heat */
+.vxbar,.vxwf,.vxseg,.vxcell{transition:filter .2s,opacity .2s,transform .25s}
+.vxbar:hover,.vxwf:hover{filter:brightness(1.25) saturate(1.1)}
+.vxseg:hover{transform:scale(1.045);filter:brightness(1.15)}
+.vxs:has(.vxcell[data-hl]) .vxcell:not([data-hl]){opacity:.35}
+.vxcell[data-hl="x"]{stroke:var(--gold2);stroke-width:2}
+.vxgtrk{stroke:var(--gold);opacity:.35}
+.vxrp{transition:fill-opacity .2s}.vxrp:hover{fill-opacity:.36}
+
+@media screen{
+ html:not(.pdfdark) .vxln:not(.dsh){filter:drop-shadow(0 0 5px rgba(242,215,122,.28))}
+ html:not(.pdfdark) .vxpath{filter:drop-shadow(0 0 4px rgba(255,255,255,.18))}
+ html:not(.pdfdark) .vxtag,html:not(.pdfdark) .vxdot{filter:drop-shadow(0 0 7px rgba(255,255,255,.22))}
+ html:not(.pdfdark) .vxnd{filter:drop-shadow(0 0 6px rgba(242,215,122,.6))}
+ html:not(.pdfdark) .vxgb2{filter:drop-shadow(0 0 5px rgba(255,255,255,.12))}
+ html:not(.pdfdark) .vxema{filter:drop-shadow(0 0 3px rgba(79,147,214,.35))}
+}
+
+/* chart frame: scanlines + corner ticks on hosts that are not already inside a desk */
+.vxbox.chart,.tp .vxhost,.fig .vxhost{background-image:repeating-linear-gradient(0deg,rgba(255,255,255,.012) 0 1px,transparent 1px 3px)}
+:root[data-theme="light"] .vxbox.chart,:root[data-theme="light"] .tp .vxhost,:root[data-theme="light"] .fig .vxhost{background-image:none}
+
+/* chart toolbar */
+.vxtb{position:absolute;top:6px;right:6px;z-index:5;display:flex;gap:4px;padding:3px;border-radius:11px;background:rgba(10,12,16,.72);border:1px solid var(--line2);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);opacity:0;transform:translateY(-4px);transition:opacity .2s,transform .2s}
+.vxhost:hover>.vxtb,.vxtb:focus-within,.vxhost.vxmeasure>.vxtb{opacity:1;transform:none}
+@media (hover:none){.vxtb{opacity:.85;transform:none}}
+:root[data-theme="light"] .vxtb{background:rgba(255,255,255,.85)}
+.vxtb button{width:30px;height:30px;display:grid;place-items:center;border:0;border-radius:8px;background:transparent;color:var(--ink2);padding:0}
+.vxtb button:hover{background:rgba(212,175,55,.14);color:var(--gold2)}
+.vxtb button.on{background:linear-gradient(135deg,#F7E39A,#D4AF37);color:#0b0b0d}
+.vxtb svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.dxc>.vxtb{top:4px;right:8px}
+
+/* reveal: scan sweep + line draw-in + bar growth */
+@media (prefers-reduced-motion:no-preference){
+ .vxanim>svg.vxs,.vxanim>div>svg.vxs{animation:hrev 1.15s cubic-bezier(.2,.7,.2,1) both}
+ .vxanim:after{content:"";position:absolute;top:0;bottom:0;left:0;width:2px;z-index:4;pointer-events:none;background:linear-gradient(180deg,transparent,var(--holo1) 30%,var(--holo2) 70%,transparent);box-shadow:0 0 22px 6px rgba(242,215,122,.35);animation:hscan 1.15s cubic-bezier(.2,.7,.2,1) both}
+ .vxanim .vxln:not(.dsh){stroke-dasharray:1000;stroke-dashoffset:1000;animation:hdraw 1.7s .1s ease-out forwards}
+ .vxanim .vxbar{transform-box:fill-box;transform-origin:left center;animation:hgx .9s .15s cubic-bezier(.2,.8,.2,1) both}
+ .vxanim .vxbar.neg{transform-origin:right center}
+ .vxanim .vxwf{transform-box:fill-box;transform-origin:center bottom;animation:hgy .8s .15s cubic-bezier(.2,.8,.2,1) both}
+ .vxanim .vxnd{animation:hneedle 1.5s .1s cubic-bezier(.3,1.35,.4,1) both}
+ .vxanim .vxseg{animation:hpop .7s cubic-bezier(.2,.8,.2,1) both}
+ .vxanim .vxrp{animation:hpop .8s .1s cubic-bezier(.2,.8,.2,1) both}
+ .vxanim .vxcell{animation:hfade .6s both}
+}
+@keyframes hrev{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+@keyframes hscan{0%{left:0;opacity:1}85%{opacity:1}100%{left:100%;opacity:0}}
+@keyframes hdraw{to{stroke-dashoffset:0}}
+@keyframes hgx{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes hgy{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes hneedle{from{transform:rotate(var(--nr,0deg))}to{transform:rotate(0)}}
+@keyframes hpop{from{transform:scale(.6);opacity:0}to{transform:scale(1);opacity:1}}
+@keyframes hfade{from{opacity:0}to{opacity:1}}
+
+/* full-screen chart view */
+#vxFs{position:fixed;inset:0;z-index:200;display:grid;place-items:center;padding:18px;background:rgba(3,4,6,.82);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);opacity:0;transition:opacity .25s}
+#vxFs.on{opacity:1}#vxFs[hidden]{display:none}
+:root[data-theme="light"] #vxFs{background:rgba(240,236,226,.85)}
+.vxfsw{width:min(1500px,100%);max-height:100%;overflow:auto;border-radius:24px;border:1px solid var(--rule);background:linear-gradient(180deg,var(--card2),var(--card));box-shadow:0 40px 120px rgba(0,0,0,.7),0 0 80px -30px rgba(212,175,55,.45);position:relative}
+.vxfsw:before{content:"";position:absolute;inset:0 0 auto 0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),var(--teal),transparent)}
+.vxfsh{position:sticky;top:0;z-index:6;display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;padding:14px 18px;background:var(--glass);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.vxfsk{display:inline-flex;align-items:center;gap:8px;font:800 11px var(--hf);letter-spacing:.2em;color:var(--teal)}
+.vxfsk i{width:8px;height:8px;border-radius:50%;background:var(--teal);box-shadow:0 0 10px var(--teal);animation:hblink 1.6s ease-in-out infinite}
+@keyframes hblink{50%{opacity:.3}}
+.vxfsh b{font:700 17px var(--hf);color:var(--ink)}
+.vxfshint{font:500 12px var(--hf);color:var(--mut);margin-left:auto}
+#vxFsX{width:38px;height:38px;border-radius:12px;border:1px solid var(--line2);background:var(--card3);color:var(--ink);font:700 15px var(--hf)}
+#vxFsX:hover{border-color:var(--gold);color:var(--gold2)}
+.vxfs{padding:14px}
+.vxfs>.dx,.vxfs>.fig{margin:0;box-shadow:none}
+.vxfs>.vxhost{min-height:200px}
+@media(max-width:700px){.vxfshint{display:none}#vxFs{padding:6px}}
+
+/* reduced motion: keep it still */
+@media (prefers-reduced-motion:reduce){html body #top:after,.hgrid i,.vxlive,.vxfsk i{animation:none}}
+
+/* print + PDF: vector-sharp, no effects */
+@media print{
+ #holoBg,.hfx,.hgrid,.vxtb,#vxFs,.vxlive,.vxms,html body #top:after{display:none!important}
+ .vxanim>svg.vxs,.vxanim>div>svg.vxs,.vxanim .vxln,.vxanim .vxbar,.vxanim .vxwf,.vxanim .vxnd,.vxanim .vxseg,.vxanim .vxrp,.vxanim .vxcell{animation:none!important;clip-path:none!important;stroke-dashoffset:0!important;transform:none!important}
+ .vxanim:after{display:none!important}
+ .vxs *{filter:none!important}
+ .vxbox.chart,.tp .vxhost,.fig .vxhost{background-image:none!important}
+ html body section.mod,html body .dx,html body .term,html body .part{isolation:auto}
+}
+html.pdfdark #holoBg,html.pdfdark .hfx,html.pdfdark .hgrid,html.pdfdark .vxtb,html.pdfdark .vxlive{display:none!important}
+html.pdfdark .vxs *{filter:none!important}
+/* large playbooks may split across pages: avoids half-empty PDF pages */
+@media print{html body .pbk,html body .jdeep,html body .idea{break-inside:auto!important}html body .pbk>div,html body .pbk li{break-inside:avoid}}
+.pbkd>.pbks{padding:11px 14px;font-family:var(--hf);font-size:13px;color:var(--ink2)}
+.pbkd>.pbks span{display:inline-block;background:var(--gg);color:#141006;font-weight:700;letter-spacing:.12em;font-size:10.5px;border-radius:5px;padding:2px 7px;margin-right:8px}
+@media print{.pbkd .pbg{display:block}.pbkd .pbg>div{margin-top:10px;break-inside:avoid}}
+@media print{html body .pbg{break-inside:auto!important}}
