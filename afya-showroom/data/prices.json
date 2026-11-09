@@ -1,0 +1,512 @@
+[
+ {
+  "item_key": "mama:diap / preg:nbd",
+  "item_name": "Softcare Premium Soft Baby Diapers (Small, 3-6kg) - 1 Pack of 40 Diapers — variant \"Softcare Premium Soft Diapers for 3–6 kg (S) | No. 1 -80’s Pack\"",
+  "pack": "80 diapers",
+  "price_tsh": 26000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/softcare-premium-soft-diapers-for-3-6-kg-s-no-1",
+  "checked": "2026-11-09",
+  "note": "Nappies, newborn/small (Softcare S 80). Match: same product, same pack (code row dS_soft). Variant price from the page data. The listing title says \"Pack of 40\" at TSh 6,000, but the variant data labels the TSh 6,000 option \"14’s Pack\" (its size attribute reads \"Medium (6.1 - 9Kg), 32's\"). Pack labels on this page are inconsistent; confirm by phone before relying on per-diaper prices."
+ },
+ {
+  "item_key": "mama:diap / preg:nbd",
+  "item_name": "Softcare Premium Soft Baby Diapers (Small, 3-6kg) — variant \"No. 1 -48’s Pack\"",
+  "pack": "48 diapers",
+  "price_tsh": 17000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/softcare-premium-soft-diapers-for-3-6-kg-s-no-1",
+  "checked": "2026-11-09",
+  "note": "Nappies, newborn/small (Softcare S 48). Match: same brand/line, other pack (code row dS_soft). Variant on the same page; see pack-label caveat."
+ },
+ {
+  "item_key": "mama:diap / preg:nbd",
+  "item_name": "Softcare Premium Soft Baby Diapers (Small, 3-6kg) — variant \"No. 1 -14’s Pack\" (headline price of the listing)",
+  "pack": "14 diapers (label conflict: title says 40)",
+  "price_tsh": 6000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/softcare-premium-soft-diapers-for-3-6-kg-s-no-1",
+  "checked": "2026-11-09",
+  "note": "Nappies, newborn/small (Softcare S 14). Match: same brand/line, other pack (code row dS_soft). Lowest Softcare price on the site; this is the \"6,000\" end of the brief's 6,000–26,000 range."
+ },
+ {
+  "item_key": "mama:diap",
+  "item_name": "Softcare Premium Soft Baby Diapers (Small, 3-6kg) page — variant \"Softcare Premium Soft Diapers for 6–9 kg (M) | No. 2-42’s Pack\"",
+  "pack": "42 diapers",
+  "price_tsh": 17000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/softcare-premium-soft-diapers-for-3-6-kg-s-no-1",
+  "checked": "2026-11-09",
+  "note": "Nappies, 6–9 kg (Softcare M 42). Match: same product, same pack (code row dM_soft). Medium variant is sold from the Small listing page."
+ },
+ {
+  "item_key": "mama:diap",
+  "item_name": "Same page — variant \"Softcare Premium Soft Diapers for 6–9 kg (M) | No. 2-72’s Pack\"",
+  "pack": "72 diapers",
+  "price_tsh": 26000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/softcare-premium-soft-diapers-for-3-6-kg-s-no-1",
+  "checked": "2026-11-09",
+  "note": "Nappies, 6–9 kg (Softcare M 72). Match: same brand/line, other pack (code row dM_soft). Top of the 6,000–26,000 range."
+ },
+ {
+  "item_key": "mama:diap",
+  "item_name": "Softcare Baby Pants Pull-Up Diapers (Medium, 6-9kg) - 1 Pack of 34 Diapers — variant \"No. 2-32’s Pack\"",
+  "pack": "32 pants",
+  "price_tsh": 14000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/softcare-baby-pants-for-6-9-kg-m-no-2",
+  "checked": "2026-11-09",
+  "note": "Pull-up pants, 6–9 kg (Softcare M 32). Match: alternative (pants instead of tape nappies). Title says 34, variant says 32."
+ },
+ {
+  "item_key": "mama:diap",
+  "item_name": "Softcare Baby Pants Pull-Up Diapers (Medium, 6-9kg) — variant \"No. 2-42’s Pack\"",
+  "pack": "42 pants",
+  "price_tsh": 24000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/softcare-baby-pants-for-6-9-kg-m-no-2",
+  "checked": "2026-11-09",
+  "note": "Pull-up pants, 6–9 kg (Softcare M 42). Match: alternative (pants instead of tape nappies)."
+ },
+ {
+  "item_key": "mama:diap",
+  "item_name": "Softcare Baby Pants Pull-Up Diapers (Large, 9-15kg) - 1 Pack of 30 Diapers — variant \"No. 3-40’s Pack\"",
+  "pack": "40 pants",
+  "price_tsh": 24000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/softcare-baby-pants-9-15-kg-l-no-3",
+  "checked": "2026-11-09",
+  "note": "Pull-up pants, 9–15 kg (Softcare L 40). Match: same brand/line, other pack (code row pL_soft). Code row is 30 pcs at TSh 11,400 (superstore.co.tz, 2 Nov). Title says 30, variants say 10 and 40."
+ },
+ {
+  "item_key": "mama:diap",
+  "item_name": "Softcare Baby Pants Pull-Up Diapers (Large, 9-15kg) — variant \"No. 3-10’s Pack\"",
+  "pack": "10 pants",
+  "price_tsh": 6000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/softcare-baby-pants-9-15-kg-l-no-3",
+  "checked": "2026-11-09",
+  "note": "Pull-up pants, 9–15 kg (Softcare L 10). Match: same brand/line, other pack (code row pL_soft)."
+ },
+ {
+  "item_key": "mama:diap",
+  "item_name": "Huggies Paints — variant \"No: 4 (9-14Kg), 32Pants\"",
+  "pack": "32 pants",
+  "price_tsh": 22000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/huggies-pants",
+  "checked": "2026-11-09",
+  "note": "Huggies pants size 4. Match: same product, same pack (code row dL_hgp / pL_hgp). Code row: Huggies Nappy Pants Size 4, 32 pcs, TSh 31,500 (TZ). AfyaDepot is 30% lower."
+ },
+ {
+  "item_key": "mama:diap",
+  "item_name": "Huggies Paints — variant \"No:3 (6-9Kg),40Pants\"",
+  "pack": "40 pants",
+  "price_tsh": 22000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/huggies-pants",
+  "checked": "2026-11-09",
+  "note": "Huggies pants size 3. Match: alternative (other brand line for 6–9 kg)."
+ },
+ {
+  "item_key": "mama:diap / preg:nbd",
+  "item_name": "Huggies Newborn Diapers — variant \"Huggies Newborn Diapes | Size 1 (3.6–6.4 kg) - 31's\"",
+  "pack": "31 diapers",
+  "price_tsh": 42000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/huggies-newborn-diapers",
+  "checked": "2026-11-09",
+  "note": "Huggies newborn. Match: same brand/line, other pack (code row dS_hug). Code row: Huggies New Born up to 6 kg, 26 pcs, TSh 25,000."
+ },
+ {
+  "item_key": "mama:diap",
+  "item_name": "Huggies Newborn Diapers — variant \"Size 2 (5.4–8.2 kg) - 32's\"",
+  "pack": "32 diapers",
+  "price_tsh": 42000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/huggies-newborn-diapers",
+  "checked": "2026-11-09",
+  "note": "Huggies newborn size 2. Match: alternative."
+ },
+ {
+  "item_key": "mama:diap",
+  "item_name": "Huggies Gold Ultra-Absorbent Baby Diapers - 1 Pack of 50 Diapers",
+  "pack": "50 diapers (size not stated)",
+  "price_tsh": 35000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/huggies-gold-diapers-sizes-1-5-3-6-17-kg",
+  "checked": "2026-11-09",
+  "note": "Huggies Gold. Match: alternative. Size not stated on the listing."
+ },
+ {
+  "item_key": "mama:diap",
+  "item_name": "Sleepy Soft Baby Diapers (Assorted Sizes) - 1 Pack — variant \"Sleepy Sensitive Diapers No; 3 Midi 4-9 kg - 48's\"",
+  "pack": "48 diapers",
+  "price_tsh": 15200,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/sleepy-baby-diapers-assorted-sizes",
+  "checked": "2026-11-09",
+  "note": "Sleepy nappies size 3. Match: alternative (value brand). Lowest per-diaper price seen on AfyaDepot (TSh 317 each). In stock."
+ },
+ {
+  "item_key": "mama:diap",
+  "item_name": "Sleepy Soft Baby Diapers (Assorted Sizes) — variant \"Sleepy Sensitive Diapers No; 1 Newborn 2-5 kg - 72's\"",
+  "pack": "72 diapers",
+  "price_tsh": 15200,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/sleepy-baby-diapers-assorted-sizes",
+  "checked": "2026-11-09",
+  "note": "Sleepy nappies size 1. Match: alternative (value brand). Shown as out of stock on 9 Nov 2026."
+ },
+ {
+  "item_key": "mama:wip",
+  "item_name": "Angels Ultra Compact Baby Wet Wipes - 1 Pack of 120 Wipes",
+  "pack": "120 wipes",
+  "price_tsh": 6000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/angels-wet-towels-ultra-compact-120pcs",
+  "checked": "2026-11-09",
+  "note": "Baby wipes. Match: same product, same pack (code row w_ang). Matches the code (TSh 6,000)."
+ },
+ {
+  "item_key": "mama:wip",
+  "item_name": "MomEasy Gentle Baby Wet Wipes - 1 Pack of 80 Wipes",
+  "pack": "80 wipes",
+  "price_tsh": 4500,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/momeasy-baby-wet-wipes-80-sheets",
+  "checked": "2026-11-09",
+  "note": "Baby wipes. Match: same product, same pack (code row w_mom). Matches the code."
+ },
+ {
+  "item_key": "mama:wip",
+  "item_name": "Momo Ultra Compact Baby Wet Wipes - 1 Pack of 120 Wipes",
+  "pack": "120 wipes",
+  "price_tsh": 6000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/momo-wet-wipes-ultra-compact-120pcs",
+  "checked": "2026-11-09",
+  "note": "Baby wipes. Match: alternative."
+ },
+ {
+  "item_key": "mama:wip",
+  "item_name": "Ultra Compact Sensitive Baby Wet Wipes - 1 Pack of 120 Wipes",
+  "pack": "120 wipes",
+  "price_tsh": 8500,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/ultra-compact-baby-wet-wipes-120pcs",
+  "checked": "2026-11-09",
+  "note": "Baby wipes. Match: alternative."
+ },
+ {
+  "item_key": "mama:bar",
+  "item_name": "Zincast Gel - pack (225g)",
+  "pack": "225 g",
+  "price_tsh": 25000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/zincast",
+  "checked": "2026-11-09",
+  "note": "Nappy-rash barrier. Match: same product, same pack (code row br_zin). Matches the code."
+ },
+ {
+  "item_key": "mama:bar",
+  "item_name": "Antiseptic Healing Cream (Sudocrem) — variant \"250grams\"",
+  "pack": "250 g",
+  "price_tsh": 28000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/antiseptic-healing-cream-sudocrem",
+  "checked": "2026-11-09",
+  "note": "Nappy-rash barrier. Match: same product, same pack (code row br_sud). Code row is KE-converted at TSh 59,000. The 125 g and 60 g variants are also listed at TSh 27,800, which looks like a listing error."
+ },
+ {
+  "item_key": "mama:milk",
+  "item_name": "MomEasy Breast Milk Storage Bags - 1 Pack of 25 Bags",
+  "pack": "25 bags",
+  "price_tsh": 6490,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/momeasy-milk-storage-bags-25-pack",
+  "checked": "2026-11-09",
+  "note": "Milk storage bags. Match: alternative (code: CMbear 30 bags). The 12-bag pack shows price 0 (not priced)."
+ },
+ {
+  "item_key": "mama:therm",
+  "item_name": "Non-Contact Infrared Digital Thermometer - 1 Unit",
+  "pack": "1 unit",
+  "price_tsh": 75000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/infrared-thermometer",
+  "checked": "2026-11-09",
+  "note": "Thermometer. Match: alternative (code Essential is Microlife MT810 stick) (code row th_ir). Comparable to the code's generic IR thermometer row (TSh 63,000)."
+ },
+ {
+  "item_key": "mama:teeth1",
+  "item_name": "MomEasy Baby Fresh Food Feeder & Teether - 1 Unit",
+  "pack": "1 unit",
+  "price_tsh": 5800,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/momeasy-baby-fresh-food-feeder",
+  "checked": "2026-11-09",
+  "note": "Teether. Match: same product, same pack (code row te_mom). Matches the code."
+ },
+ {
+  "item_key": "mama:feed",
+  "item_name": "MomEasy Comprehensive Baby Weaning & Feeding Set - 1 Kit",
+  "pack": "1 kit",
+  "price_tsh": 29661,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/momeasy-baby-feeding-set-baby-bank",
+  "checked": "2026-11-09",
+  "note": "First-foods set. Match: alternative (one kit instead of separate spoons, bib and cup). The site shows TSh 29,661.01695 (unrounded). Recorded as 29,661."
+ },
+ {
+  "item_key": "preg:dkit",
+  "item_name": "MamaSave Delivery Kit — variant \"💙 Standards\"",
+  "pack": "1 kit",
+  "price_tsh": 25000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/mamasave-delivery-kit",
+  "checked": "2026-11-09",
+  "note": "Clean delivery kit. Match: same product, same pack (code row dkit). Matches the code. Other variants: \"Care\" 28,000, \"Plus\" 35,000."
+ },
+ {
+  "item_key": "preg:dkit",
+  "item_name": "MamaSave Delivery Kit — variant \"💛 Care\"",
+  "pack": "1 kit",
+  "price_tsh": 28000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/mamasave-delivery-kit",
+  "checked": "2026-11-09",
+  "note": "Clean delivery kit (Care). Match: same brand/line, other pack (code row dkit)."
+ },
+ {
+  "item_key": "preg:dkit",
+  "item_name": "MamaSave Delivery Kit — variant \"❤️ Plus\"",
+  "pack": "1 kit",
+  "price_tsh": 35000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/mamasave-delivery-kit",
+  "checked": "2026-11-09",
+  "note": "Clean delivery kit (Plus). Match: same brand/line, other pack (code row dkit)."
+ },
+ {
+  "item_key": "preg:lip / mama:lip",
+  "item_name": "Nivea Shea Butter Lip Balm - 4.8g Stick",
+  "pack": "4.8 g",
+  "price_tsh": 10000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/nivea-lip-balm-with-shea-butter-4-8g",
+  "checked": "2026-11-09",
+  "note": "Lip balm. Match: same product, same pack (code row mb_lbn). Matches the code."
+ },
+ {
+  "item_key": "preg:iwash / mama:iwash",
+  "item_name": "Vivasol Daily Intimate V Wash - 100ml Bottle",
+  "pack": "100 ml",
+  "price_tsh": 15000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/daily-intimate-wash-vivasol-v-wash",
+  "checked": "2026-11-09",
+  "note": "Intimate wash. Match: alternative (code: Beauty Formulas 250 ml)."
+ },
+ {
+  "item_key": "preg:rep / mama:rep",
+  "item_name": "No-Bite Mosquito Repellent Spray - 120ml Bottle",
+  "pack": "120 ml",
+  "price_tsh": 15000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/mosquito-repellent-spray-no-bite-120ml",
+  "checked": "2026-11-09",
+  "note": "Mosquito repellent. Match: same product, same pack (code row rp_nob). Code row: shoppers.co.tz TSh 10,600 (2 Nov). AfyaDepot is 42% higher."
+ },
+ {
+  "item_key": "preg:rep / mama:rep",
+  "item_name": "No-Bite Mosquito Repellent Roll-On - 45ml Bottle",
+  "pack": "45 ml",
+  "price_tsh": 9000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/mosquito-repellent-roll-on-no-bite-45m",
+  "checked": "2026-11-09",
+  "note": "Mosquito repellent. Match: alternative (code Essential: Odomos roll-on 50 g, TSh 4,600)."
+ },
+ {
+  "item_key": "preg:hand / mama:hand",
+  "item_name": "Protex Herbal Antibacterial Soap - 90g Bar",
+  "pack": "90 g",
+  "price_tsh": 4500,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/protex-herbal-bar-soap-90g",
+  "checked": "2026-11-09",
+  "note": "Hand soap. Match: same brand/line, other pack (code row hs_pro). Code row: Protex Herbal 150 g, TSh 6,000 (KE)."
+ },
+ {
+  "item_key": "preg:hand / mama:hand",
+  "item_name": "Protex Deep Clean Antibacterial Soap - 100g Bar",
+  "pack": "100 g",
+  "price_tsh": 4500,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/protex-deep-clean-bar-soap-100g",
+  "checked": "2026-11-09",
+  "note": "Hand soap. Match: alternative."
+ },
+ {
+  "item_key": "mama:teeth",
+  "item_name": "Colgate Kids Toothpaste 0-2 years",
+  "pack": "50 ml (from the page address)",
+  "price_tsh": 5000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/colgate-kids-toothpaste-0-2-years-50ml",
+  "checked": "2026-11-09",
+  "note": "Child toothpaste. Match: same product, same pack (code row tp_cok). Code row is KE-converted at TSh 4,400."
+ },
+ {
+  "item_key": "preg:tpm",
+  "item_name": "Double Action Activated Charcoal Toothbrush (Medium) - 1 Unit",
+  "pack": "1 brush",
+  "price_tsh": 2000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/charcoal-infused-double-action-toothbrush-medium",
+  "checked": "2026-11-09",
+  "note": "Toothbrush. Match: alternative."
+ },
+ {
+  "item_key": "preg:tpm",
+  "item_name": "Colgate Natural Extracts Toothpaste - 75ml",
+  "pack": "75 ml",
+  "price_tsh": 8500,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/colgate-natural-extracts-toothpaste-75ml",
+  "checked": "2026-11-09",
+  "note": "Toothpaste. Match: alternative."
+ },
+ {
+  "item_key": "preg:tpm",
+  "item_name": "Darbur Red Toothpaste with Brush — variant \"100g\"",
+  "pack": "100 g + brush",
+  "price_tsh": 5000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/dabur-red-toothpastes-with-free-toothbrush",
+  "checked": "2026-11-09",
+  "note": "Toothpaste + brush. Match: alternative. 150 g variant: TSh 9,000."
+ },
+ {
+  "item_key": "preg:calc",
+  "item_name": "Vitabiotics Osteocare Chewable Calcium Tablets - 1 Pack of 30 Tablets",
+  "pack": "30 tablets",
+  "price_tsh": 30000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/osteocare-chewable-tablets-30s",
+  "checked": "2026-11-09",
+  "note": "Calcium. Match: same product, same pack (code row mb_ost). Matches the code."
+ },
+ {
+  "item_key": "preg:calc",
+  "item_name": "Calcivita tablets -50's",
+  "pack": "50 tablets",
+  "price_tsh": 19500,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/calcivita-tablets-50s",
+  "checked": "2026-11-09",
+  "note": "Calcium. Match: alternative."
+ },
+ {
+  "item_key": "preg:calc",
+  "item_name": "Maxcal Calcium & Vitamin D3 Capsules - 1 Bottle of 30 Capsules",
+  "pack": "30 capsules",
+  "price_tsh": 24000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/maxcal-capsules-30s",
+  "checked": "2026-11-09",
+  "note": "Calcium. Match: alternative."
+ },
+ {
+  "item_key": "preg:mpad / mama:mpad / mama:pads",
+  "item_name": "Human Cherish HC Pads — variant \"Kubwa - 338mm\"",
+  "pack": "10 pads (from the page address \"pads10s\"; not stated on the page)",
+  "price_tsh": 5000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/human-cherish-hc-hq-aerobic-sanitary-pads10s",
+  "checked": "2026-11-09",
+  "note": "Maternity / sanitary pads. Match: same brand/line, other pack (code row mp_hum). Code row: Human Cherish night pads 338 mm, 8 pads, TSh 3,800. \"Ndogo - 290mm\" variant also TSh 5,000."
+ },
+ {
+  "item_key": "mama:blot / preg:skin",
+  "item_name": "Bodidoc Deep Hydrating Tissue Oil Lotion - 400ml Bottle",
+  "pack": "400 ml",
+  "price_tsh": 15000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/bodydoc-lotion",
+  "checked": "2026-11-09",
+  "note": "Body lotion. Match: alternative (code Essential: Vaseline Cocoa Glow 400 ml, TSh 14,600)."
+ },
+ {
+  "item_key": "preg:ifa / mama:ifa",
+  "item_name": "Ferrolic LF tablets - 10's",
+  "pack": "10 tablets",
+  "price_tsh": 1000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/ferrolic-lf-tablets10s",
+  "checked": "2026-11-09",
+  "note": "Iron + folic acid (medicine: partner pharmacy). Match: same product, same pack (code row ifa). Medicine: sold by the licensed partner pharmacy, outside the box price (B4, D-5). Matches the code."
+ },
+ {
+  "item_key": "preg:ifa / mama:ifa",
+  "item_name": "Ranferon Antianemia Iron & Folic Acid - 1 Strip of 10 Capsules",
+  "pack": "10 capsules",
+  "price_tsh": 300,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/ranferon-antianemia-capsules",
+  "checked": "2026-11-09",
+  "note": "Iron + folic acid (medicine: partner pharmacy). Match: same product, same pack (code row ifa_r). Medicine: partner pharmacy. Matches the code."
+ },
+ {
+  "item_key": "preg:ifa / mama:ifa",
+  "item_name": "Folron Iron & Folic Acid Blood Building Capsules - 1 Strip of 10 Capsules",
+  "pack": "10 capsules",
+  "price_tsh": 12000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/folron-iron-with-folic-acid-capsule",
+  "checked": "2026-11-09",
+  "note": "Iron + folic acid (medicine: partner pharmacy). Match: same product, same pack (code row ifa_f). Medicine: partner pharmacy. Matches the code."
+ },
+ {
+  "item_key": "preg:ifa / mama:ifa",
+  "item_name": "Hemovit Iron with folic acid tablets",
+  "pack": "pack not stated",
+  "price_tsh": 5500,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/hemovit-iron-with-folic-acid-tablets",
+  "checked": "2026-11-09",
+  "note": "Iron + folic acid (medicine: partner pharmacy). Match: alternative. Medicine: partner pharmacy. Pack size not stated on the listing."
+ },
+ {
+  "item_key": "mama:ors",
+  "item_name": "IYFE ORS Sachhets-1's",
+  "pack": "1 sachet",
+  "price_tsh": 500,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/iyfe-ors-sachhets-1s",
+  "checked": "2026-11-09",
+  "note": "ORS (medicine: partner pharmacy). Match: same product, same pack (code row ors). Medicine: partner pharmacy. Matches the code."
+ },
+ {
+  "item_key": "mama:ors",
+  "item_name": "PedZinc tablets -10's",
+  "pack": "10 tablets",
+  "price_tsh": 1000,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/pedzinc-tablets-10s",
+  "checked": "2026-11-09",
+  "note": "Zinc (medicine: partner pharmacy). Match: same product, same pack (code row znc). Medicine: partner pharmacy. Matches the code."
+ },
+ {
+  "item_key": "mama:ors",
+  "item_name": "Avaprozinc Probiotic & Zinc ORS Solution (Orange) - 1 Box of 10 Sachets",
+  "pack": "10 sachets",
+  "price_tsh": 2500,
+  "source": "afyadepot",
+  "url": "https://afyadepot.co.tz/product/avaprozinc-orange-flavourprobiotic",
+  "checked": "2026-11-09",
+  "note": "ORS + zinc (medicine: partner pharmacy). Match: same product, same pack (code row orsz). Medicine: partner pharmacy. Matches the code."
+ }
+]
