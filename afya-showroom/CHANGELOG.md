@@ -1,6 +1,61 @@
 # CHANGELOG — Afya Basics Investor Showroom refurbishment
 
-## Phase 1 · Foundations — 9 November 2026 (awaiting approval)
+## Phase 2 · Research R1, R2, R3, R5 — 9 November 2026 (awaiting approval)
+
+**Network:** a personal environment "fa-market-lab (Afya research)" was approved. It opens 19 research sites: WHO, NIMR, the national statistics office, TBS, BRELA, TRA, TMDA, the Bank of Tanzania, AfyaDepot, the operators, and the kiosk marketplaces. This session moved onto it.
+
+**Files** (`research/`, `data/`)
+- `V01-front-door-figures.md`: both 0.1 health figures confirmed at source, with proposed wording that names each survey year.
+- `fx.md`: Bank of Tanzania mean rates for trading date 10 Nov 2026 (US$1 = TSh 2,642.50). This is now the only rate table.
+- `R1-compliance.md` (licences, fees and duties):
+  - The TBS/TMDA split is confirmed.
+  - **New big cost:** TBS registration of TSh 440,000 per imported cosmetic product.
+  - The TMDA retail device permit is TSh 100,000.
+  - The kiosk is a Class B medical device: registration US$2,500, supplied through a TMDA-registered dealer.
+  - Tax changes from 1 Jul 2026: customs processing fee 1%, excise on cosmetics 15%.
+  - A new 15-step checklist. Compliance budget: about TSh 2.3M (buying locally registered products) to about TSh 11.1M (self-registering 20 products).
+- `R2-kiosk.md` (the Afya Check kiosk):
+  - A basic-tier kiosk with 7 measurements.
+  - Landed cost TSh 7.6–9.8M for a budget unit; TSh 19.1–22.2M for the unit the showroom quotes today.
+  - 0% duty under HS 9018.19.
+  - Maintenance about TSh 1.9–4.8M a year (estimate).
+  - No leasing offer found.
+- `R3-pricing.md` and `data/prices.json` (pricing):
+  - 51 real AfyaDepot prices.
+  - **Today's box engine prices the box above shelf value on every 1-month plan.**
+  - Recommended D4 rule: 3/6/9% below shelf with packing and delivery included, services as a separate line, rounded to the nearest 500.
+  - AfyaDepot free delivery is now 150K+, not 250K.
+  - Shoppers Supermarket recommended as the second benchmark.
+- `R5-payments.md` (payments):
+  - No general standing-order service for mobile money in Tanzania yet (Bank of Tanzania 2025 report).
+  - Payment requests to the member's phone (USSD push) through one aggregator reach all the wallets.
+  - Fees are unverified; budget 2.7% (estimate).
+  - Renewal-flow design for 3.4.
+
+**Spot checks by the lead:**
+- The BoT standing-orders quote.
+- EAC tariff 9018.19.00 at 0%.
+- AfyaDepot's 150K free-delivery threshold and one nappy price.
+- TBS fee schedule cosmetics TSh 440,000.
+- TMDA retail outlet fee TSh 100,000.
+- PVoC fee table: Route A 0.50%, Route B 0.45%, Route C 0.25%.
+
+**No section text was changed.**
+
+**Decisions needed:**
+- The D4 pricing rule (R3).
+- The kiosk tier and budget (R2).
+- Buying locally registered products versus self-registering (R1).
+- Shoppers as the second benchmark (J-4). Its host must be allowed.
+
+**Founder calls:**
+- Clearing agent (container quote).
+- TBS and TMDA (kiosk, nappies and pads, importer fee).
+- Three kiosk quotes with certificates.
+- Vodacom (mandate product and fees), Yas, Airtel and AzamPay (rate cards).
+- Kariakoo price calls (script in R3).
+
+## Phase 1 · Foundations — 9 November 2026 (approved)
 
 All work stays inside `afya-showroom/`. This session can push only to its assigned branch (`claude/great-shannon-uwi0li`), so each phase is marked here and in the commit history rather than on its own branch (brief M1).
 
