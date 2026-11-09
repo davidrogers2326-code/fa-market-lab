@@ -99,6 +99,8 @@ Audit of the showroom as published on 5 Nov 2026 (artifact version 1793856736-53
 
 ## 2. Decisions needed from you before Phase 1
 
+**Status, 9 Nov 2026: all decided.** D-1 no faces anywhere (real or invented). D-2 the three no-band renders are the locked box. D-9 36 sections. D-10 the landing page is retired. D-3 to D-8 and D-11 follow my recommendation in the table. All are recorded in the brief, Part J.
+
 These are the conflicts found in the brief, or between the brief and the showroom, that I cannot settle myself. Each one blocks a named section.
 
 | # | Decision | What I found | My recommendation | Blocks |
@@ -397,16 +399,46 @@ Part K asks that nothing be dropped silently. Each item below has a proposed dec
 
 ---
 
-## 8. Brief vs Master Framework
+## 8. Brief vs Master Framework and Chapter 1 (read 9 Nov 2026)
 
-The Master Framework artifact (`5xoU6WV8eFH5CAdoE8sg5g`) and Chapter 1 (`Dkyk4ZFi3nQ56p6qUYnh27`) were not opened in Phase 0. A3 says the brief wins where they differ, and that the differences go in this file. **Open item O1:** I will read both at the start of Phase 1. I will list any differences here and reuse what Chapter 1 has approved for 0.1–1.x.
+**Master Framework** (`5xoU6WV8eFH5CAdoE8sg5g`, updated 1 Nov 2026). It is a light-themed handbook covering: vision, the five pains, the promise, positioning, the three layers (Experience / Engine / Economics), the Afya Way, journeys A–E with time targets, ten system modules, a nine-block section template, the 36-section map with source documents, brand, showroom style, the model, the build steps, decisions and open questions. Where it differs from the brief, **the brief wins** (A3):
 
----
+| Topic | Framework says | Brief (wins) | Effect |
+|---|---|---|---|
+| People in images | Real free-licence photos (Pexels, Unsplash) of Tanzanians, labelled "Photo" (decision of 1 Nov) | No faces at all (B12 as updated 9 Nov) | All people photos are replaced; no stock photos (C7) |
+| Showroom style | Dark green-black, glass panels, thin gold lines, "subtle glow on what you can click" | Black, no glows, no glass (C2, C7) | Glass and glow dropped |
+| Fonts | Unbounded, Manrope, JetBrains Mono | Sora only (C3) | — |
+| Logo | "The Afya cross with the heartbeat line" (its own icon is a white cross) | House-and-heart emblem as on the box; no cross symbols (B11, E1) | The house-and-heart emblem is the mark |
+| Section template | Nine blocks: promise, problem, answer, how it works, experience, try it, numbers, risks and answer, investor takeaway | D2: number and title, summary, primary visual, body, key figures, cost/earn table, open questions, sources | D2 used. The framework's "risks and answer" maps to D2 "open questions"; the "investor takeaway" line is kept as the summary's last sentence |
+| Seed | TSh 110M (to be confirmed) | Two options, TSh 340M / TSh 150M, switched (B5) | 110M is stale everywhere |
+| Afya Check | 10 measurements, 5-minute flow (3.3); journey B "under 12 minutes" | R2: basic tier, 50-second flow | 3.3 rewritten on R2 |
+| Membership cards | Five cards | Six cards in the showroom (Green, Family, Care, Senior, Kazini, Royal) | Keep six until R3/R5 say otherwise |
+| Boxes | "17 boxes"; average box TSh 85,000 vs mix-weighted 131,000 open | 17-box line-up per B16; prices from D4 | Average box price comes out of R3; noted for 6.x |
+| Services (Afya Huduma) | Four layers; partner 70%; member ~12% off; add-on commission 10%; 25% markup | B19 hybrid model, priced so all three sides gain | Consistent. R7 confirms the numbers |
+| Afya Kazini | Business membership in three sizes (1–9, 10–50, 51+ staff) plus five sector kits | B16: Afya Kazini = office box; D-3 moves the trade kits under "businesses" | Sizes kept; naming per D-3 |
+| Films | Soft music, **no voice-over**, captions in both languages | K3/E2: narrated in both languages, soft music | Brief wins (narration). Captions in both languages either way |
+| Swap window | Reminder 12 days before | B20: at least 12 days | Consistent |
+| Sign-off | Fahmy and Cecilia approve each section | A4: founder approves each section | Consistent |
+| Phase 0 gap | TSh 32.8M vs 3.15M budget | Model: TSh 33.3M | Figure moved; R4 settles it (D-8) |
+
+**Chapter 1** (`Dkyk4ZFi3nQ56p6qUYnh27`, 4 Nov 2026), "Care has moved home. Shopping for it has not." This is a long-form editorial chapter in six parts:
+1. Disease and control: 23.1% raised blood pressure (2023 STEPS); cascade 17.6 / 8.3 / 2.2 per 100; 72.4% of diabetics undiagnosed; a Dar worked example from the 3,077,657 adults aged 20–69 in the 2022 census.
+2. Supply: 11,356 ADDOs vs 1,334 pharmacies (2018).
+3. Trust: WHO 10.5%; a TMDA seizure worth TSh 360M (Sep 2026).
+4. City: Dar population 2.49M (2002) → 5.38M (2022).
+5. Channel: 80.98M mobile-money accounts, 58.9M internet subscriptions, 42.5% smartphones (Mar 2026); diaspora remittances TSh 3.3T at TSh 2,640/US$.
+6. The household: Juma's evening, 4 h 55 min.
+
+It also has a "limits we state openly" box and 12 numbered sources. Its charts are inline SVG with sourced captions.
+
+- **Reuse:** the text, numbers, worked examples, limits box and sources go into 1.1–1.5 in Phase 6. Every figure there is already sourced, which is the quality bar for the rest of the page.
+- **Not reused:** its design: Literata and Source Serif fonts, gold `#c9a456`, entrance animations, parallax, count-ups, people photos (`j-*` with faces).
+- **Fix:** "iron tablets" and "a fever medicine" in Juma's list need the partner-pharmacy note (B4) or a change to the list.
 
 ## 9. What happens after approval (Phase 1, Part H)
 
 Phase 1 is foundations only. No research text changes yet.
-1. Branch `phase-1-foundations`; copy `showroom-original/` to the working showroom folder.
+1. Work inside `afya-showroom/` on the session branch (each phase is marked in the commit history and CHANGELOG, because this session can only push to its one assigned branch); copy `showroom-original/` to the working `showroom/` folder.
 2. `tokens.css` (C2) with Sora, the type scale, spacing and focus rings; dark/light not needed (the showroom is black by design).
 3. Global shell (D1): top bar, EN|SW, funding switch from 1.3, left index and phone bottom sheet, sources footer, version line. Retire the cover, `home()`, the brand guard, badges and the dead renderers.
 4. The model API fix so the switch reaches every section. The number values stay as they are until Phase 2 research.

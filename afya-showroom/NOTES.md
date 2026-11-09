@@ -40,3 +40,11 @@ On top of each section, `model.js` injects bilingual "V3MODS" text modules and h
 - Package films are in `window.AFYA_PACKF` (range43.js:3–20).
 - Only `img/boxdoor.webp` is local. Pull others with the Artifact tool (read, path).
 - Downloaded copies for inspection are kept in the session scratchpad, not in the repo.
+
+## The v2 working copy (`showroom/`, from Phase 1)
+- `index.html` keeps the original script order. After the old files it loads: `shell/legacy-core.js` (the old page helpers), then any rebuilt section files (`sections/s01.js`…), then `shell/templates.js`, `shell/compat.js` and `shell/shell.js` (the new router, which loads last and overrides `route`, `rail`, `section` and `secShell`).
+- A rebuilt section registers `SECTIONS[id]={render,init,v2:true}`. Without `v2`, the output is wrapped in `.ab-legacy` (the compatibility layer).
+- Shared helpers for rebuilt sections: `window.AB` (`T`, `E`, `figsHTML`, `doorsHTML`, `openHTML`, `sourcesHTML`, `pagerHTML`, `isLean`) and `window.AB_PKG.packagePage` (D3).
+- Funding switch: the top bar buttons are `[data-fund]`. `MODEL.setOpt`, then the page reloads (keeping the scroll position). Language: `[data-lang]`, stored in localStorage `afyaLang`, then a reload.
+- Local preview: `python3 -m http.server 8765` in `showroom/`. `showroom/img` and `media` are symlinks to downloaded copies and are not committed. On publish, the artifact's own `img/` and `media/` files stay attached.
+- Screenshots: `node tools/shoot.js ../screens/raw s0-1`. Env: `SCROLL=0|1`, `RM=1 FULL=1` for the full static page, `OPT=lean`.

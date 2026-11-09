@@ -1,0 +1,21 @@
+/* Compatibility layer for sections not yet rebuilt on the new design system.
+   Maps the old variables onto the nine tokens and switches off effects banned by C5/C7.
+   Each section drops this wrapper when it is rebuilt (Phases 3–6); then this file is deleted. */
+html:root:root{
+  --void:var(--bg); --deep:var(--bg); --panel:var(--surface); --panel2:var(--surface);
+  --ink2:var(--ink); --ink3:var(--mute);
+  --neon:var(--green-edge); --neon2:var(--ink); --gold2:var(--gold); --cyan:var(--gold);
+  --edge:var(--line); --edge2:var(--line);
+  --f-display:var(--font); --f-body:var(--font); --f-serif:var(--font); --f-hud:var(--font); --f-ui:var(--font);
+}
+.ab-legacy{font-family:var(--font);overflow-x:clip;max-width:100%}
+.ab-legacy *,.ab-legacy *::before,.ab-legacy *::after{
+  box-shadow:none!important; text-shadow:none!important; filter:none!important;
+  backdrop-filter:none!important; -webkit-backdrop-filter:none!important;
+  animation:none!important; transition:none!important;
+  font-family:var(--font)!important; letter-spacing:normal!important; text-transform:none!important;
+}
+.ab-legacy em,.ab-legacy i{font-style:normal}
+/* entrance-reveal classes from the old system start hidden: show them */
+.ab-legacy .rv,.ab-legacy .v3rv,.ab-legacy [class*="reveal"]{opacity:1!important;transform:none!important}
+.v3prog,.p0langfx,.glang,.v3optbar{display:none!important}

@@ -1,0 +1,28 @@
+/* Afya Basics Investor Showroom · design tokens (brief Part C).
+   The only colours allowed in the UI. Never hard-code a colour elsewhere. */
+:root{
+  --bg:#000000;          /* page background */
+  --surface:#0A0A0A;     /* cards, tables, panels */
+  --line:#262626;        /* hairlines, borders */
+  --ink:#F2F0EA;         /* body text */
+  --mute:#8E8C85;        /* secondary text, captions */
+  --green:#0E6B3A;       /* royal green: brand surfaces and accents */
+  --green-deep:#083F23;  /* shadow side of green, active tabs */
+  --green-edge:#15934F;  /* wordmark accent, focus on green */
+  --gold:#C9A227;        /* prices, section numbers, key figures */
+
+  /* type (C3) */
+  --font:'Sora',system-ui,sans-serif;
+  --fs-display:56px; --fs-title:32px; --fs-sub:22px; --fs-body:17px; --fs-cap:13px;
+  --lh-body:1.55; --lh-display:1.1;
+  --measure:72ch;
+
+  /* spacing (C4) */
+  --s1:8px; --s2:16px; --s3:24px; --s4:40px; --s5:64px; --s6:96px;
+  --maxw:1120px;
+  --bar-h:56px;
+  color-scheme:dark;
+}
+@media (max-width:720px){
+  :root{--fs-display:34px; --fs-title:24px; --fs-sub:18px; --fs-body:15px; --fs-cap:12px}
+}

@@ -1,6 +1,7 @@
 # AFYA BASICS INVESTOR SHOWROOM — REFURBISHMENT BRIEF
 
-Version 1.0 · 7 November 2026 · Owner: Fahmy Abbas Cothema
+Version 1.1 · 9 November 2026 · Owner: Fahmy Abbas Cothema
+(1.1: B12 tightened to no faces at all; E1 locked to the three approved renders; section count corrected to 36; founder decisions of 9 Nov recorded in Part J.)
 For: Claude Code (the build agent). Read this whole file before writing any code.
 
 ---
@@ -8,7 +9,7 @@ For: Claude Code (the build agent). Read this whole file before writing any code
 ## PART A — HOW TO USE THIS BRIEF
 
 ### A1. What this is
-This file is the single guideline for refurbishing the Afya Basics Investor Showroom. The showroom already exists as a published Claude artifact (`https://claude.ai/artifact/B5XhoaAJsnACMvGJp3n2t7`) with 37 sections, 509 files, an English/Kiswahili toggle and a funding switch (TSh 340M flagship / TSh 150M start small). The written content has depth; the visual design does not match it. This brief sets out, in order: the rules that never change (Part B), the design system (Part C), the page architecture (Part D), the asset pipeline (Part E), the research work packages (Part F), the section-by-section edit plan (Part G), the build order (Part H), the quality checks before any publish (Part I), the open decisions (Part J), the complete component inventory (Part K), the definition of done (Part L) and the practical rules for the Claude Code session (Part M).
+This file is the single guideline for refurbishing the Afya Basics Investor Showroom. The showroom already exists as a published Claude artifact (`https://claude.ai/artifact/B5XhoaAJsnACMvGJp3n2t7`) with 36 sections, 509 files, an English/Kiswahili toggle and a funding switch (TSh 340M flagship / TSh 150M start small). The written content has depth; the visual design does not match it. This brief sets out, in order: the rules that never change (Part B), the design system (Part C), the page architecture (Part D), the asset pipeline (Part E), the research work packages (Part F), the section-by-section edit plan (Part G), the build order (Part H), the quality checks before any publish (Part I), the open decisions (Part J), the complete component inventory (Part K), the definition of done (Part L) and the practical rules for the Claude Code session (Part M).
 
 ### A2. First instruction to Claude Code
 Paste the block below as the first message of the session, with this file in the project root.
@@ -75,7 +76,7 @@ These rules come from the founder's decisions to date. They override any design 
 9. Palette: black, royal green and gold. White is used only for text on dark surfaces and inside product/brand imagery. Purple and the earlier teal are rejected.
 10. No glows, no gradient text, no neon, no CGI look. Lighting in imagery is warm, soft, studio-like.
 11. No red cross symbols anywhere.
-12. No real people's faces or photographs of real people in any image or video. Use faceless shots, hands, places (offices, restaurants, clinics) or invented people. Gloved hands are allowed in packing videos.
+12. No faces in any image or video — neither real people nor invented or AI-generated people. Use faceless shots (hands, backs, people out of frame), places (offices, restaurants, clinics) or products. Gloved hands are allowed in packing videos.
 13. No cartoon-style visuals. Images must look real and professional.
 14. The store is a single-storey, medium-sized, standalone, protected building (security-protected windows, clean surroundings, nothing built on the sides). Interior: a mix of tech showroom, modern clinic lobby, consulting area and luxury store — never a supermarket. Afya Check kiosk by the entrance next to a waiting area with TV/digital ad screens; counter topped with TV displays; small shelf of books and brochures. The all-glass "glass pavilion" is rejected.
 15. Every Afya Box keeps the same green box design; only the gold side label (package name) and the package-colour sticker change per category. Box videos show gloved hands only, no faces, and show the box kept as decoration on a shelf (via its QR guide).
@@ -200,7 +201,7 @@ Shelf value is rebuilt from the store's own shelf prices each quarter; members s
 ## PART E — ASSET PIPELINE (WEAVY / FIGMA WEAVE)
 
 ### E1. The locked reference
-The Afya Box design is fixed: deep matte royal green rigid box with lid; gold foil "Afya Basics" wordmark and house emblem on the lid; package name in gold on the side; small gold emblem and the motto "Afya yako, nyumbani kwako" on the front. Reference image: `afya-box-reference.webp` (from the showroom, `img/boxdoor.webp`). Every new box render is generated **from this reference**, never from a text prompt alone — text-only generation produced generic boxes and is not to be repeated.
+The Afya Box design is fixed: deep matte royal green rigid box with lid, **no band**; gold foil "Afya Basics" wordmark and house emblem on the lid; package name in gold on the side; small gold emblem and the motto "Afya yako, nyumbani kwako" on the front. **The locked reference is the three approved renders below** (decided 9 Nov 2026). The earlier doorstep image (`afya-box-reference.webp`, from `img/boxdoor.webp`) has a black band and is no longer the reference; boxes with a band are re-rendered. Every new box render is generated **from the approved renders**, never from a text prompt alone — text-only generation produced generic boxes and is not to be repeated.
 
 Renders already approved and on file:
 - `afya-box-render.png` — closed box, lid lifted, label "Sukari Care"
@@ -401,6 +402,19 @@ These need an answer before the section that depends on them is built.
 5. Whether Afya Siku and Afya Kazini keep their current names and scope in the Phase 2 line-up (R6).
 6. Out of scope for this refurbishment but to be designed later: the founder's plan to run the whole company online (investor, board, operations) with access levels for himself, Cecilia and others, kept simple. The showroom's 7.2 governance and the investor pack (K6.4) should be built so they can become that system's reporting layer without rework.
 
+**Decided 9 November 2026 (from AUDIT.md section 2):**
+- D-1 No faces anywhere, real or invented (B12 updated).
+- D-2 The three approved renders, without the black band, are the locked box (E1 updated).
+- D-3 Package names follow B16: Afya Glow, Afya Men, Afya Siku; Afya Kazini is the office box; the five small-business trade kits become sizes of the business package (Afya Biashara).
+- D-4 Three tiers named Regular, Premium, Luxury. The low-income "Msingi" edition is parked as a Phase 3 idea in 5.4.
+- D-5 No medicines on Afya's shelf and no Afya own-label medicine. A partner-pharmacy counter is shown in 3.1/3.6 with the licensed partner as seller.
+- D-6 Fahmy Abbas Cothema and Cecilia shown together as founders with one combined 25% floor; no split and no relationship stated.
+- D-7 Goodlife Pharmacies and SiSU Health appear only as cited market evidence, never as a model followed.
+- D-8 Phase 0 gap (TSh 33.3M research and setup against a TSh 3.15M budget) is an open item for R4 to settle (pre-sale, founders' bridge or tranche 1).
+- D-9 The showroom has 36 sections.
+- D-10 The separate landing page and cover are retired; 0.1 is the home page.
+- D-11 Confirm in R4 whether the investor share is 30% in both options or set per option.
+
 ---
 
 ## PART K — COMPLETE COMPONENT INVENTORY (EVERYTHING THAT MUST BE BUILT OR REBUILT)
@@ -492,7 +506,7 @@ Every image has `alt` text in both languages, is WebP, longest side ≤ 1600 px 
 - K6.1 **Translation dictionary** — `sw-dict.js` extended to every new string; a script reports any string missing a language.
 - K6.2 **App and online-store design** — one Figma file (Design type) with the screens used in 3.2, 3.8 and the demos: home, Afya Check result, Build-your-box, checkout (scan-and-go and mobile money), renewal reminder, delivery tracking. Screens are exported from this file into the showroom; the showroom never carries screens drawn any other way.
 - K6.3 **Canva presentation deck** — the 16 slides of 0.2, exported from the same content and numbers, in English and Kiswahili versions.
-- K6.4 **Investor pack PDF** — the showroom's 37 sections in a printable dark-mode PDF with the funding option chosen at export (one PDF per option, never both in one file).
+- K6.4 **Investor pack PDF** — the showroom's 36 sections in a printable dark-mode PDF with the funding option chosen at export (one PDF per option, never both in one file).
 - K6.5 **Research folder** — `research/R1…R9.md` and `data/*.json`, the only sources the sections read from.
 - K6.6 **CHANGELOG.md and AUDIT.md** — as described in Part A.
 

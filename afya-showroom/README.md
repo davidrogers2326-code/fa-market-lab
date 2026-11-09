@@ -4,7 +4,10 @@
 2. Paste the message in AFYA_SHOWROOM_BRIEF.md, Part A2, as your first message.
 
 What is already here (so Claude Code does not need the artifact link to start):
-- AFYA_SHOWROOM_BRIEF.md — the full guideline.
+- AFYA_SHOWROOM_BRIEF.md — the full guideline (v1.1).
+- AUDIT.md, audit/, NOTES.md, CHANGELOG.md — Phase 0 audit and working notes.
+- showroom/ — the v2 working copy being rebuilt (open showroom/index.html via a local server).
+- screens/phase1/ — approval screenshots.
 - showroom-original/ — the showroom's complete code as published on 5 Nov 2026:
   index.html, all 15 section scripts (sections/*.js incl. sw-dict.js, range*.js, fp.js),
   and img/boxdoor.webp. Images and videos (img/, media/ — ~490 files) are NOT in this
