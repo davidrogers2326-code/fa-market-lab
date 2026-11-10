@@ -581,5 +581,167 @@
    "en": "Partner dental clinic (no partner signed yet).",
    "sw": "Kliniki mshirika ya meno (bado hakuna mshirika aliyesaini)."
   }
+ },
+ {
+  "src": null,
+  "included_in_box_by_default": true,
+  "free_public_alternative": null,
+  "member_in_box_tsh": 0,
+  "addon_member_tsh": 0,
+  "provider_net_tsh": 0,
+  "afya_tsh": 0,
+  "partner_price_in_box_tsh": 0,
+  "afya_in_box_tsh": 0,
+  "walkin_tsh": 0,
+  "status": "STORE",
+  "note": "Store service, included.",
+  "key": "afya-check",
+  "name": {
+   "en": "Afya Check in store",
+   "sw": "Afya Check dukani"
+  },
+  "what": {
+   "en": "Blood pressure, pulse, weight and BMI at the store kiosk each month, free; readings go on a chart in the app for the clinic.",
+   "sw": "Shinikizo la damu, mapigo ya moyo, uzito na BMI kwenye kioski cha duka kila mwezi, bure; vipimo huwekwa kwenye chati kwenye programu kwa ajili ya kliniki."
+  },
+  "who_provides": {
+   "en": "Afya store team, included in the membership.",
+   "sw": "Timu ya duka la Afya, imejumuishwa kwenye uanachama."
+  }
+ },
+ {
+  "src": null,
+  "included_in_box_by_default": false,
+  "free_public_alternative": null,
+  "member_in_box_tsh": null,
+  "addon_member_tsh": null,
+  "provider_net_tsh": null,
+  "afya_tsh": null,
+  "partner_price_in_box_tsh": null,
+  "afya_in_box_tsh": null,
+  "walkin_tsh": null,
+  "status": "NO_QUOTE",
+  "note": "No partner quote yet; price published once quoted.",
+  "key": "hba1c-test",
+  "name": {
+   "en": "HbA1c blood test",
+   "sw": "Kipimo cha damu cha HbA1c"
+  },
+  "what": {
+   "en": "The three-monthly average blood-sugar test the clinic asks for, at a partner laboratory.",
+   "sw": "Kipimo cha wastani wa sukari ya damu cha miezi mitatu kinachoombwa na kliniki, katika maabara mshirika."
+  },
+  "who_provides": {
+   "en": "Partner laboratory or clinic (no partner signed yet).",
+   "sw": "Maabara au kliniki mshirika (bado hakuna mshirika aliyesaini)."
+  }
+ },
+ {
+  "src": null,
+  "included_in_box_by_default": false,
+  "free_public_alternative": null,
+  "member_in_box_tsh": null,
+  "addon_member_tsh": null,
+  "provider_net_tsh": null,
+  "afya_tsh": null,
+  "partner_price_in_box_tsh": null,
+  "afya_in_box_tsh": null,
+  "walkin_tsh": null,
+  "status": "NO_QUOTE",
+  "note": "No partner quote yet; price published once quoted.",
+  "key": "kidney-test",
+  "name": {
+   "en": "Kidney function test",
+   "sw": "Kipimo cha utendaji wa figo"
+  },
+  "what": {
+   "en": "A yearly kidney blood and urine test the clinic asks for, at a partner laboratory.",
+   "sw": "Kipimo cha kila mwaka cha damu na mkojo kwa figo kinachoombwa na kliniki, katika maabara mshirika."
+  },
+  "who_provides": {
+   "en": "Partner laboratory or clinic (no partner signed yet).",
+   "sw": "Maabara au kliniki mshirika (bado hakuna mshirika aliyesaini)."
+  }
+ },
+ {
+  "src": null,
+  "included_in_box_by_default": false,
+  "free_public_alternative": null,
+  "member_in_box_tsh": null,
+  "addon_member_tsh": null,
+  "provider_net_tsh": null,
+  "afya_tsh": null,
+  "partner_price_in_box_tsh": null,
+  "afya_in_box_tsh": null,
+  "walkin_tsh": null,
+  "status": "NO_QUOTE",
+  "note": "No partner quote yet; price published once quoted.",
+  "key": "kidney-profile-test",
+  "name": {
+   "en": "Kidney profile blood test",
+   "sw": "Kipimo cha damu cha figo"
+  },
+  "what": {
+   "en": "Creatinine and salts in the blood, as the clinic asks, at a partner laboratory.",
+   "sw": "Kreatinini na chumvi kwenye damu, kama kliniki inavyoomba, katika maabara mshirika."
+  },
+  "who_provides": {
+   "en": "Partner laboratory or clinic (no partner signed yet).",
+   "sw": "Maabara au kliniki mshirika (bado hakuna mshirika aliyesaini)."
+  }
+ },
+ {
+  "src": null,
+  "included_in_box_by_default": false,
+  "free_public_alternative": null,
+  "member_in_box_tsh": null,
+  "addon_member_tsh": null,
+  "provider_net_tsh": null,
+  "afya_tsh": null,
+  "partner_price_in_box_tsh": null,
+  "afya_in_box_tsh": null,
+  "walkin_tsh": null,
+  "status": "NO_QUOTE",
+  "note": "No partner quote yet; price published once quoted.",
+  "key": "albumin-test",
+  "name": {
+   "en": "Urine albumin test",
+   "sw": "Kipimo cha albumini kwenye mkojo"
+  },
+  "what": {
+   "en": "A urine test for protein loss, as the renal clinic asks, at a partner laboratory.",
+   "sw": "Kipimo cha mkojo kuona upotevu wa protini, kama kliniki ya figo inavyoomba, katika maabara mshirika."
+  },
+  "who_provides": {
+   "en": "Partner laboratory or clinic (no partner signed yet).",
+   "sw": "Maabara au kliniki mshirika (bado hakuna mshirika aliyesaini)."
+  }
+ },
+ {
+  "src": null,
+  "included_in_box_by_default": false,
+  "free_public_alternative": null,
+  "member_in_box_tsh": null,
+  "addon_member_tsh": null,
+  "provider_net_tsh": null,
+  "afya_tsh": null,
+  "partner_price_in_box_tsh": null,
+  "afya_in_box_tsh": null,
+  "walkin_tsh": null,
+  "status": "NO_QUOTE",
+  "note": "No partner quote yet; price published once quoted.",
+  "key": "foot-screen",
+  "name": {
+   "en": "Diabetes foot check",
+   "sw": "Ukaguzi wa miguu kwa kisukari"
+  },
+  "what": {
+   "en": "A yearly foot check for feeling and circulation by a partner nurse or clinic.",
+   "sw": "Ukaguzi wa kila mwaka wa miguu kwa hisia na mzunguko wa damu na muuguzi au kliniki mshirika."
+  },
+  "who_provides": {
+   "en": "Partner laboratory or clinic (no partner signed yet).",
+   "sw": "Maabara au kliniki mshirika (bado hakuna mshirika aliyesaini)."
+  }
  }
 ]
