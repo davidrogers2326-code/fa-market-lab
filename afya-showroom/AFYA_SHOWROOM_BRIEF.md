@@ -430,6 +430,7 @@ These need an answer before the section that depends on them is built.
 - D-16 0.1 health figures shown with their survey years (2023 and 2012).
 - D-17 (10 Nov 2026) Financial model box-goods margin set to 13.8% to match D4 (was 26%). Flagship break-even moves from month 10 to month 12, year-1 loss from TSh 93M to TSh 120M; start-small break-even month 8 → 10. The seed stays TSh 340M / 150M; the extra early losses are absorbed by the working-capital reserve, and 6.3 says so.
 - D-18 Mama Mjamzito renders approved: two Weavy runs, 14 credits.
+- D-19 Infant formula: available on request only; never displayed, listed or promoted in any box or page; the Mama na Mtoto page states that breastfeeding is recommended (WHO guidance; Tanzania's rules on marketing breast-milk substitutes).
 
 ---
 

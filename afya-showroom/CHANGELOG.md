@@ -1,6 +1,21 @@
 # CHANGELOG — Afya Basics Investor Showroom refurbishment
 
-## Phase 3 · Mama na Mtoto end to end — 10 November 2026 (complete)
+## Phase 4 · Compliance and money — 10 November 2026 (in progress)
+
+**Founder decisions, 10 Nov 2026**
+- **Phase 3 approved.** The net estimate, the brands shown and the item changes are accepted.
+- **Infant formula (D-19):** available on request only. It is never displayed, listed or promoted in any box or page. The Mama na Mtoto page states that breastfeeding is recommended, in line with WHO guidance and Tanzania's rules on marketing breast-milk substitutes.
+
+**Applied**
+- **3.6 catalogue:** the 4 formula families (stage 1, follow-on, growing-up, special formulas; 14 products) are removed. The catalogue now holds 523 families and 2,796 products (1,142 verified, 522 Tanzanian and 1,860 Kenyan prices). The totals are recomputed in `range/sum.js`, and the quoted figures in model.js, range36 and range38 are updated. The nutrition category description no longer mentions formula. The two "formula behind the counter" lines are gone.
+- **3.5 Lishe shelf:** a "Breastfeeding is recommended" statement in both languages, citing WHO guidance, the WHO International Code and Tanzania's rules.
+- **7.1 and 7.3:** formula no longer appears as a product example or a registration fee, in either language.
+
+**Standing open items (keep until closed)**
+- **Native Kiswahili review of medical and technical terms.** The terms are listed in R6 Mama na Mtoto, R6 Mama Mjamzito, R7, R9, and in the 3.3, 3.4, 4.2, 4.5, 7.1 and 7.3 rebuild notes (e.g. "muundo wa mwili", "priklampsia", "toleo", "Cheti cha Ulinganifu", "pochi ya simu").
+- **Packing film check.** Watch the Mama na Mtoto packing films frame by frame (gloved hands only, the approved box design, no faces), and add captions in both languages (K3).
+
+## Phase 3 · Mama na Mtoto end to end — 10 November 2026 (approved)
 
 **What changed**
 - **3.5 rebuilt on the D3 package template.**
