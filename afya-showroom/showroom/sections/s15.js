@@ -33,7 +33,8 @@ const SRC=()=>[
  {t:T('AfyaDepot product page: Softcare Premium Soft Diapers, TSh 17,000 for 42 (size M) and TSh 26,000 for 80 (size S)','Ukurasa wa bidhaa wa AfyaDepot: Softcare Premium Soft Diapers, TSh 17,000 kwa 42 (saizi M) na TSh 26,000 kwa 80 (saizi S)'),u:'https://afyadepot.co.tz/product/softcare-premium-soft-diapers-for-3-6-kg-s-no-1',chk:'9 Nov 2026'},
  {t:T('The Citizen, 26 January 2026: universal health insurance rolls out nationwide (Universal Health Insurance Act, 2023)','The Citizen, 26 Januari 2026: bima ya afya kwa wote yaanza kutekelezwa nchi nzima (Sheria ya Bima ya Afya kwa Wote, 2023)'),u:'https://thecitizen.co.tz/tanzania/news/national/universal-health-insurance-rolls-out-nationwide-today-5338644'},
  {t:T('Bank of Tanzania, exchange rates: US$1 = TSh 2,642.50 (mean rate, trading date 10 Nov 2026)','Benki Kuu ya Tanzania, viwango vya kubadilisha fedha: US$1 = TSh 2,642.50 (kiwango cha wastani, tarehe ya biashara 10 Nov 2026)'),u:'https://www.bot.go.tz/ExchangeRate/excRates',chk:'9 Nov 2026'}];
-const cite=(...n)=>n.map(k=>`<sup><a href="#abSrc" class="ab-cite" aria-label="${L('Source','Chanzo')} ${k}">${k}</a></sup>`).join('');
+const cite=(...n)=>`<sup>${n.map(k=>`<a href="#abSrc" class="ab-cite" aria-label="${L('Source','Chanzo')} ${k}">${k}</a>`).join(',')}</sup>`;
+const srcs=n=>n.map(k=>`<a href="#abSrc" class="ab-cite" aria-label="${L('Source','Chanzo')} ${k}">${k}</a>`).join(', ');
 
 /* ---------- the seven strands: points [x (year), label en, label sw, event?] ---------- */
 const ST=[
@@ -68,7 +69,7 @@ const ST=[
 
 /* ---------- timeline SVG (desktop and phone layouts) ---------- */
 function tlSVG(mob){const l=lang(),Y0=2010,Y1=2027.6;
- const G=mob?{W:360,x0:14,x1:346,top:44,pitch:70,fs:11,nfs:14}:{W:1000,x0:268,x1:984,top:56,pitch:64,fs:12,nfs:15};
+ const G=mob?{W:360,x0:14,x1:346,top:44,pitch:70,fs:11,nfs:14}:{W:1000,x0:300,x1:984,top:56,pitch:64,fs:12,nfs:15};
  const X=v=>G.x0+(v-Y0)/(Y1-Y0)*(G.x1-G.x0);
  const rowY=i=>G.top+i*G.pitch+(mob?34:0), H=G.top+ST.length*G.pitch+(mob?44:24), axY=H-(mob?28:30);
  const band=`<rect x="${X(2026)}" y="${G.top-30}" width="${X(Y1)-X(2026)}" height="${axY-(G.top-30)}" fill="var(--green-deep)"/>
@@ -106,12 +107,13 @@ const CSS=`
 .s15 .ab-block>*+p,.s15 .ab-block>*+.ab-tw,.s15 .ab-block>*+ol{margin-top:var(--s2)}
 .s15 table.ab-t td:first-child{min-width:160px}
 .s15 table.ab-t td{min-width:150px}
+.s15 table.ab-t td.s15-src{min-width:90px;white-space:nowrap}
 .s15 ol.s15-ol{margin:var(--s2) 0 0;padding-left:22px;max-width:var(--measure)}.s15 ol.s15-ol li+li{margin-top:8px}
 `;
 
 function render(s,p,pv,nx){
  const key=`<div class="s15-key" aria-hidden="true"><span><svg width="12" height="12" viewBox="0 0 12 12"><circle cx="6" cy="6" r="5" fill="var(--green-edge)"/></svg>${L('Published figure','Takwimu iliyochapishwa')}</span><span><svg width="12" height="12" viewBox="0 0 12 12"><circle cx="6" cy="6" r="5" fill="var(--gold)"/></svg>${L('Latest figure','Takwimu ya karibuni')}</span><span><svg width="14" height="14" viewBox="0 0 14 14"><path d="M7 1L13 7L7 13L1 7Z" fill="none" stroke="var(--gold)" stroke-width="1.5"/></svg>${L('Event','Tukio')}</span></div>`;
- const rows=ST.map((x,i)=>`<tr><td><b>${i+1}. ${L(...x.n)}</b></td><td>${L(...x.a)}</td><td>${L(...x.b)}</td><td>${L(...x.w)}</td><td>${cite(...x.src)}</td></tr>`).join('');
+ const rows=ST.map((x,i)=>`<tr><td><b>${i+1}. ${L(...x.n)}</b></td><td>${L(...x.a)}</td><td>${L(...x.b)}</td><td>${L(...x.w)}</td><td class="s15-src">${srcs(x.src)}</td></tr>`).join('');
  return `<article class="ab-sec s15" aria-labelledby="h-s1-5"><style>${CSS}</style><div class="ab-wrap">
  <div class="ab-sec-no">${E(s.no)}</div><h1 id="h-s1-5">${E(s.title)}</h1>
  <p class="ab-summary">${L('A delivered monthly health membership needs four things at once: a large repeating need, customers who pay by phone, customers who order by phone, and a city dense enough to deliver to cheaply. Five years ago Tanzania had the first and the last. Today it has all four: 80.98 million mobile-money accounts, 58.9 million internet subscriptions, TSh 3.3 trillion a year sent home from abroad, and families already buying health products online. Seven trends meet just before the first store opens.','Uanachama wa afya wa kila mwezi unaoletwa nyumbani unahitaji mambo manne kwa wakati mmoja: hitaji kubwa linalojirudia, wateja wanaolipa kwa simu, wateja wanaoagiza kwa simu, na jiji lenye msongamano wa kutosha kufikisha bidhaa kwa gharama nafuu. Miaka mitano iliyopita Tanzania ilikuwa na la kwanza na la mwisho. Leo ina yote manne: akaunti milioni 80.98 za pesa kwa simu, usajili milioni 58.9 wa intaneti, TSh trilioni 3.3 kwa mwaka zinazotumwa nyumbani kutoka nje ya nchi, na familia ambazo tayari zinanunua bidhaa za afya mtandaoni. Mienendo saba inakutana muda mfupi kabla duka la kwanza halijafunguliwa.')}</p>

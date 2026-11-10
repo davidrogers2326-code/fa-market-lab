@@ -1,0 +1,1938 @@
+{
+ "slug": "afya-siku",
+ "name": {
+  "en": "Afya Siku",
+  "sw": "Afya Siku"
+ },
+ "final": true,
+ "delivery": "monthly",
+ "delivery_mode": "with-another-box",
+ "delivery_note": {
+  "en": "Afya Siku arrives every month, a few days before the member’s next period is due, packed inside the household’s other Afya box on that box’s delivery. A member with no other Afya box collects it in store. On its own, a monthly delivery would cost more than the goods (see the price check).",
+  "sw": "Afya Siku huja kila mwezi, siku chache kabla ya hedhi inayofuata ya mwanachama, ikiwa imefungwa ndani ya sanduku jingine la Afya la familia katika usafirishaji wa sanduku hilo. Mwanachama asiye na sanduku jingine la Afya huichukua dukani. Peke yake, usafirishaji wa kila mwezi ungegharimu zaidi ya bidhaa zenyewe (angalia hesabu ya bei)."
+ },
+ "box_size": "S",
+ "who": {
+  "en": "<p>Afya Siku is the monthly period-care pack for girls and women who menstruate, from the first period to menopause. It carries a month of day and night pads counted to her flow, liners, a mild soap for washing, small bags for safe disposal and, in the first box, a hot water bottle for cramps. A menstrual cup or washable pads can replace most of the disposables if she chooses. A small Afya-printed card in the first box explains the cycle, safe disposal and when to see a clinic; it is not sold or priced.</p><p>The box follows WHO’s 2022 statement that menstruation is a health issue, not only a hygiene one: menstrual health means information, the products a person needs, water, sanitation and disposal, competent care when needed, and freedom from shame at school and work. UNICEF’s 2019 guidance on menstrual health and hygiene sets out the same parts. The pack is timed so that it arrives every month a few days before her next period is due: she records her period dates in the app and the delivery date follows. It travels inside the household’s other Afya box, such as Afya Glow or Mama na Mtoto, or is collected in store, because a separate delivery would cost more than the goods.</p><p>Pain medicine and iron are listed so she knows what helps, but Afya does not sell them: the licensed partner pharmacy does, after the pharmacist checks what suits her. Very heavy bleeding, pain that tablets do not ease, or signs of anaemia are reasons to see a clinic, not to wait for the next box.</p>",
+  "sw": "<p>Afya Siku ni kifurushi cha kila mwezi cha huduma ya hedhi kwa wasichana na wanawake wanaopata hedhi, tangu hedhi ya kwanza hadi kukoma kwa hedhi. Kina pedi za mchana na za usiku za mwezi mmoja zilizohesabiwa kwa kiwango cha damu yake, liners, sabuni laini ya kuoshea, mifuko midogo ya kutupa kwa usalama na, kwenye sanduku la kwanza, chupa ya maji ya moto kwa maumivu ya tumbo. Kikombe cha hedhi au pedi za kufua vinaweza kuchukua nafasi ya bidhaa nyingi za kutupa akipenda. Kadi ndogo iliyochapishwa na Afya kwenye sanduku la kwanza inaeleza mzunguko, utupaji salama na wakati wa kwenda kliniki; haiuzwi wala haina bei.</p><p>Sanduku linafuata tamko la WHO la mwaka 2022 kwamba hedhi ni suala la afya, si la usafi pekee: afya ya hedhi inamaanisha taarifa, bidhaa anazohitaji mtu, maji, vyoo na mahali pa kutupa, huduma bora inapohitajika, na kuishi bila aibu shuleni na kazini. Mwongozo wa UNICEF wa mwaka 2019 kuhusu afya na usafi wa hedhi unaeleza sehemu hizo hizo. Kifurushi kimepangwa kufika kila mwezi siku chache kabla ya hedhi yake inayofuata: anaandika tarehe za hedhi zake kwenye programu na tarehe ya kuletewa hufuata. Kinasafiri ndani ya sanduku jingine la Afya la familia, kama Afya Glow au Mama na Mtoto, au huchukuliwa dukani, kwa sababu usafirishaji wa peke yake ungegharimu zaidi ya bidhaa zenyewe.</p><p>Dawa za maumivu na madini ya chuma zimeorodheshwa ili ajue kinachosaidia, lakini Afya haiziuzi: famasia mshirika yenye leseni huziuza, baada ya mfamasia kuchunguza kinachomfaa. Damu nyingi sana, maumivu yasiyopungua kwa vidonge, au dalili za upungufu wa damu ni sababu za kwenda kliniki, si za kusubiri sanduku linalofuata.</p>"
+ },
+ "clinic_line": {
+  "en": "Any medicine, its dose, and whether she needs iron are decided by the pharmacist or her clinic. Go to a clinic if a pad soaks through within an hour or two, bleeding lasts more than 7 days or comes with large clots, she feels dizzy, breathless or very tired, pain is not eased by tablets and heat or keeps her from school or work, she bleeds between periods or after sex, or a period is missed and she may be pregnant. Fever, a rash or feeling faint while using a cup or tampon means the clinic the same day.",
+  "sw": "Dawa yoyote, kipimo chake, na kama anahitaji madini ya chuma huamuliwa na mfamasia au kliniki yake. Nenda kliniki ikiwa pedi hulowa kabisa ndani ya saa moja au mbili, damu inaendelea zaidi ya siku 7 au inakuja na mabonge makubwa, anahisi kizunguzungu, kukosa pumzi au uchovu mkubwa, maumivu hayapungui kwa vidonge na joto au yanamzuia kwenda shule au kazini, anatoka damu kati ya hedhi au baada ya kujamiiana, au hedhi imekosa na huenda ni mjamzito. Homa, vipele au kuhisi kuzimia akitumia kikombe au tamponi kunamaanisha kliniki siku hiyo hiyo."
+ },
+ "guidance": [
+  {
+   "t": "WHO 2022, Statement on menstrual health and rights (Human Rights Council, 50th session)",
+   "u": "https://www.who.int/news/item/22-06-2022-who-statement-on-menstrual-health-and-rights",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO 2011, Guideline: intermittent iron and folic acid supplementation in menstruating women (overview page opened; the PDF host was refused, so the dose schedule was not read)",
+   "u": "https://www.who.int/publications/i/item/9789241502023",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet, Anaemia (10 Feb 2025): menstruating girls and women among the main groups affected; heavy menstruation a cause; signs",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/anaemia",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet, Endometriosis (15 Oct 2025): severe period pain and heavy bleeding as symptoms; NSAIDs such as ibuprofen for pain",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/endometriosis",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "UNICEF 2019, Guidance on Menstrual Health and Hygiene (not re-checked; host refused)",
+   "u": "https://www.unicef.org/media/91341/file/UNICEF-Guidance-menstrual-healthhygiene-2019.pdf",
+   "chk": "2026-11-02"
+  },
+  {
+   "t": "NHS, Periods (not re-checked)",
+   "u": "https://www.nhs.uk/conditions/periods/",
+   "chk": "2026-11-02"
+  },
+  {
+   "t": "NHS, Heavy periods (not re-checked)",
+   "u": "https://www.nhs.uk/conditions/heavy-periods/",
+   "chk": "2026-11-02"
+  },
+  {
+   "t": "NHS, Period pain (not re-checked)",
+   "u": "https://www.nhs.uk/conditions/period-pain/",
+   "chk": "2026-11-02"
+  },
+  {
+   "t": "NHS, Keeping your vagina clean and healthy (not re-checked)",
+   "u": "https://www.nhs.uk/live-well/sexual-health/keeping-your-vagina-clean-and-healthy/",
+   "chk": "2026-11-02"
+  },
+  {
+   "t": "NHS, Toxic shock syndrome (not re-checked)",
+   "u": "https://www.nhs.uk/conditions/toxic-shock-syndrome/",
+   "chk": "2026-11-02"
+  },
+  {
+   "t": "van Eijk et al. 2019, Lancet Public Health: menstrual cup use, leakage and safety (not re-checked)",
+   "u": "https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(19)30111-2/fulltext",
+   "chk": "2026-11-02"
+  },
+  {
+   "t": "Jo and Lee 2018, Scientific Reports 8:16252: heat therapy for primary dysmenorrhoea (not re-checked)",
+   "u": "https://www.nature.com/articles/s41598-018-34303-z",
+   "chk": "2026-11-02"
+  },
+  {
+   "t": "World Bank blog, reusable low-cost menstrual pads in Tanzania (not re-checked)",
+   "u": "https://blogs.worldbank.org/en/nasikiliza/antimicrobial-reusable-low-cost-womens-well-being-and-health-in-tanzania-afe-0524",
+   "chk": "2026-11-02"
+  }
+ ],
+ "stages": [
+  {
+   "key": "m1",
+   "label": {
+    "en": "First box",
+    "sw": "Sanduku la kwanza"
+   },
+   "months": "0–1",
+   "box_size": "S",
+   "items": [
+    {
+     "key": "day",
+     "name": {
+      "en": "Day pads, regular flow",
+      "sw": "Pedi za mchana, damu ya kawaida"
+     },
+     "why": {
+      "en": "Pads are the product most women in Tanzania use, and running out mid-period is when girls and women fall back on cloth or miss school and work. WHO counts access to the products a person needs as part of menstrual health. The count assumes a pad changed about every four hours while awake: four a day on the two heaviest days and three on the three lighter days. In the app the member sets her flow (light, regular or heavy) and the count follows. Length matters more than brand: a longer pad for heavier days, a regular one for lighter days.",
+      "sw": "Pedi ndizo bidhaa ambazo wanawake wengi Tanzania hutumia, na kuishiwa katikati ya hedhi ndipo wasichana na wanawake hurudi kwenye vitambaa au kukosa shule na kazi. WHO inahesabu upatikanaji wa bidhaa anazohitaji mtu kuwa sehemu ya afya ya hedhi. Idadi inakadiria pedi kubadilishwa takriban kila saa nne akiwa macho: nne kwa siku katika siku mbili za damu nyingi na tatu katika siku tatu nyepesi. Kwenye programu mwanachama huchagua kiwango cha damu yake (kidogo, kawaida au nyingi) na idadi hufuata. Urefu ni muhimu kuliko chapa: pedi ndefu kwa siku za damu nyingi, ya kawaida kwa siku nyepesi."
+     },
+     "qty": {
+      "en": "18 pads a month",
+      "sw": "Pedi 18 kwa mwezi"
+     },
+     "qty_formula": "(2 heavy days × 4 changes) + (3 lighter days × 3 changes) = 17, + 1 spare = 18 (regular flow; planning assumption)",
+     "units": 18,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Softcare",
+       "product": "Long sanitary pads",
+       "pack": "10 pads",
+       "pack_units": 10,
+       "price_tsh": 1400,
+       "src": {
+        "name": "superstore.co.tz",
+        "u": "https://superstore.co.tz/shop/all-products/softcare-long-pads-pink/",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true,
+       "note": "Tanzanian listing from the earlier catalogue (seen 2 Nov 2026); the host was refused on 10 Nov, so it was not re-opened. AfyaDepot lists Human Cherish HC pads, 290 mm, at TSh 5,000 (10 pads assumed from the page address; seen 10 Nov), a higher price range."
+      },
+      {
+       "brand": "Femella",
+       "product": "Regular thick pads, 240 mm",
+       "pack": "8 pads",
+       "pack_units": 8,
+       "price_tsh": 1179,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pads/femella-sanitary-pads-240-mm-thick/p/193752",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 58,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Sofy",
+       "product": "Ultra Long pads",
+       "pack": "8 pads",
+       "pack_units": 8,
+       "price_tsh": 2013,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pads/sofy-ultra-sanitary-pad-long-8s/p/222308",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 99,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Molped",
+       "product": "Ultra Soft sanitary pads",
+       "pack": "16 pads",
+       "pack_units": 16,
+       "price_tsh": 4046,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pads/molped-sanitary-pads-ultrasoft16s/p/133555",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 199,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Kotex",
+       "product": "Duos Super pads",
+       "pack": "16 pads",
+       "pack_units": 16,
+       "price_tsh": 4717,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pads/kotex-female-pads-duos-super-16s/p/19500",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 232,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "night",
+     "name": {
+      "en": "Night and heavy-flow pads",
+      "sw": "Pedi za usiku na za damu nyingi"
+     },
+     "why": {
+      "en": "A longer, more absorbent pad protects through the night, when a pad is worn for seven or eight hours without a change, and on the heaviest day. One a night for five nights, plus two for the first two nights, when many women need a change before morning. A woman whose pad soaks through in an hour or two, night after night, should see a clinic: that is heavy menstrual bleeding and a common cause of anaemia.",
+      "sw": "Pedi ndefu yenye uwezo mkubwa wa kunyonya hulinda usiku kucha, pedi inapovaliwa saa saba au nane bila kubadilishwa, na katika siku ya damu nyingi zaidi. Moja kwa kila usiku kwa usiku mitano, pamoja na mbili kwa usiku miwili ya kwanza, ambapo wanawake wengi huhitaji kubadilisha kabla ya asubuhi. Mwanamke ambaye pedi yake hulowa kabisa ndani ya saa moja au mbili, usiku baada ya usiku, aende kliniki: hiyo ni hedhi nzito na chanzo cha kawaida cha upungufu wa damu."
+     },
+     "qty": {
+      "en": "7 pads a month",
+      "sw": "Pedi 7 kwa mwezi"
+     },
+     "qty_formula": "5 nights × 1 + 2 extra changes on the 2 heaviest nights = 7 (planning assumption)",
+     "units": 7,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Always",
+       "product": "Maxi Thick Softer, Extra Long",
+       "pack": "7 pads",
+       "pack_units": 7,
+       "price_tsh": 1900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60263ec453c6d5732d0a3559",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Molped",
+       "product": "Super Night pads",
+       "pack": "7 pads",
+       "pack_units": 7,
+       "price_tsh": 2013,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pads/molped-sanitary-pads-super-night7s/p/132005",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 99,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Kotex",
+       "product": "Ultra-Thin Night pads",
+       "pack": "7 pads",
+       "pack_units": 7,
+       "price_tsh": 2623,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pads/kotex-ultrathin-night-pads-7-s/p/95510",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 129,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Human Cherish",
+       "product": "Pads, 338 mm",
+       "pack": "8 pads",
+       "pack_units": 8,
+       "price_tsh": 3800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a3f7d53c6d5732d0a3650",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false,
+       "note": "AfyaDepot lists Human Cherish HC pads, 338 mm, at TSh 5,000 (10 pads assumed from the page address; seen 10 Nov)."
+      },
+      {
+       "brand": "Kotex",
+       "product": "Maxi Wide Super, wings, long",
+       "pack": "8 pads",
+       "pack_units": 8,
+       "price_tsh": 4400,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a66f253c6d5732d0a3692",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "liner",
+     "name": {
+      "en": "Panty liners",
+      "sw": "Pedi nyembamba za kila siku (liners)"
+     },
+     "why": {
+      "en": "Liners cover the light spotting days at the start and end of a period and back up a cup or a washable pad. Two a day for five days. They are not meant to be worn every day of the month: constant use keeps the skin warm and damp. Unscented liners are chosen. A 40-pack lasts about four months, so it ships when the last one runs out; the monthly price spreads the pack over those months.",
+      "sw": "Liners hutumika siku za matone mepesi mwanzoni na mwishoni mwa hedhi na kama kinga ya ziada kwa kikombe au pedi ya kufua. Mbili kwa siku kwa siku tano. Hazikusudiwi kuvaliwa kila siku ya mwezi: matumizi ya kila siku huiweka ngozi na joto na unyevu. Zimechaguliwa liners zisizo na manukato. Pakiti ya 40 hudumu takriban miezi minne, hivyo hutumwa ile ya mwisho inapokwisha; bei ya kila mwezi hugawanya pakiti katika miezi hiyo."
+     },
+     "qty": {
+      "en": "10 liners a month",
+      "sw": "Liners 10 kwa mwezi"
+     },
+     "qty_formula": "2 a day × 5 days = 10 (planning assumption)",
+     "units": 10,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Kotex",
+       "product": "Normal panty liners",
+       "pack": "40 liners",
+       "pack_units": 40,
+       "price_tsh": 5083,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pantyliners/kotex-panty-liners-normal40-s/p/95513",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 250,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Molped",
+       "product": "Intense panty liners",
+       "pack": "20 liners",
+       "pack_units": 20,
+       "price_tsh": 3253,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pantyliners/molped-panty-linner-intense-pr20-s/p/221959",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 160,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Always",
+       "product": "Everyday panty liners, large",
+       "pack": "16 liners",
+       "pack_units": 16,
+       "price_tsh": 5387,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pantyliners/always-everyday-large-liner16/p/23396",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 265,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "soap",
+     "name": {
+      "en": "Mild soap for external washing",
+      "sw": "Sabuni laini ya kuoshea sehemu za nje"
+     },
+     "why": {
+      "en": "Water and a mild soap on the outside skin, once or twice a day, are all the washing the body needs during a period. The vagina cleans itself, so douches, antiseptics and strongly perfumed products are left out: they upset its natural balance. A bar of her own keeps intimate washing separate from the family bar. No fragrance-free bar was listed by the two Tanzanian retailers, so the mildest cream and glycerine bars are offered. A pH-balanced intimate wash (Vivasol V Wash 100 ml, TSh 15,000 at AfyaDepot) is a swap at a higher price.",
+      "sw": "Maji na sabuni laini kwenye ngozi ya nje, mara moja au mbili kwa siku, ndiyo usafi wote unaohitajika wakati wa hedhi. Uke hujisafisha wenyewe, hivyo dawa za kusafisha ndani, antiseptiki na bidhaa zenye manukato makali zimeachwa: huvuruga uwiano wake wa asili. Kipande chake mwenyewe cha sabuni hutenganisha usafi wa sehemu za siri na sabuni ya familia. Maduka mawili ya Tanzania hayakuwa na sabuni isiyo na manukato, hivyo zinatolewa sabuni laini zaidi za krimu na za glycerine. Sabuni maalum ya maji yenye pH iliyosawazishwa (Vivasol V Wash ml 100, TSh 15,000 AfyaDepot) ni chaguo mbadala kwa bei ya juu zaidi."
+     },
+     "qty": {
+      "en": "1 bar (100 g) a month",
+      "sw": "Kipande 1 (g 100) kwa mwezi"
+     },
+     "qty_formula": "about 2 washes a day × 30 days ≈ 60 washes; one 100 g bar a month (planning assumption)",
+     "units": 100,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Dove",
+       "product": "Pink Cream Bar",
+       "pack": "100 g",
+       "pack_units": 100,
+       "price_tsh": 1900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026872053c6d5732d0a35ee",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Fa",
+       "product": "Cream and Oil soap",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 2600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60bf68c6791c2d11b5e2a66d",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nivea",
+       "product": "Care Cream Soap",
+       "pack": "125 g",
+       "pack_units": 125,
+       "price_tsh": 3800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a829253c6d5732d0a36ee",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Pears",
+       "product": "Transparent Soap",
+       "pack": "125 g",
+       "pack_units": 125,
+       "price_tsh": 4000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b719753c6d5732d0a370c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "bags",
+     "name": {
+      "en": "Disposal bags for used pads",
+      "sw": "Mifuko ya kutupia pedi zilizotumika"
+     },
+     "why": {
+      "en": "A used pad is never flushed: it blocks toilets, drains and pit latrines. It is rolled into its wrapper, put in a small bag that is sealed, and placed in a bin with a lid; WHO counts safe disposal as part of menstrual health. One bag a bleeding day and one spare. Small sealing bags from the household shelf do the job at a fraction of the price of branded sanitary bags.",
+      "sw": "Pedi iliyotumika haiflashiwi kamwe chooni: huziba vyoo, mitaro na mashimo ya choo. Huviringishwa ndani ya kifungashio chake, huwekwa kwenye mfuko mdogo unaofungwa, na kutupwa kwenye pipa lenye mfuniko; WHO inahesabu utupaji salama kuwa sehemu ya afya ya hedhi. Mfuko mmoja kwa kila siku ya damu na mmoja wa ziada. Mifuko midogo inayofungwa kutoka rafu ya mahitaji ya nyumbani inafanya kazi hiyo kwa sehemu ndogo ya bei ya mifuko maalum."
+     },
+     "qty": {
+      "en": "6 bags a month",
+      "sw": "Mifuko 6 kwa mwezi"
+     },
+     "qty_formula": "5 bleeding days × 1 bag + 1 spare = 6",
+     "units": 6,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Glad",
+       "product": "Sandwich bags",
+       "pack": "150 bags",
+       "pack_units": 150,
+       "price_tsh": 12600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a383753c6d5732d0a3639",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true,
+       "note": "Listed as \"150s/180s\"; 150 is used. One pack lasts about two years, so it ships once and the monthly price spreads it."
+      },
+      {
+       "brand": "Safewrap",
+       "product": "Food bags, small",
+       "pack": "60 bags",
+       "pack_units": 60,
+       "price_tsh": 11000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b81bf53c6d5732d0a3743",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Classic",
+       "product": "Snap Seal sandwich bags",
+       "pack": "50 bags",
+       "pack_units": 50,
+       "price_tsh": 11000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026744c53c6d5732d0a35b9",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Falcon",
+       "product": "Zipper freezer bags, 30 × 40 cm",
+       "pack": "30 bags",
+       "pack_units": 30,
+       "price_tsh": 12000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a2fc553c6d5732d0a361a",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Draw-tape",
+       "product": "Pedal-bin liners for sanitary bins",
+       "pack": "30 bags",
+       "pack_units": 30,
+       "price_tsh": 11751,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/garbage-bags-flat-with-ties/bio-pedal-bin-liner-yellow-tape/p/154431",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 578,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "heat",
+     "name": {
+      "en": "Hot water bottle with cover",
+      "sw": "Chupa ya maji ya moto yenye kifuniko"
+     },
+     "why": {
+      "en": "Warmth on the lower belly eases period cramps; a 2018 review of trials found heat worked about as well as common pain tablets. The bottle is bought once and reused every month, so it ships in the first box only. It is filled with hot, not boiling, water and always used inside its cover or a towel, never straight on the skin.",
+      "sw": "Joto juu ya tumbo la chini hupunguza maumivu ya tumbo ya hedhi; uchambuzi wa tafiti wa mwaka 2018 ulibaini joto linafanya kazi karibu sawa na vidonge vya kawaida vya maumivu. Chupa hununuliwa mara moja na hutumika kila mwezi, hivyo inatumwa kwenye sanduku la kwanza tu. Hujazwa maji ya moto, si yanayochemka, na hutumika kila mara ndani ya kifuniko chake au taulo, kamwe si moja kwa moja kwenye ngozi."
+     },
+     "qty": {
+      "en": "1, in the first box only",
+      "sw": "1, kwenye sanduku la kwanza tu"
+     },
+     "qty_formula": "1 bottle, reused every cycle (replaced when the rubber cracks)",
+     "units": 1,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "AfyaDepot",
+       "product": "Leakproof rubber hot water bottle with soft cloth cover",
+       "pack": "1 bottle",
+       "pack_units": 1,
+       "price_tsh": 15000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/hot-water-bottle-with-cloth-cover",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "AfyaDepot",
+       "product": "Leakproof rubber hot water bottle, no cover",
+       "pack": "1 bottle",
+       "pack_units": 1,
+       "price_tsh": 7000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/hot-water-bottle",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false,
+       "note": "No cover: used wrapped in a towel."
+      },
+      {
+       "brand": "Storesome",
+       "product": "Hot water bottle",
+       "pack": "1 bottle",
+       "pack_units": 1,
+       "price_tsh": 8539,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/bathroom-toilet-accessories/io-storesome-hot-water-bottle-1/p/254137",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 420,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Storesome",
+       "product": "Rubber hot water bag with cover",
+       "pack": "1 bottle",
+       "pack_units": 1,
+       "price_tsh": 16772,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/bathroom-toilet-accessories/storesome-rubber-hot-wtr-bag-w-covr/p/129701",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 825,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "reus",
+     "optional": true,
+     "name": {
+      "en": "Reusable choice: menstrual cup or washable pads (optional)",
+      "sw": "Chaguo la kutumika tena: kikombe cha hedhi au pedi za kufua (hiari)"
+     },
+     "why": {
+      "en": "For a member who wants fewer disposables, a menstrual cup or a set of washable pads can replace most of the day pads. A 2019 review of 43 studies in Lancet Public Health found leakage with cups similar to or lower than with disposable pads and tampons, and no rise in infections. Washable cotton pads are washed with soap and dried in the sun. This is a choice, not part of the standard box: it ships once, when chosen, at shelf price, and her disposable day pads then drop to a small backup pack. A cup is emptied and rinsed during the day and boiled between periods; anyone with fever, a rash or feeling faint while using one goes to a clinic the same day.",
+      "sw": "Kwa mwanachama anayetaka kupunguza bidhaa za kutupa, kikombe cha hedhi au seti ya pedi za kufua vinaweza kuchukua nafasi ya pedi nyingi za mchana. Uchambuzi wa tafiti 43 wa mwaka 2019 katika jarida la Lancet Public Health ulibaini kuvuja kwa kikombe ni sawa au chini kuliko pedi na tamponi za kutupa, na hakukuwa na ongezeko la maambukizi. Pedi za pamba za kufua hufuliwa kwa sabuni na kuanikwa juani. Hili ni chaguo, si sehemu ya sanduku la kawaida: hutumwa mara moja, likichaguliwa, kwa bei ya rafu, na pedi zake za mchana za kutupa hupungua hadi pakiti ndogo ya akiba. Kikombe humwagwa na kusuuzwa mchana na huchemshwa kati ya hedhi moja na nyingine; mtu yeyote mwenye homa, vipele au kuhisi kuzimia akikitumia aende kliniki siku hiyo hiyo."
+     },
+     "qty": {
+      "en": "1 cup or 1 set, once, if chosen",
+      "sw": "Kikombe 1 au seti 1, mara moja, kikichaguliwa"
+     },
+     "qty_formula": "1 cup (lasts several years) or 1 set of washable pads worn in turn; not counted in the standard box",
+     "units": 1,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "ReliefPad",
+       "product": "Reusable cotton sanitary pads, 4 pads (sold singly)",
+       "pack": "4 pads",
+       "pack_units": 1,
+       "price_tsh": 40660,
+       "src": {
+        "name": "Jumia Kenya",
+        "u": "https://www.jumia.co.ke/reliefpad-reusable-sanitary-pad-325196124.html",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 2000,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Listed at KES 500 for one pad (seen 2 Nov 2026, not re-checked); the set is 4 pads, KES 2,000.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Generic",
+       "product": "Reusable cloth pads, heavy flow, 3 pads with wet bag",
+       "pack": "3 pads + bag",
+       "pack_units": 1,
+       "price_tsh": 44421,
+       "src": {
+        "name": "Jumia Kenya",
+        "u": "https://www.jumia.co.ke/fashion-3pcs-reusable-cloth-menstrual-pads-for-heavy-flow-wet-bag-327582849.html",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 2185,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Hani",
+       "product": "Menstrual cup, small",
+       "pack": "1 cup",
+       "pack_units": 1,
+       "price_tsh": 43709,
+       "src": {
+        "name": "Portal Pharmacy (Kenya)",
+        "u": "https://portalpharmacy.ke/feminine-care/hani-cup-small",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 2150,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Hani",
+       "product": "Menstrual cup, large",
+       "pack": "1 cup",
+       "pack_units": 1,
+       "price_tsh": 43709,
+       "src": {
+        "name": "Portal Pharmacy (Kenya)",
+        "u": "https://portalpharmacy.ke/feminine-care/hani-cup-large",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 2150,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Hedhi Cup",
+       "product": "Menstrual cup (Tanzanian brand)",
+       "pack": "1 cup",
+       "pack_units": 1,
+       "price_tsh": 20000,
+       "src": {
+        "name": "Palladium, 30 Jun 2020 (search result only)",
+        "u": "https://thepalladiumgroup.com/news/Meet-the-First-Woman-to-Sell-Menstrual-Cups-in-Tanzania",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "EST",
+       "note": "Estimate. Basis: a 2020 article (seen only as a search snippet, not opened) gives a recommended retail price cut from TSh 30,000 to TSh 20,000. No current listing found.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "pain",
+     "name": {
+      "en": "Pain relief for cramps (partner pharmacy)",
+      "sw": "Dawa ya maumivu ya tumbo la hedhi (famasia mshirika)"
+     },
+     "why": {
+      "en": "Anti-inflammatory pain tablets such as ibuprofen, or paracetamol, are the usual medicines for period pain, and WHO lists them for the pain of endometriosis. They are medicines, so Afya does not sell or price them: the licensed partner pharmacy sells them and the pharmacist checks which one suits her, at what dose. Ibuprofen is not for everyone (for example stomach ulcers, some asthma, kidney disease or pregnancy). Pain that tablets and heat do not ease, or that keeps her from school or work, is a reason to see a clinic.",
+      "sw": "Vidonge vya kupunguza maumivu na uvimbe kama ibuprofen, au paracetamol, ndiyo dawa za kawaida za maumivu ya hedhi, na WHO inaviorodhesha kwa maumivu ya endometriosis. Ni dawa, hivyo Afya haiviuzi wala haiweki bei yake: famasia mshirika yenye leseni huviuza na mfamasia huchunguza kipi kinamfaa na kwa kipimo gani. Ibuprofen haifai kwa kila mtu (kwa mfano vidonda vya tumbo, aina fulani za pumu, ugonjwa wa figo au ujauzito). Maumivu yasiyopungua kwa vidonge na joto, au yanayomzuia kwenda shule au kazini, ni sababu ya kwenda kliniki."
+     },
+     "qty": {
+      "en": "As the pharmacist advises",
+      "sw": "Kama mfamasia anavyoshauri"
+     },
+     "qty_formula": "units 0: product and dose set by the pharmacist; not priced in the box (B4)",
+     "units": 0,
+     "kind": "medicine",
+     "brands": [
+      {
+       "brand": "Panadol",
+       "product": "Advance 500 mg paracetamol caplets",
+       "pack": "10 caplets",
+       "pack_units": 10,
+       "price_tsh": 1500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/panadol-advance-500mg-caplet",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Panadol",
+       "product": "Extra tablets",
+       "pack": "10 tablets",
+       "pack_units": 10,
+       "price_tsh": 1500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/panadol-extra-tablet-10s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false,
+       "note": "Contains caffeine as well as paracetamol."
+      },
+      {
+       "brand": "Ibuprofen-Denk",
+       "product": "Ibuprofen 400 mg tablets",
+       "pack": "20 tablets",
+       "pack_units": 20,
+       "price_tsh": 14719,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/ibuprofen-denk-400mgs-20s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 724,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nurofen",
+       "product": "Ibuprofen 200 mg caplets",
+       "pack": "16 caplets",
+       "pack_units": 16,
+       "price_tsh": 21123,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/nurofen-200mg-caplets-16s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1039,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "iron",
+     "name": {
+      "en": "Iron and folic acid, if the clinic advises (partner pharmacy)",
+      "sw": "Madini ya chuma na foliki, kliniki ikishauri (famasia mshirika)"
+     },
+     "why": {
+      "en": "Monthly blood loss is one cause of anaemia, which WHO says mainly affects young children, pregnant women and menstruating girls and women. WHO has a guideline on intermittent iron and folic acid supplements for menstruating women as a public-health measure where anaemia is common. Tiredness, dizziness, headaches and breathlessness can be signs. The clinic or pharmacist decides whether she needs it and the schedule; the partner pharmacy sells it and Afya does not price it.",
+      "sw": "Kupoteza damu kila mwezi ni chanzo kimojawapo cha upungufu wa damu, ambao WHO inasema huwapata zaidi watoto wadogo, wajawazito na wasichana na wanawake walio katika umri wa hedhi. WHO ina mwongozo kuhusu vidonge vya chuma na foliki vya mara kwa mara (si kila siku) kwa wanawake walio katika umri wa hedhi, kama hatua ya afya ya jamii pale upungufu wa damu umeenea. Uchovu, kizunguzungu, maumivu ya kichwa na kukosa pumzi vinaweza kuwa dalili. Kliniki au mfamasia huamua kama anavihitaji na ratiba yake; famasia mshirika huviuza na Afya haiweki bei yake."
+     },
+     "qty": {
+      "en": "Only if the clinic or pharmacist advises",
+      "sw": "Tu kliniki au mfamasia akishauri"
+     },
+     "qty_formula": "units 0: schedule set by the clinic or pharmacist; not priced in the box (B4)",
+     "units": 0,
+     "kind": "medicine",
+     "brands": [
+      {
+       "brand": "Ferrolic",
+       "product": "LF tablets",
+       "pack": "10 tablets",
+       "pack_units": 10,
+       "price_tsh": 1000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/ferrolic-lf-tablets10s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Ranferon",
+       "product": "Antianemia iron and folic acid capsules",
+       "pack": "10 capsules",
+       "pack_units": 10,
+       "price_tsh": 300,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/ranferon-antianemia-capsules",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Folron",
+       "product": "Iron and folic acid capsules",
+       "pack": "10 capsules",
+       "pack_units": 10,
+       "price_tsh": 12000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/folron-iron-with-folic-acid-capsule",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    }
+   ],
+   "pricing": {
+    "shelf_value": 23095,
+    "landed_goods": 18014,
+    "packing": 0,
+    "delivery": 0,
+    "plans": {
+     "m1": {
+      "price": 22500,
+      "saving_vs_shelf": 595,
+      "margin": 4261,
+      "margin_pct": 18.9
+     },
+     "m6": {
+      "price": 21500,
+      "saving_vs_shelf": 1595,
+      "margin": 3271,
+      "margin_pct": 15.2
+     },
+     "m12": {
+      "price": 21000,
+      "saving_vs_shelf": 2095,
+      "margin": 2776,
+      "margin_pct": 13.2
+     }
+    }
+   }
+  },
+  {
+   "key": "m",
+   "label": {
+    "en": "Every month",
+    "sw": "Kila mwezi"
+   },
+   "months": "1+",
+   "box_size": "S",
+   "items": [
+    {
+     "key": "day",
+     "name": {
+      "en": "Day pads, regular flow",
+      "sw": "Pedi za mchana, damu ya kawaida"
+     },
+     "why": {
+      "en": "Pads are the product most women in Tanzania use, and running out mid-period is when girls and women fall back on cloth or miss school and work. WHO counts access to the products a person needs as part of menstrual health. The count assumes a pad changed about every four hours while awake: four a day on the two heaviest days and three on the three lighter days. In the app the member sets her flow (light, regular or heavy) and the count follows. Length matters more than brand: a longer pad for heavier days, a regular one for lighter days.",
+      "sw": "Pedi ndizo bidhaa ambazo wanawake wengi Tanzania hutumia, na kuishiwa katikati ya hedhi ndipo wasichana na wanawake hurudi kwenye vitambaa au kukosa shule na kazi. WHO inahesabu upatikanaji wa bidhaa anazohitaji mtu kuwa sehemu ya afya ya hedhi. Idadi inakadiria pedi kubadilishwa takriban kila saa nne akiwa macho: nne kwa siku katika siku mbili za damu nyingi na tatu katika siku tatu nyepesi. Kwenye programu mwanachama huchagua kiwango cha damu yake (kidogo, kawaida au nyingi) na idadi hufuata. Urefu ni muhimu kuliko chapa: pedi ndefu kwa siku za damu nyingi, ya kawaida kwa siku nyepesi."
+     },
+     "qty": {
+      "en": "18 pads a month",
+      "sw": "Pedi 18 kwa mwezi"
+     },
+     "qty_formula": "(2 heavy days × 4 changes) + (3 lighter days × 3 changes) = 17, + 1 spare = 18 (regular flow; planning assumption)",
+     "units": 18,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Softcare",
+       "product": "Long sanitary pads",
+       "pack": "10 pads",
+       "pack_units": 10,
+       "price_tsh": 1400,
+       "src": {
+        "name": "superstore.co.tz",
+        "u": "https://superstore.co.tz/shop/all-products/softcare-long-pads-pink/",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true,
+       "note": "Tanzanian listing from the earlier catalogue (seen 2 Nov 2026); the host was refused on 10 Nov, so it was not re-opened. AfyaDepot lists Human Cherish HC pads, 290 mm, at TSh 5,000 (10 pads assumed from the page address; seen 10 Nov), a higher price range."
+      },
+      {
+       "brand": "Femella",
+       "product": "Regular thick pads, 240 mm",
+       "pack": "8 pads",
+       "pack_units": 8,
+       "price_tsh": 1179,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pads/femella-sanitary-pads-240-mm-thick/p/193752",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 58,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Sofy",
+       "product": "Ultra Long pads",
+       "pack": "8 pads",
+       "pack_units": 8,
+       "price_tsh": 2013,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pads/sofy-ultra-sanitary-pad-long-8s/p/222308",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 99,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Molped",
+       "product": "Ultra Soft sanitary pads",
+       "pack": "16 pads",
+       "pack_units": 16,
+       "price_tsh": 4046,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pads/molped-sanitary-pads-ultrasoft16s/p/133555",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 199,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Kotex",
+       "product": "Duos Super pads",
+       "pack": "16 pads",
+       "pack_units": 16,
+       "price_tsh": 4717,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pads/kotex-female-pads-duos-super-16s/p/19500",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 232,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "night",
+     "name": {
+      "en": "Night and heavy-flow pads",
+      "sw": "Pedi za usiku na za damu nyingi"
+     },
+     "why": {
+      "en": "A longer, more absorbent pad protects through the night, when a pad is worn for seven or eight hours without a change, and on the heaviest day. One a night for five nights, plus two for the first two nights, when many women need a change before morning. A woman whose pad soaks through in an hour or two, night after night, should see a clinic: that is heavy menstrual bleeding and a common cause of anaemia.",
+      "sw": "Pedi ndefu yenye uwezo mkubwa wa kunyonya hulinda usiku kucha, pedi inapovaliwa saa saba au nane bila kubadilishwa, na katika siku ya damu nyingi zaidi. Moja kwa kila usiku kwa usiku mitano, pamoja na mbili kwa usiku miwili ya kwanza, ambapo wanawake wengi huhitaji kubadilisha kabla ya asubuhi. Mwanamke ambaye pedi yake hulowa kabisa ndani ya saa moja au mbili, usiku baada ya usiku, aende kliniki: hiyo ni hedhi nzito na chanzo cha kawaida cha upungufu wa damu."
+     },
+     "qty": {
+      "en": "7 pads a month",
+      "sw": "Pedi 7 kwa mwezi"
+     },
+     "qty_formula": "5 nights × 1 + 2 extra changes on the 2 heaviest nights = 7 (planning assumption)",
+     "units": 7,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Always",
+       "product": "Maxi Thick Softer, Extra Long",
+       "pack": "7 pads",
+       "pack_units": 7,
+       "price_tsh": 1900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60263ec453c6d5732d0a3559",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Molped",
+       "product": "Super Night pads",
+       "pack": "7 pads",
+       "pack_units": 7,
+       "price_tsh": 2013,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pads/molped-sanitary-pads-super-night7s/p/132005",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 99,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Kotex",
+       "product": "Ultra-Thin Night pads",
+       "pack": "7 pads",
+       "pack_units": 7,
+       "price_tsh": 2623,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pads/kotex-ultrathin-night-pads-7-s/p/95510",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 129,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Human Cherish",
+       "product": "Pads, 338 mm",
+       "pack": "8 pads",
+       "pack_units": 8,
+       "price_tsh": 3800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a3f7d53c6d5732d0a3650",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false,
+       "note": "AfyaDepot lists Human Cherish HC pads, 338 mm, at TSh 5,000 (10 pads assumed from the page address; seen 10 Nov)."
+      },
+      {
+       "brand": "Kotex",
+       "product": "Maxi Wide Super, wings, long",
+       "pack": "8 pads",
+       "pack_units": 8,
+       "price_tsh": 4400,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a66f253c6d5732d0a3692",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "liner",
+     "name": {
+      "en": "Panty liners",
+      "sw": "Pedi nyembamba za kila siku (liners)"
+     },
+     "why": {
+      "en": "Liners cover the light spotting days at the start and end of a period and back up a cup or a washable pad. Two a day for five days. They are not meant to be worn every day of the month: constant use keeps the skin warm and damp. Unscented liners are chosen. A 40-pack lasts about four months, so it ships when the last one runs out; the monthly price spreads the pack over those months.",
+      "sw": "Liners hutumika siku za matone mepesi mwanzoni na mwishoni mwa hedhi na kama kinga ya ziada kwa kikombe au pedi ya kufua. Mbili kwa siku kwa siku tano. Hazikusudiwi kuvaliwa kila siku ya mwezi: matumizi ya kila siku huiweka ngozi na joto na unyevu. Zimechaguliwa liners zisizo na manukato. Pakiti ya 40 hudumu takriban miezi minne, hivyo hutumwa ile ya mwisho inapokwisha; bei ya kila mwezi hugawanya pakiti katika miezi hiyo."
+     },
+     "qty": {
+      "en": "10 liners a month",
+      "sw": "Liners 10 kwa mwezi"
+     },
+     "qty_formula": "2 a day × 5 days = 10 (planning assumption)",
+     "units": 10,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Kotex",
+       "product": "Normal panty liners",
+       "pack": "40 liners",
+       "pack_units": 40,
+       "price_tsh": 5083,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pantyliners/kotex-panty-liners-normal40-s/p/95513",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 250,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Molped",
+       "product": "Intense panty liners",
+       "pack": "20 liners",
+       "pack_units": 20,
+       "price_tsh": 3253,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pantyliners/molped-panty-linner-intense-pr20-s/p/221959",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 160,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Always",
+       "product": "Everyday panty liners, large",
+       "pack": "16 liners",
+       "pack_units": 16,
+       "price_tsh": 5387,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pantyliners/always-everyday-large-liner16/p/23396",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 265,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "soap",
+     "name": {
+      "en": "Mild soap for external washing",
+      "sw": "Sabuni laini ya kuoshea sehemu za nje"
+     },
+     "why": {
+      "en": "Water and a mild soap on the outside skin, once or twice a day, are all the washing the body needs during a period. The vagina cleans itself, so douches, antiseptics and strongly perfumed products are left out: they upset its natural balance. A bar of her own keeps intimate washing separate from the family bar. No fragrance-free bar was listed by the two Tanzanian retailers, so the mildest cream and glycerine bars are offered. A pH-balanced intimate wash (Vivasol V Wash 100 ml, TSh 15,000 at AfyaDepot) is a swap at a higher price.",
+      "sw": "Maji na sabuni laini kwenye ngozi ya nje, mara moja au mbili kwa siku, ndiyo usafi wote unaohitajika wakati wa hedhi. Uke hujisafisha wenyewe, hivyo dawa za kusafisha ndani, antiseptiki na bidhaa zenye manukato makali zimeachwa: huvuruga uwiano wake wa asili. Kipande chake mwenyewe cha sabuni hutenganisha usafi wa sehemu za siri na sabuni ya familia. Maduka mawili ya Tanzania hayakuwa na sabuni isiyo na manukato, hivyo zinatolewa sabuni laini zaidi za krimu na za glycerine. Sabuni maalum ya maji yenye pH iliyosawazishwa (Vivasol V Wash ml 100, TSh 15,000 AfyaDepot) ni chaguo mbadala kwa bei ya juu zaidi."
+     },
+     "qty": {
+      "en": "1 bar (100 g) a month",
+      "sw": "Kipande 1 (g 100) kwa mwezi"
+     },
+     "qty_formula": "about 2 washes a day × 30 days ≈ 60 washes; one 100 g bar a month (planning assumption)",
+     "units": 100,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Dove",
+       "product": "Pink Cream Bar",
+       "pack": "100 g",
+       "pack_units": 100,
+       "price_tsh": 1900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026872053c6d5732d0a35ee",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Fa",
+       "product": "Cream and Oil soap",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 2600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60bf68c6791c2d11b5e2a66d",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nivea",
+       "product": "Care Cream Soap",
+       "pack": "125 g",
+       "pack_units": 125,
+       "price_tsh": 3800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a829253c6d5732d0a36ee",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Pears",
+       "product": "Transparent Soap",
+       "pack": "125 g",
+       "pack_units": 125,
+       "price_tsh": 4000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b719753c6d5732d0a370c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "bags",
+     "name": {
+      "en": "Disposal bags for used pads",
+      "sw": "Mifuko ya kutupia pedi zilizotumika"
+     },
+     "why": {
+      "en": "A used pad is never flushed: it blocks toilets, drains and pit latrines. It is rolled into its wrapper, put in a small bag that is sealed, and placed in a bin with a lid; WHO counts safe disposal as part of menstrual health. One bag a bleeding day and one spare. Small sealing bags from the household shelf do the job at a fraction of the price of branded sanitary bags.",
+      "sw": "Pedi iliyotumika haiflashiwi kamwe chooni: huziba vyoo, mitaro na mashimo ya choo. Huviringishwa ndani ya kifungashio chake, huwekwa kwenye mfuko mdogo unaofungwa, na kutupwa kwenye pipa lenye mfuniko; WHO inahesabu utupaji salama kuwa sehemu ya afya ya hedhi. Mfuko mmoja kwa kila siku ya damu na mmoja wa ziada. Mifuko midogo inayofungwa kutoka rafu ya mahitaji ya nyumbani inafanya kazi hiyo kwa sehemu ndogo ya bei ya mifuko maalum."
+     },
+     "qty": {
+      "en": "6 bags a month",
+      "sw": "Mifuko 6 kwa mwezi"
+     },
+     "qty_formula": "5 bleeding days × 1 bag + 1 spare = 6",
+     "units": 6,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Glad",
+       "product": "Sandwich bags",
+       "pack": "150 bags",
+       "pack_units": 150,
+       "price_tsh": 12600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a383753c6d5732d0a3639",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true,
+       "note": "Listed as \"150s/180s\"; 150 is used. One pack lasts about two years, so it ships once and the monthly price spreads it."
+      },
+      {
+       "brand": "Safewrap",
+       "product": "Food bags, small",
+       "pack": "60 bags",
+       "pack_units": 60,
+       "price_tsh": 11000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b81bf53c6d5732d0a3743",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Classic",
+       "product": "Snap Seal sandwich bags",
+       "pack": "50 bags",
+       "pack_units": 50,
+       "price_tsh": 11000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026744c53c6d5732d0a35b9",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Falcon",
+       "product": "Zipper freezer bags, 30 × 40 cm",
+       "pack": "30 bags",
+       "pack_units": 30,
+       "price_tsh": 12000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a2fc553c6d5732d0a361a",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Draw-tape",
+       "product": "Pedal-bin liners for sanitary bins",
+       "pack": "30 bags",
+       "pack_units": 30,
+       "price_tsh": 11751,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/garbage-bags-flat-with-ties/bio-pedal-bin-liner-yellow-tape/p/154431",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 578,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "pain",
+     "name": {
+      "en": "Pain relief for cramps (partner pharmacy)",
+      "sw": "Dawa ya maumivu ya tumbo la hedhi (famasia mshirika)"
+     },
+     "why": {
+      "en": "Anti-inflammatory pain tablets such as ibuprofen, or paracetamol, are the usual medicines for period pain, and WHO lists them for the pain of endometriosis. They are medicines, so Afya does not sell or price them: the licensed partner pharmacy sells them and the pharmacist checks which one suits her, at what dose. Ibuprofen is not for everyone (for example stomach ulcers, some asthma, kidney disease or pregnancy). Pain that tablets and heat do not ease, or that keeps her from school or work, is a reason to see a clinic.",
+      "sw": "Vidonge vya kupunguza maumivu na uvimbe kama ibuprofen, au paracetamol, ndiyo dawa za kawaida za maumivu ya hedhi, na WHO inaviorodhesha kwa maumivu ya endometriosis. Ni dawa, hivyo Afya haiviuzi wala haiweki bei yake: famasia mshirika yenye leseni huviuza na mfamasia huchunguza kipi kinamfaa na kwa kipimo gani. Ibuprofen haifai kwa kila mtu (kwa mfano vidonda vya tumbo, aina fulani za pumu, ugonjwa wa figo au ujauzito). Maumivu yasiyopungua kwa vidonge na joto, au yanayomzuia kwenda shule au kazini, ni sababu ya kwenda kliniki."
+     },
+     "qty": {
+      "en": "As the pharmacist advises",
+      "sw": "Kama mfamasia anavyoshauri"
+     },
+     "qty_formula": "units 0: product and dose set by the pharmacist; not priced in the box (B4)",
+     "units": 0,
+     "kind": "medicine",
+     "brands": [
+      {
+       "brand": "Panadol",
+       "product": "Advance 500 mg paracetamol caplets",
+       "pack": "10 caplets",
+       "pack_units": 10,
+       "price_tsh": 1500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/panadol-advance-500mg-caplet",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Panadol",
+       "product": "Extra tablets",
+       "pack": "10 tablets",
+       "pack_units": 10,
+       "price_tsh": 1500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/panadol-extra-tablet-10s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false,
+       "note": "Contains caffeine as well as paracetamol."
+      },
+      {
+       "brand": "Ibuprofen-Denk",
+       "product": "Ibuprofen 400 mg tablets",
+       "pack": "20 tablets",
+       "pack_units": 20,
+       "price_tsh": 14719,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/ibuprofen-denk-400mgs-20s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 724,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nurofen",
+       "product": "Ibuprofen 200 mg caplets",
+       "pack": "16 caplets",
+       "pack_units": 16,
+       "price_tsh": 21123,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/nurofen-200mg-caplets-16s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1039,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Kenyan listing (seen 2 Nov 2026), not re-checked.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "iron",
+     "name": {
+      "en": "Iron and folic acid, if the clinic advises (partner pharmacy)",
+      "sw": "Madini ya chuma na foliki, kliniki ikishauri (famasia mshirika)"
+     },
+     "why": {
+      "en": "Monthly blood loss is one cause of anaemia, which WHO says mainly affects young children, pregnant women and menstruating girls and women. WHO has a guideline on intermittent iron and folic acid supplements for menstruating women as a public-health measure where anaemia is common. Tiredness, dizziness, headaches and breathlessness can be signs. The clinic or pharmacist decides whether she needs it and the schedule; the partner pharmacy sells it and Afya does not price it.",
+      "sw": "Kupoteza damu kila mwezi ni chanzo kimojawapo cha upungufu wa damu, ambao WHO inasema huwapata zaidi watoto wadogo, wajawazito na wasichana na wanawake walio katika umri wa hedhi. WHO ina mwongozo kuhusu vidonge vya chuma na foliki vya mara kwa mara (si kila siku) kwa wanawake walio katika umri wa hedhi, kama hatua ya afya ya jamii pale upungufu wa damu umeenea. Uchovu, kizunguzungu, maumivu ya kichwa na kukosa pumzi vinaweza kuwa dalili. Kliniki au mfamasia huamua kama anavihitaji na ratiba yake; famasia mshirika huviuza na Afya haiweki bei yake."
+     },
+     "qty": {
+      "en": "Only if the clinic or pharmacist advises",
+      "sw": "Tu kliniki au mfamasia akishauri"
+     },
+     "qty_formula": "units 0: schedule set by the clinic or pharmacist; not priced in the box (B4)",
+     "units": 0,
+     "kind": "medicine",
+     "brands": [
+      {
+       "brand": "Ferrolic",
+       "product": "LF tablets",
+       "pack": "10 tablets",
+       "pack_units": 10,
+       "price_tsh": 1000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/ferrolic-lf-tablets10s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Ranferon",
+       "product": "Antianemia iron and folic acid capsules",
+       "pack": "10 capsules",
+       "pack_units": 10,
+       "price_tsh": 300,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/ranferon-antianemia-capsules",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Folron",
+       "product": "Iron and folic acid capsules",
+       "pack": "10 capsules",
+       "pack_units": 10,
+       "price_tsh": 12000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/folron-iron-with-folic-acid-capsule",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    }
+   ],
+   "pricing": {
+    "shelf_value": 8095,
+    "landed_goods": 6314,
+    "packing": 0,
+    "delivery": 0,
+    "plans": {
+     "m1": {
+      "price": 8000,
+      "saving_vs_shelf": 95,
+      "margin": 1606,
+      "margin_pct": 20.1
+     },
+     "m6": {
+      "price": 7500,
+      "saving_vs_shelf": 595,
+      "margin": 1111,
+      "margin_pct": 14.8
+     },
+     "m12": {
+      "price": 7500,
+      "saving_vs_shelf": 595,
+      "margin": 1111,
+      "margin_pct": 14.8
+     }
+    }
+   }
+  }
+ ],
+ "pricing_rule": {
+  "formula": "D4 (10 Nov 2026): core price = shelf value of the month’s goods × (1 − 3% / 6% / 9% for 1 / 6 / 12-month plans), nearest 500, never above shelf. Delivered inside another Afya box (or collected in store), so this pack adds no box and no delivery of its own: packing 0 and delivery 0 in its check; the host box keeps its own packing and delivery inside its price. Check: price − goods at landed cost (78%, R3 planning share) − 1% points ≥ 0. Optional reusable items, medicines and the luxury line are outside the shelf value.",
+  "standalone": {
+   "monthly_S": {
+    "shelf_value": 8095,
+    "landed_goods": 6314,
+    "packing": 3500,
+    "delivery": 3500,
+    "plans": {
+     "m1": {
+      "price": 8000,
+      "saving_vs_shelf": 95,
+      "margin": -5394,
+      "margin_pct": -67.4
+     },
+     "m6": {
+      "price": 7500,
+      "saving_vs_shelf": 595,
+      "margin": -5889,
+      "margin_pct": -78.5
+     },
+     "m12": {
+      "price": 7500,
+      "saving_vs_shelf": 595,
+      "margin": -5889,
+      "margin_pct": -78.5
+     }
+    }
+   },
+   "every_2_months_S": {
+    "shelf_value": 16190,
+    "landed_goods": 12628,
+    "packing": 3500,
+    "delivery": 3500,
+    "plans": {
+     "m1": {
+      "price": 15500,
+      "saving_vs_shelf": 690,
+      "margin": -4283,
+      "margin_pct": -27.6
+     },
+     "m6": {
+      "price": 15000,
+      "saving_vs_shelf": 1190,
+      "margin": -4778,
+      "margin_pct": -31.9
+     },
+     "m12": {
+      "price": 14500,
+      "saving_vs_shelf": 1690,
+      "margin": -5273,
+      "margin_pct": -36.4
+     }
+    }
+   },
+   "every_3_months_M": {
+    "shelf_value": 24285,
+    "landed_goods": 18942,
+    "packing": 5000,
+    "delivery": 3500,
+    "plans": {
+     "m1": {
+      "price": 23500,
+      "saving_vs_shelf": 785,
+      "margin": -4177,
+      "margin_pct": -17.8
+     },
+     "m6": {
+      "price": 23000,
+      "saving_vs_shelf": 1285,
+      "margin": -4672,
+      "margin_pct": -20.3
+     },
+     "m12": {
+      "price": 22000,
+      "saving_vs_shelf": 2285,
+      "margin": -5662,
+      "margin_pct": -25.7
+     }
+    }
+   },
+   "every_6_months_M": {
+    "shelf_value": 48570,
+    "landed_goods": 37885,
+    "packing": 5000,
+    "delivery": 3500,
+    "plans": {
+     "m1": {
+      "price": 47000,
+      "saving_vs_shelf": 1570,
+      "margin": 145,
+      "margin_pct": 0.3
+     },
+     "m6": {
+      "price": 45500,
+      "saving_vs_shelf": 3070,
+      "margin": -1340,
+      "margin_pct": -2.9
+     },
+     "m12": {
+      "price": 44000,
+      "saving_vs_shelf": 4570,
+      "margin": -2825,
+      "margin_pct": -6.4
+     }
+    }
+   },
+   "break_even_shelf_12m_S": 56900
+  }
+ },
+ "luxury": [
+  {
+   "tier": "premium",
+   "name": {
+    "en": "A treat for the hardest days: Cadbury Bournville dark chocolate 80 g, each month",
+    "sw": "Zawadi kwa siku ngumu: chokoleti nyeusi ya Cadbury Bournville g 80, kila mwezi"
+   },
+   "brand": "Cadbury Bournville",
+   "product": "Dark chocolate",
+   "pack": "80 g",
+   "price_tsh": 4000,
+   "src": {
+    "name": "Shoppers Supermarket",
+    "u": "https://www.shoppers.co.tz/product-detail/602b7e9253c6d5732d0a373a",
+    "chk": "2026-11-10"
+   },
+   "orig": null,
+   "status": "TZ",
+   "margin_at_landed": 880
+  },
+  {
+   "tier": "luxury",
+   "name": {
+    "en": "A taste of luxury: Lindt Excellence 85% dark chocolate 100 g, each month",
+    "sw": "Ladha ya anasa: chokoleti nyeusi ya Lindt Excellence 85% g 100, kila mwezi"
+   },
+   "brand": "Lindt",
+   "product": "Excellence Mild 85% dark chocolate",
+   "pack": "100 g",
+   "price_tsh": 14000,
+   "src": {
+    "name": "Shoppers Supermarket",
+    "u": "https://www.shoppers.co.tz/product-detail/602a6f9353c6d5732d0a36a0",
+    "chk": "2026-11-10"
+   },
+   "orig": null,
+   "status": "TZ",
+   "note": "Gift alternative at the same retailer: Lindt Lindor 200 g, TSh 53,500 (seen 10 Nov 2026).",
+   "margin_at_landed": 3080
+  }
+ ],
+ "tiers": {
+  "en": "Regular = the core pack with default brands. Premium = core + the premium treat. Luxury = core + the luxury treat. The treat is priced as its own line at shelf price, outside the saving (D4).",
+  "sw": "Kawaida = kifurushi cha msingi chenye chapa za msingi. Premium = msingi + zawadi ya premium. Anasa = msingi + zawadi ya anasa. Zawadi ina bei yake peke yake kwa bei ya rafu, nje ya punguzo (D4)."
+ },
+ "services": [],
+ "services_note": {
+  "en": "No partner service is included. The clinic signs on the card and in the app point to the member’s own clinic.",
+  "sw": "Hakuna huduma ya mshirika iliyojumuishwa. Dalili za kwenda kliniki kwenye kadi na kwenye programu zinamwelekeza mwanachama kwenye kliniki yake mwenyewe."
+ },
+ "packing": {
+  "film": {
+   "en": null,
+   "sw": null
+  },
+  "poster": null
+ },
+ "open": [
+  {
+   "en": "Pad, liner and cup prices rely partly on Kenyan listings and a 2020 cup price; a Tanzanian distributor quote will replace them.",
+   "sw": "Bei za taulo, pedi nyembamba na kikombe zinategemea kwa sehemu bei za Kenya na bei ya kikombe ya 2020; bei ya msambazaji wa Tanzania itazibadilisha."
+  },
+  {
+   "en": "Most pad and liner prices are Kenyan listings (converted, not re-checked). Shoppers lists only three pads and no liners; AfyaDepot lists one pad line. The Softcare day pad is a Tanzanian listing that could not be re-opened. A distributor quote for pads and liners is needed before the box is final.",
+   "sw": "Bei nyingi za pedi na liners ni za maduka ya Kenya (zimebadilishwa, hazijakaguliwa upya). Shoppers ina pedi tatu tu na haina liners; AfyaDepot ina aina moja ya pedi. Pedi ya mchana ya Softcare ni bei ya duka la Tanzania ambalo halikuweza kufunguliwa tena. Bei kutoka kwa msambazaji wa pedi na liners inahitajika kabla sanduku halijakamilika."
+  },
+  {
+   "en": "The pack has no delivery of its own: it rides in another Afya box or is collected in store. The extra packing (a pouch inside the host box) is not costed yet, and the host box may need the next box size.",
+   "sw": "Kifurushi hakina usafirishaji wake: kinasafiri ndani ya sanduku jingine la Afya au huchukuliwa dukani. Gharama ya ziada ya kufunga (mfuko mdogo ndani ya sanduku mwenyeji) bado haijahesabiwa, na sanduku mwenyeji linaweza kuhitaji saizi inayofuata."
+  },
+  {
+   "en": "Liners have three brands and the hot water bottle four; no other brand was invented to reach five. The cup price for Hedhi Cup is an estimate from a 2020 article.",
+   "sw": "Liners zina chapa tatu na chupa ya maji ya moto nne; hakuna chapa iliyobuniwa ili kufikia tano. Bei ya Hedhi Cup ni makadirio kutoka makala ya mwaka 2020."
+  },
+  {
+   "en": "Quantities (pad changes, soap use) are planning assumptions, to be checked against members’ actual use.",
+   "sw": "Idadi (kubadilisha pedi, matumizi ya sabuni) ni makadirio ya mipango, yatakaguliwa dhidi ya matumizi halisi ya wanachama."
+  }
+ ]
+}

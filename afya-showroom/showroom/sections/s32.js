@@ -150,7 +150,7 @@ const CSS=`
 .s32-tot{padding:12px;border-top:1px solid var(--line)}.s32-tot div{display:flex;justify-content:space-between;font-size:var(--fs-cap);color:var(--mute)}.s32-tot div b{color:var(--gold);font-size:var(--fs-sub);font-weight:600}
 .s32-tot .ab-btn{width:100%;margin-top:10px}
 .s32-ov{position:absolute;inset:0;background:var(--surface);padding:16px;display:none;flex-direction:column;gap:10px}
-.s32-ov.on{display:flex}.s32-ov h4{margin:0}.s32-ov p{margin:0;color:var(--mute);font-size:calc(var(--fs-body) - 2px)}
+.s32-ov.on{display:flex;overflow:auto}.s32-ov h4{margin:0}.s32-ov p{margin:0;color:var(--mute);font-size:calc(var(--fs-body) - 2px)}
 .s32-pin{display:flex;gap:10px;margin:6px 0}.s32-pin i{width:14px;height:14px;border:1px solid var(--mute);border-radius:50%}.s32-pin i.f{background:var(--green-edge);border-color:var(--green-edge)}
 .s32-done{padding:12px;font-size:calc(var(--fs-body) - 2px)}
 .s32-msg{border:1px solid var(--line);background:var(--bg);padding:10px;margin-top:8px}
@@ -179,6 +179,7 @@ const CSS=`
 .s32-qr{width:84px;height:84px;margin-top:10px;border:6px solid var(--ink);background:var(--ink);display:grid;grid-template-columns:repeat(7,1fr)}
 .s32-qr i{background:var(--bg)}.s32-qr i.k{background:var(--ink)}
 .s32-warn{color:var(--gold)}
+.s32 .ab-btn:disabled,.s32 button:disabled{opacity:.45;cursor:default}
 .s32-seq{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;list-style:none;padding:0;margin:var(--s3) 0 0}
 .s32-seq li{border:1px solid var(--line);background:var(--surface);padding:12px}.s32-seq em{display:block;font-style:normal;color:var(--gold);font-size:var(--fs-cap);font-variant-numeric:tabular-nums}
 .s32-seq small{display:block;color:var(--mute);font-size:var(--fs-cap)}.s32-seq b{display:block;margin-top:4px}.s32-seq p{margin:4px 0 0;color:var(--mute);font-size:var(--fs-cap)}
@@ -195,7 +196,7 @@ th.s32-r{text-align:right!important}
 /* ---------- primary visual: designed time budget against the target, per journey ---------- */
 function chartSVG(v){const J=JOUR().filter(j=>j.target>0),l=lang();
  const title=L('Designed time budget against the target for four timed journeys; the Afya Box member journey needs no clicks at all','Muda uliopangwa dhidi ya lengo kwa safari nne zinazopimwa muda; safari ya mwanachama wa Afya Box haihitaji mbofyo wowote');
- if(!v){const W=980,x0=270,w=W-x0-120,rowH=58,H=40+J.length*rowH+60;
+ if(!v){const W=980,x0=270,w=W-x0-190,rowH=58,H=40+J.length*rowH+60;
   const rows=J.map((j,i)=>{const y=40+i*rowH,used=j.steps.reduce((t,s)=>t+s[2],0),sc=w/j.target;let x=x0;
    const segs=j.steps.map((s,k)=>{const r=`<rect x="${x.toFixed(1)}" y="${y}" width="${(s[2]*sc).toFixed(1)}" height="22" style="fill:var(${SEGC[k%5]})"><title>${E(T(s[0],s[1]))}: ${E(fmtS(s[2]))}</title></rect>`;x+=s[2]*sc;return r}).join('');
    return `<text x="0" y="${y+16}" font-size="15" style="fill:var(--ink)">${E(T(...j.n))}</text>${segs}

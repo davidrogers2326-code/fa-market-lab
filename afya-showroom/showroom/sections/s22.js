@@ -114,7 +114,7 @@ const CSS=`
 .s22 .s22-board .s22-who{color:#0F7A52}
 .s22 .s22-board img{display:block;width:min(260px,70%);height:auto;margin:var(--s2) 0}
 .s22 .s22-chips{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
-.s22 .s22-chips span{display:block;aspect-ratio:1/1;border:1px solid #E4E9E6}
+.s22 .s22-chips span{display:block;height:56px;border:1px solid #E4E9E6}
 .s22 .s22-chips small{display:block;font-size:11px;margin-top:4px;color:#0B2219;line-height:1.3}
 .s22 .s22-dark{background:var(--bg)}
 .s22 .s22-tokg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:var(--s2)}
@@ -124,14 +124,14 @@ const CSS=`
 .s22 .s22-swc{padding:var(--s2);border:1px solid #E4E9E6}
 .s22 .s22-swc b{display:block;font-weight:600;font-size:var(--fs-body)}
 .s22 .s22-swc code{font-size:var(--fs-cap)}
-.s22 .s22-swc p{font-size:calc(var(--fs-body) - 2px);margin:8px 0 0}
+.s22 .ab-body .s22-swc p{font-size:calc(var(--fs-body) - 2px);margin:8px 0 0;color:inherit}
 .s22 .s22-swc ul{list-style:none;margin:10px 0 0;padding:0;font-size:var(--fs-cap)}
 .s22 .s22-swc ul li{display:flex;gap:8px;justify-content:space-between;border-top:1px solid currentColor;padding:4px 0;opacity:.95}
 .s22 .s22-prop{display:flex;height:56px;margin-top:var(--s2);border:1px solid var(--line)}
 .s22 .s22-prop div{display:flex;align-items:flex-end;padding:6px;font-size:11px;line-height:1.2;overflow:hidden;min-width:0}
 .s22 .s22-tok td:first-child{width:56px}
 .s22 .s22-tok i{display:block;width:40px;height:24px;border:1px solid var(--line)}
-.s22 .s22-tok code{color:var(--ink)}
+.s22 .s22-tok code{color:var(--ink);white-space:nowrap}
 .s22 .s22-spec{border-top:1px solid var(--line);margin-top:var(--s2)}
 .s22 .s22-spec>div{display:grid;grid-template-columns:200px minmax(0,1fr);gap:var(--s2);padding:var(--s2) 0;border-bottom:1px solid var(--line);align-items:baseline}
 .s22 .s22-spec small{color:var(--mute);font-size:var(--fs-cap)}
@@ -279,7 +279,7 @@ function render(s,p,pv,nx){const I=window.MODEL.inputs,lean=A().isLean();
   <p class="s22-cap">${T(`Each swatch lists the measured contrast of text set on it, against the international accessibility standard: 4.5:1 for normal text, 3:1 for large text${cite(4)}. Text on light surfaces uses the brand’s dark green-black ink.`,`Kila sampuli inaonyesha utofauti uliopimwa wa maandishi yaliyowekwa juu yake, kulingana na kiwango cha kimataifa cha ufikivu: 4.5:1 kwa maandishi ya kawaida, 3:1 kwa maandishi makubwa${cite(4)}. Maandishi juu ya nyuso angavu yanatumia wino wa chapa wa kijani-nyeusi.`)}</p>
   <h3>${L('How much of each','Kiasi cha kila rangi')}</h3>
   <div class="ab-swatch s22-prop" role="img" aria-label="${L('Proportion of use: 55% warm white, 25% Afya Green, 12% soft grey, 5% ink for text, 3% gold','Uwiano wa matumizi: 55% nyeupe ya joto, 25% kijani cha Afya, 12% kijivu laini, 5% wino wa maandishi, 3% dhahabu')}">${PROP.map(x=>`<div style="flex:${x[0]};background:${x[1]};color:${x[2]}">${x[0]}% ${L(x[3][0],x[3][1])}</div>`).join('')}</div>
-  <p class="s22-cap">${L('White space sets the calm, green carries recognition, and gold is used sparingly as an accent.','Nafasi nyeupe inaleta utulivu, kijani kinabeba utambulisho, na dhahabu inatumika kwa uchache kama kionjo.')}</p>
+  <p class="s22-cap">${L('55% warm white, 25% Afya Green, 12% soft grey, 5% ink for text and 3% gold. White space sets the calm, green carries recognition, and gold is used sparingly as an accent.','55% nyeupe ya joto, 25% kijani cha Afya, 12% kijivu laini, 5% wino wa maandishi na 3% dhahabu. Nafasi nyeupe inaleta utulivu, kijani kinabeba utambulisho, na dhahabu inatumika kwa uchache kama kionjo.')}</p>
   <h3>${L('Care Zones: named, not coloured','Kanda za Huduma: zina majina, si rangi')}</h3>
   <p>${L('The store is organised into Care Zones. Each package also carries a small colour sticker on its box. Those category colours exist only on the physical sticker and in product imagery; they are never part of the mark, the app’s main colours or this showroom.','Duka limepangwa katika Kanda za Huduma. Kila kifurushi pia kina kibandiko kidogo cha rangi kwenye boksi lake. Rangi hizo za makundi zipo kwenye kibandiko halisi na kwenye picha za bidhaa tu; kamwe si sehemu ya nembo, rangi kuu za programu wala chumba hiki cha maonyesho.')}</p>
   <ul class="s22-zones">${zones}</ul>

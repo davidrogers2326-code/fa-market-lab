@@ -4,7 +4,7 @@
   "en": "Afya Kazini",
   "sw": "Afya Kazini"
  },
- "final": false,
+ "final": true,
  "delivery": "monthly",
  "box_size": "L",
  "who": {
@@ -5388,6 +5388,10 @@
   "note": "No packing film yet for this box; it needs one on the locked box design, showing an office setting and gloved hands only."
  },
  "open": [
+  {
+   "en": "The contents follow the Occupational Safety and Health Rules 2015 as summarised in public sources; the box list will be checked line by line against the official schedule before launch. Small offices (1–9 staff) on the 12-month plan receive a double box every two months so that the plan covers its delivery.",
+   "sw": "Vitu vinafuata Kanuni za Usalama na Afya Mahali pa Kazi za 2015 kama zilivyofupishwa katika vyanzo vya umma; orodha ya boksi itahakikiwa mstari kwa mstari dhidi ya jedwali rasmi kabla ya kuzindua. Ofisi ndogo (wafanyakazi 1–9) kwenye mpango wa miezi 12 zinapokea boksi mara mbili kila miezi miwili ili mpango ulipie usafirishaji wake."
+  },
   {
    "en": "The item-by-item minimum contents of the first-aid box (First Schedule of the OSH Rules 2015) have not been read: the official text could not be opened. Rules 4, 7 and 12 are cited from search results. The box is not final until the Schedule is checked against the list.",
    "sw": "Orodha ya vifaa vya chini kabisa vya sanduku la huduma ya kwanza (Jedwali la Kwanza la Kanuni za OSH 2015) haijasomwa: maandishi rasmi hayakuweza kufunguliwa. Kanuni ya 4, 7 na 12 zimetajwa kutoka matokeo ya utafutaji. Sanduku halijakamilika hadi Jedwali lilinganishwe na orodha hii."

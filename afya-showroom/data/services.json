@@ -176,5 +176,32 @@
   "included_in_box_by_default": false,
   "free_public_alternative": null,
   "note": "EST (planning, no quote). Walk-in benchmark is AfyaDepot Professional Skin Analysis TSh 40,000 (opened 10 Nov 2026), an aesthetic analysis rather than a doctor consultation. Split follows the postnatal-check pattern. Public alternative not checked."
+ },
+ {
+  "key": "bp-check",
+  "name": {
+   "en": "Quarterly staff blood-pressure check",
+   "sw": "Upimaji wa shinikizo la damu kwa wafanyakazi kila robo mwaka"
+  },
+  "what": {
+   "en": "A nurse visits the office once a quarter and checks blood pressure for up to 25 staff, with a referral note for anyone with a high reading.",
+   "sw": "Muuguzi anatembelea ofisi mara moja kila robo mwaka na kupima shinikizo la damu kwa wafanyakazi hadi 25, na barua ya rufaa kwa yeyote mwenye kipimo cha juu."
+  },
+  "who_provides": {
+   "en": "Partner nursing service (no partner signed yet).",
+   "sw": "Huduma mshirika ya uuguzi (bado hakuna mshirika aliyesaini)."
+  },
+  "walkin_tsh": 25000,
+  "src": null,
+  "status": "EST",
+  "member_in_box_tsh": 22000,
+  "addon_member_tsh": 22500,
+  "provider_net_tsh": 20250,
+  "afya_tsh": 2250,
+  "partner_price_in_box_tsh": 17500,
+  "afya_in_box_tsh": 4500,
+  "included_in_box_by_default": false,
+  "free_public_alternative": null,
+  "note": "EST (planning, no quote). Nearest observed price: AfyaDepot nurse home visit (Minor Wound Dressing) TSh 25,000, opened 10 Nov 2026; × 0.7 partner rate × 1.25 = about 22,000 per visit per 25 staff."
  }
 ]
