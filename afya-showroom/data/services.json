@@ -419,5 +419,167 @@
   "afya_tsh": 5400,
   "partner_price_in_box_tsh": 42000,
   "afya_in_box_tsh": 10500
+ },
+ {
+  "src": null,
+  "included_in_box_by_default": true,
+  "free_public_alternative": null,
+  "member_in_box_tsh": 0,
+  "addon_member_tsh": 0,
+  "provider_net_tsh": 0,
+  "afya_tsh": 0,
+  "partner_price_in_box_tsh": 0,
+  "afya_in_box_tsh": 0,
+  "walkin_tsh": 0,
+  "status": "STORE",
+  "note": "Store service, included.",
+  "key": "growth-check",
+  "name": {
+   "en": "Growth check",
+   "sw": "Ukaguzi wa ukuaji"
+  },
+  "what": {
+   "en": "Height, weight, BMI and blood pressure at the Afya Check in store, free; the reading goes on a chart in the app.",
+   "sw": "Urefu, uzito, BMI na shinikizo la damu kwenye Afya Check dukani, bure; kipimo huwekwa kwenye chati kwenye programu."
+  },
+  "who_provides": {
+   "en": "Afya store team, included in the membership.",
+   "sw": "Timu ya duka la Afya, imejumuishwa kwenye uanachama."
+  }
+ },
+ {
+  "src": null,
+  "included_in_box_by_default": true,
+  "free_public_alternative": null,
+  "member_in_box_tsh": 0,
+  "addon_member_tsh": 0,
+  "provider_net_tsh": 0,
+  "afya_tsh": 0,
+  "partner_price_in_box_tsh": 0,
+  "afya_in_box_tsh": 0,
+  "walkin_tsh": 0,
+  "status": "STORE",
+  "note": "Store service, included.",
+  "key": "deworming-reminder",
+  "name": {
+   "en": "Deworming reminder",
+   "sw": "Kikumbusho cha dawa za minyoo"
+  },
+  "what": {
+   "en": "A reminder before the June and December holidays to check the school deworming round, free.",
+   "sw": "Kikumbusho kabla ya likizo za Juni na Desemba kukagua awamu ya dawa za minyoo shuleni, bure."
+  },
+  "who_provides": {
+   "en": "Afya store team, included in the membership.",
+   "sw": "Timu ya duka la Afya, imejumuishwa kwenye uanachama."
+  }
+ },
+ {
+  "src": null,
+  "included_in_box_by_default": true,
+  "free_public_alternative": null,
+  "member_in_box_tsh": 0,
+  "addon_member_tsh": 0,
+  "provider_net_tsh": 0,
+  "afya_tsh": 0,
+  "partner_price_in_box_tsh": 0,
+  "afya_in_box_tsh": 0,
+  "walkin_tsh": 0,
+  "status": "STORE",
+  "note": "Store service, included.",
+  "key": "hpv-reminder",
+  "name": {
+   "en": "HPV vaccine reminder",
+   "sw": "Kikumbusho cha chanjo ya HPV"
+  },
+  "what": {
+   "en": "A reminder of the free single-dose HPV vaccine from the public programme, for girls at 9 or who missed it.",
+   "sw": "Kikumbusho cha chanjo ya bure ya HPV ya dozi moja kutoka mpango wa serikali, kwa wasichana wa miaka 9 au walioikosa."
+  },
+  "who_provides": {
+   "en": "Afya store team, included in the membership.",
+   "sw": "Timu ya duka la Afya, imejumuishwa kwenye uanachama."
+  }
+ },
+ {
+  "src": null,
+  "included_in_box_by_default": true,
+  "free_public_alternative": null,
+  "member_in_box_tsh": 0,
+  "addon_member_tsh": 0,
+  "provider_net_tsh": 0,
+  "afya_tsh": 0,
+  "partner_price_in_box_tsh": 0,
+  "afya_in_box_tsh": 0,
+  "walkin_tsh": 0,
+  "status": "STORE",
+  "note": "Store service, included.",
+  "key": "first-period-talk",
+  "name": {
+   "en": "First-period talk",
+   "sw": "Mazungumzo ya hedhi ya kwanza"
+  },
+  "what": {
+   "en": "A private talk in store with a female adviser, with a parent if she wishes, at the first box, free.",
+   "sw": "Mazungumzo ya faragha dukani na mshauri mwanamke, pamoja na mzazi akipenda, katika sanduku la kwanza, bure."
+  },
+  "who_provides": {
+   "en": "Afya store team, included in the membership.",
+   "sw": "Timu ya duka la Afya, imejumuishwa kwenye uanachama."
+  }
+ },
+ {
+  "src": null,
+  "included_in_box_by_default": true,
+  "free_public_alternative": null,
+  "member_in_box_tsh": 0,
+  "addon_member_tsh": 0,
+  "provider_net_tsh": 0,
+  "afya_tsh": 0,
+  "partner_price_in_box_tsh": 0,
+  "afya_in_box_tsh": 0,
+  "walkin_tsh": 0,
+  "status": "STORE",
+  "note": "Store service, included.",
+  "key": "puberty-talk",
+  "name": {
+   "en": "Puberty talk",
+   "sw": "Mazungumzo ya kubalehe"
+  },
+  "what": {
+   "en": "A private talk in store with a male adviser at about 12 and 15, free.",
+   "sw": "Mazungumzo ya faragha dukani na mshauri mwanaume akiwa na takriban miaka 12 na 15, bure."
+  },
+  "who_provides": {
+   "en": "Afya store team, included in the membership.",
+   "sw": "Timu ya duka la Afya, imejumuishwa kwenye uanachama."
+  }
+ },
+ {
+  "src": null,
+  "included_in_box_by_default": false,
+  "free_public_alternative": null,
+  "member_in_box_tsh": null,
+  "addon_member_tsh": null,
+  "provider_net_tsh": null,
+  "afya_tsh": null,
+  "partner_price_in_box_tsh": null,
+  "afya_in_box_tsh": null,
+  "walkin_tsh": null,
+  "status": "NO_QUOTE",
+  "note": "No partner quote yet; price published once quoted.",
+  "key": "dental-check",
+  "name": {
+   "en": "Dental check-up (add-on)",
+   "sw": "Uchunguzi wa meno (nyongeza)"
+  },
+  "what": {
+   "en": "A six-monthly check-up with a partner dentist, booked as an add-on.",
+   "sw": "Uchunguzi wa meno kila miezi sita kwa daktari wa meno mshirika, unaoagizwa kama nyongeza."
+  },
+  "who_provides": {
+   "en": "Partner dental clinic (no partner signed yet).",
+   "sw": "Kliniki mshirika ya meno (bado hakuna mshirika aliyesaini)."
+  }
  }
 ]
