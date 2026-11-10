@@ -13,6 +13,8 @@
 - **Downside figure:** the model now gives −TSh 48.5M (month 7) for the flagship downside, because the compliance line is spent rather than held in reserve. The pages show the live model figure, and the brief's D-20 wording is updated to match. Start-small downside stays positive (+TSh 7.4M, month 5).
 - **Pre-sale deposit:** shown as "a refundable deposit" until R4 recommends an amount.
 - **Afya Men sunscreen default:** Nivea Sun SPF 50 (TSh 24,396, Tanzanian listing), not the cheapest Disaar SPF 90, whose listing does not state broad-spectrum (UVA) protection. Shelf value is TSh 56,957; member price 55,000 / 53,500 / 52,000. The box now pays its way on monthly delivery, so no change to delivery is needed.
+- **Afya Glow delivery:** two months of goods every two months (same reasoning as the per-trimester pregnancy boxes). Delivered monthly, the Regular box lost TSh 1,369–2,854 a month on the 6- and 12-month plans. Two-monthly delivery makes every plan pay its way. Shelf is TSh 95,947 per box; member price on the 6-month plan is TSh 90,000. The monthly collect-in-store option is left for after opening.
+- **Afya Glow contents:** the even-tone serum is dropped (no guideline supporting it could be opened), along with nothing that lightens skin and Disaar "SPF 90" products. The skin consultation is added to the services list as an estimate (TSh 35,000 in-box; walk-in benchmark AfyaDepot TSh 40,000). It is not part of the box price.
 - **Afya Men:** condoms are not added (out of the box's scope; no opt-in add-on for now).
 
 ## Phase 4 · Compliance and money — 10 November 2026 (approved)

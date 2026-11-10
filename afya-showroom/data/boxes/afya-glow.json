@@ -5,7 +5,7 @@
   "sw": "Afya Glow"
  },
  "final": true,
- "delivery": "monthly",
+ "delivery": "every-2-months",
  "box_size": "M",
  "who": {
   "en": "<p>Afya Glow is the everyday skin, hair and personal-care box for women aged 20 to 59 in Dar es Salaam. The city is hot and humid all year and close to the equator, so the sun is strong every day: skin sweats, hair dries out and dark marks darken. The box covers what a woman uses each month: a gentle face cleanser, a moisturiser and a daily broad-spectrum sunscreen; body lotion and a mild beauty bar; an antiperspirant; shampoo and a leave-in conditioner for natural hair; fluoride toothpaste, a toothbrush and floss; a lip balm; and one spare pack of pads.</p>\n<p><strong>Sun protection for darker skin.</strong> WHO advises shade, a hat and broad-spectrum sunscreen on skin that clothes do not cover, and notes that darker-skinned people also develop skin cancers. For dark skin the daily gain is an even tone: sun makes dark patches, acne marks and melasma darker, so a daily sunscreen does more for an even tone than any cream sold to lighten.</p>\n<p><strong>No skin lighteners, ever.</strong> WHO warns that skin-lightening products often contain mercury, which damages the kidneys and nervous system and harms the unborn child, and other hazardous chemicals such as hydroquinone. The Minamata Convention bars cosmetics with more than 1 ppm of mercury. Tanzania bans cosmetics containing mercury or hydroquinone, and the Tanzania Bureau of Standards publishes a list of banned products. Afya Basics never sells or recommends a lightening product, a \"whitening\" soap or a steroid cream for the face. A member who wants to treat dark patches or acne is offered a partner skin consultation instead.</p>\n<p><strong>Period care stays light.</strong> One pack of pads is a spare for an early or unexpected period. Full period care is the separate Afya Siku box. The box holds no medicines.</p>",
@@ -81,8 +81,8 @@
   {
    "key": "m",
    "label": {
-    "en": "Every month",
-    "sw": "Kila mwezi"
+    "en": "Every two months (two months of goods)",
+    "sw": "Kila miezi miwili (bidhaa za miezi miwili)"
    },
    "months": "1–12",
    "box_size": "M",
@@ -98,11 +98,11 @@
       "sw": "Kisafishaji laini asubuhi na jioni huondoa jasho, mafuta na kinga ya jua bila kuharibu tabaka la kinga la ngozi. Kwenye ngozi nyeusi, muwasho na msuguano mara nyingi huacha madoa meusi, hivyo skrabu, sabuni za antiseptiki usoni na sabuni yoyote ya \"kung’arisha\" zimeachwa."
      },
      "qty": {
-      "en": "60 ml a month",
-      "sw": "ml 60 kwa mwezi"
+      "en": "60 ml a month · two months per box",
+      "sw": "ml 60 kwa mwezi · miezi miwili kwa boksi"
      },
      "qty_formula": "about 1 ml a wash × 2 washes a day × 30 days = 60 ml (planning assumption)",
-     "units": 60,
+     "units": 120,
      "kind": "goods",
      "brands": [
       {
@@ -218,11 +218,11 @@
       "sw": "Krimu ya unyevu baada ya kusafisha hulinda tabaka la kinga la ngozi, jambo linalopunguza ngozi kubambuka na muwasho unaoacha madoa meusi. Kiasi cha punje ya njegere mara mbili kwa siku kinatosha; krimu nzito zenye manukato zinazouzwa kama krimu za \"kung’aa\" au za \"weupe\" hazitumiki, kwa sababu ndimo viambato vya kuchubua vilivyofichwa hupatikana."
      },
      "qty": {
-      "en": "30 ml a month",
-      "sw": "ml 30 kwa mwezi"
+      "en": "30 ml a month · two months per box",
+      "sw": "ml 30 kwa mwezi · miezi miwili kwa boksi"
      },
      "qty_formula": "about 0.5 ml (a pea-sized amount) × 2 a day × 30 days = 30 ml (planning assumption)",
-     "units": 30,
+     "units": 60,
      "kind": "goods",
      "brands": [
       {
@@ -315,11 +315,11 @@
       "sw": "WHO inashauri kinga ya jua ya wigo mpana kwenye ngozi isiyofunikwa na nguo, pamoja na kivuli na kofia, na inaeleza kuwa watu wenye ngozi nyeusi pia hupata saratani ya ngozi. Madaktari wa ngozi wanapendekeza SPF 30 au zaidi kwa kila rangi ya ngozi (AAD); kwa ngozi nyeusi faida ya kila siku ni mabaka meusi machache na melasma kidogo, kwa sababu jua huyafanya kuwa meusi zaidi. Hii ndiyo njia salama ya kusawazisha rangi ya ngozi, badala ya krimu za kuchubua."
      },
      "qty": {
-      "en": "40 ml a month",
-      "sw": "ml 40 kwa mwezi"
+      "en": "40 ml a month · two months per box",
+      "sw": "ml 40 kwa mwezi · miezi miwili kwa boksi"
      },
      "qty_formula": "about 1.25 ml (a quarter teaspoon) for face and neck each morning × 30 days ≈ 40 ml; reapplying at midday needs more (planning assumption)",
-     "units": 40,
+     "units": 80,
      "kind": "goods",
      "brands": [
       {
@@ -423,11 +423,11 @@
       "sw": "Losheni kwenye ngozi yenye unyevu baada ya kuoga kila siku huzuia ukavu wa kijivu kwenye viwiko, magoti na miguu unaoonekana mara nyingi kwenye ngozi nyeusi. Losheni za kawaida za unyevu pekee ndizo zinatolewa: hakuna losheni ya \"weupe\" au ya \"kubadilisha rangi\", kwa sababu nyingi zinazouzwa sokoni zina viambato vya kuchubua visivyotajwa."
      },
      "qty": {
-      "en": "300 ml a month",
-      "sw": "ml 300 kwa mwezi"
+      "en": "300 ml a month · two months per box",
+      "sw": "ml 300 kwa mwezi · miezi miwili kwa boksi"
      },
      "qty_formula": "about 10 ml for the whole body once a day × 30 days = 300 ml (planning assumption)",
-     "units": 300,
+     "units": 600,
      "kind": "goods",
      "brands": [
       {
@@ -530,11 +530,11 @@
       "sw": "Kuoga mara moja au mbili kwa siku katika hali ya joto kunahitaji sabuni laini yenye unyevu. Sabuni za krimu na krimu za kuogea hukausha ngozi kidogo sana kuliko sabuni za antiseptiki au za kufulia, ambazo huondoa mafuta ya ngozi na kuongeza muwasho na ukavu. Sabuni za dawa na za \"kung’arisha\" zimeachwa."
      },
      "qty": {
-      "en": "250 g or ml a month",
-      "sw": "g au ml 250 kwa mwezi"
+      "en": "250 g or ml a month · two months per box",
+      "sw": "g au ml 250 kwa mwezi · miezi miwili kwa boksi"
      },
      "qty_formula": "about 8 g or ml a day × 30 days ≈ 250 (planning assumption)",
-     "units": 250,
+     "units": 500,
      "kind": "goods",
      "brands": [
       {
@@ -630,11 +630,11 @@
       "sw": "Antiperspirant kwenye ngozi iliyokauka kabisa baada ya kuoga asubuhi hudhibiti jasho na harufu katika joto la Dar es Salaam; roll-on moja ya ml 50 hudumu takribani mwezi mmoja. Kuipaka kwenye ngozi kavu na si mara baada ya kunyoa huzuia kuwasha na weusi wa kwapani unaosababishwa na muwasho. Deodoranti za \"kung’arisha\" hazitolewi."
      },
      "qty": {
-      "en": "1 roll-on a month",
-      "sw": "Roll-on 1 kwa mwezi"
+      "en": "1 roll-on a month · two months per box",
+      "sw": "Roll-on 1 kwa mwezi · miezi miwili kwa boksi"
      },
      "qty_formula": "once a day; one 50 ml roll-on lasts about a month (planning assumption)",
-     "units": 1,
+     "units": 2,
      "kind": "goods",
      "brands": [
       {
@@ -737,11 +737,11 @@
       "sw": "Madaktari wa ngozi wanashauri kuosha nywele za asili za Kiafrika takribani mara moja kwa wiki au kila wiki mbili, kwa sababu nywele zilizojikunja hupoteza unyevu kwa urahisi na kuoshwa mara nyingi huzifanya kukauka na kukatika (AAD). Utaratibu huo huo unafaa misuko na mitindo ya kulinda nywele, shampuu ikisuguliwa kichwani."
      },
      "qty": {
-      "en": "100 ml a month",
-      "sw": "ml 100 kwa mwezi"
+      "en": "100 ml a month · two months per box",
+      "sw": "ml 100 kwa mwezi · miezi miwili kwa boksi"
      },
      "qty_formula": "about 25 ml a wash × 4 washes a month = 100 ml (planning assumption)",
-     "units": 100,
+     "units": 200,
      "kind": "goods",
      "brands": [
       {
@@ -844,11 +844,11 @@
       "sw": "Kiyoyozi baada ya kila kuosha ndicho kiini cha utaratibu wa AAD kwa nywele za Kiafrika: hurudisha unyevu, hurahisisha kuchana na hupunguza kukatika kunakopunguza nywele za pembeni. Dawa za kunyoosha nywele na vifaa vya joto kali havijajumuishwa, kwa sababu madaktari wa ngozi wanavihusisha na kukatika na upotevu wa nywele wa kudumu."
      },
      "qty": {
-      "en": "120 ml a month",
-      "sw": "ml 120 kwa mwezi"
+      "en": "120 ml a month · two months per box",
+      "sw": "ml 120 kwa mwezi · miezi miwili kwa boksi"
      },
      "qty_formula": "about 30 ml an application × 4 a month (after each wash) = 120 ml (planning assumption)",
-     "units": 120,
+     "units": 240,
      "kind": "goods",
      "brands": [
       {
@@ -947,11 +947,11 @@
       "sw": "WHO inashauri kupiga mswaki mara mbili kwa siku kwa dawa ya meno yenye floraidi ya ppm 1,000–1,500; kupata floraidi kidogo ni moja ya sababu kuu za kuoza kwa meno kuendelea kuongezeka. Dawa za kung’arisha zenye mchanga mkali na dawa za mkaa zimeachwa."
      },
      "qty": {
-      "en": "60 g a month",
-      "sw": "g 60 kwa mwezi"
+      "en": "60 g a month · two months per box",
+      "sw": "g 60 kwa mwezi · miezi miwili kwa boksi"
      },
      "qty_formula": "about 1 g a brushing × 2 a day × 30 days = 60 g (planning assumption)",
-     "units": 60,
+     "units": 120,
      "kind": "goods",
      "brands": [
       {
@@ -1039,11 +1039,11 @@
       "sw": "Mswaki hubadilishwa takribani kila miezi mitatu, au mapema zaidi nyuzi zikipinda, kwa sababu mswaki uliochakaa husafisha vibaya (NHS). Theluthi ya mswaki hulipiwa kila mwezi na mswaki mpya hutumwa kila sanduku la tatu."
      },
      "qty": {
-      "en": "1 every 3 months",
-      "sw": "1 kila miezi 3"
+      "en": "1 every 3 months · two months per box",
+      "sw": "1 kila miezi 3 · miezi miwili kwa boksi"
      },
      "qty_formula": "1 brush ÷ 3 months = 1/3 a month",
-     "units": 0.3333333333333333,
+     "units": 0.6666666666666666,
      "kind": "goods",
      "brands": [
       {
@@ -1123,11 +1123,11 @@
       "sw": "Mswaki haufiki katikati ya meno, mahali ambapo magonjwa ya fizi na kuoza kwa meno kwa watu wazima mara nyingi huanzia; NHS inashauri kusafisha katikati ya meno mara moja kwa siku kwa uzi au brashi ndogo. Fizi zinazotoa damu mwanzoni kwa kawaida huacha ndani ya wiki moja au mbili."
      },
      "qty": {
-      "en": "15 m a month",
-      "sw": "mita 15 kwa mwezi"
+      "en": "15 m a month · two months per box",
+      "sw": "mita 15 kwa mwezi · miezi miwili kwa boksi"
      },
      "qty_formula": "about 45 cm a day × 30 days ≈ 15 m; a 50 m reel lasts about 3 months",
-     "units": 15,
+     "units": 30,
      "kind": "goods",
      "brands": [
       {
@@ -1203,11 +1203,11 @@
       "sw": "Midomo ina kinga ndogo ya asili na hukauka haraka kwenye jua na upepo; ukavu husababisha kubambuka na mabaka meusi. Madaktari wa ngozi wanashauri mafuta ya midomo yenye SPF 30 au zaidi kwa jua la kila siku (AAD), hivyo vijiti vyenye SPF vinatolewa kama chaguo mbadala."
      },
      "qty": {
-      "en": "4 g a month",
-      "sw": "g 4 kwa mwezi"
+      "en": "4 g a month · two months per box",
+      "sw": "g 4 kwa mwezi · miezi miwili kwa boksi"
      },
      "qty_formula": "about 4 thin applications a day; a 4.8 g stick lasts about 5 weeks ≈ 4 g a month (planning assumption)",
-     "units": 4,
+     "units": 8,
      "kind": "goods",
      "brands": [
       {
@@ -1328,11 +1328,11 @@
       "sw": "Pakiti moja huweka akiba kwa hedhi iliyowahi au isiyotarajiwa, nyumbani au kwenye mkoba. Huduma kamili ya hedhi, yenye taulo za usiku, panty liners na dawa za maumivu kupitia famasia mshirika, ni sanduku tofauti la Afya Siku."
      },
      "qty": {
-      "en": "1 pack (about 8 pads)",
-      "sw": "Pakiti 1 (taulo takribani 8)"
+      "en": "1 pack (about 8 pads) · two months per box",
+      "sw": "Pakiti 1 (taulo takribani 8) · miezi miwili kwa boksi"
      },
      "qty_formula": "1 pack a month ≈ 8 pads; a spare, not a full cycle",
-     "units": 8,
+     "units": 16,
      "kind": "goods",
      "brands": [
       {
@@ -1496,8 +1496,8 @@
  },
  "open": [
   {
-   "en": "The box does not pay its way on the 6- and 12-month plans when delivered monthly: the shelf value is TSh 47,973, below the about TSh 70,300 needed to cover an M box and a delivery on the 12-month plan. The proposed fix is to deliver two months of goods every two months (or let the member collect monthly in store); Premium and Luxury cover monthly delivery through their luxury line.",
-   "sw": "Sanduku halijilipii kwenye mipango ya miezi 6 na 12 likisafirishwa kila mwezi: thamani ya rafu ni TSh 47,973, chini ya takribani TSh 70,300 zinazohitajika kulipia sanduku la M na usafirishaji kwenye mpango wa miezi 12. Pendekezo ni kusafirisha bidhaa za miezi miwili kila miezi miwili (au mwanachama achukue kila mwezi dukani); Premium na Anasa zinalipia usafirishaji wa kila mwezi kupitia bidhaa yao ya anasa."
+   "en": "Delivered as two months of goods every two months, so every plan covers its box and delivery. A monthly collect-in-store option can be added once the store is open.",
+   "sw": "Inasafirishwa kama bidhaa za miezi miwili kila miezi miwili, ili kila mpango ulipie boksi na usafirishaji wake. Chaguo la kuchukua kila mwezi dukani linaweza kuongezwa duka likishafunguliwa."
   },
   {
    "en": "The sunscreen, leave-in conditioner, cleanser, lip balm and pad defaults are Kenyan shelf prices (converted at KES 20.33) because no matching Tanzanian listing was found on AfyaDepot or Shoppers. Tanzanian prices are needed, above all for sunscreen.",

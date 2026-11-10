@@ -149,5 +149,32 @@
    "sw": "Ziara za kitabibu za kliniki ya wajawazito, vidonge vya madini ya chuma na foliki na kinga ya malaria ni bure katika kliniki za serikali za RCH (Sera ya Taifa ya Afya ya 2007). Afya haitozi chochote kwa hayo; inakumbusha tu."
   },
   "note": "EST (planning, no quote). No Dar antenatal-class price was found online. 20,000 is the model.js walk-in planning figure (preg pack, Prenatal class). part3c.js lists it as optional and uses 20,000 as the partner price."
+ },
+ {
+  "key": "skin-consultation",
+  "name": {
+   "en": "Skin consultation",
+   "sw": "Ushauri wa ngozi"
+  },
+  "what": {
+   "en": "A skin check and routine advice with a skin-care professional at a partner clinic: skin type, dark marks, sun protection, and which products to avoid.",
+   "sw": "Uchunguzi wa ngozi na ushauri wa utaratibu na mtaalamu wa ngozi katika kliniki mshirika: aina ya ngozi, madoa meusi, kinga ya jua, na bidhaa za kuepuka."
+  },
+  "who_provides": {
+   "en": "Partner skin clinic in Dar es Salaam (no partner signed yet).",
+   "sw": "Kliniki mshirika ya ngozi Dar es Salaam (bado hakuna mshirika aliyesaini)."
+  },
+  "walkin_tsh": 40000,
+  "src": "https://afyadepot.co.tz/product/professional-skin-analysis",
+  "status": "EST",
+  "member_in_box_tsh": 35000,
+  "addon_member_tsh": 36000,
+  "provider_net_tsh": 32400,
+  "afya_tsh": 3600,
+  "partner_price_in_box_tsh": 28000,
+  "afya_in_box_tsh": 7000,
+  "included_in_box_by_default": false,
+  "free_public_alternative": null,
+  "note": "EST (planning, no quote). Walk-in benchmark is AfyaDepot Professional Skin Analysis TSh 40,000 (opened 10 Nov 2026), an aesthetic analysis rather than a doctor consultation. Split follows the postnatal-check pattern. Public alternative not checked."
  }
 ]
