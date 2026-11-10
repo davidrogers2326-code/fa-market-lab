@@ -49,7 +49,7 @@ function render(s,p,pv,nx){const N=numbers(),seed=N.seed;
    <div class="ab-hint" aria-hidden="true"><span>${E(T('Closed','Limefungwa'))}</span><div class="ab-track"><i id="abProg"></i></div><span>${E(T('Open','Liko wazi'))}</span></div>
   </div>
  </section>
- <p class="ab-notice">${E(T('The items shown are an example of one Mama na Mtoto month. The final item list, brand choices and sourced shelf prices are in research and appear in section 3.5 when they are complete.','Vitu vinavyoonyeshwa ni mfano wa mwezi mmoja wa Mama na Mtoto. Orodha ya mwisho ya vitu, chaguo za chapa na bei za rafu zenye vyanzo bado zinafanyiwa utafiti na zitaonekana katika sehemu ya 3.5 zikikamilika.'))}</p>
+ <p class="ab-notice">${E(T('The items shown are an example of one Mama na Mtoto month. The full item list for every stage, with brand choices and sourced shelf prices, is in section 3.5.','Vitu vinavyoonyeshwa ni mfano wa mwezi mmoja wa Mama na Mtoto. Orodha kamili ya vitu kwa kila hatua, pamoja na chaguo za chapa na bei za rafu zenye vyanzo, iko katika sehemu ya 3.5.'))}</p>
 
  <section class="ab-block">
   <h2>${E(T('Care has moved home. Shopping for it has not.','Huduma ya afya imehamia nyumbani. Ununuzi wake bado haujahamia.'))}</h2>

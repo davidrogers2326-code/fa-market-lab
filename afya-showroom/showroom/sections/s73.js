@@ -1,7 +1,7 @@
 /* 7.3 Risks · v2 on the D2 template.
    The register is rewritten from research R1 (regulation), R2 (kiosk), R3 (pricing and churn), R5 (payments) and the
    brief's R4 decisions (pre-sale, phased launch; details still to be settled). Likelihood and impact are founder
-   estimates (1–5). Model figures follow the funding switch. Heat-map shades are opacity steps of --gold and --green only. */
+   estimates (1–5). Model figures follow the funding switch. Heat-map shades are opacity steps of --green-edge and --green only (gold is reserved for numbers, C2). */
 (function(){
 'use strict';
 const A=()=>window.AB,T=(e,s)=>A().T(e,s),E=s=>A().E(s),L=x=>T(x[0],x[1]);
@@ -188,9 +188,9 @@ function risks(){const M=window.MODEL,I=M.inputs,lean=A().isLean(),b=M.get('base
   ['afyadepot'],'s5-3']]}
 
 /* bands: shades built only from the tokens (opacity steps of gold and green) */
-const BANDS=[[15,'var(--gold)',0.9,['Act now (15–25)','Chukua hatua sasa (15–25)']],[10,'var(--gold)',0.5,['Active plan (10–14)','Mpango hai (10–14)']],[6,'var(--gold)',0.22,['Watch (6–9)','Fuatilia (6–9)']],[3,'var(--green)',0.6,['Monitor (3–5)','Angalia (3–5)']],[1,'var(--green)',0.3,['Accept (1–2)','Kubali (1–2)']]];
+const BANDS=[[15,'var(--green-edge)',0.95,['Act now (15–25)','Chukua hatua sasa (15–25)']],[10,'var(--green-edge)',0.6,['Active plan (10–14)','Mpango hai (10–14)']],[6,'var(--green)',0.75,['Watch (6–9)','Fuatilia (6–9)']],[3,'var(--green)',0.4,['Monitor (3–5)','Angalia (3–5)']],[1,'var(--green)',0.18,['Accept (1–2)','Kubali (1–2)']]];
 const band=sc=>BANDS.find(b=>sc>=b[0]);
-const chip=(l,i)=>{const b=band(l*i);return `<span class="ab73-sc" style="background:color-mix(in srgb, ${b[1]} ${Math.round(b[2]*100)}%, transparent);color:${b[2]>=0.5&&b[1]==='var(--gold)'?'var(--bg)':'var(--ink)'}">${l*i}</span>`};
+const chip=(l,i)=>{const b=band(l*i);return `<span class="ab73-sc" style="background:color-mix(in srgb, ${b[1]} ${Math.round(b[2]*100)}%, transparent);color:${b[2]>=0.5&&b[1]==='var(--green-edge)'?'var(--bg)':'var(--ink)'}">${l*i}</span>`};
 
 const CSS=`<style>
 .ab73 .ab-block>h2+*{margin-top:16px}
@@ -226,7 +226,7 @@ function heatSVG(R){const counts={};R.forEach(r=>{const k=r[1]+'-'+r[2];counts[k
  const cs=60,ox=56,oy=8;let h='';
  [5,4,3,2,1].forEach((l,ri)=>[1,2,3,4,5].forEach((i,ci)=>{const n=counts[l+'-'+i]||0,b=band(l*i),x=ox+ci*cs,y=oy+ri*cs;
   const lab=T(`Likelihood ${l}, impact ${i}: ${n} ${n===1?'risk':'risks'}. Filter the register`,`Uwezekano ${l}, athari ${i}: hatari ${n}. Chuja rejista`);
-  h+=`<g class="ab73-cell" data-l="${l}" data-i="${i}" ${n?`tabindex="0" role="button" aria-pressed="false" aria-label="${E(lab)}"`:'aria-hidden="true"'}><rect x="${x}" y="${y}" width="${cs-6}" height="${cs-6}" rx="6" style="fill:${n?b[1]:'var(--surface)'};fill-opacity:${n?b[2]:1};stroke:var(--line);stroke-width:1"/>${n?`<text x="${x+(cs-6)/2}" y="${y+(cs-6)/2+6}" text-anchor="middle" font-size="17" style="fill:${b[2]>=0.5&&b[1]==='var(--gold)'?'var(--bg)':'var(--ink)'}">${n}</text>`:''}</g>`}));
+  h+=`<g class="ab73-cell" data-l="${l}" data-i="${i}" ${n?`tabindex="0" role="button" aria-pressed="false" aria-label="${E(lab)}"`:'aria-hidden="true"'}><rect x="${x}" y="${y}" width="${cs-6}" height="${cs-6}" rx="6" style="fill:${n?b[1]:'var(--surface)'};fill-opacity:${n?b[2]:1};stroke:var(--line);stroke-width:1"/>${n?`<text x="${x+(cs-6)/2}" y="${y+(cs-6)/2+6}" text-anchor="middle" font-size="17" style="fill:${b[2]>=0.5&&b[1]==='var(--green-edge)'?'var(--bg)':'var(--ink)'}">${n}</text>`:''}</g>`}));
  [5,4,3,2,1].forEach((l,ri)=>{h+=`<text x="${ox-12}" y="${oy+ri*cs+33}" text-anchor="end" font-size="12" style="fill:var(--mute)">${l}</text>`});
  [1,2,3,4,5].forEach((i,ci)=>{h+=`<text x="${ox+ci*cs+27}" y="${oy+5*cs+16}" text-anchor="middle" font-size="12" style="fill:var(--mute)">${i}</text>`});
  h+=`<text x="${ox+2.5*cs-3}" y="${oy+5*cs+38}" text-anchor="middle" font-size="12" style="fill:var(--mute)">${E(T('Impact →','Athari →'))}</text>`;
