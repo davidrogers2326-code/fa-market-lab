@@ -30,7 +30,7 @@ const SRC={
  sdg8:['United Nations: Sustainable Development Goal 8, targets','Umoja wa Mataifa: Lengo la Maendeleo Endelevu 8, shabaha','https://sdgs.un.org/goals/goal8'],
  nssf:['Lenvica (HR adviser), May 2022: National Social Security Fund (NSSF) in Tanzania','Lenvica (mshauri wa rasilimali watu), Mei 2022: Mfuko wa Taifa wa Hifadhi ya Jamii (NSSF) Tanzania','https://lenvica.com/national-social-security-fund-nssf-in-tanzania/']};
 const KEYS=Object.keys(SRC),cn=k=>`<sup class="ab-mute">[${KEYS.indexOf(k)+1}]</sup>`;
-const READ={'Height':['Height','Urefu'],'Weight':['Weight','Uzito'],'Body mass index (BMI)':['Body mass index (BMI)','Kiwango cha uzito kwa urefu (BMI)'],'Body composition':['Body composition','Muundo wa mwili'],'Blood pressure and pulse':['Blood pressure and pulse','Shinikizo la damu na mapigo ya moyo'],'Blood oxygen (SpO2)':['Blood oxygen (SpO2)','Oksijeni kwenye damu (SpO2)'],'Body temperature':['Body temperature','Joto la mwili']};
+const READ={'Height':['height','urefu'],'Weight':['weight','uzito'],'Body mass index (BMI)':['body mass index (BMI)','kiwango cha uzito kwa urefu (BMI)'],'Body composition':['body composition','muundo wa mwili'],'Blood pressure and pulse':['blood pressure and pulse','shinikizo la damu na mapigo ya moyo'],'Blood oxygen (SpO2)':['blood oxygen (SpO2)','oksijeni kwenye damu (SpO2)'],'Body temperature':['body temperature','joto la mwili']};
 const STAFF=[[/store lead/i,['Store lead and senior health adviser','Kiongozi wa duka na mshauri mkuu wa afya']],[/health advisers?/i,['Health advisers','Washauri wa afya']],[/picker/i,['Picker and packer','Mchaguaji na mfungashaji']],[/rider/i,['Riders (electric motorbikes)','Wasafirishaji (pikipiki za umeme)']]];
 const staffLab=n=>{for(const [re,l] of STAFF)if(re.test(n))return L(l);return n};
 
@@ -58,7 +58,7 @@ function jobsSVG(W,Y){const ph=W<520,H=ph?220:260,pl=ph?34:44,pr=8,pt=22,pb=28,n
 const CSS=`<style>
 .s74-body .ab-block>p{margin-top:var(--s2)}
 .s74-vis{border:1px solid var(--line);background:var(--surface);padding:var(--s3)}
-.s74-vis h2{margin:0;font-size:var(--fs-body);font-weight:600}
+.s74-vt{margin:0;font-size:var(--fs-body);font-weight:600}
 .s74-chart{margin-top:var(--s2);min-height:220px}
 .s74-cap{font-size:var(--fs-cap);margin-top:8px;max-width:var(--measure)}
 .s74-ul{margin:var(--s2) 0 0;padding-left:20px;max-width:var(--measure)}.s74-ul li{margin:8px 0}
@@ -86,7 +86,7 @@ const CSS=`<style>
 .s74-o span{display:block;color:var(--mute);font-size:var(--fs-cap)}
 .s74-sdg b.n{display:inline-block;color:var(--gold);font-size:var(--fs-title);font-weight:600;line-height:1;margin-right:8px;vertical-align:-4px}
 .s74-sdg q{display:block;color:var(--mute);font-size:var(--fs-cap);margin-top:8px;quotes:none}
-@media (max-width:860px){.s74-grid,.s74-case,.s74-tool{grid-template-columns:minmax(0,1fr)}.s74-toc{grid-template-columns:minmax(0,1fr)}.s74-vis,.s74-tool{padding:var(--s2)}}
+@media (max-width:860px){.ab-sec table.ab-t td:first-child{min-width:180px}.s74-grid,.s74-case,.s74-tool{grid-template-columns:minmax(0,1fr)}.s74-toc{grid-template-columns:minmax(0,1fr)}.s74-vis,.s74-tool{padding:var(--s2)}}
 </style>`;
 
 function render(s,p,pv,nx){const M=window.MODEL,I=M.inputs,lean=A().isLean(),ck=I.check,Y=impact('base'),staff=sum(I.staff.map(x=>x[1]));
@@ -111,7 +111,7 @@ function render(s,p,pv,nx){const M=window.MODEL,I=M.inputs,lean=A().isLean(),ck=
  <p class="ab-summary">${E(T('Afya Basics creates impact through its normal operations, and each kind of impact is counted or measured. Free checks find raised readings early and refer people to a clinic. Planned boxes keep supplies for daily treatment from running out. A registered-only range keeps falsified goods off the shelf. Home delivery gives carers, most of them women, time back. And every store creates formal jobs. This section gives the evidence behind each pathway, the targets, how each is measured, and what the company does not claim.','Afya Basics inaleta matokeo chanya kupitia shughuli zake za kawaida, na kila aina ya matokeo inahesabiwa au kupimwa. Vipimo vya bure vinagundua mapema vipimo vilivyo juu na kuwapa watu rufaa kwenda kliniki. Maboksi yaliyopangwa yanazuia vifaa vya matibabu ya kila siku kuisha. Bidhaa zilizosajiliwa tu zinazuia bidhaa bandia kufika rafuni. Usafirishaji hadi nyumbani unawarudishia walezi muda, wengi wao wakiwa wanawake. Na kila duka linaleta ajira rasmi. Sehemu hii inatoa ushahidi wa kila njia, malengo, jinsi kila moja inavyopimwa, na kile ambacho kampuni haidai.'))}</p>
 
  <figure class="ab-visual s74-vis">
-  <h2>${E(T('Direct store jobs by year','Ajira za moja kwa moja za maduka kwa mwaka'))}</h2>
+  <p class="s74-vt">${E(T('Direct store jobs by year','Ajira za moja kwa moja za maduka kwa mwaka'))}</p>
   <div class="s74-chart" id="s74-jc"></div>
   <figcaption class="ab-mute s74-cap">${E(T(`Store staff × stores open, base case, financial model v1.2. Store 1 is the ${lean?'start-small':'flagship'} store (${staff} people); every later store follows the flagship staff plan (${sFl} people). Packing hub, head office and supplier jobs are not counted.`,`Wafanyakazi wa duka × maduka yaliyo wazi, hali ya msingi, modeli ya fedha v1.2. Duka la 1 ni duka la ${lean?'kuanza kidogo':'kuu'} (watu ${staff}); kila duka linalofuata linafuata mpango wa wafanyakazi wa duka kuu (watu ${sFl}). Ajira za kituo cha kufungasha, ofisi kuu na wasambazaji hazihesabiwi.`))}</figcaption>
  </figure>

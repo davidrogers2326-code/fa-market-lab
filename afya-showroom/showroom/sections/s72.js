@@ -157,7 +157,7 @@ td.s72-lv.A{color:var(--ink)}td.s72-lv.C{color:var(--green-edge)}td.s72-lv.R,td.
 .s72-leg i{display:inline-block;width:3px;height:12px;margin-right:6px;vertical-align:-2px}
 table.ab-t th.hi,table.ab-t td.hi{background:var(--green-deep)}
 .s72-ul{margin:var(--s2) 0 0;padding-left:20px;max-width:var(--measure)}.s72-ul li{margin:8px 0}
-@media (max-width:860px){.s72-seats{grid-template-columns:repeat(2,minmax(0,1fr))}.s72-vis{padding:var(--s2)}.s72-res{grid-template-columns:minmax(0,1fr)}
+@media (max-width:860px){.ab-sec table.ab-t td:first-child{min-width:180px}.s72-seats{grid-template-columns:repeat(2,minmax(0,1fr))}.s72-vis{padding:var(--s2)}.s72-res{grid-template-columns:minmax(0,1fr)}
  .s72-tool,.s72-rep{grid-template-columns:minmax(0,1fr)}.s72-tool{padding:var(--s2)}.s72-lay{grid-template-columns:minmax(0,1fr)}.s72-cal{grid-template-columns:repeat(2,minmax(0,1fr))}.s72-ph{padding:var(--s2)}}
 </style>`;
 

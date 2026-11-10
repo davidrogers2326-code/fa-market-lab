@@ -88,7 +88,7 @@ const CSS=`<style>
 .s64-prot h3{margin:0 0 var(--s1);font-size:var(--fs-body);font-weight:600}
 .s64-prot small{color:var(--mute);font-size:var(--fs-cap)}
 .s64-prot ul{margin:var(--s1) 0 0;padding-left:18px;font-size:calc(var(--fs-body) - 2px)}.s64-prot li{margin:6px 0}
-@media (max-width:860px){.s64-vis{grid-template-columns:minmax(0,1fr);gap:var(--s3);padding:var(--s2)}.s64-vis svg{width:180px;height:180px}
+@media (max-width:860px){.ab-sec table.ab-t td:first-child{min-width:180px}.s64-vis{grid-template-columns:minmax(0,1fr);gap:var(--s3);padding:var(--s2)}.s64-vis svg{width:180px;height:180px}
  .s64-tool{grid-template-columns:minmax(0,1fr);padding:var(--s2)}.s64-prot{grid-template-columns:minmax(0,1fr)}}
 </style>`;
 

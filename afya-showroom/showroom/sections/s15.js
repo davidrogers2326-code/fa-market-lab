@@ -69,7 +69,7 @@ const ST=[
 
 /* ---------- timeline SVG (desktop and phone layouts) ---------- */
 function tlSVG(mob){const l=lang(),Y0=2010,Y1=2027.6;
- const G=mob?{W:360,x0:14,x1:346,top:44,pitch:70,fs:11,nfs:14}:{W:1000,x0:300,x1:984,top:56,pitch:64,fs:12,nfs:15};
+ const G=mob?{W:360,x0:14,x1:346,top:44,pitch:78,fs:11,nfs:14}:{W:1000,x0:300,x1:984,top:56,pitch:64,fs:12,nfs:15};
  const X=v=>G.x0+(v-Y0)/(Y1-Y0)*(G.x1-G.x0);
  const rowY=i=>G.top+i*G.pitch+(mob?34:0), H=G.top+ST.length*G.pitch+(mob?44:24), axY=H-(mob?28:30);
  const band=`<rect x="${X(2026)}" y="${G.top-30}" width="${X(Y1)-X(2026)}" height="${axY-(G.top-30)}" fill="var(--green-deep)"/>
@@ -86,7 +86,8 @@ function tlSVG(mob){const l=lang(),Y0=2010,Y1=2027.6;
   const txt=(x,yy,t,anc,col)=>`<text x="${x}" y="${yy}" text-anchor="${anc}" font-size="${G.fs}" fill="${col}">${E(t)}</text>`;
   const anc=x=>x>G.x1-50?'end':(x<G.x0+30?'start':'middle'), ax=x=>x>G.x1-50?x+6:x;
   if(data.length){const a=data[0],b=data[data.length-1],gap=X(b[0])-X(a[0]),lim=mob?95:110;
-   if(data.length>1&&gap>=lim){lab+=txt(X(a[0]),y-11,lbl(a),anc(X(a[0])),'var(--mute)')+txt(ax(X(b[0])),y-11,lbl(b),anc(X(b[0])),'var(--gold)')}
+   const wd=t=>t.length*G.fs*0.56,fits=X(a[0])+wd(lbl(a))/2+10<X(b[0])+6-wd(lbl(b));
+   if(data.length>1&&gap>=lim&&fits){lab+=txt(X(a[0]),y-11,lbl(a),anc(X(a[0])),'var(--mute)')+txt(ax(X(b[0])),y-11,lbl(b),anc(X(b[0])),'var(--gold)')}
    else if(data.length>1){lab+=txt(ax(X(b[0])),y-11,lbl(a)+' → '+lbl(b),'end','var(--gold)')}
    else lab+=txt(X(a[0]),y-11,lbl(a),anc(X(a[0])),'var(--gold)')}
   const evL=ev.filter(q=>lbl(q));evL.forEach((q,k)=>{const below=data.length>0||k%2===1;const x=X(q[0]);lab+=txt(ax(x)+(x>G.x1-50&&!below?0:0),below?y+20:y-11,lbl(q),anc(x),'var(--ink)')});
