@@ -1,6 +1,6 @@
 # CHANGELOG — Afya Basics Investor Showroom refurbishment
 
-## Phases 5–7 · Remaining packages, quiet sections, QA and publish — 10 November 2026 (in progress)
+## Phases 5–7 · Remaining packages, quiet sections, QA and publish — 10 November 2026 (complete, published)
 
 **Founder instruction (10 Nov 2026):** run every remaining phase to the end without approval stops. Make the sensible choice on each open decision, following the brief and the founder's earlier decisions, and record it here. Boxes without Weave credits show "render in production". Publish after the Part I checklist.
 
@@ -12,6 +12,28 @@
 - Packing: 4.3 costs a printed corrugated box, but the approved design is a rigid lidded box. A manufacturer quote for the approved box is open.
 - Package films: new films need Weave credits ("film in production" until then).
 - Payment fee: the model uses 1.2%; a signed aggregator rate card is needed (cautious case 2.7%).
+
+### Phase 7 · Quality check and publish
+- **Checks:**
+  - The Part I checklist (`tools/check-part-i.js`) ran in English and Kiswahili, at 1280 and 360 px, in both funding options: 36 sections × 8 renders. There are no page errors, no sideways scroll, no off-palette colours, no glows or gradient text, no images without alt text, no held images and no external requests. No process or medicine wording remains, and both funding options are never shown side by side.
+  - All 36 sections are on the new template.
+  - The D4 price test passes.
+  - Kiswahili coverage is 0 missing strings in every section. The one hit left is a Kiswahili sentence citing an English report title.
+- **Fixes made during the check:** browser form controls and dividers on the palette; "The brief ·" headings renamed "In short ·"; 3.5 summary updated for 18 boxes; 4.3 Kiswahili step label shortened; the funding-switch labels hidden below 480 px (they pushed the phone bar wide at 390–470 px).
+- **Published** to the existing link as Version 2.0 (footer "Version 2.0 · 10 November 2026"). 68 old film and poster files are removed from the published files, since no page uses them. They are the withdrawn package films and posters on the faces hold list; earlier versions keep them in the artifact history. The old images stay on the server, unlinked.
+
+### Phone calls and the numbers they change
+| Call | Changes |
+|---|---|
+| Clearing agent (landed cost, PVoC, port) | 4.2 landed cost, 4.5 compliance, 6.3 use of funds |
+| Kiosk suppliers (quotes) | 3.3 kiosk, 6.3 use of funds, 4.1 setup table |
+| Kariakoo wholesalers and distributors (pads, first-aid, nets) | 3.5 box prices (Kenyan rows), 6.1–6.2 box margin |
+| Partner clinics, labs, nurses, dentist, pest control | 3.5 and 5.2 service fees, R7 |
+| Payment aggregator and mobile networks (rate card) | 4.1 fee line, 3.2 and 3.8 payment fee, model 1.2% vs 2.7% |
+| TBS and TMDA (registrations, fees) | 4.5 compliance, 7.1 setup, 3.6 regulator flags |
+| Bed-net supplier (treated net price) | 3.5 Nyumbani, Binti, Kijana, Shule |
+| Box manufacturer (rigid lidded box) | 4.3 box cost, the packing lines inside every box price |
+| Lawyer (pre-sale terms, FCC registration) | 5.1, 5.4, 6.3 pre-sale gate |
 
 ### Decided on the founder's behalf
 - **Source of the compliance line:** the working-capital reserve, with the seed unchanged and the same approach as D-17. Flagship reserve 41.0M → 38.7M; start-small 29.5M → 27.2M.

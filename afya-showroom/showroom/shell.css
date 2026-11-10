@@ -185,7 +185,7 @@ img.ab-img-out{object-position:-9999px -9999px}
   .ab-sec{padding-top:var(--s4)}
   .ab-block{margin-top:var(--s5)}
 }
-@media (max-width:380px){.ab-optsw .ab-lbl{display:none}}
+@media (max-width:480px){.ab-optsw .ab-lbl{display:none}}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 
 /* keep the type system when old injected CSS sets global element fonts */
