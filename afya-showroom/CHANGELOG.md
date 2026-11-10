@@ -1,6 +1,48 @@
 # CHANGELOG — Afya Basics Investor Showroom refurbishment
 
-## Phase 2 · Research R1, R2, R3, R5 — 9 November 2026 (awaiting approval)
+## Phase 3 · Mama na Mtoto end to end — 10 November 2026 (complete)
+
+**What changed**
+- **3.5 rebuilt on the D3 package template.**
+  - The line-up shows 18 boxes with the D-3 names.
+  - Two complete package pages: Mama Mjamzito (pregnancy, one box per trimester) and Mama na Mtoto (birth to 3 years, 9 stage boxes).
+  - Each page follows the ten D3 steps: the Box Opens hero; who it is for, with WHO guidance; every item with its reason, quantity, brand choices and sourced shelf prices (original currency, rate and date for Kenyan prices); services; tiers; Build-your-box on the D4 engine; packing; reminders and swaps; next box.
+  - The Lishe nutrition shelf (R9) is on Mama na Mtoto.
+- **Research written:**
+  - R6 Mama na Mtoto: 31 items, 104 brand rows, 41 re-checked on Tanzanian sites.
+  - R6 Mama Mjamzito: 77 brand rows, 48 re-checked.
+  - R7 services: only the nurse home visit has a Dar price; the rest are planning figures.
+  - R9 nutrition: 27 rows, no formula.
+- **Renders:** two Weave runs for Mama Mjamzito (founder-approved, 14 credits, 3 credits left). Generated from the approved no-band render, unbranded items, no people.
+- **Code:**
+  - `shell/d4.js` is the one pricing engine; `tools/test-d4.js` passes the Part I baskets to the shilling.
+  - `tools/build-data.js` bundles `data/` into the page.
+  - The Box Opens hero is now a shared component.
+  - C6.4 numbers count up after a funding switch.
+- **Model:** box-goods margin 13.8% (D-17); kiosk 7 measurements.
+- **Brief v1.2:** corrected D4, R1 corrections, decisions D-12 to D-18. D4 now states that the partner price is the negotiated rate (about 70% of walk-in).
+
+**Decided on the founder's behalf (small decisions)**
+- Both boxes are published in full, with the treated mosquito net shown as a labelled TSh 10,000 estimate (B1). No Tanzanian online price exists.
+- Items with fewer than four sourced brands show only the brands found; nothing is invented. The page wording says "up to five" rather than "four or five".
+- Quantity formulas without a Kiswahili version show in English mode only.
+- Source titles are marked as English-language documents.
+- The wording "cited in the pilot code" became "not re-checked" (A4).
+- The pregnancy box's six render items were chosen from its own list. The Mama Mjamzito hero uses numbered markers, because the items sit close together.
+- The R6 agents' changes are kept and listed in R6 §2 for confirmation:
+  - uji moved to the Lishe shelf;
+  - toothpaste and toothbrush split;
+  - monthly gift and scent became the premium and luxury lines;
+  - belt and nipple cream became counter add-ons.
+- The Mama Mjamzito / Mama na Mtoto split settles J-2 as two boxes.
+
+**Still open**
+- **Prices to confirm by phone:** treated net shelf price, the Kenyan-priced items (Kariakoo calls), Softcare pack sizes, partner service quotes (PRINMAT, maternity hospitals, baby studios), Tanzanian uji wa lishe prices.
+- **Native Kiswahili review:** the terms listed in R6, R6-preg, R9 and R7.
+- **Formula policy:** stage-1 formula "on request only" is a founder decision (R9). The priced formula cards in the 3.6 catalogue should come down in the 3.6 rebuild.
+- **Packing film:** gloved hands and captions are not yet verified frame by frame (K3).
+
+## Phase 2 · Research R1, R2, R3, R5 — 9 November 2026 (approved)
 
 **Network:** a personal environment "fa-market-lab (Afya research)" was approved. It opens 19 research sites: WHO, NIMR, the national statistics office, TBS, BRELA, TRA, TMDA, the Bank of Tanzania, AfyaDepot, the operators, and the kiosk marketplaces. This session moved onto it.
 

@@ -243,3 +243,12 @@ img.ab-img-out{object-position:-9999px -9999px}
 @media (prefers-reduced-motion:reduce){.ab-boxopens.ab-dots .ab-legend li{opacity:1}}
 .ab-boxopens.ab-dots .ab-frame{width:min(100cqw,calc((100cqh - 90px) * 1.7917),900px)}
 @media (max-width:860px){.ab-index{visibility:hidden}body.ab-sheet .ab-index{visibility:visible}}
+
+@media (max-width:860px){
+ .ab-items thead{display:none}
+ .ab-items,.ab-items tbody,.ab-items tr,.ab-items td{display:block;width:100%;min-width:0!important}
+ .ab-items tr{border-bottom:1px solid var(--line);padding:var(--s2) 0}
+ .ab-items td{border:0!important;padding:4px 16px!important}
+ .ab-items td::before{content:attr(data-th);display:block;color:var(--mute);font-size:11px;margin-top:6px}
+ .ab-items td:first-child::before{display:none}
+}
