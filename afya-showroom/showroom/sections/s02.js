@@ -246,7 +246,7 @@ const CSS=`
 .s02 .s02-outline td:first-child{color:var(--gold);font-variant-numeric:tabular-nums;white-space:nowrap}
 .s02 .s02-all h3{margin-top:var(--s3)!important}
 .s02 .s02-all p{max-width:var(--measure)}.s02 .s02-all p+p{margin-top:var(--s1)}
-.s02 .ab-body>p+p{margin-top:var(--s2)}
+.s02 .ab-body p+p{margin-top:var(--s2)}
 @media (max-width:860px){.s02 .s02-grid{grid-template-columns:minmax(0,1fr);gap:var(--s3)}.s02 .s02-slide{padding:var(--s3);min-height:0}.s02 .s02-lu{grid-template-columns:repeat(2,minmax(0,1fr))}.s02 .s02-notes{padding:var(--s3)}}
 @media (max-width:560px){.s02 [data-s02="full"]{display:none}.s02 .s02-bar .s02-sp{display:none}}
 @media (max-width:420px){.s02 .s02-slide{padding:var(--s2)}.s02 .s02-bar{padding:var(--s1) var(--s2)}.s02 .s02-notes{padding:var(--s2)}}
@@ -304,7 +304,7 @@ function render(s,p,pv,nx){const n=nums(),S=slides(n),lean=n.lean;
    {v:`${N('k-seed',n.seed.amount,'tshM')}`,l:T('The seed asked for, in three tranches','Mtaji wa awali unaoombwa, kwa awamu tatu'),s:L(lean?'Start-small option':'Flagship option',lean?'Chaguo la kuanza kidogo':'Chaguo la duka kuu')},
    {v:`${n.be?`${L('Month','Mwezi')} ${N('k-be',n.be,'int')}`:L('Not in year 1','Si mwaka wa 1')} <span class="ab-est">${L('model','modeli')}</span>`,l:T('First month with a store operating profit','Mwezi wa kwanza wenye faida ya uendeshaji ya duka'),s:L('Financial model v1.2, base case','Modeli ya fedha v1.2, hali ya msingi')},
    {v:`${N('k-mem',n.mem12,'int')} <span class="ab-est">${L('model','modeli')}</span>`,l:T('Paying Afya Box members by month 12','Wanachama wa Afya Box wanaolipa ifikapo mwezi 12'),s:L('Deposits not yet converted are not counted','Amana ambazo bado hazijageuka uanachama hazihesabiwi')},
-   {v:(()=>{const r=BP('mama-na-mtoto');return r?tsh(r.from):'—'})(),l:T('Mama na Mtoto a month, 12-month plan','Mama na Mtoto kwa mwezi, mpango wa miezi 12'),s:L('Sourced shelf prices, member pricing rule (section 3.5)','Bei za rafu zenye vyanzo, kanuni ya bei ya mwanachama (sehemu 3.5)')}])}
+   {v:(()=>{const r=BP('mama-na-mtoto');return r?tsh(r.from):'—'})(),l:T('Mama na Mtoto, a month on the 12-month plan','Mama na Mtoto, kwa mwezi, mpango wa miezi 12'),s:L('Sourced shelf prices, member pricing rule (section 3.5)','Bei za rafu zenye vyanzo, kanuni ya bei ya mwanachama (sehemu 3.5)')}])}
  </section>
 
  ${A().openHTML([
