@@ -64,7 +64,7 @@ window.secShell=function(o){const {s,pv,nx}=o;let v3m=[];
 
 /* ---------- shared template pieces (used by rebuilt sections too) ---------- */
 function sourcesHTML(list){if(!list||!list.length)return '';
- return `<details class="ab-sources"><summary>${E(T('Sources for this section','Vyanzo vya sehemu hii'))} (${list.length})</summary><ol>${list.map(x=>`<li>${x.u?`<a href="${E(x.u)}" target="_blank" rel="noopener">${E(x.t)}</a>`:E(x.t)}${x.chk?` <span class="ab-chk">· ${E(T('checked','imekaguliwa'))} ${E(x.chk)}</span>`:''}</li>`).join('')}</ol></details>`}
+ return `<details class="ab-sources"><summary>${E(T('Sources for this section','Vyanzo vya sehemu hii'))} (${list.length})</summary><ol>${list.map(x=>`<li><span lang="${x.lang||'en'}">${x.u?`<a href="${E(x.u)}" target="_blank" rel="noopener">${E(x.t)}</a>`:E(x.t)}</span>${x.chk?` <span class="ab-chk">· ${E(T('checked','imekaguliwa'))} ${E(x.chk)}</span>`:''}</li>`).join('')}</ol></details>`}
 function pagerHTML(pv,nx){return `<nav class="ab-pager" aria-label="${E(T('Previous and next section','Sehemu iliyotangulia na inayofuata'))}">${pv?`<a href="#${pv.id}"><small>← ${E(pv.no)}</small><span>${E(pv.title)}</span></a>`:'<span></span>'}${nx?`<a class="ab-nx" href="#${nx.id}"><small>${E(nx.no)} →</small><span>${E(nx.title)}</span></a>`:''}</nav>`}
 function figsHTML(list){return `<div class="ab-figs">${list.map(f=>`<div class="ab-fig"><span class="ab-v">${f.v}</span><span class="ab-l">${E(f.l)}</span>${f.s?`<span class="ab-s">${f.s}</span>`:''}</div>`).join('')}</div>`}
 function doorsHTML(ids){return `<div class="ab-doors">${ids.map(id=>{const t=ALL.find(x=>x.id===id);return t?`<a href="#${t.id}"><small>${E(t.no)} →</small><span>${E(t.title)}</span></a>`:''}).join('')}</div>`}

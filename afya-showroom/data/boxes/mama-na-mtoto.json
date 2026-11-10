@@ -52,82 +52,82 @@
    "chk": "2026-11-10"
   },
   {
-   "t": "TDHS-MIS 2022 Summary Report (NBS/OCGS, ICF) (cited in the pilot code; not re-opened)",
+   "t": "TDHS-MIS 2022 Summary Report (NBS/OCGS, ICF) (not re-checked)",
    "u": "https://dhsprogram.com/pubs/pdf/SR282/SR282.pdf",
    "chk": "2026-11-02"
   },
   {
-   "t": "NHS, Washing and bathing your baby (cited in the pilot code; not re-opened)",
+   "t": "NHS, Washing and bathing your baby (not re-checked)",
    "u": "https://www.nhs.uk/baby/caring-for-a-newborn/washing-and-bathing-your-baby/",
    "chk": "2026-11-02"
   },
   {
-   "t": "NHS, Drinks and cups for babies and young children (cited in the pilot code; not re-opened)",
+   "t": "NHS, Drinks and cups for babies and young children (not re-checked)",
    "u": "https://www.nhs.uk/baby/weaning-and-feeding/drinks-and-cups-for-babies-and-young-children/",
    "chk": "2026-11-02"
   },
   {
-   "t": "NHS, Cuts and grazes (cited in the pilot code; not re-opened)",
+   "t": "NHS, Cuts and grazes (not re-checked)",
    "u": "https://www.nhs.uk/conditions/cuts-and-grazes/",
    "chk": "2026-11-02"
   },
   {
-   "t": "Royal Children’s Hospital Melbourne, Nappy rash clinical guideline (cited in the pilot code; not re-opened)",
+   "t": "Royal Children’s Hospital Melbourne, Nappy rash clinical guideline (not re-checked)",
    "u": "https://www.rch.org.au/clinicalguide/guideline_index/nappy_rash/",
    "chk": "2026-11-02"
   },
   {
-   "t": "CDC MMWR 68(4), 2019: toothpaste use in young children, summarising AAP/AAPD/ADA advice (cited in the pilot code; not re-opened)",
+   "t": "CDC MMWR 68(4), 2019: toothpaste use in young children, summarising AAP/AAPD/ADA advice (not re-checked)",
    "u": "https://www.cdc.gov/mmwr/volumes/68/wr/mm6804a3.htm",
    "chk": "2026-11-02"
   },
   {
-   "t": "AAP HealthyChildren, Cleaning baby clothes (cited in the pilot code; not re-opened)",
+   "t": "AAP HealthyChildren, Cleaning baby clothes (not re-checked)",
    "u": "https://healthychildren.org/English/ages-stages/baby/diapers-clothing/Pages/Cleaning-Baby-Clothes.aspx",
    "chk": "2026-11-02"
   },
   {
-   "t": "AAP 2018, The Power of Play (Yogman et al.) (cited in the pilot code; not re-opened)",
+   "t": "AAP 2018, The Power of Play (Yogman et al.) (not re-checked)",
    "u": "https://healthychildren.org/English/family-life/power-of-play/Pages/the-power-of-play-how-fun-and-games-help-children-thrive.aspx",
    "chk": "2026-11-02"
   },
   {
-   "t": "Lavender et al. 2012, BMC Pediatrics 12:59, wipes vs cotton wool and water (cited in the pilot code; not re-opened)",
+   "t": "Lavender et al. 2012, BMC Pediatrics 12:59, wipes vs cotton wool and water (not re-checked)",
    "u": "https://doaj.org/article/072813a360d44c7d8fdd82ca03ad20fd",
    "chk": "2026-11-02"
   },
   {
-   "t": "Cochrane 2021, handwashing promotion and childhood diarrhoea (cited in the pilot code; not re-opened)",
+   "t": "Cochrane 2021, handwashing promotion and childhood diarrhoea (not re-checked)",
    "u": "https://www.cochrane.org/evidence/CD004265_does-promoting-handwashing-reduce-diarrhoea",
    "chk": "2026-11-02"
   },
   {
-   "t": "Cochrane 2018, insecticide-treated nets and child mortality (cited in the pilot code; not re-opened)",
+   "t": "Cochrane 2018, insecticide-treated nets and child mortality (not re-checked)",
    "u": "https://www.cochrane.org/CD000363/INFECTN_insecticide-treated-nets-preventing-malaria",
    "chk": "2026-11-02"
   },
   {
-   "t": "Cochrane 2015 (Clasen et al.), household water treatment (cited in the pilot code; not re-opened)",
+   "t": "Cochrane 2015 (Clasen et al.), household water treatment (not re-checked)",
    "u": "https://lstmed.ac.uk/news/updated-cochrane-review-interventions-to-improve-water-quality-for-preventing-diarrhoea/",
    "chk": "2026-11-02"
   },
   {
-   "t": "Lorenz et al. 2020, PLOS Medicine 17:e1003248, useful life of treated nets in Tanzania (cited in the pilot code; not re-opened)",
+   "t": "Lorenz et al. 2020, PLOS Medicine 17:e1003248, useful life of treated nets in Tanzania (not re-checked)",
    "u": "https://researchonline.lshtm.ac.uk/4659795",
    "chk": "2026-11-02"
   },
   {
-   "t": "Johns Hopkins CCP 2023, treated nets in Tanzania’s retail outlets (cited in the pilot code; not re-opened)",
+   "t": "Johns Hopkins CCP 2023, treated nets in Tanzania’s retail outlets (not re-checked)",
    "u": "https://ccp.jhu.edu/2023/10/16/tanzania-llin-mosquito-malaria-retail/",
    "chk": "2026-11-02"
   },
   {
-   "t": "CDC, Preventing mosquito bites (repellents in pregnancy, breastfeeding and children) (cited in the pilot code; not re-opened)",
+   "t": "CDC, Preventing mosquito bites (repellents in pregnancy, breastfeeding and children) (not re-checked)",
    "u": "https://www.cdc.gov/mosquitoes/prevention/index.html",
    "chk": "2026-11-02"
   },
   {
-   "t": "Pampers, How many diapers a day (manufacturer use curve) (cited in the pilot code; not re-opened)",
+   "t": "Pampers, How many diapers a day (manufacturer use curve) (not re-checked)",
    "u": "https://www.pampers.com/en-us/baby/diapering/article/how-many-diapers-a-day",
    "chk": "2026-11-02"
   }
@@ -212,7 +212,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -234,7 +234,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -276,7 +276,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -298,7 +298,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -456,7 +456,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -564,7 +564,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -597,7 +597,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -614,7 +614,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -751,7 +751,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -826,7 +826,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -848,7 +848,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -870,7 +870,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -907,7 +907,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -924,7 +924,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -941,7 +941,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -958,7 +958,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -995,7 +995,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -1012,7 +1012,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -1054,7 +1054,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -1076,7 +1076,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -1098,7 +1098,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -1120,7 +1120,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -1157,7 +1157,7 @@
        },
        "orig": null,
        "status": "EST",
-       "note": "Estimate. No Tanzanian online listing for a treated net was found. Basis: a 2024 Tanzanian retail survey reports a median of TSh 9,000–10,000 for an untreated net (cited in the pilot code, not re-opened). Replace with a distributor quote.",
+       "note": "Estimate. No Tanzanian online listing for a treated net was found. Basis: a 2024 Tanzanian retail survey reports a median of TSh 9,000–10,000 for an untreated net (cited in the earlier listing, not re-opened). Replace with a distributor quote.",
        "afya_choice": true,
        "default": true
       }
@@ -1199,7 +1199,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -1216,7 +1216,7 @@
        },
        "orig": null,
        "status": "EST",
-       "note": "Estimate. No listing; to be printed locally for Afya. The figure is the pilot code’s planning figure, kept until a print quote is obtained.",
+       "note": "Estimate. No listing; to be printed locally for Afya. The figure is the earlier listing’s planning figure, kept until a print quote is obtained.",
        "afya_choice": false,
        "default": false
       },
@@ -1233,7 +1233,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -1255,7 +1255,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -1313,7 +1313,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -1384,7 +1384,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -1406,7 +1406,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -1444,7 +1444,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -1497,7 +1497,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -1514,7 +1514,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -1531,7 +1531,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -1606,7 +1606,7 @@
       {
        "brand": "Hemovit",
        "product": "Iron with folic acid tablets",
-       "pack": "pack not stated",
+       "pack": "—",
        "price_tsh": 5500,
        "src": {
         "name": "AfyaDepot",
@@ -1616,7 +1616,8 @@
        "orig": null,
        "status": "TZ",
        "afya_choice": false,
-       "default": false
+       "default": false,
+       "note": "Pack size not stated on the listing."
       }
      ]
     }
@@ -1701,7 +1702,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -1723,7 +1724,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -1881,7 +1882,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -1989,7 +1990,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -2022,7 +2023,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -2039,7 +2040,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -2176,7 +2177,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -2251,7 +2252,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -2273,7 +2274,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -2290,7 +2291,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -2307,7 +2308,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -2365,7 +2366,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -2436,7 +2437,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -2453,7 +2454,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -2470,7 +2471,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -2512,7 +2513,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -2529,7 +2530,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -2582,7 +2583,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -2599,7 +2600,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -2674,7 +2675,7 @@
       {
        "brand": "Hemovit",
        "product": "Iron with folic acid tablets",
-       "pack": "pack not stated",
+       "pack": "—",
        "price_tsh": 5500,
        "src": {
         "name": "AfyaDepot",
@@ -2684,7 +2685,8 @@
        "orig": null,
        "status": "TZ",
        "afya_choice": false,
-       "default": false
+       "default": false,
+       "note": "Pack size not stated on the listing."
       }
      ]
     }
@@ -2769,7 +2771,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -2960,7 +2962,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -3068,7 +3070,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -3101,7 +3103,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -3118,7 +3120,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -3255,7 +3257,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -3330,7 +3332,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -3352,7 +3354,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -3369,7 +3371,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -3386,7 +3388,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -3444,7 +3446,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -3515,7 +3517,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -3532,7 +3534,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -3549,7 +3551,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -3636,7 +3638,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -3827,7 +3829,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -3935,7 +3937,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -3968,7 +3970,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -3985,7 +3987,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -4122,7 +4124,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -4197,7 +4199,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -4219,7 +4221,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -4240,7 +4242,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found; Kenyan price from the pilot code, not re-opened, at KES 20.33. Litres treated per bottle not stated, so it is counted as one bottle a month.",
+       "note": "No Tanzanian listing found; Kenyan price from the earlier listing, not re-opened, at KES 20.33. Litres treated per bottle not stated, so it is counted as one bottle a month.",
        "afya_choice": false,
        "default": false
       }
@@ -4299,7 +4301,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -4341,7 +4343,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -4363,7 +4365,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -4385,7 +4387,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -4427,7 +4429,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -4449,7 +4451,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -4466,7 +4468,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -4483,7 +4485,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -4541,7 +4543,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -4612,7 +4614,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -4650,7 +4652,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -4777,7 +4779,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -4799,7 +4801,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -4816,7 +4818,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -4992,7 +4994,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -5183,7 +5185,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -5291,7 +5293,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -5324,7 +5326,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -5341,7 +5343,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -5478,7 +5480,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -5553,7 +5555,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -5575,7 +5577,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -5596,7 +5598,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found; Kenyan price from the pilot code, not re-opened, at KES 20.33. Litres treated per bottle not stated, so it is counted as one bottle a month.",
+       "note": "No Tanzanian listing found; Kenyan price from the earlier listing, not re-opened, at KES 20.33. Litres treated per bottle not stated, so it is counted as one bottle a month.",
        "afya_choice": false,
        "default": false
       }
@@ -5655,7 +5657,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -5697,7 +5699,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -5719,7 +5721,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -5741,7 +5743,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -5783,7 +5785,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -5805,7 +5807,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -5822,7 +5824,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -5839,7 +5841,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -5897,7 +5899,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -5968,7 +5970,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -6006,7 +6008,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -6086,7 +6088,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -6108,7 +6110,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -6130,7 +6132,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -6152,7 +6154,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -6327,7 +6329,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -6435,7 +6437,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -6468,7 +6470,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -6485,7 +6487,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -6622,7 +6624,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -6697,7 +6699,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -6719,7 +6721,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -6740,7 +6742,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found; Kenyan price from the pilot code, not re-opened, at KES 20.33. Litres treated per bottle not stated, so it is counted as one bottle a month.",
+       "note": "No Tanzanian listing found; Kenyan price from the earlier listing, not re-opened, at KES 20.33. Litres treated per bottle not stated, so it is counted as one bottle a month.",
        "afya_choice": false,
        "default": false
       }
@@ -6799,7 +6801,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -6841,7 +6843,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -6863,7 +6865,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -6885,7 +6887,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -6927,7 +6929,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -6949,7 +6951,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -6966,7 +6968,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -6988,7 +6990,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -7010,7 +7012,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -7068,7 +7070,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -7139,7 +7141,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -7177,7 +7179,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -7246,7 +7248,7 @@
        },
        "orig": null,
        "status": "EST",
-       "note": "Estimate. No Tanzanian online listing for a treated net was found. Basis: a 2024 Tanzanian retail survey reports a median of TSh 9,000–10,000 for an untreated net (cited in the pilot code, not re-opened). Replace with a distributor quote.",
+       "note": "Estimate. No Tanzanian online listing for a treated net was found. Basis: a 2024 Tanzanian retail survey reports a median of TSh 9,000–10,000 for an untreated net (cited in the earlier listing, not re-opened). Replace with a distributor quote.",
        "afya_choice": true,
        "default": true
       }
@@ -7288,7 +7290,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -7310,7 +7312,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -7447,7 +7449,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -7469,7 +7471,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -7491,7 +7493,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -7513,7 +7515,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -7688,7 +7690,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -7796,7 +7798,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -7829,7 +7831,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -7846,7 +7848,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -7983,7 +7985,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -8058,7 +8060,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -8080,7 +8082,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -8101,7 +8103,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found; Kenyan price from the pilot code, not re-opened, at KES 20.33. Litres treated per bottle not stated, so it is counted as one bottle a month.",
+       "note": "No Tanzanian listing found; Kenyan price from the earlier listing, not re-opened, at KES 20.33. Litres treated per bottle not stated, so it is counted as one bottle a month.",
        "afya_choice": false,
        "default": false
       }
@@ -8160,7 +8162,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -8202,7 +8204,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -8224,7 +8226,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -8246,7 +8248,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -8288,7 +8290,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -8310,7 +8312,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -8327,7 +8329,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -8349,7 +8351,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -8371,7 +8373,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -8429,7 +8431,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -8500,7 +8502,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -8538,7 +8540,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -8640,7 +8642,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -8815,7 +8817,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -8848,7 +8850,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -8865,7 +8867,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -9002,7 +9004,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -9077,7 +9079,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -9099,7 +9101,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -9120,7 +9122,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found; Kenyan price from the pilot code, not re-opened, at KES 20.33. Litres treated per bottle not stated, so it is counted as one bottle a month.",
+       "note": "No Tanzanian listing found; Kenyan price from the earlier listing, not re-opened, at KES 20.33. Litres treated per bottle not stated, so it is counted as one bottle a month.",
        "afya_choice": false,
        "default": false
       }
@@ -9179,7 +9181,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -9221,7 +9223,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -9243,7 +9245,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -9265,7 +9267,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -9323,7 +9325,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -9345,7 +9347,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -9367,7 +9369,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -9389,7 +9391,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -9447,7 +9449,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -9518,7 +9520,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -9556,7 +9558,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -9630,7 +9632,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       }
@@ -9667,7 +9669,7 @@
        },
        "orig": null,
        "status": "EST",
-       "note": "Estimate. No Tanzanian online listing for a treated net was found. Basis: a 2024 Tanzanian retail survey reports a median of TSh 9,000–10,000 for an untreated net (cited in the pilot code, not re-opened). Replace with a distributor quote.",
+       "note": "Estimate. No Tanzanian online listing for a treated net was found. Basis: a 2024 Tanzanian retail survey reports a median of TSh 9,000–10,000 for an untreated net (cited in the earlier listing, not re-opened). Replace with a distributor quote.",
        "afya_choice": true,
        "default": true
       }
@@ -9826,7 +9828,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -10001,7 +10003,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -10034,7 +10036,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       },
@@ -10051,7 +10053,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": false,
        "default": false
       }
@@ -10188,7 +10190,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -10263,7 +10265,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -10285,7 +10287,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -10306,7 +10308,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found; Kenyan price from the pilot code, not re-opened, at KES 20.33. Litres treated per bottle not stated, so it is counted as one bottle a month.",
+       "note": "No Tanzanian listing found; Kenyan price from the earlier listing, not re-opened, at KES 20.33. Litres treated per bottle not stated, so it is counted as one bottle a month.",
        "afya_choice": false,
        "default": false
       }
@@ -10365,7 +10367,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -10407,7 +10409,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": true,
        "default": true
       },
@@ -10429,7 +10431,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -10451,7 +10453,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -10509,7 +10511,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -10531,7 +10533,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -10553,7 +10555,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -10575,7 +10577,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       }
@@ -10633,7 +10635,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -10704,7 +10706,7 @@
        },
        "orig": null,
        "status": "TZ",
-       "note": "Tanzanian listing carried from the pilot code (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
+       "note": "Tanzanian listing carried from the earlier listing (seen 2 Nov 2026); host not reachable from this session, not re-opened.",
        "afya_choice": true,
        "default": true
       },
@@ -10742,7 +10744,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "No Tanzanian listing found. Kenyan shelf price from the pilot code (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
        "afya_choice": false,
        "default": false
       },
@@ -10817,7 +10819,7 @@
     "chk": "2026-11-02"
    },
    "status": "KE",
-   "note": "No Tanzanian listing found. Kenyan price from the pilot code (KES 1,600, seen 2 Nov 2026), not re-opened."
+   "note": "No Tanzanian listing found. Kenyan price from the earlier listing (KES 1,600, seen 2 Nov 2026), not re-opened."
   }
  ],
  "services": [
@@ -10838,7 +10840,7 @@
    "sw": "Chandarua chenye dawa (kuzaliwa, mwezi 13 na mwezi 25) hakina bei ya rafu: hakuna tangazo la mtandaoni la Tanzania lililopatikana, hivyo ni makadirio (TSh 10,000) hadi bei ya msambazaji ipatikane. Hadi hapo sanduku halijakamilika."
   },
   {
-   "en": "Many brand rows are Kenyan shelf prices from the pilot code (seen 2 Nov 2026, converted at KES 20.33) or Tanzanian listings from hosts this session cannot reach (superstore.co.tz, epictotostore.co.tz, findandgetgroup.com). None was re-opened. They need a Tanzanian price before the box is final.",
+   "en": "Many brand rows are Kenyan shelf prices from the earlier listing (seen 2 Nov 2026, converted at KES 20.33) or Tanzanian listings from hosts this session cannot reach (superstore.co.tz, epictotostore.co.tz, findandgetgroup.com). None was re-opened. They need a Tanzanian price before the box is final.",
    "sw": "Bei nyingi za chapa ni za maduka ya Kenya kutoka msimbo wa majaribio (zilionekana 2 Nov 2026, zimebadilishwa kwa KES 20.33) au za maduka ya Tanzania ambayo kipindi hiki hakiwezi kuyafikia. Hakuna iliyofunguliwa upya. Zinahitaji bei ya Tanzania kabla sanduku halijakamilika."
   },
   {

@@ -61,7 +61,7 @@ function lineupHTML(){return LINEUP.map(([g,list])=>`<h3>${E(g==='life'?T('By li
 function itemsHTML(b,stage){const rows=(stage.items||[]).map(it=>{const med=it.kind==='medicine';
  const brands=med?`<span class="ab-mute">${E(T('Sold by the licensed partner pharmacy, not priced in the box','Inauzwa na famasia mshirika yenye leseni, haijawekwa kwenye bei ya boksi'))}</span>`
   :(it.brands||[]).map(br=>`<div class="ab-br">${br.afya_choice?`<span class="ab-choice">${E(T('Afya Choice','Chaguo la Afya'))}</span> `:''}${E(br.brand)} · ${E(br.product||'')} · ${E(br.pack||'')} <span class="ab-gold">${tsh(br.price_tsh)}</span> ${statusTag(br.status)} <span class="ab-mute">${srcLink(br.src)}${br.orig?` · ${E(br.orig.cur)} ${Number(br.orig.amount).toLocaleString('en-US')} × ${br.orig.rate} (${E(br.orig.date)})`:''}</span></div>`).join('');
- return `<tr><td><b>${E(L(it.name))}</b>${it.kind==='toy'?` <span class="ab-est">${E(T('toy','kichezeo'))}</span>`:''}</td><td>${E(L(it.why))}</td><td>${E(L(it.qty))}${it.qty_formula?`<br><span class="ab-mute">${E(it.qty_formula)}</span>`:''}</td><td>${brands}</td></tr>`}).join('');
+ return `<tr><td><b>${E(L(it.name))}</b>${it.kind==='toy'?` <span class="ab-est">${E(T('toy','kichezeo'))}</span>`:''}</td><td>${E(L(it.why))}</td><td>${E(L(it.qty))}${it.qty_formula&&(typeof it.qty_formula==='object'||window.AFYA_LANG!=='sw')?`<br><span class="ab-mute">${E(L(it.qty_formula))}</span>`:''}</td><td>${brands}</td></tr>`}).join('');
  return `<div class="ab-tw"><table class="ab-t ab-items"><thead><tr><th>${E(T('Item','Kitu'))}</th><th>${E(T('Why it is in the box','Kwa nini kiko kwenye boksi'))}</th><th>${E(T('Quantity','Kiasi'))}</th><th>${E(T('Brand choices and shelf prices','Chaguo za chapa na bei za rafu'))}</th></tr></thead><tbody>${rows}</tbody></table></div>`}
 
 function stageTabs(b){return `<div class="ab-seg ab-tabs" role="group" aria-label="${E(T('Stage','Hatua'))}">${b.stages.map(s=>`<button type="button" data-stage="${s.key}" aria-pressed="${s.key===st.stage}">${E(L(s.label))}</button>`).join('')}</div>`}
@@ -103,6 +103,15 @@ function nextHTML(){const o=order(),i=o.indexOf(st.box),n=o[(i+1)%o.length],b=na
 function sourcesOf(b){const seen=new Map();const add=s=>{if(s&&s.u&&!seen.has(s.u))seen.set(s.u,{t:s.t||s.name||s.u,u:s.u,chk:s.chk})};
  (b.guidance||[]).forEach(add);(b.stages||[]).forEach(s=>(s.items||[]).forEach(it=>(it.brands||[]).forEach(br=>add(br.src))));(b.luxury||[]).forEach(x=>add(x.src));svcList(b).forEach(s=>add(s.src));return [...seen.values()]}
 
+
+/* R9 · the Lishe nutrition shelf: chosen by the family, never assigned; no formula on the shelf */
+function lisheHTML(){const N=(DATA().nutrition||[]);if(!N.length)return '';
+ const band=x=>x.age_from_months==null?T('All ages in the family','Umri wote katika familia'):x.age_to_months==null?T(`From ${x.age_from_months} months`,`Kuanzia miezi ${x.age_from_months}`):T(`${x.age_from_months} to ${x.age_to_months} months`,`Miezi ${x.age_from_months} hadi ${x.age_to_months}`);
+ const groups=new Map();N.forEach(x=>{const k=band(x);if(!groups.has(k))groups.set(k,[]);groups.get(k).push(x)});
+ return `<section class="ab-pkg-step"><div class="ab-k">+</div><h2>${E(T('The Lishe nutrition shelf','Rafu ya Lishe'))}</h2>
+ <p>${E(T('Next to the box, families can add foods for the child and the mother. Nothing here is put in a box automatically: the family chooses. Following WHO and UNICEF guidance, a baby under 6 months needs only breast milk, so the shelf offers nothing for that age. Complementary foods start at 6 months, alongside breastfeeding, and cow’s milk as a drink from 12 months. Infant formula is not on the shelf and never in a box.','Kando ya boksi, familia zinaweza kuongeza vyakula kwa mtoto na mama. Hakuna kinachowekwa kwenye boksi bila kuchaguliwa: familia ndiyo inachagua. Kwa mujibu wa mwongozo wa WHO na UNICEF, mtoto chini ya miezi 6 anahitaji maziwa ya mama pekee, kwa hiyo rafu haina chochote kwa umri huo. Vyakula vya nyongeza vinaanza miezi 6, pamoja na kunyonyesha, na maziwa ya ng’ombe kama kinywaji kuanzia miezi 12. Maziwa ya kopo ya watoto hayako kwenye rafu na kamwe hayawekwi kwenye boksi.'))}</p>
+ ${[...groups].map(([g,rows])=>`<h3>${E(g)}</h3><div class="ab-tw"><table class="ab-t"><thead><tr><th>${E(T('Food','Chakula'))}</th><th>${E(T('Why','Kwa nini'))}</th><th>${E(T('Shelf price','Bei ya rafu'))}</th></tr></thead><tbody>${rows.map(x=>`<tr><td><b>${E(L(x.name))}</b><br><span class="ab-mute">${E(x.brand||'')} · ${E(x.pack||'')}</span></td><td>${E(L(x.why))}</td><td class="ab-n">${tsh(x.price_tsh)} ${statusTag(x.status)}<br><span class="ab-mute">${srcLink(x.src)}</span></td></tr>`).join('')}</tbody></table></div>`).join('')}
+ </section>`}
 function packageHTML(key){const b=DATA().boxes[key],nm=nameOf(key),R=RENDERS[key]||{};
  const head=`<h2 class="ab-pkg-title">${E(nm?nm[1]:key)}</h2><p>${E(nm?T(nm[2],nm[3]):'')}</p>`;
  let h=P().boxOpens({id:'abPkgBox',head,closed:R.closed,open:R.open,altClosed:R.altClosed,altOpen:R.altOpen,tags:R.tags,dots:R.dots});
@@ -114,6 +123,7 @@ function packageHTML(key){const b=DATA().boxes[key],nm=nameOf(key),R=RENDERS[key
  if(!b.final)return h+`<p class="ab-notice">${E(T('Item list in research. The items, brand choices and sourced prices for this box are published here once the research is complete.','Orodha ya vitu inafanyiwa utafiti. Vitu, chaguo za chapa na bei zenye vyanzo za boksi hili zitachapishwa hapa utafiti ukikamilika.'))}</p>`;
  h+=step(4,stageTabs(b)+itemsHTML(b,stage));
  h+=step(5,servicesHTML(b));
+ if(key==='mama-na-mtoto')h+=lisheHTML();
  h+=step(6,tiersHTML(b,stage));
  h+=step(7,buildHTML(b,stage));
  h+=step(8,packingHTML(b));

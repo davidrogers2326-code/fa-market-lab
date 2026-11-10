@@ -4,7 +4,7 @@
   "en": "Mama Mjamzito",
   "sw": "Mama Mjamzito"
  },
- "final": false,
+ "final": true,
  "delivery": "per-trimester",
  "box_size": "M",
  "who": {
@@ -117,7 +117,7 @@
       {
        "brand": "Hemovit",
        "product": "Hemovit Iron with folic acid tablets",
-       "pack": "pack size not stated on the page",
+       "pack": "—",
        "pack_units": null,
        "price_tsh": 5500,
        "src": {
@@ -128,7 +128,8 @@
        "orig": null,
        "status": "TZ",
        "afya_choice": false,
-       "default": false
+       "default": false,
+       "note": "Pack size not stated on the listing."
       },
       {
        "brand": "Folron",
@@ -541,7 +542,7 @@
       {
        "brand": "Aquaguard",
        "product": "Water purifier liquid",
-       "pack": "500 ml (litres treated not stated)",
+       "pack": "—",
        "pack_units": null,
        "price_tsh": 2033,
        "src": {
@@ -556,7 +557,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row. Pack size not stated on the listing.",
        "afya_choice": false,
        "default": false
       }
@@ -1179,7 +1180,7 @@
       {
        "brand": "Hemovit",
        "product": "Hemovit Iron with folic acid tablets",
-       "pack": "pack size not stated on the page",
+       "pack": "—",
        "pack_units": null,
        "price_tsh": 5500,
        "src": {
@@ -1190,7 +1191,8 @@
        "orig": null,
        "status": "TZ",
        "afya_choice": false,
-       "default": false
+       "default": false,
+       "note": "Pack size not stated on the listing."
       },
       {
        "brand": "Folron",
@@ -1586,7 +1588,7 @@
       {
        "brand": "Aquaguard",
        "product": "Water purifier liquid",
-       "pack": "500 ml (litres treated not stated)",
+       "pack": "—",
        "pack_units": null,
        "price_tsh": 2033,
        "src": {
@@ -1601,7 +1603,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row. Pack size not stated on the listing.",
        "afya_choice": false,
        "default": false
       }
@@ -2428,7 +2430,7 @@
       {
        "brand": "Hemovit",
        "product": "Hemovit Iron with folic acid tablets",
-       "pack": "pack size not stated on the page",
+       "pack": "—",
        "pack_units": null,
        "price_tsh": 5500,
        "src": {
@@ -2439,7 +2441,8 @@
        "orig": null,
        "status": "TZ",
        "afya_choice": false,
-       "default": false
+       "default": false,
+       "note": "Pack size not stated on the listing."
       },
       {
        "brand": "Folron",
@@ -2835,7 +2838,7 @@
       {
        "brand": "Aquaguard",
        "product": "Water purifier liquid",
-       "pack": "500 ml (litres treated not stated)",
+       "pack": "—",
        "pack_units": null,
        "price_tsh": 2033,
        "src": {
@@ -2850,7 +2853,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row. Pack size not stated on the listing.",
        "afya_choice": false,
        "default": false
       }
@@ -3778,7 +3781,7 @@
       {
        "brand": "Baby Banda",
        "product": "Maternity briefs",
-       "pack": "1 pack (count not stated)",
+       "pack": "—",
        "pack_units": null,
        "price_tsh": 19618,
        "src": {
@@ -3793,7 +3796,7 @@
         "date": "2026-11-10"
        },
        "status": "KE",
-       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row. Pack size not stated on the listing.",
        "afya_choice": true,
        "default": true
       },
