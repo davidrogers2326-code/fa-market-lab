@@ -55,7 +55,7 @@ const RHYTHM={'monthly':['Every month','Kila mwezi'],'every-2-months':['Every tw
 function fromPrice(key){const b=DATA().boxes[key];if(!b||!b.final||!b.stages||!b.stages.length)return null;
  const S=window.AB_S35;let v=[];
  try{if(S&&S.priceStage)v=b.stages.map(s=>S.priceStage(b,s,'m1','regular')).filter(r=>r&&!r.missing).map(r=>r.total)}catch(e){v=[]}
- if(!v.length)return null;return {min:Math.min(...v),max:Math.max(...v),n:v.length,per:PER[b.delivery]||PER.monthly}}
+ if(!v.length)return null;let per=PER[b.delivery]||PER.monthly,min=Math.min(...v);try{const h=window.AB_BOXPRICE&&window.AB_BOXPRICE(key,{plan:'m1'});if(h&&h.from){min=h.from;per=[h.per.en,h.per.sw]}}catch(e){}return {min,max:Math.max(...v),n:v.length,per}}
 
 /* ---------- delivery economics for the selected option (MODEL) ---------- */
 function del(){const M=window.MODEL,I=M.inputs,r=M.get('base'),lean=A().isLean();
