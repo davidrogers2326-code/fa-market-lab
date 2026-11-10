@@ -211,7 +211,7 @@ const CSS=`<style>
 .s61-hgrid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));margin-top:var(--s3);border-top:1px solid var(--line)}
 .s61-hn{padding:var(--s3) var(--s2) var(--s2) 0;border-right:1px solid var(--line);padding-left:var(--s2)}
 .s61-hn:first-child{padding-left:0}.s61-hn:last-child{border-right:0}
-.s61-hv{display:block;color:var(--gold);font-size:calc(var(--fs-title) - 4px);white-space:nowrap;font-weight:600;line-height:1.15;font-variant-numeric:tabular-nums}
+.s61-hv{display:block;color:var(--gold);font-size:calc(var(--fs-sub) + 2px);font-weight:600;line-height:1.15;font-variant-numeric:tabular-nums}
 .s61-hl{display:block;margin-top:8px;font-size:calc(var(--fs-body) - 2px)}
 .s61-hs{display:block;margin-top:6px;color:var(--mute);font-size:var(--fs-cap)}
 .s61-hero figcaption{margin-top:var(--s2);font-size:var(--fs-cap);max-width:var(--measure)}
@@ -237,7 +237,7 @@ const CSS=`<style>
 .s61-pl td:first-child{white-space:nowrap}
 .s61-ul{margin:var(--s2) 0 0;padding-left:20px;max-width:var(--measure)}
 .s61-ul li{margin:8px 0}
-@media (max-width:860px){.s61-hgrid{grid-template-columns:1fr 1fr}.s61-hn{border-right:0;border-bottom:1px solid var(--line);padding-left:0!important}.s61-hn:nth-child(odd){padding-right:var(--s2)}.s61-sens{grid-template-columns:1fr}}
+@media (max-width:860px){.s61-hero{padding:var(--s2)}.s61-hgrid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.s61-hv{font-size:var(--fs-sub);white-space:normal}.s61-hn{border-right:0;border-bottom:1px solid var(--line);padding-left:0!important}.s61-hn:nth-child(odd){padding-right:var(--s2)}.s61-sens{grid-template-columns:1fr}}
 </style>`;
 
 function render(s,p,pv,nx){const M=window.MODEL,I=M.inputs,r=M.get('base'),lean=A().isLean(),y1=r.y1,ox=I.opex_month,oxT=sum(Object.values(ox)),D4=window.AFYA_D4,COST=(window.AFYAMB_DATA||{}).COST||{};
@@ -250,7 +250,7 @@ function render(s,p,pv,nx){const M=window.MODEL,I=M.inputs,r=M.get('base'),lean=
  ${heroHTML()}
  <div class="ab-body s61-body">
  <section class="ab-block"><h2>${E(T('One store, modelled month by month','Duka moja, limepangwa mwezi kwa mwezi'))}</h2>
-  <p>${T(`Every projection starts with one store. In this option it is ${lean?'a start-small store':'the street-front flagship'} of ${N('u-area',I.store.area_m2,'int')} m², open ${E(I.store.hours)}, with a team of ${N('u-team',team,'int')} people ${lean?'on one long shift':'on two shifts'}. Year 1 is modelled month by month from activity inside that store: visitors, the share who buy, members who join the Afya Box from store customers and from the free Afya Check, online orders, partner care packs and Afya Kazini business accounts. From year 2 the model works in whole years and store counts, and every later store scales the first one’s results.`,`Kila makadirio yanaanza na duka moja. Katika chaguo hili ni ${lean?'duka dogo la kuanzia':'duka kuu la mbele ya barabara'} la m² ${N('u-area',I.store.area_m2,'int')}, linalofunguliwa ${E(I.store.hours)}, likiwa na timu ya watu ${N('u-team',team,'int')} ${lean?'kwa zamu moja ndefu':'kwa zamu mbili'}. Mwaka 1 umepangwa mwezi kwa mwezi kutokana na shughuli ndani ya duka hilo: wageni, sehemu wanaonunua, wanachama wanaojiunga na Afya Box kutoka kwa wateja wa dukani na kutoka kipimo cha bure cha Afya Check, oda za mtandaoni, vifurushi vya huduma za washirika na akaunti za biashara za Afya Kazini. Kuanzia mwaka 2 modeli inafanya kazi kwa miaka mizima na idadi ya maduka, na kila duka linalofuata linakuza matokeo ya lile la kwanza.`)}</p>
+  <p>${T(`Every projection starts with one store. In this option it is ${lean?'a start-small store':'the street-front flagship'} of ${N('u-area',I.store.area_m2,'int')} m², open ${E(I.store.hours)}, with a team of ${N('u-team',team,'int')} people ${lean?'on one long shift':'on two shifts'}. Year 1 is modelled month by month from activity inside that store: visitors, the share who buy, members who join the Afya Box from store customers and from the free Afya Check, online orders, partner care packs and Afya Kazini business accounts. From year 2 the model works in whole years and store counts, and every later store scales the first one’s results.`,`Kila makadirio yanaanza na duka moja. Katika chaguo hili ni ${lean?'duka dogo la kuanzia':'duka kuu la mbele ya barabara'} la m² ${N('u-area',I.store.area_m2,'int')}, linalofunguliwa ${E(String(I.store.hours).replace(/(\d+)\s*days/,'siku $1'))}, likiwa na timu ya watu ${N('u-team',team,'int')} ${lean?'kwa zamu moja ndefu':'kwa zamu mbili'}. Mwaka 1 umepangwa mwezi kwa mwezi kutokana na shughuli ndani ya duka hilo: wageni, sehemu wanaonunua, wanachama wanaojiunga na Afya Box kutoka kwa wateja wa dukani na kutoka kipimo cha bure cha Afya Check, oda za mtandaoni, vifurushi vya huduma za washirika na akaunti za biashara za Afya Kazini. Kuanzia mwaka 2 modeli inafanya kazi kwa miaka mizima na idadi ya maduka, na kila duka linalofuata linakuza matokeo ya lile la kwanza.`)}</p>
   ${engineHTML(I,r)}
   <p class="ab-mute s61-cap">${E(T('The engine of the financial model v1.2, with this option’s inputs. Planning estimates.','Injini ya modeli ya fedha v1.2, pamoja na pembejeo za chaguo hili. Makadirio ya mipango.'))}</p>
  </section>

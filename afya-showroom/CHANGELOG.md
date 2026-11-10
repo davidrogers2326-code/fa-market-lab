@@ -1,6 +1,35 @@
 # CHANGELOG — Afya Basics Investor Showroom refurbishment
 
-## Phase 4 · Compliance and money — 10 November 2026 (in progress)
+## Phase 4 · Compliance and money — 10 November 2026 (complete)
+
+**What changed:** nine sections are rebuilt on the v2 template from the research.
+- **3.3:** the Afya Check basic tier with 7 measurements, the 50-second quick check, TMDA Class B, and landed-cost and maintenance figures.
+- **3.4:** six cards; 1, 6 (Gold) and 12-month (Platinum) plans at 3/6/9%; the renewal flow from R5; the members chart follows the funding switch.
+- **4.2:** year 1 buys locally registered products; direct imports from launch Phase 2; R1 duties, PVoC and penalties; the landed-cost calculator in CNY and INR at BoT rates.
+- **4.5:** the regulator table; 19 fees with sources; both compliance figures (≈ TSh 2.3M at launch, ≈ TSh 11.1M in launch Phase 2); the calendar, expiry control, recall and the partner-pharmacy medicine flow.
+- **6.1:** the funding-switch hero (C6.4: numbers count to their new value after a switch); P&L and cash charts; a sensitivity tool that runs the model itself.
+- **6.2:** one Mama na Mtoto box decomposed by D4, to the shilling. Shelf 131,631 − saving 11,631 = 120,000; inside: goods 95,293 (estimate), packing 6,500, delivery 3,500, points 1,200, margin 13,507.
+- **6.3:** the selected option's ask, tranches and use of funds, with the 150M lines matched by name. D-17 is shown with its arithmetic. The compliance and kiosk figures are set against the existing lines, with no amount changed.
+- **7.1:** R1's 15 licence steps with sources.
+- **7.3:** 30 risks, including churn, build-before-demand, scope, regulation, payment collection and kiosk failure; the heat map is in green tones.
+- **Checks:** all 36 sections × both funding options × 1280/360 px = 144 renders with no page errors and no sideways scroll. The rebuilt sections score 0 on the Kiswahili check.
+
+**Decided on the founder's behalf**
+- The 7.3 heat map uses green shades, because gold is reserved for numbers (C2).
+- 6.1 carries its own option switch next to the top-bar one; it shows one option at a time (B5).
+- The SiSU kiosk citation was dropped: it could not be confirmed.
+- The 4.2 China lead time is 82 days (the sum of its own steps), not "~84".
+- Uncheckable fines (the TSh 10M Pharmacy Act fine, PDPC fees) were dropped and listed as not verified.
+
+**Still open (Phase 4)**
+- **Money, for the founder (information, no change made):**
+  - Under D-17 the flagship's deepest loss (TSh 120.35M) uses TSh 1.35M of the working-capital reserve, which leaves TSh 39.6M.
+  - In the flagship **downside** case, cash falls to about −TSh 46M. The seed does not cover a downside year without a further decision (more capital, a bigger pre-sale, or a cost cut).
+  - The use-of-funds table has no separate line for the one-off launch compliance fees (≈ TSh 2.3M).
+- **Not yet verified:** TBS importer fee; TMDA written view on the kiosk class, nappies and pads; council licence class; clearing-agent quote; payment-provider fees; Kazini kit prices (still from the earlier engine); the TMDA recall deadlines.
+- **Kiswahili terms** from these sections are added to the standing review list (e.g. "kufikia faida", "akiba ya mtaji wa kazi", "gharama ya kufikisha", "uzingatiaji wa sheria", "kibanda").
+
+**Founder decisions, 10 Nov 2026**
 
 **Founder decisions, 10 Nov 2026**
 - **Phase 3 approved.** The net estimate, the brands shown and the item changes are accepted.
