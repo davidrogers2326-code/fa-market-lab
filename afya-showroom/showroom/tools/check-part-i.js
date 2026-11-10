@@ -26,7 +26,7 @@ const HOLD=fs.readFileSync(path.join(__dirname,'..','shell','compat.js'),'utf8')
     out.imgsNoAlt=[...app.querySelectorAll('img')].filter(i=>!i.getAttribute('alt')).length;
     out.held=[...app.querySelectorAll('img')].map(i=>(i.getAttribute('src')||'').match(/([^\/]+)\.(webp|png|jpe?g)/)).filter(m=>m&&HOLD.includes(m[1])).map(m=>m[1]);
     out.autoplay=[...app.querySelectorAll('video')].filter(v=>v.autoplay&&!v.muted).length;
-    out.bothOptions=/340\s?M[\s\S]{0,80}150\s?M|150\s?M[\s\S]{0,80}340\s?M/.test(text.replace(/Flagship 340M\s*Start small 150M/g,''));
+    out.bothOptions=/340\s?M[\s\S]{0,80}150\s?M|150\s?M[\s\S]{0,80}340\s?M/.test(text.replace(/(Flagship|Duka kuu) 340M\s*(Start small|Anza kidogo) 150M/g,''));
     out.text=text;return out},{TOKENS,HOLD});
    const key=`${opt}/${lang}/${w}`;const t=r.text;delete r.text;
    const flags={};if(errs.length)flags.errors=errs.slice(0,3);if(r.hscroll)flags.hscroll=true;
