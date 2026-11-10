@@ -1402,7 +1402,9 @@ const KCSS=`
 @media (max-width:1150px){.kz-four{grid-template-columns:repeat(2,minmax(0,1fr))}.kz-tool{grid-template-columns:1fr}.kz-why{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:820px){.kz-sizes,.kz-four,.kz-why{grid-template-columns:1fr}}
 `;
-const KZOFF={m1:174500,m6:169500,m12:164500,hotel:217000};/* Afya Ofisi and Afya Hoteli prices from the section 3.5 pricing engine (default options) */
+/* Afya Kazini (medium office) and Afya Hoteli prices: read live from the shared box price (shell/boxprice.js); no price is kept here */
+const KZBP=(slug,plan,stage)=>{const r=window.AB_BOXPRICE&&window.AB_BOXPRICE(slug,{plan,stage});return r?r.from:0};
+const KZOFF={get m1(){return KZBP('afya-kazini','m1','m')},get m6(){return KZBP('afya-kazini','m6','m')},get m12(){return KZBP('afya-kazini','m12','m')},get hotel(){return KZBP('afya-hoteli','m12')}};
 function kzKitHTML(r){const K=IN.kazini,lines=K.core.map(x=>[x[0],x[1],x[2],x[3],0]).concat(r.extra.map(x=>[x[0],x[1],x[2],'',1]));
  const q=v=>v===0.34?L('1 every 3 months','1 kila miezi 3'):v===0.5?L('1 every 2 months','1 kila miezi 2'):'× '+v;
  return `<div class="kz-list"><h4>${esc(r.name)} · ${L(esc(r.en),esc(r.en))}</h4><p class="sub">${L('Delivered every month · items marked + are the sector kit','Inaletwa kila mwezi · vyenye + ni vya sekta')}</p>

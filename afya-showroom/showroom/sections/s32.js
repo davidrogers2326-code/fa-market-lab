@@ -1,7 +1,7 @@
 /* 3.2 Customer journey & fast checkout · v2 on the D2 template.
    Five journeys with their time budgets and targets (kept from the earlier section, the advice journey corrected to the
    7-measurement basic kiosk of R2 / D-13). Demo prices come from the box data (window.AFYA_DATA, 3.5 shelf prices with
-   sources) or from MODEL, labelled estimate. Box prices: window.AFYA_D4 through window.AB_S35.priceStage when the box file
+   sources) or from MODEL, labelled estimate. Box prices: window.AB_BOXPRICE (shell/boxprice.js, 1-month plan) when the box file
    exists, otherwise MODEL.inputs.services.packs (estimate). Renewal calendar: research/R5-payments.md §5 (12-day lock, B20).
    Payment fee: R5 §6, about 2.7% of collections (estimate, AzamPay rates unverified). Foreign prices: research/fx.md
    (BoT mean rates, 10 Nov 2026). No people imagery: every visual is inline SVG or a token-styled screen. */
@@ -52,19 +52,14 @@ const SHELF_SPEC=[['mama-na-mtoto','b','diap',['Nappies, medium ×48','Nepi, sai
  ['mama-na-mtoto','c1','tpaste',['Children’s fluoride toothpaste','Dawa ya meno ya watoto yenye floraidi','Personal care','Utunzaji binafsi']]];
 const shelf=()=>SHELF_SPEC.map(s=>shelfItem(...s)).filter(Boolean);
 
-/* D4 price of one box: priceStage on the box file (1-month plan, regular tier) plus its partner service fee */
-function d4Box(slugs,stageKey){const D4=window.AFYA_D4,S=window.AB_S35;if(!D4||!S)return null;
- for(const slug of slugs){const b=DATA().boxes[slug];if(!b||!b.stages||!b.stages.length)continue;
-  const stage=b.stages.find(s=>s.key===stageKey)||b.stages[0];const keep={box:S.st.box,pick:S.st.pick};let r;
-  try{S.st.box=slug;S.st.pick={};r=S.priceStage(b,stage,'m1','regular')}catch(e){r=null}finally{S.st.box=keep.box;S.st.pick=keep.pick}
-  if(!r||r.missing)continue;const svc=(b.services||[]).map(k=>(DATA().services||[]).find(s=>s.key===k)).filter(Boolean).map(s=>s.partner_price_in_box_tsh).filter(p=>p);
-  return {price:r.core+D4.serviceFee(svc),from:'data',stage}}
- return null}
 function modelBox(k){const I=window.MODEL.inputs,p=((I.services&&I.services.packs)||[]).find(x=>x[0]===k);return p?{price:p[2],from:'model'}:null}
+/* box prices from the shared box price (shell/boxprice.js); a counter sale is one box on the 1-month plan */
+const bpBox=(slug,stage)=>{const r=window.AB_BOXPRICE&&window.AB_BOXPRICE(slug,{plan:'m1',stage});return r?{price:r.from,from:'data',per:r.per}:null};
 const BOXES=()=>[
- [['Afya Box · Mama na Mtoto, months 3–6, monthly','Afya Box · Mama na Mtoto, miezi 3–6, kila mwezi'],d4Box(['mama-na-mtoto'],'b')||modelBox('mama')],
- [['Afya Box · Presha Care, monthly','Afya Box · Presha Care, kila mwezi'],d4Box(['presha','presha-care','afya-presha'])||modelBox('presha')],
- [['Afya Box · Sukari Care, monthly','Afya Box · Sukari Care, kila mwezi'],d4Box(['sukari','sukari-care','afya-sukari'])||modelBox('sugar')]].filter(b=>b[1]);
+ ['Mama na Mtoto, months 3–6','Mama na Mtoto, miezi 3–6','mama-na-mtoto','b','mama'],
+ ['Presha','Presha','presha','p','presha'],
+ ['Sukari, on tablets','Sukari, kwa vidonge','sukari','tab','sugar']].map(x=>{const r=bpBox(x[2],x[3]);
+  return r?[[`Afya Box · ${x[0]}, ${r.per.en}`,`Afya Box · ${x[1]}, ${r.per.sw}`],r]:(modelBox(x[4])?[[`Afya Box · ${x[0]}`,`Afya Box · ${x[1]}`],modelBox(x[4])]:null)}).filter(Boolean);
 
 /* ---------- the five journeys: [label, seconds, text] per step; targets from the earlier section ---------- */
 function JOUR(){const I=window.MODEL.inputs,o=I.online,lean=A().isLean(),pct=x=>Math.round(x*100)+'%';

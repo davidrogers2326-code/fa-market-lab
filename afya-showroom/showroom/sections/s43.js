@@ -119,18 +119,18 @@ const CSS=`<style>
 
 /* ---------- primary visual: the six steps from shelf to doorstep (inline SVG, two layouts) ---------- */
 const STEPS=[['Pick','Kuchukua','by the member’s locked list','kwa orodha iliyofungwa ya mwanachama'],['Pack','Kufungasha','gloved hands, fixed layout','kwa glavu, mpangilio maalum'],['Check and seal','Kukagua na kufunga','photographed, then closed','inapigwa picha, kisha inafungwa'],['Wave','Awamu','grouped by area and route','inapangwa kwa eneo na njia'],['Ride','Kusafirisha','electric motorbike, tracked','pikipiki ya umeme, inafuatiliwa'],['Prove','Kuthibitisha','a 4-digit code at the door','namba ya tarakimu 4 mlangoni']];
-function flowSVG(cols){const rows=Math.ceil(STEPS.length/cols),cw=cols===6?180:160,ch=cols===6?120:124,gx=cols===6?8:12,gy=26,W=cols*cw+(cols-1)*gx,H=rows*ch+(rows-1)*gy;let g='';
+function flowSVG(cols){const rows=Math.ceil(STEPS.length/cols),cw=cols===6?180:160,ch=cols===6?136:140,gx=cols===6?8:12,gy=26,W=cols*cw+(cols-1)*gx,H=rows*ch+(rows-1)*gy;let g='';
  STEPS.forEach((s,i)=>{const c=i%cols,r=Math.floor(i/cols),x=c*(cw+gx),y=r*(ch+gy);
   g+=`<rect x="${x+.5}" y="${y+.5}" width="${cw-1}" height="${ch-1}" style="fill:var(--bg);stroke:var(--line)"/>`+
    `<text x="${x+14}" y="${y+32}" font-size="22" font-weight="600" style="fill:var(--gold)">${i+1}</text>`+
-   `<text x="${x+14}" y="${y+60}" font-size="16" font-weight="600" style="fill:var(--ink)">${E(T(s[0],s[1]))}</text>`+
-   wrap(T(s[2],s[3]),cols===6?20:18).map((ln,j)=>`<text x="${x+14}" y="${y+84+j*17}" font-size="13" style="fill:var(--mute)">${E(ln)}</text>`).join('');
+   `<text x="${x+14}" y="${y+60}" font-size="${cols===6?16:14}" font-weight="600" style="fill:var(--ink)">${E(T(s[0],s[1]))}</text>`+
+   wrap(T(s[2],s[3]),cols===6?20:17).map((ln,j)=>`<text x="${x+14}" y="${y+84+j*17}" font-size="13" style="fill:var(--mute)">${E(ln)}</text>`).join('');
   if(i<STEPS.length-1){if(c<cols-1)g+=`<path d="M${x+cw+1} ${y+ch/2}h${gx-2}" style="stroke:var(--green-edge)" stroke-width="1.5"/>`;else g+=`<path d="M${x+cw/2} ${y+ch+2}v${gy-4}" style="stroke:var(--green-edge)" stroke-width="1.5"/>`}});
  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${E(T('Six steps from the shelf to the doorstep: pick, pack, check and seal, wave, ride, prove','Hatua sita kutoka rafuni hadi mlangoni: kuchukua, kufungasha, kukagua na kufunga, awamu, kusafirisha, kuthibitisha'))}">${g}</svg>`}
-function wrap(t,n){const w=String(t).split(' '),out=[];let l='';w.forEach(x=>{if((l+' '+x).trim().length>n&&l){out.push(l);l=x}else l=(l+' '+x).trim()});if(l)out.push(l);return out.slice(0,2)}
+function wrap(t,n){const w=String(t).split(' '),out=[];let l='';w.forEach(x=>{if((l+' '+x).trim().length>n&&l){out.push(l);l=x}else l=(l+' '+x).trim()});if(l)out.push(l);return out.slice(0,3)}
 
 /* ---------- chart: what the customer pays for a delivery against what it costs (drawn at container width) ---------- */
-function barsSVG(W,o){const ph=W<520,lw=ph?Math.min(150,W*.45):250,pr=ph?56:80,rh=ph?40:34,pt=8,H=pt+o.rows.length*rh+22,mx=Math.max(...o.rows.map(r=>r.v))*1.08,x=v=>lw+(W-lw-pr)*v/mx;let g='';
+function barsSVG(W,o){const ph=W<520,lw=ph?Math.min(150,W*.45):250,pr=ph?74:84,rh=ph?44:36,pt=8,H=pt+o.rows.length*rh+22,mx=Math.max(...o.rows.map(r=>r.v))*1.08,x=v=>lw+(W-lw-pr)*v/mx;let g='';
  o.rows.forEach((r,i)=>{const y=pt+i*rh,bh=ph?14:16;
   wrap(r.l,ph?22:40).forEach((ln,j)=>{g+=`<text x="0" y="${y+12+j*13}" font-size="${ph?11:12}" style="fill:var(--mute)">${E(ln)}</text>`});
   g+=`<rect x="${lw}" y="${y+2}" width="${Math.max(1,x(r.v)-lw).toFixed(1)}" height="${bh}" style="fill:var(${r.c})"/><text x="${(x(r.v)+6).toFixed(1)}" y="${y+14}" font-size="12" style="fill:var(--gold)">${E(tsh(r.v))}</text>`});

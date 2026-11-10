@@ -30,7 +30,7 @@ const A={ // base-case inputs
     addon_rate:0.90,    // services booked once (not prepaid, not guaranteed): members pay 90% of the walk-in price; partner keeps 90% of that (81% of walk-in)
     commission:0.10,    // partners pay Afya 10% of every add-on booked through the Afya app or WhatsApp
     addon_uptake:0.20,  // 1 in 5 members books one add-on a month
-    // key: [box, box price 1-month plan (section 3.5 engine, default options), member mix %, partner type, included service, visits per year, partner walk-in price,
+    // key: [box, box price 1-month plan (fallback only; displayed prices come from shell/boxprice.js), member mix %, partner type, included service, visits per year, partner walk-in price,
     //       in-store Afya Check service, digital service, add-ons [[name, walk-in price]]]
     packs:[
      ['preg','Mama Mjamzito',32000,6,'Antenatal fitness studio','Prenatal class',6,20000,'BP, weight and danger-sign check every month','WhatsApp Mama Club with a nurse',[['Pregnancy ultrasound scan',50000],['Prenatal massage',35000]]],
@@ -104,7 +104,10 @@ const fmt={
   pct:n=>(n*100).toFixed(n<0.1?1:0)+'%'
 };
 const r500=n=>Math.round(n/500)*500, up500=n=>Math.ceil(n/500)*500;
-function servicePacks(){const S=A.services;let mixT=0;const rows=S.packs.map(p=>{const [k,box,bp,mix,ptype,svc,visits,walk,instore,digital,adds]=p;
+/* displayed box price: the shared 1-month box price (shell/boxprice.js) when loaded; packs[2] is only the fallback. Not used in revenue. */
+const PACK_SLUG={preg:'mama-mjamzito',mama:'mama-na-mtoto',shule:'afya-shule',binti:'binti',kijana:'kijana',glow:'afya-glow',siku:'afya-siku',man:'afya-men',home:'nyumbani',aid:'huduma-ya-kwanza',senior:'bibi-na-babu',rec:'kupona',sugar:'sukari',presha:'presha',kidney:'figo',office:'afya-kazini',hotel:'afya-hoteli'};
+const liveBox=(k,fb)=>{const BP=typeof window!=='undefined'&&window.AB_BOXPRICE,r=BP&&PACK_SLUG[k]?BP(PACK_SLUG[k],{plan:'m1'}):null;return r?r.from:fb};
+function servicePacks(){const S=A.services;let mixT=0;const rows=S.packs.map(p=>{const [k,box,bp0,mix,ptype,svc,visits,walk,instore,digital,adds]=p,bp=liveBox(k,bp0);
   const rate=r500(walk*S.member_rate),cost=rate*visits/12,fee=up500(cost*(1+S.markup)),margin=fee-cost;
   const addRates=adds.map(a=>[a[0],a[1],r500(a[1]*S.addon_rate)]),addAvg=addRates.reduce((t,a)=>t+a[2],0)/addRates.length;
   const comm=S.addon_uptake*addAvg*S.commission;mixT+=mix;
@@ -221,10 +224,13 @@ try{document.documentElement.classList.toggle('opt-lean',OPT()==='lean')}catch(e
   {k:'care',en:'Elderly care & recovery',sw:'Wazee na kupona',card:'senior',d:['Care at home for older parents, and after a hospital stay.','Huduma nyumbani kwa wazazi wazee, na baada ya kulazwa hospitali.'],keys:['senior','rec']},
   {k:'cond',en:'Long-term conditions',sw:'Magonjwa ya muda mrefu',card:'care',d:['Supplies, checks and reminders that keep a condition under control.','Vifaa, vipimo na vikumbusho vinavyodhibiti ugonjwa.'],keys:['sugar','presha','kidney']},
   {k:'biz',en:'Business & hospitality · Afya Kazini',sw:'Biashara na hoteli · Afya Kazini',card:'kazini',d:['Monthly safety, hygiene and first-aid kits for workplaces, on one business account.','Vifurushi vya kila mwezi vya usalama, usafi na huduma ya kwanza kwa sehemu za kazi, kwa akaunti moja ya biashara.'],keys:['kz:duka','kz:chakula','kz:saluni','kz:karakana','kz:ofisi','office','hotel']}];
- const FROM={preg:35000,mama:122500,shule:42500,binti:71500,kijana:44000,glow:78000,siku:33500,man:50000,home:74000,aid:27000,senior:82500,rec:68500,sugar:54500,presha:43000,kidney:40000,kz:67500,office:174500,hotel:217000}; // lowest 1-month price across box options (section 3.5 engine)
+ // displayed "from" prices come from the shared box price (shell/boxprice.js, 12-month plan, lowest repeat box), never from this file
+ const SLUGOF={preg:'mama-mjamzito',mama:'mama-na-mtoto',shule:'afya-shule',binti:'binti',kijana:'kijana',glow:'afya-glow',siku:'afya-siku',man:'afya-men',home:'nyumbani',aid:'huduma-ya-kwanza',senior:'bibi-na-babu',rec:'kupona',sugar:'sukari',presha:'presha',kidney:'figo',office:'afya-kazini',hotel:'afya-hoteli'};
+ const live=(k)=>{const BP=typeof window!=='undefined'&&window.AB_BOXPRICE;if(!BP)return null;
+  if(k.indexOf('kz:')===0)return BP('afya-biashara',{plan:'m12',stage:k.slice(3)});return SLUGOF[k]?BP(SLUGOF[k],{plan:'m12'}):null};
  const CARDOF={preg:'family',mama:'family',shule:'family',binti:'family',kijana:'family',home:'family',glow:'green',siku:'green',man:'green',aid:'green',senior:'senior',rec:'care',sugar:'care',presha:'care',kidney:'care',office:'kazini',hotel:'kazini'};
- function items(){const A=window.MODEL.inputs,kaziniKits=window.MODEL.kazini;const P={};A.services.packs.forEach(r=>P[r[0]]={k:r[0],n:r[1],price:r[2],from:FROM[r[0]]||r[2]});
-  const KZ=kaziniKits();KZ.rows.forEach(r=>{const k='kz:'+(r.k||r.key);P[k]={k,n:r.name,price:r.price,from:r.price,kz:1}});
+ function items(){const A=window.MODEL.inputs,kaziniKits=window.MODEL.kazini;const P={};A.services.packs.forEach(r=>{const bp=live(r[0]);P[r[0]]={k:r[0],n:r[1],price:r[2],from:bp?bp.from:null,per:bp?bp.per:null}});
+  const KZ=kaziniKits();KZ.rows.forEach(r=>{const k='kz:'+(r.k||r.key),bp=live(k);P[k]={k,n:r.name,price:r.price,from:bp?bp.from:null,per:bp?bp.per:null,kz:1}});
   return G.map(g=>({...g,items:g.keys.filter(k=>P[k]).map(k=>({...P[k],t:T[k],card:CARDOF[k]||'kazini'}))}))}
  const CSS=`.pkc{--ln:rgba(255,255,255,.09)}.pkc-g{display:grid;grid-template-columns:minmax(0,230px) minmax(0,1fr);gap:24px;padding:22px 0;border-top:1px solid var(--ln)}
 .pkc-g h4{margin:0;font:500 1.2rem/1.25 var(--f-serif,Georgia,serif);color:#fff}.pkc-g h4 small{display:block;margin-top:4px;font:500 .78rem var(--f-body,inherit);color:rgba(244,251,247,.55)}
@@ -245,7 +251,7 @@ try{document.documentElement.classList.toggle('opt-lean',OPT()==='lean')}catch(e
  // html(L, mode): L(en,sw) picks the language; mode 'full' (cards with price and card) or 'compact' (one line per group)
  function html(L,mode){css();L=L||((e)=>e);const g=items();
   if(mode==='compact')return `<div class="pkc">${g.map(x=>`<div class="pkc-c"><b>${L(x.en,x.sw)}</b><span>${x.items.map(i=>i.n).join('<i>·</i>')}</span></div>`).join('')}</div>`;
-  return `<div class="pkc">${g.map(x=>`<div class="pkc-g"><div><h4>${L(x.en,x.sw)}<small>${x.items.length} ${L(x.items.length>1?'packages':'package',x.items.length>1?'vifurushi':'kifurushi')}</small></h4><p>${L(x.d[0],x.d[1])}</p></div><div class="pkc-l">${x.items.map(i=>`<div class="pkc-i${i.kz?' kz':''}"><b>${i.n}</b><span>${L(i.t[0],i.t[1])}</span><em>${L('from ','kuanzia ')}${tz(i.from)} ${L('a month','kwa mwezi')}</em><span class="pkc-chip">${CN[i.card]}</span></div>`).join('')}</div></div>`).join('')}</div>`}
+  return `<div class="pkc">${g.map(x=>`<div class="pkc-g"><div><h4>${L(x.en,x.sw)}<small>${x.items.length} ${L(x.items.length>1?'packages':'package',x.items.length>1?'vifurushi':'kifurushi')}</small></h4><p>${L(x.d[0],x.d[1])}</p></div><div class="pkc-l">${x.items.map(i=>`<div class="pkc-i${i.kz?' kz':''}"><b>${i.n}</b><span>${L(i.t[0],i.t[1])}</span>${i.from!=null?`<em>${L('from ','kuanzia ')}${tz(i.from)} ${L(i.per.en,i.per.sw)} · ${L('12-month plan','mpango wa miezi 12')}</em>`:''}<span class="pkc-chip">${CN[i.card]}</span></div>`).join('')}</div></div>`).join('')}</div>`}
  const count=()=>{const g=items();const all=g.flatMap(x=>x.items);return{all:all.length,home:all.filter(i=>i.card!=='kazini').length,biz:all.filter(i=>i.card==='kazini').length}};
  window.AFYA_PKG={groups:items,html,count,cardName:CN};
 })();

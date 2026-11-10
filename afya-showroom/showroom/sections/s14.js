@@ -1,8 +1,8 @@
 /* 1.4 Our customers · v2 on the D2 template (brief G 1.4, K1.8).
    Six illustrative households, faceless (D-1): inline SVG object icons only, no photos.
-   Monthly spend: the two finished boxes (Mama na Mtoto, Mama Mjamzito) are priced live with the D4 rule from
-   data/boxes (window.AFYA_DATA + window.AFYA_D4); the other four use the financial model's average box, labelled
-   "estimate" with that basis. Card fees from MODEL.inputs.cards. Medicines only via the licensed partner pharmacy (B4).
+   Monthly spend: every household's box is priced live by the shared box price (window.AB_BOXPRICE, shell/boxprice.js,
+   the same D4 rule and item lists as section 3.5). Boxes that come every 2 or 3 months are shown per box and as a
+   monthly equivalent. Card fees from MODEL.inputs.cards. Medicines only via the licensed partner pharmacy (B4).
    The 22-package grid is removed (it duplicates 3.5). */
 (function(){
 'use strict';
@@ -18,7 +18,7 @@ const SRC=()=>[
  {t:T('NBS, June 2024: 2022 Population and Housing Census, Key Findings, Basic Demographic and Socio-economic Profile (15.4% under five, 5.7% aged 60 and over)','NBS, Juni 2024: Sensa ya Watu na Makazi 2022, Matokeo Muhimu, Wasifu wa Msingi wa Kidemografia na Kijamii na Kiuchumi (asilimia 15.4 chini ya miaka mitano, asilimia 5.7 wenye miaka 60 na zaidi)'),u:'https://sensa.nbs.go.tz/publication/08. Key_Findings_Basic_Demographic_and_Socio-economic_ Eng_ 12.06.2024 Final.pdf'},
  {t:T('NBS: 2022 Population and Housing Census, Housing Condition, Household Amenities and Assets (1,537,293 households in Dar es Salaam region)','NBS: Sensa ya Watu na Makazi 2022, Hali ya Makazi, Huduma na Mali za Kaya (kaya 1,537,293 mkoa wa Dar es Salaam)'),u:'https://www.nbs.go.tz/uploads/statistics/documents/en-1764003000-Housing Condition, Household Amenities and Assets.pdf'},
  {t:T('MoH, NBS, OCGS and ICF, January 2023: Tanzania Demographic and Health Survey and Malaria Indicator Survey 2022, Key Indicators Report (3.6 children per urban woman)','Wizara ya Afya, NBS, OCGS na ICF, Januari 2023: Utafiti wa Demografia na Afya na Viashiria vya Malaria Tanzania 2022, Ripoti ya Viashiria Muhimu (watoto 3.6 kwa mwanamke wa mjini)'),u:'https://dhsprogram.com/pubs/pdf/PR144/PPR144.pdf'},
- {t:T('Afya Basics box price lists, section 3.5: Mama na Mtoto and Mama Mjamzito, every item with a sourced shelf price (checked 9 Nov 2026), priced with the member pricing rule (3% / 6% / 9% below shelf, packing and delivery included)','Orodha za bei za maboksi ya Afya Basics, sehemu 3.5: Mama na Mtoto na Mama Mjamzito, kila kitu na bei ya rafu yenye chanzo (imekaguliwa 9 Nov 2026), kwa kanuni ya bei ya mwanachama (3% / 6% / 9% chini ya bei ya rafu, ufungashaji na usafirishaji ukiwemo)'),u:''},
+ {t:T('Afya Basics box price lists, section 3.5: Mama na Mtoto, Mama Mjamzito, Sukari, Bibi na Babu, Kupona and Presha, every item with a sourced shelf price (checked between 2 and 10 Nov 2026), priced with the member pricing rule (3% / 6% / 9% below shelf, packing and delivery included)','Orodha za bei za maboksi ya Afya Basics, sehemu 3.5: Mama na Mtoto, Mama Mjamzito, Sukari, Bibi na Babu, Kupona na Presha, kila kitu na bei ya rafu yenye chanzo (imekaguliwa kati ya 2 na 10 Nov 2026), kwa kanuni ya bei ya mwanachama (3% / 6% / 9% chini ya bei ya rafu, ufungashaji na usafirishaji ukiwemo)'),u:''},
  {t:T('Afya Basics financial model v1.2, base case: average box price, card fees, average store basket, business share (planning estimates)','Modeli ya fedha ya Afya Basics v1.2, hali ya msingi: bei ya wastani ya boksi, ada za kadi, kikapu cha wastani dukani, sehemu ya biashara (makadirio ya mipango)'),u:''}];
 const cite=n=>`<sup><a href="#abSrc" class="ab-cite" aria-label="${L('Source','Chanzo')} ${n}">${n}</a></sup>`;
 
@@ -42,7 +42,7 @@ const PER=[
   med:['Medicines, such as oral rehydration salts and zinc for diarrhoea or her own iron and folic acid, are supplied by the licensed partner pharmacy, not by Afya.','Dawa, kama chumvi ya kurejesha maji mwilini (ORS) na zinki kwa kuharisha au vidonge vyake vya madini chuma na foliki asidi, zinatolewa na famasia mshirika yenye leseni, si na Afya.'],
   prod:[['Nappies, 6–9 kg','Nepi, kilo 6–9'],['Baby wipes','Vitambaa vya mtoto'],['Nappy-rash barrier','Krimu ya vipele vya nepi'],['Mild baby wash','Sabuni laini ya mtoto'],['Toy of the month','Kichezeo cha mwezi'],['Sanitary pads','Pedi']],
   sw2:['Nappies arrive before they run out, and the size changes with one swap, made up to 12 days before the end of the month.','Nepi zinafika kabla hazijaisha, na saizi inabadilishwa kwa kubadilisha mara moja, hadi siku 12 kabla ya mwisho wa mwezi.']},
- {k:'mj',card:'family',box:{slug:'mama-mjamzito',stage:'t2',per3:true},boxName:['Mama Mjamzito box, second trimester; then Mama na Mtoto','Boksi la Mama Mjamzito, miezi mitatu ya pili; kisha Mama na Mtoto'],j:['B','D'],
+ {k:'mj',card:'family',box:{slug:'mama-mjamzito',stage:'t2'},boxName:['Mama Mjamzito box, second trimester; then Mama na Mtoto','Boksi la Mama Mjamzito, miezi mitatu ya pili; kisha Mama na Mtoto'],j:['B','D'],
   who:['An expectant mother','Mama mjamzito'],
   q:['“I want to check my pressure without losing half a day.”','“Nataka kupima shinikizo langu bila kupoteza nusu siku.”'],
   sit:['Rehema, 31, is five months pregnant with her second child and lives in Kigamboni. Her clinic visits are long, her feet swell in the afternoon, and the list of things to buy for the baby grows every week.','Rehema, mwenye miaka 31, ana ujauzito wa miezi mitano wa mtoto wake wa pili na anaishi Kigamboni. Ziara zake za kliniki ni ndefu, miguu yake huvimba mchana, na orodha ya vitu vya kumnunulia mtoto inaongezeka kila wiki.'],
@@ -50,7 +50,7 @@ const PER=[
   med:['Her clinic decides any iron, folic acid or calcium and the dose. The licensed partner pharmacy supplies them on the clinic’s prescription; Afya does not sell them.','Kliniki yake inaamua madini chuma, foliki asidi au kalsiamu yoyote na kipimo chake. Famasia mshirika yenye leseni inazitoa kwa agizo la kliniki; Afya haziuzi.'],
   prod:[['Mosquito repellent','Dawa ya kufukuza mbu'],['Body lotion','Losheni ya mwili'],['Body wash','Sabuni ya kuogea'],['Panty liners','Pedi nyembamba'],['Water treatment','Dawa ya kusafisha maji']],
   sw2:['A free Afya Check whenever she passes, with a clear “see your clinic today” if a reading is high, and one box each trimester delivered to her door.','Afya Check ya bure kila anapopita, na ujumbe wazi wa “nenda kliniki leo” kama kipimo kiko juu, na boksi moja kila miezi mitatu linaloletwa mlangoni kwake.']},
- {k:'bd',card:'care',box:{slug:'sukari'},boxName:['Sukari box (item list in research)','Boksi la Sukari (orodha ya vitu inafanyiwa utafiti)'],j:['B','D'],
+ {k:'bd',card:'care',box:{slug:'sukari',stage:'tab'},boxName:['Sukari box, on tablets, every 3 months','Boksi la Sukari, kwa vidonge, kila miezi 3'],j:['B','D'],
   who:['A father living with diabetes and high blood pressure','Baba anayeishi na kisukari na shinikizo la juu la damu'],
   q:['“My strips must fit my meter, every time.”','“Vipande vyangu vya kupimia lazima viendane na mashine yangu, kila mara.”'],
   sit:['Hassan, 54, runs a hardware shop in Mbezi. He was diagnosed with type 2 diabetes three years ago and now also has high blood pressure. He often runs out of test strips, and some shops stock only strips that do not fit his meter.','Hassan, mwenye miaka 54, anaendesha duka la vifaa vya ujenzi Mbezi. Aligundulika na kisukari aina ya pili miaka mitatu iliyopita na sasa pia ana shinikizo la juu la damu. Mara nyingi vipande vyake vya kupimia sukari vinaisha, na maduka mengine yana vipande visivyoendana na mashine yake tu.'],
@@ -58,7 +58,7 @@ const PER=[
   med:['His clinic decides how often he tests and which medicines he takes. Any prescribed medicine comes from the licensed partner pharmacy.','Kliniki yake inaamua anapima mara ngapi na anatumia dawa gani. Dawa yoyote iliyoagizwa inatoka kwa famasia mshirika yenye leseni.'],
   prod:[['Meter-matched strips','Vipande vinavyoendana na mashine'],['Lancets','Sindano za kuchomea kidole'],['Blood-pressure monitor','Kipima shinikizo la damu'],['Foot-care cream','Krimu ya kutunza miguu'],['Sharps container','Chombo cha kutupia sindano']],
   sw2:['His meter model is saved to his account, so matching strips always come, and the reading history from his free checks is ready to show his doctor.','Aina ya mashine yake imehifadhiwa kwenye akaunti yake, hivyo vipande vinavyoendana vinakuja kila mara, na historia ya vipimo vyake vya bure iko tayari kumwonyesha daktari.']},
- {k:'cr',card:'senior',box:{slug:'bibi-na-babu'},boxName:['Bibi na Babu box (item list in research)','Boksi la Bibi na Babu (orodha ya vitu inafanyiwa utafiti)'],j:['C','D'],
+ {k:'cr',card:'senior',box:{slug:'bibi-na-babu',stage:'b'},boxName:['Bibi na Babu box, assisted level, monthly','Boksi la Bibi na Babu, kiwango cha kusaidiwa, kila mwezi'],j:['C','D'],
   who:['A daughter caring for her elderly mother','Binti anayemhudumia mama yake mzee'],
   q:['“I can’t leave work early every week to buy Mama’s things.”','“Siwezi kuondoka kazini mapema kila wiki kwenda kununua vitu vya Mama.”'],
   sit:['Halima, 36, is an accountant in the city centre. Her mother, 78, lives in Temeke with high blood pressure and limited mobility after a fall. Halima buys adult diapers, creams and batteries for the monitor, and arranges everything by phone.','Halima, mwenye miaka 36, ni mhasibu katikati ya jiji. Mama yake, mwenye miaka 78, anaishi Temeke akiwa na shinikizo la juu la damu na uwezo mdogo wa kutembea baada ya kuanguka. Halima ananunua nepi za watu wazima, krimu na betri za kipima shinikizo, na anapanga kila kitu kwa simu.'],
@@ -66,7 +66,7 @@ const PER=[
   med:['Her mother’s blood-pressure tablets are prescribed by her clinic and supplied by the licensed partner pharmacy, in a sealed bag that travels with the box.','Vidonge vya shinikizo la damu vya mama yake vinaagizwa na kliniki yake na kutolewa na famasia mshirika yenye leseni, katika mfuko uliofungwa unaosafiri pamoja na boksi.'],
   prod:[['Adult diapers','Nepi za watu wazima'],['Wipes and barrier cream','Vitambaa na krimu ya kulinda ngozi'],['Bed pads','Shuka za kuzuia unyevu'],['Monitor batteries','Betri za kipima shinikizo'],['Walking frame, rented','Kitembezi, cha kukodi']],
   sw2:['A carer account: she manages her mother’s box from her desk, receives the reminders, and rented equipment is delivered and collected.','Akaunti ya mlezi: anasimamia boksi la mama yake akiwa ofisini, anapokea vikumbusho, na vifaa vya kukodi vinaletwa na kuchukuliwa.']},
- {k:'rc',card:'green',box:{slug:'kupona'},boxName:['Kupona box for 6–8 weeks (item list in research)','Boksi la Kupona kwa wiki 6–8 (orodha ya vitu inafanyiwa utafiti)'],j:['B','C'],
+ {k:'rc',card:'green',box:{slug:'kupona',course:['a','b']},boxName:['Kupona, two boxes over six weeks','Kupona, maboksi mawili kwa wiki sita'],j:['B','C'],
   who:['A man recovering after surgery','Mwanamume anayepona baada ya upasuaji'],
   q:['“I need dressings today, not next week.”','“Nahitaji vifaa vya kufunga jeraha leo, si wiki ijayo.”'],
   sit:['Peter, 41, had knee surgery after a motorbike accident and lives in Upanga. For six to eight weeks he needs dressings, cold packs and crutches, and he cannot walk from shop to shop.','Peter, mwenye miaka 41, alifanyiwa upasuaji wa goti baada ya ajali ya pikipiki na anaishi Upanga. Kwa wiki sita hadi nane anahitaji vifaa vya kufunga jeraha, vifurushi vya baridi na magongo, na hawezi kutembea kutoka duka moja hadi jingine.'],
@@ -74,7 +74,7 @@ const PER=[
   med:['His surgeon decides which dressing and any pain relief. Medicines come from the licensed partner pharmacy, not from Afya.','Daktari wake wa upasuaji anaamua kifaa gani cha kufunga jeraha na dawa yoyote ya maumivu. Dawa zinatoka kwa famasia mshirika yenye leseni, si kwa Afya.'],
   prod:[['Sterile dressings','Vifaa safi vya kufunga jeraha'],['Cold and hot packs','Vifurushi vya baridi na joto'],['Crutches, rented','Magongo, ya kukodi'],['Knee brace','Kifaa cha kushikilia goti']],
   sw2:['A ready recovery kit delivered in Dar es Salaam, and advice from the store lead on using the aids safely.','Kifurushi cha kupona kilicho tayari kinaletwa Dar es Salaam, pamoja na ushauri wa kiongozi wa duka kuhusu kutumia vifaa hivyo kwa usalama.']},
- {k:'ds',card:'senior',box:{slug:'presha'},boxName:['Presha or Bibi na Babu box, paid from abroad (item lists in research)','Boksi la Presha au la Bibi na Babu, linalolipwa kutoka nje ya nchi (orodha za vitu zinafanyiwa utafiti)'],j:['E','D'],
+ {k:'ds',card:'senior',box:{slug:'presha',stage:'p'},boxName:['Presha box for his mother, every 3 months, paid from abroad','Boksi la Presha kwa mama yake, kila miezi 3, linalolipwa kutoka nje ya nchi'],j:['E','D'],
   who:['A son working abroad','Mwana anayefanya kazi nje ya nchi'],
   q:['“I send money home. I want to see it become care.”','“Natuma pesa nyumbani. Nataka kuona zinageuka kuwa huduma.”'],
   sit:['Abdul, 33, works in Muscat. His mother in Dar es Salaam has high blood pressure and has lived alone since his father died. He sends money every month but cannot be sure it becomes her monitor batteries and daily essentials.','Abdul, mwenye miaka 33, anafanya kazi Muscat. Mama yake aliyeko Dar es Salaam ana shinikizo la juu la damu na anaishi peke yake tangu baba yake afariki. Anatuma pesa kila mwezi lakini hana uhakika kama zinageuka kuwa betri za kipima shinikizo na mahitaji yake ya kila siku.'],
@@ -85,17 +85,16 @@ const PER=[
 const JN=[['A','Walk-in','Kuingia dukani'],['B','Advice with Afya Check','Ushauri na Afya Check'],['C','Online and WhatsApp','Mtandaoni na WhatsApp'],['D','Afya Box member','Mwanachama wa Afya Box'],['E','Diaspora gift','Zawadi kutoka diaspora']];
 const PLANS=[['m1','1 month','Mwezi 1'],['m6','6 months · Gold','Miezi 6 · Gold'],['m12','12 months · Platinum','Miezi 12 · Platinum']];
 const CARD_NAME={green:['Afya Green','Afya Green'],family:['Afya Family','Afya Family'],care:['Afya Care','Afya Care'],senior:['Afya Senior','Afya Senior']};
-let plan='m1',cur=0;
+let plan='m12',cur=0;
 
 /* ---------- prices ---------- */
-function d4Box(slug,stageKey,pl){const D=window.AFYA_DATA,D4=window.AFYA_D4;const b=D&&D.boxes&&D.boxes[slug];if(!b||!b.final||!D4)return null;
- const st=b.stages.find(s=>s.key===stageKey);if(!st)return null;
- const lines=(st.items||[]).filter(it=>it.kind!=='medicine').map(it=>{const bs=it.brands||[];const br=bs.find(x=>x.default)||bs[0];return D4.lineCost(br,it.units)});
- if(lines.some(c=>c==null))return null;
- const shelf=lines.reduce((t,c)=>t+c,0);return {shelf,core:D4.core(shelf,pl),label:st.label}}
-function spend(x,pl){const I=M().inputs,c=I.cards.find(k=>k.key===x.card)||{fee_year:0},cardM=(c.fee_year||0)/12;
- const r=x.box.stage?d4Box(x.box.slug,x.box.stage,pl):null;
- if(r){const boxM=x.box.per3?r.core/3:r.core;return {final:true,boxPrice:r.core,boxM,cardM,tot:boxM+cardM,per3:!!x.box.per3,stage:r.label}}
+/* the box price comes from the shared helper; a box sent every 2 or 3 months is also shown per month (÷ months).
+   Kupona is a six-week course of two boxes, priced on the 1-month plan whatever the plan chosen. */
+function spend(x,pl){const I=M().inputs,c=I.cards.find(k=>k.key===x.card)||{fee_year:0},cardM=(c.fee_year||0)/12,BP=window.AB_BOXPRICE;
+ if(BP&&x.box.course){const rs=x.box.course.map(k=>BP(x.box.slug,{plan:'m1',stage:k}));if(rs.every(Boolean)){const tot=rs.reduce((t,r)=>t+r.from,0),boxM=tot/1.5;
+  return {final:true,course:true,boxPrice:tot,boxM,cardM,tot:boxM+cardM,parts:rs}}}
+ const r=BP?BP(x.box.slug,{plan:pl,stage:x.box.stage}):null;
+ if(r){const mo=r.months||1,boxM=r.from/mo;return {final:true,boxPrice:r.from,per:r.per,months:mo,boxM,cardM,tot:boxM+cardM}}
  const f=(I.members.plans||{})[pl]||1,boxM=I.members.avg_box*f;return {final:false,boxPrice:boxM,boxM,cardM,tot:boxM+cardM}}
 
 /* ---------- pieces ---------- */
@@ -140,7 +139,8 @@ function cardsHTML(){return `<div class="s14-grid" role="group" aria-label="${L(
  return `<button type="button" class="s14-card" data-p="${i}" aria-pressed="${i===cur}">${icon(x.k)}<b>${L(...x.who)}</b><span class="s14-bx">${L(...x.boxName)}</span><span class="s14-v">${tsh(sp.tot)} ${sp.final?'':est()}<small>${L('a month','kwa mwezi')}${sp.final?' · '+L('from the sourced box price','kutoka bei ya boksi yenye vyanzo'):' · '+L('model average box','wastani wa boksi wa modeli')}</small></span></button>`}).join('')}</div>`}
 function planSeg(id){return `<div class="ab-seg" role="group" aria-label="${L('Plan length','Muda wa mpango')}" id="${id}">${PLANS.map(p=>`<button type="button" data-plan="${p[0]}" aria-pressed="${p[0]===plan}">${L(p[1],p[2])}</button>`).join('')}</div>`}
 function pcHTML(i){const x=PER[i],sp=spend(x,plan),cd=CARD_NAME[x.card]||[x.card,x.card],I=M().inputs,c=I.cards.find(k=>k.key===x.card)||{fee_year:0};
- const boxLine=sp.final?(sp.per3?`${tsh(sp.boxPrice)} ${L('per trimester box','kwa boksi la miezi mitatu')} · ${L('about','takriban')} ${tsh(sp.boxM)} ${L('a month','kwa mwezi')}`:`${tsh(sp.boxPrice)} ${L('a month','kwa mwezi')}`):`${tsh(sp.boxM)} ${est()}`;
+ const boxLine=!sp.final?`${tsh(sp.boxM)} ${est()}`:sp.course?`${tsh(sp.boxPrice)} ${L('for the two boxes over six weeks (1-month plan)','kwa maboksi mawili ndani ya wiki sita (mpango wa mwezi 1)')} ÷ 1.5 = ${tsh(sp.boxM)} ${L('a month','kwa mwezi')}`
+  :sp.months>1?`${tsh(sp.boxPrice)} ${L(sp.per.en,sp.per.sw)} · ${L('about','takriban')} ${tsh(sp.boxM)} ${L('a month','kwa mwezi')}`:`${tsh(sp.boxPrice)} ${L('a month','kwa mwezi')}`;
  const basis=sp.final?L('Box price: the sourced shelf value of the box goods, less the member saving for this plan, packing and delivery included (section 3.5).','Bei ya boksi: thamani ya rafu yenye vyanzo ya bidhaa za boksi, ukitoa punguzo la mwanachama kwa mpango huu, ufungashaji na usafirishaji ukiwemo (sehemu 3.5).')
   :L('Estimate: the item list for this box is still in research, so the financial model’s average box price is used, adjusted for the plan length.','Makadirio: orodha ya vitu vya boksi hili bado inafanyiwa utafiti, hivyo bei ya wastani ya boksi ya modeli ya fedha inatumika, ikirekebishwa kwa muda wa mpango.');
  return `<article class="s14-pc" aria-live="polite">
@@ -155,13 +155,13 @@ function pcHTML(i){const x=PER[i],sp=spend(x,plan),cd=CARD_NAME[x.card]||[x.card
    <div><dt>${L('What makes them switch','Kinachowafanya wabadilike')}</dt><dd>${L(...x.sw2)}</dd></div>
   </dl></article>`}
 function tableHTML(){const rows=PER.map(x=>{const sp=spend(x,plan),cd=CARD_NAME[x.card];
- return `<tr><td>${L(...x.who)}<small>${L(...x.boxName)}</small></td><td class="ab-n">${tsh(sp.boxM)}${sp.per3?`<small>${tsh(sp.boxPrice)} ${L('per trimester ÷ 3','kwa miezi mitatu ÷ 3')}</small>`:''}</td><td class="ab-n">${tsh(sp.cardM)}<small>${E(cd[0])}</small></td><td class="ab-n">${tsh(sp.tot)}</td><td>${sp.final?L('Sourced shelf prices, member pricing rule (3.5)','Bei za rafu zenye vyanzo, kanuni ya bei ya mwanachama (3.5)'):`${L('Estimate: model average box','Makadirio: wastani wa boksi wa modeli')} ${tsh(M().inputs.members.avg_box)}`}</td></tr>`}).join('');
+ return `<tr><td>${L(...x.who)}<small>${L(...x.boxName)}</small></td><td class="ab-n">${tsh(sp.boxM)}${sp.course?`<small>${tsh(sp.boxPrice)} ${L('two boxes ÷ 1.5 months','maboksi mawili ÷ miezi 1.5')}</small>`:sp.months>1?`<small>${tsh(sp.boxPrice)} ${L(sp.per.en,sp.per.sw)} ÷ ${sp.months}</small>`:''}</td><td class="ab-n">${tsh(sp.cardM)}<small>${E(cd[0])}</small></td><td class="ab-n">${tsh(sp.tot)}</td><td>${sp.final?L('Sourced shelf prices, member pricing rule (3.5)','Bei za rafu zenye vyanzo, kanuni ya bei ya mwanachama (3.5)'):`${L('Estimate: model average box','Makadirio: wastani wa boksi wa modeli')} ${tsh(M().inputs.members.avg_box)}`}</td></tr>`}).join('');
  return `<div class="ab-tw"><table class="ab-t"><thead><tr><th>${L('Household and box','Kaya na boksi')}</th><th>${L('Box, per month','Boksi, kwa mwezi')}</th><th>${L('Card, per month','Kadi, kwa mwezi')}</th><th>${L('Estimated monthly spend','Makadirio ya matumizi ya mwezi')}</th><th>${L('Basis','Msingi wa hesabu')}</th></tr></thead><tbody>${rows}</tbody></table></div>`}
 function refresh(){const g=id=>document.getElementById(id);if(!g('s14Cards'))return;
  g('s14Cards').innerHTML=cardsHTML();g('s14Pc').innerHTML=pcHTML(cur);g('s14Tbl').innerHTML=tableHTML();
  document.querySelectorAll('.s14 [data-plan]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.plan===plan)))}
 
-function render(s,p,pv,nx){const I=M().inputs,mm=spend(PER[0],'m1'),mj=spend(PER[1],'m1');
+function render(s,p,pv,nx){const I=M().inputs,mm=spend(PER[0],'m12'),mj=spend(PER[1],'m12'),hb=spend(PER[2],'m12');
  const fam=I.cards.find(c=>c.key==='family')||{fee_year:0};
  return `<article class="ab-sec s14" aria-labelledby="h-s1-4"><style>${CSS}</style><div class="ab-wrap">
  <div class="ab-sec-no">${E(s.no)}</div><h1 id="h-s1-4">${E(s.title)}</h1>
@@ -170,7 +170,7 @@ function render(s,p,pv,nx){const I=M().inputs,mm=spend(PER[0],'m1'),mj=spend(PER
  <figure class="ab-visual" aria-label="${L('The six households and their estimated monthly spend','Kaya sita na makadirio ya matumizi yao ya mwezi')}">
   <div id="s14Cards">${cardsHTML()}</div>
   <div class="s14-ctl"><span>${L('Plan length','Muda wa mpango')}</span>${planSeg('s14Plan')}</div>
-  <figcaption>${L('Select a household to open its profile below. Spend per month: box plus card fee spread over 12 months. The two finished boxes are priced from sourced shelf prices; the other four are estimates from the financial model’s average box until their item lists are complete.','Chagua kaya ili kufungua wasifu wake hapa chini. Matumizi kwa mwezi: boksi pamoja na ada ya kadi ikigawanywa kwa miezi 12. Maboksi mawili yaliyokamilika yanapewa bei kutoka bei za rafu zenye vyanzo; mengine manne ni makadirio kutoka wastani wa boksi wa modeli ya fedha hadi orodha zao za vitu zikamilike.')}</figcaption>
+  <figcaption>${L('Select a household to open its profile below. Spend per month: box plus card fee spread over 12 months. Every box is priced from its sourced item list in section 3.5; a box that comes every two or three months is divided by its months.','Chagua kaya ili kufungua wasifu wake hapa chini. Matumizi kwa mwezi: boksi pamoja na ada ya kadi ikigawanywa kwa miezi 12. Kila boksi linapewa bei kutoka orodha yake ya vitu yenye vyanzo katika sehemu 3.5; boksi linalokuja kila miezi miwili au mitatu linagawanywa kwa idadi ya miezi yake.')}</figcaption>
  </figure>
 
  <div class="ab-body">
@@ -191,8 +191,8 @@ function render(s,p,pv,nx){const I=M().inputs,mm=spend(PER[0],'m1'),mj=spend(PER
    <p>${L('The table follows the plan length chosen above. A member on the 6-month (Gold) or 12-month (Platinum) plan pays once and saves 6% or 9% on the box goods instead of 3%. Packing and delivery are already inside the box price; nothing is added at the door.','Jedwali linafuata muda wa mpango uliochaguliwa hapo juu. Mwanachama wa mpango wa miezi 6 (Gold) au miezi 12 (Platinum) analipa mara moja na anaokoa 6% au 9% kwa bidhaa za boksi badala ya 3%. Ufungashaji na usafirishaji tayari viko ndani ya bei ya boksi; hakuna kinachoongezwa mlangoni.')}</p>
    <div class="s14-ctl">${planSeg('s14Plan2')}</div>
    <div id="s14Tbl">${tableHTML()}</div>
-   <p class="s14-cap">${T(`Box prices for Mama na Mtoto (months 8–12) and Mama Mjamzito (second trimester) are computed from the item lists in section 3.5${cite(5)}. Card fees and the average box are planning estimates from the financial model${cite(6)}. Medicines are not in any box price: the partner pharmacy charges for them separately. Extra visits or online orders come on top, at an average store basket of ${tsh(I.store.basket)} (estimate${cite(6)}).`,`Bei za maboksi ya Mama na Mtoto (miezi 8–12) na Mama Mjamzito (miezi mitatu ya pili) zimekokotolewa kutoka orodha za vitu katika sehemu 3.5${cite(5)}. Ada za kadi na wastani wa boksi ni makadirio ya mipango kutoka modeli ya fedha${cite(6)}. Dawa hazimo kwenye bei ya boksi lolote: famasia mshirika inazitoza kando. Ziara za ziada au oda za mtandaoni zinaongezeka juu ya hapo, kwa kikapu cha wastani dukani cha ${tsh(I.store.basket)} (makadirio${cite(6)}).`)}</p>
-   <p>${L('The two households living with a long-term condition, the father with diabetes and the daughter caring for her mother, are also the least likely to leave: what they buy is not optional, and running out has consequences. Their exact box prices follow when the Sukari and Bibi na Babu item lists are complete.','Kaya mbili zinazoishi na ugonjwa wa muda mrefu, baba mwenye kisukari na binti anayemhudumia mama yake, ndizo pia zisizo na uwezekano mkubwa wa kuondoka: wanachonunua si cha hiari, na kuishiwa kuna madhara. Bei kamili za maboksi yao zitafuata orodha za vitu vya Sukari na Bibi na Babu zitakapokamilika.')}</p>
+   <p class="s14-cap">${T(`All six box prices are computed from the item lists in section 3.5, with the default brands${cite(5)}. Kupona is a six-week course of two boxes and is priced on the 1-month plan. Card fees are planning estimates from the financial model${cite(6)}. Medicines are not in any box price: the partner pharmacy charges for them separately. Extra visits or online orders come on top, at an average store basket of ${tsh(I.store.basket)} (estimate${cite(6)}).`,`Bei za maboksi yote sita zimekokotolewa kutoka orodha za vitu katika sehemu 3.5, kwa chapa za kawaida${cite(5)}. Kupona ni mpango wa wiki sita wenye maboksi mawili na unapewa bei ya mpango wa mwezi 1. Ada za kadi ni makadirio ya mipango kutoka modeli ya fedha${cite(6)}. Dawa hazimo kwenye bei ya boksi lolote: famasia mshirika inazitoza kando. Ziara za ziada au oda za mtandaoni zinaongezeka juu ya hapo, kwa kikapu cha wastani dukani cha ${tsh(I.store.basket)} (makadirio${cite(6)}).`)}</p>
+   <p>${L('The two households living with a long-term condition, the father with diabetes and the daughter caring for her mother, are also the least likely to leave: what they buy is not optional, and running out has consequences. Their boxes are priced from the same sourced item lists as the others.','Kaya mbili zinazoishi na ugonjwa wa muda mrefu, baba mwenye kisukari na binti anayemhudumia mama yake, ndizo pia zisizo na uwezekano mkubwa wa kuondoka: wanachonunua si cha hiari, na kuishiwa kuna madhara. Maboksi yao yanapewa bei kutoka orodha zilezile za vitu zenye vyanzo kama mengine.')}</p>
   </section>
 
   <section class="ab-block">
@@ -209,15 +209,15 @@ function render(s,p,pv,nx){const I=M().inputs,mm=spend(PER[0],'m1'),mj=spend(PER
 
  <section class="ab-block"><h2>${L('Key figures','Takwimu muhimu')}</h2>
   ${A().figsHTML([
-   {v:tsh(mm.boxPrice),l:T('Mama na Mtoto box, months 8–12, 1-month plan','Boksi la Mama na Mtoto, miezi 8–12, mpango wa mwezi 1'),s:L('Sourced shelf prices, member pricing rule (section 3.5)','Bei za rafu zenye vyanzo, kanuni ya bei ya mwanachama (sehemu 3.5)')},
-   {v:tsh(mj.boxPrice),l:T('Mama Mjamzito box, second trimester, one box per trimester','Boksi la Mama Mjamzito, miezi mitatu ya pili, boksi moja kila miezi mitatu'),s:L('Sourced shelf prices, member pricing rule (section 3.5)','Bei za rafu zenye vyanzo, kanuni ya bei ya mwanachama (sehemu 3.5)')},
-   {v:`${tsh(I.members.avg_box)} ${est()}`,l:T('Average box price in the financial model, used for the four boxes still in research','Bei ya wastani ya boksi katika modeli ya fedha, inayotumika kwa maboksi manne yaliyo bado kwenye utafiti'),s:L('Financial model v1.2','Modeli ya fedha v1.2')},
+   {v:tsh(mm.boxPrice),l:T('Mama na Mtoto box, months 8–12, a month on the 12-month plan','Boksi la Mama na Mtoto, miezi 8–12, kwa mwezi kwa mpango wa miezi 12'),s:L('Sourced shelf prices, member pricing rule (section 3.5)','Bei za rafu zenye vyanzo, kanuni ya bei ya mwanachama (sehemu 3.5)')},
+   {v:tsh(mj.boxPrice),l:T('Mama Mjamzito box, second trimester, per trimester box on the 12-month plan','Boksi la Mama Mjamzito, miezi mitatu ya pili, kwa boksi la miezi mitatu kwa mpango wa miezi 12'),s:L('Sourced shelf prices, member pricing rule (section 3.5)','Bei za rafu zenye vyanzo, kanuni ya bei ya mwanachama (sehemu 3.5)')},
+   {v:tsh(hb.boxPrice),l:T('Sukari box on tablets, per three-month box on the 12-month plan','Boksi la Sukari kwa vidonge, kwa boksi la miezi mitatu kwa mpango wa miezi 12'),s:L('Sourced shelf prices, member pricing rule (section 3.5)','Bei za rafu zenye vyanzo, kanuni ya bei ya mwanachama (sehemu 3.5)')},
    {v:'1,537,293',l:T('Households in the Dar es Salaam region','Kaya katika mkoa wa Dar es Salaam'),s:L('2022 census (NBS)','Sensa ya 2022 (NBS)')}])}
  </section>
 
  ${A().openHTML([
   L('The six households are illustrative: they are built from national data on who has these needs, not from interviews. Before opening, 60 to 100 short interviews in the store’s catchment will test each household’s needs and willingness to pay.','Kaya sita ni za mfano: zimejengwa kutoka takwimu za kitaifa kuhusu nani ana mahitaji haya, si kutoka mahojiano. Kabla ya kufungua, mahojiano mafupi 60 hadi 100 katika eneo la duka yatapima mahitaji ya kila kaya na utayari wake wa kulipa.'),
-  L('Four of the six monthly spends are estimates from the model’s average box. They are replaced by sourced prices when the Sukari, Bibi na Babu, Kupona and Presha item lists are complete.','Matumizi manne kati ya sita ya mwezi ni makadirio kutoka wastani wa boksi wa modeli. Yatabadilishwa na bei zenye vyanzo orodha za vitu za Sukari, Bibi na Babu, Kupona na Presha zitakapokamilika.'),
+  L('Box prices follow the shelf prices in section 3.5, which are rebuilt every quarter; members see a new price before renewal.','Bei za maboksi zinafuata bei za rafu katika sehemu 3.5, ambazo zinahuishwa kila robo mwaka; wanachama wanaona bei mpya kabla ya kuhuisha.'),
   L('Card fees are planning figures; they are confirmed with the membership terms in section 3.4.','Ada za kadi ni takwimu za mipango; zitathibitishwa pamoja na masharti ya uanachama katika sehemu 3.4.'),
   L('Whether diaspora relatives will pay for a parent’s box every month is not yet measured. They can start with a single gift box, and prepaid 6- or 12-month plans avoid a monthly card payment.','Kama ndugu walioko nje ya nchi watalipia boksi la mzazi kila mwezi bado haijapimwa. Wanaweza kuanza na boksi moja la zawadi, na mipango ya miezi 6 au 12 inayolipwa mapema inaepusha malipo ya kadi kila mwezi.')])}
 

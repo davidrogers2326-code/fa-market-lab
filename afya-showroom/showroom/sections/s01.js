@@ -19,6 +19,10 @@ const tsh=n=>'TSh '+Math.round(n).toLocaleString('en-US');
 const tshM=n=>n>=1e9?'TSh '+(n/1e9).toFixed(1).replace(/\.0$/,'')+(lang()==='sw'?' bilioni':'B'):'TSh '+Math.round(n/1e6)+(lang()==='sw'?' milioni':'M');
 const lang=()=>window.AFYA_LANG==='sw'?'sw':'en';
 
+/* the Mama na Mtoto "from" price, from the shared box price (shell/boxprice.js), 12-month plan */
+function mmFrom(){const r=window.AB_BOXPRICE&&window.AB_BOXPRICE('mama-na-mtoto',{plan:'m12'});if(!r)return '';
+ return ' '+E(T(`On the 12-month plan the Mama na Mtoto box starts at ${tsh(r.from)} ${r.per.en}, against ${tsh(r.shelf)} for the same goods at shelf price, with packing and delivery included.`,`Kwa mpango wa miezi 12, boksi la Mama na Mtoto linaanzia ${tsh(r.from)} ${r.per.sw}, ukilinganisha na ${tsh(r.shelf)} kwa bidhaa hizohizo kwa bei ya rafu, ufungashaji na usafirishaji ukiwemo.`))}
+
 function numbers(){const M=window.MODEL,r=M.get('base'),I=M.inputs,lean=A().isLean();
  const est=`<span class="ab-est">${E(T('estimate','makadirio'))}</span>`, src=T('Financial model v1.2, base case','Modeli ya fedha v1.2, hali ya msingi');
  const y12=r.years[r.years.length-1],stores=(I.growth&&I.growth.stores_by_year||[]).slice(-1)[0];
@@ -49,7 +53,7 @@ function render(s,p,pv,nx){const N=numbers(),seed=N.seed;
    <div class="ab-hint" aria-hidden="true"><span>${E(T('Closed','Limefungwa'))}</span><div class="ab-track"><i id="abProg"></i></div><span>${E(T('Open','Liko wazi'))}</span></div>
   </div>
  </section>
- <p class="ab-notice">${E(T('The items shown are an example of one Mama na Mtoto month. The full item list for every stage, with brand choices and sourced shelf prices, is in section 3.5.','Vitu vinavyoonyeshwa ni mfano wa mwezi mmoja wa Mama na Mtoto. Orodha kamili ya vitu kwa kila hatua, pamoja na chaguo za chapa na bei za rafu zenye vyanzo, iko katika sehemu ya 3.5.'))}</p>
+ <p class="ab-notice">${E(T('The items shown are an example of one Mama na Mtoto month. The full item list for every stage, with brand choices and sourced shelf prices, is in section 3.5.','Vitu vinavyoonyeshwa ni mfano wa mwezi mmoja wa Mama na Mtoto. Orodha kamili ya vitu kwa kila hatua, pamoja na chaguo za chapa na bei za rafu zenye vyanzo, iko katika sehemu ya 3.5.'))}${mmFrom()}</p>
 
  <section class="ab-block">
   <h2>${E(T('Care has moved home. Shopping for it has not.','Huduma ya afya imehamia nyumbani. Ununuzi wake bado haujahamia.'))}</h2>
