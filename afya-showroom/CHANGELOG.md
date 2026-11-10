@@ -8,6 +8,11 @@
 - D-20: the seed stays TSh 340M. The flagship downside is a named risk in 6.3 and 7.3 with three answers. The pre-sale gate: fewer than 300 founding-member deposits before opening means falling back to start-small. The gate is shown in 5.4 and 6.3.
 - D-21: launch compliance fees (TSh 2,301,625) are their own use-of-funds line.
 
+### Still open (added in Phases 5–7)
+- Packing: 4.3 costs a printed corrugated box, but the approved design is a rigid lidded box. A manufacturer quote for the approved box is open.
+- Package films: new films need Weave credits ("film in production" until then).
+- Payment fee: the model uses 1.2%; a signed aggregator rate card is needed (cautious case 2.7%).
+
 ### Decided on the founder's behalf
 - **Source of the compliance line:** the working-capital reserve, with the seed unchanged and the same approach as D-17. Flagship reserve 41.0M → 38.7M; start-small 29.5M → 27.2M.
 - **Downside figure:** the model now gives −TSh 48.5M (month 7) for the flagship downside, because the compliance line is spent rather than held in reserve. The pages show the live model figure, and the brief's D-20 wording is updated to match. Start-small downside stays positive (+TSh 7.4M, month 5).
@@ -34,6 +39,9 @@
 - **Sukari, Presha, Figo:** the tablet Sukari box, Presha and the kidney-disease Figo box come every 3 months; the dialysis Figo box every 2 months; insulin Sukari monthly. Monthly small boxes lost money in each case. The clinic decides fluid limits, diet and test frequency; the box sends a jug, never a number. Dialysis supplies stay with the dialysis unit, tablets and insulin with the partner pharmacy, and Afya sells only non-prescription goods. Potassium salt substitutes are left out on purpose (a risk for people with kidney disease). Lab tests (HbA1c, kidney profile, urine albumin, foot check) show "price published once a partner quotes"; the monthly Afya Check is free.
 - **5.1 and 5.4:** the pre-sale leads 5.1, with a 60-day deposit path (150 by day 30, 300 by day 60). 5.4 shows the gate fork for the selected option only and reads the downside live from the model. Dropped because they broke the rules or had no source: the "couples" event, an invented Presha price and test fee, named customer stories, and a rent figure. The long-term goal reads "a multi-store health chain". Founding members are told within 7 days which store opens, with a refund offer.
 - **Phase 0 gap (D-8):** the founders cover it with a bridge before signing, receipted in the data room. Its treatment (repaid, converted or counted as the founders' contribution) is set in the investment agreement, not taken from the seed. 6.3 and 7.3 now state the pre-sale terms as set, with the legal review still to come.
+- **Package films (4.3):** all 16 package films, the shop-display film and the box advert are withdrawn. They show the old banded box, old-method prices and medicine blister packs, and none shows gloved packing. Each box shows a "Film in production" card with its D4 price. New films wait for Weave credits.
+- **4.3 delivery:** costs follow the funding switch. Flagship: 2 riders, about TSh 2,149 a delivery at month 12. Start small: partner riders at TSh 3,000 a delivery. The "Afya pharmacist" line is replaced by the partner pharmacy. The box cost is rebuilt at the BoT rate and the 1% customs fee; S/M/L packing lines stay 3,500 / 5,000 / 6,500.
+- **7.5:** 18 investor answers, a 21-item data room and 11 open questions. The searchable source list has 819 sources: 385 opened on 9–10 Nov, 59 seen only in search results, 375 seen earlier and not re-opened.
 - **Afya Men:** condoms are not added (out of the box's scope; no opt-in add-on for now).
 
 ## Phase 4 · Compliance and money — 10 November 2026 (approved)

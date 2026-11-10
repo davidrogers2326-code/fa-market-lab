@@ -90,14 +90,14 @@ function planSVG(lean,cur){const P=AREAS[lean?'lean':'flag'],S=45,ox=24,oy=24,W=
  const stroke=t=>t==='p'?'var(--ink)':t==='z'?'var(--green-edge)':'var(--line)';
  const letters='ABCDEFGHIJKLMNOP';
  const rects=P.a.map((r,i)=>{const x=ox+r.x*S,y=oy+r.y*S,w=r.w*S,h=r.h*S,on=cur===r.k,tall=h>w;
-  const lab=tall?'':`<text class="s31-lbl" x="${x+w/2}" y="${y+h/2+18}" text-anchor="middle" font-size="12" fill="var(--mute)">${E(T(r.en,r.sw))}</text>`;
+  const nm=T(r.en,r.sw),lab=(tall||h<40||nm.length*6.4>w-8)?'':`<text class="s31-lbl" x="${x+w/2}" y="${y+h/2+18}" text-anchor="middle" font-size="12" fill="var(--mute)">${E(nm)}</text>`;
   return `<g data-area="${r.k}"><rect x="${x}" y="${y}" width="${w}" height="${h}" fill="${on?'var(--green)':fill(r.t)}" stroke="${on?'var(--ink)':stroke(r.t)}" stroke-width="${on?2:1}"${r.t==='p'?' stroke-dasharray="6 4"':''}/>${r.t==='p'?`<rect x="${x+4}" y="${y+4}" width="${w-8}" height="${h-8}" fill="url(#s31hatch)"/>`:''}
    <text x="${x+w/2}" y="${y+h/2+(tall?6:0)}" text-anchor="middle" font-size="17" font-weight="600" fill="var(--ink)">${letters[i]}</text>${lab}</g>`}).join('');
  const d0=ox+P.door[0]*S,d1=ox+P.door[1]*S,yb=oy+P.d*S;
  const door=`<line x1="${d0}" y1="${yb}" x2="${d1}" y2="${yb}" stroke="var(--bg)" stroke-width="4"/><path d="M${d0} ${yb} A ${(d1-d0)/2} ${(d1-d0)/2} 0 0 1 ${(d0+d1)/2} ${yb-(d1-d0)/2}" fill="none" stroke="var(--mute)" stroke-width="1"/><text x="${(d0+d1)/2}" y="${yb+22}" text-anchor="middle" font-size="13" fill="var(--mute)">${L('Entrance','Mlango')}</text>`;
  const title=lean?T('Floor plan of the start-small store, about 100 square metres, schematic','Ramani ya sakafu ya duka la kuanza kidogo, takriban mita za mraba 100, mchoro wa jumla'):T('Floor plan of the flagship store, 180 square metres, 18 by 10 metres','Ramani ya sakafu ya duka kuu, mita za mraba 180, mita 18 kwa 10');
  const dim=lean?'':`<text x="${ox+P.w*S/2}" y="${oy-8}" text-anchor="middle" font-size="12" fill="var(--mute)">${L('18 m','m 18')}</text><text transform="translate(${ox-8} ${oy+P.d*S/2}) rotate(-90)" text-anchor="middle" font-size="12" fill="var(--mute)">${L('10 m','m 10')}</text>`;
- return `<svg class="s31-plan" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="s31pt"><title id="s31pt">${E(title)}</title>
+ return `<svg class="s31-plan" viewBox="0 0 ${W} ${H}" style="max-width:${Math.round(W*1.15)}px" role="img" aria-labelledby="s31pt"><title id="s31pt">${E(title)}</title>
   <defs><pattern id="s31hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="var(--line)" stroke-width="2"/></pattern></defs>
   <rect x="${ox}" y="${oy}" width="${P.w*S}" height="${P.d*S}" fill="var(--bg)" stroke="var(--mute)" stroke-width="2"/>${rects}${door}${dim}</svg>`}
 function legendHTML(lean,cur){const P=AREAS[lean?'lean':'flag'],letters='ABCDEFGHIJKLMNOP';
@@ -171,16 +171,19 @@ const CSS=`
 .s31 .s31-stops button b{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;border:1px solid var(--line);font-weight:400;color:var(--gold);font-variant-numeric:tabular-nums}
 .s31 .s31-stops button[aria-pressed="true"]{background:var(--green-deep);border-color:var(--green-edge);color:var(--ink)}
 .s31 .s31-stops button:hover{color:var(--ink)}
-.s31 .s31-planw{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:var(--s3);margin-top:var(--s3);align-items:start}
+.s31 .s31-planw{display:grid;grid-template-columns:1fr;gap:var(--s3);margin-top:var(--s3);align-items:start}
 .s31 .s31-plan{display:block;width:100%;height:auto}
 .s31 .s31-plan g[data-area]{cursor:pointer}
-.s31 .s31-leg{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.s31 .ab-block p+p,.s31 .ab-block h2+p{margin-top:var(--s2)}
+.s31 .s31-leg{list-style:none;margin:0;padding:0;border-top:1px solid var(--line);columns:2;column-gap:var(--s3)}
+.s31 .s31-leg li{break-inside:avoid}
 .s31 .s31-leg li{display:grid;grid-template-columns:28px minmax(0,1fr);gap:var(--s1);padding:8px 0;border-bottom:1px solid var(--line);cursor:pointer}
 .s31 .s31-leg li b{font-weight:600;color:var(--ink)}
 .s31 .s31-leg li span{display:flex;flex-direction:column}
 .s31 .s31-leg li small{color:var(--mute);font-size:var(--fs-cap)}
 .s31 .s31-leg li.on b,.s31 .s31-leg li.on span{color:var(--green-edge)}
 @media (max-width:900px){.s31 .s31-tour,.s31 .s31-planw{grid-template-columns:1fr}}
+@media (max-width:520px){.s31 .s31-leg{columns:1}}
 @media (max-width:720px){.s31 .s31-plan .s31-lbl{display:none}.s31 .s31-stops button span{display:none}.s31 .s31-stops button{padding:6px}}
 @media (prefers-reduced-motion:reduce){.s31 .s31-m{transition:none}}
 `;
@@ -221,7 +224,7 @@ function render(s,p,pv,nx){const m=M(),lean=m.lean,st=m.st;
  <section class="ab-block"><h2>${L('The floor plan','Ramani ya sakafu')}</h2>
   <p>${lean?L(`The plan of the start-small store, about ${m.area} m². It is schematic: the zones keep the same order as the flagship, and the final dimensions follow the building that is chosen. Select an area, or a stop on the walk above, to see where it sits.`,`Ramani ya duka la kuanza kidogo, takriban m² ${m.area}. Ni mchoro wa jumla: maeneo yanabaki na mpangilio uleule wa duka kuu, na vipimo vya mwisho vitafuata jengo litakalochaguliwa. Chagua eneo, au kituo katika matembezi hapo juu, kuona liko wapi.`)
    :L(`The plan of the ${m.area} m² flagship, 18 m wide and 10 m deep, with the entrance on the street side. Select an area, or a stop on the walk above, to see where it sits.`,`Ramani ya duka kuu la m² ${m.area}, upana wa m 18 na kina cha m 10, mlango ukiwa upande wa barabara. Chagua eneo, au kituo katika matembezi hapo juu, kuona liko wapi.`)}</p>
-  <div class="s31-planw" id="s31Plan">${planSVG(lean,'counter')}${legendHTML(lean,'counter')}</div>
+  <div class="s31-planw" id="s31Plan">${planSVG(lean,null)}${legendHTML(lean,null)}</div>
   <p class="ab-mute" style="margin-top:var(--s2)">${L('Green outline: Care Zone. Dashed outline with hatching: the partner pharmacy, run by the licensed partner. Grey: back of house. Concept plan.','Mstari wa kijani: Eneo la Huduma. Mstari wa vistari wenye mistari ya mshazari: famasia mshirika, inayoendeshwa na mshirika mwenye leseni. Kijivu: upande wa nyuma. Ramani ya dhana.')}</p>
  </section>
 
