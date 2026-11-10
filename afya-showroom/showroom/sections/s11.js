@@ -79,10 +79,10 @@ const DIST=[['Kinondoni','982,328','M300 40 L560 12 L585 92 L648 138 L632 178 L5
 const PINS=[{x:510,y:300,d:2},{x:230,y:260,d:1},{x:390,y:480,d:3},{x:520,y:180,d:0},{x:680,y:540,d:4}];
 function mapSVG(){
  const d=DIST.map((x,i)=>`<path class="s11-d" data-d="${i}" d="${x[2]}"/>`).join('');
- const lb=DIST.map(x=>`<text x="${x[3]}" y="${x[4]}" text-anchor="middle" font-size="17" fill="var(--ink)">${E(x[0])}</text><text x="${x[3]}" y="${x[4]+20}" text-anchor="middle" font-size="14" fill="var(--mute)">${x[1]}</text>`).join('');
+ const lb=DIST.map(x=>`<text x="${x[3]}" y="${x[4]}" text-anchor="middle" font-size="22" fill="var(--ink)">${E(x[0])}</text><text x="${x[3]}" y="${x[4]+24}" text-anchor="middle" font-size="18" fill="var(--mute)">${x[1]}</text>`).join('');
  const pins=PINS.map((p,i)=>`<g class="s11-pin" data-k="${i}" tabindex="0" role="button" aria-label="${L('Pain','Tatizo')} ${i+1}: ${L(PAIN[i].n[0],PAIN[i].n[1])}"><circle cx="${p.x}" cy="${p.y}" r="24"/><text x="${p.x}" y="${p.y+7}" text-anchor="middle" font-size="20" font-weight="600" fill="var(--ink)">${i+1}</text></g>`).join('');
  return `<svg class="s11-map" viewBox="0 0 820 640" role="group" aria-labelledby="s11mt"><title id="s11mt">${L('Stylised map of the five Dar es Salaam districts with their 2022 populations, and five numbered pins for the five pains','Ramani ya mfano ya wilaya tano za Dar es Salaam pamoja na idadi ya watu wa 2022, na alama tano zenye namba kwa matatizo matano')}</title>
-  <text x="790" y="300" text-anchor="end" font-size="15" fill="var(--mute)">${L('Indian Ocean','Bahari ya Hindi')}</text>${d}${lb}${pins}</svg>`}
+  <text x="790" y="300" text-anchor="end" font-size="18" fill="var(--mute)">${L('Indian Ocean','Bahari ya Hindi')}</text>${d}${lb}${pins}</svg>`}
 function panelHTML(k){const x=PAIN[k];
  return `<p class="s11-k">${L('Pain','Tatizo')} ${k+1} ${L('of 5','kati ya 5')}: ${L(x.n[0],x.n[1])}</p>
   <h3>${L(x.h[0],x.h[1])}</h3>
