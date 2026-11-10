@@ -197,7 +197,7 @@ function mapSVG(v){const lab=L('Diagram: nine modules connected to one shared re
    <text x="${(x-bw/2+12).toFixed(1)}" y="${(y-6).toFixed(1)}" font-size="13" style="fill:var(--gold)">0${i+1}</text>
    <text x="${(x-bw/2+12).toFixed(1)}" y="${(y+14).toFixed(1)}" font-size="15" style="fill:var(--ink)">${LL(m.h)}</text></g>`}).join('');
   return `<svg class="s41-map s41-h" viewBox="0 0 ${W} ${H}" role="img" aria-label="${lab}">${lines}
-   <rect x="${cx-120}" y="${cy-55}" width="240" height="110" style="fill:var(--green-deep);stroke:var(--green-edge)" stroke-width="1.5"/>
+   <rect x="${cx-150}" y="${cy-55}" width="300" height="110" style="fill:var(--green-deep);stroke:var(--green-edge)" stroke-width="1.5"/>
    <text x="${cx}" y="${cy-8}" text-anchor="middle" font-size="22" font-weight="600" style="fill:var(--ink)">${L('One record','Kumbukumbu moja')}</text>
    <text x="${cx}" y="${cy+18}" text-anchor="middle" font-size="13" style="fill:var(--mute)">${L('products · customers · stock · money','bidhaa · wateja · stoku · pesa')}</text>
    <text x="${cx}" y="${cy+38}" text-anchor="middle" font-size="13" style="fill:var(--mute)">${L('written once, read by every screen','inaandikwa mara moja, inasomwa na kila skrini')}</text>${nodes}</svg>`}

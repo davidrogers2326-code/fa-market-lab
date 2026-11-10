@@ -78,9 +78,10 @@ const STAGES=()=>{const {I,lean,riders}=M();return [
 /* ---------- the diagram ---------- */
 const LANE=()=>({g:T('Goods','Bidhaa'),d:T('Data','Taarifa'),m:T('Money','Pesa'),sys:T('One Afya system: stock, sales, members, deliveries, money','Mfumo mmoja wa Afya: stoo, mauzo, wanachama, usafirishaji, pesa'),sysS:T('One Afya system','Mfumo mmoja wa Afya')});
 const MLAB=[[6,'Customer pays','Mteja analipa'],[5,'Riders','Wasafirishaji'],[4,'Staff and rent','Wafanyakazi na kodi'],[1,'Freight and fees','Usafiri na ada'],[0,'Supplier paid','Msambazaji analipwa']];
+const DN=[['Supplier','Msambazaji'],['Port and clearance','Bandari na forodha'],['Goods-in','Kupokea mzigo'],['Stock by expiry date','Stoo na tarehe za mwisho'],['Store and packing','Duka na upakiaji'],['Delivery with proof','Usafirishaji na uthibitisho'],['The customer’s home','Nyumbani kwa mteja']];
 const short=(n,max)=>{const w=n.split(' ');const out=[''];w.forEach(x=>{const c=out[out.length-1];if((c+' '+x).trim().length>max&&c)out.push(x);else out[out.length-1]=(c+' '+x).trim()});return out.slice(0,2)};
 function svgH(){const S=STAGES(),Ln=LANE(),x=i=>160+i*128,yg=120,yb=200,ym=300;
- const nodes=S.map((s,i)=>{const t=short(T(s.n[0],s.n[1]),16);return `<g class="s23-n" data-i="${i}">
+ const nodes=S.map((s,i)=>{const t=short(T(DN[i][0],DN[i][1]),16);return `<g class="s23-n" data-i="${i}">
   <line class="s23-tick" x1="${x(i)}" y1="${yg+20}" x2="${x(i)}" y2="${yb}" stroke="var(--mute)" stroke-width="1.5" stroke-dasharray="4 4"/>
   <circle cx="${x(i)}" cy="${yg}" r="20" fill="var(--bg)" stroke="var(--green-edge)" stroke-width="2"/><circle class="s23-fill" cx="${x(i)}" cy="${yg}" r="20" fill="var(--green)"/>
   <text x="${x(i)}" y="${yg+6}" text-anchor="middle" font-size="16" font-weight="600" fill="var(--ink)">${i+1}</text>
@@ -99,7 +100,7 @@ function svgH(){const S=STAGES(),Ln=LANE(),x=i=>160+i*128,yg=120,yb=200,ym=300;
   <path class="s23-mhead" d="M${x(0)+12} ${ym-7}L${x(0)} ${ym}L${x(0)+12} ${ym+7}" fill="none" stroke="var(--gold)" stroke-width="3"/>
   ${ml}${nodes}</svg>`}
 function svgV(){const S=STAGES(),Ln=LANE(),y=i=>56+i*72,cx=28,mx=262,bx=296;
- const nodes=S.map((s,i)=>{const t=short(T(s.n[0],s.n[1]),20);return `<g class="s23-n" data-i="${i}">
+ const nodes=S.map((s,i)=>{const t=short(T(DN[i][0],DN[i][1]),20);return `<g class="s23-n" data-i="${i}">
   <line class="s23-tick" x1="${cx+18}" y1="${y(i)}" x2="${bx}" y2="${y(i)}" stroke="var(--mute)" stroke-width="1.2" stroke-dasharray="3 4" opacity=".7"/>
   <rect x="${cx+22}" y="${y(i)-20}" width="${mx-cx-34}" height="${t.length>1?44:26}" fill="var(--bg)"/>
   <circle cx="${cx}" cy="${y(i)}" r="16" fill="var(--bg)" stroke="var(--green-edge)" stroke-width="2"/><circle class="s23-fill" cx="${cx}" cy="${y(i)}" r="16" fill="var(--green)"/>
@@ -178,7 +179,6 @@ const CSS=`
 .s23 h3{font-size:var(--fs-sub);font-weight:600}
 .s23 .s23-cap-s,.s23 figcaption{color:var(--mute);font-size:var(--fs-cap);max-width:var(--measure)}
 .s23 .s23-scroll{position:relative;height:280vh}
-.s23 .s23-scroll>figcaption{position:absolute;bottom:0;left:0}
 .s23 .s23-stage{position:sticky;top:calc(var(--bar-h) + env(safe-area-inset-top,0px));height:calc(100vh - var(--bar-h));height:calc(100dvh - var(--bar-h));display:flex;flex-direction:column;justify-content:center;gap:var(--s2);padding:var(--s2) 0}
 .s23 .s23-svg{display:block;width:100%;height:auto}
 .s23 .s23-v{display:none;max-width:420px;max-height:52vh;max-height:52dvh;margin:0 auto}
@@ -237,13 +237,13 @@ function render(s,p,pv,nx){const {I,lean,hours}=M(),S=STAGES();
  <div class="ab-sec-no">${E(s.no)}</div><h1 id="h-s2-3">${E(s.title)}</h1>
  <p class="ab-summary">${L('Every product follows the same chain: bought from a registered maker, checked before it ships, cleared at the port, scanned once at goods-in, picked first-expiry-first-out, sold or packed in the store, delivered with proof and followed up at home. Goods move forward, money flows back, and every step is recorded once in one system. This section shows the chain, the rules that keep it legal, what each step costs and who pays for it.','Kila bidhaa inafuata mnyororo uleule: inanunuliwa kwa mtengenezaji aliyesajiliwa, inakaguliwa kabla ya kusafirishwa, inapitishwa forodha bandarini, inaskaniwa mara moja inapopokelewa, inachukuliwa kwa kanuni ya kinachoisha kwanza kinatoka kwanza, inauzwa au kupakiwa dukani, inafikishwa kwa uthibitisho na kufuatiliwa nyumbani. Bidhaa zinasonga mbele, pesa zinarudi nyuma, na kila hatua inarekodiwa mara moja katika mfumo mmoja. Sehemu hii inaonyesha mnyororo, kanuni zinazoufanya uwe halali, gharama ya kila hatua na nani anailipa.')}</p>
 
- <figure class="ab-visual s23-scroll" id="s23Box" aria-label="${L('The chain, step by step','Mnyororo, hatua kwa hatua')}">
-  <div class="s23-stage">
+ <figure class="ab-visual" aria-label="${L('The chain, step by step','Mnyororo, hatua kwa hatua')}">
+  <div class="s23-scroll" id="s23Box"><div class="s23-stage">
    ${svgH()}${svgV()}
    <div class="s23-track" aria-hidden="true"><i id="s23Prog"></i></div>
    <div class="s23-caps" id="s23Caps" aria-live="polite">${capsHTML()}</div>
-  </div>
-  <figcaption>${L('Scroll to move along the chain. Goods move forward, data is recorded once at every step, money flows back from the customer.','Sogeza ukurasa kufuata mnyororo. Bidhaa zinasonga mbele, taarifa zinarekodiwa mara moja kila hatua, pesa zinarudi kutoka kwa mteja.')}</figcaption>
+  </div></div>
+  <figcaption style="margin-top:var(--s2)">${L('Scroll to move along the chain. Goods move forward, data is recorded once at every step, money flows back from the customer.','Sogeza ukurasa kufuata mnyororo. Bidhaa zinasonga mbele, taarifa zinarekodiwa mara moja kila hatua, pesa zinarudi kutoka kwa mteja.')}</figcaption>
  </figure>
 
  <div class="ab-body">
