@@ -1,6 +1,21 @@
 # CHANGELOG — Afya Basics Investor Showroom refurbishment
 
-## Phase 4 · Compliance and money — 10 November 2026 (complete)
+## Phases 5–7 · Remaining packages, quiet sections, QA and publish — 10 November 2026 (in progress)
+
+**Founder instruction (10 Nov 2026):** run every remaining phase to the end without approval stops. Make the sensible choice on each open decision, following the brief and the founder's earlier decisions, and record it here. Boxes without Weave credits show "render in production". Publish after the Part I checklist.
+
+**Founder decisions, 10 Nov 2026**
+- D-20: the seed stays TSh 340M. The flagship downside is a named risk in 6.3 and 7.3 with three answers. The pre-sale gate: fewer than 300 founding-member deposits before opening means falling back to start-small. The gate is shown in 5.4 and 6.3.
+- D-21: launch compliance fees (TSh 2,301,625) are their own use-of-funds line.
+
+### Decided on the founder's behalf
+- **Source of the compliance line:** the working-capital reserve, with the seed unchanged and the same approach as D-17. Flagship reserve 41.0M → 38.7M; start-small 29.5M → 27.2M.
+- **Downside figure:** the model now gives −TSh 48.5M (month 7) for the flagship downside, because the compliance line is spent rather than held in reserve. The pages show the live model figure, and the brief's D-20 wording is updated to match. Start-small downside stays positive (+TSh 7.4M, month 5).
+- **Pre-sale deposit:** shown as "a refundable deposit" until R4 recommends an amount.
+- **Afya Men sunscreen default:** Nivea Sun SPF 50 (TSh 24,396, Tanzanian listing), not the cheapest Disaar SPF 90, whose listing does not state broad-spectrum (UVA) protection. Shelf value is TSh 56,957; member price 55,000 / 53,500 / 52,000. The box now pays its way on monthly delivery, so no change to delivery is needed.
+- **Afya Men:** condoms are not added (out of the box's scope; no opt-in add-on for now).
+
+## Phase 4 · Compliance and money — 10 November 2026 (approved)
 
 **What changed:** nine sections are rebuilt on the v2 template from the research.
 - **3.3:** the Afya Check basic tier with 7 measurements, the 50-second quick check, TMDA Class B, and landed-cost and maintenance figures.

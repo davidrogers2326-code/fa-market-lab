@@ -1,0 +1,376 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Afya Basics Master Framework</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a working handbook. Sticky chapter rail on the left, one reading column, interactive panels (tabs, filters, accordions, trackers) where the content is a structure rather than prose. Brand: royal green + white, gold for decisions. */
+:root{
+  --bg:#f7faf8; --surface:#ffffff; --sunk:#eef4f0; --ink:#0b2219; --ink2:#3f564c; --ink3:#6b8378;
+  --green:#0f7a52; --green2:#0a5a3c; --tint:#e3f2ea; --gold:#a8771a; --goldbg:#fbf3e0; --line:#d7e4dc; --warn:#b4472f; --warnbg:#fbece8;
+  --f-d:'Unbounded','Arial Black',system-ui,sans-serif; --f-b:'Manrope','Segoe UI',system-ui,sans-serif; --f-m:'JetBrains Mono',ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#07120d;--surface:#0d1d16;--sunk:#0a1712;--ink:#e9f4ee;--ink2:#b3c9bf;--ink3:#7f978c;--green:#3ccf91;--green2:#2fae78;--tint:#123326;--gold:#e9c46a;--goldbg:#2a2210;--line:#1f3a2e;--warn:#ff9d86;--warnbg:#33170f;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#07120d;--surface:#0d1d16;--sunk:#0a1712;--ink:#e9f4ee;--ink2:#b3c9bf;--ink3:#7f978c;--green:#3ccf91;--green2:#2fae78;--tint:#123326;--gold:#e9c46a;--goldbg:#2a2210;--line:#1f3a2e;--warn:#ff9d86;--warnbg:#33170f;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.65 var(--f-b);-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+h1,h2,h3,h4{margin:0;text-wrap:balance}
+p{margin:0}
+a{color:var(--green)}
+:focus-visible{outline:2px solid var(--green);outline-offset:2px;border-radius:6px}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+/* top bar */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:color-mix(in srgb,var(--surface) 92%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:14px;padding-block:10px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);flex:0 0 auto}
+.logo svg{width:32px;height:32px}
+.logo b{font:700 .9rem var(--f-d);letter-spacing:.01em}
+.logo small{display:block;font:500 .62rem var(--f-m);letter-spacing:.16em;text-transform:uppercase;color:var(--ink3)}
+.search{flex:1;max-width:420px;margin-left:auto;position:relative}
+.search input{width:100%;padding:9px 12px 9px 34px;border-radius:10px;border:1px solid var(--line);background:var(--sunk);color:var(--ink);font:500 .9rem var(--f-b)}
+.search svg{position:absolute;left:10px;top:50%;width:16px;height:16px;transform:translateY(-50%);color:var(--ink3)}
+.hits{font:500 .72rem var(--f-m);color:var(--ink3);white-space:nowrap}
+/* layout */
+.layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:40px;padding-block:28px 80px}
+.rail{position:sticky;top:calc(env(safe-area-inset-top,0px) + 74px);align-self:start;max-height:calc(100vh - 100px);overflow:auto}
+.rail ol{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.rail a{display:flex;gap:10px;padding:7px 10px;border-radius:8px;text-decoration:none;color:var(--ink2);font:600 .86rem/1.3 var(--f-b)}
+.rail a span{flex:0 0 22px;font:500 .72rem var(--f-m);color:var(--ink3);padding-top:2px}
+.rail a:hover{background:var(--sunk);color:var(--ink)}
+.rail a.cur{background:var(--tint);color:var(--green2)}
+:root[data-theme="dark"] .rail a.cur{color:var(--green)}
+.rail .meta{margin-top:18px;padding:14px;border-radius:12px;background:var(--sunk);font-size:.8rem;color:var(--ink2)}
+.rail .meta b{display:block;font:500 .66rem var(--f-m);letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);margin-bottom:6px}
+.bar{height:6px;border-radius:6px;background:var(--line);overflow:hidden;margin-top:8px}
+.bar i{display:block;height:100%;background:var(--green)}
+main{min-width:0}
+/* hero */
+.hero{padding:30px 0 34px;border-bottom:1px solid var(--line);margin-bottom:10px}
+.eyebrow{font:500 .7rem var(--f-m);letter-spacing:.18em;text-transform:uppercase;color:var(--green)}
+.hero h1{margin-top:12px;font:700 clamp(1.9rem,4vw,2.9rem)/1.08 var(--f-d);letter-spacing:-.02em;max-width:20ch}
+.hero p{margin-top:16px;max-width:66ch;font-size:1.08rem;color:var(--ink2)}
+.motto{margin-top:12px;font:600 1.05rem var(--f-b);font-style:italic;color:var(--gold)}
+.facts{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.facts span{padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface);font:500 .78rem var(--f-m);color:var(--ink2)}
+/* sections */
+section.s{padding-top:44px;scroll-margin-top:80px}
+.sh{display:flex;align-items:baseline;gap:14px;margin-bottom:10px}
+.sh .n{font:500 .8rem var(--f-m);color:var(--green)}
+.sh h2{font:700 clamp(1.3rem,2.4vw,1.7rem)/1.2 var(--f-d);letter-spacing:-.01em}
+.lead{max-width:68ch;font-size:1.04rem;color:var(--ink2);margin-bottom:18px}
+h3{font:700 1.02rem var(--f-b);margin:26px 0 10px}
+.prose{display:grid;gap:10px;max-width:70ch;color:var(--ink2)}
+.prose b{color:var(--ink)}
+/* generic tables */
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+table{width:100%;border-collapse:collapse;font-size:.9rem}
+th{text-align:left;font:500 .68rem var(--f-m);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);padding:11px 14px;background:var(--sunk);border-bottom:1px solid var(--line)}
+td{padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top;color:var(--ink2)}
+tr:last-child td{border-bottom:0}
+td b{color:var(--ink)}
+td.k{font-weight:600;color:var(--ink);white-space:nowrap}
+.num{font-variant-numeric:tabular-nums}
+/* two-col compare */
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--surface)}
+.vs div{padding:11px 16px;border-bottom:1px solid var(--line);font-size:.92rem}
+.vs div:nth-child(odd){color:var(--ink);font-weight:600;border-right:1px solid var(--line)}
+.vs div:nth-child(even){color:var(--ink3);text-decoration:line-through;text-decoration-color:color-mix(in srgb,var(--ink3) 50%,transparent)}
+.vs .hd{background:var(--sunk);font:500 .68rem var(--f-m)!important;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)!important;text-decoration:none!important}
+.vs div:nth-last-child(-n+2){border-bottom:0}
+/* chips / tabs */
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.tabs button{padding:8px 13px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink2);font:600 .84rem var(--f-b);cursor:pointer}
+.tabs button:hover{border-color:var(--green)}
+.tabs button[aria-selected="true"]{background:var(--green);border-color:var(--green);color:var(--surface)}
+.panel{border:1px solid var(--line);border-radius:14px;background:var(--surface);padding:20px 22px}
+/* cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.card{border:1px solid var(--line);border-radius:14px;background:var(--surface);padding:18px;min-width:0}
+.card h4{font:700 .98rem var(--f-b)}
+.card p{margin-top:6px;font-size:.88rem;color:var(--ink2)}
+.card small{display:block;font:500 .66rem var(--f-m);letter-spacing:.14em;text-transform:uppercase;color:var(--green)}
+/* principles accordion */
+.pr{display:grid;gap:8px}
+.pr details{border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.pr summary{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:12px;align-items:center;padding:14px 16px;cursor:pointer;list-style:none}
+.pr summary::-webkit-details-marker{display:none}
+.pr summary i{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--tint);color:var(--green2);font:700 .8rem var(--f-m);font-style:normal}
+:root[data-theme="dark"] .pr summary i{color:var(--green)}
+.pr summary b{font:700 .98rem var(--f-b)}
+.pr summary em{font-style:normal;font-size:.84rem;color:var(--ink3)}
+.pr summary::after{content:"+";font:500 1.2rem var(--f-m);color:var(--ink3)}
+.pr details[open] summary::after{content:"−"}
+.pr .body{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:0 16px 16px 62px}
+.pr .body div{padding:12px 14px;border-radius:10px;background:var(--sunk);font-size:.88rem;color:var(--ink2)}
+.pr .body small{display:block;font:500 .64rem var(--f-m);letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);margin-bottom:4px}
+.pr .body div.pain small{color:var(--warn)}
+.pr .body div.fix small{color:var(--green)}
+/* journey */
+.jtop{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;align-items:baseline;margin-bottom:12px}
+.jtop b{font:700 1.02rem var(--f-b)}
+.target{padding:4px 10px;border-radius:999px;background:var(--goldbg);color:var(--gold);font:500 .78rem var(--f-m)}
+.steps{list-style:none;margin:0;padding:0;display:grid;gap:0;counter-reset:st}
+.steps li{position:relative;display:grid;grid-template-columns:28px minmax(0,1fr) auto;gap:12px;padding:10px 0;border-top:1px dashed var(--line);counter-increment:st}
+.steps li:first-child{border-top:0}
+.steps li::before{content:counter(st);display:grid;place-items:center;width:26px;height:26px;border-radius:50%;border:1.5px solid var(--green);color:var(--green);font:500 .76rem var(--f-m)}
+.steps li span{font-size:.92rem;color:var(--ink2)}
+.steps li span b{color:var(--ink)}
+.steps li code{font:500 .76rem var(--f-m);color:var(--gold);white-space:nowrap}
+/* layers */
+.layers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface)}
+.layers>div{padding:18px;border-right:1px solid var(--line);min-width:0}
+.layers>div:last-child{border-right:0}
+.layers h4{font:700 1rem var(--f-d);color:var(--green)}
+.layers .parts{display:inline-block;margin-top:6px;font:500 .7rem var(--f-m);color:var(--ink3)}
+.layers p{margin-top:10px;font-size:.9rem;color:var(--ink2)}
+.layers ul{margin:10px 0 0;padding-left:18px;font-size:.84rem;color:var(--ink2)}
+.flowarrow{display:flex;justify-content:center;gap:8px;align-items:center;margin-top:10px;font:500 .74rem var(--f-m);color:var(--ink3)}
+/* section map */
+.map li{display:grid;grid-template-columns:44px minmax(0,1fr) 110px;gap:12px;align-items:start;padding:12px 0;border-top:1px solid var(--line)}
+.map{list-style:none;margin:0;padding:0}
+.map li:first-child{border-top:0}
+.map .no{font:500 .86rem var(--f-m);color:var(--green)}
+.map h4{font:700 .95rem var(--f-b)}
+.map p{font-size:.86rem;color:var(--ink2);margin-top:3px}
+.map .from{font:500 .7rem var(--f-m);color:var(--ink3);margin-top:5px}
+.st{justify-self:end;padding:4px 10px;border-radius:999px;font:500 .7rem var(--f-m);white-space:nowrap;border:1px solid var(--line);color:var(--ink3);background:var(--sunk);cursor:pointer}
+.st.rev{background:var(--goldbg);color:var(--gold);border-color:transparent}
+.st.done{background:var(--tint);color:var(--green2);border-color:transparent}
+:root[data-theme="dark"] .st.done{color:var(--green)}
+.legend{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:0 0 12px;font-size:.82rem;color:var(--ink3)}
+/* steps of build */
+.build{list-style:none;margin:0;padding:0;display:grid;gap:8px;counter-reset:b}
+.build li{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:12px;align-items:center;padding:12px 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);counter-increment:b}
+.build li::before{content:counter(b);display:grid;place-items:center;width:30px;height:30px;border-radius:8px;background:var(--sunk);font:500 .8rem var(--f-m);color:var(--ink2)}
+.build li.now{border-color:var(--green);box-shadow:inset 3px 0 0 var(--green)}
+.build li.now::before{background:var(--green);color:var(--surface)}
+.build b{font:700 .95rem var(--f-b)}
+.build p{font-size:.86rem;color:var(--ink2);margin-top:2px}
+/* decisions */
+.dec td:first-child{color:var(--ink);font-weight:600}
+.new{display:inline-block;margin-left:6px;padding:1px 7px;border-radius:999px;background:var(--goldbg);color:var(--gold);font:500 .64rem var(--f-m);vertical-align:middle}
+.oq{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.oq label{display:grid;grid-template-columns:22px minmax(0,1fr);gap:12px;align-items:start;padding:12px 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);cursor:pointer}
+.oq input{width:18px;height:18px;margin-top:3px;accent-color:var(--green)}
+.oq span{font-size:.92rem;color:var(--ink2)}
+.oq span b{color:var(--ink)}
+.oq input:checked+span{color:var(--ink3);text-decoration:line-through}
+.note{margin-top:10px;font:500 .74rem var(--f-m);color:var(--ink3)}
+.callout{margin-top:14px;padding:14px 16px;border-radius:12px;background:var(--goldbg);color:var(--ink2);font-size:.9rem}
+.callout b{color:var(--ink)}
+mark{background:color-mix(in srgb,var(--gold) 35%,transparent);color:inherit;border-radius:3px;padding:0 2px}
+.hide{display:none!important}
+.empty{padding:20px;border:1px dashed var(--line);border-radius:12px;color:var(--ink3);text-align:center}
+.foot{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);font:500 .74rem var(--f-m);color:var(--ink3);display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
+@media (max-width:980px){.layout{grid-template-columns:1fr}.rail{position:static;max-height:none}.rail ol{display:flex;flex-wrap:nowrap;gap:6px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin}.rail a{white-space:nowrap}.rail a{border:1px solid var(--line)}.rail a span{display:none}.rail .meta{display:none}}
+@media (max-width:720px){.layers{grid-template-columns:1fr}.layers>div{border-right:0;border-bottom:1px solid var(--line)}.pr .body{grid-template-columns:1fr;padding-left:16px}.map li{grid-template-columns:38px minmax(0,1fr)}.map .st{grid-column:2;justify-self:start}.vs{grid-template-columns:1fr}.vs div:nth-child(odd){border-right:0}.logo small{display:none}.hits{display:none}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+
+<header class="top"><div class="wrap">
+ <a class="logo" href="#top"><svg viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#0f7a52"/><path d="M20 9h8v11h11v8H28v11h-8V28H9v-8h11z" fill="#fff"/><path d="M5 37h10l3-5 4 9 3-6h18" fill="none" stroke="#f2c96b" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></svg><span><b>Afya Basics</b><small>Master framework</small></span></a>
+ <label class="search" for="q"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" placeholder="Search the framework: TMDA, Afya Box, 21:00 report…" autocomplete="off"></label>
+ <span class="hits" id="hits"></span>
+</div></header>
+
+<div class="wrap layout" id="top">
+ <nav class="rail" aria-label="Chapters"><ol id="toc"></ol>
+  <div class="meta"><b>Project status</b><span id="mapProg"></span><div class="bar"><i id="mapBar"></i></div><p style="margin-top:10px">Step 3 of 8 · building Part 0 (Front door)</p></div></nav>
+ <main id="main"></main>
+</div>
+
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store={get(k,d){try{const v=localStorage.getItem(k);return v===null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+
+/* ---------- content (from the approved Master Framework, updated 1 Nov 2026) ---------- */
+const PROBLEMS=[['Scattered','Families now manage blood pressure, diabetes, pregnancy, babies, elderly parents and recovery at home. The products they need are scattered across pharmacies, supermarkets, market stalls and informal sellers.'],
+ ['Slow and confusing','Crowded shelves, no clear prices, no advice on which device or brand to choose, queues at the counter, and no record of what the family bought last time.'],
+ ['Untrusted','Customers cannot easily tell a registered, quality product from a fake or expired one.'],
+ ['Unplanned','People run out of strips, nappies or dressings and make an urgent trip, often at night, often paying more.'],
+ ['Far from family','The diaspora sends money but cannot be sure it becomes the right care for a parent at home.']];
+const PROMISE=[['Right product, first time','A curated range organised by need, with a free health check and advice on which item fits.'],
+ ['Fast','Find and pay in under 3 minutes in store; reorder in under 30 seconds online; same-day delivery in Dar es Salaam.'],
+ ['Trusted','Only registered, quality-checked products, one honest price, written warranty and aftercare.'],
+ ['Planned for you','Monthly Afya Boxes arrive before you run out, with 4–5 brand choices per item at the same price, and partner care services inside every box.']];
+const POS=[['A brand-led health-essentials retailer with a membership engine','A traditional pharmacy'],['Curated: fewer, better products sorted by need','A supermarket aisle of everything'],['Fast, digital, self-service where possible','A queue at a counter'],['Advice-led staff (health advisers)','Cashiers'],['One honest price','Haggling or hidden mark-ups'],['Customer-funded: every cost recovered in a price the customer chooses','A business that relies on discounts or subsidies'],['A care network: partner clinics, labs and studios deliver services inside the box','A shop that only sells products']];
+const QUESTIONS=[['Is the problem real and big?','The problem, the evidence, the market size.','1.1–1.3'],['Who exactly has it?','Our customers, with real personas and their monthly spend.','1.4'],['Why now?','Rising chronic disease, mobile money, urban growth, a diaspora that pays for care.','1.5'],['What is the solution?','The Afya Basics concept and brand, shown, not described.','2.1–2.3'],['How does it work?','The customer journey, the store, the membership and its services, the technology and the operations, end to end.','3.1–4.5'],['Why will it win?','Our moat versus pharmacies, supermarkets and online sellers.','5.3'],['Does it make money?','Unit economics, the customer-funded model, the partner-service income, the financials.','6.1–6.2'],['How big can it get?','The road from Store #1 to TSh billions, with the capital each step needs.','5.4'],['What do you want from me, and what do I get?','The ask, use of funds, ownership, protections and the exit.','6.3–6.4']];
+const READERS=[['Busy investor','60 seconds','The home page: one headline, one picture, five numbers, the ask'],['Interested investor','10 minutes','The ten-minute presentation, slide by slide, numbers live from the model'],['Serious investor doing checks','Hours','Every section in full, the calculators, the data room and the sources']];
+const RULES=[['Show before telling','Each section opens with a realistic visual or a working demo, then explains.'],['One idea per screen','Long explanations are folded behind “Read more”.'],['Every claim has proof','A number links to its source or to the model that calculates it.'],['Risks are shown, not hidden','Each section names what could go wrong and our answer. Investors trust founders who show the bad case.'],['The ask is clear and repeated','TSh 110M seed (to be confirmed after the master-model check), what it buys, the milestones that release each tranche.']];
+const LAYERS=[['Experience','Parts 3','Will customers choose Afya Basics and come back?','Visitors, check-to-purchase rate, basket size, members, churn, satisfaction, service use'],['Engine','Part 4','Can it run simply, reliably and at low cost?','Checkout time, stock-outs, on-time delivery, staff per store, cost per order, partner service quality'],['Economics','Parts 5–6','Is it a large, profitable business worth funding?','Gross margin, partner-service margin, break-even, cash, revenue growth, valuation, founders’ share']];
+const WAY=[['Need first','Customers don’t know which product fits their condition','The range is organised by life situation in Care Zones: Mother & Baby, Heart & Diabetes, Mobility & Recovery, First Aid & Home, Personal Care, Seniors'],
+ ['Fewer, better choices','Crowded shelves and fakes cause confusion and mistrust','About 520 product families, each registered and quality-checked, with 4–5 trusted brands per item and a clear “best for” line'],
+ ['One honest price','Haggling, hidden mark-ups, prices that change by customer','One printed price on every item, the same in store, app and WhatsApp'],
+ ['Check, then choose','Buying the wrong device wastes money and risks health','The free Afya Check Station and a trained health adviser come before the sale, never pressure to buy'],
+ ['Pay in seconds','Queues and slow counters waste customers’ time','Scan with your phone and pay by mobile money, a self-checkout point, or the adviser’s handheld till; receipt by SMS or WhatsApp'],
+ ['Never run out','Urgent night-time trips when supplies finish','Afya Box membership delivers before the family runs out; reminders, auto-renewal and free brand swaps keep it personal'],
+ ['Care reaches home','The sick, the elderly and new mothers cannot easily travel','Same-day delivery in Dar es Salaam, click and collect, diaspora payments for relatives, and partner services such as home physiotherapy inside the box'],
+ ['One Afya everywhere','Inconsistent service from shop to shop','One account, one price, one look and one standard across store, app, WhatsApp, packaging, partners and every future branch']];
+const UNIQUE=[['Health advice and fast shopping in one visit','Most outlets offer one or the other; Afya Basics combines a free check with a self-service, queue-free store.'],['Membership is the core, not an add-on','Health needs repeat every month, so the Afya Box turns one-off shoppers into planned, loyal households.'],['Services from partners, inside every box','Afya Huduma: a free check in store, one partner service priced into the box, digital care, and add-ons that pay Afya a 10% commission.'],['Customer-funded','Every running cost is recovered inside a price the customer chooses to pay, so growth does not depend on discounts.'],['Built for Tanzania','Mobile money first, Kiswahili and English, WhatsApp ordering, motorcycle delivery, diaspora gifting.']];
+const JOURNEYS=[['A','Walk-in shopper','under 3 minutes when they know what they need',[['Arrive','0:00','Clean storefront, the Afya sign, a screen at the door: “Free health check inside”.'],['Find','under 1 min','Colour-coded Care Zones visible from the entrance; a find-it screen or the app shows the aisle and shelf.'],['Choose','under 1 min','One price, a short “best for” card, 4–5 brands side by side; an adviser if wanted.'],['Pay','under 30 s','Scan-and-go in the app, the self-checkout kiosk, or the adviser’s handheld till. Mobile money, card or cash. TRA receipt by SMS or WhatsApp.'],['Leave with a plan','—','Offer to save the purchase as a monthly reminder or an Afya Box.']]],
+ ['B','Customer who needs advice','under 12 minutes including the check',[['Free Afya Check','5 min','10 measurements, results on screen and by SMS.'],['Adviser explains','—','Results in plain language; refers to a clinic when a reading needs a doctor.'],['Recommendation','—','The right device or kit, with the price and warranty.'],['Pay and follow up','under 30 s','Pay as in Journey A; a reminder for the next check.']]],
+ ['C','Online and WhatsApp order','under 30 seconds for a repeat order',[['Open','—','The app or the WhatsApp number.'],['Order again','1 tap','The last basket appears; one tap to confirm.'],['Pay','—','Mobile-money push, approved on the phone.'],['Choose delivery','—','Same-day delivery, or click and collect within 2 hours.'],['Track and receive','—','Live tracking; photo or code proof at the door.']]],
+ ['D','Afya Box member','zero clicks each month',[['Auto-renew','0 clicks','The box renews on the member’s date and payment plan.'],['Reminder','12 days before','Keep the box or swap brands (Afya Choice).'],['Pack and deliver','fixed day','Packed from locked choices, photographed, delivered on a fixed day.'],['Services','monthly','The free in-store check, the partner care service on its schedule, and add-ons booked in the app.'],['See the value','—','Points, savings, the next check date and the next partner booking show in the app.']]],
+ ['E','Diaspora gift','under 2 minutes',[['Choose','—','A box or gift card for a relative at home.'],['Pay','—','International card, with a message.'],['Confirm','—','The family receives it; the sender gets a photo confirmation.']]]];
+const SPEED=[['Find a product in store','under 1 minute','Care Zones, shelf numbers, find-it screen and app map'],['Pay in store','under 30 seconds','Scan-and-go, self-checkout, mobile-money push'],['Repeat order online','under 30 seconds','Saved basket, saved address, one-tap payment'],['Click and collect ready','under 2 hours','Order sent instantly to the store picker’s handheld'],['Same-day delivery in Dar','ordered before 15:00','Riders assigned automatically by zone'],['Monthly box','zero clicks','Automatic renewal, reminders, locked packing list'],['Book a partner service','under 1 minute','Partner calendars in the app, member price shown, reminder the day before'],['Answer on WhatsApp','under 5 minutes in opening hours','Quick replies, catalogue links, staff inbox']];
+const MODULES=[['Till and checkout','In-store sales, scan-and-go, self-checkout, mobile money and card, TRA receipts','Advisers, customers','Manual receipts, cash errors, queues'],['Catalogue and pricing','One price per item, brands, barcodes, “best for” cards, shelf screens','Head office','Price confusion, handwritten tags'],['Stock and reorder','Live stock by shelf and store, first-expiry-first-out, automatic purchase orders','Store lead, buyer','Stock counts by hand, stock-outs, expiry losses'],['Members and Afya Boxes','Cards, plans, renewals, Afya Choice swaps, points, reminders','Member adviser, customers','Chasing renewals, manual box lists'],['Partners and services','Partner list, member rates, bookings, monthly partner payouts, 10% commission invoices, member ratings','Member adviser, partners','Phone bookings, unpaid commissions, lost appointments'],['Orders and delivery','App and WhatsApp orders, click and collect, rider assignment, tracking, proof of delivery','Picker, riders','Phone calls, lost orders, disputes'],['Check Station','Measurements with consent, results by SMS, referral flags','Adviser, customer','Paper forms, lost results'],['People','Shifts, attendance, training, daily checklists, procedures','Store lead','Rotas on paper, forgotten routines'],['Money','Daily cash-up, profit and loss, budget versus actual, tax calendar','Founders, accountant','Spreadsheets rebuilt every month'],['Dashboard and reports','Today’s 5 numbers, alerts, the 21:00 daily report, monthly investor pack','Founders, board, investors','Writing reports by hand']];
+const SIMPLE=[['Record once','A sale updates stock, money, member points and the dashboard at the same moment.'],['Scan, don’t type','Every product has a barcode; every member has a card or phone number.'],['The system reminds, not the manager','Reorders, renewals, expiry, licences, partner bookings and staff training all trigger automatic alerts.'],['Three taps or fewer','For every routine task on the staff handheld.'],['Works on a phone','Staff and founders use the same system on a phone, tablet or laptop.'],['Works when the internet drops','The till keeps selling offline and syncs later.']];
+const DAY=[['08:30','Store lead opens the day on the handheld: checklist, cash float, today’s deliveries, today’s partner bookings and the low-stock list.'],['09:00–20:00','Customers shop and pay themselves or with an adviser; online orders appear on the picker’s screen; riders are assigned automatically; members check in for partner services.'],['All day','Every sale updates stock; when an item reaches its reorder point, a purchase order is drafted for approval.'],['20:30','Cash-up counted by two people and matched against the system.'],['21:00','Founders receive the daily report by WhatsApp: sales, checks, new members, services booked, stock risks, issues.']];
+const TEMPLATE=[['Headline promise','One sentence a customer or investor remembers','Under 15 words; says the benefit, not the feature'],['The problem it solves','The pain today, with one piece of evidence','Every number has a source and year'],['Our answer','What Afya Basics does about it, in plain words','Understood by someone outside health or business'],['How it works','A visual flow of the steps: who does what, with which tool','No boxes joined by dotted lines; a clean drawn flow or animation'],['The experience','Realistic visuals of what the customer sees and touches','Real free-licence photos labelled “Photo”; Afya scenes labelled “Concept image”'],['Try it','An interactive demo or calculator where it helps','Works on laptop and phone; no glitches'],['The numbers','Costs, prices, margins, volumes from the master model','Same number everywhere; changes when the model changes'],['Risks and our answer','What could go wrong and how we handle it','At least one honest risk per section'],['Investor takeaway','One line on why this matters for the investment','Links to the financials or the ask']];
+const WRITING=['Plain English and Kiswahili on every section; Kiswahili checked by a native speaker before launch.','Short sentences, one idea per paragraph, no jargon without an explanation.','Facts researched and cited; estimates labelled “planning estimate”.','No invented customers, partners, testimonials or agreements presented as real.'];
+const DONE_DEF=['All nine blocks complete','Numbers match the master model','Visuals approved by the founders','Demo tested on laptop and phone','Kiswahili version ready','Founders’ sign-off'];
+const MAP=[['0','Front door',[['0.1','Home: the 60-second story','Headline, hero image, the problem in one line, five key numbers, the services in every box, the ask, buttons into the story','Investment Memorandum (summary)','rev'],['0.2','The ten-minute presentation','16 slides, timer, speaker notes, numbers live from the model; also a Canva deck','The Ten-Minute Presentation','rev']]],
+ ['1','The opportunity',[['1.1','The problem','The five pains (scattered, slow, untrusted, unplanned, diaspora), shown as real situations','Enterprise at a Glance, Why the Box Prevails','draft'],['1.2','The evidence','Interactive evidence room: disease, households, mobile money, internet, remittances, all cited','The Evidence Room','draft'],['1.3','Market size','Total, reachable and first-target market with the calculation shown','The Market Opportunity','draft'],['1.4','Our customers','Six personas with their needs, monthly spend and journey','Our Customers, Who Benefits','draft'],['1.5','Why now','The trends that make this the right moment','New','draft']]],
+ ['2','The solution',[['2.1','The Afya Basics concept','Store + membership + digital in one picture; the promise and positioning','Operating System in 5D','draft'],['2.2','The brand','Logo, colours, type, photo style, tone of voice, customer charter','Brand & Customer Charter, Brochure Collection','draft'],['2.3','How it all works','End-to-end flow from supplier to customer’s home, one animated picture','Implementation Blueprint','draft']]],
+ ['3','The experience',[['3.1','The store','Realistic renders, Care Zones, floor plan, 3D walk-through','Living Store in 5D, Store Realistically Rendered, Store Design','draft'],['3.2','The customer journey and fast checkout','The five journeys with time targets; a clickable scan-and-go demo','New','draft'],['3.3','The Afya Check Station','10 measurements, the 5-minute flow, how it drives sales','The Afya Check Station','draft'],['3.4','Membership and cards','Five cards, plans, what each card gets, profit per member','The Membership, Explained','draft'],['3.5','Afya Boxes, Afya Choice and Afya Huduma','17 boxes, contents, brand swaps, reminders, bespoke boxes, and the partner care pack in each box','Twelve Boxes, Afya Choice, Bespoke Boxes','draft'],['3.6','The product range','Catalogue and full library, every product with brand options','Product Catalogue, Product Library, Kit Collection','draft'],['3.7','Premium, gifts and rentals','Afya Royal, gift cards, corporate gifts, equipment rental','Afya Royal, Gifts, Equipment Rental, Packaging','draft'],['3.8','Digital store and app','App screens, WhatsApp ordering, online store, partner booking, demo','Digital Store Experience, The Afya App','draft']]],
+ ['4','The engine',[['4.1','The tech platform','The one-system model, tools, data, privacy, costs','Technology & Data','draft'],['4.2','Sourcing and supply','Suppliers in China and India, landed cost, imports, reorder','Sourcing & Licensing','draft'],['4.3','Packing and delivery','Packing hub, monthly box flow, riders, proof of delivery','Packing & Assembly Hub','draft'],['4.4','Team and daily operations','Roles, training, a day in the store, procedures','Our People, Daily Operations, Single-Operator Model, SOPs','draft'],['4.5','Quality and compliance','TMDA, expiry control, complaints, recalls, aftercare, warranty, partner licence checks','Quality, Safety & Compliance, Aftercare & Privacy','draft']]],
+ ['5','Growth',[['5.1','Winning customers','Growth engine, marketing, first-year calendar, campaigns','Winning & Keeping Customers, Marketing, Calendar','draft'],['5.2','Partnerships and B2B','Afya Kazini business accounts, service partners (clinics, labs, studios, physiotherapists), insurers, employers, schools, hotels, diaspora groups','Partnerships & Institutional Clients','draft'],['5.3','Competition and our moat','Map of competitors and why customers switch to us','Competitive Landscape','draft'],['5.4','The road to TSh billions','12-year plan, three scenarios, revenue gates','Road to TSh Billions, Expansion Plan, Five Scales, Building in Stages','draft']]],
+ ['6','Money',[['6.1','Financials','Profit and loss, cash flow, break-even, scenarios','Financials & the Investment Case','draft'],['6.2','The customer-funded model','Every cost recovered in a price the customer pays, including partner services','Customer-Funded Model','draft'],['6.3','Funding and use of funds','The ask, tranches, milestones, what each shilling buys','Owner’s Essentials (part), Building in Stages (part)','draft'],['6.4','Ownership and exit','Cap table, founders’ 25%, protections, sale calculator, founders’ pay','Ownership & Exit, Profit, Salaries & Owner’s Share','draft']]],
+ ['7','Trust',[['7.1','Setup, licences, research and travel','15-step checklist, research and transport budget','Company Setup, Research & Travel, Launch Plan & Location','draft'],['7.2','Governance and reporting','Board, delegation of authority, monthly reporting','Governance & Reporting','draft'],['7.3','Risks','Risk register with owners and answers','The Risk Register','draft'],['7.4','Social impact','Health outcomes, jobs, women carers, measured','Social Impact','draft'],['7.5','Proof pack, Q&A and sources','Investor questions answered, documents, all sources','Proof Pack, Path to Excellence, Sources','draft']]]];
+const BRAND=[['Logo','The Afya cross with the heartbeat line, refined into a clean mark and wordmark','Versions for store sign, app icon, packaging, cards, favicon'],['Colours','Royal green (deep, trustworthy) and white, soft grey, gold as the premium accent; one colour per Care Zone','Final colour codes saved in the Canva brand kit'],['Type','One modern sans-serif for everything; numbers in a clear tabular style','Readable on shelves, screens and phones'],['Photography','Real people from Tanzania and East Africa in calm home, clinic and store settings, natural light','Real free-licence photos (Pexels, Unsplash) labelled “Photo”; Afya store scenes labelled “Concept image” until the store exists'],['Icons','One line-icon set for zones, services and the app','No emoji, no cartoons'],['Packaging','One family of boxes and bags; colour band shows the Care Zone','Afya Box designs per box type'],['Tone of voice','Warm, clear, respectful, never alarming about health','English and Kiswahili']];
+const SHOWROOM=['Dark green-black background, glass panels, thin gold lines, subtle glow on what you can click.','Large realistic visuals of the bright Afya brand placed like exhibits in a gallery.','Flows explained with clean drawn diagrams or short films with soft music, never boxes joined by dotted lines.','Numbers in a clear data typeface, always with their meaning beside them.','Navigation: a polished side menu with a light line and a gold marker for the current section, plus reading progress.'];
+const QUALITY=['Every visual is realistic or clean-diagrammatic; no cartoon style.','Every page passes contrast checks and works on laptop first, then phone.','The same component (button, card, chart, table) looks the same everywhere.','Motion is calm and purposeful; nothing that slows the page.','Every design asset lives in the Canva brand kit so decks, posters and social posts match the website.'];
+const SIDES=[['Investor side','Convince and inform investors and partners','Home (60-second story), the ten-minute presentation, the 36 sections in 8 parts, data room, sources'],['Experience side','Let people feel the business working','Store walk-through, the five customer journeys, scan-and-go demo, app prototype, Afya Box builder with brand swaps and partner services, Check Station demo']];
+const EVERY=['Side menu with the 8 parts and reading progress; search across all sections.','English / Kiswahili switch.','The section’s nine blocks (chapter 9).','Live numbers from the master model (chapter 13).','“Next section” and “Back to the story” buttons, so the investor never gets lost.'];
+const FORMATS=[['Investor website','Code, hosted online on its own link (later our own domain)','Share with investors; present on a laptop'],['Short films','Real photos, concept images and app mock-ups, soft music, English and Kiswahili captions','Seven films in the showroom library'],['Pitch deck','Canva, from the ten-minute presentation','Meetings; download as PowerPoint or PDF'],['One-page summary','Canva','Email attachment, printed handout'],['Brochure and posters','Canva','Partners, store, events'],['Social posts and ads','Canva','Launch marketing'],['App screens','Figma or code prototype','The Experience side and future developers']];
+const MODEL=[['Products and prices','Catalogue, landed cost, shelf price, brand options','Margin per item, per Care Zone, per box'],['Store','Rent, staff, opening hours, visitors, conversion, basket','Daily sales, break-even, store profit'],['Membership','Cards, plans, box prices, churn, points','Members, monthly recurring revenue, profit per member, lifetime value'],['Partner services (Afya Huduma)','Partner walk-in prices, member rate 70%, visits per year, 25% markup, add-on uptake 20%, commission 10%, member mix by box','Care-pack fee per box, partner payouts, service margin, commission income'],['Afya Kazini (businesses)','Core and sector kits at catalogue prices, 8% discount, safety services, accounts by month 12, sector mix','Price and gross profit per account, Kazini revenue'],['Digital and delivery','Online share, delivery fee, rider cost','Online revenue, delivery cost covered'],['Customer-funded costs','Every cost line and the price element that recovers it','Coverage of each cost'],['Setup and pre-launch','Licences, fees, research, transport, travel','Phase 0 budget'],['Capital plan','Fit-out, stock, systems, reserve, tranches','Seed amount and use of funds'],['Growth','Store openings, ramp-up, head-office costs, growth investments','12-year revenue, profit, cash, funding rounds'],['Ownership','Valuations, round sizes, option pool, protections','Cap table, founders’ share, sale waterfall']];
+const FIXES=[['Phase 0 gap','Research, transport and setup costs are about TSh 32.8M against a Phase 0 budget of TSh 3.15M; decide whether the seed round grows or the founders pre-fund it.'],['Seed amount','Confirm TSh 110M or a revised figure once all pre-launch costs are included.'],['One growth model','Merge the four growth chapters (Expansion, Five Scales, Stages, Road) into one set of numbers.'],['Average box price','The model uses an average box of TSh 85,000; the 17 box prices weighted by the planned member mix average about TSh 131,000. Settle one figure in section 3.4/3.5 before the financials are signed off.'],['Prices and fees','Re-check Tanzanian prices, rents, salaries, duties, fees and partner service prices with current sources and written quotations.'],['Market data','Refresh every statistic with its source and year.']];
+const MRULES=['Every input has an owner, a source (or “founder estimate”) and a date checked.','Three scenarios always available: base, best, downside.','Estimates are labelled; facts are cited.','The model is also exported as a spreadsheet for investors and the accountant.'];
+const STEPS8=[['Brand foundation','Logo, colours, type, photo style and tone of voice; Canva brand kit set up; Canva Business is paid, final colour codes still to be saved in the kit.','now'],['Master model','Rebuild and reconcile every number. Now v1.2 with Afya Huduma and Afya Kazini; the reconciliation issues in chapter 13 are still open.','now'],['Section content, one by one','Following the order of chapter 10, starting with Part 0 and Part 1.','now'],['Realistic visual library','Real photos and concept images for every section, produced as each section is written.','now'],['Website build','The new investor and experience website, page by page, from the approved content.','now'],['Investor kit','Pitch deck, one-page summary, brochure and social posts in Canva.','now'],['Master prompt v2','The Company OS prompt rewritten from the finished project.',''],['Company OS','The live platform to run the business, after the seed round.','']];
+const HOW=[['Brief','I propose the section’s nine blocks in outline; you approve or change them.'],['Research','Current facts and prices, with sources.'],['Write','The full text in English, then Kiswahili.'],['Design','Visuals and the page layout.'],['Build and test','The page and any demo, checked on laptop and phone.'],['Sign-off','Fahmy and Cecilia approve; it is marked done.']];
+const TOGETHER=['One section per session where possible, so each gets full attention.','Decisions are recorded in chapter 15 so nothing is asked twice.','Credits are used carefully: plan first, build in large tested chunks, report briefly.'];
+const DECISIONS=[['Framework: three layers, nine-block section template, 8 parts','Approved by Fahmy, 31 Oct 2026',0],['Design: bright Afya brand inside a dark investor showroom','Approved by Fahmy, 31 Oct 2026',0],['Format: multi-page website plus Canva investor kit; no storage limit','Agreed',0],['The model is Afya Basics’ own; no copying or referencing other companies; only the idea of very fast payment is kept','Fahmy, 31 Oct 2026',0],['Revenue goal in Tanzanian shillings (TSh billions)','Agreed',0],['Founders keep 25% for life, protected legally','Agreed; legal review needed',0],['Work section by section, each signed off before the next','Agreed',0],['Real free-licence photos replace AI images for people and everyday life; the store stays a labelled concept render','Fahmy, 1 Nov 2026',1],['Afya Huduma: every box carries services in four layers (free in-store check, one partner service priced into the box, digital care, partner add-ons)','Fahmy, 1 Nov 2026',1],['Partner income is hybrid: members pay the care pack inside the box; partners pay Afya 10% on add-ons','Fahmy, 1 Nov 2026',1],['Films carry soft background music, no voice-over; captions in English and Kiswahili','Fahmy, 1 Nov 2026',1],['Services are sold three ways, priced so all sides gain: included in the package (partner 70%, member ~12% off), added monthly (same), or booked once in the app or store (member 10% off, partner keeps 81%, Afya 10%)','Fahmy, 1 Nov 2026',1],['Afya Kazini: a business membership in three sizes (Ndogo 1–9, Kati 10–50, Kubwa 51+ staff) with five sector kits for small businesses','Fahmy, 1 Nov 2026',1]];
+const OPEN=[['brand','Canva Business payment confirmed, so Step 1 (brand) can be finished'],['seed','Seed amount after including pre-launch costs: TSh 110M or revised?'],['phase0','Phase 0 costs: added to the seed round, or pre-funded by the founders?'],['split','Share split between Fahmy and Cecilia within the founders’ 25%+'],['site','Flagship location shortlist in Dar es Salaam'],['sw','Who checks the Kiswahili text'],['box','Average box price: keep TSh 85,000 in the model, or use the mix-weighted TSh 131,000 from the 17 boxes?'],['kazini','Afya Kazini planning numbers: 40 small-business accounts by month 12 and the sector mix (shops 35%, food 30%, salons 20%, workshops 10%, offices 5%)'],['partners','Which partners to approach first for quotations (baby-wellness studio, laboratory, home physiotherapy, dental clinic, pest control)']];
+
+/* ---------- builders ---------- */
+const table=(head,rows,cls='')=>`<div class="tw"><table class="${cls}"><thead><tr>${head.map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map((c,i)=>`<td${i===0?' class="k"':''}>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+const cards=arr=>`<div class="grid">${arr.map(a=>`<div class="card">${a[2]?`<small>${esc(a[2])}</small>`:''}<h4>${esc(a[0])}</h4><p>${esc(a[1])}</p></div>`).join('')}</div>`;
+const ul=arr=>`<ul class="prose" style="padding-left:20px">${arr.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`;
+const CH=[
+ ['vision','Vision and positioning','Afya Basics is a new kind of health-essentials brand built for Tanzanian homes: everything a household needs to look after its health at home, curated, honestly priced, beautifully presented and bought in minutes, with the care services that go with it. This one sentence guides every design, product and technology decision in the project.',
+  ()=>`<h3>The problem we solve</h3><p class="prose">Health care has moved into the home, but the shopping hasn’t.</p><div style="margin-top:12px">${cards(PROBLEMS.map((p,i)=>[p[0],p[1],'Pain '+(i+1)]))}</div>
+  <h3>Our promise · Afya yako, nyumbani kwako</h3><p class="prose" style="margin-bottom:12px">Your health, at your home. Four commitments make the promise concrete.</p>${cards(PROMISE)}
+  <h3>Positioning</h3><div class="vs"><div class="hd">We are</div><div class="hd">We are not</div>${POS.map(p=>`<div>${esc(p[0])}</div><div>${esc(p[1])}</div>`).join('')}</div>
+  <h3>Who we serve first</h3><p class="prose">Urban households in Dar es Salaam managing a recurring health need: new and expecting mothers, carers of elderly parents, people living with hypertension or diabetes, people recovering from surgery or injury, offices and schools needing first-aid supplies, and diaspora families buying care for relatives.</p>
+  <h3>The long-term ambition</h3><p class="prose">Start with one flagship store and the Afya Box membership with its partner services, prove the model, then grow store by store across Dar es Salaam, Tanzania and East Africa, towards TSh billions in annual revenue, with the founders keeping 25% of the company for life.</p>`],
+ ['story','The investor story arc','The whole project is one story told in a fixed order, so an investor moves from “I see the problem” to “I want to invest” without getting lost. Every section answers one question an investor asks, in the order they ask it.',
+  ()=>`<h3>The nine questions, in order</h3><div class="tw"><table><thead><tr><th>#</th><th>Question</th><th>Answered by</th><th>Sections</th></tr></thead><tbody>${QUESTIONS.map((q,i)=>`<tr><td class="k num">Q${i+1}</td><td><b>${esc(q[0])}</b></td><td>${esc(q[1])}</td><td class="num">${q[2]}</td></tr>`).join('')}</tbody></table></div>
+  <h3>Three ways in, for three kinds of reader</h3>${table(['Reader','Time they give','What they see'],READERS)}
+  <h3>Rules for the story</h3>${cards(RULES)}`],
+ ['layers','The three-layer framework','Everything in Afya Basics belongs to one of three layers, and each layer feeds the next: the experience brings customers in, the engine serves them simply, and the economics turn that into a large, profitable company.',
+  ()=>`<div class="layers">${LAYERS.map(l=>`<div><h4>${l[0]}</h4><span class="parts">${l[1]}</span><p><b>The investor’s question:</b> ${esc(l[2])}</p><p><b>Measured by:</b> ${esc(l[3])}</p></div>`).join('')}</div>
+  <p class="flowarrow">Experience → brings customers to → Engine → serves them for → Economics</p>
+  <p class="prose" style="margin-top:14px">The Front door (Part 0) introduces all three; Parts 1–2 explain why the business exists; Part 3 is the Experience; Part 4 is the Engine; Parts 5–6 are the Economics; Part 7 (Trust) underpins everything.</p>`],
+ ['way','The Afya Way: our own retail principles','Afya Basics follows its own model, designed for Tanzanian households and not copied from any other company. Eight principles shape the store, the app, the services and the operation; each one exists because it solves a specific pain from chapter 1. Open a principle to see the pain and the practice.',
+  ()=>`<div class="pr">${WAY.map((w,i)=>`<details${i===0?' open':''}><summary><i>${i+1}</i><b>${esc(w[0])}</b><em>${esc(w[1])}</em></summary><div class="body"><div class="pain"><small>The pain it solves</small>${esc(w[1])}</div><div class="fix"><small>What it means in practice</small>${esc(w[2])}</div></div></details>`).join('')}</div>
+  <h3>What makes the model unique to Afya Basics</h3>${cards(UNIQUE)}
+  <h3>The feeling we design for</h3><p class="prose">A customer should walk in and feel: this is calm, clean and modern; I know where to go; the price is fair; someone will help me if I want; I can pay in seconds. That feeling is the benchmark every section is judged against.</p>`],
+ ['huduma','Afya Huduma: services and partners','Every Afya Box carries services as well as products, in the same four layers for all 17 boxes. Members pay for the services inside their box; licensed partner businesses deliver them; Afya earns from both sides. All partner prices are planning estimates until written quotations are in hand.',
+  ()=>`${cards([['Afya Check in store','A monthly check fitted to the box: baby weight and growth for Mama na Mtoto, blood pressure for Presha Care, height and eyes for school children. Done by Afya staff; the cost is already in the store’s running costs.','Layer 1 · free'],['Partner care pack','One professional service from a partner on a fixed schedule: a baby massage every month, an HbA1c lab test every 3 months, a dental check twice a year. Priced into the box.','Layer 2 · included'],['Digital care','Reminders, a nurse or adviser on WhatsApp, reports to family abroad. It costs almost nothing per member, so it is free.','Layer 3 · free'],['Partner add-ons','Any service can also be added to the package every month (about 87% of the normal price, prepaid) or booked once in the app or store (90%; the partner pays Afya 10%).','Layer 4 · optional']])}
+  <h3>How the care-pack fee is calculated</h3><div class="tw"><table><thead><tr><th>Step</th><th>Rule</th><th>Mama na Mtoto example</th></tr></thead><tbody>
+   <tr><td class="k">1 · Member rate</td><td>70% of the partner’s walk-in price, rounded to TSh 500</td><td class="num">70% × TSh 25,000 = <b>TSh 17,500</b> per baby massage</td></tr>
+   <tr><td class="k">2 · Partner cost per month</td><td>Member rate × visits per year ÷ 12</td><td class="num">17,500 × 12 ÷ 12 = <b>TSh 17,500</b></td></tr>
+   <tr><td class="k">3 · Care-pack fee</td><td>Partner cost × 1.25, rounded up to the next TSh 500</td><td class="num">17,500 × 1.25 = 21,875 → <b>TSh 22,000</b></td></tr>
+   <tr><td class="k">4 · Afya keeps</td><td>Fee − partner cost</td><td class="num">22,000 − 17,500 = <b>TSh 4,500</b> (20.5%)</td></tr>
+   <tr><td class="k">5 · One-off booking</td><td>Member pays 90% of the normal price; the partner pays Afya 10% of that</td><td class="num">90% × 40,000 = 36,000; 10% = <b>TSh 3,600</b> to Afya, TSh 32,400 to the partner</td></tr><tr><td class="k">6 · Average commission</td><td>20% of members book one a month × average one-off price × 10%</td><td class="num">0.20 × 36,000 × 10% = <b>TSh 720</b> per member a month</td></tr></tbody></table></div>
+  <h3>The services in every box</h3><p class="prose" style="margin-bottom:12px">The 17 boxes sit in seven groups, by who the box is for: mother and baby, children and teens, women and men, people living with a condition, older adults and people recovering, the home, and workplaces.</p>${table(['Group','Box','Included partner service','Schedule','Care-pack fee / month'],[['Mother & baby','Mama Mjamzito','Prenatal class','6 a year','TSh 9,000'],['','Mama na Mtoto','Baby massage session','Monthly','TSh 22,000'],
+['Children & teens','Afya Shule','Dental check-up','2 a year','TSh 4,500'],['','Afya Binti','Skin clinic consult','2 a year','TSh 6,000'],['','Afya Kijana','Sports fitness assessment','3 a year','TSh 4,500'],
+['Women & men','Afya Glow','Facial skin treatment','4 a year','TSh 12,000'],['','Afya Siku','Gynaecology check-up','1 a year','TSh 3,000'],['','Afya Man','Barber grooming session','Monthly','TSh 9,000'],
+['Living with a condition','Sukari Care','HbA1c lab test','4 a year','TSh 9,000'],['','Presha Care','Cholesterol and kidney lab test','2 a year','TSh 6,000'],['','Figo Care','Renal diet consult','4 a year','TSh 9,000'],
+['Older adults & recovery','Bibi na Babu','Home physiotherapy session','Monthly','TSh 35,000'],['','Kupona','Home physiotherapy session','Monthly','TSh 35,000'],
+['Home & first aid','Afya Home','Home pest control','2 a year','TSh 9,000'],['','Huduma ya Kwanza','First-aid training seat','1 a year','TSh 2,500'],
+['Workplaces','Afya Ofisi','First-aid training seat','2 a year','TSh 7,500'],['','Afya Hoteli','Pest-control visit','4 a year','TSh 23,500']])}
+  <div class="callout"><b>Master model v1.1, base case.</b> Average care-pack fee TSh 12,585 per member a month; extra gross profit TSh 3,357 per member a month (TSh 2,663 margin + TSh 694 commission). With 600 members in month 12, service income is about TSh 8.0M that month and about TSh 6.0M is paid to partner businesses. Year 1: TSh 45.6M service income, adding TSh 11.5M of gross profit; the first profitable month moves from month 6 to month 5. With Afya Kazini (chapter 6), total year-1 revenue is TSh 914M.</div>
+  <h3>The rules that keep it trusted</h3>${ul(['Only licensed providers, checked before signing.','Afya never diagnoses. A worrying reading is referred to the member’s own clinic, whether or not it is a partner.','The commission is a disclosed booking fee on add-ons only; it never changes a referral.','Members rate every visit; a partner below 4 stars for two months is replaced.','No partner agreement exists yet; every price is replaced by written quotations during on-the-ground research.'])}`],
+ ['kazini','Afya Kazini: the business membership','Afya Kazini (“health at work”) is the Afya membership for businesses of every size. Every business needs the same things every month: a first-aid box that is actually full, soap for staff, cleaning supplies, people trained in first aid, and healthy staff. Tanzanian law asks for most of this, and most businesses buy it once and forget it. Afya Kazini delivers it monthly, keeps the business ready for an inspection, and turns every employee into a possible Afya family.',
+  ()=>`<h3>Three sizes, matched to the law</h3>${table(['Size','Who','What they get','Price (planning estimate)'],[['Kazini Ndogo · 1–9 staff','Shops, kiosks, restaurants, salons, workshops, small offices','Core kit + a sector kit; first-aid training seat and fire-extinguisher service each year','TSh 60,000 – 89,500 a month'],['Kazini Kati · 10–50 staff','Offices, clinics, schools, NGOs; Afya Hoteli for hotels','Afya Ofisi box per 25 staff: the OSH band of one first-aid box and two trained first aiders, plus a monthly staff BP and BMI screening day','TSh 175,000 per 25 staff a month'],['Kazini Kubwa · 51+ staff','Factories, banks, large schools','Afya Ofisi units per 25 staff on 6 or 12-month plans, on-site check days, one invoice with 30 days to pay','TSh 159,500 – 164,500 per 25 staff a month']])}
+  <h3>Four parts, the same for every business</h3>${cards([['Supplies the law asks for','First-aid refills, soap for employees (OSH Rules 2015, rule 7(3)(d)), cleaning for the staff toilet, and a kit for the sector.','Part 1 · monthly'],['Safety services','An accredited first-aid training seat and a fire-extinguisher service every year; pest control twice a year for food businesses. Priced in with the same 25% markup as Afya Huduma.','Part 2 · partners'],['Staff health','Every employee gets an Afya Staff Card: free Afya Checks, member prices, and family boxes paid by mobile money, payroll deduction, or the employer as a staff benefit.','Part 3 · free'],['The Afya Kazini seal','A window sticker and a digital record: kit checked at every delivery, first aiders trained, extinguisher serviced. It is Afya’s own standard, not a government certificate.','Part 4 · earned monthly']])}
+  <h3>Kazini Ndogo: five sector kits</h3>${table(['Sector kit','Who','Extra items on top of the core kit','Price / month','Business saves'],[['Kazini Duka','Shops and kiosks','Pocket sanitisers, disinfecting wipes','TSh 60,000','22%'],['Kazini Chakula','Restaurants and food stalls','Gloves, kitchen wipes, burn gel; pest control 2 a year','TSh 89,500','21%'],['Kazini Saluni','Salons and barbershops','Gloves, disinfecting wipes, clipper blade oil','TSh 81,000','22%'],['Kazini Karakana','Workshops and building sites','Eye-wash, gloves, burn gel, ear plugs','TSh 83,000','22%'],['Kazini Ofisi Ndogo','Small offices','Disinfecting wipes, face masks','TSh 65,500','22%']])}
+  <p class="note">Core kit (every sector): quarterly first-aid refill, plasters, 2 hand washes, sanitiser, disinfectant, toilet cleaner, paper towels · TSh 44,440 at shelf price. Price = supplies × 0.92 + safety fee + TSh 5,500 delivery, rounded to TSh 500. “Saves” compares buying it alone at small-shop prices (+18%), 4 trips of TSh 2,000 and walk-in service prices, the same comparison as section 3.5.</p>
+  <div class="callout"><b>Master model v1.2, base case.</b> 40 Kazini Ndogo accounts by month 12 (about 3 new a month), average TSh 75,625 a month and TSh 21,286 gross profit per account. Month 12: TSh 3.0M revenue. Year 1: TSh 19.7M revenue and TSh 5.5M gross profit; total year-1 revenue becomes TSh 914M. About 160 staff are reached through small businesses by month 12; their family boxes count inside the 600-member plan, not on top of it.</div>
+  <h3>Why it wins</h3>${ul(['One subscription, ready for inspection: supplies, first aiders and fire safety in one monthly payment, with a record the owner can show an inspector.','A seal customers can see: salons, restaurants and shops show the sticker, which puts the Afya name in every street.','Every business brings its staff: each account is a channel to new family members at almost no marketing cost.','Paid like a business pays: mobile money for small businesses, one invoice with 30 days to pay for large ones.','Customer-funded: services carry the 25% markup and delivery is inside the price, so every account earns from its first month.'])}
+  <p class="note">Legal basis: <a href="https://tanzlii.org/en/akn/tz/act/gn/2015/147/eng@2015-04-03" target="_blank" rel="noopener">Occupational Safety and Health (First Aid and Welfare Facilities) Rules, 2015 (GN 147)</a>: rule 4(2)(e) one first-aid box and two trained first aiders for 10–50 employees; rule 4(4) kept clean and ready for use; rule 7(3)(d) soap for employees; rule 12 safe drinking water and cups.</p>`],
+ ['journey','The customer journey and speed targets','Speed is a promise we measure: a walk-in customer finds and pays in under 3 minutes, a repeat online order takes under 30 seconds, and a member’s monthly box needs zero clicks. Choose a journey to see it step by step.',
+  ()=>`<div class="tabs" role="tablist" id="jtabs">${JOURNEYS.map((j,i)=>`<button type="button" role="tab" data-j="${i}" aria-selected="${i===0}">Journey ${j[0]} · ${esc(j[1])}</button>`).join('')}</div><div class="panel" id="jpanel"></div>
+  <h3>Speed targets the system must hit</h3>${table(['Moment','Target','How the system achieves it'],SPEED)}`],
+ ['system','Simple operations: the one-system model','One connected system runs the whole business, so a store can be run by a small team and the founders can manage it from a phone in India. Every action is recorded once and every screen, report, reorder and partner payout updates from it automatically.',
+  ()=>`<h3>The modules of the one system</h3>${table(['Module','What it does','Who uses it','What it removes from people’s work'],MODULES)}
+  <h3>Rules that keep it simple</h3>${cards(SIMPLE)}
+  <h3>A day in the store with the one system</h3><ol class="steps">${DAY.map(d=>`<li><span>${esc(d[1])}</span><code>${d[0]}</code></li>`).join('')}</ol>
+  <h3>How it is built</h3><p class="prose">Start with proven ready-made tools where they exist (a retail point-of-sale system, payment provider, WhatsApp Business, accounting) and connect them to our own Afya platform for memberships, Afya Choice, partner bookings, the dashboard and reports. Build our own only where it gives us an advantage.</p>`],
+ ['template','The section template every section follows','Every section is built from the same nine blocks, in the same order, so all sections are equally deep and an investor always knows where to look. A section is finished only when every block is complete and checked.',
+  ()=>`<div class="tw"><table><thead><tr><th>#</th><th>Block</th><th>What it contains</th><th>Quality test</th></tr></thead><tbody>${TEMPLATE.map((t,i)=>`<tr><td class="k num">${i+1}</td><td><b>${esc(t[0])}</b></td><td>${esc(t[1])}</td><td>${esc(t[2])}</td></tr>`).join('')}</tbody></table></div>
+  <h3>Writing rules</h3>${ul(WRITING)}<h3>Definition of done for a section</h3><div class="grid">${DONE_DEF.map(d=>`<div class="card"><h4>${esc(d)}</h4></div>`).join('')}</div>`],
+ ['map','The full section map','The project has 36 sections in 8 parts, replacing the 60 overlapping chapters of the old lab; every existing calculator and tool moves into one of them. Choose a part; tap a status to update your own tracker (saved in this browser only).',
+  ()=>`<div class="tabs" role="tablist" id="mtabs">${MAP.map((m,i)=>`<button type="button" role="tab" data-m="${i}" aria-selected="${i===0}">Part ${m[0]} · ${esc(m[1])}</button>`).join('')}</div>
+  <div class="legend"><span class="st">Not started</span><span class="st rev">In review</span><span class="st done">Signed off</span></div><div class="panel"><ol class="map" id="mlist"></ol></div>`],
+ ['design','Design system','Two design worlds work together: the Afya brand (what customers see) is bright, clean and calm in royal green and white, and the investor showroom is dark and cinematic so the bright brand stands out inside it. Both share one logo, one green, one gold and one type family.',
+  ()=>`<h3>The Afya brand (customer world)</h3>${table(['Element','Direction','Notes'],BRAND)}<h3>The investor showroom (website world)</h3>${ul(SHOWROOM)}<h3>Rules that protect quality</h3>${ul(QUALITY)}`],
+ ['site','Website architecture','The project is a multi-page website with two sides: the Investor side tells the story and shows the numbers, and the Experience side lets anyone try the store journey, scan-and-go checkout, the box builder and the app. Each page loads only what it needs, so pages stay fast.',
+  ()=>`<h3>The two sides</h3>${table(['Side','Purpose','Main pages'],SIDES)}<h3>What sits on every page</h3>${ul(EVERY)}<h3>Formats produced from the same content</h3>${table(['Output','Made with','Use'],FORMATS)}
+  <h3>Storage and speed</h3>${ul(['Images and videos are stored as separate files, compressed, and loaded only when their section opens.','Target: every page opens in under 3 seconds on a normal laptop and stays smooth while scrolling.','Hosting: start on the current artifact link split into many files (up to about 256 MB); move to professional hosting on our own domain when we go public with investors.','The old 60-chapter lab stays online as an archive until the new website replaces it; nothing is deleted until the new version is approved.'])}`],
+ ['model','The master model: one source of truth','Every number in the website, the deck, the films and the documents comes from one master model; change an assumption once and every page updates. Conflicting numbers destroy investor trust faster than anything else. Current version: v1.2 (v1.1 added Afya Huduma; v1.2 adds Afya Kazini).',
+  ()=>`<h3>What the master model contains</h3>${table(['Block','Main inputs','Main outputs'],MODEL)}<h3>Issues to fix in the reconciliation</h3>${cards(FIXES)}<h3>Rules</h3>${ul(MRULES)}`],
+ ['build','Build order and working method','We build in eight steps, and inside the content steps we work one section at a time: agree it, research it, write it, design it, test it, sign it off, then move on. Nothing moves forward until the current item meets its definition of done.',
+  ()=>`<h3>The eight steps</h3><ol class="build">${STEPS8.map(s=>`<li class="${s[2]==='now'?'now':''}"><div><b>${esc(s[0])}</b><p>${esc(s[1])}</p></div><span class="st ${s[2]==='done'?'done':s[2]==='now'?'rev':''}">${s[2]==='done'?'Done':s[2]==='now'?'In progress':'Later'}</span></li>`).join('')}</ol>
+  <h3>How each section is produced</h3><ol class="steps">${HOW.map(h=>`<li><span><b>${esc(h[0])}.</b> ${esc(h[1])}</span><code></code></li>`).join('')}</ol><h3>How we work together</h3>${ul(TOGETHER)}`],
+ ['decisions','Decisions taken and open questions','Thirteen decisions are agreed; nine questions remain open and will be settled at the step where they matter. Tick a question when it is settled; ticks are saved in this browser only.',
+  ()=>`<h3>Decisions taken</h3><div class="tw"><table class="dec"><thead><tr><th>Decision</th><th>Agreed</th></tr></thead><tbody>${DECISIONS.map(d=>`<tr><td>${esc(d[0])}${d[2]?'<span class="new">New</span>':''}</td><td class="num">${esc(d[1])}</td></tr>`).join('')}</tbody></table></div>
+  <h3>Open questions</h3><ul class="oq" id="oq">${OPEN.map(o=>`<li><label for="oq-${o[0]}"><input type="checkbox" id="oq-${o[0]}" data-k="${o[0]}"><span>${esc(o[1])}</span></label></li>`).join('')}</ul><p class="note" id="oqn"></p>`]];
+
+/* ---------- render ---------- */
+const main=$('#main');
+main.innerHTML=`<section class="hero"><div class="eyebrow">Afya Basics Simple Solution Ltd · Dar es Salaam</div><h1>The master framework for the investor showroom</h1>
+ <p>How the whole Afya Basics project is organised: what we promise, the story an investor follows, the three layers, our own retail principles, the services and partners inside every box, the business membership, the one system that runs it, the 36 sections, the design, the master model and the decisions taken so far.</p>
+ <p class="motto">Afya yako, nyumbani kwako.</p>
+ <div class="facts"><span>15 chapters</span><span>36 sections · 8 parts</span><span>17 Afya Boxes + Afya Kazini</span><span>Master model v1.2</span><span>Updated 1 Nov 2026</span></div></section>`+
+ CH.map((c,i)=>`<section class="s" id="${c[0]}" data-s><div class="sh"><span class="n">${String(i+1).padStart(2,'0')}</span><h2>${esc(c[1])}</h2></div><p class="lead">${esc(c[2])}</p>${c[3]()}</section>`).join('')+
+ `<div class="empty hide" id="empty">No chapter mentions that. Try a shorter word, such as “box”, “TMDA” or “partner”.</div><footer class="foot"><span>Afya Basics · Master framework</span><span>Prepared with Fahmy Abbas and Cecilia · planning document, figures are estimates</span></footer>`;
+$('#toc').innerHTML=CH.map((c,i)=>`<li><a href="#${c[0]}" data-t="${c[0]}"><span>${String(i+1).padStart(2,'0')}</span>${esc(c[1])}</a></li>`).join('');
+
+/* journeys */
+function showJ(i){const j=JOURNEYS[i];$$('#jtabs button').forEach((b,k)=>b.setAttribute('aria-selected',k===i));
+ $('#jpanel').innerHTML=`<div class="jtop"><b>Journey ${j[0]} · ${esc(j[1])}</b><span class="target">Target: ${esc(j[2])}</span></div><ol class="steps">${j[3].map(s=>`<li><span><b>${esc(s[0])}.</b> ${esc(s[2])}</span><code>${esc(s[1])}</code></li>`).join('')}</ol>`}
+$$('#jtabs button').forEach(b=>b.onclick=()=>showJ(+b.dataset.j));showJ(0);
+
+/* section map with per-viewer status */
+const ST=['draft','rev','done'],STL={draft:'Not started',rev:'In review',done:'Signed off'};
+let stat=store.get('afyaFwStatus',{});
+const sOf=(no,def)=>stat[no]||def;
+function progress(){let all=0,done=0,rev=0;MAP.forEach(p=>p[2].forEach(s=>{all++;const v=sOf(s[0],s[4]);if(v==='done')done++;if(v==='rev')rev++}));
+ $('#mapProg').textContent=`${done} signed off · ${rev} in review · ${all} sections`;$('#mapBar').style.width=((done+rev*.5)/all*100)+'%'}
+let mi=0;function showM(i){mi=i;$$('#mtabs button').forEach((b,k)=>b.setAttribute('aria-selected',k===i));
+ $('#mlist').innerHTML=MAP[i][2].map(s=>{const v=sOf(s[0],s[4]);return `<li><span class="no">${s[0]}</span><div><h4>${esc(s[1])}</h4><p>${esc(s[2])}</p><div class="from">Comes from: ${esc(s[3])}</div></div><button type="button" class="st ${v==='draft'?'':v}" data-no="${s[0]}" data-def="${s[4]}" aria-label="Status of ${s[0]}: ${STL[v]}. Click to change.">${STL[v]}</button></li>`}).join('');
+ $$('#mlist .st').forEach(b=>b.onclick=()=>{const cur=sOf(b.dataset.no,b.dataset.def);stat[b.dataset.no]=ST[(ST.indexOf(cur)+1)%3];store.set('afyaFwStatus',stat);showM(mi);progress()})}
+$$('#mtabs button').forEach(b=>b.onclick=()=>showM(+b.dataset.m));showM(0);progress();
+
+/* open questions */
+let oq=store.get('afyaFwOpen',{});
+function oqNote(){const n=OPEN.filter(o=>oq[o[0]]).length;$('#oqn').textContent=`${n} of ${OPEN.length} settled`}
+$$('#oq input').forEach(c=>{c.checked=!!oq[c.dataset.k];c.onchange=()=>{oq[c.dataset.k]=c.checked;store.set('afyaFwOpen',oq);oqNote()}});oqNote();
+
+/* scroll spy */
+const links=$$('#toc a');const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){links.forEach(a=>a.classList.toggle('cur',a.dataset.t===e.target.id))}})},{rootMargin:'-30% 0px -60% 0px'});
+$$('section[data-s]').forEach(s=>io.observe(s));
+
+/* search: open accordions, show matching chapters, highlight */
+const orig=new Map();$$('section[data-s]').forEach(s=>orig.set(s,s.innerHTML));
+let t=null;$('#q').addEventListener('input',e=>{clearTimeout(t);t=setTimeout(()=>search(e.target.value.trim()),150)});
+function search(q){let shown=0,hits=0;
+ $$('section[data-s]').forEach(s=>{s.innerHTML=orig.get(s)});rewire();
+ if(!q){$$('section[data-s]').forEach(s=>s.classList.remove('hide'));$('#empty').classList.add('hide');$('#hits').textContent='';links.forEach(a=>a.parentElement.classList.remove('hide'));return}
+ const re=new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi');
+ $$('section[data-s]').forEach(s=>{const has=re.test(s.textContent);re.lastIndex=0;s.classList.toggle('hide',!has);links.find(a=>a.dataset.t===s.id).parentElement.classList.toggle('hide',!has);
+  if(has){shown++;s.querySelectorAll('details').forEach(d=>{if(re.test(d.textContent))d.open=true;re.lastIndex=0});
+   const w=document.createTreeWalker(s,NodeFilter.SHOW_TEXT);const nodes=[];while(w.nextNode())nodes.push(w.currentNode);
+   nodes.forEach(n=>{if(!n.nodeValue.match(re)||n.parentElement.closest('button,input'))return;const sp=document.createElement('span');sp.innerHTML=esc(n.nodeValue).replace(new RegExp(esc(q).replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi'),m=>{hits++;return `<mark>${m}</mark>`});n.replaceWith(sp)})}});
+ $('#empty').classList.toggle('hide',shown>0);$('#hits').textContent=`${hits} match${hits===1?'':'es'} in ${shown} chapter${shown===1?'':'s'}`}
+function rewire(){$$('#jtabs button').forEach(b=>b.onclick=()=>showJ(+b.dataset.j));showJ(Math.max(0,$$('#jtabs button').findIndex(b=>b.getAttribute('aria-selected')==='true')));
+ $$('#mtabs button').forEach(b=>b.onclick=()=>showM(+b.dataset.m));showM(mi);
+ $$('#oq input').forEach(c=>{c.checked=!!oq[c.dataset.k];c.onchange=()=>{oq[c.dataset.k]=c.checked;store.set('afyaFwOpen',oq);oqNote()}});oqNote()}
+</script>
+
+</body></html>

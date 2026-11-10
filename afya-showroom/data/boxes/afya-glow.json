@@ -1,0 +1,1519 @@
+{
+ "slug": "afya-glow",
+ "name": {
+  "en": "Afya Glow",
+  "sw": "Afya Glow"
+ },
+ "final": true,
+ "delivery": "monthly",
+ "box_size": "M",
+ "who": {
+  "en": "<p>Afya Glow is the everyday skin, hair and personal-care box for women aged 20 to 59 in Dar es Salaam. The city is hot and humid all year and close to the equator, so the sun is strong every day: skin sweats, hair dries out and dark marks darken. The box covers what a woman uses each month: a gentle face cleanser, a moisturiser and a daily broad-spectrum sunscreen; body lotion and a mild beauty bar; an antiperspirant; shampoo and a leave-in conditioner for natural hair; fluoride toothpaste, a toothbrush and floss; a lip balm; and one spare pack of pads.</p>\n<p><strong>Sun protection for darker skin.</strong> WHO advises shade, a hat and broad-spectrum sunscreen on skin that clothes do not cover, and notes that darker-skinned people also develop skin cancers. For dark skin the daily gain is an even tone: sun makes dark patches, acne marks and melasma darker, so a daily sunscreen does more for an even tone than any cream sold to lighten.</p>\n<p><strong>No skin lighteners, ever.</strong> WHO warns that skin-lightening products often contain mercury, which damages the kidneys and nervous system and harms the unborn child, and other hazardous chemicals such as hydroquinone. The Minamata Convention bars cosmetics with more than 1 ppm of mercury. Tanzania bans cosmetics containing mercury or hydroquinone, and the Tanzania Bureau of Standards publishes a list of banned products. Afya Basics never sells or recommends a lightening product, a \"whitening\" soap or a steroid cream for the face. A member who wants to treat dark patches or acne is offered a partner skin consultation instead.</p>\n<p><strong>Period care stays light.</strong> One pack of pads is a spare for an early or unexpected period. Full period care is the separate Afya Siku box. The box holds no medicines.</p>",
+  "sw": "<p>Afya Glow ni sanduku la kila siku la huduma ya ngozi, nywele na mwili kwa wanawake wenye umri wa miaka 20 hadi 59 jijini Dar es Salaam. Jiji lina joto na unyevu mwaka mzima na liko karibu na ikweta, hivyo jua ni kali kila siku: ngozi hutoa jasho, nywele hukauka na madoa meusi huzidi kuwa meusi. Sanduku lina kile ambacho mwanamke hutumia kila mwezi: kisafishaji laini cha uso, krimu ya unyevu na kinga ya jua ya wigo mpana ya kila siku; losheni ya mwili na sabuni laini ya kuogea; antiperspirant; shampuu na kiyoyozi cha kuacha kwa nywele za asili; dawa ya meno yenye floraidi, mswaki na uzi wa meno; mafuta ya midomo; na pakiti moja ya akiba ya taulo za kike.</p>\n<p><strong>Kinga ya jua kwa ngozi nyeusi.</strong> WHO inashauri kivuli, kofia na kinga ya jua ya wigo mpana kwenye ngozi isiyofunikwa na nguo, na inaeleza kuwa watu wenye ngozi nyeusi pia hupata saratani ya ngozi. Kwa ngozi nyeusi faida ya kila siku ni rangi iliyo sawa: jua hufanya mabaka meusi, alama za chunusi na melasma kuwa meusi zaidi, hivyo kinga ya jua ya kila siku husaidia rangi iwe sawa kuliko krimu yoyote inayouzwa kwa ajili ya kuchubua.</p>\n<p><strong>Hakuna vipodozi vya kuchubua, kamwe.</strong> WHO inaonya kuwa bidhaa za kuchubua ngozi mara nyingi zina zebaki, inayoharibu figo na mfumo wa fahamu na kumdhuru mtoto aliye tumboni, pamoja na kemikali nyingine hatari kama haidrokwinoni. Mkataba wa Minamata unakataza vipodozi vyenye zebaki zaidi ya ppm 1. Tanzania imepiga marufuku vipodozi vyenye zebaki au haidrokwinoni, na Shirika la Viwango Tanzania (TBS) huchapisha orodha ya bidhaa zilizopigwa marufuku. Afya Basics haiuzi wala haipendekezi kamwe bidhaa ya kuchubua, sabuni ya \"kung’arisha\" au krimu ya steroidi kwa uso. Mwanachama anayetaka kutibu mabaka meusi au chunusi hupewa ushauri wa daktari wa ngozi mshirika badala yake.</p>\n<p><strong>Huduma ya hedhi ni kidogo tu.</strong> Pakiti moja ya taulo za kike ni akiba kwa hedhi iliyowahi au isiyotarajiwa. Huduma kamili ya hedhi ni sanduku tofauti la Afya Siku. Sanduku hili halina dawa.</p>"
+ },
+ "clinic_line": {
+  "en": "A dark patch that spreads, a mole that changes, acne that scars, a rash from a cream, or very heavy periods are seen by a clinician. The box never replaces a clinic visit; from age 30, cervical screening is due every 5–10 years at a public clinic (WHO).",
+  "sw": "Doa jeusi linaloenea, kiraka cha ngozi kinachobadilika, chunusi zinazoacha makovu, upele kutokana na krimu, au hedhi nzito sana huonwa na mtaalamu wa afya. Sanduku halichukui nafasi ya kliniki; kuanzia miaka 30, uchunguzi wa saratani ya mlango wa kizazi hufanyika kila miaka 5–10 katika kliniki ya umma (WHO)."
+ },
+ "guidance": [
+  {
+   "t": "WHO, Elimination of mercury-containing skin lightening products (Minamata Convention, Article 4: cosmetics above 1 ppm mercury)",
+   "u": "https://www.who.int/initiatives/elimination-of-mercury-containing-skin-lightening-products",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO 2019, Mercury in skin lightening products (information note; names hydroquinone among other hazardous chemicals)",
+   "u": "https://www.who.int/publications/i/item/WHO-CED-PHE-EPE-19.13",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet, Mercury (24 Oct 2024)",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/mercury-and-health",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet, Ultraviolet radiation (protective measures; broad-spectrum sunscreen)",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/ultraviolet-radiation",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet, Oral health (twice-daily brushing with 1,000–1,500 ppm fluoride toothpaste)",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/oral-health",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet, Cervical cancer (screening every 5–10 years from age 30; every 3–5 years from 25 for women living with HIV)",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/cervical-cancer",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO 2021, Guideline for screening and treatment of cervical pre-cancer lesions, 2nd edition",
+   "u": "https://www.who.int/publications/i/item/9789240030824",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet, Anaemia (10 Feb 2025)",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/anaemia",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "Tanzania Bureau of Standards, List of Banned Products (cosmetics with hydroquinone; soaps with mercury). Search result only; the TBS host could not be opened.",
+   "u": "https://www.tbs.go.tz/uploads/publications/en-1649916050-List Of Banned Products.pdf",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "American Academy of Dermatology, How to apply sunscreen. Not re-opened (host refused).",
+   "u": "https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-apply-sunscreen",
+   "chk": "2026-11-02"
+  },
+  {
+   "t": "American Academy of Dermatology, Tips for caring for Black hair. Not re-opened (host refused).",
+   "u": "https://www.aad.org/public/everyday-care/hair-scalp-care/hair/care-african-american",
+   "chk": "2026-11-02"
+  },
+  {
+   "t": "NHS, How to keep your teeth clean (interdental cleaning; new brush every 3 months). Not re-opened (host refused).",
+   "u": "https://www.nhs.uk/live-well/healthy-teeth-and-gums/how-to-keep-your-teeth-clean/",
+   "chk": "2026-11-02"
+  }
+ ],
+ "stages": [
+  {
+   "key": "m",
+   "label": {
+    "en": "Every month",
+    "sw": "Kila mwezi"
+   },
+   "months": "1–12",
+   "box_size": "M",
+   "items": [
+    {
+     "key": "clean",
+     "name": {
+      "en": "Gentle face cleanser",
+      "sw": "Kisafishaji laini cha uso"
+     },
+     "why": {
+      "en": "A mild, non-stripping cleanser morning and night removes sweat, oil and sunscreen without damaging the skin barrier. In darker skin, irritation and friction are a common trigger for dark marks, so scrubs, antiseptic soaps on the face and any \"whitening\" wash are left out.",
+      "sw": "Kisafishaji laini asubuhi na jioni huondoa jasho, mafuta na kinga ya jua bila kuharibu tabaka la kinga la ngozi. Kwenye ngozi nyeusi, muwasho na msuguano mara nyingi huacha madoa meusi, hivyo skrabu, sabuni za antiseptiki usoni na sabuni yoyote ya \"kung’arisha\" zimeachwa."
+     },
+     "qty": {
+      "en": "60 ml a month",
+      "sw": "ml 60 kwa mwezi"
+     },
+     "qty_formula": "about 1 ml a wash × 2 washes a day × 30 days = 60 ml (planning assumption)",
+     "units": 60,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Garnier",
+       "product": "Gentle Cleansing Foam",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 10795,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/face-cleansing-scrub-toners/garnier-gentle-cleansing-foam-100ml/p/226022",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 531,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026).",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Nivea",
+       "product": "Refreshing Face Wash Gel",
+       "pack": "150 ml",
+       "pack_units": 150,
+       "price_tsh": 16874,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/face-cleansing-scrub-toners/nivea-refreshing-face-wash-gel150ml/p/67952",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 830,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Simple",
+       "product": "Moisturising Face Wash",
+       "pack": "150 ml",
+       "pack_units": 150,
+       "price_tsh": 19801,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/face-cleansing-scrub-toners/simple-moisturising-face-wash-150ml/p/19039",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 974,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Sakura",
+       "product": "Collagen Foaming Facial Cleansing Mousse",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 15000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/collagen-sakura-facial-cleansing-mousse-100ml",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "The listing does not give the full ingredient list; check it on the pack before stocking.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "CeraVe",
+       "product": "Hydrating Facial Cleanser",
+       "pack": "236 ml",
+       "pack_units": 236,
+       "price_tsh": 43500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/cerave-hydrating-cleanser-236ml",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Fragrance-free; the top of the range. The 473 ml bottle is TSh 65,500 on AfyaDepot (10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "moist",
+     "name": {
+      "en": "Face moisturiser",
+      "sw": "Krimu ya unyevu ya uso"
+     },
+     "why": {
+      "en": "A moisturiser after cleansing keeps the skin barrier intact, which reduces flaking and the irritation that leaves dark marks. A pea-sized amount twice a day is enough; heavy, perfumed creams sold as \"glow\" or \"fair\" creams are not used, because such creams are where hidden lightening agents are found.",
+      "sw": "Krimu ya unyevu baada ya kusafisha hulinda tabaka la kinga la ngozi, jambo linalopunguza ngozi kubambuka na muwasho unaoacha madoa meusi. Kiasi cha punje ya njegere mara mbili kwa siku kinatosha; krimu nzito zenye manukato zinazouzwa kama krimu za \"kung’aa\" au za \"weupe\" hazitumiki, kwa sababu ndimo viambato vya kuchubua vilivyofichwa hupatikana."
+     },
+     "qty": {
+      "en": "30 ml a month",
+      "sw": "ml 30 kwa mwezi"
+     },
+     "qty_formula": "about 0.5 ml (a pea-sized amount) × 2 a day × 30 days = 30 ml (planning assumption)",
+     "units": 30,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Dove",
+       "product": "Intensive Cream (face, hands and body)",
+       "pack": "75 ml",
+       "pack_units": 75,
+       "price_tsh": 6500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602686c153c6d5732d0a35ed",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Nivea",
+       "product": "Moisturising Creme, jar",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 13113,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/body-lotion-creams/nivea-moisturising-creme-jar-200ml/p/17054",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 645,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026). A rich cream; better for dry skin than for oily skin in the coastal humidity.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Simple",
+       "product": "Hydrating Light Moisturiser",
+       "pack": "125 ml",
+       "pack_units": 125,
+       "price_tsh": 18277,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/face-day-moisturizers-creams/simple-hydr-moisturiser-125ml/p/19033",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 899,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Simple",
+       "product": "Hydrating Light Moisturizer",
+       "pack": "150 ml",
+       "pack_units": 150,
+       "price_tsh": 35000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/simple-hydrating-light-moisturizer-150mls",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Same product as the Kenyan row; the Tanzanian price is about 60% higher per ml.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "spf",
+     "name": {
+      "en": "Daily sunscreen, broad-spectrum SPF 30–50",
+      "sw": "Kinga ya jua ya kila siku, SPF 30–50 ya wigo mpana"
+     },
+     "why": {
+      "en": "WHO advises broad-spectrum sunscreen on skin that clothes do not cover, together with shade and a hat, and notes that darker-skinned people also develop skin cancers. Dermatologists recommend SPF 30 or more for every skin tone (AAD); in darker skin the daily benefit is fewer dark patches and less melasma, because sun exposure darkens them. This is the safe answer to uneven tone, in place of lightening creams.",
+      "sw": "WHO inashauri kinga ya jua ya wigo mpana kwenye ngozi isiyofunikwa na nguo, pamoja na kivuli na kofia, na inaeleza kuwa watu wenye ngozi nyeusi pia hupata saratani ya ngozi. Madaktari wa ngozi wanapendekeza SPF 30 au zaidi kwa kila rangi ya ngozi (AAD); kwa ngozi nyeusi faida ya kila siku ni mabaka meusi machache na melasma kidogo, kwa sababu jua huyafanya kuwa meusi zaidi. Hii ndiyo njia salama ya kusawazisha rangi ya ngozi, badala ya krimu za kuchubua."
+     },
+     "qty": {
+      "en": "40 ml a month",
+      "sw": "ml 40 kwa mwezi"
+     },
+     "qty_formula": "about 1.25 ml (a quarter teaspoon) for face and neck each morning × 30 days ≈ 40 ml; reapplying at midday needs more (planning assumption)",
+     "units": 40,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Malibu",
+       "product": "Sun Lotion SPF 50",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 42429,
+       "src": {
+        "name": "goodlife.co.ke",
+        "u": "https://www.goodlife.co.ke/product/malibu-lotion-spf-50-200ml/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 2087,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026).",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Nivea Sun",
+       "product": "Moisturising Sun Lotion SPF 30",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 46962,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/cream-lotion/nivea-moist-sun-lotion-spf30-200ml/p/17089",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 2310,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nivea Sun",
+       "product": "Protect & Moisture Lotion SPF 50",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 64039,
+       "src": {
+        "name": "goodlife.co.ke",
+        "u": "https://www.goodlife.co.ke/product/nivea-suntan-lotion-spf50-200ml/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 3150,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "CeraVe",
+       "product": "Invisible Hydrating Sunscreen SPF 50",
+       "pack": "177 ml",
+       "pack_units": 177,
+       "price_tsh": 71379,
+       "src": {
+        "name": "goodlife.co.ke",
+        "u": "https://www.goodlife.co.ke/product/cerave-invisible-hydrating-sunscreen-spf-50-177ml/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 3511,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026). The top of the range.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "body",
+     "name": {
+      "en": "Body lotion",
+      "sw": "Losheni ya mwili"
+     },
+     "why": {
+      "en": "Lotion on damp skin after the daily bath keeps elbows, knees and shins from the dry, ashy look common in dark skin. Only plain moisturising lotions are offered: no \"fair\", \"white\" or \"tone\" lotion, because many of those sold in markets carry undeclared lightening agents.",
+      "sw": "Losheni kwenye ngozi yenye unyevu baada ya kuoga kila siku huzuia ukavu wa kijivu kwenye viwiko, magoti na miguu unaoonekana mara nyingi kwenye ngozi nyeusi. Losheni za kawaida za unyevu pekee ndizo zinatolewa: hakuna losheni ya \"weupe\" au ya \"kubadilisha rangi\", kwa sababu nyingi zinazouzwa sokoni zina viambato vya kuchubua visivyotajwa."
+     },
+     "qty": {
+      "en": "300 ml a month",
+      "sw": "ml 300 kwa mwezi"
+     },
+     "qty_formula": "about 10 ml for the whole body once a day × 30 days = 300 ml (planning assumption)",
+     "units": 300,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Vaseline",
+       "product": "Intensive Care Cocoa Radiant lotion",
+       "pack": "725 ml",
+       "pack_units": 725,
+       "price_tsh": 22500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/667aa493ad21bfe77df69a5c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "A cocoa-butter moisturising lotion, not a lightening product. Shoppers lists it under Shampoo and Conditioner.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Dove",
+       "product": "Intensive Nourish body lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 12700,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/630f80a1fa11de0a43b3ab91",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nivea",
+       "product": "Nourishing Body Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 13011,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/body-lotion-creams/nivea-nourishing-body-lotion-400ml/p/65515",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 640,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vaseline",
+       "product": "Intensive Care Dry Skin lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 14600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60c06eda753c0d1ace90a894",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Bodidoc",
+       "product": "Deep Hydrating Tissue Oil Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 15000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/bodydoc-lotion",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "wash",
+     "name": {
+      "en": "Beauty bar or shower cream",
+      "sw": "Sabuni ya kuogea au krimu ya kuogea"
+     },
+     "why": {
+      "en": "One or two showers a day in a hot climate need a mild, moisturising cleanser. Cream bars and shower creams dry the skin far less than antiseptic or laundry-style soaps, which strip its oils and worsen itching and ashiness. Medicated and \"whitening\" soaps are excluded.",
+      "sw": "Kuoga mara moja au mbili kwa siku katika hali ya joto kunahitaji sabuni laini yenye unyevu. Sabuni za krimu na krimu za kuogea hukausha ngozi kidogo sana kuliko sabuni za antiseptiki au za kufulia, ambazo huondoa mafuta ya ngozi na kuongeza muwasho na ukavu. Sabuni za dawa na za \"kung’arisha\" zimeachwa."
+     },
+     "qty": {
+      "en": "250 g or ml a month",
+      "sw": "g au ml 250 kwa mwezi"
+     },
+     "qty_formula": "about 8 g or ml a day × 30 days ≈ 250 (planning assumption)",
+     "units": 250,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Dove",
+       "product": "Cream Beauty Bar",
+       "pack": "100 g",
+       "pack_units": 100,
+       "price_tsh": 1900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026872053c6d5732d0a35ee",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Dove",
+       "product": "Shower Cream",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 12000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026875053c6d5732d0a35ef",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Fa",
+       "product": "Shower Gel Cream & Oil",
+       "pack": "250 ml",
+       "pack_units": 250,
+       "price_tsh": 6800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60bf6390791c2d11b5e2a666",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dove",
+       "product": "Shower Gel Relaxing Natural",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 13800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6a930e3fd4b3dce59b40cdf3",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nivea",
+       "product": "Care Cream Soap",
+       "pack": "125 g",
+       "pack_units": 125,
+       "price_tsh": 3800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a829253c6d5732d0a36ee",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "deo",
+     "name": {
+      "en": "Antiperspirant roll-on",
+      "sw": "Roll-on ya kuzuia jasho"
+     },
+     "why": {
+      "en": "An antiperspirant on fully dry skin after the morning shower controls sweat and odour in Dar es Salaam’s heat; one 50 ml roll-on lasts about a month. Applying it to dry skin and not straight after shaving avoids stinging and the underarm darkening that irritation causes. \"Whitening\" deodorants are not offered.",
+      "sw": "Antiperspirant kwenye ngozi iliyokauka kabisa baada ya kuoga asubuhi hudhibiti jasho na harufu katika joto la Dar es Salaam; roll-on moja ya ml 50 hudumu takribani mwezi mmoja. Kuipaka kwenye ngozi kavu na si mara baada ya kunyoa huzuia kuwasha na weusi wa kwapani unaosababishwa na muwasho. Deodoranti za \"kung’arisha\" hazitolewi."
+     },
+     "qty": {
+      "en": "1 roll-on a month",
+      "sw": "Roll-on 1 kwa mwezi"
+     },
+     "qty_formula": "once a day; one 50 ml roll-on lasts about a month (planning assumption)",
+     "units": 1,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Fa",
+       "product": "Roll-On Dry Protect",
+       "pack": "50 ml",
+       "pack_units": 1,
+       "price_tsh": 4300,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60bf6248791c2d11b5e2a65f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Shower to Shower",
+       "product": "Antiperspirant Roll-On",
+       "pack": "50 ml",
+       "pack_units": 1,
+       "price_tsh": 4500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/shower-to-shower-roll-on-deodorants-50mils-2",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nivea",
+       "product": "Roll-On Dry Fresh",
+       "pack": "50 ml",
+       "pack_units": 1,
+       "price_tsh": 5800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60bf76bf753c0d1ace90a867",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nice & Lovely",
+       "product": "Sensitive roll-on",
+       "pack": "50 ml",
+       "pack_units": 1,
+       "price_tsh": 5794,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/woman-deodorant-roll-on/nice-lovely-deodrant-sensitiv-50ml/p/251702",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 285,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Yardley",
+       "product": "Deodorant Roll-On",
+       "pack": "50 ml",
+       "pack_units": 1,
+       "price_tsh": 8500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b98ad53c6d5732d0a379d",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "The top of the range.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "shamp",
+     "name": {
+      "en": "Shampoo for natural hair",
+      "sw": "Shampuu ya nywele za asili"
+     },
+     "why": {
+      "en": "Dermatologists advise washing Afro-textured hair about once a week or every other week, because coily hair loses moisture easily and frequent shampooing leaves it dry and prone to breakage (AAD). The same routine suits braids and protective styles, with shampoo worked into the scalp.",
+      "sw": "Madaktari wa ngozi wanashauri kuosha nywele za asili za Kiafrika takribani mara moja kwa wiki au kila wiki mbili, kwa sababu nywele zilizojikunja hupoteza unyevu kwa urahisi na kuoshwa mara nyingi huzifanya kukauka na kukatika (AAD). Utaratibu huo huo unafaa misuko na mitindo ya kulinda nywele, shampuu ikisuguliwa kichwani."
+     },
+     "qty": {
+      "en": "100 ml a month",
+      "sw": "ml 100 kwa mwezi"
+     },
+     "qty_formula": "about 25 ml a wash × 4 washes a month = 100 ml (planning assumption)",
+     "units": 100,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Sadoer",
+       "product": "Nourishing Coconut Oil Hydrating Shampoo",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 10000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/sadoer-coconut-oil-shampoo-500ml",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Dove",
+       "product": "Shampoo, assorted",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 12700,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/62974d39966613061692f737",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dabur Vatika",
+       "product": "Black Olive Shampoo",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 13200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/64c7e9870eb6b270e24ef36c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Garnier Ultra Doux",
+       "product": "Avocado & Shea shampoo",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 16772,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/shampoo-healthy-beauty/garnier-shea-butter-shampoo-400ml/p/214859",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 825,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "TRESemmé",
+       "product": "Shampoo",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 14500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/652bb2ba0eb6b270e24f2cf3",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "One bottle lasts about 7 months at this use.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "cond",
+     "name": {
+      "en": "Leave-in conditioner",
+      "sw": "Kiyoyozi cha kuacha kwenye nywele"
+     },
+     "why": {
+      "en": "Conditioner after every wash is the core of the AAD routine for Black hair: it puts back moisture, eases detangling and cuts the breakage that thins the edges. Chemical relaxers and very hot styling tools are not included, because dermatologists link them to breakage and scarring hair loss.",
+      "sw": "Kiyoyozi baada ya kila kuosha ndicho kiini cha utaratibu wa AAD kwa nywele za Kiafrika: hurudisha unyevu, hurahisisha kuchana na hupunguza kukatika kunakopunguza nywele za pembeni. Dawa za kunyoosha nywele na vifaa vya joto kali havijajumuishwa, kwa sababu madaktari wa ngozi wanavihusisha na kukatika na upotevu wa nywele wa kudumu."
+     },
+     "qty": {
+      "en": "120 ml a month",
+      "sw": "ml 120 kwa mwezi"
+     },
+     "qty_formula": "about 30 ml an application × 4 a month (after each wash) = 120 ml (planning assumption)",
+     "units": 120,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "TCB Naturals",
+       "product": "Leave-In Treatment, shea butter & coconut oil",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 10877,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/leave-in-conditioner/tcb-leave-in-treatment-500ml/p/178214",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 535,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026).",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "ORS",
+       "product": "Leave-in Conditioner",
+       "pack": "475 ml",
+       "pack_units": 475,
+       "price_tsh": 15247,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/hair-cream/ors-leave-in-conditioner-475ml/p/193683",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 750,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dr. Comely",
+       "product": "Batana Oil Hair Conditioner",
+       "pack": "500 g",
+       "pack_units": 500,
+       "price_tsh": 15000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/batana-oil-hair-conditioner-500g-dr-comely",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "The listing does not say whether it is a leave-in or a rinse-out conditioner; confirm before stocking.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "African Pride",
+       "product": "Shea Butter Miracle Leave-in Conditioner",
+       "pack": "425 g",
+       "pack_units": 425,
+       "price_tsh": 20574,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/shampoo-conditiner/african-pride-s-m-leave-in-425g/p/168416",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1012,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "paste",
+     "name": {
+      "en": "Fluoride toothpaste",
+      "sw": "Dawa ya meno yenye floraidi"
+     },
+     "why": {
+      "en": "WHO advises brushing twice a day with a fluoride toothpaste of 1,000–1,500 ppm; low fluoride exposure is one of the main reasons tooth decay keeps rising. Whitening pastes with harsh abrasives and charcoal pastes are left out.",
+      "sw": "WHO inashauri kupiga mswaki mara mbili kwa siku kwa dawa ya meno yenye floraidi ya ppm 1,000–1,500; kupata floraidi kidogo ni moja ya sababu kuu za kuoza kwa meno kuendelea kuongezeka. Dawa za kung’arisha zenye mchanga mkali na dawa za mkaa zimeachwa."
+     },
+     "qty": {
+      "en": "60 g a month",
+      "sw": "g 60 kwa mwezi"
+     },
+     "qty_formula": "about 1 g a brushing × 2 a day × 30 days = 60 g (planning assumption)",
+     "units": 60,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Colgate",
+       "product": "Maximum Cavity Protection",
+       "pack": "140 g",
+       "pack_units": 140,
+       "price_tsh": 5900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026787c53c6d5732d0a35c5",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Whitedent",
+       "product": "Gel Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 3800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/66eb11b5ad21bfe77df6b23e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "The listing does not state the fluoride content; confirm 1,000–1,500 ppm on the pack before it can be the value brand.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Aquafresh",
+       "product": "Fresh & Minty fluoride toothpaste",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 4676,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/regular-toothpaste/aquafresh-t-paste-fresh-minty-100ml/p/33898",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 230,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Sensodyne",
+       "product": "Extra Fresh",
+       "pack": "75 ml",
+       "pack_units": 75,
+       "price_tsh": 5300,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b7d5a53c6d5732d0a3735",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "For sensitive teeth; ml counted as g.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "brush",
+     "name": {
+      "en": "Toothbrush",
+      "sw": "Mswaki"
+     },
+     "why": {
+      "en": "A brush is replaced about every three months, or sooner when the bristles splay, because a worn brush cleans poorly (NHS). A third of a brush is charged each month and a new one ships every third box.",
+      "sw": "Mswaki hubadilishwa takribani kila miezi mitatu, au mapema zaidi nyuzi zikipinda, kwa sababu mswaki uliochakaa husafisha vibaya (NHS). Theluthi ya mswaki hulipiwa kila mwezi na mswaki mpya hutumwa kila sanduku la tatu."
+     },
+     "qty": {
+      "en": "1 every 3 months",
+      "sw": "1 kila miezi 3"
+     },
+     "qty_formula": "1 brush ÷ 3 months = 1/3 a month",
+     "units": 0.3333333333333333,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Double Action",
+       "product": "Activated Charcoal Toothbrush, medium",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 2000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/charcoal-infused-double-action-toothbrush-medium",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Colgate",
+       "product": "Extra Clean toothbrush, medium",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 2900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026784453c6d5732d0a35c4",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Eco-Smile",
+       "product": "Essential Toothbrush with tongue scraper",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 3000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/eco-smile-essential-toothbrush-with-a-tongue-scraper",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Oral-B",
+       "product": "3-Effect toothbrush, medium",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 3200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b6ef453c6d5732d0a36fe",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "floss",
+     "name": {
+      "en": "Dental floss",
+      "sw": "Uzi wa kusafishia meno"
+     },
+     "why": {
+      "en": "A brush does not reach between the teeth, where gum disease and much adult decay begin; the NHS advises cleaning between the teeth once a day with floss or interdental brushes. Gums that bleed at first usually stop within a week or two.",
+      "sw": "Mswaki haufiki katikati ya meno, mahali ambapo magonjwa ya fizi na kuoza kwa meno kwa watu wazima mara nyingi huanzia; NHS inashauri kusafisha katikati ya meno mara moja kwa siku kwa uzi au brashi ndogo. Fizi zinazotoa damu mwanzoni kwa kawaida huacha ndani ya wiki moja au mbili."
+     },
+     "qty": {
+      "en": "15 m a month",
+      "sw": "mita 15 kwa mwezi"
+     },
+     "qty_formula": "about 45 cm a day × 30 days ≈ 15 m; a 50 m reel lasts about 3 months",
+     "units": 15,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Sakura",
+       "product": "Mint dental floss",
+       "pack": "50 m",
+       "pack_units": 50,
+       "price_tsh": 5000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/dental-floss-mint-50m-sakura-1s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Oral-B",
+       "product": "Essential Floss, waxed mint",
+       "pack": "50 m",
+       "pack_units": 50,
+       "price_tsh": 11141,
+       "src": {
+        "name": "goodlife.co.ke",
+        "u": "https://www.goodlife.co.ke/product/oral-b-essential-floss-original-waxed/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 548,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Wisdom",
+       "product": "Dental floss",
+       "pack": "100 m",
+       "pack_units": 100,
+       "price_tsh": 17728,
+       "src": {
+        "name": "goodlife.co.ke",
+        "u": "https://www.goodlife.co.ke/product/wisdom-dental-floss-100m/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 872,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "lip",
+     "name": {
+      "en": "Lip balm, with SPF where chosen",
+      "sw": "Mafuta ya midomo, yenye SPF ukichagua"
+     },
+     "why": {
+      "en": "Lips have little natural protection and dry quickly in sun and wind; dryness leads to peeling and dark patches. Dermatologists advise a lip balm with SPF 30 or more for daily sun (AAD), so SPF sticks are offered as swaps.",
+      "sw": "Midomo ina kinga ndogo ya asili na hukauka haraka kwenye jua na upepo; ukavu husababisha kubambuka na mabaka meusi. Madaktari wa ngozi wanashauri mafuta ya midomo yenye SPF 30 au zaidi kwa jua la kila siku (AAD), hivyo vijiti vyenye SPF vinatolewa kama chaguo mbadala."
+     },
+     "qty": {
+      "en": "4 g a month",
+      "sw": "g 4 kwa mwezi"
+     },
+     "qty_formula": "about 4 thin applications a day; a 4.8 g stick lasts about 5 weeks ≈ 4 g a month (planning assumption)",
+     "units": 4,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Vaseline",
+       "product": "Lip Therapy Original, tin",
+       "pack": "20 g",
+       "pack_units": 20,
+       "price_tsh": 7827,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/digestive-health-lip/vaseline-lip-balm-original-20g/p/71572",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 385,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026). No SPF.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Nivea",
+       "product": "Lip Balm Classic Essential",
+       "pack": "4.8 g",
+       "pack_units": 4.8,
+       "price_tsh": 8030,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/digestive-health-lip/nivea-lipbalm-classic-essential4-8g/p/17170",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 395,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026). No SPF.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nivea",
+       "product": "Shea Butter Lip Balm",
+       "pack": "4.8 g",
+       "pack_units": 4.8,
+       "price_tsh": 10000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/nivea-lip-balm-with-shea-butter-4-8g",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "No SPF stated on the listing.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nivea Sun",
+       "product": "Lip Care SPF",
+       "pack": "4.8 g",
+       "pack_units": 4.8,
+       "price_tsh": 10572,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/digestive-health-lip/nivea-sun-lip-care-4-8g/p/244142",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 520,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026). With SPF.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Sebamed",
+       "product": "Lip Defence Stick SPF 30",
+       "pack": "4.8 g",
+       "pack_units": 4.8,
+       "price_tsh": 15044,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/digestive-health-lip/sebamed-lip-defence-stick-sp30-4-8g/p/82108",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 740,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026). With SPF 30; the top of the range.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "pads",
+     "name": {
+      "en": "Sanitary pads, one pack",
+      "sw": "Taulo za kike, pakiti moja"
+     },
+     "why": {
+      "en": "One pack keeps a spare for an early or unexpected period, at home or in a handbag. Full period care, with night pads, liners and pain relief through the partner pharmacy, is the separate Afya Siku box.",
+      "sw": "Pakiti moja huweka akiba kwa hedhi iliyowahi au isiyotarajiwa, nyumbani au kwenye mkoba. Huduma kamili ya hedhi, yenye taulo za usiku, panty liners na dawa za maumivu kupitia famasia mshirika, ni sanduku tofauti la Afya Siku."
+     },
+     "qty": {
+      "en": "1 pack (about 8 pads)",
+      "sw": "Pakiti 1 (taulo takribani 8)"
+     },
+     "qty_formula": "1 pack a month ≈ 8 pads; a spare, not a full cycle",
+     "units": 8,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Femella",
+       "product": "Regular thick pads, 240 mm",
+       "pack": "8 pads",
+       "pack_units": 8,
+       "price_tsh": 1179,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pads/femella-sanitary-pads-240-mm-thick/p/193752",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 58,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026).",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Sofy",
+       "product": "Ultra Long pads",
+       "pack": "8 pads",
+       "pack_units": 8,
+       "price_tsh": 2013,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pads/sofy-ultra-sanitary-pad-long-8s/p/222308",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 99,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found on AfyaDepot or Shoppers. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-checked; converted at KES 20.33 (BoT mean, 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Always",
+       "product": "Maxi Thick Softer Extra Long",
+       "pack": "7 pads",
+       "pack_units": 7,
+       "price_tsh": 1900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60263ec453c6d5732d0a3559",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Human Cherish",
+       "product": "Pads 338 mm",
+       "pack": "8 pads",
+       "pack_units": 8,
+       "price_tsh": 3800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a3f7d53c6d5732d0a3650",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Kotex",
+       "product": "Maxi Wide Super Wings Long",
+       "pack": "8 pads",
+       "pack_units": 8,
+       "price_tsh": 4400,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a66f253c6d5732d0a3692",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "luxury": [
+  {
+   "tier": "premium",
+   "name": {
+    "en": "A treat each month: Bio-Oil Skincare Oil 60 ml",
+    "sw": "Zawadi ya kila mwezi: Bio-Oil Skincare Oil ml 60"
+   },
+   "brand": "Bio-Oil",
+   "product": "Skincare Oil",
+   "pack": "60 ml",
+   "price_tsh": 18200,
+   "src": {
+    "name": "Shoppers Supermarket",
+    "u": "https://www.shoppers.co.tz/product-detail/602664d653c6d5732d0a3587",
+    "chk": "2026-11-10"
+   },
+   "orig": null,
+   "status": "TZ"
+  },
+  {
+   "tier": "luxury",
+   "name": {
+    "en": "A treat each month: Bath & Body Works shower gel 295 ml",
+    "sw": "Zawadi ya kila mwezi: Bath & Body Works shower gel ml 295"
+   },
+   "brand": "Bath & Body Works",
+   "product": "Shower gel (A Thousand Wishes, Japanese Cherry Blossom or Warm Vanilla Sugar)",
+   "pack": "295 ml",
+   "price_tsh": 32528,
+   "src": {
+    "name": "portalpharmacy.ke",
+    "u": "https://portalpharmacy.ke/bbw-cherry-blossom-shower-gel",
+    "chk": "2026-11-02"
+   },
+   "orig": {
+    "cur": "KES",
+    "amount": 1600,
+    "rate": 20.33,
+    "date": "2026-11-10"
+   },
+   "status": "KE",
+   "note": "No Tanzanian listing found. Kenyan price from the earlier listing (KES 1,600, seen 2 Nov 2026), not re-checked."
+  }
+ ],
+ "tiers": {
+  "en": "Regular = the core box with the default brands. Premium = core + Bio-Oil Skincare Oil 60 ml (TSh 18,200). Luxury = core + a Bath & Body Works shower gel 295 ml (TSh 32,528). The luxury item is priced as its own line at shelf price, outside the saving (D4).",
+  "sw": "Kawaida = sanduku la msingi lenye chapa za msingi. Premium = sanduku la msingi + Bio-Oil Skincare Oil ml 60 (TSh 18,200). Anasa = sanduku la msingi + Bath & Body Works shower gel ml 295 (TSh 32,528). Bidhaa ya anasa ina bei yake peke yake kwa bei ya rafu, nje ya punguzo (D4)."
+ },
+ "services": [
+  "skin-consultation"
+ ],
+ "services_note": {
+  "en": "skin-consultation: one consultation a year with a partner skin clinician, booked in the app or in store, for dark patches, melasma, acne or a reaction to a cream. Planning fee about TSh 35,000, charged only in the month it is used. This is an estimate, not a quote: it starts from AfyaDepot’s Professional Skin Analysis at TSh 40,000 (10 Nov 2026), with the partner paid about 70% of that (TSh 28,000) and Afya’s fee at partner price × 1.25. In store, at no charge: staff read the label of any cream a member brings and point out mercury, hydroquinone or steroid ingredients.",
+  "sw": "skin-consultation: ushauri mmoja kwa mwaka na mtaalamu wa ngozi mshirika, unaopangwa kwenye programu au dukani, kwa mabaka meusi, melasma, chunusi au madhara ya krimu. Ada ya makadirio ni takribani TSh 35,000, inayolipwa tu mwezi unapotumika. Haya ni makadirio, si bei iliyotolewa na mshirika: yanaanzia kwenye Professional Skin Analysis ya AfyaDepot ya TSh 40,000 (10 Nov 2026), mshirika akilipwa takribani asilimia 70 yake (TSh 28,000) na ada ya Afya ikiwa bei ya mshirika × 1.25. Dukani, bila malipo: wafanyakazi husoma lebo ya krimu yoyote anayoleta mwanachama na kuonyesha viambato vya zebaki, haidrokwinoni au steroidi."
+ },
+ "pricing_rule": {
+  "formula": "D4 (10 Nov 2026): core price = shelf value of the month’s goods × (1 − 3% / 6% / 9% for 1 / 6 / 12-month plans), nearest 500, never above shelf; packing M 5,000 and delivery 3,500 included. Check: price − goods at landed cost (R3 planning share 78%) − packing − delivery − 1% points ≥ 0.",
+  "note": "The luxury line is priced as its own line at shelf price, outside the saving. No medicines in this box."
+ },
+ "packing": {
+  "film": null
+ },
+ "open": [
+  {
+   "en": "The box does not pay its way on the 6- and 12-month plans when delivered monthly: the shelf value is TSh 47,973, below the about TSh 70,300 needed to cover an M box and a delivery on the 12-month plan. The proposed fix is to deliver two months of goods every two months (or let the member collect monthly in store); Premium and Luxury cover monthly delivery through their luxury line.",
+   "sw": "Sanduku halijilipii kwenye mipango ya miezi 6 na 12 likisafirishwa kila mwezi: thamani ya rafu ni TSh 47,973, chini ya takribani TSh 70,300 zinazohitajika kulipia sanduku la M na usafirishaji kwenye mpango wa miezi 12. Pendekezo ni kusafirisha bidhaa za miezi miwili kila miezi miwili (au mwanachama achukue kila mwezi dukani); Premium na Anasa zinalipia usafirishaji wa kila mwezi kupitia bidhaa yao ya anasa."
+  },
+  {
+   "en": "The sunscreen, leave-in conditioner, cleanser, lip balm and pad defaults are Kenyan shelf prices (converted at KES 20.33) because no matching Tanzanian listing was found on AfyaDepot or Shoppers. Tanzanian prices are needed, above all for sunscreen.",
+   "sw": "Bei za msingi za kinga ya jua, kiyoyozi cha kuacha, kisafishaji cha uso, mafuta ya midomo na taulo za kike ni bei za rafu za Kenya (zimebadilishwa kwa KES 20.33) kwa sababu hakuna bidhaa inayolingana iliyopatikana AfyaDepot au Shoppers. Bei za Tanzania zinahitajika, hasa kwa kinga ya jua."
+  },
+  {
+   "en": "The skin consultation fee is a planning estimate; no partner has quoted it.",
+   "sw": "Ada ya ushauri wa ngozi ni makadirio ya mipango; hakuna mshirika aliyetoa bei."
+  },
+  {
+   "en": "Every product must be checked against the Tanzania Bureau of Standards list of banned products and carry a TBS registration before it is stocked.",
+   "sw": "Kila bidhaa lazima ihakikiwe dhidi ya orodha ya TBS ya bidhaa zilizopigwa marufuku na iwe imesajiliwa na TBS kabla ya kuwekwa dukani."
+  },
+  {
+   "en": "Monthly quantities are planning assumptions; they will be checked against what the first members actually use.",
+   "sw": "Kiasi cha kila mwezi ni makadirio ya mipango; kitahakikiwa dhidi ya matumizi halisi ya wanachama wa kwanza."
+  }
+ ]
+}

@@ -1,0 +1,358 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Afya Basics Chapter 1</title>
+<link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#070a09;--panel:#0d1312;--ink:#f3efe4;--ink2:#e2dfd5;--ink3:#8a948c;--gold:#c9a456;--green:#3f8f70;--green2:#1f5a45;--paper:#f2ead9;--pink:#33302e;--line:rgba(201,164,86,.3);--hair:rgba(243,239,228,.1)}
+:root{color-scheme:dark}*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--ink);font:400 20px/1.78 Literata,'Source Serif 4',Georgia,serif;text-rendering:optimizeLegibility;font-optical-sizing:auto;font-kerning:normal;font-variant-numeric:lining-nums proportional-nums}
+.w{max-width:1180px;margin:0 auto;padding:0 48px}.n{max-width:800px}
+h1,h2,h3{font-family:'Source Serif 4',Georgia,serif;margin:0;letter-spacing:-.01em}
+.k{font:600 13px/1.3 Inter,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+sup{line-height:0;vertical-align:super;font-size:.6em}sup a{color:var(--gold);text-decoration:none;font:600 12px Inter;margin-left:2px}
+.hero{position:relative;height:88vh;min-height:680px;display:flex;align-items:flex-end;overflow:hidden}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.6) saturate(.9)}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,10,9,.1),rgba(7,10,9,.3) 50%,#070a09 100%)}
+.hero .w{position:relative;z-index:1;padding-bottom:9vh;width:100%}
+.hero h1{font-weight:500;font-size:clamp(3rem,6.8vw,6.2rem);line-height:1;margin:22px 0 28px;max-width:1000px}
+.hero h1 em{color:var(--gold)}
+.hero p{font-size:1.3rem;line-height:1.6;color:var(--ink2);max-width:760px;margin:0}
+.ins{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:rgba(7,10,9,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--hair)}
+.ins .w{display:grid;grid-template-columns:repeat(6,1fr)}
+.ins a{display:block;padding:16px 14px 15px 0;margin-right:14px;color:var(--ink2);text-decoration:none;font:500 14px/1.35 Inter;border-top:2px solid transparent}
+.ins a b{display:block;font:600 12px Inter;letter-spacing:.16em;color:var(--gold);margin-bottom:4px}
+.ins a:hover{color:var(--ink);border-top-color:var(--gold)}
+.ch{padding:120px 0 30px}
+.ch .no{font:600 13px Inter;color:var(--gold);letter-spacing:.18em}
+.ch h2{font-weight:500;font-size:clamp(2.1rem,3.8vw,3.2rem);line-height:1.12;margin:14px 0 30px;max-width:920px}
+.ch p{color:var(--ink2);margin:0 0 26px;hyphens:manual}
+.sh{font:600 15px/1.3 Inter,sans-serif;letter-spacing:.04em;color:var(--ink);margin:46px 0 14px;padding-top:18px;border-top:1px solid var(--hair);text-transform:none}
+.sh:before{content:"";display:inline-block;width:8px;height:8px;background:var(--gold);margin:0 12px 2px 0}
+.calc{margin:40px 0 10px;padding:28px 32px;background:#0e1513;border-left:4px solid var(--gold)}
+.calc .k{margin-bottom:14px}.calc p{font-size:.92em;margin:0 0 18px}
+.calc table{width:100%;border-collapse:collapse;font:400 16.5px/1.4 Inter,sans-serif;font-variant-numeric:tabular-nums;margin:0 0 16px}
+.calc td{padding:11px 0;border-bottom:1px solid var(--hair);color:var(--ink2)}.calc td.v{text-align:right;color:var(--ink);font-weight:600;white-space:nowrap;padding-left:16px}
+.calc tr.tot td{border-bottom:0;border-top:2px solid var(--gold);color:var(--gold);font-weight:600;font-size:18px}
+.calc .note{font:400 14.5px/1.55 Inter,sans-serif;color:var(--ink3);margin:0}
+.ch p strong{color:var(--ink);font-weight:600}
+.lede{font:400 1.32em/1.5 'Source Serif 4',Georgia,serif;color:var(--ink)!important;margin-bottom:34px!important;letter-spacing:-.005em}
+.big{font:500 clamp(4.4rem,10vw,8.6rem)/.9 'Source Serif 4';color:var(--gold);margin:8px 0 10px;letter-spacing:-.02em}
+.bigcap{font-size:1.05rem;color:var(--ink2);max-width:560px;margin-bottom:40px!important}
+/* chart cards */
+.fig{margin:46px 0 24px;padding:30px 34px 22px;background:var(--panel);border-top:5px solid var(--gold)}
+.fig.paper{background:var(--paper);border-top:0;color:var(--pink)}
+.fig.navy{background:#0b1416;border-top:0;border:1px solid rgba(201,164,86,.22)}
+.fig h3{font:600 26px/1.25 Inter,sans-serif;letter-spacing:-.01em;margin:0 0 6px}
+.fig.paper h3{font:600 28px/1.25 'Source Serif 4';color:var(--pink)}
+.fig .sub{font:400 16px/1.45 Inter;color:var(--ink3);margin:0 0 20px}
+.fig.paper .sub{color:#66605c}
+.fig .cv{width:100%}.fig svg{display:block}
+.fig .src{display:flex;justify-content:space-between;gap:20px;margin-top:14px;padding-top:12px;border-top:1px solid var(--hair);font:400 13.5px/1.45 Inter;color:var(--ink3)}
+.fig.paper .src{border-top-color:#d9cbb4;color:#66605c}
+.fig .src b{font-weight:600;color:inherit}
+.mean{display:grid;grid-template-columns:220px 1fr;gap:36px;margin:34px 0 0;padding:28px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.mean .k{padding-top:7px}.mean p{margin:0;color:var(--ink);font:400 1.12em/1.6 'Source Serif 4',Georgia,serif}
+.break{position:relative;height:78vh;min-height:520px;margin:110px 0 0;overflow:hidden}
+.break img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.55)}
+.break:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#070a09 0%,rgba(7,10,9,.15) 25%,rgba(7,10,9,.15) 70%,#070a09 100%)}
+.break .w{position:relative;z-index:1;height:100%;display:flex;align-items:center}
+.break blockquote{margin:0;font:500 clamp(2rem,4.2vw,3.6rem)/1.15 'Source Serif 4';max-width:900px}
+.break blockquote em{color:var(--gold)}
+.break small{display:block;margin-top:22px;font:600 13px Inter;letter-spacing:.18em;text-transform:uppercase;color:var(--ink3)}
+.cmp{display:grid;grid-template-columns:1fr 1fr;margin:34px 0;border:1px solid var(--hair)}
+.cmp div{padding:28px 30px}.cmp div+div{border-left:1px solid var(--hair);background:rgba(63,143,112,.07)}
+.cmp h4{font:600 13px Inter;letter-spacing:.18em;text-transform:uppercase;margin:0 0 14px;color:var(--ink3)}.cmp div+div h4{color:var(--gold)}
+.cmp li{margin:0 0 10px;color:var(--ink2)}.cmp ul{margin:0;padding-left:20px}
+.vid{margin:30px 0 14px;border:1px solid var(--hair);background:#000}.vid video{width:100%;display:block;aspect-ratio:16/9}.vcap{color:var(--ink3);font:400 15px/1.5 Inter}
+.story{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:40px 0 10px}.story figure{margin:0}.story img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}.story b{display:block;font:600 22px Inter;color:var(--gold);margin:14px 0 4px}.story span{display:block;font-size:17px;color:var(--ink2);line-height:1.5}
+.lim{margin:120px 0 0;padding:44px 48px;border:1px solid var(--line);background:rgba(201,164,86,.04)}
+.lim h3{font-weight:500;font-size:2rem;margin:10px 0 18px}.lim li{color:var(--ink2);margin:0 0 14px}
+.refs{padding:90px 0 120px}.refs ol{columns:2;column-gap:60px;padding-left:22px;font:400 15px/1.5 Inter;color:var(--ink3)}.refs li{margin:0 0 10px;break-inside:avoid}
+
+/* motion */
+.prog{position:fixed;top:0;left:0;height:3px;width:100%;background:var(--gold);transform:scaleX(0);transform-origin:left;z-index:20}
+.hero img{animation:kb 18s cubic-bezier(.2,.6,.3,1) both}@keyframes kb{from{transform:scale(1.12)}to{transform:scale(1)}}
+.hero .k,.hero h1,.hero p{animation:up 1.2s cubic-bezier(.2,.7,.2,1) both}.hero h1{animation-delay:.25s}.hero p{animation-delay:.55s}
+@keyframes up{from{opacity:.35;transform:translateY(28px)}to{opacity:1;transform:none}}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1);transition-delay:var(--rd,0s)}.rv.in{opacity:1;transform:none}
+.cv .gy{transform:scaleY(0);transform-box:fill-box;transform-origin:50% 100%}.cv .gx{transform:scaleX(0);transform-box:fill-box;transform-origin:0 50%}
+.in .cv .gy,.in .cv .gx{transform:none;transition:transform var(--t,1s) cubic-bezier(.25,.7,.2,1) var(--d,0s)}
+.cv .ln{stroke-dasharray:1;stroke-dashoffset:1}.in .cv .ln{stroke-dashoffset:0;transition:stroke-dashoffset 1.8s cubic-bezier(.4,.1,.2,1) .2s}
+.cv text,.cv .fd{opacity:0}.in .cv text,.in .cv .fd{opacity:1;transition:opacity .7s ease var(--d,.5s)}
+.break img{transform:translateY(var(--py,0)) scale(1.15);will-change:transform}
+.ins a.on{color:var(--ink);border-top-color:var(--gold)}
+.story figure{overflow:hidden}.story img{transition:transform 1.6s cubic-bezier(.2,.7,.2,1)}.story figure.rv img{transform:scale(1.08)}.story figure.rv.in img{transform:none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv,.cv text,.cv .fd{opacity:1!important;transform:none!important}.cv .gx,.cv .gy{transform:none!important}.cv .ln{stroke-dashoffset:0!important}}
+@media (max-width:860px){html,body{font-size:18.5px}.calc{padding:22px 18px;margin-left:-8px;margin-right:-8px}.calc table{font-size:15px}.ins{position:static}.w{padding:0 20px}.ins .w{grid-template-columns:repeat(3,1fr)}.ins a{font-size:12.5px;padding:10px 8px 10px 0}
+ .fig{padding:22px 16px 16px;margin-left:-8px;margin-right:-8px}.fig h3{font-size:21px}.fig.paper h3{font-size:23px}.fig .src{flex-direction:column;gap:2px}
+ .mean{grid-template-columns:1fr;gap:10px}.cmp{grid-template-columns:1fr}.cmp div+div{border-left:0;border-top:1px solid var(--hair)}.story{grid-template-columns:1fr 1fr}.refs ol{columns:1}.lim{padding:26px 20px}.ch{padding:80px 0 20px}}
+</style>
+
+<div class="prog"></div>
+
+<header class="hero"><img src="city.webp" alt="Dar es Salaam at night from the air">
+ <div class="w"><div class="k">Chapter 1 · The problem and the evidence</div>
+ <h1>Care has moved home.<br><em>Shopping for it has not.</em></h1>
+ <p>Chronic and family care in Tanzania is now carried out mainly by households, month after month. The retail system that supplies them was built for one-off, acute purchases: it is spread across more than eleven thousand small outlets, keeps no customer record, does not replenish and offers no reliable way to verify what is genuine. This chapter sets out the evidence for that gap and explains why it is a recurring and addressable retail market.</p></div>
+</header>
+
+<nav class="ins"><div class="w">
+ <a href="#i1"><b>01</b>Disease is widespread; control is rare</a>
+ <a href="#i2"><b>02</b>Supply is fragmented</a>
+ <a href="#i3"><b>03</b>Authenticity cannot be verified</a>
+ <a href="#i4"><b>04</b>The city outgrew its shops</a>
+ <a href="#i5"><b>05</b>Payment is already mobile</a>
+ <a href="#i6"><b>06</b>The cost to one household</a>
+</div></nav>
+
+<section class="ch" style="padding-bottom:0"><div class="w"><div class="k">Watch first · family film, part 1 · 2 min 35 s</div><h2>One father’s evening, the way thousands of Dar es Salaam families live it.</h2>
+ <div class="vid"><video controls preload="metadata" poster="p-afya-filamu-juma-1.jpg" src="juma1-web.mp4"></video></div>
+ <p class="vcap">Narrated in English and Kiswahili, with subtitles. The family is fictional; every situation in the film is common in the city.</p></div></section>
+
+<section class="ch" id="i1"><div class="w">
+ <div class="no">01 · DEMAND</div><h2>Chronic disease is widespread in Tanzania, and control is the exception.</h2>
+ <div class="n">
+ <p class="lede">High blood pressure affects almost one Tanzanian adult in four, yet only about two in every hundred of those affected have it under control. The failure is not a lack of medicine or of medical knowledge. It is a failure of continuity, and continuity is a supply problem.</p>
+ <div class="big">23.1%</div><p class="bigcap">of Tanzanian adults aged 18 to 69 had raised blood pressure in the 2023 national STEPS survey, rising to 46.4% among those aged 46 to 69: almost one in two.<sup><a href="#r1">1</a></sup></p>
+ <h4 class="sh">A condition managed at home, not in the clinic</h4>
+ <p>Hypertension gives no warning for years. It is found only by measuring it, and it is kept under control only through a routine that never stops: a tablet every day, a reading every week or two, a clinic visit when the numbers change, and a refill before the last strip runs out. A doctor diagnoses the condition once; the household manages it on every other day of the year.</p>
+ <p>That routine has a physical supply chain behind it. It needs tablets in the right strength, a monitor that works, batteries for the monitor, a cuff that fits, and often test strips or a glucose meter for the diabetes that frequently comes with it. When any one of these is missing, the routine breaks, usually quietly, and the condition drifts out of control without symptoms.</p>
+ <h4 class="sh">Where patients are lost</h4>
+ <p>The most recent national survey to follow people through every stage of care, from having the condition to having it controlled, shows how often that routine breaks. Of every hundred adults with hypertension, <strong>17.6 knew they had it, 8.3 were being treated and 2.2 had their blood pressure under control</strong>.<sup><a href="#r2">2</a></sup> The chart shows the losses step by step. The largest by far comes first: 82 of every hundred are never diagnosed. After diagnosis, more than half do not start or stay on treatment, and of those who do, roughly three in four are still not controlled.</p>
+ <p>Diabetes shows the same structure. In the 2023 survey, 72.4% of people found to have diabetes had never been told they had it.<sup><a href="#r3">3</a></sup></p>
+ </div>
+ <div class="fig navy"><h3>82 of every 100 hypertensive adults are lost before diagnosis; 2 reach control</h3><p class="sub">Hypertension care cascade, Tanzania, adults aged 25–64, per 100 people with the condition</p>
+  <div class="cv" data-c="casc"></div>
+  <div class="src"><span><b>Source:</b> WHO hypertension country profile, Tanzania (2012 STEPS survey, the latest to measure all four stages)</span><span>Afya Basics analysis</span></div></div>
+ <div class="n">
+ <div class="calc"><div class="k">Worked example · what the cascade means in Dar es Salaam</div>
+  <p>The 2022 census counted 3,077,657 people aged 20 to 69 in the Dar es Salaam region.<sup><a href="#r11">11</a></sup> Applying the national rate of 23.1% gives an indicative number of adults with raised blood pressure in the city, and applying the cascade shows where they are.</p>
+  <table><tbody>
+   <tr><td>Adults aged 20–69, Dar es Salaam region</td><td class="v">3,077,657</td></tr>
+   <tr><td>× 23.1% with raised blood pressure</td><td class="v">≈ 711,000</td></tr>
+   <tr><td>of whom never diagnosed (82.4%)</td><td class="v">≈ 586,000</td></tr>
+   <tr><td>diagnosed and aware (17.6%)</td><td class="v">≈ 125,000</td></tr>
+   <tr><td>on treatment (8.3%)</td><td class="v">≈ 59,000</td></tr>
+   <tr class="tot"><td>under control (2.2%)</td><td class="v">≈ 15,600</td></tr></tbody></table>
+  <p class="note">Indicative only: the prevalence rate is national, for ages 18–69, and the cascade dates from 2012. The order of magnitude is the point: in one city, more than half a million adults have a condition they do not know about, and tens of thousands who do know are not being kept supplied.</p></div>
+ </div>
+ <div class="mean"><div class="k">Investment implication</div><p>The losses fall at two points a retailer can act on. The first is detection: a free blood-pressure check at the store entrance reaches people who would never book a clinic visit to find out. The second is continuity: a monthly box, delivered on a fixed date, removes the most common reason a treated patient stops being treated, which is simply running out. Both are central to the Afya Basics model rather than add-ons, and both turn a medical need into recurring, predictable monthly demand.</p></div>
+</div></section>
+
+<section class="ch" id="i2"><div class="w">
+ <div class="no">02 · SUPPLY</div><h2>Supply is fragmented across more than eleven thousand small outlets.</h2>
+ <div class="n">
+ <p class="lede">Tanzanians already buy health products in shops; the category does not need to be created. What is missing is a retailer organised around the household and its monthly needs, rather than around one transaction at a time.</p>
+ <h4 class="sh">The shape of the market</h4>
+ <p>Most medicines and health products reach Tanzanian households through Accredited Drug Dispensing Outlets (ADDOs): small, licensed shops permitted to sell a defined list of medicines. In 2018 the Pharmacy Council recorded about <strong>11,356 ADDOs against 1,334 registered pharmacies</strong>, a ratio of 8.5 to 1.<sup><a href="#r4">4</a></sup> Set against the 2022 census population of 61.7 million, that is roughly one ADDO for every 5,400 people and one pharmacy for every 46,000.<sup><a href="#r12">12</a></sup> About one acutely ill person in three goes to an ADDO first, before any clinic.<sup><a href="#r5">5</a></sup></p>
+ </div>
+ <div class="fig"><h3>Small outlets outnumber pharmacies by 8.5 to 1</h3><p class="sub">Registered retail outlets for medicines and health products, Tanzania, 2018</p>
+  <div class="cv" data-c="outl"></div>
+  <div class="src"><span><b>Source:</b> BMC Health Services Research (2022), citing the Pharmacy Council of Tanzania</span><span>Number of outlets</span></div></div>
+ <div class="n">
+ <h4 class="sh">Built for the fever, not for the month</h4>
+ <p>These outlets do one job very well. They are close to home, open early and late, and treat a fever, a cough or a stomach upset in minutes. That is exactly the need they were designed for: acute, unplanned and solved in one visit.</p>
+ <p>Chronic and family care is a different kind of need. It is planned, it repeats every month, and it involves many products at once. A household caring for a diabetic parent and a new baby needs tablets, strips, lancets, nappies in a size that changes every few months, wipes, formula and vitamins. A single small outlet cannot carry that range, keeps no record of what the family bought last month, cannot predict when it will run out, and does not deliver. The work of remembering, checking and searching therefore falls on the household, every month.</p>
+ <h4 class="sh">Why the gap has not closed</h4>
+ <p>Each outlet is independent and small, so none has the scale to hold a wide range, invest in a customer record or run a delivery service. Pharmacies are fewer, concentrated in town centres and also organised around the single prescription. Neither format is built to own the household relationship, and that relationship is where the recurring value lies.</p>
+ </div>
+ <div class="mean"><div class="k">Investment implication</div><p>Afya Basics does not have to persuade anyone to start buying health products. Its task is to consolidate demand that is now split across thousands of small outlets into one relationship that knows the household: its products, sizes, brands and refill dates. Once that record exists, the next month’s order is a confirmation rather than a new search, and that is what makes a customer stay.</p></div>
+</div></section>
+
+<section class="break"><img src="real-empty-shelf.webp" alt="An almost empty shelf in a small shop"><div class="w"><div><blockquote>“Hatuna, <em>umeisha.</em>”<br>We don’t have it. It’s finished.</blockquote><small>The sentence that sends a family to the next shop</small></div></div></section>
+
+<section class="ch" id="i3"><div class="w">
+ <div class="no">03 · TRUST</div><h2>Authenticity cannot be verified at the point of sale.</h2>
+ <div class="n">
+ <p class="lede">A buyer cannot see whether a medicine or a test strip is genuine, in date and properly stored. Because the risk is invisible to the customer, trust has to be proven by the seller, and very few sellers are equipped to prove it.</p>
+ <div class="big">1 in 10</div><p class="bigcap">medical products in low- and middle-income countries is substandard or falsified, according to the World Health Organization, which puts the share at an estimated 10.5%.<sup><a href="#r6">6</a></sup></p>
+ <h4 class="sh">How a bad product does harm</h4>
+ <p>The damage is rarely dramatic; it is cumulative. A falsified test strip gives a wrong glucose reading, and a wrong reading leads to a wrong dose of insulin. A blood-pressure tablet stored in a hot shop loses strength, so the patient takes it faithfully and still is not controlled. A product sold past its expiry date may do nothing at all. In each case the patient believes they are being treated, which is worse than knowing they are not.</p>
+ <h4 class="sh">The risk is current</h4>
+ <p>In September 2026 the Tanzania Medicines and Medical Devices Authority (TMDA) seized unregistered medicines worth <strong>TSh 360 million</strong> at Dar es Salaam’s international airport, among them treatments for diabetes and high blood pressure, the same conditions described in section 01.<sup><a href="#r7">7</a></sup></p>
+ </div>
+ <div class="fig"><h3>About one product in ten fails the standard</h3><p class="sub">Share of medical products in low- and middle-income countries, WHO estimate, %</p>
+  <div class="cv" data-c="sf"></div>
+  <div class="src"><span><b>Source:</b> WHO news release, 28 November 2017</span><span>Estimate for low- and middle-income countries as a group</span></div></div>
+ <div class="n">
+ <div class="calc"><div class="k">Worked example · one household, one year</div>
+  <p>Take a household that buys twelve health products a month: tablets, strips, a syrup, vitamins and baby items. If each product independently had a one-in-ten chance of failing the standard, the chance that all twelve are sound in a given month would be:</p>
+  <table><tbody>
+   <tr><td>Chance one product is sound</td><td class="v">89.5%</td></tr>
+   <tr><td>Chance all twelve are sound: 0.895<sup>12</sup></td><td class="v">26%</td></tr>
+   <tr class="tot"><td>Chance at least one is not</td><td class="v">74%</td></tr></tbody></table>
+  <p class="note">A deliberately simple illustration: the WHO rate is an average across many countries and product types, and real risks are not independent. It shows why the risk feels constant to a family that buys many products every month, even when each single purchase is probably fine.</p></div>
+ </div>
+ <div class="mean"><div class="k">Investment implication</div><p>Proven provenance is both a reason to switch and a reason to stay. Afya Basics sells registered products only, buys from licensed distributors, records the batch number of every unit sold and blocks any expired or recalled batch at the till (chapter 9). If a recall is issued, it can contact every customer who bought the affected batch. A small outlet cannot offer any of this, and in a market where trust cannot be assumed, it is a lasting point of difference.</p></div>
+</div></section>
+
+<section class="ch" id="i4"><div class="w">
+ <div class="no">04 · CITY</div><h2>Dar es Salaam has outgrown the way it shops.</h2>
+ <div class="n">
+ <p class="lede">The city has added close to three million people in twenty years. Its shops have multiplied to keep up, but the way they serve customers has barely changed, and congestion now makes every extra trip expensive.</p>
+ <h4 class="sh">Twenty years of growth</h4>
+ <p>The Dar es Salaam region grew from about <strong>2.49 million people in 2002 to 5.38 million in 2022</strong>, an increase of 116%.<sup><a href="#r8">8</a></sup> Growth was fastest in the first decade, about 5.8% a year, adding roughly 187,000 people a year; it slowed to about 2.1% a year in the second, still adding about 102,000 people a year, close to 280 new residents every day. The region now has more than 1.5 million households, and two thirds of its people are of working age.<sup><a href="#r11">11</a></sup></p>
+ </div>
+ <div class="fig paper"><h3>The region’s population more than doubled in twenty years</h3><p class="sub">Dar es Salaam region, population at each national census, millions</p>
+  <div class="cv" data-c="pop"></div>
+  <div class="src"><span><b>Source:</b> National Bureau of Statistics census counts, via City Population</span><span>Growth rates: Afya Basics calculation, compound annual</span></div></div>
+ <div class="n">
+ <h4 class="sh">More shops, same format</h4>
+ <p>Retail has grown in number, not in form. Advice and payment still happen at the same single counter, so a two-minute question about a dose waits behind every other customer. Ranges are narrow, so a list of four items often needs three shops. Delivery is rare. And congestion has grown with the population: a trip across town for a single item can take an hour in each direction, and much longer in the rain.</p>
+ <h4 class="sh">Who pays for the search</h4>
+ <p>For a working household the cost is direct. Every evening spent driving between shops is time taken from work, rest or family, and it is repeated every month because nothing is remembered. The households most affected, salaried families caring for children or older parents, are also the ones most able to pay for a service that removes the search.</p>
+ </div>
+ <div class="mean"><div class="k">Investment implication</div><p>Density and congestion favour a model that brings the purchase to the household rather than the household to the purchase. One well-located flagship, combined with scheduled monthly delivery and same-day delivery for urgent items, can serve a far larger catchment than its floor area alone would suggest, and the denser the city becomes, the stronger that advantage grows.</p></div>
+</div></section>
+
+<section class="ch" id="i5"><div class="w">
+ <div class="no">05 · CHANNEL</div><h2>Mobile payment and messaging are already the default.</h2>
+ <div class="n">
+ <p class="lede">The digital tools Afya Basics depends on, paying by phone, ordering by message and receiving reminders, are not new to its customers. They are how Tanzanians already pay and communicate, so the channel needs no customer education.</p>
+ <h4 class="sh">The scale of the rails</h4>
+ <p>By March 2026 Tanzania had <strong>80.98 million mobile-money accounts and 58.9 million internet subscriptions</strong>, with smartphone penetration at 42.5%.<sup><a href="#r9">9</a></sup> There are more mobile-money accounts than people, because many adults hold more than one. Paying a bill by phone, choosing a product from a picture and answering a WhatsApp reminder are everyday habits.</p>
+ </div>
+ <div class="fig"><h3>Mobile-money accounts exceed internet subscriptions by 22 million</h3><p class="sub">Tanzania, quarter ending March 2026, millions. One person may hold several accounts or subscriptions</p>
+  <div class="cv" data-c="dig"></div>
+  <div class="src"><span><b>Source:</b> TCRA statistics via TanzaniaInvest, 14 June 2026</span><span>Smartphone penetration: 42.5%</span></div></div>
+ <div class="n">
+ <h4 class="sh">What the phone does for the model</h4>
+ <p>For a membership business, the phone does three jobs that would otherwise cost money. It collects payment automatically each month, at a fraction of the cost and risk of cash. It carries the reminder that turns a one-off purchase into a habit: the message two days before the box is due, the alert when a child moves up a nappy size. And it lets a household change its order in seconds, which keeps members from leaving when their needs change.</p>
+ <h4 class="sh">The diaspora as a second market</h4>
+ <p>Tanzanians abroad sent home <strong>TSh 3.3 trillion</strong> in 2024/25,<sup><a href="#r10">10</a></sup> about US$1.25 billion at an exchange rate of TSh 2,640. Much of that money is meant for the care of parents and relatives, yet the sender cannot see whether it became care. A box ordered and paid for from abroad, delivered to a parent’s door and confirmed with a photograph, turns a cash transfer into a visible, verifiable result.</p>
+ <div class="calc"><div class="k">Worked example · the size of the diaspora opportunity</div>
+  <table><tbody>
+   <tr><td>Remittances to Tanzania, 2024/25</td><td class="v">TSh 3.3 trillion</td></tr>
+   <tr><td>Per month (÷ 12)</td><td class="v">TSh 275 billion</td></tr>
+   <tr class="tot"><td>Every 0.1% of that flow redirected into care boxes</td><td class="v">TSh 275 million a month</td></tr></tbody></table>
+  <p class="note">A sensitivity, not a forecast: the model does not depend on diaspora sales. It shows that even a very small share of existing remittances would be material for a single store.</p></div>
+ </div>
+ <div class="mean"><div class="k">Investment implication</div><p>Existing payment and messaging rails lower the cost of signing members up, billing them and keeping them. The diaspora adds a paying customer group outside Tanzania whose main requirement, proof that the money became care, is something the model provides by design.</p></div>
+</div></section>
+
+<section class="ch" id="i6"><div class="w">
+ <div class="no">06 · THE HOUSEHOLD</div><h2>The cost to one household: almost five hours and an incomplete list.</h2>
+ <div class="n"><p class="lede">Statistics describe the market; one household shows how the problem actually works. What follows is a single ordinary evening, told hour by hour.</p>
+ <p>Juma is an accountant in central Dar es Salaam; his wife Neema is at home with their seven-month-old son. Before he leaves for work she gives him a list of four things: nappies in size four, wipes, iron tablets and a fever medicine. Nothing on the list is rare or expensive. The family is illustrative, but every step of their evening is common in the city.</p>
+ <p>At two minutes past five Neema calls: the baby is a little warm. The fever medicine, one item among four in the morning, is now urgent. Juma leaves work at a quarter to six and spends more than two hours in traffic, slowed further by rain. The first shop has sold out of nappies. The second has nappies, but not in size four, and no wipes. The third has the fever medicine only as a loose bottle, with no box and no visible expiry date. He reaches home at twenty to eleven with two of the four items, one of them the wrong size.</p></div>
+ <div class="fig navy"><h3>Four hours fifty-five minutes, three shops, two of four items</h3><p class="sub">Juma’s evening from leaving work to arriving home, by activity</p>
+  <div class="cv" data-c="eve"></div>
+  <div class="src"><span><b>Illustrative:</b> based on the family film; times are typical, not measured</span><span>Afya Basics will measure search time in pre-launch interviews</span></div></div>
+ <div class="story">
+  <figure><img src="j-asubuhi.webp" alt=""><b>06:30</b><span>The list at the door: nappies size four, wipes, iron tablets, fever medicine</span></figure>
+  <figure><img src="j-foleni.webp" alt=""><b>07:30</b><span>The list goes into his phone in traffic on Bagamoyo Road</span></figure>
+  <figure><img src="j-simu.webp" alt=""><b>17:02</b><span>“The baby is a little warm.” The fever medicine becomes urgent</span></figure>
+  <figure><img src="j-mvua.webp" alt=""><b>19:00</b><span>Rain on the main road: an hour for a few kilometres</span></figure>
+  <figure><img src="j-duka2.webp" alt=""><b>21:25</b><span>Shop two: nappies in the wrong size, no wipes</span></figure>
+  <figure><img src="j-mlango.webp" alt=""><b>22:40</b><span>Home with two of four items, one the wrong size</span></figure>
+ </div>
+ <div class="n">
+ <h4 class="sh">Why the evening repeats</h4>
+ <p>Nothing about this evening is remembered. Next month the same list will be written again, and the same search will begin, because no shop knows that this family needs size four now and size five in three months, or that the iron tablets run out every thirty days. Of the 4 hours 55 minutes, 3 hours 45 minutes were spent travelling and 1 hour 10 minutes in shops. If an evening like this happens once a month, it adds up to about 59 hours a year: more than seven working days spent looking for basic health products.</p>
+ </div>
+ <div class="cmp"><div><h4>Today</h4><ul><li>Three shops tried after a working day</li><li>Two of four items found, one in the wrong size</li><li>A loose bottle of syrup with no box and no date</li><li>No record, so the same search starts again next month</li></ul></div>
+ <div><h4>With Afya Basics</h4><ul><li>The list is saved once, with sizes and brands</li><li>Everything arrives on a fixed day each month, before it runs out</li><li>Registered products only, each traceable to its batch</li><li>Urgent items by same-day delivery, ordered in thirty seconds</li></ul></div></div>
+ <div class="mean"><div class="k">Investment implication</div><p>The household’s problem is not price; it is time, uncertainty and memory. A service that removes all three is worth paying for, and because the need returns every month, the relationship it creates is recurring by nature. The rest of this showroom sets out how Afya Basics delivers that service, what it costs, and what it earns.</p></div>
+</div></section>
+
+<section><div class="w"><div class="lim"><div class="k">What this evidence does not show</div><h3>Limits we state openly</h3><ul>
+ <li>The blood-pressure care cascade comes from the 2012 survey, the latest that measured awareness, treatment and control together. The 2023 survey measured how common the condition is, not the full cascade.</li>
+ <li>The outlet counts are from 2018. The number of ADDOs has grown since; a newer count would strengthen, not weaken, the point about fragmentation.</li>
+ <li>The WHO estimate covers low- and middle-income countries as a group, not Tanzania alone.</li>
+ <li>The Dar es Salaam figures in section 01 apply national rates to the city’s 2022 census population and are indicative. Urban rates of raised blood pressure are often higher than the national average, so the true number may be larger.</li>
+ <li>No survey yet measures how much time and money Dar es Salaam households spend searching for health products. The evening shown in section 06 is illustrative. Afya Basics will measure it in pre-launch customer interviews and publish the result.</li></ul></div></div></section>
+
+<section class="refs"><div class="w"><div class="k">Sources</div><ol>
+ <li id="r1">Mayige et al., Tanzania Journal of Health Research 27(2), 2026: hypertension among adults 18–69, 2023 National STEPS survey</li>
+ <li id="r2">WHO, Tanzania hypertension country profile (2012 STEPS survey)</li>
+ <li id="r3">Mayige et al., 2026: type 2 diabetes care cascade, 2023 National STEPS survey</li>
+ <li id="r4">BMC Health Services Research (2022), citing the Pharmacy Council of Tanzania (2018 counts)</li>
+ <li id="r5">D-tree, 8 May 2023: Scaling up pharmacy-based healthcare models</li>
+ <li id="r6">WHO news release, 28 November 2017: 1 in 10 medical products in developing countries is substandard or falsified</li>
+ <li id="r7">The Guardian (Tanzania), 10 September 2026: TMDA seizes unregistered medicines worth 360m/-</li>
+ <li id="r8">City Population, NBS census counts for Dar es Salaam region, 2002–2022</li>
+ <li id="r9">TanzaniaInvest, 14 June 2026: TCRA telecom statistics, Q1 2026</li>
+ <li id="r10">The Citizen, 27 May 2026: Diaspora remittances hit Sh3.3 trillion</li>
+ <li id="r11">City Population, NBS 2022 census: Dar es Salaam region by age group (0–14: 1,694,098; 15–64: 3,559,268; 65+: 130,362)</li>
+ <li id="r12">National Bureau of Statistics, 2022 Population and Housing Census: total population 61,741,120</li></ol></div></section>
+
+<script>
+const GOLD='#c9a456',GRN='#3f8f70',GRN2='#2b6a52',INK='#f3efe4',INK2='#cfd2c9',INK3='#8a948c',GRID='rgba(243,239,228,.12)',F='Inter,sans-serif';
+const T=(x,y,s,o={})=>`<text x="${x}" y="${y}" font-family="${o.ff||F}" font-size="${o.fs||15}" font-weight="${o.fw||400}" fill="${o.c||INK2}" text-anchor="${o.a||'start'}" style="--d:${o.d==null?.5:o.d}s">${s}</text>`;
+const S=(W,H,b)=>`<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img">${b}</svg>`;
+
+// 1 · waterfall (consultancy style): what is lost at each stage
+function casc(W){const nar=W<600,d=[['Have high','blood pressure',100,''],['Know they','have it',17.6,'18% of previous'],['On','treatment',8.3,'47% of previous'],['Under','control',2.2,'27% of previous']];
+ const H=nar?400:420,base=H-92,top=52,ht=base-top,y=v=>base-v/100*ht,cw=W/4,bw=Math.min(120,cw*.56),x=i=>i*cw+(cw-bw)/2;let h='';
+ [0,25,50,75,100].forEach(t=>h+=`<line x1="0" x2="${W}" y1="${y(t)}" y2="${y(t)}" stroke="${GRID}" stroke-width="${t?1:0}"/>`);
+ d.forEach((r,i)=>{const v=r[2],X=x(i),cx=X+bw/2;var dd=i*.5+.45;h+=`<rect class="gy" style="--d:${i*.5}s" x="${X}" y="${y(v)}" width="${bw}" height="${base-y(v)}" fill="${i===3?GOLD:i?GRN:'#4b5a53'}"/>`;
+  if(i){const p=d[i-1][2],bh=y(v)-y(p);h+=`<rect x="${X+.5}" y="${y(p)}" width="${bw-1}" height="${bh}" fill="rgba(201,164,86,.06)" stroke="${GOLD}" stroke-opacity=".55" stroke-dasharray="4 3" class="fd" style="--d:${i*.5+.2}s"/>`;
+   h+=`<line x1="${x(i-1)+bw}" x2="${X}" y1="${y(p)}" y2="${y(p)}" stroke="${INK3}" stroke-dasharray="2 3"/>`;
+   if(bh>70){h+=T(cx,y(p)+bh/2-4,'−'+(p-v).toFixed(1),{a:'middle',fs:nar?17:20,fw:600,c:GOLD,d:dd})+T(cx,y(p)+bh/2+18,'never',{a:'middle',fs:13,c:INK3,d:dd})+T(cx,y(p)+bh/2+34,'diagnosed',{a:'middle',fs:13,c:INK3,d:dd});h+=T(cx,y(v)-10,v,{a:'middle',fs:nar?18:21,fw:600,c:INK,d:typeof dd=='undefined'?.3:dd});}
+   else{h+=T(cx,y(p)-34,'−'+(p-v).toFixed(1),{a:'middle',fs:14,fw:600,c:GOLD,d:dd})+T(cx,y(p)-10,v,{a:'middle',fs:nar?18:21,fw:600,c:i===3?GOLD:INK,d:dd});}}
+  else h+=T(cx,y(v)-10,v,{a:'middle',fs:nar?18:21,fw:600,c:INK,d:typeof dd=='undefined'?.3:dd});
+  h+=T(cx,base+24,r[0],{a:'middle',fs:nar?13.5:15,c:INK})+T(cx,base+43,r[1],{a:'middle',fs:nar?13.5:15,c:INK})+(r[3]?T(cx,base+66,nar?r[3].replace(' of previous',''):r[3],{a:'middle',fs:13,c:INK3}):'');});
+ h+=`<line x1="0" x2="${W}" y1="${base}" y2="${base}" stroke="${INK3}"/>`;return S(W,H,h)}
+
+// generic horizontal bars (newspaper style): axis labels on top, thin grid
+function hbars(W,rows,max,ticks,fmt){const nar=W<640,lw=nar?0:250,rh=nar?72:58,top=34,H=top+rows.length*rh+8,sx=v=>lw+v/max*(W-lw-70);let h='';
+ ticks.forEach(t=>h+=`<line x1="${sx(t)}" x2="${sx(t)}" y1="${top-8}" y2="${H}" stroke="${GRID}"/>`+T(sx(t),top-16,fmt(t),{a:t?'middle':'start',fs:13,c:INK3}));
+ rows.forEach((r,i)=>{const y0=top+i*rh+(nar?28:12),bh=nar?30:34;
+  h+=nar?T(0,y0-9,r[0],{fs:15,c:INK}):T(lw-16,y0+bh/2+5,r[0],{a:'end',fs:16,c:INK});
+  h+=`<rect class="gx" style="--d:${i*.25}s" x="${lw}" y="${y0}" width="${Math.max(2,sx(r[1])-lw)}" height="${bh}" fill="${r[2]}"/>`+T(sx(r[1])+10,y0+bh/2+6,r[3],{fs:18,fw:600,c:INK,d:i*.25+.8});});
+ h+=`<line x1="${lw}" x2="${lw}" y1="${top-8}" y2="${H}" stroke="${INK3}"/>`;return S(W,H,h)}
+const outl=W=>hbars(W,[['Dispensing outlets (ADDOs)',11356,GRN,'11,356'],['Registered pharmacies',1334,GOLD,'1,334']],12000,[0,3000,6000,9000,12000],t=>t.toLocaleString('en'));
+const dig=W=>hbars(W,[['Mobile-money accounts',80.98,GRN,'80.98m'],['Internet subscriptions',58.9,GRN2,'58.9m']],90,[0,30,60,90],t=>t);
+
+// 100% stacked bar
+function sf(W){const nar=W<600,H=nar?150:130,y0=nar?56:44,bh=40,sx=v=>v/100*W,bad=10.5;let h='';
+ h+=`<rect class="gx" x="0" y="${y0}" width="${sx(100-bad)}" height="${bh}" fill="${GRN2}"/><rect class="gx" style="--d:.9s" x="${sx(100-bad)+2}" y="${y0}" width="${sx(bad)-2}" height="${bh}" fill="${GOLD}"/>`;
+ h+=T(0,y0-14,'89.5% meet the standard',{fs:nar?14:16,c:INK});
+ h+=nar?T(W,y0-14,'10.5% fail',{a:'end',fs:14,fw:600,c:GOLD}):T(W,y0-14,'10.5% substandard or falsified',{a:'end',fs:16,fw:600,c:GOLD});
+ [0,25,50,75,100].forEach(t=>h+=`<line x1="${sx(t)}" x2="${sx(t)}" y1="${y0+bh}" y2="${y0+bh+6}" stroke="${INK3}"/>`+T(Math.min(Math.max(sx(t),8),W-12),y0+bh+24,t,{a:t===0?'start':t===100?'end':'middle',fs:13,c:INK3}));
+ return S(W,H,h)}
+
+// line chart on paper (financial newspaper style)
+function pop(W){const nar=W<600,d=[[2002,2.49],[2012,4.36],[2022,5.38]],H=nar?320:340,l=nar?14:30,r=nar?40:60,top=30,base=H-44,x=yr=>l+(yr-2002)/20*(W-l-r),y=v=>base-v/6*(base-top),C='#33302e',BL='#1f5a45';let h='';
+ [0,2,4,6].forEach(t=>h+=`<line x1="${l-10}" x2="${W}" y1="${y(t)}" y2="${y(t)}" stroke="${t?'#d9cbb4':'#66605c'}" ${t?'stroke-dasharray="2 3"':''}/>`+T(W,y(t)-6,t,{a:'end',fs:13,c:'#66605c'}));
+ h+=`<polyline class="ln" pathLength="1" points="${d.map(p=>x(p[0])+','+y(p[1])).join(' ')}" fill="none" stroke="${BL}" stroke-width="3.5"/>`;
+ d.forEach((p,i)=>{h+=`<circle class="fd" style="--d:${.2+i*.7}s" cx="${x(p[0])}" cy="${y(p[1])}" r="6" fill="${i===2?'#b08a3c':BL}" stroke="#f2ead9" stroke-width="2"/>`+T(x(p[0])+(i===0?0:i===2?-4:0),i===0?y(p[1])+(nar?-16:-16)-(nar?0:0)-(nar?-38:0):y(p[1])-16,p[1].toFixed(2)+'m',{a:i===0?'start':i===2?'end':'middle',fs:nar?16:19,fw:600,c:C})+T(x(p[0]),base+24,p[0],{a:i===0?'start':i===2?'end':'middle',fs:14,c:C});});
+ const seg=(a,b,s)=>{const mx=(x(a[0])+x(b[0]))/2,my=(y(a[1])+y(b[1]))/2;return T(mx+(nar?6:14),my+(nar?34:40),s,{a:'middle',fs:nar?12.5:14,fw:500,c:'#66605c',ff:"'Source Serif 4',serif"})};
+ h+=seg(d[0],d[1],'+5.8% a year')+seg(d[1],d[2],'+2.1% a year');return S(W,H,h)}
+
+// evening timeline (gantt)
+function eve(W){const nar=W<640,lw=nar?0:150,t0=17*60+30,t1=23*60,sx=m=>lw+(m-t0)/(t1-t0)*(W-lw-(nar?8:110)),hm=s=>{const[a,b]=s.split(':');return +a*60+ +b};
+ const rows=[['Travelling',GRN,[['17:45','20:05'],['20:35','21:25'],['21:50','22:05'],['22:20','22:40']]],['In shops',GOLD,[['20:05','20:35'],['21:25','21:50'],['22:05','22:20']]]];
+ const rh=nar?70:60,top=56,H=top+rows.length*rh+76;let h='';
+ for(let m=18*60;m<=23*60;m+=60)h+=`<line x1="${sx(m)}" x2="${sx(m)}" y1="${top-10}" y2="${top+rows.length*rh}" stroke="${GRID}"/>`+T(sx(m),top-18,(m/60)+':00',{a:m===23*60&&nar?'end':'middle',fs:13,c:INK3});
+ rows.forEach((r,i)=>{const y0=top+i*rh+(nar?22:12),bh=28;let tot=0;
+  h+=nar?T(0,y0-8,r[0],{fs:14,c:INK}):T(lw-16,y0+bh/2+5,r[0],{a:'end',fs:16,c:INK});
+  r[2].forEach(s=>{const a=hm(s[0]),b=hm(s[1]);tot+=b-a;h+=`<rect class="gx" style="--d:${((a-t0-15)/60*.5).toFixed(2)}s;--t:${Math.max(.25,(b-a)/60*.5).toFixed(2)}s" x="${sx(a)}" y="${y0}" width="${sx(b)-sx(a)-2}" height="${bh}" fill="${r[1]}"/>`});
+  const lab=Math.floor(tot/60)+' h '+String(tot%60).padStart(2,'0')+' min';
+  h+=nar?T(W,y0-8,lab,{a:'end',fs:14,fw:600,c:INK}):T(W,y0+bh/2+6,lab,{a:'end',fs:17,fw:600,c:INK});});
+ const ev=[['17:45','Leaves work'],['20:05','Shop 1: sold out'],['21:25','Shop 2: wrong size'],['22:40','Home, 2 of 4 items']],yb=top+rows.length*rh+8;
+ ev.forEach((e,i)=>{const X=sx(hm(e[0]));if(nar){h+=`<line x1="${X}" x2="${X}" y1="${top-6}" y2="${top+rows.length*rh}" stroke="${INK3}" stroke-dasharray="2 3"/>`+T(0,yb+16+i*20,e[0]+' · '+e[1],{fs:13,c:INK2});return}
+  const yy=yb+18+(i%2)*22;h+=`<line x1="${X}" x2="${X}" y1="${top-6}" y2="${yy-12}" stroke="${INK3}" stroke-dasharray="2 3"/>`+T(X,yy,e[0]+' · '+e[1],{a:i===3?'end':i===0?'start':'middle',fs:13.5,c:INK2});});
+ return S(W,nar?H+28:H,h)}
+
+const FN={casc,outl,sf,pop,dig,eve};
+function draw(){document.querySelectorAll('.cv').forEach(el=>{el.innerHTML=FN[el.dataset.c](Math.floor(el.clientWidth))})}
+draw();let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(draw,120)});
+
+// reveal on scroll
+const rvSel='.ch h2,.ch .no,.ch .n>*,.mean,.fig,.cmp,.story figure,.lim,.vid,.break blockquote';
+document.querySelectorAll(rvSel).forEach(el=>{if(el.getBoundingClientRect().top>innerHeight*.9)el.classList.add('rv');else el.classList.add('in')});
+document.querySelectorAll('.fig').forEach(f=>{if(!f.classList.contains('rv'))f.classList.add('in')});
+document.querySelectorAll('.story figure').forEach((f,i)=>f.style.setProperty('--rd',(i%3)*.15+'s'));
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);const b=e.target.querySelector&&e.target.classList.contains('big')?e.target:null;if(b)count(b)}}),{threshold:.18,rootMargin:'0px 0px -6% 0px'});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));document.querySelectorAll('.big.in').forEach(count);
+// count-up for headline figures
+function count(el){const m=el.textContent.match(/^([\d.]+)(.*)$/);if(!m||matchMedia('(prefers-reduced-motion: reduce)').matches)return;const end=+m[1],dp=(m[1].split('.')[1]||'').length,t0=performance.now(),D=1600;
+ (function f(t){const k=Math.min(1,(t-t0)/D),e=1-Math.pow(1-k,3);el.textContent=(end*e).toFixed(dp)+m[2];if(k<1)requestAnimationFrame(f)})(t0)}
+// progress bar, parallax, active section
+const prog=document.querySelector('.prog'),brk=document.querySelectorAll('.break'),navs=[...document.querySelectorAll('.ins a')];
+function onScroll(){const h=document.documentElement,sy=h.scrollTop;prog.style.transform=`scaleX(${sy/(h.scrollHeight-h.clientHeight)})`;
+ brk.forEach(b=>{const r=b.getBoundingClientRect();if(r.bottom>0&&r.top<innerHeight){b.querySelector('img').style.setProperty('--py',((r.top+r.height/2-innerHeight/2)*-.18)+'px')}});
+ let cur=null;navs.forEach(a=>{const s=document.querySelector(a.getAttribute('href'));if(s&&s.getBoundingClientRect().top<innerHeight*.4)cur=a});navs.forEach(a=>a.classList.toggle('on',a===cur))}
+addEventListener('scroll',onScroll,{passive:true});onScroll();
+</script>
+
+</body></html>

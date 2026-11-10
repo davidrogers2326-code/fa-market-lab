@@ -1,0 +1,1165 @@
+{
+ "slug": "afya-men",
+ "name": {
+  "en": "Afya Men",
+  "sw": "Afya Men"
+ },
+ "final": true,
+ "delivery": "monthly",
+ "box_size": "S",
+ "who": {
+  "en": "<p>Afya Men is the monthly grooming and health box for a man aged 20 to 59 in Dar es Salaam. It carries what he uses every day — razors and shaving gel, an antiperspirant, soap, face wash, sunscreen, body lotion and the three things that keep teeth and gums healthy — and pairs them with a free blood-pressure check each month at the Afya Check in the store.</p><p><strong>Blood pressure is the health reason for the box.</strong> In Tanzania’s 2023 national STEPS survey, 23.1% of adults aged 18–69 had raised blood pressure; the share rose from 12.6% at ages 18–30 to 46.4% at ages 46–69, and was 36.4% among overweight or obese adults. Most people with high blood pressure feel nothing, and WHO says the only way to know is to have it measured. In the last national survey to measure control (2012), only about 2 in every 100 adults with hypertension had it under control. Men in their working years rarely visit a clinic when they feel well, so a monthly visit to collect or check the box is a chance to measure them.</p><p><strong>Skin and sun.</strong> Razor bumps are among the most common skin problems in men with tightly coiled beard hair, and they can leave dark marks that the sun deepens. The shave items follow the American Academy of Dermatology’s advice (shave with the grain, on softened skin, with a sharp blade). Dar es Salaam is close to the equator; WHO advises sun protection whenever the UV index is 3 or more and notes that darker-skinned people also develop skin cancers, so a daily face sunscreen is in the core.</p><p><strong>Teeth and gums.</strong> WHO recommends brushing twice a day with a fluoride toothpaste of 1,000–1,500 ppm; gum disease is driven mainly by poor oral hygiene and tobacco. The box carries fluoride toothpaste, a brush replaced every three months and floss.</p><p><strong>When to see a clinic.</strong> A reading of 140/90 or more at the Afya Check is a screening result, not a diagnosis: WHO diagnoses hypertension when readings on two different days are 140/90 or higher, so the member is referred to a clinic to confirm it. A reading around 180/120 with severe headache, chest pain, breathlessness, blurred vision or confusion needs care immediately. Razor bumps that become painful, pus-filled or leave spreading dark marks, bleeding or swollen gums, and any new or changing spot on the skin are also for a clinician. The box contains no medicine.</p>",
+  "sw": "<p>Afya Men ni sanduku la kila mwezi la usafi na afya kwa mwanaume wa miaka 20 hadi 59 jijini Dar es Salaam. Lina vitu anavyotumia kila siku — nyembe na jeli ya kunyolea, roll-on ya kuzuia jasho, sabuni, sabuni ya uso, kinga ya jua, losheni ya mwili na vitu vitatu vinavyotunza meno na fizi — pamoja na kipimo cha bure cha shinikizo la damu kila mwezi kwenye Afya Check dukani.</p><p><strong>Shinikizo la damu ndiyo sababu ya kiafya ya sanduku hili.</strong> Katika utafiti wa kitaifa wa STEPS wa mwaka 2023 nchini Tanzania, asilimia 23.1 ya watu wazima wa miaka 18–69 walikuwa na shinikizo la juu la damu; kiwango kilipanda kutoka asilimia 12.6 kwa wenye miaka 18–30 hadi asilimia 46.4 kwa wenye miaka 46–69, na kilikuwa asilimia 36.4 kwa wenye uzito uliozidi au unene uliopitiliza. Watu wengi wenye shinikizo la juu la damu hawahisi chochote, na WHO inasema njia pekee ya kujua ni kupimwa. Katika utafiti wa mwisho wa kitaifa uliopima udhibiti (2012), ni takriban watu 2 kati ya kila 100 wenye shinikizo la juu la damu waliokuwa wamelidhibiti. Wanaume walio katika miaka ya kazi mara chache huenda kliniki wanapojisikia vizuri, hivyo kufika dukani kila mwezi kuchukua au kukagua sanduku ni nafasi ya kuwapima.</p><p><strong>Ngozi na jua.</strong> Vipele vya kunyoa ni miongoni mwa matatizo ya ngozi yanayowapata zaidi wanaume wenye ndevu zilizojikunja sana, na vinaweza kuacha alama nyeusi ambazo jua huziongeza. Bidhaa za kunyoa zinafuata ushauri wa Chama cha Madaktari wa Ngozi cha Marekani (kunyoa kufuata mwelekeo wa nywele, kwenye ngozi iliyolainishwa, kwa wembe mkali). Dar es Salaam iko karibu na ikweta; WHO inashauri kujikinga na jua kila kipimo cha UV kinapofika 3 au zaidi na inaeleza kwamba watu wenye ngozi nyeusi pia hupata saratani ya ngozi, hivyo kinga ya jua ya uso ya kila siku imo kwenye msingi wa sanduku.</p><p><strong>Meno na fizi.</strong> WHO inapendekeza kupiga mswaki mara mbili kwa siku kwa dawa ya meno yenye floraidi ya ppm 1,000–1,500; magonjwa ya fizi husababishwa hasa na usafi duni wa kinywa na tumbaku. Sanduku lina dawa ya meno yenye floraidi, mswaki unaobadilishwa kila miezi mitatu na uzi wa meno.</p><p><strong>Wakati wa kwenda kliniki.</strong> Kipimo cha 140/90 au zaidi kwenye Afya Check ni matokeo ya uchunguzi wa awali, si utambuzi: WHO hutambua shinikizo la juu la damu vipimo vya siku mbili tofauti vinapokuwa 140/90 au zaidi, hivyo mwanachama hupelekwa kliniki kuthibitisha. Kipimo cha karibu 180/120 pamoja na maumivu makali ya kichwa, maumivu ya kifua, kushindwa kupumua, kuona ukungu au kuchanganyikiwa kinahitaji huduma mara moja. Vipele vya kunyoa vinavyouma, vyenye usaha au vinavyoacha alama nyeusi zinazoenea, fizi zinazotoka damu au kuvimba, na doa lolote jipya au linalobadilika kwenye ngozi pia ni kwa mtaalamu wa afya. Sanduku halina dawa.</p>"
+ },
+ "clinic_line": {
+  "en": "The blood-pressure reading at the Afya Check is a screening, not a diagnosis. Whether you have high blood pressure, how often to check it and any medicine are decided by your clinic; a reading of 180/120 or more with chest pain, severe headache, breathlessness or blurred vision needs care immediately.",
+  "sw": "Kipimo cha shinikizo la damu kwenye Afya Check ni uchunguzi wa awali, si utambuzi. Kama una shinikizo la juu la damu, mara ngapi upime na dawa yoyote huamuliwa na kliniki yako; kipimo cha 180/120 au zaidi pamoja na maumivu ya kifua, maumivu makali ya kichwa, kushindwa kupumua au kuona ukungu kinahitaji huduma mara moja."
+ },
+ "guidance": [
+  {
+   "t": "Mayige M.T. et al. 2026, Hypertension burden and its determinants among adults aged 18 to 69 years in Tanzania: results from the 2023 National STEPS survey, Tanzania Journal of Health Research 27(2)",
+   "u": "https://nhrdr.nimr.or.tz/records/209",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO, United Republic of Tanzania hypertension country profile (2012 STEPS cascade: about 2% controlled)",
+   "u": "https://cdn.who.int/media/docs/default-source/country-profiles/hypertension/tza_en.pdf",
+   "chk": "2026-11-09"
+  },
+  {
+   "t": "WHO fact sheet, Hypertension (25 Sep 2025): diagnosis at ≥140/90 on two days; seek care at about 180/120 with symptoms",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/hypertension",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet, Oral health (17 Mar 2025): twice-daily brushing with 1,000–1,500 ppm fluoride toothpaste",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/oral-health",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet, Ultraviolet radiation: sun protection at UV index 3 or above; broad-spectrum sunscreen on uncovered skin",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/ultraviolet-radiation",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "American Academy of Dermatology, Razor bump remedies for men with darker skin tones (not re-opened)",
+   "u": "https://www.aad.org/public/everyday-care/skin-care-basics/hair/razor-bump-remedies",
+   "chk": "2026-11-02"
+  },
+  {
+   "t": "American Academy of Dermatology, Hair removal: how to shave (not re-opened)",
+   "u": "https://www.aad.org/public/everyday-care/skin-care-basics/hair/how-to-shave",
+   "chk": "2026-11-02"
+  },
+  {
+   "t": "American Academy of Dermatology, Skin care tips for men (not re-opened)",
+   "u": "https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-for-men",
+   "chk": "2026-11-02"
+  },
+  {
+   "t": "NHS, How to keep your teeth clean (new brush every 3 months; clean between teeth) (not re-opened)",
+   "u": "https://www.nhs.uk/live-well/healthy-teeth-and-gums/how-to-keep-your-teeth-clean/",
+   "chk": "2026-11-02"
+  }
+ ],
+ "stages": [
+  {
+   "key": "m",
+   "label": {
+    "en": "Every month",
+    "sw": "Kila mwezi"
+   },
+   "months": "1–12",
+   "box_size": "S",
+   "items": [
+    {
+     "key": "razor",
+     "kind": "goods",
+     "name": {
+      "en": "Disposable razors",
+      "sw": "Nyembe za kunyolea za kutupwa"
+     },
+     "why": {
+      "en": "Razor bumps (pseudofolliculitis barbae) are among the most common skin problems in men with tightly coiled beard hair: a hair cut very close curls back and grows into the skin. The American Academy of Dermatology’s advice is to shave in the direction the hair grows, on skin softened with water and gel, with a sharp blade and as few strokes as possible (AAD guidance, not re-opened). A fresh razor every four shaves keeps the blade sharp. The default is a single-blade razor; twin-blade and system razors are swaps. A man who keeps a full beard or uses clippers can drop this line in the app.",
+      "sw": "Vipele vya kunyoa (pseudofolliculitis barbae) ni miongoni mwa matatizo ya ngozi yanayowapata zaidi wanaume wenye ndevu zilizojikunja sana: unywele ukinyolewa karibu sana hujipinda na kuota ndani ya ngozi. Ushauri wa Chama cha Madaktari wa Ngozi cha Marekani (AAD) ni kunyoa kufuata mwelekeo wa nywele, kwenye ngozi iliyolainishwa kwa maji na jeli, kwa wembe mkali na kupitisha mara chache iwezekanavyo (mwongozo wa AAD, haujafunguliwa upya). Wembe mpya kila baada ya kunyoa mara nne huweka makali. Chaguo la msingi ni wembe wa ubapa mmoja; nyembe za ubapa miwili na za mfumo ni mbadala. Mwanaume anayefuga ndevu au anayetumia mashine anaweza kuondoa bidhaa hii kwenye programu."
+     },
+     "qty": {
+      "en": "4 razors a month",
+      "sw": "Nyembe 4 kwa mwezi"
+     },
+     "qty_formula": "about 4 shaves a week × 4.3 weeks ≈ 17 shaves ÷ about 4 shaves per razor ≈ 4 razors (planning assumption)",
+     "units": 4,
+     "brands": [
+      {
+       "brand": "BIC",
+       "product": "1 single-blade disposable razors",
+       "pack": "5 razors",
+       "pack_units": 5,
+       "price_tsh": 2684,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/razors-blades/bic-shaver-1-normal-pouch-5s/p/121689",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 132,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price (KES 132, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "BIC",
+       "product": "Comfort 2 twin-blade disposable razors",
+       "pack": "5 razors",
+       "pack_units": 5,
+       "price_tsh": 5083,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/disposable-razors/bic-shaver-comfort-2s-p5/p/140596",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 250,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price (KES 250, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Gillette",
+       "product": "Blue II Plus twin-blade disposable razors",
+       "pack": "5 razors",
+       "pack_units": 5,
+       "price_tsh": 8945,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/disposable-razors/gillette-blue-11-plus-disposable-5s/p/23477",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 440,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price (KES 440, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Gillette",
+       "product": "Mach3 Turbo replacement cartridges",
+       "pack": "4 cartridges",
+       "pack_units": 4,
+       "price_tsh": 38000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a357153c6d5732d0a362d",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Needs a Mach3 handle bought once (TSh 24,200, Shoppers, 10 Nov 2026). A higher price range: offered as a paid swap.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "shave",
+     "kind": "goods",
+     "name": {
+      "en": "Shaving foam or gel",
+      "sw": "Povu au jeli ya kunyolea"
+     },
+     "why": {
+      "en": "Wetting the beard and using a shaving foam or gel softens the hair, so the blade cuts with fewer strokes and less pull: the AAD steps against cuts, irritation and razor bumps (not re-opened). A sensitive-skin gel is offered for men who get irritation.",
+      "sw": "Kulowesha ndevu na kutumia povu au jeli ya kunyolea hulainisha nywele, hivyo wembe hukata kwa kupitisha mara chache na kuvuta kidogo: hizi ni hatua za AAD dhidi ya michubuko, muwasho na vipele vya kunyoa (haujafunguliwa upya). Jeli ya ngozi nyeti inapatikana kwa wanaume wanaopata muwasho."
+     },
+     "qty": {
+      "en": "70 ml a month",
+      "sw": "ml 70 kwa mwezi"
+     },
+     "qty_formula": "≈17 shaves a month × about 4 ml a shave ≈ 70 ml (planning assumption)",
+     "units": 70,
+     "brands": [
+      {
+       "brand": "Gillette",
+       "product": "Shaving Foam Regular",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 11500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a370853c6d5732d0a3634",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Gillette",
+       "product": "Lemon Lime Shaving Foam",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 12500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a353f53c6d5732d0a362c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Price from the Shoppers category listing read on 10 Nov 2026.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Gillette",
+       "product": "Shaving Gel Regular",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 13500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a37b853c6d5732d0a3637",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Gillette",
+       "product": "Series Shave Gel, Sensitive Skin",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 14500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a35fe53c6d5732d0a362f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nivea",
+       "product": "Men Shaving Gel",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 18200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a803053c6d5732d0a36e4",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "deo",
+     "kind": "goods",
+     "name": {
+      "en": "Antiperspirant roll-on",
+      "sw": "Roll-on ya kuzuia jasho"
+     },
+     "why": {
+      "en": "Dar es Salaam is hot and humid all year, and most men work or commute in that heat. Underarm sweat is odourless; the smell comes when skin bacteria break it down. An antiperspirant roll-on reduces sweat and a deodorant masks odour, so a daily roll-on keeps a man fresh through a working day. Roll-ons are chosen over aerosols because they last longer per shilling and travel safely in a box.",
+      "sw": "Dar es Salaam ina joto na unyevu mwaka mzima, na wanaume wengi hufanya kazi au kusafiri katika joto hilo. Jasho la kwapani halina harufu; harufu hutokea bakteria wa ngozi wanapolivunja. Roll-on ya kuzuia jasho hupunguza jasho na deodoranti hufunika harufu, hivyo roll-on ya kila siku humweka mwanaume safi siku nzima ya kazi. Roll-on zimechaguliwa badala ya spray kwa sababu hudumu zaidi kwa kila shilingi na husafirishwa salama ndani ya sanduku."
+     },
+     "qty": {
+      "en": "1 roll-on (50 ml) a month",
+      "sw": "Roll-on 1 (ml 50) kwa mwezi"
+     },
+     "qty_formula": "about 1.5 ml a day for both underarms × 30 days ≈ 45–50 ml = 1 roll-on (planning assumption)",
+     "units": 1,
+     "brands": [
+      {
+       "brand": "Brut",
+       "product": "Roll-on Alaska",
+       "pack": "50 ml",
+       "pack_units": 1,
+       "price_tsh": 4300,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6659f4f9ef7dc8dc8098467c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "The listing does not say whether it is an antiperspirant or a deodorant only; check the label.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Shower to Shower",
+       "product": "Antiperspirant Roll-On Deodorant",
+       "pack": "50 ml",
+       "pack_units": 1,
+       "price_tsh": 4500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/shower-to-shower-roll-on-deodorants-50mils-2",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Nivea",
+       "product": "Roll-on Dry Fresh",
+       "pack": "50 ml",
+       "pack_units": 1,
+       "price_tsh": 5800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60bf76bf753c0d1ace90a867",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Rexona",
+       "product": "Men Active roll-on",
+       "pack": "50 ml",
+       "pack_units": 1,
+       "price_tsh": 6404,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/men-deodorant-roll-on-stick/rexona-rollon-active-men-50ml/p/14184",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 315,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price (KES 315, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Yardley",
+       "product": "English Blazer Roll-on Fresh",
+       "pack": "50 ml",
+       "pack_units": 1,
+       "price_tsh": 7100,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60c07343753c0d1ace90a89b",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "soap",
+     "kind": "goods",
+     "name": {
+      "en": "Bath soap bars",
+      "sw": "Sabuni ya kuogea (vipande)"
+     },
+     "why": {
+      "en": "Washing with soap and water removes sweat, oil and the bacteria that cause body odour and skin infections. In Dar’s heat many men shower twice a day. A plain bar is the cheapest effective wash; an antibacterial bar is a swap, not a need.",
+      "sw": "Kuoga kwa sabuni na maji huondoa jasho, mafuta na bakteria wanaosababisha harufu ya mwili na maambukizi ya ngozi. Katika joto la Dar wanaume wengi huoga mara mbili kwa siku. Kipande cha sabuni ya kawaida ndicho njia nafuu zaidi inayofanya kazi; sabuni ya kuua bakteria ni mbadala, si lazima."
+     },
+     "qty": {
+      "en": "3 bars of 175 g a month",
+      "sw": "Vipande 3 vya g 175 kwa mwezi"
+     },
+     "qty_formula": "2 showers a day × about 9 g a shower × 30 days ≈ 525 g = 3 bars of 175 g (planning assumption)",
+     "units": 525,
+     "brands": [
+      {
+       "brand": "Imperial Leather",
+       "product": "Soap",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 2600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a459853c6d5732d0a3666",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Fa",
+       "product": "Soap Sport",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 2600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60bf6950791c2d11b5e2a670",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Lux",
+       "product": "Magical Beauty Body Soap",
+       "pack": "170 g",
+       "pack_units": 170,
+       "price_tsh": 3000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a71dc53c6d5732d0a36a9",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Lifebuoy",
+       "product": "Soap, assorted",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 3500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6a6dd151d4b3dce59b40cc2f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dettol",
+       "product": "Herbal Soap, 6 bars",
+       "pack": "6 × 175 g",
+       "pack_units": 1050,
+       "price_tsh": 21000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/649fd5a40eb6b270e24edef3",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Antibacterial; six-bar pack (3,500 a bar). Price from the Shoppers category listing read on 10 Nov 2026.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "face",
+     "kind": "goods",
+     "name": {
+      "en": "Face wash",
+      "sw": "Sabuni ya kuosha uso"
+     },
+     "why": {
+      "en": "The AAD advises men to wash the face daily and after heavy sweating with a mild face wash rather than ordinary bar soap, which can dry the skin (not re-opened). Clean skin before shaving also lowers the risk of infected razor bumps.",
+      "sw": "AAD inawashauri wanaume kuosha uso kila siku na baada ya kutoka jasho jingi kwa sabuni laini ya uso badala ya sabuni ya kawaida ya kipande, ambayo inaweza kukausha ngozi (haujafunguliwa upya). Ngozi safi kabla ya kunyoa pia hupunguza hatari ya vipele vya kunyoa kupata maambukizi."
+     },
+     "qty": {
+      "en": "60 ml a month",
+      "sw": "ml 60 kwa mwezi"
+     },
+     "qty_formula": "2 washes a day × about 1 ml × 30 days = 60 ml (planning assumption)",
+     "units": 60,
+     "brands": [
+      {
+       "brand": "Karis Naturals",
+       "product": "Men Intensive Care Face Wash",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 7075,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/face-cleansing-scrub-toners/karis-men-intensive-face-wash100ml/p/118503",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 348,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price (KES 348, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Garnier",
+       "product": "Gentle Cleansing Foam",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 10795,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/face-cleansing-scrub-toners/garnier-gentle-cleansing-foam-100ml/p/226022",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 531,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price (KES 531, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nivea",
+       "product": "Refreshing Face Wash Gel",
+       "pack": "150 ml",
+       "pack_units": 150,
+       "price_tsh": 16874,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/face-cleansing-scrub-toners/nivea-refreshing-face-wash-gel150ml/p/67952",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 830,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price (KES 830, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Sakura",
+       "product": "Collagen Foaming Facial Cleansing Mousse",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 15000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/collagen-sakura-facial-cleansing-mousse-100ml",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "CeraVe",
+       "product": "Foaming Facial Cleanser",
+       "pack": "236 ml",
+       "pack_units": 236,
+       "price_tsh": 54500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/cerave-foam-cleanser-236ml",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Dermatologist brand, about twice the monthly cost of the others: offered as a paid swap.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "spf",
+     "kind": "goods",
+     "name": {
+      "en": "Sunscreen for the face, SPF 30 or higher",
+      "sw": "Kinga ya jua kwa uso, SPF 30 au zaidi"
+     },
+     "why": {
+      "en": "Dar es Salaam lies close to the equator, so the sun is strong all year. WHO advises sun protection whenever the UV index is 3 or above, and broad-spectrum sunscreen on skin that clothes do not cover; it notes that darker-skinned people also develop skin cancers, and that outdoor workers face a higher risk. Sun also deepens the dark patches and uneven tone that razor bumps leave on the face. A hat and shade come first; sunscreen covers the face, ears and neck. It doubles as the face moisturiser.",
+      "sw": "Dar es Salaam iko karibu na ikweta, hivyo jua ni kali mwaka mzima. WHO inashauri kujikinga na jua kila kipimo cha UV kinapofika 3 au zaidi, na kupaka kinga ya jua ya wigo mpana kwenye ngozi isiyofunikwa na nguo; inaeleza kwamba watu wenye ngozi nyeusi pia hupata saratani ya ngozi, na kwamba wanaofanya kazi nje wako kwenye hatari kubwa zaidi. Jua pia huongeza weusi wa mabaka na rangi isiyo sawa ambayo vipele vya kunyoa huacha usoni. Kofia na kivuli huja kwanza; kinga ya jua hufunika uso, masikio na shingo. Inatumika pia kama losheni ya uso."
+     },
+     "qty": {
+      "en": "40 ml a month",
+      "sw": "ml 40 kwa mwezi"
+     },
+     "qty_formula": "about 1.25 ml a day for face, ears and neck × 30 days ≈ 40 ml (planning assumption; grams counted as ml)",
+     "units": 40,
+     "brands": [
+      {
+       "brand": "Disaar",
+       "product": "Soothing Aloe Vera Sunscreen Cream SPF 90",
+       "pack": "80 g",
+       "pack_units": 80,
+       "price_tsh": 15000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/aloe-vera-smoothing-suncream-90spf-80g",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "The listing does not state broad-spectrum (UVA) protection, and the SPF 90 claim is not independently checked; confirm the product’s TMDA notification before it is the default.",
+       "afya_choice": true,
+       "default": false
+      },
+      {
+       "brand": "Disaar",
+       "product": "High Protection Continuous Spray Sunscreen SPF 90",
+       "pack": "150 ml",
+       "pack_units": 150,
+       "price_tsh": 35000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/continuous-spray-sunscreen-90spf-150ml",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Same caution as the Disaar cream. A spray suits the scalp and arms.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Garnier",
+       "product": "Ambre Solaire Super UV serum SPF 50+",
+       "pack": "30 ml",
+       "pack_units": 30,
+       "price_tsh": 23583,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/cream-lotion/garnier-super-uv-serum-b30ml/p/242143",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1160,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price (KES 1,160, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nivea",
+       "product": "Sun Shine Control face SPF 50",
+       "pack": "40 ml",
+       "pack_units": 40,
+       "price_tsh": 24396,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/body-oil/nivea-sun-shine-control-spf-50/p/110539",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1200,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price (KES 1,200, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": true
+      },
+      {
+       "brand": "CeraVe",
+       "product": "AM Facial Moisturizing Lotion SPF 30",
+       "pack": "52 ml",
+       "pack_units": 52,
+       "price_tsh": 70000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/cerave-am-facial-moist-lotion",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Dermatologist brand in a higher price range: offered as a paid swap.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "lotion",
+     "kind": "goods",
+     "name": {
+      "en": "Body lotion",
+      "sw": "Losheni ya mwili"
+     },
+     "why": {
+      "en": "Frequent washing in heat strips the skin’s oils, and dry, “ashy” skin on the legs, arms and hands is common. The AAD advises men to moisturise after bathing, when the skin is still damp (not re-opened). Petroleum jelly is the cheapest option for very dry patches.",
+      "sw": "Kuoga mara kwa mara katika joto huondoa mafuta ya asili ya ngozi, na ngozi kavu yenye “ukavu mweupe” miguuni, mikononi na viganjani ni jambo la kawaida. AAD inawashauri wanaume kupaka losheni baada ya kuoga, ngozi ikiwa bado na unyevu kidogo (haujafunguliwa upya). Mafuta ya mgando (petroleum jelly) ndiyo njia nafuu zaidi kwa sehemu zilizokauka sana."
+     },
+     "qty": {
+      "en": "200 ml a month",
+      "sw": "ml 200 kwa mwezi"
+     },
+     "qty_formula": "about 6–7 ml after each morning shower × 30 days ≈ 200 ml (planning assumption)",
+     "units": 200,
+     "brands": [
+      {
+       "brand": "Nivea",
+       "product": "Men Cool Kick body lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 10897,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/body-lotion-creams/nivea-cool-kick-body-lotion-400ml/p/17077",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 536,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price (KES 536, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Vaseline",
+       "product": "Blue Seal petroleum jelly",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 2900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b942053c6d5732d0a3783",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Jelly rather than lotion; best for very dry skin.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dove",
+       "product": "Intensive Nourish Body Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 12700,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/630f80a1fa11de0a43b3ab91",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nivea",
+       "product": "Nourishing Body Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 13011,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/body-lotion-creams/nivea-nourishing-body-lotion-400ml/p/65515",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 640,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price (KES 640, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vaseline",
+       "product": "Intensive Care Dry Skin lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 14600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60c06eda753c0d1ace90a894",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "paste",
+     "kind": "goods",
+     "name": {
+      "en": "Fluoride toothpaste",
+      "sw": "Dawa ya meno yenye floraidi"
+     },
+     "why": {
+      "en": "WHO: adequate fluoride is essential against tooth decay, and twice-daily brushing with a fluoride toothpaste of 1,000–1,500 ppm should be encouraged. Gum disease is driven mainly by poor oral hygiene and tobacco use, and WHO links oral disease to the same risk factors as heart disease and diabetes. Only fluoride toothpastes are offered.",
+      "sw": "WHO: floraidi ya kutosha ni muhimu dhidi ya kuoza kwa meno, na kupiga mswaki mara mbili kwa siku kwa dawa ya meno yenye floraidi ya ppm 1,000–1,500 kunapaswa kuhimizwa. Magonjwa ya fizi husababishwa hasa na usafi duni wa kinywa na matumizi ya tumbaku, na WHO inahusisha magonjwa ya kinywa na vihatarishi vilevile vya magonjwa ya moyo na kisukari. Ni dawa za meno zenye floraidi tu zinazotolewa."
+     },
+     "qty": {
+      "en": "60 g a month",
+      "sw": "g 60 kwa mwezi"
+     },
+     "qty_formula": "2 brushings a day × about 1 g × 30 days = 60 g (planning assumption; ml counted as g); a new tube ships when the last runs low",
+     "units": 60,
+     "brands": [
+      {
+       "brand": "Colgate",
+       "product": "Maximum Protection toothpaste",
+       "pack": "140 g",
+       "pack_units": 140,
+       "price_tsh": 5900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026787c53c6d5732d0a35c5",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Whitedent",
+       "product": "Herbal Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 4100,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b959d53c6d5732d0a378c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Fluoride content not stated on the listing; offered only once the pack shows 1,000–1,500 ppm fluoride.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Sensodyne",
+       "product": "Extra Fresh toothpaste",
+       "pack": "75 ml",
+       "pack_units": 75,
+       "price_tsh": 5300,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b7d5a53c6d5732d0a3735",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "For sensitive teeth.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Colgate",
+       "product": "Natural Extracts Toothpaste",
+       "pack": "75 ml",
+       "pack_units": 75,
+       "price_tsh": 8500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/colgate-natural-extracts-toothpaste-75ml",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Higher price range; confirm fluoride content on the pack.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "brush",
+     "kind": "goods",
+     "name": {
+      "en": "Toothbrush, medium",
+      "sw": "Mswaki wa wastani"
+     },
+     "why": {
+      "en": "Brushing removes the plaque that causes decay and gum disease (WHO). A worn brush cleans poorly; the NHS advises a new brush every three months (not re-opened).",
+      "sw": "Kupiga mswaki huondoa utando unaosababisha kuoza kwa meno na magonjwa ya fizi (WHO). Mswaki uliochakaa husafisha vibaya; NHS inashauri mswaki mpya kila miezi mitatu (haujafunguliwa upya)."
+     },
+     "qty": {
+      "en": "1 brush every 3 months",
+      "sw": "Mswaki 1 kila miezi 3"
+     },
+     "qty_formula": "1 brush ÷ 3 months = 1/3 a month; charged for one month’s use, a brush ships every third box",
+     "units": 0.3333333333333333,
+     "brands": [
+      {
+       "brand": "Double Action",
+       "product": "Activated Charcoal Toothbrush, medium",
+       "pack": "1 brush",
+       "pack_units": 1,
+       "price_tsh": 2000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/charcoal-infused-double-action-toothbrush-medium",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Colgate",
+       "product": "Extra Clean toothbrush, medium",
+       "pack": "1 brush",
+       "pack_units": 1,
+       "price_tsh": 2900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026784453c6d5732d0a35c4",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Eco-Smile",
+       "product": "Essential Toothbrush with Tongue Scraper",
+       "pack": "1 brush",
+       "pack_units": 1,
+       "price_tsh": 3000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/eco-smile-essential-toothbrush-with-a-tongue-scraper",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Oral-B",
+       "product": "3-Effect toothbrush, medium",
+       "pack": "1 brush",
+       "pack_units": 1,
+       "price_tsh": 3200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b6ef453c6d5732d0a36fe",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "floss",
+     "kind": "goods",
+     "name": {
+      "en": "Dental floss",
+      "sw": "Uzi wa kusafishia kati ya meno"
+     },
+     "why": {
+      "en": "A toothbrush does not reach between the teeth, where gum disease often starts. The NHS advises cleaning between the teeth with floss or interdental brushes (not re-opened). Floss is the cheapest way to do it.",
+      "sw": "Mswaki haufikii katikati ya meno, mahali ambapo magonjwa ya fizi mara nyingi huanzia. NHS inashauri kusafisha katikati ya meno kwa uzi au brashi ndogo za kati ya meno (haujafunguliwa upya). Uzi ndiyo njia nafuu zaidi."
+     },
+     "qty": {
+      "en": "12 m a month",
+      "sw": "m 12 kwa mwezi"
+     },
+     "qty_formula": "about 40 cm a day × 30 days = 12 m; a 50 m dispenser lasts about 4 months, charged for one month’s use",
+     "units": 12,
+     "brands": [
+      {
+       "brand": "Sakura",
+       "product": "Mint Flavored Dental Floss",
+       "pack": "50 m",
+       "pack_units": 50,
+       "price_tsh": 5000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/dental-floss-mint-50m-sakura-1s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Oral-B",
+       "product": "Essential Floss, waxed mint",
+       "pack": "50 m",
+       "pack_units": 50,
+       "price_tsh": 11141,
+       "src": {
+        "name": "goodlife.co.ke",
+        "u": "https://www.goodlife.co.ke/product/oral-b-essential-floss-original-waxed/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 548,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price (KES 548, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Wisdom",
+       "product": "Dental floss",
+       "pack": "100 m",
+       "pack_units": 100,
+       "price_tsh": 17728,
+       "src": {
+        "name": "goodlife.co.ke",
+        "u": "https://www.goodlife.co.ke/product/wisdom-dental-floss-100m/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 872,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price (KES 872, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "luxury": [
+  {
+   "tier": "premium",
+   "name": {
+    "en": "A treat: Nivea Sensitive Cool after-shave balm 100 ml, each month",
+    "sw": "Zawadi: balm ya baada ya kunyoa Nivea Sensitive Cool ml 100, kila mwezi"
+   },
+   "price_tsh": 17000,
+   "src": {
+    "name": "Shoppers Supermarket",
+    "u": "https://www.shoppers.co.tz/product-detail/602a81cd53c6d5732d0a36eb",
+    "chk": "2026-11-10"
+   },
+   "status": "TZ"
+  },
+  {
+   "tier": "luxury",
+   "name": {
+    "en": "A treat: Bath & Body Works Men’s Graphite body spray 104 g, each month",
+    "sw": "Zawadi: spray ya mwili ya Bath & Body Works Men’s Graphite g 104, kila mwezi"
+   },
+   "price_tsh": 45742,
+   "orig": {
+    "cur": "KES",
+    "amount": 2250,
+    "rate": 20.33,
+    "date": "2026-11-10"
+   },
+   "src": {
+    "name": "portalpharmacy.ke",
+    "u": "https://portalpharmacy.ke/bath-body-works-men-s-graphite-body-spray",
+    "chk": "2026-11-10"
+   },
+   "status": "KE",
+   "note": "No Tanzanian listing found. Kenyan price KES 2,250 (regular KES 2,500) seen only in a search-result summary on 10 Nov 2026; the page itself could not be opened. Not re-checked."
+  }
+ ],
+ "services": [
+  "bp-check"
+ ],
+ "packing": {
+  "film": null
+ },
+ "open": [
+  {
+   "en": "Monthly home delivery does not pay its way on the 6- and 12-month plans: a basket of about TSh 40,000 cannot carry TSh 7,000 of packing and delivery at a 6–9% member saving. Proposed fix: collect the box in store at the monthly Afya Check, or take home delivery every two months; monthly home delivery on the 6- and 12-month plans needs a basket of at least TSh 56,900 (12 months) or 45,500 (6 months). Founder decision.",
+   "sw": "Kuleta sanduku nyumbani kila mwezi hakulipi gharama zake kwenye mipango ya miezi 6 na 12: kikapu cha takriban TSh 40,000 hakiwezi kubeba TSh 7,000 za kufunga na kusafirisha kwa punguzo la asilimia 6–9 kwa mwanachama. Pendekezo: kuchukua sanduku dukani wakati wa Afya Check ya kila mwezi, au kuletewa nyumbani kila baada ya miezi miwili; kuletewa kila mwezi kwenye mipango ya miezi 6 na 12 kunahitaji kikapu cha angalau TSh 56,900 (miezi 12) au 45,500 (miezi 6). Uamuzi wa mwanzilishi."
+  },
+  {
+   "en": "Thirteen brand rows are Kenyan shelf prices (seen 2 Nov 2026, converted at KES 20.33) and were not re-checked. No Tanzanian online listing of disposable razors was found on AfyaDepot or Shoppers, so every razor except the system cartridge is a Kenyan price.",
+   "sw": "Bei kumi na tatu za chapa ni bei za rafu za Kenya (zilionekana 2 Nov 2026, zimebadilishwa kwa KES 20.33) na hazijakaguliwa upya. Hakuna tangazo la mtandaoni la Tanzania la nyembe za kutupwa lililopatikana AfyaDepot wala Shoppers, hivyo nyembe zote isipokuwa vichwa vya mfumo ni bei za Kenya."
+  },
+  {
+   "en": "The default sunscreen (Disaar SPF 90) is the cheapest listed in Tanzania, but its listing does not state broad-spectrum protection. Confirm its TMDA notification and UVA protection, or move the default to a Nivea or Garnier SPF 50 (about TSh 24,000–31,000 a month).",
+   "sw": "Kinga ya jua ya msingi (Disaar SPF 90) ndiyo nafuu zaidi iliyotangazwa Tanzania, lakini tangazo lake halielezi kinga ya wigo mpana. Thibitisha usajili wake wa TMDA na kinga ya UVA, au badilisha chaguo la msingi kuwa Nivea au Garnier SPF 50 (takriban TSh 24,000–31,000 kwa mwezi)."
+  },
+  {
+   "en": "The luxury-tier price (Bath & Body Works) was seen only in a search-result summary; the Kenyan page could not be opened, and no Tanzanian seller was confirmed.",
+   "sw": "Bei ya daraja la Luxury (Bath & Body Works) ilionekana tu kwenye muhtasari wa matokeo ya utafutaji; ukurasa wa Kenya haukuweza kufunguliwa, na hakuna muuzaji wa Tanzania aliyethibitishwa."
+  },
+  {
+   "en": "Fewer than four brands were found for: floss (3). No brand was added to make up the number.",
+   "sw": "Chapa chini ya nne zilipatikana kwa: floss (3). Hakuna chapa iliyoongezwa ili kutimiza idadi."
+  },
+  {
+   "en": "Monthly quantities (shaves a week, gel per shave, soap per shower, sunscreen and lotion per day, toothpaste per brushing) are planning assumptions stated in each formula. They should be checked against the first members’ actual use.",
+   "sw": "Viasi vya kila mwezi (kunyoa kwa wiki, jeli kwa kila kunyoa, sabuni kwa kila kuoga, kinga ya jua na losheni kwa siku, dawa ya meno kwa kila kupiga mswaki) ni makisio ya mipango yaliyoelezwa kwenye kila hesabu. Yanapaswa kulinganishwa na matumizi halisi ya wanachama wa kwanza."
+  },
+  {
+   "en": "The Afya Check (blood pressure, weight and BMI) is free in store. Its referral rule and the partner clinic that confirms a raised reading are to be set in R2 and R7.",
+   "sw": "Afya Check (shinikizo la damu, uzito na BMI) ni bure dukani. Utaratibu wa kumpeleka mwanachama kliniki na kliniki mshirika itakayothibitisha kipimo cha juu vitapangwa kwenye R2 na R7."
+  },
+  {
+   "en": "Kiswahili terms are pending native review (see research/R6-afya-men.md).",
+   "sw": "Maneno ya Kiswahili yanasubiri kupitiwa na mzungumzaji asilia (tazama research/R6-afya-men.md)."
+  }
+ ]
+}
