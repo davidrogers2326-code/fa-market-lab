@@ -91,7 +91,7 @@ Bold with ◆ = default brand (headline price); ★ = Afya Choice (value brand).
 | 13 | Insecticide-treated mosquito net for the child’s bed | WHO names insecticide-treated nets as one of the two core ways to prevent malaria. Many nets sold in shops are untreated, so the first box of the first year brings one long-lasting treated net for the child’s own bed; it is replaced about every three years. | 1 net, first year only. *1 net per child; lasts about 3 years.* units = 1 | **[WHO-prequalified LLIN (brand to be quoted) Long-lasting insecticidal net, single bed](https://www.mdpi.com/2414-6366/10/6/175), 1 net — 10,000 (EST) ◆ ★** | WHO-prequalified LLIN (brand to be quoted) Long-lasting insecticidal net, single bed, 1 net |
 | 14 | Paracetamol syrup for fever or pain (partner pharmacy)<br>*kind: medicine — partner pharmacy, not priced in the box (B4)* | A bottle at home means a feverish child can be made comfortable at night. A fever in Tanzania still needs a malaria test the same day, at a clinic; paracetamol does not replace that. The dose depends on the child’s weight and is set by the pharmacist. Not priced in the box. | 1 bottle, once a year. *1 bottle for the year at home; dose by weight, set by the pharmacist.* units = 1 | **[Dolomol Paracetamol 125 mg/5 ml syrup](https://afyadepot.co.tz/product/dolomol), 1 bottle (size not stated on the page) — 2,000 (TZ) ◆ ★**<br>[Cetamol Paracetamol syrup for children](https://www.goodlife.co.ke/product/cetamol-syrup-100ml/), 100 ml — 2,806 (KE, KES 138)<br>[Calpol Paracetamol suspension](https://www.carrefour.ke/mafken/en/pain-relief/calpol-suspension-100ml/p/33885), 100 ml — 9,149 (KE, KES 450) | Dolomol Paracetamol 125 mg/5 ml syrup, 1 bottle (size not stated on the page) |
 
-### School-term box (March, July, September) (months Mar–Apr, Jul–Aug, Sep–Oct, box S, 3 boxes a year/cycle)
+### School-term box (March, July, September) (months Mar–Apr, Jul–Aug, Sep–Oct, box S, 3 boxes a year)
 
 | # | Item | Why (guidance) | Quantity in this box, and formula | Brand choices: product, pack — TSh (status) | Afya Choice |
 |---|---|---|---|---|---|
@@ -105,7 +105,7 @@ Bold with ◆ = default brand (headline price); ★ = Afya Choice (value brand).
 | 8 | Exercise books | As above. | 4 books (two school months). *2 books a school month × 2 (planning assumption).* units = 4 | **Academy Exercise Book 100 pages** ◆ (choices as above) | Kasuku Exercise book, single line, A5, 200 pages, 1 book |
 | 9 | Pencils, or pens for older pupils | As above. | 4 pencils (two school months). *2 pencils a school month × 2.* units = 4 | **Generic Pencils Packet 621** ◆ (choices as above) | Pecker HB pencils with eraser, 3 pencils |
 
-### Holiday box (May and November) (months May–Jun, Nov–Dec, box S, 2 boxes a year/cycle)
+### Holiday box (May and November) (months May–Jun, Nov–Dec, box S, 2 boxes a year)
 
 | # | Item | Why (guidance) | Quantity in this box, and formula | Brand choices: product, pack — TSh (status) | Afya Choice |
 |---|---|---|---|---|---|
@@ -244,7 +244,7 @@ Plainly: **no.** Monthly delivery loses money on every plan.
 
 **Result.** One box every two months, packed with two months of goods. Delivered on its own it pays its way on every plan except: Holiday box (May and November) on the 12-month plan. Those boxes ride inside another Afya box delivered to the same household (one delivery, no extra delivery cost) or are collected in store. Monthly delivery is not offered: a one-month basket cannot carry packing and delivery.
 
-Over a year of boxes delivered on their own (first box once, then the boxes a year shown in section 6), the margin is 29,862 (1-month), 21,942 (6-month), 12,042 (12-month); with the failing boxes riding, every box is positive. Margins stay thin (1–7% of price on recurring boxes); they turn negative if goods land above about 80–82% of shelf instead of 78%.
+Over a school year of six boxes delivered on their own (the January box, three term boxes and two holiday boxes), the margin is 29,862 (1-month), 21,942 (6-month), 12,042 (12-month); with the failing boxes riding, every box is positive. Margins stay thin on recurring boxes (5.0% / 2.9% of price on the 6-month plan delivered alone). Landed-cost share of shelf at which the margin reaches 0, now about 72% / 75%: 6-month alone 77% / 78%; 12-month riding 82% / 82%. Supplier quotes decide whether these hold.
 
 ## 8. Open items
 

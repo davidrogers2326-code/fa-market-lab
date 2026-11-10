@@ -91,7 +91,7 @@ Bold with ◆ = default brand (headline price); ★ = Afya Choice (value brand).
 | 13 | Insecticide-treated mosquito net for his own bed | WHO names insecticide-treated nets as one of the two core ways to prevent malaria, and many nets in shops are untreated. The first box brings one long-lasting treated net; it is replaced about every three years. | 1 net, first box only. *1 net per teenager; lasts about 3 years.* units = 1 | **[WHO-prequalified LLIN (brand to be quoted) Long-lasting insecticidal net, single bed](https://www.mdpi.com/2414-6366/10/6/175), 1 net — 10,000 (EST) ◆ ★** | WHO-prequalified LLIN (brand to be quoted) Long-lasting insecticidal net, single bed, 1 net |
 | 14 | Benzoyl peroxide 2.5% acne gel (partner pharmacy, if needed)<br>*kind: medicine — partner pharmacy, not priced in the box (B4)* | For spots that a gentle wash alone does not settle, a thin layer of benzoyl peroxide 2.5% once a day is the usual first treatment; it takes six to eight weeks to work and can bleach fabric. It is a pharmacy product: the partner pharmacist decides whether it suits, and it is not priced in the box. | 1 tube (20 g) for two months, if advised. *a thin layer once a day ≈ 0.3 g × 60 days ≈ 20 g; only if the pharmacist advises.* units = 20 | **[Persol 2.5% Benzoyl Peroxide Acne Gel](https://afyadepot.co.tz/product/persol-benzyl-peroxide-2-5-gel-20g), 20 g — 5,000 (TZ) ◆ ★**<br>[Benzox 2.5% Benzoyl Peroxide Acne Gel](https://afyadepot.co.tz/product/benzox-benzyl-peroxide-2-5-gel-10g), 10 g — 3,500 (TZ)<br>[PanOxyl Acne Foaming Wash](https://afyadepot.co.tz/product/panoxyl-acne-forming-wash-150g), 150 g — 35,000 (TZ) | Persol 2.5% Benzoyl Peroxide Acne Gel, 20 g |
 
-### Every two months · ages 12–14 (months 3–36, box S, 6 boxes a year/cycle)
+### Every two months · ages 12–14 (months 3–36, box S, 6 boxes a year)
 
 | # | Item | Why (guidance) | Quantity in this box, and formula | Brand choices: product, pack — TSh (status) | Afya Choice |
 |---|---|---|---|---|---|
@@ -105,7 +105,7 @@ Bold with ◆ = default brand (headline price); ★ = Afya Choice (value brand).
 | 8 | Mosquito repellent for the evening | As above. | 2 packs (one a month). *1 pack planned to last one month of evening use × 2 months (planning assumption).* units = 2 | **Odomos Roll On** ◆ (choices as above) | Odomos Roll On, 50 g |
 | 9 | Benzoyl peroxide 2.5% acne gel (partner pharmacy, if needed)<br>*kind: medicine — partner pharmacy, not priced in the box (B4)* | As above. | 1 tube (20 g) for two months, if advised. *a thin layer once a day ≈ 0.3 g × 60 days ≈ 20 g; only if the pharmacist advises.* units = 20 | **Persol 2.5% Benzoyl Peroxide Acne Gel** ◆ (choices as above) | Persol 2.5% Benzoyl Peroxide Acne Gel, 20 g |
 
-### Every two months · ages 15–18, first shave (months 37–84, box S, 6 boxes a year/cycle)
+### Every two months · ages 15–18, first shave (months 37–84, box S, 6 boxes a year)
 
 | # | Item | Why (guidance) | Quantity in this box, and formula | Brand choices: product, pack — TSh (status) | Afya Choice |
 |---|---|---|---|---|---|
@@ -241,7 +241,7 @@ Plainly: **no.** Monthly delivery loses money on every plan.
 
 **Result.** One box every two months, packed with two months of goods. Delivered on its own it pays its way on every plan except: Every two months · ages 12–14 on the 12-month plan; Every two months · ages 15–18, first shave on the 12-month plan. Those boxes ride inside another Afya box delivered to the same household (one delivery, no extra delivery cost) or are collected in store. Monthly delivery is not offered: a one-month basket cannot carry packing and delivery.
 
-Over a year of boxes delivered on their own (first box once, then the boxes a year shown in section 6), the margin is 38,553 (1-month), 18,258 (6-month), -2,037 (12-month); with the failing boxes riding, every box is positive. Margins stay thin (1–7% of price on recurring boxes); they turn negative if goods land above about 80–82% of shelf instead of 78%.
+Over the first year of six boxes delivered on their own (the first box, then five recurring boxes), the margin is 23,459 (1-month), 13,559 (6-month), 3,659 (12-month); with the failing boxes riding, every box is positive. Margins stay thin on recurring boxes (0.5% / 1.5% of price on the 6-month plan delivered alone). Landed-cost share of shelf at which the margin reaches 0, now about 78% / 78%: 6-month alone 78% / 79%; 12-month riding 83% / 83%. Supplier quotes decide whether these hold.
 
 ## 8. Open items
 

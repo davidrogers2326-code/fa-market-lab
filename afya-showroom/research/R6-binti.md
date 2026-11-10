@@ -68,7 +68,7 @@ Binti ni sanduku la msichana balehe, kuanzia takriban miaka 10, karibu na hedhi 
 
 | Code | Now | Why |
 |---|---|---|
-| `pads` 20 day + 6 night a cycle, `rpad` reusable pads, `lin` liners, `wipe` intimate wipes, `tis` tissues | 30 day + 10 night pads per two-month box (two cycles), sealable bags; reusable pads, liners, wipes and tissues dropped | Period items kept modest; Afya Siku is the full period box. NHS advice: no wipes needed |
+| `pads` 20 day + 6 night a cycle, `rpad` reusable pads, `lin` liners, `wipe` intimate wipes, `tis` tissues | 30 day + 10 night pads per two-month box (two cycles), sealable bags; reusable pads, liners, wipes and tissues dropped | Period items kept modest; Afya Siku is the full period box. NHS advice (cited in the code, not re-opened): the vulva needs only water and mild soap, no wipes |
 | `pain` (ibuprofen) and `iron` (weekly IFA) priced as goods; `spot` (benzoyl peroxide) priced | `kind: "medicine"`, partner pharmacy, not priced | B4 |
 | `zaw` quarterly gift, `scent` body mist | Premium (lip balm) and luxury (body mist) lines | D4 |
 | Monthly box | Every two months | The monthly basket is about TSh 27,700 and loses money on every plan |
@@ -100,7 +100,7 @@ Bold with ◆ = default brand (headline price); ★ = Afya Choice (value brand).
 | 16 | Ibuprofen for period pain (partner pharmacy, on advice)<br>*kind: medicine — partner pharmacy, not priced in the box (B4)* | An anti-inflammatory such as ibuprofen, taken with food at the start of the pain, works better than paracetamol for period cramps (Cochrane review, as cited in the code). Pain that keeps her off school even with tablets needs a clinic. Supplied by the partner pharmacy only; not priced in the box. | 10 capsules for two cycles, if advised. *up to 3 a day on 1–2 days a cycle × 2 cycles ≈ 10; dose set by the pharmacist.* units = 10 | **[Gofen Ibuprofen 200 mg capsules](https://afyadepot.co.tz/product/gofen-200-capsules-10s), 10 capsules — 6,000 (TZ) ◆ ★**<br>[Nurofen Ibuprofen 200 mg caplets](https://www.goodlife.co.ke/product/nurofen-200mg-caplets-16s/), 16 caplets — 21,123 (KE, KES 1,039)<br>[Panadol Advance Paracetamol 500 mg caplets (if ibuprofen does not suit)](https://afyadepot.co.tz/product/panadol-advance-500mg-caplet), 10 caplets — 1,500 (TZ) | Gofen Ibuprofen 200 mg capsules, 10 capsules |
 | 17 | Benzoyl peroxide 2.5% acne gel (partner pharmacy, if needed)<br>*kind: medicine — partner pharmacy, not priced in the box (B4)* | For spots that a gentle wash alone does not settle, a thin layer of benzoyl peroxide 2.5% once a day is the usual first treatment; it takes six to eight weeks to work and can bleach fabric. It is a pharmacy product: the partner pharmacist decides whether it suits, and it is not priced in the box. | 1 tube (20 g) for two months, if advised. *a thin layer once a day ≈ 0.3 g × 60 days ≈ 20 g; only if the pharmacist advises.* units = 20 | **[Persol 2.5% Benzoyl Peroxide Acne Gel](https://afyadepot.co.tz/product/persol-benzyl-peroxide-2-5-gel-20g), 20 g — 5,000 (TZ) ◆ ★**<br>[Benzox 2.5% Benzoyl Peroxide Acne Gel](https://afyadepot.co.tz/product/benzox-benzyl-peroxide-2-5-gel-10g), 10 g — 3,500 (TZ)<br>[PanOxyl Acne Foaming Wash](https://afyadepot.co.tz/product/panoxyl-acne-forming-wash-150g), 150 g — 35,000 (TZ) | Persol 2.5% Benzoyl Peroxide Acne Gel, 20 g |
 
-### Every two months after that (months 3–96, box S, 6 boxes a year/cycle)
+### Every two months after that (months 3–96, box S, 6 boxes a year)
 
 | # | Item | Why (guidance) | Quantity in this box, and formula | Brand choices: product, pack — TSh (status) | Afya Choice |
 |---|---|---|---|---|---|
@@ -220,7 +220,7 @@ Plainly: **no.** Monthly delivery loses money on every plan.
 
 **Result.** One box every two months, packed with two months of goods. Delivered on its own it pays its way on every plan except: Every two months after that on the 12-month plan. Those boxes ride inside another Afya box delivered to the same household (one delivery, no extra delivery cost) or are collected in store. Monthly delivery is not offered: a one-month basket cannot carry packing and delivery.
 
-Over a year of boxes delivered on their own (first box once, then the boxes a year shown in section 6), the margin is 31,184 (1-month), 16,829 (6-month), 5,939 (12-month); with the failing boxes riding, every box is positive. Margins stay thin (1–7% of price on recurring boxes); they turn negative if goods land above about 80–82% of shelf instead of 78%.
+Over the first year of six boxes delivered on their own (the first box, then five recurring boxes), the margin is 27,732 (1-month), 15,357 (6-month), 5,952 (12-month); with the failing boxes riding, every box is positive. Margins stay thin on recurring boxes (2.8% of price on the 6-month plan delivered alone). Landed-cost share of shelf at which the margin reaches 0, now about 78%: 6-month alone 80%; 12-month riding 84%. Supplier quotes decide whether these hold.
 
 ## 8. Open items
 

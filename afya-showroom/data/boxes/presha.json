@@ -964,6 +964,22 @@
      "kind": "goods",
      "brands": [
       {
+       "brand": "Munawar",
+       "product": "Cashew nuts, unsalted",
+       "pack": "500 g",
+       "pack_units": 500,
+       "price_tsh": 19800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/638a2bd7fa11de0a43b3dcd1",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
        "brand": "Shoppers Royal",
        "product": "Cashew nuts",
        "pack": "500 g",
@@ -977,22 +993,6 @@
        "orig": null,
        "status": "TZ",
        "note": "The page does not say salted or unsalted; confirm the plain pack in store.",
-       "afya_choice": true,
-       "default": true
-      },
-      {
-       "brand": "Munawar",
-       "product": "Cashew nuts, unsalted",
-       "pack": "500 g",
-       "pack_units": 500,
-       "price_tsh": 19800,
-       "src": {
-        "name": "Shoppers Supermarket",
-        "u": "https://www.shoppers.co.tz/product-detail/638a2bd7fa11de0a43b3dcd1",
-        "chk": "2026-11-10"
-       },
-       "orig": null,
-       "status": "TZ",
        "afya_choice": false,
        "default": false
       },
@@ -1689,6 +1689,22 @@
      "kind": "goods",
      "brands": [
       {
+       "brand": "Munawar",
+       "product": "Cashew nuts, unsalted",
+       "pack": "500 g",
+       "pack_units": 500,
+       "price_tsh": 19800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/638a2bd7fa11de0a43b3dcd1",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
        "brand": "Shoppers Royal",
        "product": "Cashew nuts",
        "pack": "500 g",
@@ -1702,22 +1718,6 @@
        "orig": null,
        "status": "TZ",
        "note": "The page does not say salted or unsalted; confirm the plain pack in store.",
-       "afya_choice": true,
-       "default": true
-      },
-      {
-       "brand": "Munawar",
-       "product": "Cashew nuts, unsalted",
-       "pack": "500 g",
-       "pack_units": 500,
-       "price_tsh": 19800,
-       "src": {
-        "name": "Shoppers Supermarket",
-        "u": "https://www.shoppers.co.tz/product-detail/638a2bd7fa11de0a43b3dcd1",
-        "chk": "2026-11-10"
-       },
-       "orig": null,
-       "status": "TZ",
        "afya_choice": false,
        "default": false
       },
@@ -2121,8 +2121,8 @@
    "sw": "Vijiko vya kupimia, visanduku vya vidonge, unga wa kitunguu saumu na tangawizi, karanga na baadhi ya betri vina bei za Kenya tu (zilionekana 2 Nov 2026), hazijakaguliwa upya."
   },
   {
-   "en": "The later 3-month box has a thin margin on the 12-month plan; it turns negative if goods land above about 82% of the shelf price.",
-   "sw": "Sanduku la miezi 3 linalofuata lina faida ndogo kwenye mpango wa miezi 12; inakuwa hasara bidhaa zikifika kwa zaidi ya takriban 82% ya bei ya rafu."
+   "en": "The later 3-month box has a thin margin on the 12-month plan; it turns negative if goods land above about 83% of the shelf price.",
+   "sw": "Sanduku la miezi 3 linalofuata lina faida ndogo kwenye mpango wa miezi 12; inakuwa hasara bidhaa zikifika kwa zaidi ya takriban 83% ya bei ya rafu."
   },
   {
    "en": "The services afya-check and kidney-profile-test still need entries and partner prices in the services list.",
