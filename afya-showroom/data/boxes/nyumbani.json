@@ -1,0 +1,3727 @@
+{
+ "slug": "nyumbani",
+ "name": {
+  "en": "Nyumbani",
+  "sw": "Nyumbani"
+ },
+ "final": false,
+ "delivery": "monthly",
+ "box_size": "S",
+ "who": {
+  "en": "<p>For a household in Dar es Salaam: a small household of two or three people, or a family of five or six. The box brings, every month, what a home uses to keep hands washed, drinking water safe, mosquitoes off the family and the toilet, kitchen and floors clean, with a small first-aid refill. The first box also brings treated nets, a first-aid box and a thermometer.</p><p>It is built on WHO guidance. Contaminated drinking water causes about 505,000 diarrhoeal deaths a year, and safe water, sanitation and hygiene are essential to prevent cholera. Chlorinating stored water at home was the main household defence in Tanzania’s cholera epidemic. For malaria, WHO advises sleeping under a treated net, with repellent and other measures in the evening. WHO’s Five Keys to Safer Food start with keeping hands, surfaces and dishes clean.</p><p>Quantities are measured to the month for the size of the household. Afya does not sell medicines: the oral rehydration salts in the first-aid box come from the licensed partner pharmacy.</p>",
+  "sw": "<p>Kwa kaya ya Dar es Salaam: kaya ndogo ya watu wawili au watatu, au familia ya watu watano au sita. Kila mwezi boksi linaleta kile ambacho nyumba hutumia kunawa mikono, kuweka maji ya kunywa salama, kuzuia mbu kwa familia na kuweka choo, jiko na sakafu safi, pamoja na kujaza kidogo sanduku la huduma ya kwanza. Boksi la kwanza pia linaleta vyandarua vyenye dawa, sanduku la huduma ya kwanza na kipimajoto.</p><p>Limejengwa juu ya miongozo ya WHO. Maji machafu ya kunywa husababisha vifo takriban 505,000 vya kuharisha kila mwaka, na maji salama, usafi wa mazingira na usafi binafsi ni muhimu kuzuia kipindupindu. Kutia klorini maji yaliyohifadhiwa nyumbani ndiyo ilikuwa kinga kuu ya kaya wakati wa mlipuko wa kipindupindu Tanzania. Kuhusu malaria, WHO inashauri kulala ndani ya chandarua chenye dawa, pamoja na dawa ya kufukuza mbu na hatua nyingine jioni. Funguo Tano za WHO za Chakula Salama zinaanza na kuweka mikono, sehemu na vyombo safi.</p><p>Kiasi kimepimwa kwa mwezi kulingana na ukubwa wa kaya. Afya haiuzi dawa: chumvi za kurudisha maji mwilini zilizo kwenye sanduku la huduma ya kwanza zinatoka kwa famasia mshirika yenye leseni.</p>"
+ },
+ "clinic_line": {
+  "en": "First aid is for small injuries only. For a fever, test for malaria at a health facility; for a deep wound, a burn larger than the palm, or diarrhoea with weakness, go to a clinic straight away. Any medicine comes from the licensed partner pharmacy, as a clinician advises.",
+  "sw": "Huduma ya kwanza ni kwa majeraha madogo tu. Ukiwa na homa, pima malaria kituo cha afya; kwa jeraha kubwa, jeraha la moto kubwa kuliko kiganja, au kuharisha pamoja na udhaifu, nenda kliniki mara moja. Dawa yoyote inatoka kwa famasia mshirika yenye leseni, kama mtaalamu wa afya anavyoshauri."
+ },
+ "guidance": [
+  {
+   "t": "WHO fact sheet, Malaria (nets, repellents with DEET, IR3535 or icaridin, coils and vaporizers; ITNs and IRS as the two core vector controls)",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet, Drinking-water (about 505,000 diarrhoeal deaths a year from contaminated drinking water; household water treatment scheme)",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/drinking-water",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet, Cholera (safe water, sanitation and hygiene essential; most cases treated with oral rehydration solution)",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/cholera",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO 2006, Five keys to safer food manual (keep clean; separate raw and cooked; cook thoroughly; safe temperatures; safe water and raw materials)",
+   "u": "https://www.who.int/publications/i/item/9789241594639",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet, Burns (first aid: cool running water about 20 minutes; clean non-adherent dressing)",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/burns",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "CDC MMWR 65(41), 2016: chlorination of drinking water during the cholera epidemic in Tanzania. Cited from the old code; not re-opened",
+   "u": "https://www.cdc.gov/mmwr/volumes/65/wr/mm6541a6.htm",
+   "chk": "2026-11-02"
+  },
+  {
+   "t": "WaterGuard liquid instructions in Kiswahili (FHI 360 / PSI): one capful per 20 L, wait 30 minutes. Cited from the old code; not re-opened",
+   "u": "https://hip.fhi360.org/file/26883/Waterguard_Liquid_Instructions_CC_-_Kiswahili.pdf",
+   "chk": "2026-11-02"
+  }
+ ],
+ "stages": [
+  {
+   "key": "small",
+   "label": {
+    "en": "Small household (2–3 people)",
+    "sw": "Kaya ndogo (watu 2–3)"
+   },
+   "months": "12",
+   "box_size": "S",
+   "items": [
+    {
+     "key": "hand",
+     "name": {
+      "en": "Liquid hand soap for the sink",
+      "sw": "Sabuni ya maji ya kunawa mikono"
+     },
+     "why": {
+      "en": "Handwashing with soap is the first barrier against diarrhoea and cholera. WHO names safe water, sanitation and hygiene as essential to prevent cholera. A pump at the sink makes it easy to wash after the toilet and before food.",
+      "sw": "Kunawa mikono kwa sabuni ni kinga ya kwanza dhidi ya kuharisha na kipindupindu. WHO inataja maji salama, usafi wa mazingira na usafi binafsi kuwa muhimu kuzuia kipindupindu. Sabuni ya pampu kwenye sinki hurahisisha kunawa baada ya choo na kabla ya kula."
+     },
+     "qty": {
+      "en": "About 540 ml a month",
+      "sw": "Takriban ml 540 kwa mwezi"
+     },
+     "qty_formula": "3 people × 6 washes a day × 1 ml × 30 days = 540 ml (planning assumption: one pump ≈ 1 ml)",
+     "units": 540,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Hobby",
+       "product": "Hobby Liquid Soap",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 3500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a420353c6d5732d0a3659",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Biox",
+       "product": "Biox liquid hand soap",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 1800,
+       "src": {
+        "name": "Superstore Tanzania",
+        "u": "https://superstore.co.tz/shop/all-products/biox-liquid-hand-soap-rose-500ml/",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Tanzanian listing from the 2 Nov 2026 code row; not re-opened (host refused by this session’s network proxy on 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Savlon",
+       "product": "Savlon Germ Protection Hand Wash",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 6200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b7fe153c6d5732d0a373f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dettol",
+       "product": "Dettol liquid handwash Original",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 15247,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/liquid-soap-antibacterial/dettol-hand-wash-original-400ml/p/53700",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 750,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "bar",
+     "name": {
+      "en": "Bath soap bars",
+      "sw": "Sabuni za kuogea"
+     },
+     "why": {
+      "en": "Daily bathing with soap prevents skin infections and scabies, which spread in shared homes. One 175 g bar per person a month.",
+      "sw": "Kuoga kila siku kwa sabuni huzuia maambukizi ya ngozi na upele, ambao huenea katika nyumba za pamoja. Kipande kimoja cha g 175 kwa kila mtu kwa mwezi."
+     },
+     "qty": {
+      "en": "3 bars a month",
+      "sw": "Vipande 3 kwa mwezi"
+     },
+     "qty_formula": "1 bar of 175 g per person a month × 3 people (planning assumption)",
+     "units": 3,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Imperial Leather",
+       "product": "Imperial Leather Soap",
+       "pack": "175 g",
+       "pack_units": 1,
+       "price_tsh": 2600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a459853c6d5732d0a3666",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Fa",
+       "product": "Fa Soap",
+       "pack": "175 g",
+       "pack_units": 1,
+       "price_tsh": 2600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a2ea553c6d5732d0a3616",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Lifebuoy",
+       "product": "Lifebuoy Soap",
+       "pack": "175 g",
+       "pack_units": 1,
+       "price_tsh": 3500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6a6dd151d4b3dce59b40cc2f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dettol",
+       "product": "Dettol Soap",
+       "pack": "175 g",
+       "pack_units": 1,
+       "price_tsh": 4500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602683c353c6d5732d0a35e6",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "water",
+     "name": {
+      "en": "Drinking-water treatment",
+      "sw": "Dawa ya kutibu maji ya kunywa"
+     },
+     "why": {
+      "en": "WHO estimates that contaminated drinking water causes about 505,000 diarrhoeal deaths a year. Chlorinating stored water at home was the key household defence in Tanzania’s cholera epidemic (CDC MMWR 2016). WaterGuard: one capful per 20 L, wait 30 minutes.",
+      "sw": "WHO inakadiria kuwa maji machafu ya kunywa husababisha vifo takriban 505,000 vya kuharisha kila mwaka. Kutia klorini maji yaliyohifadhiwa nyumbani ndiyo ilikuwa kinga kuu wakati wa mlipuko wa kipindupindu Tanzania (CDC MMWR 2016). WaterGuard: kifuniko kimoja kwa lita 20, subiri dakika 30."
+     },
+     "qty": {
+      "en": "Enough to treat about 450 litres a month (one bottle every two months)",
+      "sw": "Inatosha kutibu takriban lita 450 kwa mwezi (chupa moja kila miezi miwili)"
+     },
+     "qty_formula": "3 people × 5 L a day for drinking and cooking × 30 days = 450 L; one 150 ml bottle treats about 1,000 L (planning assumption: 5 L per person per day)",
+     "units": 450,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "WaterGuard",
+       "product": "Drinking-water treatment (sodium hypochlorite)",
+       "pack": "150 ml, treats about 1,000 L",
+       "pack_units": 1000,
+       "price_tsh": 6099,
+       "src": {
+        "name": "Jumia Kenya",
+        "u": "https://www.jumia.co.ke/waterguard-drinking-water-purifier-58949465.html",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 300,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Aquatabs",
+       "product": "67 mg water purification tablets (1 tablet per 20 L)",
+       "pack": "100 tablets, treats 2,000 L",
+       "pack_units": 2000,
+       "price_tsh": 10165,
+       "src": {
+        "name": "Jumia Kenya",
+        "u": "https://www.jumia.co.ke/aquatabs-67mg-water-purification-tablets-pack-of-100-330120133.html",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 500,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "rep",
+     "name": {
+      "en": "Mosquito repellent for the evening",
+      "sw": "Dawa ya kufukuza mbu ya jioni"
+     },
+     "why": {
+      "en": "WHO advises sleeping under a net and using repellents containing DEET, IR3535 or icaridin after dusk. Repellent protects the evening hours before bed, when people sit outside.",
+      "sw": "WHO inashauri kulala ndani ya chandarua na kutumia dawa za kufukuza mbu zenye DEET, IR3535 au icaridin baada ya jua kuzama. Dawa hii inalinda saa za jioni kabla ya kulala, watu wanapokaa nje."
+     },
+     "qty": {
+      "en": "1 pack a month",
+      "sw": "Pakiti 1 kwa mwezi"
+     },
+     "qty_formula": "1 pack per 2–3 people a month, applied to exposed skin each evening (planning estimate; check the active ingredient on each pack)",
+     "units": 1,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Odomos",
+       "product": "Odomos Roll On",
+       "pack": "50 g",
+       "pack_units": 1,
+       "price_tsh": 4600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b6d4553c6d5732d0a36f8",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "No-Bite",
+       "product": "Nobite Roll On Insect Repellent",
+       "pack": "40 ml",
+       "pack_units": 1,
+       "price_tsh": 8200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b993f53c6d5732d0a379e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "No-Bite",
+       "product": "No-Bite Mosquito Repellent Roll-On",
+       "pack": "45 ml",
+       "pack_units": 1,
+       "price_tsh": 9000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/mosquito-repellent-roll-on-no-bite-45m",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Peaceful Sleep",
+       "product": "Peaceful Sleep Stick Roll On",
+       "pack": "30 ml",
+       "pack_units": 1,
+       "price_tsh": 9500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b71ec53c6d5732d0a370e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "No-Bite",
+       "product": "No-bite Spray Insect Repellent",
+       "pack": "120 ml",
+       "pack_units": 1,
+       "price_tsh": 10600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/604f5e82da3fef0287051085",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "spray",
+     "name": {
+      "en": "Room insect spray, before bedtime",
+      "sw": "Dawa ya kupuliza wadudu chumbani, kabla ya kulala"
+     },
+     "why": {
+      "en": "Kills mosquitoes resting indoors before the family goes to bed. It is not indoor residual spraying, which WHO names as one of the two core vector controls with treated nets; it adds to the net and never replaces it.",
+      "sw": "Huua mbu waliojificha ndani kabla familia haijalala. Si upuliziaji wa ukoko wa dawa ndani ya nyumba, ambao WHO inautaja kama mojawapo ya kinga kuu mbili pamoja na vyandarua vyenye dawa; ni nyongeza kwa chandarua, si mbadala wake."
+     },
+     "qty": {
+      "en": "About 250 ml a month (one can every three months)",
+      "sw": "Takriban ml 250 kwa mwezi (kopo moja kila miezi mitatu)"
+     },
+     "qty_formula": "2 bedrooms × about 4 ml a night × 30 nights ≈ 250 ml (planning estimate)",
+     "units": 250,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Hit",
+       "product": "Hit Insect Spray",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 7500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a3e9853c6d5732d0a364d",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Rungu",
+       "product": "Rungu mosquito spray",
+       "pack": "850 ml",
+       "pack_units": 850,
+       "price_tsh": 8200,
+       "src": {
+        "name": "Superstore Tanzania",
+        "u": "https://superstore.co.tz/shop/all-products/rungu-mosquito-spray-850ml/",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Tanzanian listing from the 2 Nov 2026 code row; not re-opened (host refused by this session’s network proxy on 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vape",
+       "product": "Vape A1 Mosquito Spray",
+       "pack": "600 ml",
+       "pack_units": 600,
+       "price_tsh": 9300,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6867b384914cc5c6cdeaf5cc",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Mortein",
+       "product": "Mortein Doom Fast Kill",
+       "pack": "600 ml",
+       "pack_units": 600,
+       "price_tsh": 12000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/65cf814b0eb6b270e24f70c7",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Mortein",
+       "product": "Mortein Doom Odorless",
+       "pack": "600 ml",
+       "pack_units": 600,
+       "price_tsh": 14500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a795b53c6d5732d0a36c8",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "bleach",
+     "name": {
+      "en": "Bleach for the toilet, drains and disinfecting",
+      "sw": "Bleach ya choo, mifereji na kuua vijidudu"
+     },
+     "why": {
+      "en": "Chlorine bleach disinfects the toilet, the latrine slab and surfaces soiled by a sick person, the household steps used against cholera.",
+      "sw": "Bleach yenye klorini huua vijidudu chooni, kwenye sakafu ya choo na sehemu zilizochafuliwa na mgonjwa; hizi ndizo hatua za nyumbani dhidi ya kipindupindu."
+     },
+     "qty": {
+      "en": "750 ml a month",
+      "sw": "Ml 750 kwa mwezi"
+     },
+     "qty_formula": "About 25 ml a day for the toilet and floors × 30 days = 750 ml (planning estimate)",
+     "units": 750,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Omo",
+       "product": "Omo Bleach",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 5500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b6f2153c6d5732d0a36ff",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Domestos",
+       "product": "Domestos Pine Fresh Bleach",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 6800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026845c53c6d5732d0a35e8",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Jik",
+       "product": "Jik Bleach Regular",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 8200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a58b953c6d5732d0a366e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Clorox",
+       "product": "Clorox Regular liquid bleach",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 7359,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/bleach/clorox-regular-750ml/p/48592",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 362,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "surf",
+     "name": {
+      "en": "Floor and surface disinfectant",
+      "sw": "Dawa ya kusafisha sakafu na meza"
+     },
+     "why": {
+      "en": "Clean surfaces are the first of WHO’s Five Keys to Safer Food: keep clean. Diluted pine disinfectant cleans floors, tables and the kitchen counter.",
+      "sw": "Sehemu safi ndiyo ufunguo wa kwanza kati ya Funguo Tano za WHO za Chakula Salama: weka usafi. Dawa ya kusafisha iliyochanganywa na maji husafisha sakafu, meza na kaunta ya jikoni."
+     },
+     "qty": {
+      "en": "500 ml a month",
+      "sw": "Ml 500 kwa mwezi"
+     },
+     "qty_formula": "About 17 ml of concentrate a day, diluted in a bucket × 30 days ≈ 500 ml (planning estimate)",
+     "units": 500,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Lit",
+       "product": "Lit Pine Disinfectant",
+       "pack": "5 L",
+       "pack_units": 5000,
+       "price_tsh": 11900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/604f53e6da3fef028705106c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Lit",
+       "product": "Lit household disinfectant, pine",
+       "pack": "1 L",
+       "pack_units": 1000,
+       "price_tsh": 2700,
+       "src": {
+        "name": "Superstore Tanzania",
+        "u": "https://superstore.co.tz/shop/all-products/lit-household-cleaner-disinfectant-pine-fresh-1ltr/",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Tanzanian listing from the 2 Nov 2026 code row; not re-opened (host refused by this session’s network proxy on 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Handy Andy",
+       "product": "Handy Andy All Purpose, Ocean",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 10000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/68a07c9126163eea42517723",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dettol",
+       "product": "Dettol Kitchen Cleaner Spray",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 16500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026833f53c6d5732d0a35e4",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Astonish",
+       "product": "Astonish anti-bacterial surface cleaner",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 12910,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/antiseptic-disinfectant/astonish-anti-b-surface-cl-t750ml/p/22977",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 635,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "dish",
+     "name": {
+      "en": "Dishwashing liquid",
+      "sw": "Sabuni ya kuoshea vyombo"
+     },
+     "why": {
+      "en": "Washing plates, cups and cooking pots well stops food-borne germs passing from one meal to the next (WHO Five Keys: keep clean).",
+      "sw": "Kuosha sahani, vikombe na sufuria vizuri huzuia vijidudu vya chakula kupita kutoka mlo mmoja hadi mwingine (Funguo Tano za WHO: weka usafi)."
+     },
+     "qty": {
+      "en": "750 ml a month",
+      "sw": "Ml 750 kwa mwezi"
+     },
+     "qty_formula": "About 25 ml a day × 30 days = 750 ml (planning estimate)",
+     "units": 750,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Sunlight",
+       "product": "Sunlight Dishwashing Liquid Original",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 6500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b865453c6d5732d0a3754",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Morning Fresh",
+       "product": "Morning Fresh Dishwashing Original",
+       "pack": "800 g",
+       "pack_units": 800,
+       "price_tsh": 8800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/683ede49d0c44e03353fb3fb",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Tritol",
+       "product": "Tritol Dish Washing Liquid",
+       "pack": "5 L",
+       "pack_units": 5000,
+       "price_tsh": 12500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/64dc99e40eb6b270e24f0015",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Aava",
+       "product": "Aava Dishwash Liquid",
+       "pack": "5 L",
+       "pack_units": 5000,
+       "price_tsh": 11000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/682885e7d0c44e03353fad5f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Fairy",
+       "product": "Fairy Dishwashing Liquid",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 12500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a306e53c6d5732d0a361c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "rgl",
+     "name": {
+      "en": "Rubber gloves for the toilet and floors",
+      "sw": "Glavu za mpira za kusafishia choo na sakafu"
+     },
+     "why": {
+      "en": "Keep bleach off the skin and keep toilet germs off the hands of the person who cleans.",
+      "sw": "Huzuia bleach kugusa ngozi na vijidudu vya chooni kufika mikononi mwa anayesafisha."
+     },
+     "qty": {
+      "en": "1 pair every three months",
+      "sw": "Jozi 1 kila miezi mitatu"
+     },
+     "qty_formula": "1 pair lasts about 3 months → 1/3 pair a month on average",
+     "units": 0.33,
+     "kind": "goods",
+     "cost_class": "own",
+     "brands": [
+      {
+       "brand": "Best One",
+       "product": "Best One Household Gloves, medium",
+       "pack": "1 pair",
+       "pack_units": 1,
+       "price_tsh": 6700,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/604f5af7da3fef028705107d",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Vileda",
+       "product": "Vileda Sensitive household gloves, medium",
+       "pack": "1 pair",
+       "pack_units": 1,
+       "price_tsh": 7522,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/gloves/vileda-gloves-sensitive-medium/p/242257",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 370,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vileda",
+       "product": "Vileda Extra Sensation household gloves, medium",
+       "pack": "1 pair",
+       "pack_units": 1,
+       "price_tsh": 7725,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/gloves/vileda-glove-extra-sensation-mdm/p/202158",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 380,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vileda",
+       "product": "Vileda Super Grip household gloves, large",
+       "pack": "1 pair",
+       "pack_units": 1,
+       "price_tsh": 8539,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/gloves/vileda-glove-supergrip-large/p/202161",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 420,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Spontex",
+       "product": "Spontex Wash Ups anti-slip reusable gloves, medium",
+       "pack": "1 pair",
+       "pack_units": 1,
+       "price_tsh": 12401,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/gloves/spontex-gloves-protector-m/p/17720",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 610,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "tp",
+     "name": {
+      "en": "Toilet paper",
+      "sw": "Karatasi ya chooni"
+     },
+     "why": {
+      "en": "Clean toilet hygiene, with soap at the sink, keeps faecal germs out of the home.",
+      "sw": "Usafi wa chooni, pamoja na sabuni kwenye sinki, huzuia vijidudu vya kinyesi kuingia nyumbani."
+     },
+     "qty": {
+      "en": "10 rolls a month",
+      "sw": "Roli 10 kwa mwezi"
+     },
+     "qty_formula": "About 3–4 rolls per person a month × 3 people ≈ 10 (planning estimate)",
+     "units": 10,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Rexa",
+       "product": "Rexa Toilet Papers White",
+       "pack": "8 rolls",
+       "pack_units": 8,
+       "price_tsh": 6500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/604f52aeda3fef0287051068",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Fay",
+       "product": "Fay Pink Toilet Papers",
+       "pack": "10 rolls",
+       "pack_units": 10,
+       "price_tsh": 10200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6aa97cd1835ef903d63150bd",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Velvex",
+       "product": "Velvex Premium toilet tissue",
+       "pack": "10 rolls",
+       "pack_units": 10,
+       "price_tsh": 11550,
+       "src": {
+        "name": "Superstore Tanzania",
+        "u": "https://superstore.co.tz/shop/all-products/velvex-premium-toilet-tissue-10-pack/",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Tanzanian listing from the 2 Nov 2026 code row; not re-opened (host refused by this session’s network proxy on 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Comfi",
+       "product": "Comfi Bathroom Tissue",
+       "pack": "4 rolls",
+       "pack_units": 4,
+       "price_tsh": 11000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026797a53c6d5732d0a35c8",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Andrex",
+       "product": "Andrex Bathroom Tissue",
+       "pack": "4 rolls",
+       "pack_units": 4,
+       "price_tsh": 14000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602641f553c6d5732d0a3561",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "bins",
+     "name": {
+      "en": "Rubbish bags",
+      "sw": "Mifuko ya taka"
+     },
+     "why": {
+      "en": "Closed rubbish bags keep flies and rats away from food; flies carry diarrhoeal germs from waste to food.",
+      "sw": "Mifuko ya taka iliyofungwa huzuia nzi na panya kufika kwenye chakula; nzi hubeba vijidudu vya kuharisha kutoka kwenye taka hadi kwenye chakula."
+     },
+     "qty": {
+      "en": "15 bags a month",
+      "sw": "Mifuko 15 kwa mwezi"
+     },
+     "qty_formula": "1 bag every 2 days × 30 days = 15",
+     "units": 15,
+     "kind": "goods",
+     "cost_class": "own",
+     "brands": [
+      {
+       "brand": "Generic",
+       "product": "Heavy-duty black garbage bags 80 L (30×36\")",
+       "pack": "50 bags",
+       "pack_units": 50,
+       "price_tsh": 18805,
+       "src": {
+        "name": "Jumia Kenya",
+        "u": "https://www.jumia.co.ke/generic-black-30x36-heavy-duty-garbage-bags-80l-capacity-pack-of-50-137504902.html",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 925,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Bio",
+       "product": "Draw-tape biodegradable pedal-bin liners",
+       "pack": "30 bags",
+       "pack_units": 30,
+       "price_tsh": 11751,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/garbage-bags-flat-with-ties/bio-pedal-bin-liner-yellow-tape/p/154431",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 578,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Classic",
+       "product": "Classic Trash Bags 30 gallon",
+       "pack": "20 bags",
+       "pack_units": 20,
+       "price_tsh": 25000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026749553c6d5732d0a35ba",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "plas",
+     "name": {
+      "en": "Plasters for small cuts",
+      "sw": "Plasta za vidonda vidogo"
+     },
+     "why": {
+      "en": "First aid for the small cuts and grazes of everyday life: clean the cut, then cover it. The home first-aid box is refilled each month so it is never empty.",
+      "sw": "Huduma ya kwanza kwa mikato na michubuko midogo ya kila siku: safisha jeraha, kisha lifunike. Sanduku la huduma ya kwanza la nyumbani hujazwa kila mwezi ili lisiwe tupu."
+     },
+     "qty": {
+      "en": "10 plasters a month",
+      "sw": "Plasta 10 kwa mwezi"
+     },
+     "qty_formula": "About 3 small cuts per person a month × 3 people ≈ 10 (planning estimate)",
+     "units": 10,
+     "kind": "goods",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Sonaplast",
+       "product": "Sonaplast plasters",
+       "pack": "100 strips",
+       "pack_units": 100,
+       "price_tsh": 3253,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/first-aid/sonaplast-100-s/p/118642",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 160,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Steroplast",
+       "product": "Steroplast fabric plasters, assorted",
+       "pack": "16 strips",
+       "pack_units": 16,
+       "price_tsh": 3497,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/steroplast-fabric-ass-16s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 172,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Steroplast",
+       "product": "Steroplast washproof plasters, assorted",
+       "pack": "16 strips",
+       "pack_units": 16,
+       "price_tsh": 3497,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/steroplast-washproof-ass-16s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 172,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Elastoplast",
+       "product": "Elastoplast fabric plasters",
+       "pack": "100 strips",
+       "pack_units": 100,
+       "price_tsh": 20330,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/elastoplast-fabric-100s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1000,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Elastoplast",
+       "product": "Elastoplast water-resistant plaster strips",
+       "pack": "40 strips",
+       "pack_units": 40,
+       "price_tsh": 30495,
+       "src": {
+        "name": "Portal Pharmacy Kenya",
+        "u": "https://portalpharmacy.ke/elastoplast-water-resi-40s",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1500,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "anti",
+     "name": {
+      "en": "Antiseptic liquid for cleaning wounds",
+      "sw": "Dawa ya kusafisha vidonda"
+     },
+     "why": {
+      "en": "Cleans skin around a cut before it is covered. Used diluted, as the label says.",
+      "sw": "Husafisha ngozi kuzunguka jeraha kabla ya kulifunika. Hutumika ikiwa imechanganywa na maji, kama maelekezo ya kopo yanavyosema."
+     },
+     "qty": {
+      "en": "50 ml a month (a 500 ml bottle lasts about 10 months)",
+      "sw": "Ml 50 kwa mwezi (chupa ya ml 500 hudumu takriban miezi 10)"
+     },
+     "qty_formula": "About 10 uses × 5 ml diluted = 50 ml a month (planning estimate)",
+     "units": 50,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Dettol",
+       "product": "Dettol Antiseptic Liquid",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 13000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026826753c6d5732d0a35e2",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "U-SOL",
+       "product": "U-SOL antiseptic wound solution",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 1500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/u-sol-antiseptic-wound-solution100mils",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Savlon",
+       "product": "Savlon antiseptic liquid",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 25819,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/antiseptic-disinfectant/savlon-antiseptic-liquid-750ml/p/9854",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1270,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Betadine",
+       "product": "Betadine antiseptic solution, 10% povidone-iodine",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 39644,
+       "src": {
+        "name": "Portal Pharmacy Kenya",
+        "u": "https://portalpharmacy.ke/first-aid/antiseptics",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1950,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Generic",
+       "product": "Tincture of iodine",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 3964,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/tincture-of-iodine-100ml/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 195,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    }
+   ],
+   "starter": [
+    {
+     "key": "net",
+     "name": {
+      "en": "Long-lasting insecticidal mosquito net",
+      "sw": "Chandarua chenye dawa cha muda mrefu"
+     },
+     "why": {
+      "en": "WHO names insecticide-treated nets and indoor residual spraying as the two core malaria vector controls. One treated net for every sleeping space; the first box brings them, replaced when torn.",
+      "sw": "WHO inataja vyandarua vyenye dawa na upuliziaji wa ukoko wa dawa ndani ya nyumba kuwa kinga kuu mbili dhidi ya mbu wa malaria. Chandarua kimoja chenye dawa kwa kila sehemu ya kulala; boksi la kwanza linavileta, na hubadilishwa vikichanika."
+     },
+     "qty": {
+      "en": "2 nets, first box only",
+      "sw": "Vyandarua 2, boksi la kwanza tu"
+     },
+     "qty_formula": "1 net per sleeping space × 2 sleeping spaces",
+     "units": 2,
+     "kind": "goods",
+     "cost_class": "own",
+     "brands": [
+      {
+       "brand": "WHO-prequalified LLIN (brand to be quoted)",
+       "product": "Long-lasting insecticidal net, family size",
+       "pack": "1 net",
+       "pack_units": 1,
+       "price_tsh": 10000,
+       "src": {
+        "name": "Estimate",
+        "u": "https://www.mdpi.com/2414-6366/10/6/175",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "EST",
+       "note": "Estimate. Basis: the planning figure used in the approved Mama Mjamzito box, close to the median retail price of an untreated net in a 2024 Tanzanian survey (TSh 9,000–10,000, mdpi.com, not re-opened). No retail price for a treated net was found on AfyaDepot or Shoppers on 10 Nov 2026, nor in a web search; a distributor quote is needed.",
+       "afya_choice": true,
+       "default": true
+      }
+     ]
+    },
+    {
+     "key": "fabox",
+     "name": {
+      "en": "First-aid box (container)",
+      "sw": "Sanduku la huduma ya kwanza (kasha)"
+     },
+     "why": {
+      "en": "A marked box in one known place, so plasters, antiseptic and dressings are found fast.",
+      "sw": "Sanduku lenye alama mahali panapojulikana, ili plasta, dawa ya vidonda na vifaa vya kufunga vipatikane haraka."
+     },
+     "qty": {
+      "en": "1 box, first box only",
+      "sw": "Sanduku 1, boksi la kwanza tu"
+     },
+     "qty_formula": "1 per home",
+     "units": 1,
+     "kind": "goods",
+     "cost_class": "own",
+     "brands": [
+      {
+       "brand": "Smart First Aid",
+       "product": "Silver Smart First Aid Container (empty)",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 17000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/empty-kit-silver-smart-first-aid-kit",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Cello",
+       "product": "Premium Transparent Plastic Container (empty)",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 35000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/cello-transparent-plastic-first-aid-box-empty",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Smart First Aid",
+       "product": "Heavy Duty Orange Plastic Container (empty)",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 65000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/smart-first-aid-kit-bag-empty",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Generic",
+       "product": "Aluminium First Aid Box (empty)",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 80000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/first-aid-box",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Generic",
+       "product": "Medium Metal Wall Cabinet (empty)",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 99000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/medium-metal-wall-cabinet-empty",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "crepe",
+     "name": {
+      "en": "Crepe bandage",
+      "sw": "Bendeji ya crepe"
+     },
+     "why": {
+      "en": "Supports a sprained ankle or wrist and holds a dressing in place.",
+      "sw": "Hushikilia kifundo cha mguu au mkono kilichoteguka na hushika kifaa cha kufunga jeraha."
+     },
+     "qty": {
+      "en": "1 bandage, first box only",
+      "sw": "Bendeji 1, boksi la kwanza tu"
+     },
+     "qty_formula": "1 per first-aid box",
+     "units": 1,
+     "kind": "goods",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Elastolite",
+       "product": "Elastolite crepe bandage 7.5 cm",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 1850,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/crepe-bandage-3in-7-5cm-elastolite/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 91,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Elastolite",
+       "product": "Elastolite crepe bandage 10 cm",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 2033,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/crepe-bandage-4in-10cm-elastolite/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 100,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Elastolite",
+       "product": "Elastolite crepe bandage 15 cm",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 2257,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/crepe-bandage-6in-15cm-elastolite/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 111,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "gauze",
+     "name": {
+      "en": "Sterile dressing pads",
+      "sw": "Vitambaa tasa vya kufunga jeraha"
+     },
+     "why": {
+      "en": "A clean, non-sticking cover for a larger wound or a burn after cooling it under running water for about 20 minutes (WHO burns fact sheet).",
+      "sw": "Kifuniko safi kisichonata kwa jeraha kubwa au kwa jeraha la moto baada ya kulipoza kwa maji yanayotiririka kwa takriban dakika 20 (taarifa ya WHO kuhusu majeraha ya moto)."
+     },
+     "qty": {
+      "en": "5 pads, first box only",
+      "sw": "Vitambaa 5, boksi la kwanza tu"
+     },
+     "qty_formula": "1 pack of 5",
+     "units": 5,
+     "kind": "goods",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Steroplast",
+       "product": "Steroplast sterile dressing pads 5×5 cm",
+       "pack": "5 pads",
+       "pack_units": 5,
+       "price_tsh": 5611,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/steroplast-dressing-pads-sterile-5s-5cm-x-5cm/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 276,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Generic",
+       "product": "Sterile gauze swabs 4×4 in",
+       "pack": "100 swabs",
+       "pack_units": 100,
+       "price_tsh": 21306,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/gauze-swabs-sterile-44-100s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1048,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Generic",
+       "product": "Sterile gauze swabs 3×3 in",
+       "pack": "100 swabs",
+       "pack_units": 100,
+       "price_tsh": 19374,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/gauze-swabs-sterile-3x3-100s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 953,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "therm",
+     "name": {
+      "en": "Digital thermometer",
+      "sw": "Kipimajoto cha kidijitali"
+     },
+     "why": {
+      "en": "Confirms a fever, so the family goes for a malaria test at a health facility instead of guessing.",
+      "sw": "Huthibitisha homa, ili familia iende kupima malaria kituo cha afya badala ya kubahatisha."
+     },
+     "qty": {
+      "en": "1, first box only",
+      "sw": "1, boksi la kwanza tu"
+     },
+     "qty_formula": "1 per home",
+     "units": 1,
+     "kind": "goods",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Microlife",
+       "product": "MT 810 digital stick thermometer",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 19314,
+       "src": {
+        "name": "Portal Pharmacy Kenya",
+        "u": "https://portalpharmacy.ke/microlife-mt810-digital-thermometer",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 950,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "A&D",
+       "product": "UT-103 digital thermometer",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 30495,
+       "src": {
+        "name": "Portal Pharmacy Kenya",
+        "u": "https://portalpharmacy.ke/ad-medical-ut-103-digital-thermometer",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1500,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Generic",
+       "product": "Non-Contact Infrared Digital Thermometer",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 75000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/infrared-thermometer",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "ors",
+     "name": {
+      "en": "Oral rehydration salts, for the first-aid box (partner pharmacy)",
+      "sw": "Chumvi za kurudisha maji mwilini, kwa sanduku la huduma ya kwanza (famasia mshirika)"
+     },
+     "why": {
+      "en": "WHO: most people with cholera can be treated with oral rehydration solution, and starting quickly saves lives. Keeping a few sachets at home lets treatment start while the family goes to a clinic. Supplied by the licensed partner pharmacy, not priced in the box.",
+      "sw": "WHO: wagonjwa wengi wa kipindupindu wanaweza kutibiwa kwa mchanganyiko wa chumvi za kurudisha maji mwilini, na kuanza mapema huokoa maisha. Kuweka pakiti chache nyumbani huwezesha kuanza wakati familia inaelekea kliniki. Hutolewa na famasia mshirika yenye leseni, haziwekwi bei kwenye boksi."
+     },
+     "qty": {
+      "en": "4 sachets, first box only",
+      "sw": "Pakiti 4, boksi la kwanza tu"
+     },
+     "qty_formula": "4 sachets kept in the first-aid box; replaced when used",
+     "units": 4,
+     "kind": "medicine",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "IYFE",
+       "product": "Low-osmolarity ORS sachet",
+       "pack": "1 sachet",
+       "pack_units": 1,
+       "price_tsh": 500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/iyfe-ors-sachhets-1s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true,
+       "note": "Listed for reference: sold by the licensed partner pharmacy, not priced in the box (B4)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "family",
+   "label": {
+    "en": "Family household (5–6 people)",
+    "sw": "Kaya ya familia (watu 5–6)"
+   },
+   "months": "12",
+   "box_size": "M",
+   "items": [
+    {
+     "key": "hand",
+     "name": {
+      "en": "Liquid hand soap for the sink",
+      "sw": "Sabuni ya maji ya kunawa mikono"
+     },
+     "why": {
+      "en": "Handwashing with soap is the first barrier against diarrhoea and cholera. WHO names safe water, sanitation and hygiene as essential to prevent cholera. A pump at the sink makes it easy to wash after the toilet and before food.",
+      "sw": "Kunawa mikono kwa sabuni ni kinga ya kwanza dhidi ya kuharisha na kipindupindu. WHO inataja maji salama, usafi wa mazingira na usafi binafsi kuwa muhimu kuzuia kipindupindu. Sabuni ya pampu kwenye sinki hurahisisha kunawa baada ya choo na kabla ya kula."
+     },
+     "qty": {
+      "en": "About 1.1 litres a month",
+      "sw": "Takriban lita 1.1 kwa mwezi"
+     },
+     "qty_formula": "6 people × 6 washes a day × 1 ml × 30 days = 1,080 ml",
+     "units": 1080,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Hobby",
+       "product": "Hobby Liquid Soap",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 3500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a420353c6d5732d0a3659",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Biox",
+       "product": "Biox liquid hand soap",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 1800,
+       "src": {
+        "name": "Superstore Tanzania",
+        "u": "https://superstore.co.tz/shop/all-products/biox-liquid-hand-soap-rose-500ml/",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Tanzanian listing from the 2 Nov 2026 code row; not re-opened (host refused by this session’s network proxy on 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Savlon",
+       "product": "Savlon Germ Protection Hand Wash",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 6200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b7fe153c6d5732d0a373f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dettol",
+       "product": "Dettol liquid handwash Original",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 15247,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/liquid-soap-antibacterial/dettol-hand-wash-original-400ml/p/53700",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 750,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "bar",
+     "name": {
+      "en": "Bath soap bars",
+      "sw": "Sabuni za kuogea"
+     },
+     "why": {
+      "en": "Daily bathing with soap prevents skin infections and scabies, which spread in shared homes. One 175 g bar per person a month.",
+      "sw": "Kuoga kila siku kwa sabuni huzuia maambukizi ya ngozi na upele, ambao huenea katika nyumba za pamoja. Kipande kimoja cha g 175 kwa kila mtu kwa mwezi."
+     },
+     "qty": {
+      "en": "6 bars a month",
+      "sw": "Vipande 6 kwa mwezi"
+     },
+     "qty_formula": "1 bar of 175 g per person a month × 6 people",
+     "units": 6,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Imperial Leather",
+       "product": "Imperial Leather Soap",
+       "pack": "175 g",
+       "pack_units": 1,
+       "price_tsh": 2600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a459853c6d5732d0a3666",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Fa",
+       "product": "Fa Soap",
+       "pack": "175 g",
+       "pack_units": 1,
+       "price_tsh": 2600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a2ea553c6d5732d0a3616",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Lifebuoy",
+       "product": "Lifebuoy Soap",
+       "pack": "175 g",
+       "pack_units": 1,
+       "price_tsh": 3500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6a6dd151d4b3dce59b40cc2f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dettol",
+       "product": "Dettol Soap",
+       "pack": "175 g",
+       "pack_units": 1,
+       "price_tsh": 4500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602683c353c6d5732d0a35e6",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "water",
+     "name": {
+      "en": "Drinking-water treatment",
+      "sw": "Dawa ya kutibu maji ya kunywa"
+     },
+     "why": {
+      "en": "WHO estimates that contaminated drinking water causes about 505,000 diarrhoeal deaths a year. Chlorinating stored water at home was the key household defence in Tanzania’s cholera epidemic (CDC MMWR 2016). WaterGuard: one capful per 20 L, wait 30 minutes.",
+      "sw": "WHO inakadiria kuwa maji machafu ya kunywa husababisha vifo takriban 505,000 vya kuharisha kila mwaka. Kutia klorini maji yaliyohifadhiwa nyumbani ndiyo ilikuwa kinga kuu wakati wa mlipuko wa kipindupindu Tanzania (CDC MMWR 2016). WaterGuard: kifuniko kimoja kwa lita 20, subiri dakika 30."
+     },
+     "qty": {
+      "en": "Enough to treat about 900 litres a month (one bottle a month)",
+      "sw": "Inatosha kutibu takriban lita 900 kwa mwezi (chupa moja kwa mwezi)"
+     },
+     "qty_formula": "6 people × 5 L a day × 30 days = 900 L",
+     "units": 900,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "WaterGuard",
+       "product": "Drinking-water treatment (sodium hypochlorite)",
+       "pack": "150 ml, treats about 1,000 L",
+       "pack_units": 1000,
+       "price_tsh": 6099,
+       "src": {
+        "name": "Jumia Kenya",
+        "u": "https://www.jumia.co.ke/waterguard-drinking-water-purifier-58949465.html",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 300,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Aquatabs",
+       "product": "67 mg water purification tablets (1 tablet per 20 L)",
+       "pack": "100 tablets, treats 2,000 L",
+       "pack_units": 2000,
+       "price_tsh": 10165,
+       "src": {
+        "name": "Jumia Kenya",
+        "u": "https://www.jumia.co.ke/aquatabs-67mg-water-purification-tablets-pack-of-100-330120133.html",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 500,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "rep",
+     "name": {
+      "en": "Mosquito repellent for the evening",
+      "sw": "Dawa ya kufukuza mbu ya jioni"
+     },
+     "why": {
+      "en": "WHO advises sleeping under a net and using repellents containing DEET, IR3535 or icaridin after dusk. Repellent protects the evening hours before bed, when people sit outside.",
+      "sw": "WHO inashauri kulala ndani ya chandarua na kutumia dawa za kufukuza mbu zenye DEET, IR3535 au icaridin baada ya jua kuzama. Dawa hii inalinda saa za jioni kabla ya kulala, watu wanapokaa nje."
+     },
+     "qty": {
+      "en": "2 packs a month",
+      "sw": "Pakiti 2 kwa mwezi"
+     },
+     "qty_formula": "1 pack per 3 people a month × 6 people",
+     "units": 2,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Odomos",
+       "product": "Odomos Roll On",
+       "pack": "50 g",
+       "pack_units": 1,
+       "price_tsh": 4600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b6d4553c6d5732d0a36f8",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "No-Bite",
+       "product": "Nobite Roll On Insect Repellent",
+       "pack": "40 ml",
+       "pack_units": 1,
+       "price_tsh": 8200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b993f53c6d5732d0a379e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "No-Bite",
+       "product": "No-Bite Mosquito Repellent Roll-On",
+       "pack": "45 ml",
+       "pack_units": 1,
+       "price_tsh": 9000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/mosquito-repellent-roll-on-no-bite-45m",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Peaceful Sleep",
+       "product": "Peaceful Sleep Stick Roll On",
+       "pack": "30 ml",
+       "pack_units": 1,
+       "price_tsh": 9500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b71ec53c6d5732d0a370e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "No-Bite",
+       "product": "No-bite Spray Insect Repellent",
+       "pack": "120 ml",
+       "pack_units": 1,
+       "price_tsh": 10600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/604f5e82da3fef0287051085",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "spray",
+     "name": {
+      "en": "Room insect spray, before bedtime",
+      "sw": "Dawa ya kupuliza wadudu chumbani, kabla ya kulala"
+     },
+     "why": {
+      "en": "Kills mosquitoes resting indoors before the family goes to bed. It is not indoor residual spraying, which WHO names as one of the two core vector controls with treated nets; it adds to the net and never replaces it.",
+      "sw": "Huua mbu waliojificha ndani kabla familia haijalala. Si upuliziaji wa ukoko wa dawa ndani ya nyumba, ambao WHO inautaja kama mojawapo ya kinga kuu mbili pamoja na vyandarua vyenye dawa; ni nyongeza kwa chandarua, si mbadala wake."
+     },
+     "qty": {
+      "en": "About 375 ml a month (one can every two months)",
+      "sw": "Takriban ml 375 kwa mwezi (kopo moja kila miezi miwili)"
+     },
+     "qty_formula": "3 bedrooms × about 4 ml a night × 30 nights ≈ 375 ml",
+     "units": 375,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Hit",
+       "product": "Hit Insect Spray",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 7500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a3e9853c6d5732d0a364d",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Rungu",
+       "product": "Rungu mosquito spray",
+       "pack": "850 ml",
+       "pack_units": 850,
+       "price_tsh": 8200,
+       "src": {
+        "name": "Superstore Tanzania",
+        "u": "https://superstore.co.tz/shop/all-products/rungu-mosquito-spray-850ml/",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Tanzanian listing from the 2 Nov 2026 code row; not re-opened (host refused by this session’s network proxy on 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vape",
+       "product": "Vape A1 Mosquito Spray",
+       "pack": "600 ml",
+       "pack_units": 600,
+       "price_tsh": 9300,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6867b384914cc5c6cdeaf5cc",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Mortein",
+       "product": "Mortein Doom Fast Kill",
+       "pack": "600 ml",
+       "pack_units": 600,
+       "price_tsh": 12000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/65cf814b0eb6b270e24f70c7",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Mortein",
+       "product": "Mortein Doom Odorless",
+       "pack": "600 ml",
+       "pack_units": 600,
+       "price_tsh": 14500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a795b53c6d5732d0a36c8",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "bleach",
+     "name": {
+      "en": "Bleach for the toilet, drains and disinfecting",
+      "sw": "Bleach ya choo, mifereji na kuua vijidudu"
+     },
+     "why": {
+      "en": "Chlorine bleach disinfects the toilet, the latrine slab and surfaces soiled by a sick person, the household steps used against cholera.",
+      "sw": "Bleach yenye klorini huua vijidudu chooni, kwenye sakafu ya choo na sehemu zilizochafuliwa na mgonjwa; hizi ndizo hatua za nyumbani dhidi ya kipindupindu."
+     },
+     "qty": {
+      "en": "1 litre a month",
+      "sw": "Lita 1 kwa mwezi"
+     },
+     "qty_formula": "About 33 ml a day × 30 days ≈ 1,000 ml",
+     "units": 1000,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Omo",
+       "product": "Omo Bleach",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 5500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b6f2153c6d5732d0a36ff",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Domestos",
+       "product": "Domestos Pine Fresh Bleach",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 6800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026845c53c6d5732d0a35e8",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Jik",
+       "product": "Jik Bleach Regular",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 8200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a58b953c6d5732d0a366e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Clorox",
+       "product": "Clorox Regular liquid bleach",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 7359,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/bleach/clorox-regular-750ml/p/48592",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 362,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "surf",
+     "name": {
+      "en": "Floor and surface disinfectant",
+      "sw": "Dawa ya kusafisha sakafu na meza"
+     },
+     "why": {
+      "en": "Clean surfaces are the first of WHO’s Five Keys to Safer Food: keep clean. Diluted pine disinfectant cleans floors, tables and the kitchen counter.",
+      "sw": "Sehemu safi ndiyo ufunguo wa kwanza kati ya Funguo Tano za WHO za Chakula Salama: weka usafi. Dawa ya kusafisha iliyochanganywa na maji husafisha sakafu, meza na kaunta ya jikoni."
+     },
+     "qty": {
+      "en": "1 litre a month",
+      "sw": "Lita 1 kwa mwezi"
+     },
+     "qty_formula": "About 33 ml a day × 30 days ≈ 1,000 ml",
+     "units": 1000,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Lit",
+       "product": "Lit Pine Disinfectant",
+       "pack": "5 L",
+       "pack_units": 5000,
+       "price_tsh": 11900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/604f53e6da3fef028705106c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Lit",
+       "product": "Lit household disinfectant, pine",
+       "pack": "1 L",
+       "pack_units": 1000,
+       "price_tsh": 2700,
+       "src": {
+        "name": "Superstore Tanzania",
+        "u": "https://superstore.co.tz/shop/all-products/lit-household-cleaner-disinfectant-pine-fresh-1ltr/",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Tanzanian listing from the 2 Nov 2026 code row; not re-opened (host refused by this session’s network proxy on 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Handy Andy",
+       "product": "Handy Andy All Purpose, Ocean",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 10000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/68a07c9126163eea42517723",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dettol",
+       "product": "Dettol Kitchen Cleaner Spray",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 16500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026833f53c6d5732d0a35e4",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Astonish",
+       "product": "Astonish anti-bacterial surface cleaner",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 12910,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/antiseptic-disinfectant/astonish-anti-b-surface-cl-t750ml/p/22977",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 635,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "dish",
+     "name": {
+      "en": "Dishwashing liquid",
+      "sw": "Sabuni ya kuoshea vyombo"
+     },
+     "why": {
+      "en": "Washing plates, cups and cooking pots well stops food-borne germs passing from one meal to the next (WHO Five Keys: keep clean).",
+      "sw": "Kuosha sahani, vikombe na sufuria vizuri huzuia vijidudu vya chakula kupita kutoka mlo mmoja hadi mwingine (Funguo Tano za WHO: weka usafi)."
+     },
+     "qty": {
+      "en": "1.5 litres a month",
+      "sw": "Lita 1.5 kwa mwezi"
+     },
+     "qty_formula": "About 50 ml a day × 30 days = 1,500 ml",
+     "units": 1500,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Sunlight",
+       "product": "Sunlight Dishwashing Liquid Original",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 6500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b865453c6d5732d0a3754",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Morning Fresh",
+       "product": "Morning Fresh Dishwashing Original",
+       "pack": "800 g",
+       "pack_units": 800,
+       "price_tsh": 8800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/683ede49d0c44e03353fb3fb",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Tritol",
+       "product": "Tritol Dish Washing Liquid",
+       "pack": "5 L",
+       "pack_units": 5000,
+       "price_tsh": 12500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/64dc99e40eb6b270e24f0015",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Aava",
+       "product": "Aava Dishwash Liquid",
+       "pack": "5 L",
+       "pack_units": 5000,
+       "price_tsh": 11000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/682885e7d0c44e03353fad5f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Fairy",
+       "product": "Fairy Dishwashing Liquid",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 12500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a306e53c6d5732d0a361c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "rgl",
+     "name": {
+      "en": "Rubber gloves for the toilet and floors",
+      "sw": "Glavu za mpira za kusafishia choo na sakafu"
+     },
+     "why": {
+      "en": "Keep bleach off the skin and keep toilet germs off the hands of the person who cleans.",
+      "sw": "Huzuia bleach kugusa ngozi na vijidudu vya chooni kufika mikononi mwa anayesafisha."
+     },
+     "qty": {
+      "en": "2 pairs every three months",
+      "sw": "Jozi 2 kila miezi mitatu"
+     },
+     "qty_formula": "2 pairs (toilet, floors) every 3 months → 2/3 pair a month",
+     "units": 0.67,
+     "kind": "goods",
+     "cost_class": "own",
+     "brands": [
+      {
+       "brand": "Best One",
+       "product": "Best One Household Gloves, medium",
+       "pack": "1 pair",
+       "pack_units": 1,
+       "price_tsh": 6700,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/604f5af7da3fef028705107d",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Vileda",
+       "product": "Vileda Sensitive household gloves, medium",
+       "pack": "1 pair",
+       "pack_units": 1,
+       "price_tsh": 7522,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/gloves/vileda-gloves-sensitive-medium/p/242257",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 370,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vileda",
+       "product": "Vileda Extra Sensation household gloves, medium",
+       "pack": "1 pair",
+       "pack_units": 1,
+       "price_tsh": 7725,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/gloves/vileda-glove-extra-sensation-mdm/p/202158",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 380,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vileda",
+       "product": "Vileda Super Grip household gloves, large",
+       "pack": "1 pair",
+       "pack_units": 1,
+       "price_tsh": 8539,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/gloves/vileda-glove-supergrip-large/p/202161",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 420,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Spontex",
+       "product": "Spontex Wash Ups anti-slip reusable gloves, medium",
+       "pack": "1 pair",
+       "pack_units": 1,
+       "price_tsh": 12401,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/gloves/spontex-gloves-protector-m/p/17720",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 610,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "tp",
+     "name": {
+      "en": "Toilet paper",
+      "sw": "Karatasi ya chooni"
+     },
+     "why": {
+      "en": "Clean toilet hygiene, with soap at the sink, keeps faecal germs out of the home.",
+      "sw": "Usafi wa chooni, pamoja na sabuni kwenye sinki, huzuia vijidudu vya kinyesi kuingia nyumbani."
+     },
+     "qty": {
+      "en": "16 rolls a month",
+      "sw": "Roli 16 kwa mwezi"
+     },
+     "qty_formula": "About 2.7 rolls per person a month × 6 people ≈ 16 (children use less)",
+     "units": 16,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Rexa",
+       "product": "Rexa Toilet Papers White",
+       "pack": "8 rolls",
+       "pack_units": 8,
+       "price_tsh": 6500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/604f52aeda3fef0287051068",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Fay",
+       "product": "Fay Pink Toilet Papers",
+       "pack": "10 rolls",
+       "pack_units": 10,
+       "price_tsh": 10200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6aa97cd1835ef903d63150bd",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Velvex",
+       "product": "Velvex Premium toilet tissue",
+       "pack": "10 rolls",
+       "pack_units": 10,
+       "price_tsh": 11550,
+       "src": {
+        "name": "Superstore Tanzania",
+        "u": "https://superstore.co.tz/shop/all-products/velvex-premium-toilet-tissue-10-pack/",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Tanzanian listing from the 2 Nov 2026 code row; not re-opened (host refused by this session’s network proxy on 10 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Comfi",
+       "product": "Comfi Bathroom Tissue",
+       "pack": "4 rolls",
+       "pack_units": 4,
+       "price_tsh": 11000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026797a53c6d5732d0a35c8",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Andrex",
+       "product": "Andrex Bathroom Tissue",
+       "pack": "4 rolls",
+       "pack_units": 4,
+       "price_tsh": 14000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602641f553c6d5732d0a3561",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "bins",
+     "name": {
+      "en": "Rubbish bags",
+      "sw": "Mifuko ya taka"
+     },
+     "why": {
+      "en": "Closed rubbish bags keep flies and rats away from food; flies carry diarrhoeal germs from waste to food.",
+      "sw": "Mifuko ya taka iliyofungwa huzuia nzi na panya kufika kwenye chakula; nzi hubeba vijidudu vya kuharisha kutoka kwenye taka hadi kwenye chakula."
+     },
+     "qty": {
+      "en": "30 bags a month",
+      "sw": "Mifuko 30 kwa mwezi"
+     },
+     "qty_formula": "1 bag a day × 30 days = 30",
+     "units": 30,
+     "kind": "goods",
+     "cost_class": "own",
+     "brands": [
+      {
+       "brand": "Generic",
+       "product": "Heavy-duty black garbage bags 80 L (30×36\")",
+       "pack": "50 bags",
+       "pack_units": 50,
+       "price_tsh": 18805,
+       "src": {
+        "name": "Jumia Kenya",
+        "u": "https://www.jumia.co.ke/generic-black-30x36-heavy-duty-garbage-bags-80l-capacity-pack-of-50-137504902.html",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 925,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Bio",
+       "product": "Draw-tape biodegradable pedal-bin liners",
+       "pack": "30 bags",
+       "pack_units": 30,
+       "price_tsh": 11751,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/garbage-bags-flat-with-ties/bio-pedal-bin-liner-yellow-tape/p/154431",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 578,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Classic",
+       "product": "Classic Trash Bags 30 gallon",
+       "pack": "20 bags",
+       "pack_units": 20,
+       "price_tsh": 25000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026749553c6d5732d0a35ba",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "plas",
+     "name": {
+      "en": "Plasters for small cuts",
+      "sw": "Plasta za vidonda vidogo"
+     },
+     "why": {
+      "en": "First aid for the small cuts and grazes of everyday life: clean the cut, then cover it. The home first-aid box is refilled each month so it is never empty.",
+      "sw": "Huduma ya kwanza kwa mikato na michubuko midogo ya kila siku: safisha jeraha, kisha lifunike. Sanduku la huduma ya kwanza la nyumbani hujazwa kila mwezi ili lisiwe tupu."
+     },
+     "qty": {
+      "en": "20 plasters a month",
+      "sw": "Plasta 20 kwa mwezi"
+     },
+     "qty_formula": "About 3 per person a month × 6 people ≈ 20 (children graze more)",
+     "units": 20,
+     "kind": "goods",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Sonaplast",
+       "product": "Sonaplast plasters",
+       "pack": "100 strips",
+       "pack_units": 100,
+       "price_tsh": 3253,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/first-aid/sonaplast-100-s/p/118642",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 160,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Steroplast",
+       "product": "Steroplast fabric plasters, assorted",
+       "pack": "16 strips",
+       "pack_units": 16,
+       "price_tsh": 3497,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/steroplast-fabric-ass-16s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 172,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Steroplast",
+       "product": "Steroplast washproof plasters, assorted",
+       "pack": "16 strips",
+       "pack_units": 16,
+       "price_tsh": 3497,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/steroplast-washproof-ass-16s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 172,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Elastoplast",
+       "product": "Elastoplast fabric plasters",
+       "pack": "100 strips",
+       "pack_units": 100,
+       "price_tsh": 20330,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/elastoplast-fabric-100s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1000,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Elastoplast",
+       "product": "Elastoplast water-resistant plaster strips",
+       "pack": "40 strips",
+       "pack_units": 40,
+       "price_tsh": 30495,
+       "src": {
+        "name": "Portal Pharmacy Kenya",
+        "u": "https://portalpharmacy.ke/elastoplast-water-resi-40s",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1500,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "anti",
+     "name": {
+      "en": "Antiseptic liquid for cleaning wounds",
+      "sw": "Dawa ya kusafisha vidonda"
+     },
+     "why": {
+      "en": "Cleans skin around a cut before it is covered. Used diluted, as the label says.",
+      "sw": "Husafisha ngozi kuzunguka jeraha kabla ya kulifunika. Hutumika ikiwa imechanganywa na maji, kama maelekezo ya kopo yanavyosema."
+     },
+     "qty": {
+      "en": "100 ml a month",
+      "sw": "Ml 100 kwa mwezi"
+     },
+     "qty_formula": "About 20 uses × 5 ml = 100 ml a month",
+     "units": 100,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Dettol",
+       "product": "Dettol Antiseptic Liquid",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 13000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026826753c6d5732d0a35e2",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "U-SOL",
+       "product": "U-SOL antiseptic wound solution",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 1500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/u-sol-antiseptic-wound-solution100mils",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Savlon",
+       "product": "Savlon antiseptic liquid",
+       "pack": "750 ml",
+       "pack_units": 750,
+       "price_tsh": 25819,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/antiseptic-disinfectant/savlon-antiseptic-liquid-750ml/p/9854",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1270,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Betadine",
+       "product": "Betadine antiseptic solution, 10% povidone-iodine",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 39644,
+       "src": {
+        "name": "Portal Pharmacy Kenya",
+        "u": "https://portalpharmacy.ke/first-aid/antiseptics",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1950,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Generic",
+       "product": "Tincture of iodine",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 3964,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/tincture-of-iodine-100ml/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 195,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    }
+   ],
+   "starter": [
+    {
+     "key": "net",
+     "name": {
+      "en": "Long-lasting insecticidal mosquito net",
+      "sw": "Chandarua chenye dawa cha muda mrefu"
+     },
+     "why": {
+      "en": "WHO names insecticide-treated nets and indoor residual spraying as the two core malaria vector controls. One treated net for every sleeping space; the first box brings them, replaced when torn.",
+      "sw": "WHO inataja vyandarua vyenye dawa na upuliziaji wa ukoko wa dawa ndani ya nyumba kuwa kinga kuu mbili dhidi ya mbu wa malaria. Chandarua kimoja chenye dawa kwa kila sehemu ya kulala; boksi la kwanza linavileta, na hubadilishwa vikichanika."
+     },
+     "qty": {
+      "en": "3 nets, first box only",
+      "sw": "Vyandarua 3, boksi la kwanza tu"
+     },
+     "qty_formula": "1 net per sleeping space × 3 sleeping spaces (about 2 people per net)",
+     "units": 3,
+     "kind": "goods",
+     "cost_class": "own",
+     "brands": [
+      {
+       "brand": "WHO-prequalified LLIN (brand to be quoted)",
+       "product": "Long-lasting insecticidal net, family size",
+       "pack": "1 net",
+       "pack_units": 1,
+       "price_tsh": 10000,
+       "src": {
+        "name": "Estimate",
+        "u": "https://www.mdpi.com/2414-6366/10/6/175",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "EST",
+       "note": "Estimate. Basis: the planning figure used in the approved Mama Mjamzito box, close to the median retail price of an untreated net in a 2024 Tanzanian survey (TSh 9,000–10,000, mdpi.com, not re-opened). No retail price for a treated net was found on AfyaDepot or Shoppers on 10 Nov 2026, nor in a web search; a distributor quote is needed.",
+       "afya_choice": true,
+       "default": true
+      }
+     ]
+    },
+    {
+     "key": "fabox",
+     "name": {
+      "en": "First-aid box (container)",
+      "sw": "Sanduku la huduma ya kwanza (kasha)"
+     },
+     "why": {
+      "en": "A marked box in one known place, so plasters, antiseptic and dressings are found fast.",
+      "sw": "Sanduku lenye alama mahali panapojulikana, ili plasta, dawa ya vidonda na vifaa vya kufunga vipatikane haraka."
+     },
+     "qty": {
+      "en": "1 box, first box only",
+      "sw": "Sanduku 1, boksi la kwanza tu"
+     },
+     "qty_formula": "1 per home",
+     "units": 1,
+     "kind": "goods",
+     "cost_class": "own",
+     "brands": [
+      {
+       "brand": "Smart First Aid",
+       "product": "Silver Smart First Aid Container (empty)",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 17000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/empty-kit-silver-smart-first-aid-kit",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Cello",
+       "product": "Premium Transparent Plastic Container (empty)",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 35000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/cello-transparent-plastic-first-aid-box-empty",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Smart First Aid",
+       "product": "Heavy Duty Orange Plastic Container (empty)",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 65000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/smart-first-aid-kit-bag-empty",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Generic",
+       "product": "Aluminium First Aid Box (empty)",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 80000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/first-aid-box",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Generic",
+       "product": "Medium Metal Wall Cabinet (empty)",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 99000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/medium-metal-wall-cabinet-empty",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "crepe",
+     "name": {
+      "en": "Crepe bandage",
+      "sw": "Bendeji ya crepe"
+     },
+     "why": {
+      "en": "Supports a sprained ankle or wrist and holds a dressing in place.",
+      "sw": "Hushikilia kifundo cha mguu au mkono kilichoteguka na hushika kifaa cha kufunga jeraha."
+     },
+     "qty": {
+      "en": "2 bandages, first box only",
+      "sw": "Bendeji 2, boksi la kwanza tu"
+     },
+     "qty_formula": "2 per family first-aid box",
+     "units": 2,
+     "kind": "goods",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Elastolite",
+       "product": "Elastolite crepe bandage 7.5 cm",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 1850,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/crepe-bandage-3in-7-5cm-elastolite/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 91,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Elastolite",
+       "product": "Elastolite crepe bandage 10 cm",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 2033,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/crepe-bandage-4in-10cm-elastolite/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 100,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Elastolite",
+       "product": "Elastolite crepe bandage 15 cm",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 2257,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/crepe-bandage-6in-15cm-elastolite/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 111,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "gauze",
+     "name": {
+      "en": "Sterile dressing pads",
+      "sw": "Vitambaa tasa vya kufunga jeraha"
+     },
+     "why": {
+      "en": "A clean, non-sticking cover for a larger wound or a burn after cooling it under running water for about 20 minutes (WHO burns fact sheet).",
+      "sw": "Kifuniko safi kisichonata kwa jeraha kubwa au kwa jeraha la moto baada ya kulipoza kwa maji yanayotiririka kwa takriban dakika 20 (taarifa ya WHO kuhusu majeraha ya moto)."
+     },
+     "qty": {
+      "en": "10 pads, first box only",
+      "sw": "Vitambaa 10, boksi la kwanza tu"
+     },
+     "qty_formula": "2 packs of 5",
+     "units": 10,
+     "kind": "goods",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Steroplast",
+       "product": "Steroplast sterile dressing pads 5×5 cm",
+       "pack": "5 pads",
+       "pack_units": 5,
+       "price_tsh": 5611,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/steroplast-dressing-pads-sterile-5s-5cm-x-5cm/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 276,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Generic",
+       "product": "Sterile gauze swabs 4×4 in",
+       "pack": "100 swabs",
+       "pack_units": 100,
+       "price_tsh": 21306,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/gauze-swabs-sterile-44-100s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1048,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Generic",
+       "product": "Sterile gauze swabs 3×3 in",
+       "pack": "100 swabs",
+       "pack_units": 100,
+       "price_tsh": 19374,
+       "src": {
+        "name": "Goodlife Pharmacy Kenya",
+        "u": "https://www.goodlife.co.ke/product/gauze-swabs-sterile-3x3-100s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 953,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "therm",
+     "name": {
+      "en": "Digital thermometer",
+      "sw": "Kipimajoto cha kidijitali"
+     },
+     "why": {
+      "en": "Confirms a fever, so the family goes for a malaria test at a health facility instead of guessing.",
+      "sw": "Huthibitisha homa, ili familia iende kupima malaria kituo cha afya badala ya kubahatisha."
+     },
+     "qty": {
+      "en": "1, first box only",
+      "sw": "1, boksi la kwanza tu"
+     },
+     "qty_formula": "1 per home",
+     "units": 1,
+     "kind": "goods",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Microlife",
+       "product": "MT 810 digital stick thermometer",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 19314,
+       "src": {
+        "name": "Portal Pharmacy Kenya",
+        "u": "https://portalpharmacy.ke/microlife-mt810-digital-thermometer",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 950,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "A&D",
+       "product": "UT-103 digital thermometer",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 30495,
+       "src": {
+        "name": "Portal Pharmacy Kenya",
+        "u": "https://portalpharmacy.ke/ad-medical-ut-103-digital-thermometer",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1500,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Generic",
+       "product": "Non-Contact Infrared Digital Thermometer",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 75000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/infrared-thermometer",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "ors",
+     "name": {
+      "en": "Oral rehydration salts, for the first-aid box (partner pharmacy)",
+      "sw": "Chumvi za kurudisha maji mwilini, kwa sanduku la huduma ya kwanza (famasia mshirika)"
+     },
+     "why": {
+      "en": "WHO: most people with cholera can be treated with oral rehydration solution, and starting quickly saves lives. Keeping a few sachets at home lets treatment start while the family goes to a clinic. Supplied by the licensed partner pharmacy, not priced in the box.",
+      "sw": "WHO: wagonjwa wengi wa kipindupindu wanaweza kutibiwa kwa mchanganyiko wa chumvi za kurudisha maji mwilini, na kuanza mapema huokoa maisha. Kuweka pakiti chache nyumbani huwezesha kuanza wakati familia inaelekea kliniki. Hutolewa na famasia mshirika yenye leseni, haziwekwi bei kwenye boksi."
+     },
+     "qty": {
+      "en": "6 sachets, first box only",
+      "sw": "Pakiti 6, boksi la kwanza tu"
+     },
+     "qty_formula": "6 sachets kept in the first-aid box; replaced when used",
+     "units": 6,
+     "kind": "medicine",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "IYFE",
+       "product": "Low-osmolarity ORS sachet",
+       "pack": "1 sachet",
+       "pack_units": 1,
+       "price_tsh": 500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/iyfe-ors-sachhets-1s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true,
+       "note": "Listed for reference: sold by the licensed partner pharmacy, not priced in the box (B4)."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "luxury": [
+  {
+   "tier": "premium",
+   "name": {
+    "en": "Air freshener refill for the living room",
+    "sw": "Kujaza tena kinukisha hewa cha sebuleni"
+   },
+   "brand": "Air Wick",
+   "product": "Air Wick Freshmatic Refill",
+   "pack": "250 ml",
+   "price_tsh": 16000,
+   "src": {
+    "name": "Shoppers Supermarket",
+    "u": "https://www.shoppers.co.tz/product-detail/6026361453c6d5732d0a3548",
+    "chk": "2026-11-10"
+   },
+   "orig": null,
+   "status": "TZ"
+  },
+  {
+   "tier": "luxury",
+   "name": {
+    "en": "Bath & Body Works scented candle",
+    "sw": "Mshumaa wenye harufu wa Bath & Body Works"
+   },
+   "brand": "Bath & Body Works",
+   "product": "Bath & Body Works single-wick candle",
+   "pack": "227 g",
+   "price_tsh": 46759,
+   "src": {
+    "name": "Jumia Kenya",
+    "u": "https://www.jumia.co.ke/bath-body-works-pink-obsessed-single-wick-candle-227g-329477440.html",
+    "chk": "2026-11-02"
+   },
+   "orig": {
+    "cur": "KES",
+    "amount": 2300,
+    "rate": 20.33,
+    "date": "2026-11-10"
+   },
+   "status": "KE",
+   "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row."
+  }
+ ],
+ "tiers": {
+  "en": "Regular = the core box with default brands. Premium = core + the premium item. Luxury = core + the luxury item. The luxury item is priced as its own line at shelf price, outside the saving (D4).",
+  "sw": "Kawaida = boksi la msingi lenye chapa za msingi. Premium = boksi la msingi + bidhaa ya premium. Anasa = boksi la msingi + bidhaa ya anasa. Bidhaa ya anasa ina bei yake peke yake kwa bei ya rafu, nje ya punguzo (D4)."
+ },
+ "services": [
+  "water-chlorine-check",
+  "family-bp-check",
+  "home-pest-control"
+ ],
+ "services_detail": [
+  {
+   "key": "water-chlorine-check",
+   "name": {
+    "en": "Drinking-water chlorine check",
+    "sw": "Kipimo cha klorini ya maji ya kunywa"
+   },
+   "what": {
+    "en": "The store adviser tests a sample of the family’s treated water for free chlorine and shows the right dose.",
+    "sw": "Mshauri wa duka hupima sampuli ya maji yaliyotibiwa ya familia kuona klorini na kuonyesha kipimo sahihi."
+   },
+   "walkin_tsh": 0,
+   "partner_tsh": 0,
+   "member_fee_tsh": 0,
+   "addon_member_tsh": 0,
+   "per_year": 12,
+   "included": true,
+   "status": "store",
+   "src": "Store service"
+  },
+  {
+   "key": "family-bp-check",
+   "name": {
+    "en": "Family blood-pressure check",
+    "sw": "Kipimo cha shinikizo la damu kwa familia"
+   },
+   "what": {
+    "en": "Any adult in the household can have blood pressure and weight checked in the store each month.",
+    "sw": "Mtu mzima yeyote wa kaya anaweza kupimwa shinikizo la damu na uzito dukani kila mwezi."
+   },
+   "walkin_tsh": 0,
+   "partner_tsh": 0,
+   "member_fee_tsh": 0,
+   "addon_member_tsh": 0,
+   "per_year": 12,
+   "included": true,
+   "status": "store",
+   "src": "Store service"
+  },
+  {
+   "key": "home-pest-control",
+   "name": {
+    "en": "Home pest-control visit (add-on)",
+    "sw": "Ziara ya kudhibiti wadudu nyumbani (nyongeza)"
+   },
+   "what": {
+    "en": "A licensed pest-control company treats the home for cockroaches and rodents.",
+    "sw": "Kampuni yenye leseni ya kudhibiti wadudu hutibu nyumba dhidi ya mende na panya."
+   },
+   "walkin_tsh": 60000,
+   "partner_tsh": 42000,
+   "member_fee_tsh": 0,
+   "addon_member_tsh": 54000,
+   "per_year": 2,
+   "included": false,
+   "status": "EST",
+   "src": "model.js services.packs (planning figure, no partner quote)"
+  }
+ ],
+ "starter_rule": {
+  "en": "Starter items come once, in the first box, charged once at shelf price (no saving), with no extra delivery.",
+  "sw": "Bidhaa za kuanzia zinakuja mara moja, kwenye boksi la kwanza, zinalipiwa mara moja kwa bei ya rafu (bila punguzo), bila usafirishaji wa ziada."
+ },
+ "pricing_rule": {
+  "formula": "D4 (10 Nov 2026): core price = shelf value of the monthly box goods × (1 − 3% / 6% / 9% for 1 / 6 / 12-month plans), nearest 500, never above shelf; packing (S 3,500 · M 5,000 · L 6,500 per box) and one delivery 3,500 included. Check: price − goods at landed cost (R3 shares 78% brand / 72% pharm / 50% own) − packing − delivery − 1% points ≥ 0. Service fee = r500(partner price × 1.25), partner price = r500(walk-in × 0.70), charged in the month delivered.",
+  "prices": {
+   "small": {
+    "shelf": 53162,
+    "plan_1": 51500,
+    "plan_6": 50000,
+    "plan_12": 48500,
+    "buy_once": 53000,
+    "margin_12": 1767,
+    "boxes": 1,
+    "starter_shelf": 63775,
+    "service_fees_year": 0
+   },
+   "family": {
+    "shelf": 98225,
+    "plan_1": 95500,
+    "plan_6": 92500,
+    "plan_12": 89500,
+    "buy_once": 98000,
+    "margin_12": 7945,
+    "boxes": 1,
+    "starter_shelf": 81236,
+    "service_fees_year": 0
+   }
+  }
+ },
+ "images": [
+  {
+   "en": "A clean, sunlit Dar es Salaam kitchen counter with the open green box, soap and water-treatment bottle; no people",
+   "sw": "Kaunta safi ya jikoni ya Dar es Salaam yenye mwanga wa jua, boksi la kijani lililofunguliwa, sabuni na chupa ya dawa ya maji; bila watu"
+  },
+  {
+   "en": "A bedroom with a treated net hung over a made bed, evening light; no people",
+   "sw": "Chumba cha kulala chenye chandarua kilichotundikwa juu ya kitanda kilichotandikwa, mwanga wa jioni; bila watu"
+  }
+ ],
+ "packing": {
+  "film": null
+ },
+ "open": [
+  {
+   "en": "Treated net: the price is an estimate (TSh 10,000). A distributor quote for a WHO-prequalified long-lasting net is needed; this is why the box is not final.",
+   "sw": "Chandarua chenye dawa: bei ni makadirio (TSh 10,000). Inahitajika bei kutoka kwa msambazaji wa chandarua kilichoidhinishwa na WHO; ndiyo sababu boksi halijakamilika."
+  },
+  {
+   "en": "Water treatment, plasters, rubbish bags, thermometers, the luxury candle and four glove brands have Kenyan prices only (converted at KES 20.33). Kariakoo or distributor prices are needed.",
+   "sw": "Dawa ya maji, plasta, mifuko ya taka, vipimajoto, mshumaa wa anasa na chapa nne za glavu zina bei za Kenya tu (zimebadilishwa kwa KES 20.33). Zinahitajika bei za Kariakoo au za wasambazaji."
+  },
+  {
+   "en": "Check the active ingredient on each repellent pack against WHO’s list (DEET, IR3535 or icaridin).",
+   "sw": "Kagua kiambato hai kwenye kila pakiti ya dawa ya mbu dhidi ya orodha ya WHO (DEET, IR3535 au icaridin)."
+  },
+  {
+   "en": "Quantities per person are planning estimates; adjust after three months of real member use.",
+   "sw": "Kiasi kwa kila mtu ni makadirio ya mipango; kirekebishwe baada ya miezi mitatu ya matumizi halisi ya wanachama."
+  }
+ ]
+}
