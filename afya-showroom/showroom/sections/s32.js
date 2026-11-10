@@ -179,6 +179,7 @@ const CSS=`
 .s32-qr{width:84px;height:84px;margin-top:10px;border:6px solid var(--ink);background:var(--ink);display:grid;grid-template-columns:repeat(7,1fr)}
 .s32-qr i{background:var(--bg)}.s32-qr i.k{background:var(--ink)}
 .s32-warn{color:var(--gold)}
+.s32 .ab-seg{display:flex;flex-wrap:wrap;gap:6px;border:0;overflow:visible;max-width:100%}.s32 .ab-seg button{border:1px solid var(--line);border-radius:999px}
 .s32 .ab-btn:disabled,.s32 button:disabled{opacity:.45;cursor:default}
 .s32-seq{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;list-style:none;padding:0;margin:var(--s3) 0 0}
 .s32-seq li{border:1px solid var(--line);background:var(--surface);padding:12px}.s32-seq em{display:block;font-style:normal;color:var(--gold);font-size:var(--fs-cap);font-variant-numeric:tabular-nums}
@@ -383,7 +384,7 @@ function render(s,p,pv,nx){const M=window.MODEL,I=M.inputs,b=M.get('base'),m12=b
   {v:L('under 30 s','chini ya sek. 30'),l:T('Target to pay in store, and to reorder from the phone','Lengo la kulipa dukani, na kuagiza tena kwa simu'),s:L('Design target, measured daily from opening','Lengo la muundo, linapimwa kila siku tangu kufungua')},
   {v:L('under 3 min','chini ya dak. 3'),l:T('Target to find and pay for a known product','Lengo la kutafuta na kulipia bidhaa inayojulikana'),s:L('Walk-in journey: designed budget 2 min 50 s','Safari ya mteja wa dukani: muda uliopangwa dak. 2 sek. 50')},
   {v:'76,466,691',l:T('Mobile money accounts in Tanzania, December 2025','Akaunti za pesa kwa simu Tanzania, Desemba 2025'),s:L('TCRA, via Daily News','TCRA, kupitia Daily News')},
-  {v:`≈ ${N('s32fee',fee,'tsh')} ${est()}`,l:T('Payment processing in month 12, at about 2.7% of collections','Gharama za malipo mwezi wa 12, kwa takriban 2.7% ya makusanyo'),s:L('Payment research; aggregator rates not yet confirmed in writing','Utafiti wa malipo; viwango vya mkusanyaji bado havijathibitishwa kwa maandishi')}])}</section>
+  {v:`≈ ${N('s32fee',fee,'tsh')} ${est()}`,l:T('Payment processing in month 12, cautious case at about 2.7% of collections (the plan uses 1.2%)','Gharama za malipo mwezi wa 12, hali ya tahadhari kwa takriban 2.7% ya makusanyo (mpango unatumia 1.2%)'),s:L('Payment research; aggregator rates not yet confirmed in writing','Utafiti wa malipo; viwango vya mkusanyaji bado havijathibitishwa kwa maandishi')}])}</section>
 
  <section class="ab-block"><h2>${L('What this costs','Hii inagharimu kiasi gani')}</h2>
   <p class="ab-mute">${lean?L('Start-small option · TSh 150M','Chaguo la kuanza kidogo · TSh milioni 150'):L('Flagship option · TSh 340M','Chaguo la duka kuu · TSh milioni 340')}</p>

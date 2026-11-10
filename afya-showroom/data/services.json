@@ -203,5 +203,221 @@
   "included_in_box_by_default": false,
   "free_public_alternative": null,
   "note": "EST (planning, no quote). Nearest observed price: AfyaDepot nurse home visit (Minor Wound Dressing) TSh 25,000, opened 10 Nov 2026; × 0.7 partner rate × 1.25 = about 22,000 per visit per 25 staff."
+ },
+ {
+  "key": "first-aid-box-check",
+  "name": {
+   "en": "First-aid box check on delivery",
+   "sw": "Ukaguzi wa sanduku la huduma ya kwanza wakati wa kusafirisha"
+  },
+  "what": {
+   "en": "The rider checks the first-aid box at each delivery, refills what was used and signs the record.",
+   "sw": "Msafirishaji anakagua sanduku la huduma ya kwanza kila anapofikisha boksi, anajaza kilichotumika na kusaini kumbukumbu."
+  },
+  "who_provides": {
+   "en": "Afya store team, included in the membership.",
+   "sw": "Timu ya duka la Afya, imejumuishwa kwenye uanachama."
+  },
+  "walkin_tsh": 0,
+  "src": null,
+  "status": "STORE",
+  "included_in_box_by_default": true,
+  "free_public_alternative": null,
+  "note": "Store service, included.",
+  "member_in_box_tsh": 0,
+  "addon_member_tsh": 0,
+  "provider_net_tsh": 0,
+  "afya_tsh": 0,
+  "partner_price_in_box_tsh": 0,
+  "afya_in_box_tsh": 0
+ },
+ {
+  "key": "staff-bp-check",
+  "name": {
+   "en": "Staff blood-pressure check at the store",
+   "sw": "Upimaji wa shinikizo la damu kwa wafanyakazi dukani"
+  },
+  "what": {
+   "en": "Every employee on the account can have blood pressure checked in the store each month.",
+   "sw": "Kila mfanyakazi kwenye akaunti anaweza kupimwa shinikizo la damu dukani kila mwezi."
+  },
+  "who_provides": {
+   "en": "Afya store team, included in the membership.",
+   "sw": "Timu ya duka la Afya, imejumuishwa kwenye uanachama."
+  },
+  "walkin_tsh": 0,
+  "src": null,
+  "status": "STORE",
+  "included_in_box_by_default": true,
+  "free_public_alternative": null,
+  "note": "Store service, included.",
+  "member_in_box_tsh": 0,
+  "addon_member_tsh": 0,
+  "provider_net_tsh": 0,
+  "afya_tsh": 0,
+  "partner_price_in_box_tsh": 0,
+  "afya_in_box_tsh": 0
+ },
+ {
+  "key": "water-chlorine-check",
+  "name": {
+   "en": "Drinking-water chlorine check",
+   "sw": "Ukaguzi wa klorini kwenye maji ya kunywa"
+  },
+  "what": {
+   "en": "The store adviser tests a sample of the household’s treated water for free chlorine and shows the right dose.",
+   "sw": "Mshauri wa duka anapima sampuli ya maji ya kaya yaliyotibiwa kuona klorini na kuonyesha kipimo sahihi."
+  },
+  "who_provides": {
+   "en": "Afya store team, included in the membership.",
+   "sw": "Timu ya duka la Afya, imejumuishwa kwenye uanachama."
+  },
+  "walkin_tsh": 0,
+  "src": null,
+  "status": "STORE",
+  "included_in_box_by_default": true,
+  "free_public_alternative": null,
+  "note": "Store service, included.",
+  "member_in_box_tsh": 0,
+  "addon_member_tsh": 0,
+  "provider_net_tsh": 0,
+  "afya_tsh": 0,
+  "partner_price_in_box_tsh": 0,
+  "afya_in_box_tsh": 0
+ },
+ {
+  "key": "family-bp-check",
+  "name": {
+   "en": "Family blood-pressure check",
+   "sw": "Upimaji wa shinikizo la damu kwa familia"
+  },
+  "what": {
+   "en": "Any adult in the household can have blood pressure and weight checked in the store each month.",
+   "sw": "Mtu mzima yeyote katika kaya anaweza kupimwa shinikizo la damu na uzito dukani kila mwezi."
+  },
+  "who_provides": {
+   "en": "Afya store team, included in the membership.",
+   "sw": "Timu ya duka la Afya, imejumuishwa kwenye uanachama."
+  },
+  "walkin_tsh": 0,
+  "src": null,
+  "status": "STORE",
+  "included_in_box_by_default": true,
+  "free_public_alternative": null,
+  "note": "Store service, included.",
+  "member_in_box_tsh": 0,
+  "addon_member_tsh": 0,
+  "provider_net_tsh": 0,
+  "afya_tsh": 0,
+  "partner_price_in_box_tsh": 0,
+  "afya_in_box_tsh": 0
+ },
+ {
+  "key": "first-aid-training-seat",
+  "name": {
+   "en": "Accredited first-aid training seat",
+   "sw": "Nafasi ya mafunzo ya huduma ya kwanza yaliyoidhinishwa"
+  },
+  "what": {
+   "en": "One staff member trained and certified as the workplace first-aider (two a year for a hotel).",
+   "sw": "Mfanyakazi mmoja anafunzwa na kuthibitishwa kuwa mhudumu wa huduma ya kwanza kazini (wawili kwa mwaka kwa hoteli)."
+  },
+  "who_provides": {
+   "en": "Licensed partner company (no partner signed yet).",
+   "sw": "Kampuni mshirika yenye leseni (bado hakuna mshirika aliyesaini)."
+  },
+  "walkin_tsh": 30000,
+  "src": null,
+  "status": "EST",
+  "included_in_box_by_default": false,
+  "free_public_alternative": null,
+  "note": "EST. Planning figure from the financial model, no partner quote. Business accounts 30,000 walk-in; the hotel add-on uses 50,000.",
+  "member_in_box_tsh": 26500,
+  "addon_member_tsh": 27000,
+  "provider_net_tsh": 24300,
+  "afya_tsh": 2700,
+  "partner_price_in_box_tsh": 21000,
+  "afya_in_box_tsh": 5500
+ },
+ {
+  "key": "fire-extinguisher-service",
+  "name": {
+   "en": "Fire-extinguisher service and refill",
+   "sw": "Huduma na kujaza upya kizima moto"
+  },
+  "what": {
+   "en": "Once a year a fire-safety company checks and refills the extinguisher.",
+   "sw": "Mara moja kwa mwaka kampuni ya usalama wa moto inakagua na kujaza upya kizima moto."
+  },
+  "who_provides": {
+   "en": "Licensed partner company (no partner signed yet).",
+   "sw": "Kampuni mshirika yenye leseni (bado hakuna mshirika aliyesaini)."
+  },
+  "walkin_tsh": 30000,
+  "src": null,
+  "status": "EST",
+  "included_in_box_by_default": false,
+  "free_public_alternative": null,
+  "note": "EST. Planning figure from the financial model, no partner quote.",
+  "member_in_box_tsh": 26500,
+  "addon_member_tsh": 27000,
+  "provider_net_tsh": 24300,
+  "afya_tsh": 2700,
+  "partner_price_in_box_tsh": 21000,
+  "afya_in_box_tsh": 5500
+ },
+ {
+  "key": "pest-control-visit",
+  "name": {
+   "en": "Pest-control visit",
+   "sw": "Ziara ya kudhibiti wadudu"
+  },
+  "what": {
+   "en": "A licensed pest-control company treats the kitchen (restaurants, twice a year) or rooms and kitchen (hotels, quarterly).",
+   "sw": "Kampuni yenye leseni ya kudhibiti wadudu inatibu jiko (migahawa, mara mbili kwa mwaka) au vyumba na jiko (hoteli, kila robo mwaka)."
+  },
+  "who_provides": {
+   "en": "Licensed partner company (no partner signed yet).",
+   "sw": "Kampuni mshirika yenye leseni (bado hakuna mshirika aliyesaini)."
+  },
+  "walkin_tsh": 60000,
+  "src": null,
+  "status": "EST",
+  "included_in_box_by_default": false,
+  "free_public_alternative": null,
+  "note": "EST. Planning figure from the financial model, no partner quote. Restaurants 60,000 walk-in; hotels 80,000.",
+  "member_in_box_tsh": 52500,
+  "addon_member_tsh": 54000,
+  "provider_net_tsh": 48600,
+  "afya_tsh": 5400,
+  "partner_price_in_box_tsh": 42000,
+  "afya_in_box_tsh": 10500
+ },
+ {
+  "key": "home-pest-control",
+  "name": {
+   "en": "Home pest-control visit (add-on)",
+   "sw": "Ziara ya kudhibiti wadudu nyumbani (nyongeza)"
+  },
+  "what": {
+   "en": "A licensed pest-control company treats the home for cockroaches and rodents.",
+   "sw": "Kampuni yenye leseni ya kudhibiti wadudu inatibu nyumba dhidi ya mende na panya."
+  },
+  "who_provides": {
+   "en": "Licensed partner company (no partner signed yet).",
+   "sw": "Kampuni mshirika yenye leseni (bado hakuna mshirika aliyesaini)."
+  },
+  "walkin_tsh": 60000,
+  "src": null,
+  "status": "EST",
+  "included_in_box_by_default": false,
+  "free_public_alternative": null,
+  "note": "EST. Planning figure from the financial model, no partner quote.",
+  "member_in_box_tsh": 52500,
+  "addon_member_tsh": 54000,
+  "provider_net_tsh": 48600,
+  "afya_tsh": 5400,
+  "partner_price_in_box_tsh": 42000,
+  "afya_in_box_tsh": 10500
  }
 ]

@@ -1,0 +1,2064 @@
+{
+ "slug": "kupona",
+ "name": {
+  "en": "Kupona",
+  "sw": "Kupona"
+ },
+ "final": true,
+ "delivery": "monthly",
+ "box_size": "L",
+ "who": {
+  "en": "<p>For a person going home after surgery or an injury (a fracture, an operation on the abdomen, hip or knee, a caesarean section or a large wound), and for the family member who helps them. The first six weeks decide much of the outcome: the wound must heal without infection, the person must start moving early and safely, and the new medicines must be taken correctly.</p><p>The box follows the clinic, not the other way round. It carries clean wound-care supplies for the dressing the clinic has chosen, hand hygiene for the carer (WHO hand-hygiene guidelines), a thermometer because fever and a red, hot or leaking wound are the earliest signs of infection, a walking aid of the type the clinic or physiotherapist advises, and a non-slip mat, because a fall in the first weeks can reopen a wound or break a repaired bone (WHO falls fact sheet). WHO notes that rehabilitation lets people return to work and stay independent at home, and that about 2.4 billion people live with a condition that would benefit from it.</p><p>It comes as two boxes: one at discharge for weeks 1–2, when changes are most frequent, and one for weeks 3–6, when the dressing changes slow down and home exercises start.</p>",
+  "sw": "<p>Kwa mtu anayerudi nyumbani baada ya upasuaji au jeraha (kuvunjika mfupa, upasuaji wa tumbo, nyonga au goti, upasuaji wa kujifungua au jeraha kubwa), na kwa mwanafamilia anayemsaidia. Wiki sita za kwanza huamua mengi: jeraha lazima lipone bila maambukizi, mtu lazima aanze kutembea mapema na kwa usalama, na dawa mpya lazima zitumiwe ipasavyo.</p><p>Sanduku hufuata kliniki, si kinyume chake. Linaleta vifaa safi vya kutunza jeraha kwa bandeji iliyochaguliwa na kliniki, usafi wa mikono kwa mhudumu (miongozo ya WHO ya usafi wa mikono), kipimajoto kwa sababu homa na jeraha jekundu, la moto au linalotoa majimaji ni dalili za mwanzo za maambukizi, kifaa cha kutembelea cha aina inayoshauriwa na kliniki au mtaalamu wa tiba ya viungo, na mkeka usioteleza, kwa sababu kuanguka katika wiki za mwanzo kunaweza kufungua jeraha au kuvunja tena mfupa uliotibiwa (taarifa ya WHO kuhusu kuanguka). WHO inaeleza kwamba tiba ya kurejesha uwezo huwawezesha watu kurudi kazini na kubaki huru nyumbani, na kwamba takriban watu bilioni 2.4 wana hali ambayo ingenufaika nayo.</p><p>Huja kama masanduku mawili: moja wakati wa kuruhusiwa kwa wiki 1–2, ambapo bandeji hubadilishwa mara nyingi zaidi, na moja kwa wiki 3–6, ambapo kubadilisha bandeji hupungua na mazoezi ya nyumbani huanza.</p>"
+ },
+ "clinic_line": {
+  "en": "Your clinic or hospital decides which dressing you use and how often it is changed, when stitches or clips come out, when you may shower, how much weight your leg may take, and every medicine, including pain relief, antibiotics and blood thinners, and their doses. Afya does not sell medicines: the licensed partner pharmacy supplies them on the discharge prescription. A fever, a wound that becomes red, hot, swollen or starts to leak, new pain or swelling in the calf, or shortness of breath goes to the clinic the same day; do not wait for the next box.",
+  "sw": "Kliniki au hospitali yako ndiyo inayoamua bandeji ipi itumike na ibadilishwe mara ngapi, lini nyuzi au klipu zitolewe, lini unaweza kuoga, mguu wako unaweza kubeba uzito kiasi gani, na kila dawa, ikiwemo dawa za maumivu, antibiotiki na dawa za kuzuia damu kuganda, pamoja na dozi zake. Afya haiuzi dawa: famasia mshirika yenye leseni huzitoa kwa maagizo ya kuruhusiwa. Homa, jeraha linalokuwa jekundu, la moto, lililovimba au linaloanza kutoa majimaji, maumivu mapya au uvimbe kwenye ndama, au kushindwa kupumua hupelekwa kliniki siku hiyo hiyo; usisubiri sanduku lijalo."
+ },
+ "guidance": [
+  {
+   "t": "WHO 2016/2018, Global guidelines for the prevention of surgical site infection",
+   "u": "https://www.who.int/publications/i/item/9789241550475",
+   "chk": "2026-11-10",
+   "note": "Publication page opened; the guideline text was not read."
+  },
+  {
+   "t": "WHO 2009, Guidelines on hand hygiene in health care",
+   "u": "https://www.who.int/publications/i/item/9789241597906",
+   "chk": "2026-11-10",
+   "note": "Publication page opened; the guideline text was not re-read."
+  },
+  {
+   "t": "WHO fact sheet, Rehabilitation",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/rehabilitation",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet, Falls",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/falls",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet, Tetanus (wound care)",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/tetanus",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "NICE NG125 Surgical site infections; NICE NG89 Venous thromboembolism",
+   "u": "https://www.nice.org.uk/guidance/ng125",
+   "chk": "2026-11-02",
+   "note": "Cited in the earlier code; host refused, not re-opened."
+  }
+ ],
+ "stages": [
+  {
+   "key": "a",
+   "label": {
+    "en": "Weeks 1–2 · discharge box",
+    "sw": "Wiki 1–2 · sanduku la kuruhusiwa"
+   },
+   "months": "0–0.5",
+   "when": {
+    "en": "delivered on the day of discharge",
+    "sw": "huletwa siku ya kuruhusiwa"
+   },
+   "delivery_mode": {
+    "en": "Once, at discharge",
+    "sw": "Mara moja, wakati wa kuruhusiwa"
+   },
+   "box_size": "L",
+   "boxes_per_year": 1,
+   "pricing": {
+    "shelf_value": 142893,
+    "landed_goods": 97385,
+    "packing": 6500,
+    "delivery": 3500,
+    "plans": {
+     "buy_once": {
+      "price": 142500,
+      "saving_vs_shelf": 393,
+      "margin": 33690,
+      "margin_pct": 23.6
+     },
+     "m1": {
+      "price": 138500,
+      "saving_vs_shelf": 4393,
+      "margin": 29730,
+      "margin_pct": 21.5
+     },
+     "m6": {
+      "price": 134500,
+      "saving_vs_shelf": 8393,
+      "margin": 25770,
+      "margin_pct": 19.2
+     },
+     "m12": {
+      "price": 130000,
+      "saving_vs_shelf": 12893,
+      "margin": 21315,
+      "margin_pct": 16.4
+     }
+    },
+    "tz_share_pct": 46,
+    "ke_value": 77151,
+    "est_value": 0
+   },
+   "items": [
+    {
+     "key": "dress",
+     "name": {
+      "en": "Sterile adhesive island dressings",
+      "sw": "Bandeji tasa zinazojibandika"
+     },
+     "why": {
+      "en": "A surgical wound is kept covered with a sterile dressing while it heals, and the dressing is changed when it is wet, soiled or as the clinic says. The type and size of dressing, and how often it is changed, are decided by the clinic that treated the person; the box carries the type written on the discharge note.",
+      "sw": "Jeraha la upasuaji hufunikwa kwa bandeji tasa wakati linapona, na bandeji hubadilishwa ikilowa, ikichafuka au kama kliniki inavyoelekeza. Aina na ukubwa wa bandeji, na inabadilishwa mara ngapi, huamuliwa na kliniki iliyomtibu mgonjwa; sanduku huleta aina iliyoandikwa kwenye barua ya kuruhusiwa."
+     },
+     "qty": {
+      "en": "7 dressings",
+      "sw": "Bandeji 7"
+     },
+     "qty_formula": "one change every 2 days × 14 days = 7 (the clinic may set another interval)",
+     "units": 7,
+     "kind": "goods",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Curapor",
+       "product": "Non-woven island dressing 10 × 8 cm",
+       "pack": "50",
+       "pack_units": 50,
+       "price_tsh": 82357,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/curapor-non-woven-dressing-10x8cm-50s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 4051,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": true,
+       "default": true,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Primapore",
+       "product": "Adhesive wound dressing 15 × 8 cm",
+       "pack": "20",
+       "pack_units": 20,
+       "price_tsh": 53468,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/primapore-awd-15cm8cm-20s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 2630,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Opsite Post-Op",
+       "product": "Showerproof island dressing 15.5 × 8.5 cm",
+       "pack": "20",
+       "pack_units": 20,
+       "price_tsh": 146478,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/opsite-dressing-15-5cmx8-5cm-20s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 7205,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Showerproof film dressing; about 4× the cost of Curapor. Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      }
+     ]
+    },
+    {
+     "key": "gauze",
+     "name": {
+      "en": "Sterile gauze swabs",
+      "sw": "Shashi tasa"
+     },
+     "why": {
+      "en": "Used wet with sterile saline to clean around the wound at each dressing change, one swab per wipe, from the wound outwards. Cotton wool is not used on wounds because its fibres stick.",
+      "sw": "Hutumika zikiwa zimelowanishwa kwa maji tasa ya chumvi kusafisha kuzunguka jeraha kila mara ya kubadilisha bandeji, shashi moja kwa kila mpanguso, kutoka kwenye jeraha kwenda nje. Pamba haitumiki kwenye majeraha kwa sababu nyuzi zake hunata."
+     },
+     "qty": {
+      "en": "20 swabs",
+      "sw": "Shashi 20"
+     },
+     "qty_formula": "about 2–3 swabs a change × 7 changes ≈ 20",
+     "units": 20,
+     "kind": "goods",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Generic (Goodlife)",
+       "product": "Sterile gauze swabs 3 × 3 in",
+       "pack": "100",
+       "pack_units": 100,
+       "price_tsh": 19374,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/gauze-swabs-sterile-3x3-100s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 953,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": true,
+       "default": true,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Generic (Goodlife)",
+       "product": "Sterile gauze swabs 10 × 10 cm",
+       "pack": "100",
+       "pack_units": 100,
+       "price_tsh": 21306,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/gauze-swabs-sterile-44-100s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1048,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Steroplast",
+       "product": "Sterile dressing pads 5 × 5 cm",
+       "pack": "5",
+       "pack_units": 5,
+       "price_tsh": 5611,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/steroplast-dressing-pads-sterile-5s-5cm-x-5cm/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 276,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      }
+     ]
+    },
+    {
+     "key": "saline",
+     "name": {
+      "en": "Sterile saline for cleaning the wound",
+      "sw": "Maji tasa ya chumvi ya kusafishia jeraha"
+     },
+     "why": {
+      "en": "Sterile 0.9% saline cleans a fresh wound without stinging or harming new tissue. Strong antiseptics and hydrogen peroxide are not sent, because they slow healing; the clinic says when plain showering can replace saline.",
+      "sw": "Maji tasa ya chumvi ya 0.9% husafisha jeraha jipya bila kuuma wala kuharibu nyama mpya. Dawa kali za kusafisha na haidrojeni peroksaidi haziletwi kwa sababu huchelewesha kupona; kliniki huelekeza lini kuoga kwa kawaida kunaweza kuchukua nafasi ya maji ya chumvi."
+     },
+     "qty": {
+      "en": "500 ml",
+      "sw": "ml 500"
+     },
+     "qty_formula": "about 50 ml a change × 7 changes ≈ 350 ml → one 500 ml bottle",
+     "units": 500,
+     "kind": "goods",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Generic (AfyaDepot)",
+       "product": "Sodium chloride 0.9% sterile solution",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 2542,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/normal-saline-infusion-solution-500mls",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true,
+       "note": "Sold as an infusion bottle; used here only to rinse the wound. Once opened, use within 24 hours."
+      },
+      {
+       "brand": "NeilMed",
+       "product": "NeilCleanse sterile saline wound wash spray",
+       "pack": "177 ml",
+       "pack_units": 177,
+       "price_tsh": 40457,
+       "src": {
+        "name": "Delivery Pharmacy (Kenya)",
+        "u": "https://deliverypharmacyke.com/product/neilmed-neilcleanse-wound-wash-sterile-saline-solution-6oz-177ml/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1990,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Spray can, no opened-bottle waste; far higher price range. Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      }
+     ]
+    },
+    {
+     "key": "rgloves",
+     "name": {
+      "en": "Disposable gloves for dressing changes",
+      "sw": "Glavu za kutupwa za kubadilisha bandeji"
+     },
+     "why": {
+      "en": "Clean hands and fresh gloves at each change keep germs out of the wound (WHO hand-hygiene guidance). One pair to remove the old dressing, a fresh pair to put on the new one.",
+      "sw": "Mikono safi na glavu mpya kila mara ya kubadilisha bandeji huzuia vijidudu kuingia kwenye jeraha (mwongozo wa WHO wa usafi wa mikono). Jozi moja ya kuondoa bandeji ya zamani, jozi mpya ya kuweka mpya."
+     },
+     "qty": {
+      "en": "20 gloves",
+      "sw": "Glavu 20"
+     },
+     "qty_formula": "2 pairs a change (remove, then apply) × 7 changes = 28 → 20 with the person changing small dressings alone (planning assumption)",
+     "units": 20,
+     "kind": "goods",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Generic (Goodlife)",
+       "product": "Latex examination gloves, medium",
+       "pack": "100",
+       "pack_units": 100,
+       "price_tsh": 10572,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/latex-examination-gloves-medium-100s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 520,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": true,
+       "default": true,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Generic (Portal)",
+       "product": "Powder-free examination gloves",
+       "pack": "100",
+       "pack_units": 100,
+       "price_tsh": 15247,
+       "src": {
+        "name": "Portal Pharmacy (Kenya)",
+        "u": "https://portalpharmacy.ke/examination-gloves-pow-f-pack-of-100",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 750,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Generic (Goodlife)",
+       "product": "Latex powder-free examination gloves, medium",
+       "pack": "100",
+       "pack_units": 100,
+       "price_tsh": 17443,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/latex-powder-free-gloves-medium-100s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 858,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Generic (Carrefour)",
+       "product": "Nitrile powder-free gloves (latex-free)",
+       "pack": "100",
+       "pack_units": 100,
+       "price_tsh": 35252,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/safety/nitrile-powder-free-gloves-100pc/p/166751",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1734,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "For a latex allergy; higher price range. Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      }
+     ]
+    },
+    {
+     "key": "tape",
+     "name": {
+      "en": "Hypoallergenic tape",
+      "sw": "Utepe wa kubandika usiowasha ngozi"
+     },
+     "why": {
+      "en": "Holds a gauze pad or the edge of a dressing in place, and fixes a dressing where the adhesive border lifts.",
+      "sw": "Hushikilia shashi au ukingo wa bandeji mahali pake, na hubandika bandeji pale ukingo wake unapoinuka."
+     },
+     "qty": {
+      "en": "1 roll",
+      "sw": "Kiviringo 1"
+     },
+     "qty_formula": "1 roll for the 6 weeks",
+     "units": 1,
+     "kind": "goods",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Alban",
+       "product": "Hypoallergenic retention tape 1.25 cm × 5 m",
+       "pack": "1 roll",
+       "pack_units": 1,
+       "price_tsh": 200,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/alban-plaster",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true,
+       "note": "Variant “1.25cmx5m”."
+      },
+      {
+       "brand": "Generic (Goodlife)",
+       "product": "Zinc oxide plaster tape 2.5 cm × 4 m",
+       "pack": "1 roll",
+       "pack_units": 1,
+       "price_tsh": 1057,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/zinc-oxide-plaster-1-2-5cm4m/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 52,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Alban",
+       "product": "Hypoallergenic retention tape 5 cm × 5 m",
+       "pack": "1 roll",
+       "pack_units": 1,
+       "price_tsh": 2000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/alban-plaster",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false,
+       "note": "Variant “5cmx5m”."
+      },
+      {
+       "brand": "Advasafe",
+       "product": "Non-woven fixation tape 5 cm × 10 m",
+       "pack": "1 roll",
+       "pack_units": 1,
+       "price_tsh": 15000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/advasafe-non-woven-fixation-dressing-tape1s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false,
+       "note": "Variant “5cm * 10m roll”; higher price range."
+      },
+      {
+       "brand": "Micropore (3M)",
+       "product": "Surgical tape 2.5 cm",
+       "pack": "12 rolls",
+       "pack_units": 12,
+       "price_tsh": 115312,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/micropore-tape-1-inch/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 5672,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      }
+     ]
+    },
+    {
+     "key": "rrub",
+     "name": {
+      "en": "Alcohol hand rub",
+      "sw": "Kitakasa mikono chenye alkoholi"
+     },
+     "why": {
+      "en": "WHO’s hand-hygiene guidelines: alcohol rub before and after touching the wound or the dressing, for the person and the carer, is the simplest way to prevent wound infection at home.",
+      "sw": "Miongozo ya WHO ya usafi wa mikono: kutumia kitakasa mikono kabla na baada ya kugusa jeraha au bandeji, kwa mgonjwa na mhudumu, ndiyo njia rahisi zaidi ya kuzuia maambukizi ya jeraha nyumbani."
+     },
+     "qty": {
+      "en": "500 ml",
+      "sw": "ml 500"
+     },
+     "qty_formula": "about 3 ml a rub × about 8 rubs a day × 14 days ≈ 340 ml → 500 ml",
+     "units": 500,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Luron",
+       "product": "Advanced hand sanitiser",
+       "pack": "525 ml",
+       "pack_units": 525,
+       "price_tsh": 7624,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/hand-sanitizers/luron-advanced-hand-sanitizer-525ml/p/122197",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 375,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": true,
+       "default": true,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Jet",
+       "product": "Hand sanitizer",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 8500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a587253c6d5732d0a366d",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Body Guard",
+       "product": "Hand sanitizer",
+       "pack": "250 ml",
+       "pack_units": 250,
+       "price_tsh": 4500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026664053c6d5732d0a358c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Grounded",
+       "product": "Instant hand disinfectant",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 12178,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/hand-sanitizers/grounded-instant-disinfectant-500ml/p/186682",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 599,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      }
+     ]
+    },
+    {
+     "key": "bwipes",
+     "name": {
+      "en": "Body wipes for washing in bed",
+      "sw": "Vitambaa vyenye unyevu vya kujisafisha kitandani"
+     },
+     "why": {
+      "en": "Until the clinic allows a shower, the person washes in bed or at the basin. Wet wipes keep the skin clean and fresh without wetting the dressing.",
+      "sw": "Hadi kliniki itakaporuhusu kuoga, mgonjwa hujisafisha kitandani au kwenye beseni. Vitambaa vyenye unyevu huweka ngozi safi bila kulowanisha bandeji."
+     },
+     "qty": {
+      "en": "60 wipes",
+      "sw": "Vitambaa 60"
+     },
+     "qty_formula": "about 4 wipes a day × 14 days = 56 → 60",
+     "units": 60,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Angels",
+       "product": "Ultra Compact wet wipes",
+       "pack": "120",
+       "pack_units": 120,
+       "price_tsh": 6000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/angels-wet-towels-ultra-compact-120pcs",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Momo",
+       "product": "Ultra Compact wet wipes",
+       "pack": "120",
+       "pack_units": 120,
+       "price_tsh": 6000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/momo-wet-wipes-ultra-compact-120pcs",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Velvex",
+       "product": "Adult body wipes",
+       "pack": "72",
+       "pack_units": 72,
+       "price_tsh": 4188,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/refresing-wet-wipes/velvex-adult-body-wipes-72s/p/209670",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 206,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Hobby",
+       "product": "Wet wipes",
+       "pack": "90",
+       "pack_units": 90,
+       "price_tsh": 6500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/66d6d78ead21bfe77df6ae3f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Ultra Compact",
+       "product": "Sensitive wet wipes",
+       "pack": "120",
+       "pack_units": 120,
+       "price_tsh": 8500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/ultra-compact-baby-wet-wipes-120pcs",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "rtherm",
+     "name": {
+      "en": "Digital thermometer",
+      "sw": "Kipimajoto cha kidijitali"
+     },
+     "why": {
+      "en": "A fever, or a wound that becomes red, hot, swollen or starts to leak, is the earliest sign of infection after surgery. A daily reading in the first two weeks lets the family call the clinic early.",
+      "sw": "Homa, au jeraha linalokuwa jekundu, la moto, lililovimba au linaloanza kutoa majimaji, ni dalili ya mapema zaidi ya maambukizi baada ya upasuaji. Kupima joto kila siku katika wiki mbili za kwanza huiwezesha familia kuwasiliana na kliniki mapema."
+     },
+     "qty": {
+      "en": "1, once",
+      "sw": "1, mara moja"
+     },
+     "qty_formula": "1 per household",
+     "units": 1,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Microlife",
+       "product": "MT 810 digital stick thermometer",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 19314,
+       "src": {
+        "name": "Portal Pharmacy (Kenya)",
+        "u": "https://portalpharmacy.ke/microlife-mt810-digital-thermometer",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 950,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": true,
+       "default": true,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "A&D",
+       "product": "UT-103 digital thermometer",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 30495,
+       "src": {
+        "name": "Portal Pharmacy (Kenya)",
+        "u": "https://portalpharmacy.ke/ad-medical-ut-103-digital-thermometer",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1500,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Generic (Impala)",
+       "product": "Non-contact infrared thermometer",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 63000,
+       "src": {
+        "name": "impala.co.tz",
+        "u": "https://impala.co.tz/gj/T87822DF0F/electronic-thermometer-infrared-forehead-body-digital-thermometer-gun-non-contact-body-temperature-measurement-meter-measurement-device",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false,
+       "note": "Tanzanian listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Generic (AfyaDepot)",
+       "product": "Non-contact infrared digital thermometer",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 75000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/infrared-thermometer",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false,
+       "note": "Higher price range."
+      }
+     ]
+    },
+    {
+     "key": "aid",
+     "name": {
+      "en": "Walking aid, the type the clinic or physiotherapist advises",
+      "sw": "Kifaa cha kutembelea, aina inayoshauriwa na kliniki au mtaalamu wa tiba ya viungo"
+     },
+     "why": {
+      "en": "After surgery or an injury to the leg, hip or back, a walking aid lets the person move early and safely; WHO notes that rehabilitation lets people return to work and stay independent at home. The clinic or physiotherapist decides whether crutches, a stick or a frame is needed, and how much weight the leg may take; the aid is adjusted to the person’s height at delivery. If no aid is needed it is removed and the price falls.",
+      "sw": "Baada ya upasuaji au jeraha la mguu, nyonga au mgongo, kifaa cha kutembelea humwezesha mtu kuanza kutembea mapema na kwa usalama; WHO inaeleza kwamba tiba ya kurejesha uwezo huwawezesha watu kurudi kazini na kubaki huru nyumbani. Kliniki au mtaalamu wa tiba ya viungo huamua kama magongo, fimbo au fremu inahitajika, na mguu unaweza kubeba uzito kiasi gani; kifaa hurekebishwa kwa urefu wa mtu kinapoletwa. Kisipohitajika huondolewa na bei hupungua."
+     },
+     "qty": {
+      "en": "1, once, adjusted at delivery",
+      "sw": "1, mara moja, hurekebishwa kikiletwa"
+     },
+     "qty_formula": "1 per person, if the clinic advises one",
+     "units": 1,
+     "kind": "goods",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Generic (AfyaDepot)",
+       "product": "Height-adjustable aluminium forearm crutches",
+       "pack": "1 pair",
+       "pack_units": 1,
+       "price_tsh": 60000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/elbow-crutches-pair-open-arm-height-adjustable",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Generic (AfyaDepot)",
+       "product": "Underarm aluminium crutches",
+       "pack": "1 pair",
+       "pack_units": 1,
+       "price_tsh": 65000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/auxiliary-crutches-pair-2s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Generic (AfyaDepot)",
+       "product": "Adjustable aluminium elbow crutches",
+       "pack": "1 pair",
+       "pack_units": 1,
+       "price_tsh": 65000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/elbow-forearm-crutches1s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Generic (Delivery Pharmacy)",
+       "product": "Underarm adjustable crutches",
+       "pack": "1 pair",
+       "pack_units": 1,
+       "price_tsh": 48792,
+       "src": {
+        "name": "Delivery Pharmacy (Kenya)",
+        "u": "https://deliverypharmacyke.com/product/underarm-adjustable-crutches-l-pair/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 2400,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Generic (AfyaDepot)",
+       "product": "Adjustable aluminium walking stick",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 35000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/adjustable-walking-stick-1-unit",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "rpill",
+     "name": {
+      "en": "Pill organiser for discharge medicines",
+      "sw": "Kisanduku cha kupangia dawa za baada ya kuruhusiwa"
+     },
+     "why": {
+      "en": "People often go home with several new medicines at once. A morning-and-evening organiser, filled from the discharge prescription, prevents missed and double doses in the confused first days.",
+      "sw": "Mara nyingi watu hurudi nyumbani na dawa mpya kadhaa kwa wakati mmoja. Kisanduku cha asubuhi na jioni, kinachojazwa kulingana na maagizo ya kuruhusiwa, huzuia dozi kusahaulika au kurudiwa katika siku za mwanzo zenye mkanganyiko."
+     },
+     "qty": {
+      "en": "1, once",
+      "sw": "1, mara moja"
+     },
+     "qty_formula": "1 per person",
+     "units": 1,
+     "kind": "goods",
+     "cost_class": "own",
+     "brands": [
+      {
+       "brand": "Generic (Goodlife)",
+       "product": "Daily AM/PM pill box",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 15878,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/pill-box-daily-am-pm-67433/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 781,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": true,
+       "default": true,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Equate",
+       "product": "Weekly pill planner",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 22953,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/equate-weekly-pill-planner-pill-box/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1129,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Generic (Goodlife)",
+       "product": "Push-button 7-day AM/PM pill organiser",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 56680,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/pill-box-push-button-7-day-am-pm-67585/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 2788,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Higher price range; easier for stiff fingers. Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      }
+     ]
+    },
+    {
+     "key": "rmat",
+     "name": {
+      "en": "Non-slip bathroom mat",
+      "sw": "Mkeka wa bafuni usioteleza"
+     },
+     "why": {
+      "en": "A person on crutches or still weak after surgery is at high risk of a fall on a wet floor; a fall can reopen a wound or break a repaired bone. WHO counts home-hazard reduction among the measures that prevent falls.",
+      "sw": "Mtu anayetumia magongo au ambaye bado ni dhaifu baada ya upasuaji yuko hatarini kuanguka kwenye sakafu yenye maji; kuanguka kunaweza kufungua jeraha au kuvunja tena mfupa uliotibiwa. WHO inahesabu kupunguza hatari nyumbani miongoni mwa hatua zinazozuia kuanguka."
+     },
+     "qty": {
+      "en": "1, once",
+      "sw": "1, mara moja"
+     },
+     "qty_formula": "1 for the bathroom",
+     "units": 1,
+     "kind": "goods",
+     "cost_class": "own",
+     "brands": [
+      {
+       "brand": "Estilo",
+       "product": "Anti-slip bath mat",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 17179,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/bath-mat/estilo-anti-slip-bathmat-1pc/p/225493",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 845,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": true,
+       "default": true,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "King’s Collection",
+       "product": "Anti-slip bath mat 71 × 40 cm",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 30800,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/bath-mat/kings-batmat-71-40-anti-slip/p/63816",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1515,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Decobella",
+       "product": "Anti-slip bath mat 25101",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 38119,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/bathroom-toilet-accessories/decobella-anti-slip-mat-25101/p/194063",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1875,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      }
+     ]
+    },
+    {
+     "key": "para",
+     "name": {
+      "en": "Paracetamol 500 mg for pain (partner pharmacy)",
+      "sw": "Paracetamol miligramu 500 kwa maumivu (famasia mshirika)"
+     },
+     "why": {
+      "en": "Pain that is controlled lets the person move, breathe deeply and sleep, which speeds recovery. Which pain medicine, the dose and for how long are decided by the clinic; the licensed partner pharmacy supplies it on the discharge prescription. Afya does not sell or price it.",
+      "sw": "Maumivu yakidhibitiwa mtu huweza kutembea, kupumua kwa kina na kulala, jambo linaloharakisha kupona. Dawa ipi ya maumivu, dozi na kwa muda gani huamuliwa na kliniki; famasia mshirika yenye leseni huitoa kwa maagizo ya kuruhusiwa. Afya haiuzi wala haiweki bei yake."
+     },
+     "qty": {
+      "en": "up to 40 tablets, if the clinic prescribes them",
+      "sw": "Hadi vidonge 40, kliniki ikiviandika"
+     },
+     "qty_formula": "the clinic sets the dose; a typical adult maximum is 8 tablets a day, and 40 tablets cover about the first 5–7 days. Not priced in the box (B4).",
+     "units": 40,
+     "kind": "medicine",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Paraquick",
+       "product": "Paracetamol 500 mg tablets",
+       "pack": "10 tablets",
+       "pack_units": 10,
+       "price_tsh": 500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/paraquick-500mg-tablet-10s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Panadol",
+       "product": "Advance paracetamol 500 mg",
+       "pack": "10 tablets",
+       "pack_units": 10,
+       "price_tsh": 1500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/panadol-advance-500mg-caplet",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Cetamol",
+       "product": "Paracetamol 500 mg tablets",
+       "pack": "100 tablets",
+       "pack_units": 100,
+       "price_tsh": 9697,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/cetamol-500mg-tabs-100s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 477,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Panadol",
+       "product": "Advance paracetamol 500 mg",
+       "pack": "20 tablets",
+       "pack_units": 20,
+       "price_tsh": 4473,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/panadol-advance-20s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 220,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "b",
+   "label": {
+    "en": "Weeks 3–6",
+    "sw": "Wiki 3–6"
+   },
+   "months": "0.5–1.5",
+   "when": {
+    "en": "in week 3",
+    "sw": "katika wiki ya 3"
+   },
+   "delivery_mode": {
+    "en": "Once, in week 3",
+    "sw": "Mara moja, katika wiki ya 3"
+   },
+   "box_size": "S",
+   "boxes_per_year": 1,
+   "pricing": {
+    "shelf_value": 48771,
+    "landed_goods": 30931,
+    "packing": 3500,
+    "delivery": 3500,
+    "plans": {
+     "buy_once": {
+      "price": 48500,
+      "saving_vs_shelf": 271,
+      "margin": 10084,
+      "margin_pct": 20.8
+     },
+     "m1": {
+      "price": 47500,
+      "saving_vs_shelf": 1271,
+      "margin": 9094,
+      "margin_pct": 19.1
+     },
+     "m6": {
+      "price": 46000,
+      "saving_vs_shelf": 2771,
+      "margin": 7609,
+      "margin_pct": 16.5
+     },
+     "m12": {
+      "price": 44500,
+      "saving_vs_shelf": 4271,
+      "margin": 6124,
+      "margin_pct": 13.8
+     }
+    },
+    "tz_share_pct": 48,
+    "ke_value": 25229,
+    "est_value": 0
+   },
+   "items": [
+    {
+     "key": "dress",
+     "name": {
+      "en": "Sterile adhesive island dressings",
+      "sw": "Bandeji tasa zinazojibandika"
+     },
+     "why": {
+      "en": "A surgical wound is kept covered with a sterile dressing while it heals, and the dressing is changed when it is wet, soiled or as the clinic says. The type and size of dressing, and how often it is changed, are decided by the clinic that treated the person; the box carries the type written on the discharge note.",
+      "sw": "Jeraha la upasuaji hufunikwa kwa bandeji tasa wakati linapona, na bandeji hubadilishwa ikilowa, ikichafuka au kama kliniki inavyoelekeza. Aina na ukubwa wa bandeji, na inabadilishwa mara ngapi, huamuliwa na kliniki iliyomtibu mgonjwa; sanduku huleta aina iliyoandikwa kwenye barua ya kuruhusiwa."
+     },
+     "qty": {
+      "en": "8 dressings",
+      "sw": "Bandeji 8"
+     },
+     "qty_formula": "one change every 3–4 days × 4 weeks = 8 (many wounds no longer need one by week 4; unused dressings can be returned)",
+     "units": 8,
+     "kind": "goods",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Curapor",
+       "product": "Non-woven island dressing 10 × 8 cm",
+       "pack": "50",
+       "pack_units": 50,
+       "price_tsh": 82357,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/curapor-non-woven-dressing-10x8cm-50s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 4051,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": true,
+       "default": true,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Primapore",
+       "product": "Adhesive wound dressing 15 × 8 cm",
+       "pack": "20",
+       "pack_units": 20,
+       "price_tsh": 53468,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/primapore-awd-15cm8cm-20s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 2630,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Opsite Post-Op",
+       "product": "Showerproof island dressing 15.5 × 8.5 cm",
+       "pack": "20",
+       "pack_units": 20,
+       "price_tsh": 146478,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/opsite-dressing-15-5cmx8-5cm-20s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 7205,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Showerproof film dressing; about 4× the cost of Curapor. Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      }
+     ]
+    },
+    {
+     "key": "gauze",
+     "name": {
+      "en": "Sterile gauze swabs",
+      "sw": "Shashi tasa"
+     },
+     "why": {
+      "en": "Used wet with sterile saline to clean around the wound at each dressing change, one swab per wipe, from the wound outwards. Cotton wool is not used on wounds because its fibres stick.",
+      "sw": "Hutumika zikiwa zimelowanishwa kwa maji tasa ya chumvi kusafisha kuzunguka jeraha kila mara ya kubadilisha bandeji, shashi moja kwa kila mpanguso, kutoka kwenye jeraha kwenda nje. Pamba haitumiki kwenye majeraha kwa sababu nyuzi zake hunata."
+     },
+     "qty": {
+      "en": "16 swabs",
+      "sw": "Shashi 16"
+     },
+     "qty_formula": "2 swabs a change × 8 changes = 16",
+     "units": 16,
+     "kind": "goods",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Generic (Goodlife)",
+       "product": "Sterile gauze swabs 3 × 3 in",
+       "pack": "100",
+       "pack_units": 100,
+       "price_tsh": 19374,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/gauze-swabs-sterile-3x3-100s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 953,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": true,
+       "default": true,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Generic (Goodlife)",
+       "product": "Sterile gauze swabs 10 × 10 cm",
+       "pack": "100",
+       "pack_units": 100,
+       "price_tsh": 21306,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/gauze-swabs-sterile-44-100s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1048,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Steroplast",
+       "product": "Sterile dressing pads 5 × 5 cm",
+       "pack": "5",
+       "pack_units": 5,
+       "price_tsh": 5611,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/steroplast-dressing-pads-sterile-5s-5cm-x-5cm/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 276,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      }
+     ]
+    },
+    {
+     "key": "saline",
+     "name": {
+      "en": "Sterile saline for cleaning the wound",
+      "sw": "Maji tasa ya chumvi ya kusafishia jeraha"
+     },
+     "why": {
+      "en": "Sterile 0.9% saline cleans a fresh wound without stinging or harming new tissue. Strong antiseptics and hydrogen peroxide are not sent, because they slow healing; the clinic says when plain showering can replace saline.",
+      "sw": "Maji tasa ya chumvi ya 0.9% husafisha jeraha jipya bila kuuma wala kuharibu nyama mpya. Dawa kali za kusafisha na haidrojeni peroksaidi haziletwi kwa sababu huchelewesha kupona; kliniki huelekeza lini kuoga kwa kawaida kunaweza kuchukua nafasi ya maji ya chumvi."
+     },
+     "qty": {
+      "en": "500 ml",
+      "sw": "ml 500"
+     },
+     "qty_formula": "until the clinic allows plain showering; one 500 ml bottle",
+     "units": 500,
+     "kind": "goods",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Generic (AfyaDepot)",
+       "product": "Sodium chloride 0.9% sterile solution",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 2542,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/normal-saline-infusion-solution-500mls",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true,
+       "note": "Sold as an infusion bottle; used here only to rinse the wound. Once opened, use within 24 hours."
+      },
+      {
+       "brand": "NeilMed",
+       "product": "NeilCleanse sterile saline wound wash spray",
+       "pack": "177 ml",
+       "pack_units": 177,
+       "price_tsh": 40457,
+       "src": {
+        "name": "Delivery Pharmacy (Kenya)",
+        "u": "https://deliverypharmacyke.com/product/neilmed-neilcleanse-wound-wash-sterile-saline-solution-6oz-177ml/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1990,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Spray can, no opened-bottle waste; far higher price range. Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      }
+     ]
+    },
+    {
+     "key": "rgloves",
+     "name": {
+      "en": "Disposable gloves for dressing changes",
+      "sw": "Glavu za kutupwa za kubadilisha bandeji"
+     },
+     "why": {
+      "en": "Clean hands and fresh gloves at each change keep germs out of the wound (WHO hand-hygiene guidance). One pair to remove the old dressing, a fresh pair to put on the new one.",
+      "sw": "Mikono safi na glavu mpya kila mara ya kubadilisha bandeji huzuia vijidudu kuingia kwenye jeraha (mwongozo wa WHO wa usafi wa mikono). Jozi moja ya kuondoa bandeji ya zamani, jozi mpya ya kuweka mpya."
+     },
+     "qty": {
+      "en": "16 gloves",
+      "sw": "Glavu 16"
+     },
+     "qty_formula": "1 pair a change × 8 changes = 16",
+     "units": 16,
+     "kind": "goods",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Generic (Goodlife)",
+       "product": "Latex examination gloves, medium",
+       "pack": "100",
+       "pack_units": 100,
+       "price_tsh": 10572,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/latex-examination-gloves-medium-100s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 520,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": true,
+       "default": true,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Generic (Portal)",
+       "product": "Powder-free examination gloves",
+       "pack": "100",
+       "pack_units": 100,
+       "price_tsh": 15247,
+       "src": {
+        "name": "Portal Pharmacy (Kenya)",
+        "u": "https://portalpharmacy.ke/examination-gloves-pow-f-pack-of-100",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 750,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Generic (Goodlife)",
+       "product": "Latex powder-free examination gloves, medium",
+       "pack": "100",
+       "pack_units": 100,
+       "price_tsh": 17443,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/latex-powder-free-gloves-medium-100s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 858,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Generic (Carrefour)",
+       "product": "Nitrile powder-free gloves (latex-free)",
+       "pack": "100",
+       "pack_units": 100,
+       "price_tsh": 35252,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/safety/nitrile-powder-free-gloves-100pc/p/166751",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1734,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "For a latex allergy; higher price range. Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      }
+     ]
+    },
+    {
+     "key": "rrub",
+     "name": {
+      "en": "Alcohol hand rub",
+      "sw": "Kitakasa mikono chenye alkoholi"
+     },
+     "why": {
+      "en": "WHO’s hand-hygiene guidelines: alcohol rub before and after touching the wound or the dressing, for the person and the carer, is the simplest way to prevent wound infection at home.",
+      "sw": "Miongozo ya WHO ya usafi wa mikono: kutumia kitakasa mikono kabla na baada ya kugusa jeraha au bandeji, kwa mgonjwa na mhudumu, ndiyo njia rahisi zaidi ya kuzuia maambukizi ya jeraha nyumbani."
+     },
+     "qty": {
+      "en": "500 ml",
+      "sw": "ml 500"
+     },
+     "qty_formula": "about 3 ml a rub × about 5 rubs a day × 28 days ≈ 420 ml → 500 ml",
+     "units": 500,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Luron",
+       "product": "Advanced hand sanitiser",
+       "pack": "525 ml",
+       "pack_units": 525,
+       "price_tsh": 7624,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/hand-sanitizers/luron-advanced-hand-sanitizer-525ml/p/122197",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 375,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": true,
+       "default": true,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Jet",
+       "product": "Hand sanitizer",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 8500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a587253c6d5732d0a366d",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Body Guard",
+       "product": "Hand sanitizer",
+       "pack": "250 ml",
+       "pack_units": 250,
+       "price_tsh": 4500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026664053c6d5732d0a358c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Grounded",
+       "product": "Instant hand disinfectant",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 12178,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/hand-sanitizers/grounded-instant-disinfectant-500ml/p/186682",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 599,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      }
+     ]
+    },
+    {
+     "key": "rband",
+     "name": {
+      "en": "Resistance band for home exercises",
+      "sw": "Mkanda wa mazoezi ya nyumbani"
+     },
+     "why": {
+      "en": "From the third week most people start the strengthening exercises the physiotherapist sets. A light band makes them possible at home between sessions; the physiotherapist sets which exercises and when.",
+      "sw": "Kuanzia wiki ya tatu watu wengi huanza mazoezi ya kuongeza nguvu yanayopangwa na mtaalamu wa tiba ya viungo. Mkanda mwepesi huwezesha mazoezi hayo nyumbani kati ya vipindi; mtaalamu huamua mazoezi yapi na lini."
+     },
+     "qty": {
+      "en": "1, once",
+      "sw": "1, mara moja"
+     },
+     "qty_formula": "1 per person, for the exercises the physiotherapist sets",
+     "units": 1,
+     "kind": "goods",
+     "cost_class": "own",
+     "brands": [
+      {
+       "brand": "Sactband",
+       "product": "Resistance loop band",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 21000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/loop-band-sactband1s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Generic",
+       "product": "Latex-free resistance loop band set, 5 strengths",
+       "pack": "1 set",
+       "pack_units": 1,
+       "price_tsh": 15000,
+       "src": {
+        "name": "estimate",
+        "u": "https://jiji.co.tz/kinondoni/sports-bicycles-and-fitness/5pcs-colors-fitness-resistance-bands-set-n0wzjxhiO7eonzL1AHXNQ1hs.html",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "EST",
+       "afya_choice": false,
+       "default": false,
+       "note": "Estimate. A classified-ad price on jiji.co.tz carried in the earlier showroom code (2 Nov 2026); not a shop listing and not re-opened."
+      }
+     ]
+    },
+    {
+     "key": "para",
+     "name": {
+      "en": "Paracetamol 500 mg for pain (partner pharmacy)",
+      "sw": "Paracetamol miligramu 500 kwa maumivu (famasia mshirika)"
+     },
+     "why": {
+      "en": "Pain that is controlled lets the person move, breathe deeply and sleep, which speeds recovery. Which pain medicine, the dose and for how long are decided by the clinic; the licensed partner pharmacy supplies it on the discharge prescription. Afya does not sell or price it.",
+      "sw": "Maumivu yakidhibitiwa mtu huweza kutembea, kupumua kwa kina na kulala, jambo linaloharakisha kupona. Dawa ipi ya maumivu, dozi na kwa muda gani huamuliwa na kliniki; famasia mshirika yenye leseni huitoa kwa maagizo ya kuruhusiwa. Afya haiuzi wala haiweki bei yake."
+     },
+     "qty": {
+      "en": "up to 20 tablets, if the clinic prescribes them",
+      "sw": "Hadi vidonge 20, kliniki ikiviandika"
+     },
+     "qty_formula": "pain is usually less after week 2; the clinic sets the dose. Not priced in the box (B4).",
+     "units": 20,
+     "kind": "medicine",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Paraquick",
+       "product": "Paracetamol 500 mg tablets",
+       "pack": "10 tablets",
+       "pack_units": 10,
+       "price_tsh": 500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/paraquick-500mg-tablet-10s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Panadol",
+       "product": "Advance paracetamol 500 mg",
+       "pack": "10 tablets",
+       "pack_units": 10,
+       "price_tsh": 1500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/panadol-advance-500mg-caplet",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Cetamol",
+       "product": "Paracetamol 500 mg tablets",
+       "pack": "100 tablets",
+       "pack_units": 100,
+       "price_tsh": 9697,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/cetamol-500mg-tabs-100s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 477,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      },
+      {
+       "brand": "Panadol",
+       "product": "Advance paracetamol 500 mg",
+       "pack": "20 tablets",
+       "pack_units": 20,
+       "price_tsh": 4473,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/panadol-advance-20s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 220,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "afya_choice": false,
+       "default": false,
+       "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "luxury": [
+  {
+   "tier": "premium",
+   "name": {
+    "en": "Radox Feel Relaxed shower gel, for the first shower the clinic allows",
+    "sw": "Jeli ya kuogea ya Radox Feel Relaxed, kwa kuoga kwa mara ya kwanza kliniki ikiruhusu"
+   },
+   "brand": "Radox",
+   "product": "Feel Relaxed shower gel",
+   "pack": "250 ml",
+   "price_tsh": 7500,
+   "src": {
+    "name": "Shoppers Supermarket",
+    "u": "https://www.shoppers.co.tz/product-detail/62ed06d8fa11de0a43b39b1f",
+    "chk": "2026-11-10"
+   },
+   "orig": null,
+   "status": "TZ"
+  },
+  {
+   "tier": "luxury",
+   "name": {
+    "en": "Bath & Body Works shower gel, for the first shower the clinic allows",
+    "sw": "Jeli ya kuogea ya Bath & Body Works, kwa kuoga kwa mara ya kwanza kliniki ikiruhusu"
+   },
+   "brand": "Bath & Body Works",
+   "product": "Shower gel (A Thousand Wishes, Japanese Cherry Blossom or Warm Vanilla Sugar)",
+   "pack": "295 ml",
+   "price_tsh": 32528,
+   "src": {
+    "name": "Portal Pharmacy (Kenya)",
+    "u": "https://portalpharmacy.ke/bbw-cherry-blossom-shower-gel",
+    "chk": "2026-11-02"
+   },
+   "orig": {
+    "cur": "KES",
+    "amount": 1600,
+    "rate": 20.33,
+    "date": "2026-11-10"
+   },
+   "status": "KE",
+   "note": "Kenyan listing from the earlier showroom code (2 Nov 2026); not re-opened: the host was refused by this session’s network proxy on 10 Nov 2026."
+  }
+ ],
+ "tiers": {
+  "en": "Regular = the core box with default brands. Premium = core + the premium item. Luxury = core + the luxury item. The luxury item ships once, in the weeks 3–6 box, and is priced as its own line at shelf price, outside the saving (D4).",
+  "sw": "Kawaida = sanduku la msingi lenye chapa za msingi. Premium = sanduku la msingi + bidhaa ya premium. Anasa = sanduku la msingi + bidhaa ya anasa. Bidhaa ya anasa huja mara moja, katika sanduku la wiki 3–6, na ina bei yake peke yake kwa bei ya rafu, nje ya punguzo (D4)."
+ },
+ "services": [],
+ "services_note": {
+  "en": "Included at no fee (store services): a weekly temperature, wound-photo and pain check-in by phone or in store, and a blood pressure and weight check in week 6. Add-ons with no partner quote yet (R7), so not in the box price: a nurse home visit on days 2–3 (AfyaDepot lists a home “Minor Wound Dressing” visit at TSh 25,000 and a “Post-Op Wound Care Bundle” at TSh 85,000, as market references only), home physiotherapy sessions, and stitch or clip removal, booked with the operating clinic.",
+  "sw": "Zimo bila ada (huduma za duka): ufuatiliaji wa kila wiki wa joto, picha ya jeraha na maumivu kwa simu au dukani, na kipimo cha shinikizo la damu na uzito katika wiki ya 6. Huduma za nyongeza ambazo bado hazina bei ya mshirika (R7), hivyo hazimo kwenye bei ya sanduku: ziara ya muuguzi nyumbani siku ya 2–3 (AfyaDepot inaorodhesha ziara ya nyumbani ya “Minor Wound Dressing” kwa TSh 25,000 na “Post-Op Wound Care Bundle” kwa TSh 85,000, kama vielelezo vya soko tu), vipindi vya tiba ya viungo nyumbani, na kutoa nyuzi au klipu, kunakopangwa na kliniki iliyofanya upasuaji."
+ },
+ "delivery_note": {
+  "en": "Two boxes over six weeks: the discharge box is delivered on the day of discharge (L box; a walking aid travels beside it), and the weeks 3–6 box is delivered in week 3 (S box). Both pass the D4 check on every plan.",
+  "sw": "Masanduku mawili katika wiki sita: sanduku la kuruhusiwa huletwa siku ya kuruhusiwa (sanduku L; kifaa cha kutembelea huja kando yake), na sanduku la wiki 3–6 huletwa katika wiki ya 3 (sanduku S). Yote mawili yanapita kipimo cha D4 kwa kila mpango."
+ },
+ "addons": [
+  {
+   "name": {
+    "en": "Compression stockings",
+    "sw": "Soksi za mgandamizo"
+   },
+   "when": {
+    "en": "Only when the clinic prescribes them and measures the leg; they are not safe for everyone",
+    "sw": "Pale tu kliniki inapoziandika na kupima mguu; si salama kwa kila mtu"
+   },
+   "brand": "Flamingo",
+   "product": "Below-knee stockings",
+   "pack": "1 pair",
+   "price_tsh": 45000,
+   "src": {
+    "name": "AfyaDepot",
+    "u": "https://afyadepot.co.tz/product/flamingo-below-knee-stockings",
+    "chk": "2026-11-10"
+   },
+   "orig": null,
+   "status": "TZ"
+  },
+  {
+   "name": {
+    "en": "Above-knee compression stockings",
+    "sw": "Soksi za mgandamizo za juu ya goti"
+   },
+   "when": {
+    "en": "Only when the clinic prescribes them",
+    "sw": "Pale tu kliniki inapoziandika"
+   },
+   "brand": "Generic (AfyaDepot)",
+   "product": "Above-knee compression stockings",
+   "pack": "1 pair",
+   "price_tsh": 50000,
+   "src": {
+    "name": "AfyaDepot",
+    "u": "https://afyadepot.co.tz/product/above-knee-compression-stockings2s",
+    "chk": "2026-11-10"
+   },
+   "orig": null,
+   "status": "TZ"
+  },
+  {
+   "name": {
+    "en": "Oral nutrition supplement",
+    "sw": "Kinywaji cha lishe ya ziada"
+   },
+   "when": {
+    "en": "Only when the clinic or a nutritionist advises it",
+    "sw": "Pale tu kliniki au mtaalamu wa lishe anaposhauri"
+   },
+   "brand": "Abbott Ensure",
+   "product": "Vanilla powder",
+   "pack": "400 g",
+   "price_tsh": 70000,
+   "src": {
+    "name": "AfyaDepot",
+    "u": "https://afyadepot.co.tz/product/ensure-vanila-powder-400mg",
+    "chk": "2026-11-10"
+   },
+   "orig": null,
+   "status": "TZ"
+  },
+  {
+   "name": {
+    "en": "Commode chair",
+    "sw": "Kiti cha choo"
+   },
+   "when": {
+    "en": "For someone who cannot yet reach the toilet safely",
+    "sw": "Kwa asiyeweza bado kufika chooni kwa usalama"
+   },
+   "brand": "Generic (AfyaDepot)",
+   "product": "Height-adjustable aluminium commode chair",
+   "pack": "1",
+   "price_tsh": 165000,
+   "src": {
+    "name": "AfyaDepot",
+    "u": "https://afyadepot.co.tz/product/height-adjustable-aluminium-frame-commode-chair",
+    "chk": "2026-11-10"
+   },
+   "orig": null,
+   "status": "TZ"
+  }
+ ],
+ "pricing_rule": {
+  "formula": "D4 (10 Nov 2026): core price = shelf value of the box goods × (1 − 3% / 6% / 9% for 1 / 6 / 12-month plans), nearest 500, never above shelf; packing (S 3,500 · M 5,000 · L 6,500) and delivery 3,500 included. Check: price − goods at landed cost (R3 shares 78% brand / 72% pharm / 50% own) − packing − delivery − 1% points ≥ 0.",
+  "note": "Price per box; two boxes in all. Medicines, add-ons and the luxury line are outside the shelf value. The 1/6/12-month plan savings apply when Kupona is taken inside a household membership; a one-off recovery is bought at the 1-month price."
+ },
+ "packing": {
+  "film": null
+ },
+ "open": [
+  {
+   "en": "Dressings, gauze, gloves and the default hand rub have Kenyan prices only (KES × 20.33, not re-opened); AfyaDepot and Shoppers list none of them. Tanzanian distributor prices are needed.",
+   "sw": "Bandeji, shashi, glavu na kitakasa mikono cha msingi vina bei za Kenya tu (KES × 20.33, hazikufunguliwa tena); AfyaDepot na Shoppers hazina hata kimoja. Bei za wasambazaji wa Tanzania zinahitajika."
+  },
+  {
+   "en": "Only three dressing brands were found, and the clinic chooses the type: the box must be able to source the dressing written on each discharge note.",
+   "sw": "Chapa tatu tu za bandeji zilipatikana, na kliniki ndiyo inayochagua aina: sanduku lazima liweze kupata bandeji iliyoandikwa kwenye kila barua ya kuruhusiwa."
+  },
+  {
+   "en": "The saline on AfyaDepot is an infusion bottle; R1 should confirm Afya may sell it for wound rinsing.",
+   "sw": "Maji ya chumvi ya AfyaDepot ni chupa ya dripu; R1 ithibitishe kama Afya inaweza kuyauza kwa kusafishia majeraha."
+  },
+  {
+   "en": "The weeks 3–6 box has the thinnest margin of the two; if its goods land above about 76% of shelf on average (the planning shares give 63%), it should travel with the physiotherapist’s visit or be collected in store.",
+   "sw": "Sanduku la wiki 3–6 lina faida ndogo kuliko jingine; bidhaa zake zikinunuliwa juu ya wastani wa takriban 76% ya bei ya rafu (makadirio ya mpango ni 63%), lisafiri pamoja na ziara ya mtaalamu wa tiba ya viungo au lichukuliwe dukani."
+  }
+ ]
+}

@@ -1,0 +1,3322 @@
+{
+ "slug": "afya-shule",
+ "name": {
+  "en": "Afya Shule",
+  "sw": "Afya Shule"
+ },
+ "final": true,
+ "delivery": "every-2-months",
+ "delivery_rule": {
+  "en": "One box every two months, packed with two months of goods. Delivered on its own it pays its way on every plan except: Holiday box (May and November) on the 12-month plan. Those boxes ride inside another Afya box delivered to the same household (one delivery, no extra delivery cost) or are collected in store. Monthly delivery is not offered: a one-month basket cannot carry packing and delivery.",
+  "sw": "Sanduku moja kila baada ya miezi miwili, lenye bidhaa za miezi miwili. Likiletwa peke yake linalipa gharama zake kwenye kila mpango isipokuwa: Sanduku la likizo (Mei na Novemba) kwenye mpango wa miezi 12. Masanduku hayo husafirishwa ndani ya sanduku lingine la Afya linaloletwa kwa kaya hiyohiyo (usafirishaji mmoja, bila gharama ya ziada ya usafirishaji) au huchukuliwa dukani. Kuleta kila mwezi hakutolewi: kikapu cha mwezi mmoja hakiwezi kubeba gharama za kufunga na kusafirisha."
+ },
+ "box_size": "M",
+ "who": {
+  "en": "<p>Afya Shule is the school-year box for a child aged 4 to 12 in Dar es Salaam, from the first year of pre-primary school to the end of primary school. It arrives every two months, timed to the school calendar: a big box in January for the start of the year, term boxes in March, July and September, and holiday boxes in May and November that carry play and travel items for the June and December holidays.</p><p><strong>Why these items.</strong> The common illnesses of school-age children in Tanzania are the ones that clean hands, clean teeth, a net and periodic deworming prevent. WHO recommends periodic deworming of all school-age children where soil-transmitted worms are common, and Tanzania gives it free in school campaigns; the box reminds parents before each holiday and the partner pharmacy covers a missed round. WHO advises twice-daily brushing with a 1,000–1,500 ppm fluoride toothpaste, which matters most once the first permanent molars come through at about six. Insecticide-treated nets are one of WHO’s two core malaria protections, and many nets sold in shops are untreated. Safe water, sanitation and handwashing with soap prevent diarrhoea (WHO). Tanzania’s school health and school WASH guidelines set the hygiene the morning inspection checks: clean body, short hair, short nails.</p><p><strong>Learning and play.</strong> Exercise books and pencils run out every few weeks, so the term boxes bring them. WHO asks for about an hour of activity a day for children; in the holidays a ball replaces the school timetable.</p><p><strong>What it does not do.</strong> Medicines in the box list (deworming tablet, paracetamol syrup, ORS) are supplied only by the licensed partner pharmacy, on its advice, and are not priced in the box. Food is not assigned: porridge flour and snacks are chosen by the parent from the nutrition shelf.</p>",
+  "sw": "<p>Afya Shule ni sanduku la mwaka wa shule kwa mtoto wa miaka 4 hadi 12 jijini Dar es Salaam, kuanzia mwaka wa kwanza wa elimu ya awali hadi mwisho wa shule ya msingi. Linakuja kila baada ya miezi miwili, likifuata kalenda ya shule: sanduku kubwa Januari kwa mwanzo wa mwaka, masanduku ya muhula Machi, Julai na Septemba, na masanduku ya likizo Mei na Novemba yenye vitu vya kuchezea na vya safari kwa likizo za Juni na Desemba.</p><p><strong>Kwa nini vitu hivi.</strong> Magonjwa ya kawaida ya watoto wa umri wa shule Tanzania ni yale yanayozuiwa na mikono safi, meno safi, chandarua na dawa za minyoo kwa vipindi. WHO inapendekeza dawa za minyoo kwa vipindi kwa watoto wote wa umri wa shule pale minyoo ya udongoni ilipo kwa wingi, na Tanzania huzitoa bure katika kampeni za shule; sanduku huwakumbusha wazazi kabla ya kila likizo na famasia mshirika hushughulikia awamu iliyokosekana. WHO inashauri kupiga mswaki mara mbili kwa siku kwa dawa ya meno yenye floraidi ya ppm 1,000–1,500, jambo muhimu zaidi magego ya kwanza ya kudumu yanapoota karibu na miaka sita. Vyandarua vyenye dawa ni mojawapo ya kinga kuu mbili za malaria za WHO, na vyandarua vingi vinavyouzwa madukani havina dawa. Maji salama, vyoo na kunawa mikono kwa sabuni huzuia kuhara (WHO). Miongozo ya Tanzania ya huduma za afya shuleni na ya maji, usafi wa mazingira na usafi shuleni inaweka usafi unaokaguliwa asubuhi: mwili safi, nywele fupi, kucha fupi.</p><p><strong>Kujifunza na kucheza.</strong> Madaftari na penseli huisha kila baada ya wiki chache, hivyo masanduku ya muhula huyaleta. WHO inataka watoto wafanye shughuli za mwili takriban saa moja kwa siku; likizoni mpira huchukua nafasi ya ratiba ya shule.</p><p><strong>Lisichofanya.</strong> Dawa zilizo kwenye orodha ya sanduku (kidonge cha minyoo, sharubati ya paracetamol, ORS) hutolewa na famasia mshirika yenye leseni tu, kwa ushauri wake, na hazina bei ndani ya sanduku. Chakula hakipangwi: unga wa uji na vitafunio huchaguliwa na mzazi kutoka rafu ya lishe.</p>"
+ },
+ "clinic_line": {
+  "en": "Any medicine for your child, its dose for the child’s weight, and whether a deworming dose is needed outside the school campaign are decided by your clinic or the partner pharmacist. A fever in Tanzania needs a malaria test the same day; a child who cannot drink, is very drowsy or has blood in the stool goes to a clinic at once.",
+  "sw": "Dawa yoyote kwa mtoto wako, dozi yake kulingana na uzito wa mtoto, na kama dozi ya minyoo inahitajika nje ya kampeni ya shule huamuliwa na kliniki yako au mfamasia mshirika. Homa Tanzania inahitaji kipimo cha malaria siku hiyohiyo; mtoto asiyeweza kunywa, anayesinzia sana au mwenye damu kwenye kinyesi apelekwe kliniki mara moja."
+ },
+ "guidance": [
+  {
+   "t": "WHO fact sheet, Soil-transmitted helminth infections: periodic deworming without prior diagnosis for school-age children in endemic areas; albendazole 400 mg or mebendazole 500 mg",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO 2017 guideline, Preventive chemotherapy to control soil-transmitted helminth infections in at-risk population groups",
+   "u": "https://www.who.int/publications/i/item/9789241550116",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet, Oral health: twice-daily brushing with fluoride toothpaste of 1,000–1,500 ppm",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/oral-health",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet, Malaria: insecticide-treated nets and indoor residual spraying are the two core vector-control interventions",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet, Diarrhoeal disease: safe water, sanitation and handwashing prevent it; treat with ORS",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet, Physical activity (an active day = at least 60 minutes of moderate-to-vigorous activity for adolescents)",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO 2020 guidelines on physical activity and sedentary behaviour (overview page opened; the 60-minute daily average for ages 5–17 is from the guideline text, not re-read here)",
+   "u": "https://www.who.int/publications/i/item/9789240015128",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet, Cervical cancer: HPV vaccination is a priority for all girls aged 9–14, one or two doses by national schedule",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/cervical-cancer",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "United Republic of Tanzania, Policy Guidelines on School Health Services (not opened: host refused; cited in the code)",
+   "u": "https://healtheducationresources.unesco.org/index.php/library/documents/policy-guidelines-school-health-services-tanzania",
+   "chk": "2026-11-02"
+  },
+  {
+   "t": "Tanzania National Guideline for Water, Sanitation and Hygiene for Schools, MoEST/MoH with UNICEF (not opened: host refused; cited in the code)",
+   "u": "https://www.unicef.org/tanzania/reports/national-guideline-water-sanitation-and-hygiene-tanzania-schools",
+   "chk": "2026-11-02"
+  },
+  {
+   "t": "UNICEF Tanzania, Over five million girls in Tanzania to receive HPV vaccine (April 2024 single-dose campaign for girls 9–14; then one routine dose at age 9). Seen in search results only; host refused",
+   "u": "https://www.unicef.org/tanzania/press-releases/over-five-million-girls-tanzania-receive-hpv-vaccine-combat-cervical-cancer",
+   "chk": "2026-11-10"
+  }
+ ],
+ "stages": [
+  {
+   "key": "s1",
+   "label": {
+    "en": "January · first box of the school year",
+    "sw": "Januari · sanduku la kwanza la mwaka wa shule"
+   },
+   "months": "Jan–Feb",
+   "box_size": "M",
+   "items": [
+    {
+     "key": "soap",
+     "kind": "goods",
+     "name": {
+      "en": "Mild bath soap",
+      "sw": "Sabuni laini ya kuogea"
+     },
+     "why": {
+      "en": "A school child in Dar es Salaam heat usually bathes twice a day, after school and after play especially. Plain washing with soap and water is enough for daily hygiene; antibacterial soaps are not needed and can dry young skin. A mild, low-fragrance bar is the default.",
+      "sw": "Mtoto wa shule katika joto la Dar es Salaam kwa kawaida huoga mara mbili kwa siku, hasa baada ya shule na baada ya kucheza. Kuoga kwa sabuni na maji kunatosha kwa usafi wa kila siku; sabuni za kuua vijidudu hazihitajiki na zinaweza kukausha ngozi changa. Kipande laini chenye manukato kidogo ndicho chaguo la msingi."
+     },
+     "qty": {
+      "en": "2 bars (350 g) for two months",
+      "sw": "Vipande 2 (g 350) kwa miezi miwili"
+     },
+     "qty_formula": "2 baths a day × 60 days × about 3 g a bath ≈ 360 g → two 175 g bars = 350 g (planning assumption)",
+     "units": 350,
+     "brands": [
+      {
+       "brand": "Imperial Leather",
+       "product": "Soap",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 2600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a459853c6d5732d0a3666",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Fa",
+       "product": "Soap",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 2600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a2ea553c6d5732d0a3616",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dove",
+       "product": "Pink Cream Bar",
+       "pack": "100 g",
+       "pack_units": 100,
+       "price_tsh": 1900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026872053c6d5732d0a35ee",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Johnson's",
+       "product": "Baby Oil Soap",
+       "pack": "100 g",
+       "pack_units": 100,
+       "price_tsh": 2600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6a5a002ed4b3dce59b40cb88",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Lifebuoy",
+       "product": "Soap, assorted",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 3500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6a6dd151d4b3dce59b40cc2f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "hair",
+     "kind": "goods",
+     "name": {
+      "en": "Mild hair wash, tear-free for younger children",
+      "sw": "Shampuu laini ya nywele, isiyowasha macho kwa watoto wadogo"
+     },
+     "why": {
+      "en": "Most Tanzanian primary schools ask for short, clean hair. A dusty playground and daily sweat mean the hair needs washing about twice a week. Regular washing and a clean comb help against scalp ringworm and lice, which spread in classrooms; a medicated shampoo is only for a diagnosis made by a clinician.",
+      "sw": "Shule nyingi za msingi Tanzania zinataka nywele fupi na safi. Uwanja wenye vumbi na jasho la kila siku humaanisha nywele zioshwe takriban mara mbili kwa wiki. Kuosha mara kwa mara na kitana safi husaidia dhidi ya mba wa fangasi na chawa, wanaosambaa darasani; shampuu ya dawa ni kwa ugonjwa uliothibitishwa na mtaalamu wa afya tu."
+     },
+     "qty": {
+      "en": "140 ml for two months",
+      "sw": "Mililita 140 kwa miezi miwili"
+     },
+     "qty_formula": "2 washes a week × 8.7 weeks × about 8 ml a wash ≈ 140 ml (planning assumption)",
+     "units": 140,
+     "brands": [
+      {
+       "brand": "Johnson's",
+       "product": "Baby Shampoo",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 12000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a5a7853c6d5732d0a3674",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": true
+      },
+      {
+       "brand": "Cussons",
+       "product": "Kids Hair & Body Wash",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 8132,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/baby-bath-toiletries/cussons-baby-tod-wash-berry-200ml/p/258066",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 400,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 400, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Niya",
+       "product": "Shampoo and Conditioner",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 8200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6867b3e3914cc5c6cdeaf5cd",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Not tear-free: for children of about 8 and older.",
+       "afya_choice": true,
+       "default": false
+      },
+      {
+       "brand": "Dove",
+       "product": "2 in 1 Shampoo",
+       "pack": "250 ml",
+       "pack_units": 250,
+       "price_tsh": 11500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60268b2f53c6d5732d0a35fc",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Not tear-free: for children of about 8 and older.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "paste",
+     "kind": "goods",
+     "name": {
+      "en": "Fluoride toothpaste",
+      "sw": "Dawa ya meno yenye floraidi"
+     },
+     "why": {
+      "en": "Tooth decay is the most common disease of childhood, and the first permanent molars come through at about age six. WHO recommends brushing twice a day with a fluoride toothpaste of 1,000–1,500 ppm. A pea-sized amount is enough, spat out and not rinsed away; a parent brushes or supervises until about age seven.",
+      "sw": "Kuoza kwa meno ndio ugonjwa unaowapata watoto zaidi, na magego ya kwanza ya kudumu huota karibu na umri wa miaka sita. WHO inapendekeza kupiga mswaki mara mbili kwa siku kwa dawa ya meno yenye floraidi ya ppm 1,000–1,500. Kiasi cha punje ya njegere kinatosha; mtoto ateme bila kusukutua. Mzazi ampigie mswaki au amsimamie hadi karibu miaka saba."
+     },
+     "qty": {
+      "en": "60 g for two months (part of a tube)",
+      "sw": "Gramu 60 kwa miezi miwili (sehemu ya tyubu)"
+     },
+     "qty_formula": "about 0.5 g (a pea) × 2 brushings × 60 days ≈ 60 g",
+     "units": 60,
+     "brands": [
+      {
+       "brand": "Colgate",
+       "product": "Maximum Protection toothpaste",
+       "pack": "140 g",
+       "pack_units": 140,
+       "price_tsh": 5900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026787c53c6d5732d0a35c5",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Whitedent",
+       "product": "Herbal Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 4100,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b959d53c6d5732d0a378c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Fluoride content to be confirmed on the pack before it is offered.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Whitedent",
+       "product": "Gel Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 3800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/66eb11b5ad21bfe77df6b23e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Fluoride content to be confirmed on the pack before it is offered.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Colgate",
+       "product": "Natural Extracts Toothpaste",
+       "pack": "75 ml",
+       "pack_units": 75,
+       "price_tsh": 8500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/colgate-natural-extracts-toothpaste-75ml",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Counted as 75 g.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "brush",
+     "kind": "goods",
+     "name": {
+      "en": "Soft child-size toothbrush",
+      "sw": "Mswaki laini wa ukubwa wa mtoto"
+     },
+     "why": {
+      "en": "A small soft head reaches the back molars of a child’s mouth. A brush is replaced when the bristles splay, which happens quickly with children, so a fresh one comes in every box.",
+      "sw": "Kichwa kidogo laini hufikia magego ya nyuma kwenye kinywa cha mtoto. Mswaki hubadilishwa nyuzi zake zinapopinda, jambo linalotokea haraka kwa watoto, hivyo mswaki mpya unakuja katika kila sanduku."
+     },
+     "qty": {
+      "en": "1 brush in every box",
+      "sw": "Mswaki 1 katika kila sanduku"
+     },
+     "qty_formula": "1 brush every two months (dentists advise at least every 3 months, sooner when the bristles splay)",
+     "units": 1,
+     "brands": [
+      {
+       "brand": "Whitedent",
+       "product": "Kids toothbrush",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 1525,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/oral-care/whitedent-kids-t-brush/p/202434",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 75,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 75, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Colgate",
+       "product": "Kids toothbrush",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 5286,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/oral-care/colgate-t-brush-kids-2-/p/29932",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 260,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 260, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Eco-Smile",
+       "product": "Essential Toothbrush with Tongue Scraper",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 3000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/eco-smile-essential-toothbrush-with-a-tongue-scraper",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Adult size: for children of about 10 and older.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Double Action",
+       "product": "Activated Charcoal Toothbrush (Medium)",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 2000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/charcoal-infused-double-action-toothbrush-medium",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Adult size, medium: for children of about 10 and older.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "skin",
+     "kind": "goods",
+     "name": {
+      "en": "Petroleum jelly or body lotion",
+      "sw": "Mafuta ya mgando au losheni ya mwili"
+     },
+     "why": {
+      "en": "After the bath a thin layer keeps young skin from drying and cracking, especially on elbows, knees and feet in the dusty dry season. Plain petroleum jelly is cheap, fragrance-free and enough for most children.",
+      "sw": "Baada ya kuoga, safu nyembamba huzuia ngozi changa kukauka na kupasuka, hasa viwiko, magoti na miguu wakati wa kiangazi chenye vumbi. Mafuta ya mgando ya kawaida ni nafuu, hayana manukato na yanatosha kwa watoto wengi."
+     },
+     "qty": {
+      "en": "200 ml for two months",
+      "sw": "Mililita 200 kwa miezi miwili"
+     },
+     "qty_formula": "about 3 ml a day × 60 days = 180 ml → two 100 ml jars",
+     "units": 200,
+     "brands": [
+      {
+       "brand": "Vaseline",
+       "product": "Blue Seal Jelly",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 2900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b942053c6d5732d0a3783",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": true
+      },
+      {
+       "brand": "Vaseline",
+       "product": "Blue Seal Jelly Cool",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 3300,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b944453c6d5732d0a3784",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dabur",
+       "product": "Herbolene Jelly",
+       "pack": "425 ml",
+       "pack_units": 425,
+       "price_tsh": 12300,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6726609cad21bfe77df6be43",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": false
+      },
+      {
+       "brand": "Dove",
+       "product": "Intensive Nourish Body Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 12700,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/630f80a1fa11de0a43b3ab91",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vaseline",
+       "product": "Intensive Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 14600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b936053c6d5732d0a377f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "san",
+     "kind": "goods",
+     "name": {
+      "en": "Pocket hand sanitiser for school",
+      "sw": "Kitakasa mikono cha mfukoni kwa shule"
+     },
+     "why": {
+      "en": "Clean hands before eating and after the toilet cut diarrhoea and respiratory infections, and many schools have water but no soap at the taps. Soap and water come first; a pocket gel covers the times there is none. Adults should keep it out of reach of children under six, who must use it only under supervision.",
+      "sw": "Mikono safi kabla ya kula na baada ya kutoka chooni hupunguza kuhara na maambukizi ya njia ya hewa, na shule nyingi zina maji lakini hazina sabuni kwenye mabomba. Sabuni na maji ni ya kwanza; jeli ya mfukoni ni kwa nyakati ambazo hazipo. Watoto chini ya miaka sita waitumie chini ya uangalizi wa mtu mzima tu."
+     },
+     "qty": {
+      "en": "80 ml (two school months)",
+      "sw": "Mililita 80 (miezi miwili ya shule)"
+     },
+     "qty_formula": "about 2 uses × 1 ml × 20 school days = 40 ml a school month × 2",
+     "units": 80,
+     "brands": [
+      {
+       "brand": "Body Guard",
+       "product": "Hand Sanitizer",
+       "pack": "50 ml",
+       "pack_units": 50,
+       "price_tsh": 1000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602665f553c6d5732d0a358b",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Body Guard",
+       "product": "Hand Sanitizer (refill for the pocket bottle)",
+       "pack": "250 ml",
+       "pack_units": 250,
+       "price_tsh": 4500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026664053c6d5732d0a358c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Velvex",
+       "product": "Premium hand-sanitising gel, pocket",
+       "pack": "50 ml",
+       "pack_units": 50,
+       "price_tsh": 1220,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/hand-sanitizers/velvex-premium-h-sanitizing-gel50ml/p/68562",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 60,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 60, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Rosy",
+       "product": "Hand sanitiser, pocket",
+       "pack": "50 ml",
+       "pack_units": 50,
+       "price_tsh": 1118,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/hand-sanitizers/rosy-hand-sanitizer-50ml/p/146546",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 55,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 55, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "rep",
+     "kind": "goods",
+     "name": {
+      "en": "Mosquito repellent for the evening",
+      "sw": "Dawa ya kufukuza mbu kwa jioni"
+     },
+     "why": {
+      "en": "Malaria is still a leading cause of child illness in Tanzania. The core protection is sleeping under an insecticide-treated net (WHO); a repellent covers the evening hours outdoors before bed. Use only a product whose label states the active ingredient and the youngest age it may be used on.",
+      "sw": "Malaria bado ni chanzo kikuu cha ugonjwa kwa watoto Tanzania. Kinga ya msingi ni kulala ndani ya chandarua chenye dawa (WHO); dawa ya kufukuza mbu hulinda saa za jioni nje kabla ya kulala. Tumia bidhaa ambayo lebo yake inaonyesha kiambato hai na umri wa chini kabisa unaoruhusiwa tu."
+     },
+     "qty": {
+      "en": "2 packs (one a month)",
+      "sw": "Pakiti 2 (moja kwa mwezi)"
+     },
+     "qty_formula": "1 pack planned to last one month of evening use × 2 months (planning assumption)",
+     "units": 2,
+     "brands": [
+      {
+       "brand": "Odomos",
+       "product": "Roll On",
+       "pack": "50 g",
+       "pack_units": 1,
+       "price_tsh": 4600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b6d4553c6d5732d0a36f8",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "No-Bite",
+       "product": "Roll On Insect Repellent",
+       "pack": "40 ml",
+       "pack_units": 1,
+       "price_tsh": 8200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b993f53c6d5732d0a379e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "No-Bite",
+       "product": "Mosquito Repellent Roll-On",
+       "pack": "45 ml",
+       "pack_units": 1,
+       "price_tsh": 9000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/mosquito-repellent-roll-on-no-bite-45m",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Peaceful Sleep",
+       "product": "Stick Roll On",
+       "pack": "30 ml",
+       "pack_units": 1,
+       "price_tsh": 9500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b71ec53c6d5732d0a370e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Ballet",
+       "product": "Mosquito-repellent lotion",
+       "pack": "130 ml",
+       "pack_units": 1,
+       "price_tsh": 3944,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/face-care-whitening/ballet-mosquito-repel-lotion-130ml/p/3041",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 194,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 194, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "books",
+     "kind": "goods",
+     "name": {
+      "en": "Exercise books",
+      "sw": "Madaftari"
+     },
+     "why": {
+      "en": "Exercise books run out every few weeks and a child without one loses the lesson. Two a school month is a planning figure for a primary pupil; the parent can change the number in the app.",
+      "sw": "Madaftari huisha kila baada ya wiki chache, na mtoto asiye na daftari hupoteza somo. Madaftari mawili kwa mwezi wa shule ni makadirio ya mipango kwa mwanafunzi wa msingi; mzazi anaweza kubadilisha idadi kwenye programu."
+     },
+     "qty": {
+      "en": "4 books (two school months)",
+      "sw": "Madaftari 4 (miezi miwili ya shule)"
+     },
+     "qty_formula": "2 books a school month × 2 (planning assumption)",
+     "units": 4,
+     "brands": [
+      {
+       "brand": "Academy",
+       "product": "Exercise Book 100 pages",
+       "pack": "1 book",
+       "pack_units": 1,
+       "price_tsh": 1600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60262b0353c6d5732d0a353c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": true
+      },
+      {
+       "brand": "Kasuku",
+       "product": "Exercise book, single line, A5, 200 pages",
+       "pack": "1 book",
+       "pack_units": 1,
+       "price_tsh": 1118,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/local-notebook/kasuku-ex-book-single-line-200p-a5/p/2418",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 55,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 55, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": true,
+       "default": false
+      },
+      {
+       "brand": "M&G",
+       "product": "Exercise book A5, single line, 200 pages",
+       "pack": "1 book",
+       "pack_units": 1,
+       "price_tsh": 1992,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/english-notebook/m-g-exercise-book-a5-sl-200p-2465f/p/225755",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 98,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 98, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "pencil",
+     "kind": "goods",
+     "name": {
+      "en": "Pencils, or pens for older pupils",
+      "sw": "Penseli, au kalamu kwa wanafunzi wakubwa"
+     },
+     "why": {
+      "en": "Pencils are lost and worn down at the same pace as the books fill. Older pupils who write in pen can swap to ball pens.",
+      "sw": "Penseli hupotea na kuisha kwa kasi ileile ambayo madaftari hujaa. Wanafunzi wakubwa wanaoandika kwa kalamu wanaweza kubadilisha kuwa kalamu za wino."
+     },
+     "qty": {
+      "en": "4 pencils (two school months)",
+      "sw": "Penseli 4 (miezi miwili ya shule)"
+     },
+     "qty_formula": "2 pencils a school month × 2 (planning assumption)",
+     "units": 4,
+     "brands": [
+      {
+       "brand": "Generic",
+       "product": "Pencils Packet 621",
+       "pack": "12 pencils",
+       "pack_units": 12,
+       "price_tsh": 7000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a7c6253c6d5732d0a36d3",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": true
+      },
+      {
+       "brand": "Pecker",
+       "product": "HB pencils with eraser",
+       "pack": "3 pencils",
+       "pack_units": 3,
+       "price_tsh": 854,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/pencils/pecker-3-hb-pencils-with-eraser/p/235758",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 42,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 42, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": true,
+       "default": false
+      },
+      {
+       "brand": "Nataraj",
+       "product": "Superx Ball Pen",
+       "pack": "5 pens",
+       "pack_units": 5,
+       "price_tsh": 3000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a7aa553c6d5732d0a36ce",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "bottle",
+     "kind": "goods",
+     "name": {
+      "en": "School water bottle",
+      "sw": "Chupa ya maji ya shule"
+     },
+     "why": {
+      "en": "School water points are not always safe or open. A bottle filled at home with boiled or treated water lets the child drink through a hot school day. One a year, in the first box.",
+      "sw": "Vituo vya maji shuleni si salama au wazi kila mara. Chupa iliyojazwa nyumbani kwa maji yaliyochemshwa au kutibiwa humwezesha mtoto kunywa katika siku ya joto shuleni. Moja kwa mwaka, kwenye sanduku la kwanza."
+     },
+     "qty": {
+      "en": "1, once a year",
+      "sw": "1, mara moja kwa mwaka"
+     },
+     "qty_formula": "1 per child per school year",
+     "units": 1,
+     "brands": [
+      {
+       "brand": "Del Casa",
+       "product": "Water Bottle",
+       "pack": "700 ml",
+       "pack_units": 1,
+       "price_tsh": 11000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602681fe53c6d5732d0a35e0",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Lock & Lock",
+       "product": "Sports Water Bottle",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 17000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a707753c6d5732d0a36a3",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Pecker",
+       "product": "Kids water bottle",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 17281,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/plastic-bottle/pecker-kid-water-bottle/p/74288",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 850,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 850, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Monush",
+       "product": "Kids water bottle",
+       "pack": "700 ml",
+       "pack_units": 1,
+       "price_tsh": 20025,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/plastic-bottle/monush-water-bottle-kids-700ml/p/205474",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 985,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 985, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "nail",
+     "kind": "goods",
+     "name": {
+      "en": "Nail clipper",
+      "sw": "Kikata kucha"
+     },
+     "why": {
+      "en": "Short, clean nails are checked at many school inspections and keep worm eggs and dirt from the mouth. One clipper lasts years; it comes in the first box of the first year only.",
+      "sw": "Kucha fupi na safi hukaguliwa katika shule nyingi na huzuia mayai ya minyoo na uchafu kufika kinywani. Kikata kucha kimoja hudumu miaka; kinakuja kwenye sanduku la kwanza la mwaka wa kwanza tu."
+     },
+     "qty": {
+      "en": "1, first year only",
+      "sw": "1, mwaka wa kwanza tu"
+     },
+     "qty_formula": "1 per child; lasts several years",
+     "units": 1,
+     "brands": [
+      {
+       "brand": "Titania",
+       "product": "Nail clipper 1052/1",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 7217,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/clippers-scissors/titania-nail-clipper-1052-1/p/71697",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 355,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 355, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Bell",
+       "product": "Nail cutter, medium",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 10084,
+       "src": {
+        "name": "goodlife.co.ke",
+        "u": "https://www.goodlife.co.ke/product/nail-cutter-size-m-bell/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 496,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 496, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Sure Clip",
+       "product": "Nail clipper",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 11181,
+       "src": {
+        "name": "portalpharmacy.ke",
+        "u": "https://portalpharmacy.ke/sure-clip-nail-clippers",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 550,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 550, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "plast",
+     "kind": "goods",
+     "name": {
+      "en": "Plasters for the school bag",
+      "sw": "Plasta za kwenye begi la shule"
+     },
+     "why": {
+      "en": "Grazes from the playground are the commonest school injury. Rinsing with clean water and covering the wound keeps dirt out until it heals. Twenty plasters a year in a small pouch.",
+      "sw": "Michubuko ya uwanjani ndiyo majeraha yanayotokea zaidi shuleni. Kusuuza kwa maji safi na kufunika jeraha huzuia uchafu hadi lipone. Plasta ishirini kwa mwaka kwenye mfuko mdogo."
+     },
+     "qty": {
+      "en": "20 plasters, once a year",
+      "sw": "Plasta 20, mara moja kwa mwaka"
+     },
+     "qty_formula": "about 2 small grazes a month × 10 school months ≈ 20 (planning assumption)",
+     "units": 20,
+     "brands": [
+      {
+       "brand": "Maxplast",
+       "product": "Fabric first-aid plasters",
+       "pack": "20",
+       "pack_units": 20,
+       "price_tsh": 1586,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/first-aid/maxplast-first-aid-plasters20s/p/52834",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 78,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 78, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Kalumaplast",
+       "product": "Waterproof plasters",
+       "pack": "100",
+       "pack_units": 100,
+       "price_tsh": 3659,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/first-aid/kalumaplast-waterproof-100-s/p/148541",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 180,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 180, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Steroplast",
+       "product": "Washproof plasters",
+       "pack": "16",
+       "pack_units": 16,
+       "price_tsh": 2846,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/first-aid/steroplast-plaster-washproof-16-s/p/2502",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 140,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 140, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "net",
+     "kind": "goods",
+     "name": {
+      "en": "Insecticide-treated mosquito net for the child’s bed",
+      "sw": "Chandarua chenye dawa kwa kitanda cha mtoto"
+     },
+     "why": {
+      "en": "WHO names insecticide-treated nets as one of the two core ways to prevent malaria. Many nets sold in shops are untreated, so the first box of the first year brings one long-lasting treated net for the child’s own bed; it is replaced about every three years.",
+      "sw": "WHO inataja vyandarua vyenye dawa kuwa mojawapo ya njia mbili kuu za kuzuia malaria. Vyandarua vingi vinavyouzwa madukani havina dawa, hivyo sanduku la kwanza la mwaka wa kwanza linaleta chandarua kimoja chenye dawa ya muda mrefu kwa kitanda cha mtoto; hubadilishwa takriban kila miaka mitatu."
+     },
+     "qty": {
+      "en": "1 net, first year only",
+      "sw": "Chandarua 1, mwaka wa kwanza tu"
+     },
+     "qty_formula": "1 net per child; lasts about 3 years",
+     "units": 1,
+     "brands": [
+      {
+       "brand": "WHO-prequalified LLIN (brand to be quoted)",
+       "product": "Long-lasting insecticidal net, single bed",
+       "pack": "1 net",
+       "pack_units": 1,
+       "price_tsh": 10000,
+       "src": {
+        "name": "Estimate",
+        "u": "https://www.mdpi.com/2414-6366/10/6/175",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "EST",
+       "note": "Estimate: no Tanzanian online listing of a treated net was found on 10 Nov 2026; planning figure from a 2024 Tanzanian retail net price survey (median TSh 9,000–10,000 for an untreated net), as cited in the code; to be replaced by a distributor quote.",
+       "afya_choice": true,
+       "default": true
+      }
+     ]
+    },
+    {
+     "key": "fever",
+     "kind": "medicine",
+     "name": {
+      "en": "Paracetamol syrup for fever or pain (partner pharmacy)",
+      "sw": "Sharubati ya paracetamol kwa homa au maumivu (famasia mshirika)"
+     },
+     "why": {
+      "en": "A bottle at home means a feverish child can be made comfortable at night. A fever in Tanzania still needs a malaria test the same day, at a clinic; paracetamol does not replace that. The dose depends on the child’s weight and is set by the pharmacist. Not priced in the box.",
+      "sw": "Chupa nyumbani humwezesha mtoto mwenye homa kupata nafuu usiku. Homa Tanzania bado inahitaji kipimo cha malaria siku hiyohiyo, kliniki; paracetamol haichukui nafasi hiyo. Dozi hutegemea uzito wa mtoto na huwekwa na mfamasia. Haina bei ndani ya sanduku."
+     },
+     "qty": {
+      "en": "1 bottle, once a year",
+      "sw": "Chupa 1, mara moja kwa mwaka"
+     },
+     "qty_formula": "1 bottle for the year at home; dose by weight, set by the pharmacist",
+     "units": 1,
+     "brands": [
+      {
+       "brand": "Dolomol",
+       "product": "Paracetamol 125 mg/5 ml syrup",
+       "pack": "1 bottle (size not stated on the page)",
+       "pack_units": 1,
+       "price_tsh": 2000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/dolomol",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Cetamol",
+       "product": "Paracetamol syrup for children",
+       "pack": "100 ml",
+       "pack_units": 1,
+       "price_tsh": 2806,
+       "src": {
+        "name": "goodlife.co.ke",
+        "u": "https://www.goodlife.co.ke/product/cetamol-syrup-100ml/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 138,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 138, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Calpol",
+       "product": "Paracetamol suspension",
+       "pack": "100 ml",
+       "pack_units": 1,
+       "price_tsh": 9149,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/pain-relief/calpol-suspension-100ml/p/33885",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 450,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 450, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "t",
+   "label": {
+    "en": "School-term box (March, July, September)",
+    "sw": "Sanduku la muhula (Machi, Julai, Septemba)"
+   },
+   "months": "Mar–Apr, Jul–Aug, Sep–Oct",
+   "box_size": "S",
+   "items": [
+    {
+     "key": "soap",
+     "kind": "goods",
+     "name": {
+      "en": "Mild bath soap",
+      "sw": "Sabuni laini ya kuogea"
+     },
+     "why": {
+      "en": "A school child in Dar es Salaam heat usually bathes twice a day, after school and after play especially. Plain washing with soap and water is enough for daily hygiene; antibacterial soaps are not needed and can dry young skin. A mild, low-fragrance bar is the default.",
+      "sw": "Mtoto wa shule katika joto la Dar es Salaam kwa kawaida huoga mara mbili kwa siku, hasa baada ya shule na baada ya kucheza. Kuoga kwa sabuni na maji kunatosha kwa usafi wa kila siku; sabuni za kuua vijidudu hazihitajiki na zinaweza kukausha ngozi changa. Kipande laini chenye manukato kidogo ndicho chaguo la msingi."
+     },
+     "qty": {
+      "en": "2 bars (350 g) for two months",
+      "sw": "Vipande 2 (g 350) kwa miezi miwili"
+     },
+     "qty_formula": "2 baths a day × 60 days × about 3 g a bath ≈ 360 g → two 175 g bars = 350 g (planning assumption)",
+     "units": 350,
+     "brands": [
+      {
+       "brand": "Imperial Leather",
+       "product": "Soap",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 2600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a459853c6d5732d0a3666",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Fa",
+       "product": "Soap",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 2600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a2ea553c6d5732d0a3616",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dove",
+       "product": "Pink Cream Bar",
+       "pack": "100 g",
+       "pack_units": 100,
+       "price_tsh": 1900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026872053c6d5732d0a35ee",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Johnson's",
+       "product": "Baby Oil Soap",
+       "pack": "100 g",
+       "pack_units": 100,
+       "price_tsh": 2600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6a5a002ed4b3dce59b40cb88",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Lifebuoy",
+       "product": "Soap, assorted",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 3500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6a6dd151d4b3dce59b40cc2f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "hair",
+     "kind": "goods",
+     "name": {
+      "en": "Mild hair wash, tear-free for younger children",
+      "sw": "Shampuu laini ya nywele, isiyowasha macho kwa watoto wadogo"
+     },
+     "why": {
+      "en": "Most Tanzanian primary schools ask for short, clean hair. A dusty playground and daily sweat mean the hair needs washing about twice a week. Regular washing and a clean comb help against scalp ringworm and lice, which spread in classrooms; a medicated shampoo is only for a diagnosis made by a clinician.",
+      "sw": "Shule nyingi za msingi Tanzania zinataka nywele fupi na safi. Uwanja wenye vumbi na jasho la kila siku humaanisha nywele zioshwe takriban mara mbili kwa wiki. Kuosha mara kwa mara na kitana safi husaidia dhidi ya mba wa fangasi na chawa, wanaosambaa darasani; shampuu ya dawa ni kwa ugonjwa uliothibitishwa na mtaalamu wa afya tu."
+     },
+     "qty": {
+      "en": "140 ml for two months",
+      "sw": "Mililita 140 kwa miezi miwili"
+     },
+     "qty_formula": "2 washes a week × 8.7 weeks × about 8 ml a wash ≈ 140 ml (planning assumption)",
+     "units": 140,
+     "brands": [
+      {
+       "brand": "Johnson's",
+       "product": "Baby Shampoo",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 12000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a5a7853c6d5732d0a3674",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": true
+      },
+      {
+       "brand": "Cussons",
+       "product": "Kids Hair & Body Wash",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 8132,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/baby-bath-toiletries/cussons-baby-tod-wash-berry-200ml/p/258066",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 400,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 400, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Niya",
+       "product": "Shampoo and Conditioner",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 8200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6867b3e3914cc5c6cdeaf5cd",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Not tear-free: for children of about 8 and older.",
+       "afya_choice": true,
+       "default": false
+      },
+      {
+       "brand": "Dove",
+       "product": "2 in 1 Shampoo",
+       "pack": "250 ml",
+       "pack_units": 250,
+       "price_tsh": 11500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60268b2f53c6d5732d0a35fc",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Not tear-free: for children of about 8 and older.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "paste",
+     "kind": "goods",
+     "name": {
+      "en": "Fluoride toothpaste",
+      "sw": "Dawa ya meno yenye floraidi"
+     },
+     "why": {
+      "en": "Tooth decay is the most common disease of childhood, and the first permanent molars come through at about age six. WHO recommends brushing twice a day with a fluoride toothpaste of 1,000–1,500 ppm. A pea-sized amount is enough, spat out and not rinsed away; a parent brushes or supervises until about age seven.",
+      "sw": "Kuoza kwa meno ndio ugonjwa unaowapata watoto zaidi, na magego ya kwanza ya kudumu huota karibu na umri wa miaka sita. WHO inapendekeza kupiga mswaki mara mbili kwa siku kwa dawa ya meno yenye floraidi ya ppm 1,000–1,500. Kiasi cha punje ya njegere kinatosha; mtoto ateme bila kusukutua. Mzazi ampigie mswaki au amsimamie hadi karibu miaka saba."
+     },
+     "qty": {
+      "en": "60 g for two months (part of a tube)",
+      "sw": "Gramu 60 kwa miezi miwili (sehemu ya tyubu)"
+     },
+     "qty_formula": "about 0.5 g (a pea) × 2 brushings × 60 days ≈ 60 g",
+     "units": 60,
+     "brands": [
+      {
+       "brand": "Colgate",
+       "product": "Maximum Protection toothpaste",
+       "pack": "140 g",
+       "pack_units": 140,
+       "price_tsh": 5900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026787c53c6d5732d0a35c5",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Whitedent",
+       "product": "Herbal Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 4100,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b959d53c6d5732d0a378c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Fluoride content to be confirmed on the pack before it is offered.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Whitedent",
+       "product": "Gel Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 3800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/66eb11b5ad21bfe77df6b23e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Fluoride content to be confirmed on the pack before it is offered.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Colgate",
+       "product": "Natural Extracts Toothpaste",
+       "pack": "75 ml",
+       "pack_units": 75,
+       "price_tsh": 8500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/colgate-natural-extracts-toothpaste-75ml",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Counted as 75 g.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "brush",
+     "kind": "goods",
+     "name": {
+      "en": "Soft child-size toothbrush",
+      "sw": "Mswaki laini wa ukubwa wa mtoto"
+     },
+     "why": {
+      "en": "A small soft head reaches the back molars of a child’s mouth. A brush is replaced when the bristles splay, which happens quickly with children, so a fresh one comes in every box.",
+      "sw": "Kichwa kidogo laini hufikia magego ya nyuma kwenye kinywa cha mtoto. Mswaki hubadilishwa nyuzi zake zinapopinda, jambo linalotokea haraka kwa watoto, hivyo mswaki mpya unakuja katika kila sanduku."
+     },
+     "qty": {
+      "en": "1 brush in every box",
+      "sw": "Mswaki 1 katika kila sanduku"
+     },
+     "qty_formula": "1 brush every two months (dentists advise at least every 3 months, sooner when the bristles splay)",
+     "units": 1,
+     "brands": [
+      {
+       "brand": "Whitedent",
+       "product": "Kids toothbrush",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 1525,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/oral-care/whitedent-kids-t-brush/p/202434",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 75,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 75, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Colgate",
+       "product": "Kids toothbrush",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 5286,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/oral-care/colgate-t-brush-kids-2-/p/29932",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 260,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 260, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Eco-Smile",
+       "product": "Essential Toothbrush with Tongue Scraper",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 3000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/eco-smile-essential-toothbrush-with-a-tongue-scraper",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Adult size: for children of about 10 and older.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Double Action",
+       "product": "Activated Charcoal Toothbrush (Medium)",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 2000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/charcoal-infused-double-action-toothbrush-medium",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Adult size, medium: for children of about 10 and older.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "skin",
+     "kind": "goods",
+     "name": {
+      "en": "Petroleum jelly or body lotion",
+      "sw": "Mafuta ya mgando au losheni ya mwili"
+     },
+     "why": {
+      "en": "After the bath a thin layer keeps young skin from drying and cracking, especially on elbows, knees and feet in the dusty dry season. Plain petroleum jelly is cheap, fragrance-free and enough for most children.",
+      "sw": "Baada ya kuoga, safu nyembamba huzuia ngozi changa kukauka na kupasuka, hasa viwiko, magoti na miguu wakati wa kiangazi chenye vumbi. Mafuta ya mgando ya kawaida ni nafuu, hayana manukato na yanatosha kwa watoto wengi."
+     },
+     "qty": {
+      "en": "200 ml for two months",
+      "sw": "Mililita 200 kwa miezi miwili"
+     },
+     "qty_formula": "about 3 ml a day × 60 days = 180 ml → two 100 ml jars",
+     "units": 200,
+     "brands": [
+      {
+       "brand": "Vaseline",
+       "product": "Blue Seal Jelly",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 2900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b942053c6d5732d0a3783",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": true
+      },
+      {
+       "brand": "Vaseline",
+       "product": "Blue Seal Jelly Cool",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 3300,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b944453c6d5732d0a3784",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dabur",
+       "product": "Herbolene Jelly",
+       "pack": "425 ml",
+       "pack_units": 425,
+       "price_tsh": 12300,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6726609cad21bfe77df6be43",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": false
+      },
+      {
+       "brand": "Dove",
+       "product": "Intensive Nourish Body Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 12700,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/630f80a1fa11de0a43b3ab91",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vaseline",
+       "product": "Intensive Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 14600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b936053c6d5732d0a377f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "san",
+     "kind": "goods",
+     "name": {
+      "en": "Pocket hand sanitiser for school",
+      "sw": "Kitakasa mikono cha mfukoni kwa shule"
+     },
+     "why": {
+      "en": "Clean hands before eating and after the toilet cut diarrhoea and respiratory infections, and many schools have water but no soap at the taps. Soap and water come first; a pocket gel covers the times there is none. Adults should keep it out of reach of children under six, who must use it only under supervision.",
+      "sw": "Mikono safi kabla ya kula na baada ya kutoka chooni hupunguza kuhara na maambukizi ya njia ya hewa, na shule nyingi zina maji lakini hazina sabuni kwenye mabomba. Sabuni na maji ni ya kwanza; jeli ya mfukoni ni kwa nyakati ambazo hazipo. Watoto chini ya miaka sita waitumie chini ya uangalizi wa mtu mzima tu."
+     },
+     "qty": {
+      "en": "80 ml (two school months)",
+      "sw": "Mililita 80 (miezi miwili ya shule)"
+     },
+     "qty_formula": "about 2 uses × 1 ml × 20 school days = 40 ml a school month × 2",
+     "units": 80,
+     "brands": [
+      {
+       "brand": "Body Guard",
+       "product": "Hand Sanitizer",
+       "pack": "50 ml",
+       "pack_units": 50,
+       "price_tsh": 1000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602665f553c6d5732d0a358b",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Body Guard",
+       "product": "Hand Sanitizer (refill for the pocket bottle)",
+       "pack": "250 ml",
+       "pack_units": 250,
+       "price_tsh": 4500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026664053c6d5732d0a358c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Velvex",
+       "product": "Premium hand-sanitising gel, pocket",
+       "pack": "50 ml",
+       "pack_units": 50,
+       "price_tsh": 1220,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/hand-sanitizers/velvex-premium-h-sanitizing-gel50ml/p/68562",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 60,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 60, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Rosy",
+       "product": "Hand sanitiser, pocket",
+       "pack": "50 ml",
+       "pack_units": 50,
+       "price_tsh": 1118,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/hand-sanitizers/rosy-hand-sanitizer-50ml/p/146546",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 55,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 55, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "rep",
+     "kind": "goods",
+     "name": {
+      "en": "Mosquito repellent for the evening",
+      "sw": "Dawa ya kufukuza mbu kwa jioni"
+     },
+     "why": {
+      "en": "Malaria is still a leading cause of child illness in Tanzania. The core protection is sleeping under an insecticide-treated net (WHO); a repellent covers the evening hours outdoors before bed. Use only a product whose label states the active ingredient and the youngest age it may be used on.",
+      "sw": "Malaria bado ni chanzo kikuu cha ugonjwa kwa watoto Tanzania. Kinga ya msingi ni kulala ndani ya chandarua chenye dawa (WHO); dawa ya kufukuza mbu hulinda saa za jioni nje kabla ya kulala. Tumia bidhaa ambayo lebo yake inaonyesha kiambato hai na umri wa chini kabisa unaoruhusiwa tu."
+     },
+     "qty": {
+      "en": "2 packs (one a month)",
+      "sw": "Pakiti 2 (moja kwa mwezi)"
+     },
+     "qty_formula": "1 pack planned to last one month of evening use × 2 months (planning assumption)",
+     "units": 2,
+     "brands": [
+      {
+       "brand": "Odomos",
+       "product": "Roll On",
+       "pack": "50 g",
+       "pack_units": 1,
+       "price_tsh": 4600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b6d4553c6d5732d0a36f8",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "No-Bite",
+       "product": "Roll On Insect Repellent",
+       "pack": "40 ml",
+       "pack_units": 1,
+       "price_tsh": 8200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b993f53c6d5732d0a379e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "No-Bite",
+       "product": "Mosquito Repellent Roll-On",
+       "pack": "45 ml",
+       "pack_units": 1,
+       "price_tsh": 9000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/mosquito-repellent-roll-on-no-bite-45m",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Peaceful Sleep",
+       "product": "Stick Roll On",
+       "pack": "30 ml",
+       "pack_units": 1,
+       "price_tsh": 9500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b71ec53c6d5732d0a370e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Ballet",
+       "product": "Mosquito-repellent lotion",
+       "pack": "130 ml",
+       "pack_units": 1,
+       "price_tsh": 3944,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/face-care-whitening/ballet-mosquito-repel-lotion-130ml/p/3041",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 194,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 194, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "books",
+     "kind": "goods",
+     "name": {
+      "en": "Exercise books",
+      "sw": "Madaftari"
+     },
+     "why": {
+      "en": "Exercise books run out every few weeks and a child without one loses the lesson. Two a school month is a planning figure for a primary pupil; the parent can change the number in the app.",
+      "sw": "Madaftari huisha kila baada ya wiki chache, na mtoto asiye na daftari hupoteza somo. Madaftari mawili kwa mwezi wa shule ni makadirio ya mipango kwa mwanafunzi wa msingi; mzazi anaweza kubadilisha idadi kwenye programu."
+     },
+     "qty": {
+      "en": "4 books (two school months)",
+      "sw": "Madaftari 4 (miezi miwili ya shule)"
+     },
+     "qty_formula": "2 books a school month × 2 (planning assumption)",
+     "units": 4,
+     "brands": [
+      {
+       "brand": "Academy",
+       "product": "Exercise Book 100 pages",
+       "pack": "1 book",
+       "pack_units": 1,
+       "price_tsh": 1600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60262b0353c6d5732d0a353c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": true
+      },
+      {
+       "brand": "Kasuku",
+       "product": "Exercise book, single line, A5, 200 pages",
+       "pack": "1 book",
+       "pack_units": 1,
+       "price_tsh": 1118,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/local-notebook/kasuku-ex-book-single-line-200p-a5/p/2418",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 55,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 55, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": true,
+       "default": false
+      },
+      {
+       "brand": "M&G",
+       "product": "Exercise book A5, single line, 200 pages",
+       "pack": "1 book",
+       "pack_units": 1,
+       "price_tsh": 1992,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/english-notebook/m-g-exercise-book-a5-sl-200p-2465f/p/225755",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 98,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 98, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "pencil",
+     "kind": "goods",
+     "name": {
+      "en": "Pencils, or pens for older pupils",
+      "sw": "Penseli, au kalamu kwa wanafunzi wakubwa"
+     },
+     "why": {
+      "en": "Pencils are lost and worn down at the same pace as the books fill. Older pupils who write in pen can swap to ball pens.",
+      "sw": "Penseli hupotea na kuisha kwa kasi ileile ambayo madaftari hujaa. Wanafunzi wakubwa wanaoandika kwa kalamu wanaweza kubadilisha kuwa kalamu za wino."
+     },
+     "qty": {
+      "en": "4 pencils (two school months)",
+      "sw": "Penseli 4 (miezi miwili ya shule)"
+     },
+     "qty_formula": "2 pencils a school month × 2",
+     "units": 4,
+     "brands": [
+      {
+       "brand": "Generic",
+       "product": "Pencils Packet 621",
+       "pack": "12 pencils",
+       "pack_units": 12,
+       "price_tsh": 7000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a7c6253c6d5732d0a36d3",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": true
+      },
+      {
+       "brand": "Pecker",
+       "product": "HB pencils with eraser",
+       "pack": "3 pencils",
+       "pack_units": 3,
+       "price_tsh": 854,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/pencils/pecker-3-hb-pencils-with-eraser/p/235758",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 42,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 42, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": true,
+       "default": false
+      },
+      {
+       "brand": "Nataraj",
+       "product": "Superx Ball Pen",
+       "pack": "5 pens",
+       "pack_units": 5,
+       "price_tsh": 3000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a7aa553c6d5732d0a36ce",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "h",
+   "label": {
+    "en": "Holiday box (May and November)",
+    "sw": "Sanduku la likizo (Mei na Novemba)"
+   },
+   "months": "May–Jun, Nov–Dec",
+   "box_size": "S",
+   "items": [
+    {
+     "key": "soap",
+     "kind": "goods",
+     "name": {
+      "en": "Mild bath soap",
+      "sw": "Sabuni laini ya kuogea"
+     },
+     "why": {
+      "en": "A school child in Dar es Salaam heat usually bathes twice a day, after school and after play especially. Plain washing with soap and water is enough for daily hygiene; antibacterial soaps are not needed and can dry young skin. A mild, low-fragrance bar is the default.",
+      "sw": "Mtoto wa shule katika joto la Dar es Salaam kwa kawaida huoga mara mbili kwa siku, hasa baada ya shule na baada ya kucheza. Kuoga kwa sabuni na maji kunatosha kwa usafi wa kila siku; sabuni za kuua vijidudu hazihitajiki na zinaweza kukausha ngozi changa. Kipande laini chenye manukato kidogo ndicho chaguo la msingi."
+     },
+     "qty": {
+      "en": "2 bars (350 g) for two months",
+      "sw": "Vipande 2 (g 350) kwa miezi miwili"
+     },
+     "qty_formula": "2 baths a day × 60 days × about 3 g a bath ≈ 360 g → two 175 g bars = 350 g (planning assumption)",
+     "units": 350,
+     "brands": [
+      {
+       "brand": "Imperial Leather",
+       "product": "Soap",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 2600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a459853c6d5732d0a3666",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Fa",
+       "product": "Soap",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 2600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a2ea553c6d5732d0a3616",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dove",
+       "product": "Pink Cream Bar",
+       "pack": "100 g",
+       "pack_units": 100,
+       "price_tsh": 1900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026872053c6d5732d0a35ee",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Johnson's",
+       "product": "Baby Oil Soap",
+       "pack": "100 g",
+       "pack_units": 100,
+       "price_tsh": 2600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6a5a002ed4b3dce59b40cb88",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Lifebuoy",
+       "product": "Soap, assorted",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 3500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6a6dd151d4b3dce59b40cc2f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "hair",
+     "kind": "goods",
+     "name": {
+      "en": "Mild hair wash, tear-free for younger children",
+      "sw": "Shampuu laini ya nywele, isiyowasha macho kwa watoto wadogo"
+     },
+     "why": {
+      "en": "Most Tanzanian primary schools ask for short, clean hair. A dusty playground and daily sweat mean the hair needs washing about twice a week. Regular washing and a clean comb help against scalp ringworm and lice, which spread in classrooms; a medicated shampoo is only for a diagnosis made by a clinician.",
+      "sw": "Shule nyingi za msingi Tanzania zinataka nywele fupi na safi. Uwanja wenye vumbi na jasho la kila siku humaanisha nywele zioshwe takriban mara mbili kwa wiki. Kuosha mara kwa mara na kitana safi husaidia dhidi ya mba wa fangasi na chawa, wanaosambaa darasani; shampuu ya dawa ni kwa ugonjwa uliothibitishwa na mtaalamu wa afya tu."
+     },
+     "qty": {
+      "en": "140 ml for two months",
+      "sw": "Mililita 140 kwa miezi miwili"
+     },
+     "qty_formula": "2 washes a week × 8.7 weeks × about 8 ml a wash ≈ 140 ml (planning assumption)",
+     "units": 140,
+     "brands": [
+      {
+       "brand": "Johnson's",
+       "product": "Baby Shampoo",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 12000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a5a7853c6d5732d0a3674",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": true
+      },
+      {
+       "brand": "Cussons",
+       "product": "Kids Hair & Body Wash",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 8132,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/baby-bath-toiletries/cussons-baby-tod-wash-berry-200ml/p/258066",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 400,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 400, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Niya",
+       "product": "Shampoo and Conditioner",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 8200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6867b3e3914cc5c6cdeaf5cd",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Not tear-free: for children of about 8 and older.",
+       "afya_choice": true,
+       "default": false
+      },
+      {
+       "brand": "Dove",
+       "product": "2 in 1 Shampoo",
+       "pack": "250 ml",
+       "pack_units": 250,
+       "price_tsh": 11500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60268b2f53c6d5732d0a35fc",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Not tear-free: for children of about 8 and older.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "paste",
+     "kind": "goods",
+     "name": {
+      "en": "Fluoride toothpaste",
+      "sw": "Dawa ya meno yenye floraidi"
+     },
+     "why": {
+      "en": "Tooth decay is the most common disease of childhood, and the first permanent molars come through at about age six. WHO recommends brushing twice a day with a fluoride toothpaste of 1,000–1,500 ppm. A pea-sized amount is enough, spat out and not rinsed away; a parent brushes or supervises until about age seven.",
+      "sw": "Kuoza kwa meno ndio ugonjwa unaowapata watoto zaidi, na magego ya kwanza ya kudumu huota karibu na umri wa miaka sita. WHO inapendekeza kupiga mswaki mara mbili kwa siku kwa dawa ya meno yenye floraidi ya ppm 1,000–1,500. Kiasi cha punje ya njegere kinatosha; mtoto ateme bila kusukutua. Mzazi ampigie mswaki au amsimamie hadi karibu miaka saba."
+     },
+     "qty": {
+      "en": "60 g for two months (part of a tube)",
+      "sw": "Gramu 60 kwa miezi miwili (sehemu ya tyubu)"
+     },
+     "qty_formula": "about 0.5 g (a pea) × 2 brushings × 60 days ≈ 60 g",
+     "units": 60,
+     "brands": [
+      {
+       "brand": "Colgate",
+       "product": "Maximum Protection toothpaste",
+       "pack": "140 g",
+       "pack_units": 140,
+       "price_tsh": 5900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026787c53c6d5732d0a35c5",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Whitedent",
+       "product": "Herbal Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 4100,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b959d53c6d5732d0a378c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Fluoride content to be confirmed on the pack before it is offered.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Whitedent",
+       "product": "Gel Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 3800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/66eb11b5ad21bfe77df6b23e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Fluoride content to be confirmed on the pack before it is offered.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Colgate",
+       "product": "Natural Extracts Toothpaste",
+       "pack": "75 ml",
+       "pack_units": 75,
+       "price_tsh": 8500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/colgate-natural-extracts-toothpaste-75ml",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Counted as 75 g.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "brush",
+     "kind": "goods",
+     "name": {
+      "en": "Soft child-size toothbrush",
+      "sw": "Mswaki laini wa ukubwa wa mtoto"
+     },
+     "why": {
+      "en": "A small soft head reaches the back molars of a child’s mouth. A brush is replaced when the bristles splay, which happens quickly with children, so a fresh one comes in every box.",
+      "sw": "Kichwa kidogo laini hufikia magego ya nyuma kwenye kinywa cha mtoto. Mswaki hubadilishwa nyuzi zake zinapopinda, jambo linalotokea haraka kwa watoto, hivyo mswaki mpya unakuja katika kila sanduku."
+     },
+     "qty": {
+      "en": "1 brush in every box",
+      "sw": "Mswaki 1 katika kila sanduku"
+     },
+     "qty_formula": "1 brush every two months (dentists advise at least every 3 months, sooner when the bristles splay)",
+     "units": 1,
+     "brands": [
+      {
+       "brand": "Whitedent",
+       "product": "Kids toothbrush",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 1525,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/oral-care/whitedent-kids-t-brush/p/202434",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 75,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 75, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Colgate",
+       "product": "Kids toothbrush",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 5286,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/oral-care/colgate-t-brush-kids-2-/p/29932",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 260,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 260, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Eco-Smile",
+       "product": "Essential Toothbrush with Tongue Scraper",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 3000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/eco-smile-essential-toothbrush-with-a-tongue-scraper",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Adult size: for children of about 10 and older.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Double Action",
+       "product": "Activated Charcoal Toothbrush (Medium)",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 2000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/charcoal-infused-double-action-toothbrush-medium",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Adult size, medium: for children of about 10 and older.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "skin",
+     "kind": "goods",
+     "name": {
+      "en": "Petroleum jelly or body lotion",
+      "sw": "Mafuta ya mgando au losheni ya mwili"
+     },
+     "why": {
+      "en": "After the bath a thin layer keeps young skin from drying and cracking, especially on elbows, knees and feet in the dusty dry season. Plain petroleum jelly is cheap, fragrance-free and enough for most children.",
+      "sw": "Baada ya kuoga, safu nyembamba huzuia ngozi changa kukauka na kupasuka, hasa viwiko, magoti na miguu wakati wa kiangazi chenye vumbi. Mafuta ya mgando ya kawaida ni nafuu, hayana manukato na yanatosha kwa watoto wengi."
+     },
+     "qty": {
+      "en": "200 ml for two months",
+      "sw": "Mililita 200 kwa miezi miwili"
+     },
+     "qty_formula": "about 3 ml a day × 60 days = 180 ml → two 100 ml jars",
+     "units": 200,
+     "brands": [
+      {
+       "brand": "Vaseline",
+       "product": "Blue Seal Jelly",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 2900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b942053c6d5732d0a3783",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": true
+      },
+      {
+       "brand": "Vaseline",
+       "product": "Blue Seal Jelly Cool",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 3300,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b944453c6d5732d0a3784",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dabur",
+       "product": "Herbolene Jelly",
+       "pack": "425 ml",
+       "pack_units": 425,
+       "price_tsh": 12300,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6726609cad21bfe77df6be43",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": false
+      },
+      {
+       "brand": "Dove",
+       "product": "Intensive Nourish Body Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 12700,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/630f80a1fa11de0a43b3ab91",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vaseline",
+       "product": "Intensive Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 14600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b936053c6d5732d0a377f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "san",
+     "kind": "goods",
+     "name": {
+      "en": "Pocket hand sanitiser for school",
+      "sw": "Kitakasa mikono cha mfukoni kwa shule"
+     },
+     "why": {
+      "en": "Clean hands before eating and after the toilet cut diarrhoea and respiratory infections, and many schools have water but no soap at the taps. Soap and water come first; a pocket gel covers the times there is none. Adults should keep it out of reach of children under six, who must use it only under supervision.",
+      "sw": "Mikono safi kabla ya kula na baada ya kutoka chooni hupunguza kuhara na maambukizi ya njia ya hewa, na shule nyingi zina maji lakini hazina sabuni kwenye mabomba. Sabuni na maji ni ya kwanza; jeli ya mfukoni ni kwa nyakati ambazo hazipo. Watoto chini ya miaka sita waitumie chini ya uangalizi wa mtu mzima tu."
+     },
+     "qty": {
+      "en": "40 ml (one school month)",
+      "sw": "Mililita 40 (mwezi mmoja wa shule)"
+     },
+     "qty_formula": "40 ml a school month × 1 (the other month is holiday)",
+     "units": 40,
+     "brands": [
+      {
+       "brand": "Body Guard",
+       "product": "Hand Sanitizer",
+       "pack": "50 ml",
+       "pack_units": 50,
+       "price_tsh": 1000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602665f553c6d5732d0a358b",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Body Guard",
+       "product": "Hand Sanitizer (refill for the pocket bottle)",
+       "pack": "250 ml",
+       "pack_units": 250,
+       "price_tsh": 4500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026664053c6d5732d0a358c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Velvex",
+       "product": "Premium hand-sanitising gel, pocket",
+       "pack": "50 ml",
+       "pack_units": 50,
+       "price_tsh": 1220,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/hand-sanitizers/velvex-premium-h-sanitizing-gel50ml/p/68562",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 60,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 60, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Rosy",
+       "product": "Hand sanitiser, pocket",
+       "pack": "50 ml",
+       "pack_units": 50,
+       "price_tsh": 1118,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/hand-sanitizers/rosy-hand-sanitizer-50ml/p/146546",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 55,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 55, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "rep",
+     "kind": "goods",
+     "name": {
+      "en": "Mosquito repellent for the evening",
+      "sw": "Dawa ya kufukuza mbu kwa jioni"
+     },
+     "why": {
+      "en": "Malaria is still a leading cause of child illness in Tanzania. The core protection is sleeping under an insecticide-treated net (WHO); a repellent covers the evening hours outdoors before bed. Use only a product whose label states the active ingredient and the youngest age it may be used on.",
+      "sw": "Malaria bado ni chanzo kikuu cha ugonjwa kwa watoto Tanzania. Kinga ya msingi ni kulala ndani ya chandarua chenye dawa (WHO); dawa ya kufukuza mbu hulinda saa za jioni nje kabla ya kulala. Tumia bidhaa ambayo lebo yake inaonyesha kiambato hai na umri wa chini kabisa unaoruhusiwa tu."
+     },
+     "qty": {
+      "en": "2 packs (one a month)",
+      "sw": "Pakiti 2 (moja kwa mwezi)"
+     },
+     "qty_formula": "1 pack planned to last one month of evening use × 2 months (planning assumption)",
+     "units": 2,
+     "brands": [
+      {
+       "brand": "Odomos",
+       "product": "Roll On",
+       "pack": "50 g",
+       "pack_units": 1,
+       "price_tsh": 4600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b6d4553c6d5732d0a36f8",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "No-Bite",
+       "product": "Roll On Insect Repellent",
+       "pack": "40 ml",
+       "pack_units": 1,
+       "price_tsh": 8200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b993f53c6d5732d0a379e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "No-Bite",
+       "product": "Mosquito Repellent Roll-On",
+       "pack": "45 ml",
+       "pack_units": 1,
+       "price_tsh": 9000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/mosquito-repellent-roll-on-no-bite-45m",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Peaceful Sleep",
+       "product": "Stick Roll On",
+       "pack": "30 ml",
+       "pack_units": 1,
+       "price_tsh": 9500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b71ec53c6d5732d0a370e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Ballet",
+       "product": "Mosquito-repellent lotion",
+       "pack": "130 ml",
+       "pack_units": 1,
+       "price_tsh": 3944,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/face-care-whitening/ballet-mosquito-repel-lotion-130ml/p/3041",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 194,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 194, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "books",
+     "kind": "goods",
+     "name": {
+      "en": "Exercise books",
+      "sw": "Madaftari"
+     },
+     "why": {
+      "en": "Exercise books run out every few weeks and a child without one loses the lesson. Two a school month is a planning figure for a primary pupil; the parent can change the number in the app.",
+      "sw": "Madaftari huisha kila baada ya wiki chache, na mtoto asiye na daftari hupoteza somo. Madaftari mawili kwa mwezi wa shule ni makadirio ya mipango kwa mwanafunzi wa msingi; mzazi anaweza kubadilisha idadi kwenye programu."
+     },
+     "qty": {
+      "en": "2 books (one school month)",
+      "sw": "Madaftari 2 (mwezi mmoja wa shule)"
+     },
+     "qty_formula": "2 books a school month × 1",
+     "units": 2,
+     "brands": [
+      {
+       "brand": "Academy",
+       "product": "Exercise Book 100 pages",
+       "pack": "1 book",
+       "pack_units": 1,
+       "price_tsh": 1600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60262b0353c6d5732d0a353c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": true
+      },
+      {
+       "brand": "Kasuku",
+       "product": "Exercise book, single line, A5, 200 pages",
+       "pack": "1 book",
+       "pack_units": 1,
+       "price_tsh": 1118,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/local-notebook/kasuku-ex-book-single-line-200p-a5/p/2418",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 55,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 55, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": true,
+       "default": false
+      },
+      {
+       "brand": "M&G",
+       "product": "Exercise book A5, single line, 200 pages",
+       "pack": "1 book",
+       "pack_units": 1,
+       "price_tsh": 1992,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/english-notebook/m-g-exercise-book-a5-sl-200p-2465f/p/225755",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 98,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 98, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "pencil",
+     "kind": "goods",
+     "name": {
+      "en": "Pencils, or pens for older pupils",
+      "sw": "Penseli, au kalamu kwa wanafunzi wakubwa"
+     },
+     "why": {
+      "en": "Pencils are lost and worn down at the same pace as the books fill. Older pupils who write in pen can swap to ball pens.",
+      "sw": "Penseli hupotea na kuisha kwa kasi ileile ambayo madaftari hujaa. Wanafunzi wakubwa wanaoandika kwa kalamu wanaweza kubadilisha kuwa kalamu za wino."
+     },
+     "qty": {
+      "en": "2 pencils (one school month)",
+      "sw": "Penseli 2 (mwezi mmoja wa shule)"
+     },
+     "qty_formula": "2 pencils a school month × 1",
+     "units": 2,
+     "brands": [
+      {
+       "brand": "Generic",
+       "product": "Pencils Packet 621",
+       "pack": "12 pencils",
+       "pack_units": 12,
+       "price_tsh": 7000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a7c6253c6d5732d0a36d3",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": true
+      },
+      {
+       "brand": "Pecker",
+       "product": "HB pencils with eraser",
+       "pack": "3 pencils",
+       "pack_units": 3,
+       "price_tsh": 854,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/pencils/pecker-3-hb-pencils-with-eraser/p/235758",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 42,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 42, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": true,
+       "default": false
+      },
+      {
+       "brand": "Nataraj",
+       "product": "Superx Ball Pen",
+       "pack": "5 pens",
+       "pack_units": 5,
+       "price_tsh": 3000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a7aa553c6d5732d0a36ce",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "ball",
+     "kind": "toy",
+     "name": {
+      "en": "A ball for holiday play",
+      "sw": "Mpira wa kuchezea likizoni"
+     },
+     "why": {
+      "en": "WHO advises that children and adolescents be active for about an hour a day; in the holidays the school timetable no longer provides it. A ball in each holiday box gets children outside and playing together.",
+      "sw": "WHO inashauri watoto na vijana kufanya shughuli za mwili takriban saa moja kwa siku; likizoni ratiba ya shule haitoi tena nafasi hiyo. Mpira katika kila sanduku la likizo huwatoa watoto nje na kucheza pamoja."
+     },
+     "qty": {
+      "en": "1 ball in each holiday box",
+      "sw": "Mpira 1 katika kila sanduku la likizo"
+     },
+     "qty_formula": "1 per holiday (June and December)",
+     "units": 1,
+     "brands": [
+      {
+       "brand": "Intex",
+       "product": "Beach Ball 20 inch",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 9600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a466d53c6d5732d0a3669",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Intex",
+       "product": "Frozen Beach Ball",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 10000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a469d53c6d5732d0a366a",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Pecker",
+       "product": "Skills football, size 2",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 10673,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/football/pecker-football-size-2/p/153720",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 525,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 525, seen 2 Nov 2026), not re-checked; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "worm",
+     "kind": "medicine",
+     "name": {
+      "en": "Deworming tablet (partner pharmacy, if not given at school)",
+      "sw": "Kidonge cha minyoo (famasia mshirika, kama hakikutolewa shuleni)"
+     },
+     "why": {
+      "en": "Worms caught from soil cause anaemia and poor growth. WHO recommends periodic deworming of all school-age children where worms are common, with a single albendazole 400 mg or mebendazole 500 mg dose, and Tanzania gives it free in school campaigns. The box reminds the parent before each holiday; the partner pharmacy supplies a tablet only if the child missed the school round and the pharmacist or clinic agrees. Not priced in the box.",
+      "sw": "Minyoo inayotoka udongoni husababisha upungufu wa damu na ukuaji duni. WHO inapendekeza dawa za minyoo kwa vipindi kwa watoto wote wa umri wa shule pale minyoo ilipo kwa wingi, kwa dozi moja ya albendazole mg 400 au mebendazole mg 500, na Tanzania huitoa bure katika kampeni za shule. Sanduku humkumbusha mzazi kabla ya kila likizo; famasia mshirika hutoa kidonge tu kama mtoto alikosa awamu ya shule na mfamasia au kliniki imekubali. Haina bei ndani ya sanduku."
+     },
+     "qty": {
+      "en": "1 dose before each holiday, if needed",
+      "sw": "Dozi 1 kabla ya kila likizo, ikihitajika"
+     },
+     "qty_formula": "WHO: once or twice a year where worms are common → 2 a year (June and December boxes); dose set by the pharmacist",
+     "units": 1,
+     "brands": [
+      {
+       "brand": "Womiban",
+       "product": "Albendazole 400 mg tablet",
+       "pack": "1 tablet",
+       "pack_units": 1,
+       "price_tsh": 1000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/womiban-400mg-tablet-1s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Alzentel",
+       "product": "Albendazole 400 mg tablet",
+       "pack": "1 tablet",
+       "pack_units": 1,
+       "price_tsh": 5000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/alzentel-400mg-tablets-1s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Zentel",
+       "product": "Albendazole 400 mg tablet",
+       "pack": "1 tablet",
+       "pack_units": 1,
+       "price_tsh": 8500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/zentel",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vermox",
+       "product": "Mebendazole 100 mg/5 ml suspension",
+       "pack": "30 ml",
+       "pack_units": 1,
+       "price_tsh": 8000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/vermox-100mg-5mils-suspension-30mils",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "One 500 mg dose is 25 ml; counted as one dose.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "ors",
+     "kind": "medicine",
+     "name": {
+      "en": "Oral rehydration salts for holiday travel (partner pharmacy)",
+      "sw": "Chumvi ya kunywa (ORS) kwa safari za likizo (famasia mshirika)"
+     },
+     "why": {
+      "en": "Holiday travel upcountry brings new water and food, and diarrhoea dehydrates a child fast. WHO names oral rehydration solution as the first treatment. A child who cannot drink, has blood in the stool or is drowsy goes to a clinic at once.",
+      "sw": "Safari za likizo mikoani huleta maji na vyakula vipya, na kuhara humpunguzia mtoto maji mwilini haraka. WHO inataja ORS kuwa tiba ya kwanza. Mtoto asiyeweza kunywa, mwenye damu kwenye kinyesi au anayesinzia apelekwe kliniki mara moja."
+     },
+     "qty": {
+      "en": "2 sachets in each holiday box",
+      "sw": "Pakiti 2 katika kila sanduku la likizo"
+     },
+     "qty_formula": "1 episode × 2 sachets (the pharmacist advises the volume)",
+     "units": 2,
+     "brands": [
+      {
+       "brand": "IYFE",
+       "product": "ORS sachet",
+       "pack": "1 sachet",
+       "pack_units": 1,
+       "price_tsh": 500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/iyfe-ors-sachhets-1s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Avaprozinc",
+       "product": "ORS with zinc and probiotic (orange)",
+       "pack": "10 sachets",
+       "pack_units": 10,
+       "price_tsh": 2500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/avaprozinc-orange-flavourprobiotic",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "luxury": [
+  {
+   "tier": "premium",
+   "name": {
+    "en": "A treat in the box: Staedtler Tradition write-and-draw pencil set",
+    "sw": "Zawadi kwenye sanduku: seti ya penseli za kuandika na kuchora Staedtler Tradition"
+   },
+   "brand": "Staedtler",
+   "product": "Tradition write & draw pencil set",
+   "pack": "1 set",
+   "price_tsh": 23379,
+   "src": {
+    "name": "carrefour.ke",
+    "u": "https://www.carrefour.ke/mafken/en/pencils/staedtler-tradition-writ-draw-penc/p/59129",
+    "chk": "2026-11-02"
+   },
+   "orig": {
+    "cur": "KES",
+    "amount": 1150,
+    "rate": 20.33,
+    "date": "2026-11-10"
+   },
+   "status": "KE",
+   "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 1,150, seen 2 Nov 2026), not re-checked; converted at KES 20.33."
+  },
+  {
+   "tier": "luxury",
+   "name": {
+    "en": "A treat in the box: Contigo Cortland Autoseal bottle 720 ml",
+    "sw": "Zawadi kwenye sanduku: chupa ya Contigo Cortland Autoseal ml 720"
+   },
+   "brand": "Contigo",
+   "product": "Cortland Autoseal bottle",
+   "pack": "720 ml",
+   "price_tsh": 44624,
+   "src": {
+    "name": "carrefour.ke",
+    "u": "https://www.carrefour.ke/mafken/en/plastic-bottle/io-contigo-cortlnd-wtr-btl720ml-jde/p/249294",
+    "chk": "2026-11-02"
+   },
+   "orig": {
+    "cur": "KES",
+    "amount": 2195,
+    "rate": 20.33,
+    "date": "2026-11-10"
+   },
+   "status": "KE",
+   "note": "No Tanzanian listing found in this range. Kenyan shelf price (KES 2,195, seen 2 Nov 2026), not re-checked; converted at KES 20.33."
+  }
+ ],
+ "tiers": {
+  "en": "Regular = the core box with the default brands. Premium = core + Staedtler Tradition write & draw pencil set (TSh 23,379). Luxury = core + Contigo Cortland Autoseal bottle (TSh 44,624). The premium or luxury item is its own line at shelf price, outside the saving (D4), in each box.",
+  "sw": "Kawaida = sanduku la msingi lenye chapa za msingi. Premium = sanduku la msingi + Staedtler Tradition write & draw pencil set (TSh 23,379). Anasa = sanduku la msingi + Contigo Cortland Autoseal bottle (TSh 44,624). Bidhaa ya premium au ya anasa ina bei yake peke yake kwa bei ya rafu, nje ya punguzo (D4), katika kila sanduku."
+ },
+ "services": [
+  "growth-check",
+  "deworming-reminder",
+  "hpv-reminder",
+  "dental-check"
+ ],
+ "services_note": {
+  "en": "growth-check: height, weight and BMI at the Afya Check in store when a box is collected or at any visit, free; the reading goes on a growth chart in the app, and BMI-for-age needs the WHO growth reference (to be set in R2). deworming-reminder: a reminder before the June and December holidays to check the school deworming round, free. hpv-reminder: for girls at 9, the free single-dose HPV vaccine given by the public programme, free. dental-check: a check-up every six months with a partner dentist, offered as an add-on; no partner quote yet (R7).",
+  "sw": "growth-check: urefu, uzito na BMI kwenye Afya Check dukani sanduku linapochukuliwa au wakati wowote wa kutembelea, bure; kipimo huwekwa kwenye chati ya ukuaji kwenye programu, na BMI kwa umri inahitaji kipimo rejea cha ukuaji cha WHO (kitapangwa kwenye R2). deworming-reminder: kikumbusho kabla ya likizo za Juni na Desemba kukagua awamu ya dawa za minyoo shuleni, bure. hpv-reminder: kwa wasichana wa miaka 9, chanjo ya HPV ya dozi moja inayotolewa bure na mpango wa serikali, bure. dental-check: uchunguzi wa meno kila miezi sita kwa daktari wa meno mshirika, kama nyongeza; bado hakuna bei ya mshirika (R7)."
+ },
+ "pricing_rule": {
+  "formula": "D4 (10 Nov 2026): core price = shelf value of the box goods × (1 − 3% / 6% / 9% for the 1 / 6 / 12-month plans), nearest 500, never above shelf; packing (S 3,500 · M 5,000) and one delivery (3,500) included. Check: price − goods at landed cost (R3 shares: brand 78%, pharm 72%, own 50%) − packing − delivery − 1% points ≥ 0.",
+  "note": "Medicines are listed but sold by the licensed partner pharmacy and not priced in the box (B4). The premium and luxury items are their own line at shelf price, outside the saving."
+ },
+ "packing": {
+  "film": null
+ },
+ "open": [
+  {
+   "en": "20 of 60 brand rows are Kenyan shelf prices (seen 2 Nov 2026, converted at KES 20.33) and were not re-checked; the Kenyan hosts were refused on 10 Nov 2026. Replace them with Tanzanian distributor or Kariakoo quotes.",
+   "sw": "Safu 20 kati ya 60 za chapa ni bei za rafu za Kenya (zilionekana 2 Nov 2026, zimebadilishwa kwa KES 20.33) na hazijakaguliwa upya; tovuti za Kenya zilikataliwa tarehe 10 Nov 2026. Zibadilishwe kwa bei za wasambazaji wa Tanzania au za Kariakoo."
+  },
+  {
+   "en": "The treated net is an estimate (TSh 10,000): no Tanzanian online listing of a long-lasting treated net was found. Get a distributor quote for a WHO-prequalified net.",
+   "sw": "Chandarua chenye dawa ni makadirio (TSh 10,000): hakuna tangazo la mtandaoni la Tanzania la chandarua chenye dawa ya muda mrefu lililopatikana. Pata bei ya msambazaji kwa chandarua kilichoidhinishwa awali na WHO."
+  },
+  {
+   "en": "Whitedent toothpastes are the cheapest in the range, but their listings do not state fluoride. Confirm on the pack before offering them; Colgate Maximum Protection is the default until then.",
+   "sw": "Dawa za meno za Whitedent ndizo nafuu zaidi katika kundi hili, lakini matangazo yake hayaelezi floraidi. Thibitisha kwenye pakiti kabla ya kuzitoa; Colgate Maximum Protection ndiyo chaguo la msingi hadi hapo."
+  },
+  {
+   "en": "Check the active ingredient and the youngest permitted age on each repellent label before it is offered.",
+   "sw": "Kagua kiambato hai na umri wa chini kabisa unaoruhusiwa kwenye lebo ya kila dawa ya kufukuza mbu kabla ya kuitoa."
+  },
+  {
+   "en": "Monthly quantities are planning assumptions stated in each formula; check them against the first members’ real use.",
+   "sw": "Viasi ni makisio ya mipango yaliyoelezwa kwenye kila hesabu; vilinganishwe na matumizi halisi ya wanachama wa kwanza."
+  },
+  {
+   "en": "The service keys used here (growth-check, bp-check, hpv-reminder, deworming-reminder, first-period-talk, puberty-talk, dental-check) are not yet in data/services.json; R7 should add them. The dental check has no partner quote.",
+   "sw": "Funguo za huduma zilizotumika hapa (growth-check, bp-check, hpv-reminder, deworming-reminder, first-period-talk, puberty-talk, dental-check) bado hazimo kwenye data/services.json; R7 iziongeze. Uchunguzi wa meno hauna bei ya mshirika."
+  },
+  {
+   "en": "Riding inside another box assumes the household has another Afya box on a matching two-month rhythm; the share of members for whom this works is unknown until the pre-sale.",
+   "sw": "Kusafirishwa ndani ya sanduku lingine kunategemea kaya kuwa na sanduku lingine la Afya lenye mzunguko unaolingana wa miezi miwili; idadi ya wanachama ambao hili linawafaa haijulikani hadi mauzo ya awali."
+  },
+  {
+   "en": "Fewer than four brands were found for: books (3), pencil (3), nail (3), plast (3), net (1), ball (3). None was added to make up the number.",
+   "sw": "Chapa chini ya nne zilipatikana kwa: books (3), pencil (3), nail (3), plast (3), net (1), ball (3). Hakuna chapa iliyoongezwa ili kutimiza idadi."
+  },
+  {
+   "en": "Box months follow the usual Tanzanian school year (January to December, with June and December holidays); confirm against the Ministry of Education calendar each year. Stationery is a convenience line; the founder may drop it.",
+   "sw": "Miezi ya masanduku inafuata mwaka wa kawaida wa shule Tanzania (Januari hadi Desemba, na likizo za Juni na Desemba); ilinganishwe na kalenda ya Wizara ya Elimu kila mwaka. Vifaa vya shule ni bidhaa ya urahisi; mwanzilishi anaweza kuviondoa."
+  },
+  {
+   "en": "Kiswahili terms are pending native review (see research/R6-afya-shule.md).",
+   "sw": "Maneno ya Kiswahili yanasubiri kupitiwa na mzungumzaji asilia (tazama research/R6-afya-shule.md)."
+  }
+ ]
+}

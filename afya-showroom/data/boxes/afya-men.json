@@ -1123,7 +1123,7 @@
   }
  ],
  "services": [
-  "bp-check"
+  "family-bp-check"
  ],
  "packing": {
   "film": null

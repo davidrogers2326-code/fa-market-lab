@@ -1,0 +1,2132 @@
+{
+ "slug": "presha",
+ "name": {
+  "en": "Presha",
+  "sw": "Presha"
+ },
+ "final": true,
+ "delivery": "every-3-months",
+ "delivery_note": {
+  "en": "Delivered every 3 months, each box carrying three months of goods. A one-month box is too small to cover packing and delivery. The free blood-pressure check in store stays monthly.",
+  "sw": "Huletwa kila miezi 3, kila sanduku likibeba bidhaa za miezi mitatu. Sanduku la mwezi mmoja ni dogo mno kulipia ufungashaji na usafirishaji. Kipimo cha presha cha bure dukani kinabaki kila mwezi."
+ },
+ "box_size": "M",
+ "who": {
+  "en": "<p>Presha is the box for an adult living with high blood pressure, whether newly diagnosed or long on treatment. Almost one Tanzanian adult in four has raised blood pressure: 23.1% of adults aged 18–69 in the 2023 national STEPS survey, rising to 46.4% at ages 46–69. In the last national survey to measure control (2012), of every hundred adults with hypertension about 18 knew, 8 were treated and about 2 had it under control. Most feel nothing until a stroke, heart failure or kidney damage.</p><p>The box is built on WHO’s HEARTS technical package and WHO’s 2021 guideline on treating hypertension, with the ISH 2020 guideline for home measurement. Its pillars are measuring at home with a validated upper-arm monitor, taking the medicines every day, eating less than 5 g of salt a day (WHO), more whole grains and plants, and watching weight. The first box brings the monitor, batteries, a reading log, measuring spoons for salt, a pill box and a scale. Every 3-month box after it brings fresh batteries, salt-free seasonings, oats and unsalted nuts to replace salty breakfasts and snacks, and toothpaste.</p><p>The medicines themselves stay with the clinic and the licensed partner pharmacy; Afya does not sell or price them. Potassium salt substitutes are deliberately not sent: WHO does not extend its 2025 recommendation to people with kidney impairment, and many blood-pressure tablets raise potassium, so this is the clinic’s decision.</p>",
+  "sw": "<p>Presha ni sanduku la mtu mzima anayeishi na shinikizo la juu la damu, awe amegunduliwa karibuni au yuko kwenye matibabu muda mrefu. Karibu mtu mzima mmoja kati ya wanne nchini Tanzania ana shinikizo la juu la damu: asilimia 23.1 ya watu wazima wenye umri wa miaka 18–69 katika utafiti wa kitaifa wa STEPS wa 2023, ikipanda hadi asilimia 46.4 kwa umri wa miaka 46–69. Katika utafiti wa mwisho wa kitaifa uliopima udhibiti (2012), kati ya kila watu wazima mia wenye presha, takriban 18 walijua, 8 walikuwa kwenye matibabu na takriban 2 walikuwa wameidhibiti. Wengi hawahisi chochote hadi kiharusi, moyo kushindwa au figo kuharibika.</p><p>Sanduku limejengwa juu ya kifurushi cha WHO HEARTS na mwongozo wa WHO wa 2021 wa matibabu ya presha, pamoja na mwongozo wa ISH wa 2020 kuhusu kupima nyumbani. Nguzo zake ni kupima nyumbani kwa kipimo cha mkono wa juu kilichothibitishwa, kumeza dawa kila siku, kula chini ya gramu 5 za chumvi kwa siku (WHO), nafaka nzima na mboga zaidi, na kuangalia uzito. Sanduku la kwanza huleta kipimo, betri, daftari la kumbukumbu, vijiko vya kupimia chumvi, kisanduku cha vidonge na mizani. Kila sanduku la miezi 3 linalofuata huleta betri mpya, viungo visivyo na chumvi, shayiri na karanga zisizo na chumvi kuchukua nafasi ya kifungua kinywa na vitafunwa vyenye chumvi, na dawa ya meno.</p><p>Dawa zenyewe zinabaki kwa kliniki na famasia mshirika yenye leseni; Afya haiziuzi wala kuziwekea bei. Chumvi mbadala zenye potasiamu hazitumwi kwa makusudi: WHO haipanui pendekezo lake la 2025 kwa wenye matatizo ya figo, na vidonge vingi vya presha hupandisha potasiamu, hivyo huu ni uamuzi wa kliniki.</p>"
+ },
+ "clinic_line": {
+  "en": "Your blood pressure target, your medicines and their doses, how often you measure at home and whether you may use a salt substitute are decided by your clinic. Afya does not sell medicines: the licensed partner pharmacy supplies them only on the clinic’s prescription. A reading of 180/110 or above, or chest pain, weakness of one side, or a sudden severe headache, needs a clinic or hospital the same day.",
+  "sw": "Lengo la presha yako, dawa zako na dozi zake, mara ngapi upime nyumbani na kama unaweza kutumia chumvi mbadala huamuliwa na kliniki yako. Afya haiuzi dawa: famasia mshirika yenye leseni huzitoa tu kwa maelekezo ya kliniki. Kipimo cha 180/110 au zaidi, au maumivu ya kifua, udhaifu wa upande mmoja wa mwili, au kichwa kuuma ghafla kwa nguvu, vinahitaji kliniki au hospitali siku hiyo hiyo."
+ },
+ "guidance": [
+  {
+   "t": "Mayige M.T. et al., Hypertension burden and its determinants among adults aged 18 to 69 years in Tanzania: results from the 2023 National STEPS survey, Tanzania Journal of Health Research 27(2), 2026, doi 10.4314/thrb.v27i2.8",
+   "u": "https://nhrdr.nimr.or.tz/records/209",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO, United Republic of Tanzania hypertension country profile (2012 STEPS cascade: 17.6% aware, 8.3% treated, 2.2% controlled)",
+   "u": "https://cdn.who.int/media/docs/default-source/country-profiles/hypertension/tza_en.pdf",
+   "chk": "2026-11-09"
+  },
+  {
+   "t": "WHO fact sheet: Hypertension",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/hypertension",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO HEARTS technical package for cardiovascular disease management in primary health care",
+   "u": "https://www.who.int/publications/i/item/9789240001367",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO 2021, Guideline for the pharmacological treatment of hypertension in adults",
+   "u": "https://www.who.int/publications/i/item/9789240033986",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO fact sheet: Sodium reduction (adults: less than 2,000 mg sodium, under 5 g salt, a day)",
+   "u": "https://www.who.int/news-room/fact-sheets/detail/salt-reduction",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO 2025, Use of lower-sodium salt substitutes: WHO guideline (publication page opened; the exclusion of people with kidney impairment was seen in search summaries only)",
+   "u": "https://www.who.int/publications/i/item/9789240105591",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "ISH 2020 global hypertension practice guidelines (cited from the earlier listing; not re-opened)",
+   "u": "https://pubmed.ncbi.nlm.nih.gov/32370572/",
+   "chk": "2026-11-02"
+  },
+  {
+   "t": "Muñoz Aguilera et al. 2020, Cardiovascular Research 116:28–39, periodontitis and hypertension (cited from the earlier listing; not re-opened)",
+   "u": "https://academic.oup.com/cardiovascres/article/116/1/28/5567071",
+   "chk": "2026-11-02"
+  },
+  {
+   "t": "Afya Basics R1 compliance research: TMDA device classes (BP monitors Class B; glucose meters and strips IVD self-test Class C; lancets, needles, gauze devices) and ORS as a pharmacy item",
+   "u": "https://www.tmda.go.tz/pages/registration-and-licensing-of-premises",
+   "chk": "2026-11-09"
+  }
+ ],
+ "stages": [
+  {
+   "key": "p1",
+   "label": {
+    "en": "First box (months 1–3)",
+    "sw": "Sanduku la kwanza (miezi 1–3)"
+   },
+   "months": "0–3",
+   "box_size": "L",
+   "delivery": "every-3-months",
+   "items": [
+    {
+     "key": "bpm",
+     "name": {
+      "en": "Validated upper-arm blood pressure monitor",
+      "sw": "Kipimo cha presha cha mkono wa juu kilichothibitishwa"
+     },
+     "why": {
+      "en": "Raised blood pressure gives no warning, so the only way to know it is controlled is to measure it. WHO HEARTS and the ISH 2020 guideline put home measurement with a validated upper-arm device at the centre of control; wrist devices and unvalidated monitors are left out because they can misread by 10 mmHg or more (ISH 2020, as cited earlier; not re-opened). Measure seated after five minutes’ rest, back supported, arm at heart level, twice in the morning and twice in the evening for seven days before each clinic visit. The standard cuff fits arms of about 22–32 cm; a wide cuff is available for larger arms.",
+      "sw": "Presha ya juu haitoi dalili, hivyo njia pekee ya kujua imedhibitiwa ni kuipima. WHO HEARTS na mwongozo wa ISH wa 2020 vinaweka upimaji wa nyumbani kwa kifaa cha mkono wa juu kilichothibitishwa katikati ya udhibiti; vipimo vya kifundo cha mkono na visivyothibitishwa vimeachwa kwa sababu vinaweza kukosea kwa mmHg 10 au zaidi. Pima ukiwa umekaa baada ya kupumzika dakika tano, mgongo umeegemea, mkono usawa wa moyo, mara mbili asubuhi na mara mbili jioni kwa siku saba kabla ya kila ziara ya kliniki. Mkanda wa kawaida unatosha mikono ya takriban sentimita 22–32; mkanda mpana unapatikana kwa mikono mikubwa."
+     },
+     "qty": {
+      "en": "1 monitor, first box only",
+      "sw": "Kipimo 1, kwenye sanduku la kwanza tu"
+     },
+     "qty_formula": "1 monitor, kept for years; checked against the store kiosk each month",
+     "units": 1,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Omron",
+       "product": "M2 automatic upper-arm blood pressure monitor",
+       "pack": "1 monitor",
+       "pack_units": 1,
+       "price_tsh": 155000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/omron-m2-digital-automatic-blood-pressure-monitor-arm-type",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Model number not shown on the page; Omron M2 Basic (HEM-7121) is on published validation lists, to be confirmed against the box label before stocking.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "SureSign",
+       "product": "Digital upper-arm blood pressure monitor",
+       "pack": "1 monitor",
+       "pack_units": 1,
+       "price_tsh": 150000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/blood-pressure-monitor-suresign",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Model and validation not stated on the page. Offered only once its model is found on a validation list (STRIDE BP or validatebp.org).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Rossmax",
+       "product": "Digital upper-arm blood pressure monitor",
+       "pack": "1 monitor",
+       "pack_units": 1,
+       "price_tsh": 150000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/digital-arm-blood-pressure-machine-rossmaxx",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Model and validation not stated on the page. Offered only once its model is found on a validation list.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Microlife",
+       "product": "BP A2 Basic upper-arm monitor",
+       "pack": "1 monitor",
+       "pack_units": 1,
+       "price_tsh": 182970,
+       "src": {
+        "name": "portalpharmacy.ke",
+        "u": "https://portalpharmacy.ke/medical-devices-kits/blood-pressure-monitors/microlife-bp-a2-basic-automatic-blood-pressure-monitor-with-gentle-plus",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 9000,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "A&D Medical",
+       "product": "UA-651SL upper-arm monitor",
+       "pack": "1 monitor",
+       "pack_units": 1,
+       "price_tsh": 201267,
+       "src": {
+        "name": "portalpharmacy.ke",
+        "u": "https://portalpharmacy.ke/medical-devices-kits/blood-pressure-monitors/ad-medical-ua-651sl-upper-arm-blood-pressure-monitor",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 9900,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Omron",
+       "product": "M3 upper-arm monitor",
+       "pack": "1 monitor",
+       "pack_units": 1,
+       "price_tsh": 251929,
+       "src": {
+        "name": "mydawa.com",
+        "u": "https://mydawa.com/products/omron-blood-pressure-monitor-upper-arm-m3",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 12392,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "batt",
+     "name": {
+      "en": "AA batteries for the monitor",
+      "sw": "Betri za AA za kipimo"
+     },
+     "why": {
+      "en": "Upper-arm monitors usually run on four AA batteries, and weak batteries cause error messages and failed readings just when a reading matters. A fresh set in every 3-month box means the monitor never stops on a measuring week. Check the battery type in the monitor’s manual.",
+      "sw": "Vipimo vya mkono wa juu kwa kawaida hutumia betri nne za AA, na betri dhaifu husababisha ujumbe wa hitilafu na vipimo kushindwa wakati kipimo kinahitajika. Seti mpya katika kila sanduku la miezi 3 inahakikisha kipimo hakisimami katika wiki ya kupima. Hakiki aina ya betri kwenye maelekezo ya kipimo."
+     },
+     "qty": {
+      "en": "4 AA batteries in every 3-month box",
+      "sw": "Betri 4 za AA katika kila sanduku la miezi 3"
+     },
+     "qty_formula": "one set of 4 AA per 3-month box",
+     "units": 4,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Varta",
+       "product": "Longlife AA batteries",
+       "pack": "2 batteries",
+       "pack_units": 2,
+       "price_tsh": 4600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b929253c6d5732d0a377a",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Duracell",
+       "product": "AA battery",
+       "pack": "pack (count not stated on the page)",
+       "pack_units": null,
+       "price_tsh": 6400,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026889a53c6d5732d0a35f3",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "The page does not state how many batteries the pack holds, so the monthly cost assumes one pack; confirm in store.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Carrefour I-Tech",
+       "product": "AA alkaline batteries",
+       "pack": "4 batteries",
+       "pack_units": 4,
+       "price_tsh": 5062,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/alkaline-batteries/crf-battery-lr6-4b-i-tech/p/254980",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 249,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Duracell",
+       "product": "Power Plus AA batteries",
+       "pack": "4 batteries",
+       "pack_units": 4,
+       "price_tsh": 18277,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/alkaline-batteries/duracell-power-plus20-4aa/p/75437",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 899,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Energizer",
+       "product": "Max Plus AA alkaline batteries",
+       "pack": "6 batteries",
+       "pack_units": 6,
+       "price_tsh": 40640,
+       "src": {
+        "name": "jumia.co.ke",
+        "u": "https://www.jumia.co.ke/energizer-max-plus-alkaline-batteries-aa-6pack-258776314.html",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1999,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "log",
+     "name": {
+      "en": "Blood pressure reading log",
+      "sw": "Daftari la kumbukumbu za presha"
+     },
+     "why": {
+      "en": "Treatment is decided from the average of home readings over several days, not from one number, so each reading is written with the date, time and arm, next to any missed dose or symptom (ISH 2020; WHO HEARTS). The log goes with you to the clinic and to the monthly in-store check.",
+      "sw": "Matibabu huamuliwa kwa wastani wa vipimo vya nyumbani vya siku kadhaa, si kwa namba moja, hivyo kila kipimo huandikwa pamoja na tarehe, saa na mkono uliopimwa, kando ya dozi uliyosahau au dalili yoyote (ISH 2020; WHO HEARTS). Daftari huenda nawe kliniki na kwenye ukaguzi wa kila mwezi dukani."
+     },
+     "qty": {
+      "en": "1 book, first box only",
+      "sw": "Daftari 1, kwenye sanduku la kwanza tu"
+     },
+     "qty_formula": "1 book: a 7-day series (2 morning + 2 evening readings) before each visit plus spot checks ≈ one page a week → 100 pages last about two years",
+     "units": 1,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Academy",
+       "product": "Exercise book, 100 pages",
+       "pack": "1 book",
+       "pack_units": 1,
+       "price_tsh": 1600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60262b0353c6d5732d0a353c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Kasuku",
+       "product": "A5 exercise book, 200 pages",
+       "pack": "1 book",
+       "pack_units": 1,
+       "price_tsh": 1118,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/local-notebook/kasuku-ex-book-single-line-200p-a5/p/2418",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 55,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Office Point",
+       "product": "A5 hardcover book",
+       "pack": "1 book",
+       "pack_units": 1,
+       "price_tsh": 2948,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/local-notebook/op-exercise-book-sc02-col-a5/p/116611",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 145,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Office Point",
+       "product": "Executive A5 notebook",
+       "pack": "1 book",
+       "pack_units": 1,
+       "price_tsh": 11060,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/local-notebook/op-notebook-executive-oml-beat-a5/p/151986",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 544,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "spoon",
+     "name": {
+      "en": "Measuring spoons for salt",
+      "sw": "Vijiko vya kupimia chumvi"
+     },
+     "why": {
+      "en": "WHO advises adults to eat less than 5 g of salt a day, just under one level teaspoon in total; the global average is about 11 g (WHO salt fact sheet, opened 10 Nov 2026). Cooking salt is usually poured by hand. Measuring the salt for the family pot with a spoon set lets the cook use a fixed amount and cut it step by step, which the palate accepts within a few weeks.",
+      "sw": "WHO inashauri watu wazima kula chini ya gramu 5 za chumvi kwa siku, chini kidogo ya kijiko kimoja cha chai kilichosawazishwa kwa jumla; wastani wa dunia ni takriban gramu 11 (taarifa ya WHO kuhusu chumvi). Chumvi ya kupikia kwa kawaida humiminwa kwa mkono. Kupima chumvi ya chungu cha familia kwa vijiko humwezesha mpishi kutumia kiasi kilichopangwa na kukipunguza hatua kwa hatua, na ulimi huzoea ndani ya wiki chache."
+     },
+     "qty": {
+      "en": "1 set, first box only",
+      "sw": "Seti 1, kwenye sanduku la kwanza tu"
+     },
+     "qty_formula": "1 set, kept for years",
+     "units": 1,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Levs",
+       "product": "Measuring spoon set",
+       "pack": "1 set",
+       "pack_units": 1,
+       "price_tsh": 6709,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/utensil-measuring/levs-measuring-spoons-set-sk-3574/p/81800",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 330,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Ningsheng",
+       "product": "Measuring set, 3 pieces",
+       "pack": "1 set",
+       "pack_units": 1,
+       "price_tsh": 5997,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/utensil-measuring/measuring-cup-3pcs-set-16860-1a/p/193432",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 295,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Generic",
+       "product": "Stainless-steel stackable measuring spoons, 10 pieces",
+       "pack": "1 set",
+       "pack_units": 1,
+       "price_tsh": 8112,
+       "src": {
+        "name": "jumia.co.ke",
+        "u": "https://www.jumia.co.ke/generic-10-piece-stackable-stainless-steel-handle-precision-spoon-measuring-spoon-set-268738073.html",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 399,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "vexiSeek",
+       "product": "Magnetic measuring spoons, 9 with leveller",
+       "pack": "1 set",
+       "pack_units": 1,
+       "price_tsh": 17159,
+       "src": {
+        "name": "jumia.co.ke",
+        "u": "https://www.jumia.co.ke/vexiseek-stainless-steel-magnetic-measuring-spoons-set-of-9-with-levelerdual-sided-stackable-adjustable-teaspoon-and-tablespoon-measuring-liquids-and-dry-ingredients-baking-cooking-gadgestmulticolor-326371150.html",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 844,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "scale",
+     "name": {
+      "en": "Bathroom scale",
+      "sw": "Mizani ya kupimia uzito"
+     },
+     "why": {
+      "en": "In the 2023 STEPS survey raised blood pressure was far more common in overweight adults, and ISH 2020 notes that losing weight lowers blood pressure, roughly 1 mmHg per kilogram (as cited earlier; not re-opened). Weighing once a week at the same time puts weight beside blood pressure in the log.",
+      "sw": "Katika utafiti wa STEPS wa 2023 presha ya juu ilikuwa ya kawaida zaidi kwa watu wazima wenye uzito mkubwa, na ISH 2020 inaeleza kwamba kupunguza uzito hushusha presha, takriban mmHg 1 kwa kila kilo. Kupima mara moja kwa wiki saa ile ile huweka uzito kando ya presha kwenye daftari."
+     },
+     "qty": {
+      "en": "1 scale, first box only",
+      "sw": "Mizani 1, kwenye sanduku la kwanza tu"
+     },
+     "qty_formula": "1 scale, kept for years",
+     "units": 1,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Silverdome",
+       "product": "Digital body scale WSD-100",
+       "pack": "1 scale",
+       "pack_units": 1,
+       "price_tsh": 25000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6957adf4d0b62e115fe9037e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Pulse",
+       "product": "Bathroom weighing scale, basic",
+       "pack": "1 scale",
+       "pack_units": 1,
+       "price_tsh": 62006,
+       "src": {
+        "name": "goodlife.co.ke",
+        "u": "https://www.goodlife.co.ke/product/pulse-weighing-scales-basic/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 3050,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Pulse",
+       "product": "Bluetooth body-composition scale",
+       "pack": "1 scale",
+       "pack_units": 1,
+       "price_tsh": 79429,
+       "src": {
+        "name": "goodlife.co.ke",
+        "u": "https://www.goodlife.co.ke/product/pulse-weighing-scales-bluetooth/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 3907,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Body-fat readings are not reliable in kidney disease; weight is what counts. No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Tefal",
+       "product": "Origins bathroom scale",
+       "pack": "1 scale",
+       "pack_units": 1,
+       "price_tsh": 91282,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/bathroom-scales/tefal-origins-bathroom-scale/p/158990",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 4490,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "pills",
+     "name": {
+      "en": "Weekly pill box",
+      "sw": "Kisanduku cha vidonge cha wiki"
+     },
+     "why": {
+      "en": "WHO HEARTS names daily adherence as the weak link: blood pressure rises again within days of stopping tablets, and most people need two or more medicines. A seven-day box filled once a week shows at once whether today’s dose was taken. It holds only what your clinic prescribes; the box never contains medicine.",
+      "sw": "WHO HEARTS inataja kumeza dawa kila siku kama kiungo dhaifu: presha hupanda tena ndani ya siku chache baada ya kuacha vidonge, na watu wengi wanahitaji dawa mbili au zaidi. Kisanduku cha siku saba kinachojazwa mara moja kwa wiki kinaonyesha mara moja kama dozi ya leo imemezwa. Kinabeba tu kile ambacho kliniki yako imeandika; sanduku halina dawa kamwe."
+     },
+     "qty": {
+      "en": "1, first box only",
+      "sw": "1, kwenye sanduku la kwanza tu"
+     },
+     "qty_formula": "1 pill box, kept for years",
+     "units": 1,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Equate",
+       "product": "Weekly pill planner",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 22953,
+       "src": {
+        "name": "goodlife.co.ke",
+        "u": "https://www.goodlife.co.ke/product/equate-weekly-pill-planner-pill-box/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1129,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Generic",
+       "product": "7-day pill box, 2XL",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 36899,
+       "src": {
+        "name": "goodlife.co.ke",
+        "u": "https://www.goodlife.co.ke/product/pill-box-7-day-2xl-67578/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1815,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Generic",
+       "product": "7-day AM/PM push-button pill box",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 56680,
+       "src": {
+        "name": "goodlife.co.ke",
+        "u": "https://www.goodlife.co.ke/product/pill-box-push-button-7-day-am-pm-67585/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 2788,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "spice",
+     "name": {
+      "en": "Salt-free seasoning (garlic, ginger, pepper or turmeric)",
+      "sw": "Viungo visivyo na chumvi (kitunguu saumu, tangawizi, pilipili manga au manjano)"
+     },
+     "why": {
+      "en": "Food cooked with less salt tastes flat at first; garlic, ginger, pepper and turmeric give flavour without sodium, which makes the salt cut last. WHO lists “use herbs and spices to flavour food, rather than salt” among its ways to cut sodium. Stock cubes, seasoning salts and mchuzi mixes are left out: they are among the largest hidden sources of salt. Potassium “low-sodium” salt substitutes are also left out of the box: WHO now suggests them for the general adult population, but not for people with kidney impairment, and many people with high blood pressure take tablets that raise potassium; ask your clinic first.",
+      "sw": "Chakula kilichopikwa kwa chumvi kidogo huonekana hakina ladha mwanzoni; kitunguu saumu, tangawizi, pilipili manga na manjano huleta ladha bila sodiamu, na hivyo kupunguza chumvi kunadumu. WHO inataja “tumia viungo kuongeza ladha badala ya chumvi” kati ya njia za kupunguza sodiamu. Vidonge vya supu, chumvi za viungo na michanganyiko ya mchuzi vimeachwa: ni miongoni mwa vyanzo vikubwa vya chumvi iliyojificha. Chumvi mbadala zenye potasiamu pia zimeachwa: WHO sasa inazishauri kwa watu wazima kwa ujumla, lakini si kwa wenye matatizo ya figo, na wengi wenye presha hutumia vidonge vinavyopandisha potasiamu; uliza kliniki yako kwanza."
+     },
+     "qty": {
+      "en": "300 g per 3-month box (three 100 g jars)",
+      "sw": "Gramu 300 kwa sanduku la miezi 3 (vifungashio vitatu vya gramu 100)"
+     },
+     "qty_formula": "about 100 g a month for a family pot × 3 months = 300 g",
+     "units": 300,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Tropical Heat",
+       "product": "Turmeric powder",
+       "pack": "100 g",
+       "pack_units": 100,
+       "price_tsh": 5200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b921853c6d5732d0a3778",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Shoppers (loose)",
+       "product": "Black pepper powder, sold by weight",
+       "pack": "1 kg (sold by weight)",
+       "pack_units": 1000,
+       "price_tsh": 44000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026656d53c6d5732d0a3589",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Weighed out in store; 100 g costs 4,400.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Tropical Heat",
+       "product": "Garlic powder",
+       "pack": "100 g",
+       "pack_units": 100,
+       "price_tsh": 5083,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/spices/trop-heat-garlic-powder-100g/p/32091",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 250,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Check the label: garlic powder, not garlic salt. No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Tropical Heat",
+       "product": "Ginger, ground",
+       "pack": "100 g",
+       "pack_units": 100,
+       "price_tsh": 4676,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/spices/trop-heat-ginger-ground-100g/p/32096",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 230,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Tropical Heat",
+       "product": "Black pepper, ground",
+       "pack": "45 g",
+       "pack_units": 45,
+       "price_tsh": 3964,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/spices/trop-heat-black-pepper-ground-45g/p/32040",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 195,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "oats",
+     "name": {
+      "en": "Whole-grain oats",
+      "sw": "Shayiri nzima (oats)"
+     },
+     "why": {
+      "en": "Diets rich in whole grains, vegetables, fruit and nuts, the DASH pattern endorsed by ISH 2020, lower blood pressure. Oats replace white bread and sweet buns at breakfast, which also removes hidden salt; their soluble fibre lowers LDL cholesterol. Cook with water or low-fat milk and no salt. The member can swap or remove it.",
+      "sw": "Lishe yenye nafaka nzima, mboga, matunda na karanga, mtindo wa DASH unaoungwa mkono na ISH 2020, hushusha presha. Shayiri huchukua nafasi ya mkate mweupe na maandazi wakati wa kifungua kinywa, na hivyo kuondoa chumvi iliyojificha; nyuzi zake hushusha lehemu mbaya (LDL). Pika kwa maji au maziwa yenye mafuta kidogo bila chumvi. Mwanachama anaweza kubadilisha au kuondoa."
+     },
+     "qty": {
+      "en": "3 kg per 3-month box",
+      "sw": "Kilo 3 kwa sanduku la miezi 3"
+     },
+     "qty_formula": "40 g bowl × 25 mornings ≈ 1 kg a month × 3 = 3 kg",
+     "units": 3000,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Weetabix",
+       "product": "Oatibix jumbo oats, jar",
+       "pack": "1 kg",
+       "pack_units": 1000,
+       "price_tsh": 10300,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/638a2dd3fa11de0a43b3dcd3",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Golden Country",
+       "product": "White oats",
+       "pack": "500 g",
+       "pack_units": 500,
+       "price_tsh": 7000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a38e053c6d5732d0a363c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Quaker",
+       "product": "White oats",
+       "pack": "500 g",
+       "pack_units": 500,
+       "price_tsh": 9000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b78bc53c6d5732d0a3727",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Bob’s Red Mill",
+       "product": "Quick-cooking rolled oats",
+       "pack": "907 g",
+       "pack_units": 907,
+       "price_tsh": 30475,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/oats/bobs-quick-cook-oats-rolled-w-g907g/p/158405",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1499,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "nuts",
+     "name": {
+      "en": "Unsalted nuts",
+      "sw": "Karanga zisizo na chumvi"
+     },
+     "why": {
+      "en": "Unsalted nuts replace salty, fried snacks; they bring unsaturated fats, potassium and magnesium and are part of the heart-protective diets ISH 2020 endorses. Salted or fried nuts undo the benefit, so only plain packs are sent. A small handful, about 25 g, on most days.",
+      "sw": "Karanga zisizo na chumvi huchukua nafasi ya vitafunwa vyenye chumvi na vya kukaanga; zina mafuta mazuri, potasiamu na magnesiamu na ni sehemu ya lishe inayolinda moyo kwa mujibu wa ISH 2020. Karanga zenye chumvi au za kukaanga huondoa faida, hivyo pakiti za kawaida tu ndizo hutumwa. Kiganja kidogo, takriban gramu 25, siku nyingi."
+     },
+     "qty": {
+      "en": "1.5 kg per 3-month box",
+      "sw": "Kilo 1.5 kwa sanduku la miezi 3"
+     },
+     "qty_formula": "25 g × 20 days ≈ 500 g a month × 3 = 1.5 kg",
+     "units": 1500,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Shoppers Royal",
+       "product": "Cashew nuts",
+       "pack": "500 g",
+       "pack_units": 500,
+       "price_tsh": 16300,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/64ce44190eb6b270e24ef771",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "The page does not say salted or unsalted; confirm the plain pack in store.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Munawar",
+       "product": "Cashew nuts, unsalted",
+       "pack": "500 g",
+       "pack_units": 500,
+       "price_tsh": 19800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/638a2bd7fa11de0a43b3dcd1",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Royal",
+       "product": "Cashew nuts, A grade",
+       "pack": "250 g",
+       "pack_units": 250,
+       "price_tsh": 10200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/639c4d85fa11de0a43b3e4cf",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Salt not stated on the page; confirm the plain pack.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Shoppers (loose)",
+       "product": "Almonds, sold by weight",
+       "pack": "1 kg (sold by weight)",
+       "pack_units": 1000,
+       "price_tsh": 46500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026398153c6d5732d0a3550",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Weighed out in store; 500 g costs 23,250.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Green Forest",
+       "product": "Unpeeled raw peanuts",
+       "pack": "250 g",
+       "pack_units": 250,
+       "price_tsh": 4798,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/peanuts/greenforest-unpeeled-peanuts-250g/p/8724",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 236,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "paste",
+     "name": {
+      "en": "Fluoride toothpaste",
+      "sw": "Dawa ya meno yenye floraidi"
+     },
+     "why": {
+      "en": "Gum disease is linked to high blood pressure: a 2020 meta-analysis in Cardiovascular Research found people with periodontitis more likely to be hypertensive (as cited earlier; not re-opened). Some blood-pressure tablets, such as amlodipine and nifedipine, can also make the gums swell, so twice-daily brushing with fluoride toothpaste matters more.",
+      "sw": "Ugonjwa wa fizi unahusiana na presha ya juu: uchambuzi wa tafiti wa 2020 katika jarida la Cardiovascular Research ulikuta wenye ugonjwa wa fizi wana uwezekano mkubwa zaidi wa kuwa na presha. Baadhi ya vidonge vya presha, kama amlodipine na nifedipine, vinaweza pia kuvimbisha fizi, hivyo kupiga mswaki mara mbili kwa siku kwa dawa yenye floraidi ni muhimu zaidi."
+     },
+     "qty": {
+      "en": "1 tube of about 190 g every 3 months",
+      "sw": "Tyubu 1 ya takriban gramu 190 kila miezi 3"
+     },
+     "qty_formula": "about 2 g a day × 91 days ≈ 180 g → one 190 g tube per 3 months",
+     "units": 190,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Whitedent",
+       "product": "Herbal Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 4100,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b959d53c6d5732d0a378c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Check the pack states fluoride.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Whitedent",
+       "product": "Gel Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 3800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/66eb11b5ad21bfe77df6b23e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Check the pack states fluoride.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Whitedent",
+       "product": "Charcoal Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 4800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6ad10353835ef903d6315204",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Check the pack states fluoride.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Colgate",
+       "product": "Maximum Protection",
+       "pack": "140 g",
+       "pack_units": 140,
+       "price_tsh": 5900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026787c53c6d5732d0a35c5",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "brush",
+     "name": {
+      "en": "Toothbrush, soft or medium",
+      "sw": "Mswaki, laini au wa kati"
+     },
+     "why": {
+      "en": "A fresh brush every three months, as dentists advise; a soft or medium head is kinder to gums that bleed.",
+      "sw": "Mswaki mpya kila miezi mitatu, kama madaktari wa meno wanavyoshauri; kichwa laini au cha kati ni bora kwa fizi zinazotoka damu."
+     },
+     "qty": {
+      "en": "1 every 3 months",
+      "sw": "1 kila miezi 3"
+     },
+     "qty_formula": "1 brush every 3 months",
+     "units": 1,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Double Action",
+       "product": "Activated Charcoal Toothbrush, medium",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 2000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/charcoal-infused-double-action-toothbrush-medium",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Colgate",
+       "product": "Extra Clean Toothbrush, medium",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 2900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026784453c6d5732d0a35c4",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Eco-Smile",
+       "product": "Essential Toothbrush with tongue scraper",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 3000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/eco-smile-essential-toothbrush-with-a-tongue-scraper",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Oral-B",
+       "product": "3 Effect Toothbrush 40, medium",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 3200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b6ef453c6d5732d0a36fe",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "bpmed",
+     "name": {
+      "en": "Blood pressure tablets, as prescribed (partner pharmacy)",
+      "sw": "Vidonge vya presha, kama ilivyoandikwa (famasia mshirika)"
+     },
+     "why": {
+      "en": "WHO’s 2021 hypertension treatment guideline and HEARTS protocols are applied by your clinic, which chooses the medicines and doses. Afya does not sell or price medicines: the licensed partner pharmacy supplies them on prescription, and the box reminds you before they run out. The products shown are examples sold in Tanzania, not a recommendation.",
+      "sw": "Mwongozo wa WHO wa 2021 kuhusu matibabu ya presha na itifaki za HEARTS hutumiwa na kliniki yako, ambayo huchagua dawa na dozi. Afya haiuzi dawa wala kuziwekea bei: famasia mshirika yenye leseni huzitoa kwa maelekezo ya daktari, na sanduku hukukumbusha kabla hazijaisha. Bidhaa zilizoonyeshwa ni mifano inayouzwa Tanzania, si mapendekezo."
+     },
+     "qty": {
+      "en": "As your clinic prescribes",
+      "sw": "Kama kliniki yako inavyoandika"
+     },
+     "qty_formula": "units 0: medicines and doses set by the clinic; not priced in the box (B4)",
+     "units": 0,
+     "kind": "medicine",
+     "brands": [
+      {
+       "brand": "Amlosin",
+       "product": "Amlodipine 5 mg tablets",
+       "pack": "strip of 10",
+       "pack_units": 10,
+       "price_tsh": 200,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/amlosin-5mg-tablet",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Example only; the clinic prescribes.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Losartas",
+       "product": "Losartan 50 mg tablets",
+       "pack": "strip of 10",
+       "pack_units": 10,
+       "price_tsh": 600,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/losartas-50mg-tablet",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Example only.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Losartas-HT",
+       "product": "Losartan 50 mg + hydrochlorothiazide 12.5 mg",
+       "pack": "strip of 10",
+       "pack_units": 10,
+       "price_tsh": 1000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/losartas-ht-50-12-5mg-tablet",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Example only.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nifedi-Denk",
+       "product": "Nifedipine retard 20 mg tablets",
+       "pack": "strip of 10",
+       "pack_units": 10,
+       "price_tsh": 300,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/nifedi-denk-20mg-tablet",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Example only.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Catenol",
+       "product": "Atenolol 50 mg tablets",
+       "pack": "strip of 10",
+       "pack_units": 10,
+       "price_tsh": 1000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/catenol-50mg-tablet",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Example only.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "p",
+   "label": {
+    "en": "Every later 3-month box (months 4, 7, 10)",
+    "sw": "Kila sanduku la miezi 3 linalofuata (miezi 4, 7, 10)"
+   },
+   "months": "3–12",
+   "box_size": "M",
+   "delivery": "every-3-months",
+   "items": [
+    {
+     "key": "batt",
+     "name": {
+      "en": "AA batteries for the monitor",
+      "sw": "Betri za AA za kipimo"
+     },
+     "why": {
+      "en": "Upper-arm monitors usually run on four AA batteries, and weak batteries cause error messages and failed readings just when a reading matters. A fresh set in every 3-month box means the monitor never stops on a measuring week. Check the battery type in the monitor’s manual.",
+      "sw": "Vipimo vya mkono wa juu kwa kawaida hutumia betri nne za AA, na betri dhaifu husababisha ujumbe wa hitilafu na vipimo kushindwa wakati kipimo kinahitajika. Seti mpya katika kila sanduku la miezi 3 inahakikisha kipimo hakisimami katika wiki ya kupima. Hakiki aina ya betri kwenye maelekezo ya kipimo."
+     },
+     "qty": {
+      "en": "4 AA batteries in every 3-month box",
+      "sw": "Betri 4 za AA katika kila sanduku la miezi 3"
+     },
+     "qty_formula": "one set of 4 AA per 3-month box",
+     "units": 4,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Varta",
+       "product": "Longlife AA batteries",
+       "pack": "2 batteries",
+       "pack_units": 2,
+       "price_tsh": 4600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b929253c6d5732d0a377a",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Duracell",
+       "product": "AA battery",
+       "pack": "pack (count not stated on the page)",
+       "pack_units": null,
+       "price_tsh": 6400,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026889a53c6d5732d0a35f3",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "The page does not state how many batteries the pack holds, so the monthly cost assumes one pack; confirm in store.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Carrefour I-Tech",
+       "product": "AA alkaline batteries",
+       "pack": "4 batteries",
+       "pack_units": 4,
+       "price_tsh": 5062,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/alkaline-batteries/crf-battery-lr6-4b-i-tech/p/254980",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 249,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Duracell",
+       "product": "Power Plus AA batteries",
+       "pack": "4 batteries",
+       "pack_units": 4,
+       "price_tsh": 18277,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/alkaline-batteries/duracell-power-plus20-4aa/p/75437",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 899,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Energizer",
+       "product": "Max Plus AA alkaline batteries",
+       "pack": "6 batteries",
+       "pack_units": 6,
+       "price_tsh": 40640,
+       "src": {
+        "name": "jumia.co.ke",
+        "u": "https://www.jumia.co.ke/energizer-max-plus-alkaline-batteries-aa-6pack-258776314.html",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1999,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "spice",
+     "name": {
+      "en": "Salt-free seasoning (garlic, ginger, pepper or turmeric)",
+      "sw": "Viungo visivyo na chumvi (kitunguu saumu, tangawizi, pilipili manga au manjano)"
+     },
+     "why": {
+      "en": "Food cooked with less salt tastes flat at first; garlic, ginger, pepper and turmeric give flavour without sodium, which makes the salt cut last. WHO lists “use herbs and spices to flavour food, rather than salt” among its ways to cut sodium. Stock cubes, seasoning salts and mchuzi mixes are left out: they are among the largest hidden sources of salt. Potassium “low-sodium” salt substitutes are also left out of the box: WHO now suggests them for the general adult population, but not for people with kidney impairment, and many people with high blood pressure take tablets that raise potassium; ask your clinic first.",
+      "sw": "Chakula kilichopikwa kwa chumvi kidogo huonekana hakina ladha mwanzoni; kitunguu saumu, tangawizi, pilipili manga na manjano huleta ladha bila sodiamu, na hivyo kupunguza chumvi kunadumu. WHO inataja “tumia viungo kuongeza ladha badala ya chumvi” kati ya njia za kupunguza sodiamu. Vidonge vya supu, chumvi za viungo na michanganyiko ya mchuzi vimeachwa: ni miongoni mwa vyanzo vikubwa vya chumvi iliyojificha. Chumvi mbadala zenye potasiamu pia zimeachwa: WHO sasa inazishauri kwa watu wazima kwa ujumla, lakini si kwa wenye matatizo ya figo, na wengi wenye presha hutumia vidonge vinavyopandisha potasiamu; uliza kliniki yako kwanza."
+     },
+     "qty": {
+      "en": "300 g per 3-month box (three 100 g jars)",
+      "sw": "Gramu 300 kwa sanduku la miezi 3 (vifungashio vitatu vya gramu 100)"
+     },
+     "qty_formula": "about 100 g a month for a family pot × 3 months = 300 g",
+     "units": 300,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Tropical Heat",
+       "product": "Turmeric powder",
+       "pack": "100 g",
+       "pack_units": 100,
+       "price_tsh": 5200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b921853c6d5732d0a3778",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Shoppers (loose)",
+       "product": "Black pepper powder, sold by weight",
+       "pack": "1 kg (sold by weight)",
+       "pack_units": 1000,
+       "price_tsh": 44000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026656d53c6d5732d0a3589",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Weighed out in store; 100 g costs 4,400.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Tropical Heat",
+       "product": "Garlic powder",
+       "pack": "100 g",
+       "pack_units": 100,
+       "price_tsh": 5083,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/spices/trop-heat-garlic-powder-100g/p/32091",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 250,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Check the label: garlic powder, not garlic salt. No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Tropical Heat",
+       "product": "Ginger, ground",
+       "pack": "100 g",
+       "pack_units": 100,
+       "price_tsh": 4676,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/spices/trop-heat-ginger-ground-100g/p/32096",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 230,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Tropical Heat",
+       "product": "Black pepper, ground",
+       "pack": "45 g",
+       "pack_units": 45,
+       "price_tsh": 3964,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/spices/trop-heat-black-pepper-ground-45g/p/32040",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 195,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "oats",
+     "name": {
+      "en": "Whole-grain oats",
+      "sw": "Shayiri nzima (oats)"
+     },
+     "why": {
+      "en": "Diets rich in whole grains, vegetables, fruit and nuts, the DASH pattern endorsed by ISH 2020, lower blood pressure. Oats replace white bread and sweet buns at breakfast, which also removes hidden salt; their soluble fibre lowers LDL cholesterol. Cook with water or low-fat milk and no salt. The member can swap or remove it.",
+      "sw": "Lishe yenye nafaka nzima, mboga, matunda na karanga, mtindo wa DASH unaoungwa mkono na ISH 2020, hushusha presha. Shayiri huchukua nafasi ya mkate mweupe na maandazi wakati wa kifungua kinywa, na hivyo kuondoa chumvi iliyojificha; nyuzi zake hushusha lehemu mbaya (LDL). Pika kwa maji au maziwa yenye mafuta kidogo bila chumvi. Mwanachama anaweza kubadilisha au kuondoa."
+     },
+     "qty": {
+      "en": "3 kg per 3-month box",
+      "sw": "Kilo 3 kwa sanduku la miezi 3"
+     },
+     "qty_formula": "40 g bowl × 25 mornings ≈ 1 kg a month × 3 = 3 kg",
+     "units": 3000,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Weetabix",
+       "product": "Oatibix jumbo oats, jar",
+       "pack": "1 kg",
+       "pack_units": 1000,
+       "price_tsh": 10300,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/638a2dd3fa11de0a43b3dcd3",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Golden Country",
+       "product": "White oats",
+       "pack": "500 g",
+       "pack_units": 500,
+       "price_tsh": 7000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a38e053c6d5732d0a363c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Quaker",
+       "product": "White oats",
+       "pack": "500 g",
+       "pack_units": 500,
+       "price_tsh": 9000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b78bc53c6d5732d0a3727",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Bob’s Red Mill",
+       "product": "Quick-cooking rolled oats",
+       "pack": "907 g",
+       "pack_units": 907,
+       "price_tsh": 30475,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/oats/bobs-quick-cook-oats-rolled-w-g907g/p/158405",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1499,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "nuts",
+     "name": {
+      "en": "Unsalted nuts",
+      "sw": "Karanga zisizo na chumvi"
+     },
+     "why": {
+      "en": "Unsalted nuts replace salty, fried snacks; they bring unsaturated fats, potassium and magnesium and are part of the heart-protective diets ISH 2020 endorses. Salted or fried nuts undo the benefit, so only plain packs are sent. A small handful, about 25 g, on most days.",
+      "sw": "Karanga zisizo na chumvi huchukua nafasi ya vitafunwa vyenye chumvi na vya kukaanga; zina mafuta mazuri, potasiamu na magnesiamu na ni sehemu ya lishe inayolinda moyo kwa mujibu wa ISH 2020. Karanga zenye chumvi au za kukaanga huondoa faida, hivyo pakiti za kawaida tu ndizo hutumwa. Kiganja kidogo, takriban gramu 25, siku nyingi."
+     },
+     "qty": {
+      "en": "1.5 kg per 3-month box",
+      "sw": "Kilo 1.5 kwa sanduku la miezi 3"
+     },
+     "qty_formula": "25 g × 20 days ≈ 500 g a month × 3 = 1.5 kg",
+     "units": 1500,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Shoppers Royal",
+       "product": "Cashew nuts",
+       "pack": "500 g",
+       "pack_units": 500,
+       "price_tsh": 16300,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/64ce44190eb6b270e24ef771",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "The page does not say salted or unsalted; confirm the plain pack in store.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Munawar",
+       "product": "Cashew nuts, unsalted",
+       "pack": "500 g",
+       "pack_units": 500,
+       "price_tsh": 19800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/638a2bd7fa11de0a43b3dcd1",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Royal",
+       "product": "Cashew nuts, A grade",
+       "pack": "250 g",
+       "pack_units": 250,
+       "price_tsh": 10200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/639c4d85fa11de0a43b3e4cf",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Salt not stated on the page; confirm the plain pack.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Shoppers (loose)",
+       "product": "Almonds, sold by weight",
+       "pack": "1 kg (sold by weight)",
+       "pack_units": 1000,
+       "price_tsh": 46500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026398153c6d5732d0a3550",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Weighed out in store; 500 g costs 23,250.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Green Forest",
+       "product": "Unpeeled raw peanuts",
+       "pack": "250 g",
+       "pack_units": 250,
+       "price_tsh": 4798,
+       "src": {
+        "name": "carrefour.ke",
+        "u": "https://www.carrefour.ke/mafken/en/peanuts/greenforest-unpeeled-peanuts-250g/p/8724",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 236,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "No Tanzanian listing found. Kenyan shelf price from the earlier listing (seen 2 Nov 2026), not re-opened; converted at KES 20.33.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "paste",
+     "name": {
+      "en": "Fluoride toothpaste",
+      "sw": "Dawa ya meno yenye floraidi"
+     },
+     "why": {
+      "en": "Gum disease is linked to high blood pressure: a 2020 meta-analysis in Cardiovascular Research found people with periodontitis more likely to be hypertensive (as cited earlier; not re-opened). Some blood-pressure tablets, such as amlodipine and nifedipine, can also make the gums swell, so twice-daily brushing with fluoride toothpaste matters more.",
+      "sw": "Ugonjwa wa fizi unahusiana na presha ya juu: uchambuzi wa tafiti wa 2020 katika jarida la Cardiovascular Research ulikuta wenye ugonjwa wa fizi wana uwezekano mkubwa zaidi wa kuwa na presha. Baadhi ya vidonge vya presha, kama amlodipine na nifedipine, vinaweza pia kuvimbisha fizi, hivyo kupiga mswaki mara mbili kwa siku kwa dawa yenye floraidi ni muhimu zaidi."
+     },
+     "qty": {
+      "en": "1 tube of about 190 g every 3 months",
+      "sw": "Tyubu 1 ya takriban gramu 190 kila miezi 3"
+     },
+     "qty_formula": "about 2 g a day × 91 days ≈ 180 g → one 190 g tube per 3 months",
+     "units": 190,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Whitedent",
+       "product": "Herbal Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 4100,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b959d53c6d5732d0a378c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Check the pack states fluoride.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Whitedent",
+       "product": "Gel Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 3800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/66eb11b5ad21bfe77df6b23e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Check the pack states fluoride.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Whitedent",
+       "product": "Charcoal Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 4800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6ad10353835ef903d6315204",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Check the pack states fluoride.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Colgate",
+       "product": "Maximum Protection",
+       "pack": "140 g",
+       "pack_units": 140,
+       "price_tsh": 5900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026787c53c6d5732d0a35c5",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "brush",
+     "name": {
+      "en": "Toothbrush, soft or medium",
+      "sw": "Mswaki, laini au wa kati"
+     },
+     "why": {
+      "en": "A fresh brush every three months, as dentists advise; a soft or medium head is kinder to gums that bleed.",
+      "sw": "Mswaki mpya kila miezi mitatu, kama madaktari wa meno wanavyoshauri; kichwa laini au cha kati ni bora kwa fizi zinazotoka damu."
+     },
+     "qty": {
+      "en": "1 every 3 months",
+      "sw": "1 kila miezi 3"
+     },
+     "qty_formula": "1 brush every 3 months",
+     "units": 1,
+     "kind": "goods",
+     "brands": [
+      {
+       "brand": "Double Action",
+       "product": "Activated Charcoal Toothbrush, medium",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 2000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/charcoal-infused-double-action-toothbrush-medium",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Colgate",
+       "product": "Extra Clean Toothbrush, medium",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 2900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026784453c6d5732d0a35c4",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Eco-Smile",
+       "product": "Essential Toothbrush with tongue scraper",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 3000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/eco-smile-essential-toothbrush-with-a-tongue-scraper",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Oral-B",
+       "product": "3 Effect Toothbrush 40, medium",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 3200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b6ef453c6d5732d0a36fe",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "bpmed",
+     "name": {
+      "en": "Blood pressure tablets, as prescribed (partner pharmacy)",
+      "sw": "Vidonge vya presha, kama ilivyoandikwa (famasia mshirika)"
+     },
+     "why": {
+      "en": "WHO’s 2021 hypertension treatment guideline and HEARTS protocols are applied by your clinic, which chooses the medicines and doses. Afya does not sell or price medicines: the licensed partner pharmacy supplies them on prescription, and the box reminds you before they run out. The products shown are examples sold in Tanzania, not a recommendation.",
+      "sw": "Mwongozo wa WHO wa 2021 kuhusu matibabu ya presha na itifaki za HEARTS hutumiwa na kliniki yako, ambayo huchagua dawa na dozi. Afya haiuzi dawa wala kuziwekea bei: famasia mshirika yenye leseni huzitoa kwa maelekezo ya daktari, na sanduku hukukumbusha kabla hazijaisha. Bidhaa zilizoonyeshwa ni mifano inayouzwa Tanzania, si mapendekezo."
+     },
+     "qty": {
+      "en": "As your clinic prescribes",
+      "sw": "Kama kliniki yako inavyoandika"
+     },
+     "qty_formula": "units 0: medicines and doses set by the clinic; not priced in the box (B4)",
+     "units": 0,
+     "kind": "medicine",
+     "brands": [
+      {
+       "brand": "Amlosin",
+       "product": "Amlodipine 5 mg tablets",
+       "pack": "strip of 10",
+       "pack_units": 10,
+       "price_tsh": 200,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/amlosin-5mg-tablet",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Example only; the clinic prescribes.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Losartas",
+       "product": "Losartan 50 mg tablets",
+       "pack": "strip of 10",
+       "pack_units": 10,
+       "price_tsh": 600,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/losartas-50mg-tablet",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Example only.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Losartas-HT",
+       "product": "Losartan 50 mg + hydrochlorothiazide 12.5 mg",
+       "pack": "strip of 10",
+       "pack_units": 10,
+       "price_tsh": 1000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/losartas-ht-50-12-5mg-tablet",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Example only.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nifedi-Denk",
+       "product": "Nifedipine retard 20 mg tablets",
+       "pack": "strip of 10",
+       "pack_units": 10,
+       "price_tsh": 300,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/nifedi-denk-20mg-tablet",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Example only.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Catenol",
+       "product": "Atenolol 50 mg tablets",
+       "pack": "strip of 10",
+       "pack_units": 10,
+       "price_tsh": 1000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/catenol-50mg-tablet",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Example only.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "luxury": [
+  {
+   "tier": "premium",
+   "name": {
+    "en": "Dove Intensive Cream 75 ml, each box",
+    "sw": "Krimu ya Dove Intensive ml 75, kila sanduku"
+   },
+   "price_tsh": 6500,
+   "src": {
+    "name": "Shoppers Supermarket",
+    "u": "https://www.shoppers.co.tz/product-detail/602686c153c6d5732d0a35ed",
+    "chk": "2026-11-10"
+   },
+   "status": "TZ",
+   "orig": null
+  },
+  {
+   "tier": "luxury",
+   "name": {
+    "en": "Bath & Body Works Ultra Shea body cream 226 g, each box",
+    "sw": "Krimu ya mwili ya Bath & Body Works Ultra Shea g 226, kila sanduku"
+   },
+   "price_tsh": 50825,
+   "src": {
+    "name": "portalpharmacy.ke",
+    "u": "https://portalpharmacy.ke/bath-and-body-works-a-thousand-wishes-ultra-shea-body-cream-8-0-oz",
+    "chk": "2026-11-02"
+   },
+   "status": "KE",
+   "orig": {
+    "cur": "KES",
+    "amount": 2500,
+    "rate": 20.33,
+    "date": "2026-11-10"
+   },
+   "note": "No Tanzanian listing found. Kenyan price from the earlier listing (KES 2,500, seen 2 Nov 2026), not re-opened."
+  }
+ ],
+ "services": [
+  "afya-check",
+  "kidney-profile-test"
+ ],
+ "services_note": {
+  "en": "Monthly in-store check (blood pressure on the kiosk, the member’s monitor compared with it, and weight): free, a store service. A yearly kidney profile through a partner laboratory is an add-on, charged in the month it is done; AfyaDepot’s walk-in price is TSh 55,000 (opened 10 Nov 2026, market reference only). Clinic and refill reminders: free.",
+  "sw": "Ukaguzi wa kila mwezi dukani (presha kwenye kioski, kipimo cha mwanachama kulinganishwa nacho, na uzito): bure, ni huduma ya duka. Kipimo cha figo cha kila mwaka kupitia maabara mshirika ni huduma ya ziada, hulipiwa mwezi kinapofanyika; bei ya AfyaDepot kwa mteja wa kawaida ni TSh 55,000 (kumbukumbu ya soko tu). Vikumbusho vya kliniki na kujaza dawa: bure."
+ },
+ "packing": {
+  "film": null
+ },
+ "open": [
+  {
+   "en": "SureSign and Rossmax monitors: the model and its validation are not stated; they are offered only once the model is found on a validation list. The Omron M2 model number is to be confirmed on the box.",
+   "sw": "Vipimo vya SureSign na Rossmax: modeli na uthibitisho wake havijatajwa; vitatolewa tu modeli ikipatikana kwenye orodha ya vipimo vilivyothibitishwa. Namba ya modeli ya Omron M2 ithibitishwe kwenye boksi."
+  },
+  {
+   "en": "Confirm in store that the Shoppers Royal and Royal A-grade cashews are unsalted, and how many batteries the Duracell AA pack holds.",
+   "sw": "Thibitisha dukani kwamba korosho za Shoppers Royal na Royal A-grade hazina chumvi, na idadi ya betri kwenye pakiti ya Duracell AA."
+  },
+  {
+   "en": "Measuring spoons, pill boxes, garlic and ginger powder, peanuts and some batteries have Kenyan prices only (seen 2 Nov 2026), not re-checked.",
+   "sw": "Vijiko vya kupimia, visanduku vya vidonge, unga wa kitunguu saumu na tangawizi, karanga na baadhi ya betri vina bei za Kenya tu (zilionekana 2 Nov 2026), hazijakaguliwa upya."
+  },
+  {
+   "en": "The later 3-month box has a thin margin on the 12-month plan; it turns negative if goods land above about 82% of the shelf price.",
+   "sw": "Sanduku la miezi 3 linalofuata lina faida ndogo kwenye mpango wa miezi 12; inakuwa hasara bidhaa zikifika kwa zaidi ya takriban 82% ya bei ya rafu."
+  },
+  {
+   "en": "The services afya-check and kidney-profile-test still need entries and partner prices in the services list.",
+   "sw": "Huduma afya-check na kidney-profile-test bado zinahitaji kuingizwa na bei za washirika kwenye orodha ya huduma."
+  }
+ ]
+}
