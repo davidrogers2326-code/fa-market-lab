@@ -11,6 +11,7 @@ Read `../AFYA_SHOWROOM_BRIEF.md` (v1.2): Part B (rules), C (design), D2 (section
 - `AB.T(en,sw)` picks the language. `AB.E(s)` escapes HTML. **Every visible string goes through `T(en,sw)`**, including alt text, aria-labels, table headers and button labels (B8).
 - `AB.figsHTML([{v:'TSh 2.3M <span class="ab-est">estimate</span>',l:'label',s:'source line'}])`: up to four gold key figures.
 - `AB.openHTML([html,…])`: the "Not yet verified" block. `AB.sourcesHTML([{t,u,chk}])`: the collapsible sources footer (`chk` = date checked). `AB.pagerHTML(pv,nx)`: previous and next. `AB.doorsHTML(ids)`.
+- `AB.numHTML(key,value,fmt)` (fmt `tsh` | `tshM` | `int` | `pct`): wrap every number that differs between the two funding options in it. After the funding switch, it counts from the old value to the new one (C6.4). Keys must be unique on the page.
 - `AB.isLean()` is true when the 150M option is selected. `window.MODEL.get('base')` and `MODEL.inputs` already follow the funding switch. Never show both options side by side (B5); show the selected one only.
 
 ## D2 order (always)

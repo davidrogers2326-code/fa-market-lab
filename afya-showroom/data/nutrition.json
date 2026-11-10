@@ -1,0 +1,679 @@
+[
+ {
+  "key": "uji_eq_afya",
+  "name": {
+   "en": "Mixed-grain porridge flour (uji wa lishe)",
+   "sw": "Unga wa uji wa lishe wa nafaka mchanganyiko"
+  },
+  "age_from_months": 6,
+  "age_to_months": null,
+  "why": {
+   "en": "From 6 months, alongside breastfeeding (WHO/UNICEF). Cooked as a thick porridge, not a thin drink, so a small stomach gets enough energy. Add a spoon of groundnut paste or oil, or milk, to enrich it.",
+   "sw": "Kuanzia miezi 6, pamoja na kunyonyesha (WHO/UNICEF). Upikwe uji mzito, si uji mwepesi wa kunywa, ili tumbo dogo lipate nishati ya kutosha. Ongeza kijiko cha siagi ya karanga, mafuta au maziwa kuuboresha."
+  },
+  "brand": "Equatorial",
+  "product": "Uji Afya premium porridge flour",
+  "pack": "1 kg",
+  "price_tsh": 4452,
+  "src": {
+   "name": "Carrefour Kenya",
+   "u": "https://www.carrefour.ke/mafken/en/plain-white-flour/equatorial-uji-afya-premiu-flour1kg/p/134163",
+   "chk": "2026-11-02"
+  },
+  "status": "KE",
+  "orig": {
+   "cur": "KES",
+   "amount": 219,
+   "rate": 20.33,
+   "date": "2026-11-10"
+  },
+  "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row."
+ },
+ {
+  "key": "uji_famila_nutri",
+  "name": {
+   "en": "Mixed-grain porridge flour (uji wa lishe)",
+   "sw": "Unga wa uji wa lishe wa nafaka mchanganyiko"
+  },
+  "age_from_months": 6,
+  "age_to_months": null,
+  "why": {
+   "en": "From 6 months, alongside breastfeeding (WHO/UNICEF). A cheaper mixed-grain flour for the same thick porridge.",
+   "sw": "Kuanzia miezi 6, pamoja na kunyonyesha (WHO/UNICEF). Unga wa nafaka mchanganyiko wa bei nafuu zaidi kwa uji mzito uleule."
+  },
+  "brand": "Famila",
+  "product": "Nutri Health uji porridge flour",
+  "pack": "1 kg",
+  "price_tsh": 3232,
+  "src": {
+   "name": "Carrefour Kenya",
+   "u": "https://www.carrefour.ke/mafken/en/plain-white-flour/famila-nutri-health-uji-1kg/p/115230",
+   "chk": "2026-11-02"
+  },
+  "status": "KE",
+  "orig": {
+   "cur": "KES",
+   "amount": 159,
+   "rate": 20.33,
+   "date": "2026-11-10"
+  },
+  "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row."
+ },
+ {
+  "key": "uji_soko_wimbi",
+  "name": {
+   "en": "Finger-millet porridge flour (ulezi / wimbi)",
+   "sw": "Unga wa uji wa ulezi (wimbi)"
+  },
+  "age_from_months": 6,
+  "age_to_months": null,
+  "why": {
+   "en": "From 6 months, alongside breastfeeding (WHO/UNICEF). Finger millet is a traditional East African porridge grain; it is cooked thick and enriched like any uji.",
+   "sw": "Kuanzia miezi 6, pamoja na kunyonyesha (WHO/UNICEF). Ulezi ni nafaka ya jadi ya uji Afrika Mashariki; hupikwa uji mzito na kuboreshwa kama uji mwingine wowote."
+  },
+  "brand": "Soko",
+  "product": "Pure wimbi porridge flour",
+  "pack": "1 kg",
+  "price_tsh": 3497,
+  "src": {
+   "name": "Carrefour Kenya",
+   "u": "https://www.carrefour.ke/mafken/en/plain-white-flour/soko-porridge-pure-wimbi-1kg/p/32017",
+   "chk": "2026-11-02"
+  },
+  "status": "KE",
+  "orig": {
+   "cur": "KES",
+   "amount": 172,
+   "rate": 20.33,
+   "date": "2026-11-10"
+  },
+  "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row."
+ },
+ {
+  "key": "uji_famila_wimbi",
+  "name": {
+   "en": "Finger-millet porridge flour (ulezi / wimbi)",
+   "sw": "Unga wa uji wa ulezi (wimbi)"
+  },
+  "age_from_months": 6,
+  "age_to_months": null,
+  "why": {
+   "en": "From 6 months, alongside breastfeeding (WHO/UNICEF). A second finger-millet flour at a similar price.",
+   "sw": "Kuanzia miezi 6, pamoja na kunyonyesha (WHO/UNICEF). Unga wa pili wa ulezi kwa bei inayokaribiana."
+  },
+  "brand": "Famila",
+  "product": "Pure wimbi porridge",
+  "pack": "1 kg",
+  "price_tsh": 3334,
+  "src": {
+   "name": "Carrefour Kenya",
+   "u": "https://www.carrefour.ke/mafken/en/plain-white-flour/famila-pure-wimbi-porridge-1kg/p/43648",
+   "chk": "2026-11-02"
+  },
+  "status": "KE",
+  "orig": {
+   "cur": "KES",
+   "amount": 164,
+   "rate": 20.33,
+   "date": "2026-11-10"
+  },
+  "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row."
+ },
+ {
+  "key": "cer_famila_baby",
+  "name": {
+   "en": "Baby porridge flour",
+   "sw": "Unga wa uji wa mtoto"
+  },
+  "age_from_months": 6,
+  "age_to_months": 23,
+  "why": {
+   "en": "From 6 months, alongside breastfeeding (WHO/UNICEF). A flour made for first porridges; start with 2–3 spoons and thicken as the baby grows.",
+   "sw": "Kuanzia miezi 6, pamoja na kunyonyesha (WHO/UNICEF). Unga uliotengenezwa kwa uji wa kwanza wa mtoto; anza na vijiko 2–3 na uongeze uzito kadri mtoto anavyokua."
+  },
+  "brand": "Famila",
+  "product": "Baby Porridge",
+  "pack": "1 kg",
+  "price_tsh": 3354,
+  "src": {
+   "name": "Carrefour Kenya",
+   "u": "https://www.carrefour.ke/mafken/en/plain-white-flour/famila-baby-porridge-1kg/p/115228",
+   "chk": "2026-11-02"
+  },
+  "status": "KE",
+  "orig": {
+   "cur": "KES",
+   "amount": 165,
+   "rate": 20.33,
+   "date": "2026-11-10"
+  },
+  "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row."
+ },
+ {
+  "key": "cer_famila_wean",
+  "name": {
+   "en": "Baby weaning porridge mix",
+   "sw": "Mchanganyiko wa uji wa kumwanzishia mtoto chakula"
+  },
+  "age_from_months": 6,
+  "age_to_months": 23,
+  "why": {
+   "en": "From 6 months, alongside breastfeeding (WHO/UNICEF). Despite the word “weaning”, it is a complementary food: breastfeeding continues to 2 years or beyond.",
+   "sw": "Kuanzia miezi 6, pamoja na kunyonyesha (WHO/UNICEF). Licha ya neno “kuachisha”, ni chakula cha nyongeza: kunyonyesha kunaendelea hadi miaka 2 au zaidi."
+  },
+  "brand": "Famila",
+  "product": "Baby Weaning Porridge Mix",
+  "pack": "1 kg",
+  "price_tsh": 3293,
+  "src": {
+   "name": "Carrefour Kenya",
+   "u": "https://www.carrefour.ke/mafken/en/plain-white-flour/famila-baby-weaning-porridge-1kg/p/43646",
+   "chk": "2026-11-02"
+  },
+  "status": "KE",
+  "orig": {
+   "cur": "KES",
+   "amount": 162,
+   "rate": 20.33,
+   "date": "2026-11-10"
+  },
+  "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row."
+ },
+ {
+  "key": "maize_smigi",
+  "name": {
+   "en": "Maize meal (sembe) for family meals",
+   "sw": "Unga wa sembe kwa milo ya familia"
+  },
+  "age_from_months": 6,
+  "age_to_months": null,
+  "why": {
+   "en": "From 6 months, alongside breastfeeding (WHO/UNICEF). Cooked as thick porridge or soft ugali and shared from the family pot. Fortification is not stated on the listing; check the pack for the fortification mark.",
+   "sw": "Kuanzia miezi 6, pamoja na kunyonyesha (WHO/UNICEF). Hupikwa uji mzito au ugali laini kutoka chungu cha familia. Urutubishaji haujaonyeshwa kwenye tangazo; angalia alama ya urutubishaji kwenye pakiti."
+  },
+  "brand": "Smigi",
+  "product": "Smigi Super Maize Meal",
+  "pack": "2 kg",
+  "price_tsh": 4800,
+  "src": {
+   "name": "Shoppers Supermarket",
+   "u": "https://www.shoppers.co.tz/product-detail/604f4af6da3fef028705104f",
+   "chk": "2026-11-10"
+  },
+  "status": "TZ"
+ },
+ {
+  "key": "cer_wheat_shp",
+  "name": {
+   "en": "Infant cereal, wheat",
+   "sw": "Nafaka ya watoto, ngano"
+  },
+  "age_from_months": 6,
+  "age_to_months": 23,
+  "why": {
+   "en": "From 6 months, alongside breastfeeding (WHO/UNICEF). A ready, fortified cereal for families who want one; home-made uji is just as appropriate. Choose and read the label for added sugar; WHO advises against foods high in sugar for young children.",
+   "sw": "Kuanzia miezi 6, pamoja na kunyonyesha (WHO/UNICEF). Nafaka iliyo tayari na yenye virutubisho kwa familia zinazoitaka; uji wa nyumbani unafaa vilevile. Soma lebo kuona sukari iliyoongezwa; WHO inashauri kuepuka vyakula vyenye sukari nyingi kwa watoto wadogo."
+  },
+  "brand": "Nestlé Cerelac",
+  "product": "Cerelac Wheat",
+  "pack": "350 g",
+  "price_tsh": 25500,
+  "src": {
+   "name": "Shoppers Supermarket",
+   "u": "https://www.shoppers.co.tz/product-detail/602a7d6d53c6d5732d0a36d9",
+   "chk": "2026-11-10"
+  },
+  "status": "TZ"
+ },
+ {
+  "key": "cer_banana_shp",
+  "name": {
+   "en": "Infant cereal, banana and wheat",
+   "sw": "Nafaka ya watoto, ndizi na ngano"
+  },
+  "age_from_months": 6,
+  "age_to_months": 23,
+  "why": {
+   "en": "From 6 months, alongside breastfeeding (WHO/UNICEF). The same cereal with banana. Read the label for added sugar.",
+   "sw": "Kuanzia miezi 6, pamoja na kunyonyesha (WHO/UNICEF). Nafaka ileile yenye ndizi. Soma lebo kuona sukari iliyoongezwa."
+  },
+  "brand": "Nestlé Cerelac",
+  "product": "Cerelac Banana Wheat",
+  "pack": "350 g",
+  "price_tsh": 26200,
+  "src": {
+   "name": "Shoppers Supermarket",
+   "u": "https://www.shoppers.co.tz/product-detail/602a7d4853c6d5732d0a36d8",
+   "chk": "2026-11-10"
+  },
+  "status": "TZ"
+ },
+ {
+  "key": "cer_wheat_ke",
+  "name": {
+   "en": "Infant cereal, wheat (larger pack)",
+   "sw": "Nafaka ya watoto, ngano (pakiti kubwa)"
+  },
+  "age_from_months": 6,
+  "age_to_months": 23,
+  "why": {
+   "en": "From 6 months, alongside breastfeeding (WHO/UNICEF). Same product family in a 400 g pack; Kenyan listing only.",
+   "sw": "Kuanzia miezi 6, pamoja na kunyonyesha (WHO/UNICEF). Bidhaa ileile katika pakiti ya gramu 400; bei ya Kenya tu."
+  },
+  "brand": "Nestlé Cerelac",
+  "product": "Cerelac Wheat",
+  "pack": "400 g",
+  "price_tsh": 18500,
+  "src": {
+   "name": "Carrefour Kenya",
+   "u": "https://www.carrefour.ke/mafken/en/flours-cereals-rice/nestle-cerelac-wheat-bib-400g/p/41523",
+   "chk": "2026-11-02"
+  },
+  "status": "KE",
+  "orig": {
+   "cur": "KES",
+   "amount": 910,
+   "rate": 20.33,
+   "date": "2026-11-10"
+  },
+  "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row."
+ },
+ {
+  "key": "milk_lato_uht",
+  "name": {
+   "en": "Whole cow’s milk, UHT",
+   "sw": "Maziwa ya ng’ombe kamili, UHT"
+  },
+  "age_from_months": 12,
+  "age_to_months": null,
+  "why": {
+   "en": "As a drink from 12 months; full-fat milk can be cooked into porridge from 6 months. WHO (2023): for children 12–23 months fed milks other than breast milk, animal milk should be fed; follow-up formulas are not recommended. Not a breast-milk substitute.",
+   "sw": "Kama kinywaji kuanzia miezi 12; maziwa kamili yanaweza kupikwa kwenye uji kuanzia miezi 6. WHO (2023): kwa watoto wa miezi 12–23 wanaopewa maziwa mengine yasiyo ya mama, wapewe maziwa ya wanyama; maziwa ya kopo ya hatua inayofuata hayashauriwi. Si mbadala wa maziwa ya mama."
+  },
+  "brand": "Lato",
+  "product": "Lato UHT Whole Milk",
+  "pack": "1 L",
+  "price_tsh": 4900,
+  "src": {
+   "name": "Shoppers Supermarket",
+   "u": "https://www.shoppers.co.tz/product-detail/627ba5c5ad5ea43d26544f53",
+   "chk": "2026-11-10"
+  },
+  "status": "TZ"
+ },
+ {
+  "key": "milk_tanga",
+  "name": {
+   "en": "Whole cow’s milk, fresh",
+   "sw": "Maziwa ya ng’ombe kamili, freshi"
+  },
+  "age_from_months": 12,
+  "age_to_months": null,
+  "why": {
+   "en": "Pasteurised full-cream milk; as a drink from 12 months. Keep cold and use quickly.",
+   "sw": "Maziwa kamili yaliyochemshwa kiwandani (pasteurised); kama kinywaji kuanzia miezi 12. Yawekwe baridi na yatumike haraka."
+  },
+  "brand": "Tanga Fresh",
+  "product": "Tanga Fresh Full Cream",
+  "pack": "1 L",
+  "price_tsh": 4100,
+  "src": {
+   "name": "Shoppers Supermarket",
+   "u": "https://www.shoppers.co.tz/product-detail/602b88ad53c6d5732d0a375d",
+   "chk": "2026-11-10"
+  },
+  "status": "TZ"
+ },
+ {
+  "key": "milk_asas",
+  "name": {
+   "en": "Whole cow’s milk, small pack",
+   "sw": "Maziwa ya ng’ombe kamili, pakiti ndogo"
+  },
+  "age_from_months": 12,
+  "age_to_months": null,
+  "why": {
+   "en": "A half-litre pack for a household without a fridge; as a drink from 12 months.",
+   "sw": "Pakiti ya nusu lita kwa kaya isiyo na friji; kama kinywaji kuanzia miezi 12."
+  },
+  "brand": "Asas",
+  "product": "Asas Milk Packet, full cream",
+  "pack": "500 ml",
+  "price_tsh": 1700,
+  "src": {
+   "name": "Shoppers Supermarket",
+   "u": "https://www.shoppers.co.tz/product-detail/6026493853c6d5732d0a3569",
+   "chk": "2026-11-10"
+  },
+  "status": "TZ"
+ },
+ {
+  "key": "milk_lato_powder",
+  "name": {
+   "en": "Full-cream milk powder (family milk)",
+   "sw": "Maziwa ya unga kamili (maziwa ya familia)"
+  },
+  "age_from_months": 12,
+  "age_to_months": null,
+  "why": {
+   "en": "Family milk where fresh milk is hard to keep; mixed with safe water as a drink from 12 months. It is not infant formula and not a breast-milk substitute.",
+   "sw": "Maziwa ya familia pale ambapo maziwa freshi ni vigumu kuhifadhi; huchanganywa na maji salama kama kinywaji kuanzia miezi 12. Si maziwa ya kopo ya watoto wachanga wala mbadala wa maziwa ya mama."
+  },
+  "brand": "Lato",
+  "product": "Lato Instant Full Cream Milk Powder",
+  "pack": "400 g",
+  "price_tsh": 14000,
+  "src": {
+   "name": "Shoppers Supermarket",
+   "u": "https://www.shoppers.co.tz/product-detail/602a6aa653c6d5732d0a369b",
+   "chk": "2026-11-10"
+  },
+  "status": "TZ"
+ },
+ {
+  "key": "milk_nido",
+  "name": {
+   "en": "Full-cream milk powder (family milk)",
+   "sw": "Maziwa ya unga kamili (maziwa ya familia)"
+  },
+  "age_from_months": 12,
+  "age_to_months": null,
+  "why": {
+   "en": "A second family milk powder. Only the plain family product is stocked, never a “1+” growing-up version.",
+   "sw": "Maziwa ya unga ya familia ya pili. Ni bidhaa ya kawaida ya familia tu inayowekwa, kamwe si toleo la “1+” la maziwa ya kukua."
+  },
+  "brand": "Nestlé Nido",
+  "product": "Nestle Nido Milk Powder",
+  "pack": "400 g",
+  "price_tsh": 17600,
+  "src": {
+   "name": "Shoppers Supermarket",
+   "u": "https://www.shoppers.co.tz/product-detail/602a815053c6d5732d0a36e9",
+   "chk": "2026-11-10"
+  },
+  "status": "TZ"
+ },
+ {
+  "key": "pb_golden",
+  "name": {
+   "en": "Groundnut paste (peanut butter)",
+   "sw": "Siagi ya karanga"
+  },
+  "age_from_months": 6,
+  "age_to_months": null,
+  "why": {
+   "en": "From 6 months, alongside breastfeeding (WHO/UNICEF). A teaspoon stirred smooth into porridge adds energy and protein. Never whole or chopped nuts for young children (choking). Choose packs with a TBS mark: home-made and small-batch pastes can carry aflatoxin.",
+   "sw": "Kuanzia miezi 6, pamoja na kunyonyesha (WHO/UNICEF). Kijiko kidogo kikichanganywa vizuri kwenye uji huongeza nishati na protini. Kamwe usimpe mtoto mdogo karanga nzima wala zilizokatwa (zinaweza kukaba). Chagua pakiti zenye alama ya TBS: siagi za kutengenezwa nyumbani au kwa kiasi kidogo zinaweza kuwa na sumu kuvu (aflatoxin)."
+  },
+  "brand": "Golden African",
+  "product": "Golden African Peanut Butter",
+  "pack": "400 g",
+  "price_tsh": 3800,
+  "src": {
+   "name": "Shoppers Supermarket",
+   "u": "https://www.shoppers.co.tz/product-detail/604f4a2fda3fef028705104c",
+   "chk": "2026-11-10"
+  },
+  "status": "TZ"
+ },
+ {
+  "key": "pb_redgold",
+  "name": {
+   "en": "Groundnut paste (peanut butter), large",
+   "sw": "Siagi ya karanga, kopo kubwa"
+  },
+  "age_from_months": 6,
+  "age_to_months": null,
+  "why": {
+   "en": "From 6 months, alongside breastfeeding (WHO/UNICEF). The same use in a larger jar.",
+   "sw": "Kuanzia miezi 6, pamoja na kunyonyesha (WHO/UNICEF). Matumizi yaleyale katika kopo kubwa."
+  },
+  "brand": "Red Gold",
+  "product": "Red Gold Peanut Butter",
+  "pack": "800 g",
+  "price_tsh": 5600,
+  "src": {
+   "name": "Shoppers Supermarket",
+   "u": "https://www.shoppers.co.tz/product-detail/65cf821e0eb6b270e24f70ca",
+   "chk": "2026-11-10"
+  },
+  "status": "TZ"
+ },
+ {
+  "key": "pb_rosho",
+  "name": {
+   "en": "Groundnut paste (peanut butter), large",
+   "sw": "Siagi ya karanga, kopo kubwa"
+  },
+  "age_from_months": 6,
+  "age_to_months": null,
+  "why": {
+   "en": "From 6 months, alongside breastfeeding (WHO/UNICEF). A third brand in the large size.",
+   "sw": "Kuanzia miezi 6, pamoja na kunyonyesha (WHO/UNICEF). Chapa ya tatu katika saizi kubwa."
+  },
+  "brand": "Rosho",
+  "product": "Rosho Peanut Butter",
+  "pack": "800 g",
+  "price_tsh": 7900,
+  "src": {
+   "name": "Shoppers Supermarket",
+   "u": "https://www.shoppers.co.tz/product-detail/6ad0ffde835ef903d63151fe",
+   "chk": "2026-11-10"
+  },
+  "status": "TZ"
+ },
+ {
+  "key": "leg_moong",
+  "name": {
+   "en": "Split green grams (choroko, moong dal)",
+   "sw": "Choroko zilizopasuliwa (moong dal)"
+  },
+  "age_from_months": 6,
+  "age_to_months": null,
+  "why": {
+   "en": "From 6 months, alongside breastfeeding (WHO/UNICEF). Pulses are one of the WHO food groups for young children; cook well and mash into porridge or rice.",
+   "sw": "Kuanzia miezi 6, pamoja na kunyonyesha (WHO/UNICEF). Jamii ya kunde ni mojawapo ya makundi ya vyakula ya WHO kwa watoto wadogo; pika vizuri na uponde kwenye uji au wali."
+  },
+  "brand": "Daily Fresh",
+  "product": "Daily Fresh Moong Dal Jar",
+  "pack": "1 kg",
+  "price_tsh": 13200,
+  "src": {
+   "name": "Shoppers Supermarket",
+   "u": "https://www.shoppers.co.tz/product-detail/604f4fc3da3fef0287051062",
+   "chk": "2026-11-10"
+  },
+  "status": "TZ"
+ },
+ {
+  "key": "leg_beans",
+  "name": {
+   "en": "Yellow beans",
+   "sw": "Maharage ya njano"
+  },
+  "age_from_months": 6,
+  "age_to_months": null,
+  "why": {
+   "en": "From 6 months, alongside breastfeeding (WHO/UNICEF). Well cooked and mashed, beans add protein and iron to family meals.",
+   "sw": "Kuanzia miezi 6, pamoja na kunyonyesha (WHO/UNICEF). Yakipikwa vizuri na kupondwa, maharage huongeza protini na madini ya chuma kwenye milo ya familia."
+  },
+  "brand": "Smigi",
+  "product": "Smigi Quality Beans Yellow Beans",
+  "pack": "pack size not stated on the listing",
+  "price_tsh": 5500,
+  "src": {
+   "name": "Shoppers Supermarket",
+   "u": "https://www.shoppers.co.tz/product-detail/620cd3a5bdf514cc3138b76e",
+   "chk": "2026-11-10"
+  },
+  "status": "TZ"
+ },
+ {
+  "key": "oil_sunbelt",
+  "name": {
+   "en": "Sunflower cooking oil",
+   "sw": "Mafuta ya kupikia ya alizeti"
+  },
+  "age_from_months": 6,
+  "age_to_months": null,
+  "why": {
+   "en": "From 6 months, alongside breastfeeding (WHO/UNICEF). A few drops in a baby’s porridge or mash add energy without bulk.",
+   "sw": "Kuanzia miezi 6, pamoja na kunyonyesha (WHO/UNICEF). Matone machache kwenye uji au chakula kilichopondwa cha mtoto huongeza nishati bila kuongeza ujazo."
+  },
+  "brand": "Sunbelt",
+  "product": "Sunbelt Sunflower Oil",
+  "pack": "1 L",
+  "price_tsh": 8300,
+  "src": {
+   "name": "Shoppers Supermarket",
+   "u": "https://www.shoppers.co.tz/product-detail/6930090ed0b62e115fe9020e",
+   "chk": "2026-11-10"
+  },
+  "status": "TZ"
+ },
+ {
+  "key": "oil_nannas",
+  "name": {
+   "en": "Sunflower cooking oil",
+   "sw": "Mafuta ya kupikia ya alizeti"
+  },
+  "age_from_months": 6,
+  "age_to_months": null,
+  "why": {
+   "en": "From 6 months, alongside breastfeeding (WHO/UNICEF). A second brand at a similar price.",
+   "sw": "Kuanzia miezi 6, pamoja na kunyonyesha (WHO/UNICEF). Chapa ya pili kwa bei inayokaribiana."
+  },
+  "brand": "Nannas",
+  "product": "Nannas Sunpure Sunflower Oil",
+  "pack": "1 L",
+  "price_tsh": 8600,
+  "src": {
+   "name": "Shoppers Supermarket",
+   "u": "https://www.shoppers.co.tz/product-detail/6a0834c8d4b3dce59b40c90f",
+   "chk": "2026-11-10"
+  },
+  "status": "TZ"
+ },
+ {
+  "key": "m_oats_golden",
+  "name": {
+   "en": "Rolled oats for the mother",
+   "sw": "Shayiri kwa mama"
+  },
+  "age_from_months": null,
+  "age_to_months": null,
+  "why": {
+   "en": "For pregnancy and breastfeeding: a bowl of oats is a filling, fibre-rich breakfast (WHO 2016 A.1.1 healthy eating; D.5 fibre for constipation) and is often easier to keep down than fried food in early pregnancy.",
+   "sw": "Kwa ujauzito na kunyonyesha: bakuli la shayiri ni kifungua kinywa kinachoshibisha chenye nyuzinyuzi (WHO 2016 A.1.1 lishe bora; D.5 nyuzinyuzi kwa kufunga choo) na mara nyingi hukaa tumboni kwa urahisi kuliko vyakula vya kukaanga mwanzoni mwa ujauzito."
+  },
+  "brand": "Golden Country",
+  "product": "Golden Country White Oats",
+  "pack": "500 g",
+  "price_tsh": 7000,
+  "src": {
+   "name": "Shoppers Supermarket",
+   "u": "https://www.shoppers.co.tz/product-detail/602a38e053c6d5732d0a363c",
+   "chk": "2026-11-10"
+  },
+  "status": "TZ"
+ },
+ {
+  "key": "m_oats_quaker",
+  "name": {
+   "en": "Rolled oats for the mother",
+   "sw": "Shayiri kwa mama"
+  },
+  "age_from_months": null,
+  "age_to_months": null,
+  "why": {
+   "en": "The leading brand of the same food.",
+   "sw": "Chapa inayoongoza ya chakula hichohicho."
+  },
+  "brand": "Quaker",
+  "product": "Quaker White Oats",
+  "pack": "500 g",
+  "price_tsh": 9000,
+  "src": {
+   "name": "Shoppers Supermarket",
+   "u": "https://www.shoppers.co.tz/product-detail/602b78bc53c6d5732d0a3727",
+   "chk": "2026-11-10"
+  },
+  "status": "TZ"
+ },
+ {
+  "key": "m_oats_weetabix",
+  "name": {
+   "en": "Rolled oats for the mother, large jar",
+   "sw": "Shayiri kwa mama, kopo kubwa"
+  },
+  "age_from_months": null,
+  "age_to_months": null,
+  "why": {
+   "en": "A 1 kg jar, the lowest price per gram of the three.",
+   "sw": "Kopo la kilo 1, bei ndogo zaidi kwa gramu kati ya hizi tatu."
+  },
+  "brand": "Weetabix",
+  "product": "Weetabix Oatbix Jumbo Oats 1 kg jar",
+  "pack": "1 kg",
+  "price_tsh": 10300,
+  "src": {
+   "name": "Shoppers Supermarket",
+   "u": "https://www.shoppers.co.tz/product-detail/638a2dd3fa11de0a43b3dcd3",
+   "chk": "2026-11-10"
+  },
+  "status": "TZ"
+ },
+ {
+  "key": "m_uji_soko",
+  "name": {
+   "en": "Sour finger-millet porridge flour for the mother",
+   "sw": "Unga wa uji wa ulezi wa kuchachua kwa mama"
+  },
+  "age_from_months": null,
+  "age_to_months": null,
+  "why": {
+   "en": "For pregnancy and breastfeeding: a familiar energy food. It is food, not a medicine, and Afya makes no claim that it increases breast milk.",
+   "sw": "Kwa ujauzito na kunyonyesha: chakula cha nishati kinachojulikana. Ni chakula, si dawa, na Afya haitoi dai kwamba kinaongeza maziwa ya mama."
+  },
+  "brand": "Soko",
+  "product": "Soko Wimbi Mix sour porridge flour",
+  "pack": "1 kg",
+  "price_tsh": 3029,
+  "src": {
+   "name": "Carrefour Kenya",
+   "u": "https://www.carrefour.ke/mafken/en/plain-white-flour/soko-porridge-wimbi-mix-1kg/p/32018",
+   "chk": "2026-11-02"
+  },
+  "status": "KE",
+  "orig": {
+   "cur": "KES",
+   "amount": 149,
+   "rate": 20.33,
+   "date": "2026-11-10"
+  },
+  "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row."
+ },
+ {
+  "key": "m_cashew",
+  "name": {
+   "en": "Unsalted cashew nuts for the mother",
+   "sw": "Korosho zisizo na chumvi kwa mama"
+  },
+  "age_from_months": null,
+  "age_to_months": null,
+  "why": {
+   "en": "A protein- and energy-rich snack for the mother. Not for young children whole (choking); they can be ground into family food.",
+   "sw": "Kitafunwa chenye protini na nishati kwa mama. Si kwa watoto wadogo zikiwa nzima (zinaweza kukaba); zinaweza kusagwa kwenye chakula cha familia."
+  },
+  "brand": "Munawar",
+  "product": "Munawar Cashewnuts Unsalted",
+  "pack": "500 g",
+  "price_tsh": 19800,
+  "src": {
+   "name": "Shoppers Supermarket",
+   "u": "https://www.shoppers.co.tz/product-detail/638a2bd7fa11de0a43b3dcd1",
+   "chk": "2026-11-10"
+  },
+  "status": "TZ"
+ }
+]

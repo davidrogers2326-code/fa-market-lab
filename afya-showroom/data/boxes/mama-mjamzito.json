@@ -1,0 +1,4254 @@
+{
+ "slug": "mama-mjamzito",
+ "name": {
+  "en": "Mama Mjamzito",
+  "sw": "Mama Mjamzito"
+ },
+ "final": false,
+ "delivery": "per-trimester",
+ "box_size": "M",
+ "who": {
+  "en": "<p>For a woman who is pregnant, from her first antenatal visit to birth. The box arrives three times, once at the start of each trimester, each carrying three months of goods. Delivering once a trimester instead of monthly is what lets the box pay its own packing and delivery (founder decision D-12, 10 Nov 2026).</p><p>It is built on the WHO recommendations on antenatal care for a positive pregnancy experience (2016): at least eight antenatal contacts; daily iron and folic acid; calcium where diets are low in calcium; ginger for nausea; preventive malaria treatment and a treated net; and advice on healthy eating and staying active. The 2016 guideline does not recommend multiple-micronutrient, vitamin B6, or vitamin C and E supplements for pregnant women, so none is sent. Tanzania’s Ministry of Health adopted the eight-contact model in its 2018 antenatal care guidelines (a draft is hosted by WHO Afro; not opened here).</p><p>Afya does not replace the clinic. The box brings the everyday goods a pregnancy needs: protection from malaria and infection, comfort for changing skin and gums, and in the third trimester a complete hospital bag. Medicines and supplements come from the licensed partner pharmacy, only as the clinic prescribes.</p>",
+  "sw": "<p>Kwa mwanamke mjamzito, tangu kliniki yake ya kwanza ya ujauzito hadi kujifungua. Boksi linakuja mara tatu, mwanzoni mwa kila kipindi cha miezi mitatu, kila moja likiwa na bidhaa za miezi mitatu. Kuleta boksi mara moja kila miezi mitatu badala ya kila mwezi ndiko kunakoliwezesha boksi kulipia gharama zake za kufunga na kusafirisha (uamuzi wa mwanzilishi D-12, 10 Nov 2026).</p><p>Limejengwa juu ya mapendekezo ya WHO kuhusu huduma ya ujauzito kwa uzoefu chanya wa ujauzito (2016): angalau mahudhurio manane ya kliniki ya ujauzito; madini ya chuma na foliki kila siku; kalsiamu pale vyakula vina kalsiamu kidogo; tangawizi kwa kichefuchefu; dawa ya kuzuia malaria na chandarua chenye dawa; na ushauri wa kula vizuri na kufanya mazoezi. Mwongozo wa 2016 haushauri virutubisho mchanganyiko, vitamini B6 wala vitamini C na E kwa wajawazito, hivyo hakuna kinachotumwa. Wizara ya Afya ya Tanzania ilipitisha mfumo wa mahudhurio manane katika miongozo yake ya huduma ya ujauzito ya mwaka 2018 (rasimu inapatikana WHO Afro; haikufunguliwa hapa).</p><p>Afya haichukui nafasi ya kliniki. Boksi linaleta bidhaa za kila siku ambazo ujauzito unahitaji: kinga dhidi ya malaria na maambukizi, faraja kwa ngozi na fizi zinazobadilika, na katika miezi mitatu ya mwisho begi kamili la hospitali. Dawa na virutubisho vinatoka kwa famasia mshirika yenye leseni, kama kliniki inavyoandika tu.</p>"
+ },
+ "clinic_line": {
+  "en": "Your clinic decides your tests, your antenatal visits and any medicine or supplement, including iron, folic acid and calcium, and their doses. Afya does not sell medicines: the licensed partner pharmacy supplies them only on the clinic’s prescription. If anything worries you, go to your clinic straight away; do not wait for the next box.",
+  "sw": "Kliniki yako ndiyo inayoamua vipimo vyako, mahudhurio yako ya kliniki ya ujauzito na dawa au virutubisho vyovyote, ikiwemo madini ya chuma, foliki na kalsiamu, pamoja na dozi zake. Afya haiuzi dawa: famasia mshirika yenye leseni huzitoa tu kwa maelekezo ya kliniki. Ukiona dalili yoyote inayokutia wasiwasi, nenda kliniki yako mara moja; usisubiri boksi lijalo."
+ },
+ "guidance": [
+  {
+   "t": "WHO 2016, Recommendations on antenatal care for a positive pregnancy experience",
+   "u": "https://www.who.int/publications/i/item/9789241549912",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO 2016 ANC recommendations, summary chart (A.1.1, A.2.1, A.3, A.6–A.8, C.5, C.6, D.1–D.5, 8 contacts)",
+   "u": "https://www.who.int/docs/default-source/reproductive-health/maternal-health/anc.pdf?sfvrsn=5e2c740e_2",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO eLENA, Daily iron and folic acid supplementation during pregnancy (updated 26 July 2024)",
+   "u": "https://www.who.int/tools/elena/interventions/daily-iron-pregnancy",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO 2018, Calcium supplementation during pregnancy for prevention of pre-eclampsia and its complications",
+   "u": "https://www.who.int/publications/i/item/9789241550451",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO eLENA, Calcium supplementation during pregnancy to reduce the risk of pre-eclampsia (updated 9 Aug 2023)",
+   "u": "https://www.who.int/tools/elena/interventions/calcium-pregnancy",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "WHO 2022, Recommendations on maternal and newborn care for a positive postnatal experience",
+   "u": "https://www.who.int/publications/i/item/9789240045989",
+   "chk": "2026-11-10"
+  },
+  {
+   "t": "Tanzania Ministry of Health, Antenatal Care Guidelines 2018 (draft, hosted by WHO Afro). Not opened: host refused; known from search results only.",
+   "u": "https://afro.who.int/sites/default/files/2019-06/Draft%20ANC%20Guidelines%202018%20-%20Final%20Copy.pdf",
+   "chk": "2026-11-10"
+  }
+ ],
+ "stages": [
+  {
+   "key": "t1",
+   "label": {
+    "en": "First trimester box",
+    "sw": "Boksi la miezi mitatu ya kwanza"
+   },
+   "months": "1–3",
+   "weeks": "1–13",
+   "box_size": "M",
+   "items": [
+    {
+     "key": "ifa",
+     "name": {
+      "en": "Iron and folic acid, one a day (partner pharmacy)",
+      "sw": "Madini ya chuma na foliki, kidonge kimoja kwa siku (famasia mshirika)"
+     },
+     "why": {
+      "en": "WHO (2016, A.2.1) recommends daily oral iron (30–60 mg elemental iron) with 400 µg folic acid through pregnancy, to prevent maternal anaemia, puerperal sepsis, low birth weight and preterm birth. Folic acid should start as early as possible. The tablets are free at public antenatal clinics; the partner pharmacy supplies them only when the clinic prescribes them and is out of stock. Afya does not sell or price them.",
+      "sw": "WHO (2016, A.2.1) inashauri madini ya chuma (mg 30–60) pamoja na foliki mikrogramu 400 kila siku katika ujauzito wote, ili kuzuia upungufu wa damu, maambukizi baada ya kujifungua, uzito mdogo wa kuzaliwa na kuzaliwa kabla ya wakati. Foliki ianze mapema iwezekanavyo. Vidonge hivi ni bure katika kliniki za umma; famasia mshirika huvitoa tu kliniki ikiviandika na ikikosa. Afya haiuzi wala haiweki bei yake."
+     },
+     "qty": {
+      "en": "90 tablets, if the clinic prescribes one a day",
+      "sw": "Vidonge 90, kliniki ikiandika kimoja kwa siku"
+     },
+     "qty_formula": "1 tablet a day × 91 days (13 weeks) ≈ 90 = 9 strips of 10. Dose and product are set by the clinic (B16); not priced in the box (B4).",
+     "units": 90,
+     "kind": "medicine",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Ferrolic",
+       "product": "Ferrolic LF tablets",
+       "pack": "10 tablets",
+       "pack_units": 10,
+       "price_tsh": 1000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/ferrolic-lf-tablets10s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Ranferon",
+       "product": "Ranferon Antianemia Iron & Folic Acid capsules",
+       "pack": "10 capsules",
+       "pack_units": 10,
+       "price_tsh": 300,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/ranferon-antianemia-capsules",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Hemovit",
+       "product": "Hemovit Iron with folic acid tablets",
+       "pack": "pack size not stated on the page",
+       "pack_units": null,
+       "price_tsh": 5500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/hemovit-iron-with-folic-acid-tablets",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Folron",
+       "product": "Folron Iron & Folic Acid Blood Building Capsules",
+       "pack": "10 capsules",
+       "pack_units": 10,
+       "price_tsh": 12000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/folron-iron-with-folic-acid-capsule",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "gin",
+     "name": {
+      "en": "Ginger tea for morning sickness",
+      "sw": "Chai ya tangawizi kwa kichefuchefu cha asubuhi"
+     },
+     "why": {
+      "en": "Nausea affects most women in early pregnancy. WHO (2016, D.1) recommends ginger, chamomile, vitamin B6 and/or acupuncture for relief, based on the woman’s preference. Small, frequent cups of ginger tea are cheap and easy to keep down. Severe vomiting is a reason to go to the clinic.",
+      "sw": "Kichefuchefu huwapata wanawake wengi mwanzoni mwa ujauzito. WHO (2016, D.1) inashauri tangawizi, kamomile, vitamini B6 na/au acupuncture kupunguza tatizo hili, kulingana na anachopendelea mama. Vikombe vidogo vya chai ya tangawizi mara kwa mara ni nafuu na hukaa tumboni kwa urahisi. Kutapika sana ni sababu ya kwenda kliniki."
+     },
+     "qty": {
+      "en": "90 tea bags",
+      "sw": "Mifuko 90 ya chai"
+     },
+     "qty_formula": "1 cup a day × 13 weeks ≈ 90 bags (first trimester only).",
+     "units": 90,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Melvins",
+       "product": "Ginger tea bags",
+       "pack": "100 bags",
+       "pack_units": 100,
+       "price_tsh": 2948,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/black-bags/melvins-ginger-tea-bags-untag-100g/p/40538",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 145,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Kericho Gold",
+       "product": "Ginger & lemon tea",
+       "pack": "20 bags",
+       "pack_units": 20,
+       "price_tsh": 5387,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/flavored-bags/kericho-gold-ginger-lemon-40/p/56542",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 265,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Heath & Heather",
+       "product": "Organic lemon & ginger tea",
+       "pack": "20 bags",
+       "pack_units": 20,
+       "price_tsh": 36574,
+       "src": {
+        "name": "Jumia Kenya",
+        "u": "https://www.jumia.co.ke/organic-lemon-and-ginger-tea-20s-heath-heather-mpg10586418.html",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1799,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row. Far above the range of the other two; kept only as a premium swap.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "rep",
+     "name": {
+      "en": "Mosquito repellent",
+      "sw": "Dawa ya kufukuza mbu"
+     },
+     "why": {
+      "en": "Malaria in pregnancy causes maternal anaemia, low birth weight and stillbirth. A repellent covers the evening hours outdoors before the woman is under her net. It adds to, and never replaces, the clinic’s preventive malaria treatment (IPTp, WHO 2016 C.6) and the treated net. Use only products whose label states the active ingredient and that they may be used in pregnancy.",
+      "sw": "Malaria wakati wa ujauzito husababisha upungufu wa damu kwa mama, uzito mdogo wa mtoto na mtoto kuzaliwa amekufa. Dawa ya kufukuza mbu hulinda saa za jioni nje kabla mama hajaingia kwenye chandarua. Inaongeza, na kamwe haichukui nafasi ya, dawa ya kliniki ya kuzuia malaria (IPTp, WHO 2016 C.6) na chandarua chenye dawa. Tumia tu bidhaa ambazo lebo yake inataja kiambato hai na kwamba inafaa wakati wa ujauzito."
+     },
+     "qty": {
+      "en": "3 packs (one a month)",
+      "sw": "Pakiti 3 (moja kwa mwezi)"
+     },
+     "qty_formula": "1 roll-on or spray a month × 3 months = 3.",
+     "units": 3,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Odomos",
+       "product": "Odomos Roll On",
+       "pack": "50 g",
+       "pack_units": 1,
+       "price_tsh": 4600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b6d4553c6d5732d0a36f8",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "No-Bite",
+       "product": "Nobite Roll On Insect Repellent",
+       "pack": "40 ml",
+       "pack_units": 1,
+       "price_tsh": 8200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b993f53c6d5732d0a379e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "No-Bite",
+       "product": "No-Bite Mosquito Repellent Roll-On",
+       "pack": "45 ml",
+       "pack_units": 1,
+       "price_tsh": 9000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/mosquito-repellent-roll-on-no-bite-45m",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Peaceful Sleep",
+       "product": "Peaceful Sleep Stick Roll On",
+       "pack": "30 ml",
+       "pack_units": 1,
+       "price_tsh": 9500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b71ec53c6d5732d0a370e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "No-Bite",
+       "product": "No-bite Spray Insect Repellent",
+       "pack": "120 ml",
+       "pack_units": 1,
+       "price_tsh": 10600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/604f5e82da3fef0287051085",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "net",
+     "name": {
+      "en": "Long-lasting insecticide-treated mosquito net",
+      "sw": "Chandarua chenye dawa cha muda mrefu"
+     },
+     "why": {
+      "en": "Sleeping under an insecticide-treated net protects the mother now and the newborn later, who will sleep in the parents’ bed or beside it. Most nets sold in Tanzanian shops are untreated, so the box brings one WHO-prequalified long-lasting treated net, once, in the first trimester box.",
+      "sw": "Kulala chini ya chandarua chenye dawa humlinda mama sasa na mtoto mchanga baadaye, atakayelala kitandani mwa wazazi au pembeni yake. Vyandarua vingi vinavyouzwa madukani Tanzania havina dawa, hivyo boksi linaleta chandarua kimoja cha muda mrefu chenye dawa, kilichoidhinishwa na WHO, mara moja tu, kwenye boksi la miezi mitatu ya kwanza."
+     },
+     "qty": {
+      "en": "1 net (first trimester box only)",
+      "sw": "Chandarua 1 (boksi la miezi mitatu ya kwanza tu)"
+     },
+     "qty_formula": "1 net for the parents’ bed; lasts about 3 years.",
+     "units": 1,
+     "kind": "goods",
+     "cost_class": "own",
+     "brands": [
+      {
+       "brand": "WHO-prequalified LLIN (brand to be quoted)",
+       "product": "Long-lasting insecticidal net, family size",
+       "pack": "1 net",
+       "pack_units": 1,
+       "price_tsh": 10000,
+       "src": {
+        "name": "Estimate",
+        "u": "https://www.mdpi.com/2414-6366/10/6/175",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "EST",
+       "note": "Estimate. Basis: the code’s planning figure, close to the median retail price of an untreated net in a 2024 Tanzanian survey (TSh 9,000–10,000, mdpi.com, not re-opened). No retail price for a treated net was found on AfyaDepot or Shoppers on 10 Nov 2026; a distributor quote is needed.",
+       "afya_choice": true,
+       "default": true
+      }
+     ]
+    },
+    {
+     "key": "hand",
+     "name": {
+      "en": "Hand soap for the home",
+      "sw": "Sabuni ya kunawa mikono nyumbani"
+     },
+     "why": {
+      "en": "Handwashing with soap is the cheapest infection control a household has: community handwashing promotion cuts child diarrhoea by about 30% (Cochrane). The habit set in pregnancy protects the newborn: wash after the toilet, before food and, later, after every nappy and before every feed.",
+      "sw": "Kunawa mikono kwa sabuni ndiyo kinga ya maambukizi ya bei nafuu zaidi kwa kaya: kuhamasisha unawaji wa mikono hupunguza kuharisha kwa watoto kwa takriban asilimia 30 (Cochrane). Tabia inayojengwa wakati wa ujauzito humlinda mtoto mchanga: nawa baada ya choo, kabla ya chakula na, baadaye, baada ya kila nepi na kabla ya kila kunyonyesha."
+     },
+     "qty": {
+      "en": "About 1,050 g of bar soap (six 175 g bars)",
+      "sw": "Takriban gramu 1,050 za sabuni ya kipande (vipande sita vya gramu 175)"
+     },
+     "qty_formula": "2 bars of about 175 g a month × 3 months = 6 bars ≈ 1,050 g.",
+     "units": 1050,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Lifebuoy",
+       "product": "Lifebuoy Soap, assorted",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 3500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6a6dd151d4b3dce59b40cc2f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Dettol",
+       "product": "Dettol Herbal Soap 6-pack",
+       "pack": "6 × 175 g",
+       "pack_units": 1050,
+       "price_tsh": 21000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/649fd5a40eb6b270e24edef3",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dettol",
+       "product": "Dettol Soap",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 4500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602683c353c6d5732d0a35e6",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Protex",
+       "product": "Protex Herbal Antibacterial Soap",
+       "pack": "90 g",
+       "pack_units": 90,
+       "price_tsh": 4500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/protex-herbal-bar-soap-90g",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Protex",
+       "product": "Protex Deep Clean Antibacterial Soap",
+       "pack": "100 g",
+       "pack_units": 100,
+       "price_tsh": 4500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/protex-deep-clean-bar-soap-100g",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "water",
+     "name": {
+      "en": "Drinking-water treatment",
+      "sw": "Dawa ya kutibu maji ya kunywa"
+     },
+     "why": {
+      "en": "Tap and well water in Dar es Salaam is not reliably safe, and diarrhoea in pregnancy dehydrates the mother. Chlorinating drinking water at home cuts diarrhoea by about a quarter (Cochrane). Boiling is a good alternative where fuel allows.",
+      "sw": "Maji ya bomba na ya kisima Dar es Salaam si salama kila wakati, na kuharisha wakati wa ujauzito humkausha mama maji mwilini. Kuweka klorini kwenye maji ya kunywa nyumbani hupunguza kuharisha kwa takriban robo (Cochrane). Kuchemsha maji ni njia nzuri mbadala pale nishati inaporuhusu."
+     },
+     "qty": {
+      "en": "Enough to treat about 1,000 litres",
+      "sw": "Ya kutosha kutibu takriban lita 1,000"
+     },
+     "qty_formula": "about 10 L of drinking and cooking water a day × 91 days ≈ 910 L → one 150 ml WaterGuard bottle (≈1,000 L). units = litres treated.",
+     "units": 1000,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "WaterGuard",
+       "product": "Drinking-water treatment (sodium hypochlorite)",
+       "pack": "150 ml, treats about 1,000 L",
+       "pack_units": 1000,
+       "price_tsh": 6099,
+       "src": {
+        "name": "Jumia Kenya",
+        "u": "https://www.jumia.co.ke/waterguard-drinking-water-purifier-58949465.html",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 300,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Aquatabs",
+       "product": "67 mg water purification tablets (1 tablet per 20 L)",
+       "pack": "100 tablets, treats 2,000 L",
+       "pack_units": 2000,
+       "price_tsh": 10165,
+       "src": {
+        "name": "Jumia Kenya",
+        "u": "https://www.jumia.co.ke/aquatabs-67mg-water-purification-tablets-pack-of-100-330120133.html",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 500,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Aquaguard",
+       "product": "Water purifier liquid",
+       "pack": "500 ml (litres treated not stated)",
+       "pack_units": null,
+       "price_tsh": 2033,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/face-care-whitening/aquaguard-water-purifier-500ml/p/9272",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 100,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "mcare",
+     "name": {
+      "en": "Shower and body wash for mum",
+      "sw": "Sabuni ya kuogea ya mama"
+     },
+     "why": {
+      "en": "Skin is often drier and more sensitive in pregnancy. A mild, creamy wash every day is part of the mother’s own care; strongly perfumed soaps are the commonest irritant.",
+      "sw": "Ngozi mara nyingi huwa kavu zaidi na nyeti wakati wa ujauzito. Sabuni laini yenye krimu kila siku ni sehemu ya kujitunza kwa mama; sabuni zenye manukato makali ndizo huwasha ngozi zaidi."
+     },
+     "qty": {
+      "en": "750 ml",
+      "sw": "Mililita 750"
+     },
+     "qty_formula": "about 8 ml a day × 91 days ≈ 730 ml → 750 ml.",
+     "units": 750,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Dove",
+       "product": "Dove Shower Cream",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 12000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026875053c6d5732d0a35ef",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Dove",
+       "product": "Dove Shower Gel Relaxing Natural",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 13800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6a930e3fd4b3dce59b40cdf3",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Hobby",
+       "product": "Hobby Body Wash, assorted",
+       "pack": "1 L",
+       "pack_units": 1000,
+       "price_tsh": 15800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/68de835e92a77f6bb268ba9a",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nivea",
+       "product": "Nivea Shower Gel Creme Soft",
+       "pack": "250 ml",
+       "pack_units": 250,
+       "price_tsh": 11500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60c064c6753c0d1ace90a872",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dettol",
+       "product": "Dettol Shower Gel Sensitive",
+       "pack": "300 ml",
+       "pack_units": 300,
+       "price_tsh": 13000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60bf5ba6791c2d11b5e2a64f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "tpm",
+     "name": {
+      "en": "Fluoride toothpaste",
+      "sw": "Dawa ya meno yenye floraidi"
+     },
+     "why": {
+      "en": "Hormonal change makes gums swell and bleed more easily in pregnancy. Twice-daily brushing with fluoride toothpaste is the simple protection. Check that the pack says it contains fluoride.",
+      "sw": "Mabadiliko ya homoni hufanya fizi kuvimba na kutoa damu kwa urahisi zaidi wakati wa ujauzito. Kupiga mswaki mara mbili kwa siku kwa dawa ya meno yenye floraidi ndiyo kinga rahisi. Hakikisha pakiti inaonyesha kuwa ina floraidi."
+     },
+     "qty": {
+      "en": "One tube of about 190 g",
+      "sw": "Tyubu moja ya takriban gramu 190"
+     },
+     "qty_formula": "about 2 g a day (two brushings) × 91 days ≈ 180 g → one 190 g tube.",
+     "units": 190,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Whitedent",
+       "product": "Whitedent Herbal Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 4100,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b959d53c6d5732d0a378c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true,
+       "note": "Fluoride content not shown on the listing; confirm on the pack before it is the default."
+      },
+      {
+       "brand": "Whitedent",
+       "product": "Whitedent Gel Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 3800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/66eb11b5ad21bfe77df6b23e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false,
+       "note": "Fluoride content not shown on the listing; confirm on the pack before it is the default."
+      },
+      {
+       "brand": "Colgate",
+       "product": "Colgate Maximum Protection",
+       "pack": "140 g",
+       "pack_units": 140,
+       "price_tsh": 5900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026787c53c6d5732d0a35c5",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Sensodyne",
+       "product": "Sensodyne Extra Fresh",
+       "pack": "75 ml",
+       "pack_units": 75,
+       "price_tsh": 5300,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b7d5a53c6d5732d0a3735",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Colgate",
+       "product": "Colgate Natural Extracts Toothpaste",
+       "pack": "75 ml",
+       "pack_units": 75,
+       "price_tsh": 8500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/colgate-natural-extracts-toothpaste-75ml",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "tbr",
+     "name": {
+      "en": "Toothbrush",
+      "sw": "Mswaki"
+     },
+     "why": {
+      "en": "A fresh brush every three months, as dentists advise; a soft or medium head is kinder to bleeding gums.",
+      "sw": "Mswaki mpya kila baada ya miezi mitatu, kama madaktari wa meno wanavyoshauri; mswaki laini au wa wastani ni bora kwa fizi zinazotoa damu."
+     },
+     "qty": {
+      "en": "1 brush",
+      "sw": "Mswaki 1"
+     },
+     "qty_formula": "1 brush every 3 months = 1 per trimester box.",
+     "units": 1,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Double Action",
+       "product": "Activated Charcoal Toothbrush (Medium)",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 2000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/charcoal-infused-double-action-toothbrush-medium",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Colgate",
+       "product": "Colgate Extra Clean Tooth Brush Medium",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 2900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026784453c6d5732d0a35c4",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Eco-Smile",
+       "product": "Essential Toothbrush with Tongue Scraper",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 3000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/eco-smile-essential-toothbrush-with-a-tongue-scraper",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Oral-B",
+       "product": "Oral B 3 Effect Toothbrush 40 Medium",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 3200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b6ef453c6d5732d0a36fe",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Whitedent",
+       "product": "Whitedent toothbrush regular",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 350,
+       "src": {
+        "name": "superstore.co.tz",
+        "u": "https://superstore.co.tz/shop/all-products/whitedent-toothbrush-regular/",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; price as recorded in the code on 2 Nov 2026.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "lin",
+     "name": {
+      "en": "Panty liners",
+      "sw": "Pedi nyembamba za kila siku (panty liners)"
+     },
+     "why": {
+      "en": "Vaginal discharge normally increases in pregnancy. Breathable, unscented liners keep the day comfortable. A change in colour or smell, itching or any bleeding is a reason to go to the clinic.",
+      "sw": "Ute wa ukeni kwa kawaida huongezeka wakati wa ujauzito. Pedi nyembamba zisizo na manukato na zinazopitisha hewa humpa mama faraja mchana. Mabadiliko ya rangi au harufu, muwasho au damu yoyote ni sababu ya kwenda kliniki."
+     },
+     "qty": {
+      "en": "80 liners",
+      "sw": "Pedi 80"
+     },
+     "qty_formula": "about one a day on most days × 91 days → two packs of 40 = 80.",
+     "units": 80,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Kotex",
+       "product": "Normal panty liners",
+       "pack": "40",
+       "pack_units": 40,
+       "price_tsh": 5083,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pantyliners/kotex-panty-liners-normal40-s/p/95513",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 250,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Molped",
+       "product": "Intense panty liners",
+       "pack": "20",
+       "pack_units": 20,
+       "price_tsh": 3253,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pantyliners/molped-panty-linner-intense-pr20-s/p/221959",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 160,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Always",
+       "product": "Everyday panty liners, large",
+       "pack": "16",
+       "pack_units": 16,
+       "price_tsh": 5387,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pantyliners/always-everyday-large-liner16/p/23396",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 265,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Always",
+       "product": "Dailies 100% organic cotton panty liners",
+       "pack": "28",
+       "pack_units": 28,
+       "price_tsh": 17281,
+       "src": {
+        "name": "Portal Pharmacy (Kenya)",
+        "u": "https://portalpharmacy.ke/feminine-care/always-dailies-100-organic-cotton-pantiliners-x28",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 850,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row. Above the range of the others; premium swap.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "iwash",
+     "name": {
+      "en": "Gentle intimate wash, external use only",
+      "sw": "Sabuni laini ya sehemu za siri, matumizi ya nje tu"
+     },
+     "why": {
+      "en": "The vagina cleans itself. Wash only the outside, once a day, with water and a mild unperfumed cleanser; never douche. Perfumed soaps and gels irritate, which is why a gentle, pH-balanced wash is offered. Plain water is also enough.",
+      "sw": "Uke hujisafisha wenyewe. Osha sehemu ya nje tu, mara moja kwa siku, kwa maji na sabuni laini isiyo na manukato; usisafishe ndani ya uke kamwe. Sabuni na jeli zenye manukato huwasha, ndiyo sababu sabuni laini yenye pH sawia inatolewa. Maji safi peke yake pia yanatosha."
+     },
+     "qty": {
+      "en": "1 bottle of about 250 ml",
+      "sw": "Chupa 1 ya takriban ml 250"
+     },
+     "qty_formula": "2–3 ml once a day × 91 days ≈ 230 ml → one 250 ml bottle.",
+     "units": 250,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Beauty Formulas",
+       "product": "Feminine Intimate Wash, gentle",
+       "pack": "250 ml",
+       "pack_units": 250,
+       "price_tsh": 18195,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-tampons-hygiene/b-formulas-intimate-wash-gentl250ml/p/84764",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 895,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Vivasol",
+       "product": "Daily Intimate V Wash",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 15000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/daily-intimate-wash-vivasol-v-wash",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Femfresh",
+       "product": "Intimate Sensitive Wash",
+       "pack": "250 ml",
+       "pack_units": 250,
+       "price_tsh": 30495,
+       "src": {
+        "name": "Portal Pharmacy (Kenya)",
+        "u": "https://portalpharmacy.ke/feminine-care/femfresh-intimate-sensitive-wash-250ml",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1500,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Sebamed",
+       "product": "Feminine Intimate Wash pH 3.8",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 50825,
+       "src": {
+        "name": "Portal Pharmacy (Kenya)",
+        "u": "https://portalpharmacy.ke/feminine-care/intimate-wash/sebamed-feminine-intimate-wash-200ml",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 2500,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row. Above the range of the others; premium swap.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    }
+   ],
+   "pricing": {
+    "shelf_value": 106013,
+    "landed_goods": 79890,
+    "packing": 5000,
+    "delivery": 3500,
+    "plans": {
+     "buy_once": {
+      "price": 106000,
+      "saving_vs_shelf": 13,
+      "margin": 17610,
+      "margin_pct": 16.6
+     },
+     "m1": {
+      "price": 103000,
+      "saving_vs_shelf": 3013,
+      "margin": 13580,
+      "margin_pct": 13.2
+     },
+     "m6": {
+      "price": 99500,
+      "saving_vs_shelf": 6513,
+      "margin": 10115,
+      "margin_pct": 10.2
+     },
+     "m12": {
+      "price": 96500,
+      "saving_vs_shelf": 9513,
+      "margin": 7145,
+      "margin_pct": 7.4
+     }
+    },
+    "monthly_alt_12m_margin_per_month": -1950
+   }
+  },
+  {
+   "key": "t2",
+   "label": {
+    "en": "Second trimester box",
+    "sw": "Boksi la miezi mitatu ya pili"
+   },
+   "months": "4–6",
+   "weeks": "14–27",
+   "box_size": "M",
+   "items": [
+    {
+     "key": "ifa",
+     "name": {
+      "en": "Iron and folic acid, one a day (partner pharmacy)",
+      "sw": "Madini ya chuma na foliki, kidonge kimoja kwa siku (famasia mshirika)"
+     },
+     "why": {
+      "en": "WHO (2016, A.2.1) recommends daily oral iron (30–60 mg elemental iron) with 400 µg folic acid through pregnancy, to prevent maternal anaemia, puerperal sepsis, low birth weight and preterm birth. Folic acid should start as early as possible. The tablets are free at public antenatal clinics; the partner pharmacy supplies them only when the clinic prescribes them and is out of stock. Afya does not sell or price them.",
+      "sw": "WHO (2016, A.2.1) inashauri madini ya chuma (mg 30–60) pamoja na foliki mikrogramu 400 kila siku katika ujauzito wote, ili kuzuia upungufu wa damu, maambukizi baada ya kujifungua, uzito mdogo wa kuzaliwa na kuzaliwa kabla ya wakati. Foliki ianze mapema iwezekanavyo. Vidonge hivi ni bure katika kliniki za umma; famasia mshirika huvitoa tu kliniki ikiviandika na ikikosa. Afya haiuzi wala haiweki bei yake."
+     },
+     "qty": {
+      "en": "90 tablets, if the clinic prescribes one a day",
+      "sw": "Vidonge 90, kliniki ikiandika kimoja kwa siku"
+     },
+     "qty_formula": "1 tablet a day × 91 days (13 weeks) ≈ 90 = 9 strips of 10. Dose and product are set by the clinic (B16); not priced in the box (B4).",
+     "units": 90,
+     "kind": "medicine",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Ferrolic",
+       "product": "Ferrolic LF tablets",
+       "pack": "10 tablets",
+       "pack_units": 10,
+       "price_tsh": 1000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/ferrolic-lf-tablets10s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Ranferon",
+       "product": "Ranferon Antianemia Iron & Folic Acid capsules",
+       "pack": "10 capsules",
+       "pack_units": 10,
+       "price_tsh": 300,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/ranferon-antianemia-capsules",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Hemovit",
+       "product": "Hemovit Iron with folic acid tablets",
+       "pack": "pack size not stated on the page",
+       "pack_units": null,
+       "price_tsh": 5500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/hemovit-iron-with-folic-acid-tablets",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Folron",
+       "product": "Folron Iron & Folic Acid Blood Building Capsules",
+       "pack": "10 capsules",
+       "pack_units": 10,
+       "price_tsh": 12000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/folron-iron-with-folic-acid-capsule",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "calc",
+     "name": {
+      "en": "Calcium, from week 20 (partner pharmacy, if the clinic prescribes it)",
+      "sw": "Kalsiamu, kuanzia wiki ya 20 (famasia mshirika, kliniki ikiandika)"
+     },
+     "why": {
+      "en": "Pre-eclampsia (dangerously high blood pressure in pregnancy) is a leading cause of maternal death. Where diets are low in calcium, WHO (2016, A.3; revalidated 2018) recommends 1.5–2.0 g elemental calcium a day from 20 weeks to birth. A 2024 trial in Dar es Salaam and India found 500 mg a day non-inferior against pre-eclampsia, but the dose is the clinic’s decision. Calcium is taken at a different meal from iron. Sold by the partner pharmacy; not priced in the box.",
+      "sw": "Priklampsia (shinikizo la damu la hatari wakati wa ujauzito) ni miongoni mwa visababishi vikuu vya vifo vya akina mama. Pale vyakula vina kalsiamu kidogo, WHO (2016, A.3; ilithibitishwa tena 2018) inashauri gramu 1.5–2.0 za kalsiamu kila siku kuanzia wiki ya 20 hadi kujifungua. Utafiti wa mwaka 2024 Dar es Salaam na India ulionyesha mg 500 kwa siku zinafaa sawa dhidi ya priklampsia, lakini kipimo ni uamuzi wa kliniki. Kalsiamu humezwa mlo tofauti na madini ya chuma. Inauzwa na famasia mshirika; haiwekewi bei kwenye boksi."
+     },
+     "qty": {
+      "en": "As the clinic prescribes",
+      "sw": "Kama kliniki inavyoandika"
+     },
+     "qty_formula": "units 0: dose set by the clinic. Covers weeks 20–27 (56 days). WHO: 1.5–2.0 g elemental calcium a day where diets are low in calcium; Dar es Salaam trial: 500 mg a day.",
+     "units": 0,
+     "kind": "medicine",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Vitabiotics",
+       "product": "Osteocare Chewable Calcium Tablets",
+       "pack": "30 tablets",
+       "pack_units": 30,
+       "price_tsh": 30000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/osteocare-chewable-tablets-30s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Calcivita",
+       "product": "Calcivita tablets",
+       "pack": "50 tablets",
+       "pack_units": 50,
+       "price_tsh": 19500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/calcivita-tablets-50s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Calcium per tablet not stated on the listing; confirm on the pack.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Maxcal",
+       "product": "Maxcal Calcium & Vitamin D3 Capsules",
+       "pack": "30 capsules",
+       "pack_units": 30,
+       "price_tsh": 24000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/maxcal-capsules-30s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vitabiotics",
+       "product": "Osteocare Original Tablet",
+       "pack": "30 tablets",
+       "pack_units": 30,
+       "price_tsh": 28000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/osteocare-original",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Jamieson",
+       "product": "Calcium Magnesium + D3 caplets (333 mg calcium each)",
+       "pack": "200 caplets",
+       "pack_units": 200,
+       "price_tsh": 42510,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/jamieson-calcium-magnesium-d3-caplets-200s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 2091,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "rep",
+     "name": {
+      "en": "Mosquito repellent",
+      "sw": "Dawa ya kufukuza mbu"
+     },
+     "why": {
+      "en": "Malaria in pregnancy causes maternal anaemia, low birth weight and stillbirth. A repellent covers the evening hours outdoors before the woman is under her net. It adds to, and never replaces, the clinic’s preventive malaria treatment (IPTp, WHO 2016 C.6) and the treated net. Use only products whose label states the active ingredient and that they may be used in pregnancy.",
+      "sw": "Malaria wakati wa ujauzito husababisha upungufu wa damu kwa mama, uzito mdogo wa mtoto na mtoto kuzaliwa amekufa. Dawa ya kufukuza mbu hulinda saa za jioni nje kabla mama hajaingia kwenye chandarua. Inaongeza, na kamwe haichukui nafasi ya, dawa ya kliniki ya kuzuia malaria (IPTp, WHO 2016 C.6) na chandarua chenye dawa. Tumia tu bidhaa ambazo lebo yake inataja kiambato hai na kwamba inafaa wakati wa ujauzito."
+     },
+     "qty": {
+      "en": "3 packs (one a month)",
+      "sw": "Pakiti 3 (moja kwa mwezi)"
+     },
+     "qty_formula": "1 roll-on or spray a month × 3 months = 3.",
+     "units": 3,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Odomos",
+       "product": "Odomos Roll On",
+       "pack": "50 g",
+       "pack_units": 1,
+       "price_tsh": 4600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b6d4553c6d5732d0a36f8",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "No-Bite",
+       "product": "Nobite Roll On Insect Repellent",
+       "pack": "40 ml",
+       "pack_units": 1,
+       "price_tsh": 8200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b993f53c6d5732d0a379e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "No-Bite",
+       "product": "No-Bite Mosquito Repellent Roll-On",
+       "pack": "45 ml",
+       "pack_units": 1,
+       "price_tsh": 9000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/mosquito-repellent-roll-on-no-bite-45m",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Peaceful Sleep",
+       "product": "Peaceful Sleep Stick Roll On",
+       "pack": "30 ml",
+       "pack_units": 1,
+       "price_tsh": 9500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b71ec53c6d5732d0a370e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "No-Bite",
+       "product": "No-bite Spray Insect Repellent",
+       "pack": "120 ml",
+       "pack_units": 1,
+       "price_tsh": 10600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/604f5e82da3fef0287051085",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "hand",
+     "name": {
+      "en": "Hand soap for the home",
+      "sw": "Sabuni ya kunawa mikono nyumbani"
+     },
+     "why": {
+      "en": "Handwashing with soap is the cheapest infection control a household has: community handwashing promotion cuts child diarrhoea by about 30% (Cochrane). The habit set in pregnancy protects the newborn: wash after the toilet, before food and, later, after every nappy and before every feed.",
+      "sw": "Kunawa mikono kwa sabuni ndiyo kinga ya maambukizi ya bei nafuu zaidi kwa kaya: kuhamasisha unawaji wa mikono hupunguza kuharisha kwa watoto kwa takriban asilimia 30 (Cochrane). Tabia inayojengwa wakati wa ujauzito humlinda mtoto mchanga: nawa baada ya choo, kabla ya chakula na, baadaye, baada ya kila nepi na kabla ya kila kunyonyesha."
+     },
+     "qty": {
+      "en": "About 1,050 g of bar soap (six 175 g bars)",
+      "sw": "Takriban gramu 1,050 za sabuni ya kipande (vipande sita vya gramu 175)"
+     },
+     "qty_formula": "2 bars of about 175 g a month × 3 months = 6 bars ≈ 1,050 g.",
+     "units": 1050,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Lifebuoy",
+       "product": "Lifebuoy Soap, assorted",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 3500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6a6dd151d4b3dce59b40cc2f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Dettol",
+       "product": "Dettol Herbal Soap 6-pack",
+       "pack": "6 × 175 g",
+       "pack_units": 1050,
+       "price_tsh": 21000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/649fd5a40eb6b270e24edef3",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dettol",
+       "product": "Dettol Soap",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 4500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602683c353c6d5732d0a35e6",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Protex",
+       "product": "Protex Herbal Antibacterial Soap",
+       "pack": "90 g",
+       "pack_units": 90,
+       "price_tsh": 4500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/protex-herbal-bar-soap-90g",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Protex",
+       "product": "Protex Deep Clean Antibacterial Soap",
+       "pack": "100 g",
+       "pack_units": 100,
+       "price_tsh": 4500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/protex-deep-clean-bar-soap-100g",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "water",
+     "name": {
+      "en": "Drinking-water treatment",
+      "sw": "Dawa ya kutibu maji ya kunywa"
+     },
+     "why": {
+      "en": "Tap and well water in Dar es Salaam is not reliably safe, and diarrhoea in pregnancy dehydrates the mother. Chlorinating drinking water at home cuts diarrhoea by about a quarter (Cochrane). Boiling is a good alternative where fuel allows.",
+      "sw": "Maji ya bomba na ya kisima Dar es Salaam si salama kila wakati, na kuharisha wakati wa ujauzito humkausha mama maji mwilini. Kuweka klorini kwenye maji ya kunywa nyumbani hupunguza kuharisha kwa takriban robo (Cochrane). Kuchemsha maji ni njia nzuri mbadala pale nishati inaporuhusu."
+     },
+     "qty": {
+      "en": "Enough to treat about 1,000 litres",
+      "sw": "Ya kutosha kutibu takriban lita 1,000"
+     },
+     "qty_formula": "about 10 L of drinking and cooking water a day × 91 days ≈ 910 L → one 150 ml WaterGuard bottle (≈1,000 L). units = litres treated.",
+     "units": 1000,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "WaterGuard",
+       "product": "Drinking-water treatment (sodium hypochlorite)",
+       "pack": "150 ml, treats about 1,000 L",
+       "pack_units": 1000,
+       "price_tsh": 6099,
+       "src": {
+        "name": "Jumia Kenya",
+        "u": "https://www.jumia.co.ke/waterguard-drinking-water-purifier-58949465.html",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 300,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Aquatabs",
+       "product": "67 mg water purification tablets (1 tablet per 20 L)",
+       "pack": "100 tablets, treats 2,000 L",
+       "pack_units": 2000,
+       "price_tsh": 10165,
+       "src": {
+        "name": "Jumia Kenya",
+        "u": "https://www.jumia.co.ke/aquatabs-67mg-water-purification-tablets-pack-of-100-330120133.html",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 500,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Aquaguard",
+       "product": "Water purifier liquid",
+       "pack": "500 ml (litres treated not stated)",
+       "pack_units": null,
+       "price_tsh": 2033,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/face-care-whitening/aquaguard-water-purifier-500ml/p/9272",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 100,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "mcare",
+     "name": {
+      "en": "Shower and body wash for mum",
+      "sw": "Sabuni ya kuogea ya mama"
+     },
+     "why": {
+      "en": "Skin is often drier and more sensitive in pregnancy. A mild, creamy wash every day is part of the mother’s own care; strongly perfumed soaps are the commonest irritant.",
+      "sw": "Ngozi mara nyingi huwa kavu zaidi na nyeti wakati wa ujauzito. Sabuni laini yenye krimu kila siku ni sehemu ya kujitunza kwa mama; sabuni zenye manukato makali ndizo huwasha ngozi zaidi."
+     },
+     "qty": {
+      "en": "750 ml",
+      "sw": "Mililita 750"
+     },
+     "qty_formula": "about 8 ml a day × 91 days ≈ 730 ml → 750 ml.",
+     "units": 750,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Dove",
+       "product": "Dove Shower Cream",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 12000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026875053c6d5732d0a35ef",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Dove",
+       "product": "Dove Shower Gel Relaxing Natural",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 13800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6a930e3fd4b3dce59b40cdf3",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Hobby",
+       "product": "Hobby Body Wash, assorted",
+       "pack": "1 L",
+       "pack_units": 1000,
+       "price_tsh": 15800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/68de835e92a77f6bb268ba9a",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nivea",
+       "product": "Nivea Shower Gel Creme Soft",
+       "pack": "250 ml",
+       "pack_units": 250,
+       "price_tsh": 11500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60c064c6753c0d1ace90a872",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dettol",
+       "product": "Dettol Shower Gel Sensitive",
+       "pack": "300 ml",
+       "pack_units": 300,
+       "price_tsh": 13000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60bf5ba6791c2d11b5e2a64f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "skin",
+     "name": {
+      "en": "Body lotion for stretching skin",
+      "sw": "Losheni ya mwili kwa ngozi inayotanuka"
+     },
+     "why": {
+      "en": "From the second trimester the skin of the belly, breasts and thighs stretches and often itches. A rich lotion eases dryness. No cream or oil has been shown to prevent stretch marks, and Afya makes no such claim. Intense itching, especially of the palms and soles, is a reason to tell the clinic.",
+      "sw": "Kuanzia miezi mitatu ya pili ngozi ya tumbo, matiti na mapaja hutanuka na mara nyingi huwasha. Losheni nzito hupunguza ukavu. Hakuna krimu wala mafuta yaliyothibitishwa kuzuia michirizi, na Afya haitoi dai hilo. Muwasho mkali, hasa wa viganja na nyayo, ni sababu ya kuiambia kliniki."
+     },
+     "qty": {
+      "en": "800 ml (two 400 ml bottles)",
+      "sw": "Mililita 800 (chupa mbili za ml 400)"
+     },
+     "qty_formula": "about 8 ml a day (belly, breasts, thighs) × 91 days ≈ 730 ml → two 400 ml bottles.",
+     "units": 800,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Dove",
+       "product": "Dove Intensive Nourish Body Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 12700,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/630f80a1fa11de0a43b3ab91",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Vaseline",
+       "product": "Vaseline Intensive Dry Skin Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 14600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60c06eda753c0d1ace90a894",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vaseline",
+       "product": "Vaseline Intensive Cocoa Glow Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 14600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60c06e8e753c0d1ace90a893",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vaseline",
+       "product": "Vaseline Intensive Aloe Smooth Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 14600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60c06e5c753c0d1ace90a892",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Bodidoc",
+       "product": "Bodidoc Deep Hydrating Tissue Oil Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 15000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/bodydoc-lotion",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "tpm",
+     "name": {
+      "en": "Fluoride toothpaste",
+      "sw": "Dawa ya meno yenye floraidi"
+     },
+     "why": {
+      "en": "Hormonal change makes gums swell and bleed more easily in pregnancy. Twice-daily brushing with fluoride toothpaste is the simple protection. Check that the pack says it contains fluoride.",
+      "sw": "Mabadiliko ya homoni hufanya fizi kuvimba na kutoa damu kwa urahisi zaidi wakati wa ujauzito. Kupiga mswaki mara mbili kwa siku kwa dawa ya meno yenye floraidi ndiyo kinga rahisi. Hakikisha pakiti inaonyesha kuwa ina floraidi."
+     },
+     "qty": {
+      "en": "One tube of about 190 g",
+      "sw": "Tyubu moja ya takriban gramu 190"
+     },
+     "qty_formula": "about 2 g a day (two brushings) × 91 days ≈ 180 g → one 190 g tube.",
+     "units": 190,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Whitedent",
+       "product": "Whitedent Herbal Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 4100,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b959d53c6d5732d0a378c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true,
+       "note": "Fluoride content not shown on the listing; confirm on the pack before it is the default."
+      },
+      {
+       "brand": "Whitedent",
+       "product": "Whitedent Gel Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 3800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/66eb11b5ad21bfe77df6b23e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false,
+       "note": "Fluoride content not shown on the listing; confirm on the pack before it is the default."
+      },
+      {
+       "brand": "Colgate",
+       "product": "Colgate Maximum Protection",
+       "pack": "140 g",
+       "pack_units": 140,
+       "price_tsh": 5900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026787c53c6d5732d0a35c5",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Sensodyne",
+       "product": "Sensodyne Extra Fresh",
+       "pack": "75 ml",
+       "pack_units": 75,
+       "price_tsh": 5300,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b7d5a53c6d5732d0a3735",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Colgate",
+       "product": "Colgate Natural Extracts Toothpaste",
+       "pack": "75 ml",
+       "pack_units": 75,
+       "price_tsh": 8500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/colgate-natural-extracts-toothpaste-75ml",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "tbr",
+     "name": {
+      "en": "Toothbrush",
+      "sw": "Mswaki"
+     },
+     "why": {
+      "en": "A fresh brush every three months, as dentists advise; a soft or medium head is kinder to bleeding gums.",
+      "sw": "Mswaki mpya kila baada ya miezi mitatu, kama madaktari wa meno wanavyoshauri; mswaki laini au wa wastani ni bora kwa fizi zinazotoa damu."
+     },
+     "qty": {
+      "en": "1 brush",
+      "sw": "Mswaki 1"
+     },
+     "qty_formula": "1 brush every 3 months = 1 per trimester box.",
+     "units": 1,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Double Action",
+       "product": "Activated Charcoal Toothbrush (Medium)",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 2000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/charcoal-infused-double-action-toothbrush-medium",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Colgate",
+       "product": "Colgate Extra Clean Tooth Brush Medium",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 2900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026784453c6d5732d0a35c4",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Eco-Smile",
+       "product": "Essential Toothbrush with Tongue Scraper",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 3000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/eco-smile-essential-toothbrush-with-a-tongue-scraper",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Oral-B",
+       "product": "Oral B 3 Effect Toothbrush 40 Medium",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 3200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b6ef453c6d5732d0a36fe",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Whitedent",
+       "product": "Whitedent toothbrush regular",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 350,
+       "src": {
+        "name": "superstore.co.tz",
+        "u": "https://superstore.co.tz/shop/all-products/whitedent-toothbrush-regular/",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; price as recorded in the code on 2 Nov 2026.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "lin",
+     "name": {
+      "en": "Panty liners",
+      "sw": "Pedi nyembamba za kila siku (panty liners)"
+     },
+     "why": {
+      "en": "Vaginal discharge normally increases in pregnancy. Breathable, unscented liners keep the day comfortable. A change in colour or smell, itching or any bleeding is a reason to go to the clinic.",
+      "sw": "Ute wa ukeni kwa kawaida huongezeka wakati wa ujauzito. Pedi nyembamba zisizo na manukato na zinazopitisha hewa humpa mama faraja mchana. Mabadiliko ya rangi au harufu, muwasho au damu yoyote ni sababu ya kwenda kliniki."
+     },
+     "qty": {
+      "en": "80 liners",
+      "sw": "Pedi 80"
+     },
+     "qty_formula": "about one a day on most days × 91 days → two packs of 40 = 80.",
+     "units": 80,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Kotex",
+       "product": "Normal panty liners",
+       "pack": "40",
+       "pack_units": 40,
+       "price_tsh": 5083,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pantyliners/kotex-panty-liners-normal40-s/p/95513",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 250,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Molped",
+       "product": "Intense panty liners",
+       "pack": "20",
+       "pack_units": 20,
+       "price_tsh": 3253,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pantyliners/molped-panty-linner-intense-pr20-s/p/221959",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 160,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Always",
+       "product": "Everyday panty liners, large",
+       "pack": "16",
+       "pack_units": 16,
+       "price_tsh": 5387,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pantyliners/always-everyday-large-liner16/p/23396",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 265,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Always",
+       "product": "Dailies 100% organic cotton panty liners",
+       "pack": "28",
+       "pack_units": 28,
+       "price_tsh": 17281,
+       "src": {
+        "name": "Portal Pharmacy (Kenya)",
+        "u": "https://portalpharmacy.ke/feminine-care/always-dailies-100-organic-cotton-pantiliners-x28",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 850,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row. Above the range of the others; premium swap.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "iwash",
+     "name": {
+      "en": "Gentle intimate wash, external use only",
+      "sw": "Sabuni laini ya sehemu za siri, matumizi ya nje tu"
+     },
+     "why": {
+      "en": "The vagina cleans itself. Wash only the outside, once a day, with water and a mild unperfumed cleanser; never douche. Perfumed soaps and gels irritate, which is why a gentle, pH-balanced wash is offered. Plain water is also enough.",
+      "sw": "Uke hujisafisha wenyewe. Osha sehemu ya nje tu, mara moja kwa siku, kwa maji na sabuni laini isiyo na manukato; usisafishe ndani ya uke kamwe. Sabuni na jeli zenye manukato huwasha, ndiyo sababu sabuni laini yenye pH sawia inatolewa. Maji safi peke yake pia yanatosha."
+     },
+     "qty": {
+      "en": "1 bottle of about 250 ml",
+      "sw": "Chupa 1 ya takriban ml 250"
+     },
+     "qty_formula": "2–3 ml once a day × 91 days ≈ 230 ml → one 250 ml bottle.",
+     "units": 250,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Beauty Formulas",
+       "product": "Feminine Intimate Wash, gentle",
+       "pack": "250 ml",
+       "pack_units": 250,
+       "price_tsh": 18195,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-tampons-hygiene/b-formulas-intimate-wash-gentl250ml/p/84764",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 895,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Vivasol",
+       "product": "Daily Intimate V Wash",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 15000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/daily-intimate-wash-vivasol-v-wash",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Femfresh",
+       "product": "Intimate Sensitive Wash",
+       "pack": "250 ml",
+       "pack_units": 250,
+       "price_tsh": 30495,
+       "src": {
+        "name": "Portal Pharmacy (Kenya)",
+        "u": "https://portalpharmacy.ke/feminine-care/femfresh-intimate-sensitive-wash-250ml",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1500,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Sebamed",
+       "product": "Feminine Intimate Wash pH 3.8",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 50825,
+       "src": {
+        "name": "Portal Pharmacy (Kenya)",
+        "u": "https://portalpharmacy.ke/feminine-care/intimate-wash/sebamed-feminine-intimate-wash-200ml",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 2500,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row. Above the range of the others; premium swap.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "lip",
+     "name": {
+      "en": "Lip balm for mum",
+      "sw": "Mafuta ya midomo ya mama"
+     },
+     "why": {
+      "en": "Nausea, mouth-breathing at night, the heat and, later, labour dry the lips. A plain shea or petrolatum balm without camphor, menthol or mint is kind to cracked lips and safe near a newborn’s face.",
+      "sw": "Kichefuchefu, kupumua kwa mdomo usiku, joto na, baadaye, uchungu wa kujifungua hukausha midomo. Mafuta ya kawaida ya shea au ya petroli yasiyo na kafuri, menthol wala mnanaa ni laini kwa midomo iliyopasuka na salama karibu na uso wa mtoto mchanga."
+     },
+     "qty": {
+      "en": "2 sticks",
+      "sw": "Vijiti 2"
+     },
+     "qty_formula": "one 4.8 g stick lasts about 6 weeks at 3–4 uses a day → 2 per 13 weeks.",
+     "units": 2,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Nivea",
+       "product": "Nivea Shea Butter Lip Balm",
+       "pack": "4.8 g stick",
+       "pack_units": 1,
+       "price_tsh": 10000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/nivea-lip-balm-with-shea-butter-4-8g",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Nivea",
+       "product": "Hydro Care lip balm",
+       "pack": "4.8 g stick",
+       "pack_units": 1,
+       "price_tsh": 10084,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/nivea-lip-balm-hydro-care/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 496,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vaseline",
+       "product": "Lip Therapy Original tin",
+       "pack": "20 g tin (counted as one piece; lasts longer than a stick)",
+       "pack_units": 1,
+       "price_tsh": 7827,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/digestive-health-lip/vaseline-lip-balm-original-20g/p/71572",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 385,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Sebamed",
+       "product": "Lip Defence stick SPF 30",
+       "pack": "4.8 g stick",
+       "pack_units": 1,
+       "price_tsh": 15044,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/digestive-health-lip/sebamed-lip-defence-stick-sp30-4-8g/p/82108",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 740,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    }
+   ],
+   "pricing": {
+    "shelf_value": 138760,
+    "landed_goods": 108233,
+    "packing": 5000,
+    "delivery": 3500,
+    "plans": {
+     "buy_once": {
+      "price": 138500,
+      "saving_vs_shelf": 260,
+      "margin": 21767,
+      "margin_pct": 15.7
+     },
+     "m1": {
+      "price": 134500,
+      "saving_vs_shelf": 4260,
+      "margin": 16422,
+      "margin_pct": 12.2
+     },
+     "m6": {
+      "price": 130500,
+      "saving_vs_shelf": 8260,
+      "margin": 12462,
+      "margin_pct": 9.5
+     },
+     "m12": {
+      "price": 126500,
+      "saving_vs_shelf": 12260,
+      "margin": 8502,
+      "margin_pct": 6.7
+     }
+    },
+    "monthly_alt_12m_margin_per_month": -1498
+   }
+  },
+  {
+   "key": "t3",
+   "label": {
+    "en": "Third trimester box and hospital bag",
+    "sw": "Boksi la miezi mitatu ya mwisho na begi la hospitali"
+   },
+   "months": "7–9",
+   "weeks": "28–40",
+   "box_size": "L",
+   "items": [
+    {
+     "key": "ifa",
+     "name": {
+      "en": "Iron and folic acid, one a day (partner pharmacy)",
+      "sw": "Madini ya chuma na foliki, kidonge kimoja kwa siku (famasia mshirika)"
+     },
+     "why": {
+      "en": "WHO (2016, A.2.1) recommends daily oral iron (30–60 mg elemental iron) with 400 µg folic acid through pregnancy, to prevent maternal anaemia, puerperal sepsis, low birth weight and preterm birth. Folic acid should start as early as possible. The tablets are free at public antenatal clinics; the partner pharmacy supplies them only when the clinic prescribes them and is out of stock. Afya does not sell or price them.",
+      "sw": "WHO (2016, A.2.1) inashauri madini ya chuma (mg 30–60) pamoja na foliki mikrogramu 400 kila siku katika ujauzito wote, ili kuzuia upungufu wa damu, maambukizi baada ya kujifungua, uzito mdogo wa kuzaliwa na kuzaliwa kabla ya wakati. Foliki ianze mapema iwezekanavyo. Vidonge hivi ni bure katika kliniki za umma; famasia mshirika huvitoa tu kliniki ikiviandika na ikikosa. Afya haiuzi wala haiweki bei yake."
+     },
+     "qty": {
+      "en": "90 tablets, if the clinic prescribes one a day",
+      "sw": "Vidonge 90, kliniki ikiandika kimoja kwa siku"
+     },
+     "qty_formula": "1 tablet a day × 91 days (13 weeks) ≈ 90 = 9 strips of 10. Dose and product are set by the clinic (B16); not priced in the box (B4).",
+     "units": 90,
+     "kind": "medicine",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Ferrolic",
+       "product": "Ferrolic LF tablets",
+       "pack": "10 tablets",
+       "pack_units": 10,
+       "price_tsh": 1000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/ferrolic-lf-tablets10s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Ranferon",
+       "product": "Ranferon Antianemia Iron & Folic Acid capsules",
+       "pack": "10 capsules",
+       "pack_units": 10,
+       "price_tsh": 300,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/ranferon-antianemia-capsules",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Hemovit",
+       "product": "Hemovit Iron with folic acid tablets",
+       "pack": "pack size not stated on the page",
+       "pack_units": null,
+       "price_tsh": 5500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/hemovit-iron-with-folic-acid-tablets",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Folron",
+       "product": "Folron Iron & Folic Acid Blood Building Capsules",
+       "pack": "10 capsules",
+       "pack_units": 10,
+       "price_tsh": 12000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/folron-iron-with-folic-acid-capsule",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "calc",
+     "name": {
+      "en": "Calcium, from week 20 (partner pharmacy, if the clinic prescribes it)",
+      "sw": "Kalsiamu, kuanzia wiki ya 20 (famasia mshirika, kliniki ikiandika)"
+     },
+     "why": {
+      "en": "Pre-eclampsia (dangerously high blood pressure in pregnancy) is a leading cause of maternal death. Where diets are low in calcium, WHO (2016, A.3; revalidated 2018) recommends 1.5–2.0 g elemental calcium a day from 20 weeks to birth. A 2024 trial in Dar es Salaam and India found 500 mg a day non-inferior against pre-eclampsia, but the dose is the clinic’s decision. Calcium is taken at a different meal from iron. Sold by the partner pharmacy; not priced in the box.",
+      "sw": "Priklampsia (shinikizo la damu la hatari wakati wa ujauzito) ni miongoni mwa visababishi vikuu vya vifo vya akina mama. Pale vyakula vina kalsiamu kidogo, WHO (2016, A.3; ilithibitishwa tena 2018) inashauri gramu 1.5–2.0 za kalsiamu kila siku kuanzia wiki ya 20 hadi kujifungua. Utafiti wa mwaka 2024 Dar es Salaam na India ulionyesha mg 500 kwa siku zinafaa sawa dhidi ya priklampsia, lakini kipimo ni uamuzi wa kliniki. Kalsiamu humezwa mlo tofauti na madini ya chuma. Inauzwa na famasia mshirika; haiwekewi bei kwenye boksi."
+     },
+     "qty": {
+      "en": "As the clinic prescribes",
+      "sw": "Kama kliniki inavyoandika"
+     },
+     "qty_formula": "units 0: dose set by the clinic. Covers weeks 28–40 (91 days). WHO: 1.5–2.0 g elemental calcium a day where diets are low in calcium; Dar es Salaam trial: 500 mg a day.",
+     "units": 0,
+     "kind": "medicine",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "Vitabiotics",
+       "product": "Osteocare Chewable Calcium Tablets",
+       "pack": "30 tablets",
+       "pack_units": 30,
+       "price_tsh": 30000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/osteocare-chewable-tablets-30s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Calcivita",
+       "product": "Calcivita tablets",
+       "pack": "50 tablets",
+       "pack_units": 50,
+       "price_tsh": 19500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/calcivita-tablets-50s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Calcium per tablet not stated on the listing; confirm on the pack.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Maxcal",
+       "product": "Maxcal Calcium & Vitamin D3 Capsules",
+       "pack": "30 capsules",
+       "pack_units": 30,
+       "price_tsh": 24000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/maxcal-capsules-30s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vitabiotics",
+       "product": "Osteocare Original Tablet",
+       "pack": "30 tablets",
+       "pack_units": 30,
+       "price_tsh": 28000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/osteocare-original",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Jamieson",
+       "product": "Calcium Magnesium + D3 caplets (333 mg calcium each)",
+       "pack": "200 caplets",
+       "pack_units": 200,
+       "price_tsh": 42510,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/jamieson-calcium-magnesium-d3-caplets-200s/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 2091,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "rep",
+     "name": {
+      "en": "Mosquito repellent",
+      "sw": "Dawa ya kufukuza mbu"
+     },
+     "why": {
+      "en": "Malaria in pregnancy causes maternal anaemia, low birth weight and stillbirth. A repellent covers the evening hours outdoors before the woman is under her net. It adds to, and never replaces, the clinic’s preventive malaria treatment (IPTp, WHO 2016 C.6) and the treated net. Use only products whose label states the active ingredient and that they may be used in pregnancy.",
+      "sw": "Malaria wakati wa ujauzito husababisha upungufu wa damu kwa mama, uzito mdogo wa mtoto na mtoto kuzaliwa amekufa. Dawa ya kufukuza mbu hulinda saa za jioni nje kabla mama hajaingia kwenye chandarua. Inaongeza, na kamwe haichukui nafasi ya, dawa ya kliniki ya kuzuia malaria (IPTp, WHO 2016 C.6) na chandarua chenye dawa. Tumia tu bidhaa ambazo lebo yake inataja kiambato hai na kwamba inafaa wakati wa ujauzito."
+     },
+     "qty": {
+      "en": "3 packs (one a month)",
+      "sw": "Pakiti 3 (moja kwa mwezi)"
+     },
+     "qty_formula": "1 roll-on or spray a month × 3 months = 3.",
+     "units": 3,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Odomos",
+       "product": "Odomos Roll On",
+       "pack": "50 g",
+       "pack_units": 1,
+       "price_tsh": 4600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b6d4553c6d5732d0a36f8",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "No-Bite",
+       "product": "Nobite Roll On Insect Repellent",
+       "pack": "40 ml",
+       "pack_units": 1,
+       "price_tsh": 8200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b993f53c6d5732d0a379e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "No-Bite",
+       "product": "No-Bite Mosquito Repellent Roll-On",
+       "pack": "45 ml",
+       "pack_units": 1,
+       "price_tsh": 9000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/mosquito-repellent-roll-on-no-bite-45m",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Peaceful Sleep",
+       "product": "Peaceful Sleep Stick Roll On",
+       "pack": "30 ml",
+       "pack_units": 1,
+       "price_tsh": 9500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b71ec53c6d5732d0a370e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "No-Bite",
+       "product": "No-bite Spray Insect Repellent",
+       "pack": "120 ml",
+       "pack_units": 1,
+       "price_tsh": 10600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/604f5e82da3fef0287051085",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "hand",
+     "name": {
+      "en": "Hand soap for the home",
+      "sw": "Sabuni ya kunawa mikono nyumbani"
+     },
+     "why": {
+      "en": "Handwashing with soap is the cheapest infection control a household has: community handwashing promotion cuts child diarrhoea by about 30% (Cochrane). The habit set in pregnancy protects the newborn: wash after the toilet, before food and, later, after every nappy and before every feed.",
+      "sw": "Kunawa mikono kwa sabuni ndiyo kinga ya maambukizi ya bei nafuu zaidi kwa kaya: kuhamasisha unawaji wa mikono hupunguza kuharisha kwa watoto kwa takriban asilimia 30 (Cochrane). Tabia inayojengwa wakati wa ujauzito humlinda mtoto mchanga: nawa baada ya choo, kabla ya chakula na, baadaye, baada ya kila nepi na kabla ya kila kunyonyesha."
+     },
+     "qty": {
+      "en": "About 1,050 g of bar soap (six 175 g bars)",
+      "sw": "Takriban gramu 1,050 za sabuni ya kipande (vipande sita vya gramu 175)"
+     },
+     "qty_formula": "2 bars of about 175 g a month × 3 months = 6 bars ≈ 1,050 g.",
+     "units": 1050,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Lifebuoy",
+       "product": "Lifebuoy Soap, assorted",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 3500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6a6dd151d4b3dce59b40cc2f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Dettol",
+       "product": "Dettol Herbal Soap 6-pack",
+       "pack": "6 × 175 g",
+       "pack_units": 1050,
+       "price_tsh": 21000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/649fd5a40eb6b270e24edef3",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dettol",
+       "product": "Dettol Soap",
+       "pack": "175 g",
+       "pack_units": 175,
+       "price_tsh": 4500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602683c353c6d5732d0a35e6",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Protex",
+       "product": "Protex Herbal Antibacterial Soap",
+       "pack": "90 g",
+       "pack_units": 90,
+       "price_tsh": 4500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/protex-herbal-bar-soap-90g",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Protex",
+       "product": "Protex Deep Clean Antibacterial Soap",
+       "pack": "100 g",
+       "pack_units": 100,
+       "price_tsh": 4500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/protex-deep-clean-bar-soap-100g",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "water",
+     "name": {
+      "en": "Drinking-water treatment",
+      "sw": "Dawa ya kutibu maji ya kunywa"
+     },
+     "why": {
+      "en": "Tap and well water in Dar es Salaam is not reliably safe, and diarrhoea in pregnancy dehydrates the mother. Chlorinating drinking water at home cuts diarrhoea by about a quarter (Cochrane). Boiling is a good alternative where fuel allows.",
+      "sw": "Maji ya bomba na ya kisima Dar es Salaam si salama kila wakati, na kuharisha wakati wa ujauzito humkausha mama maji mwilini. Kuweka klorini kwenye maji ya kunywa nyumbani hupunguza kuharisha kwa takriban robo (Cochrane). Kuchemsha maji ni njia nzuri mbadala pale nishati inaporuhusu."
+     },
+     "qty": {
+      "en": "Enough to treat about 1,000 litres",
+      "sw": "Ya kutosha kutibu takriban lita 1,000"
+     },
+     "qty_formula": "about 10 L of drinking and cooking water a day × 91 days ≈ 910 L → one 150 ml WaterGuard bottle (≈1,000 L). units = litres treated.",
+     "units": 1000,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "WaterGuard",
+       "product": "Drinking-water treatment (sodium hypochlorite)",
+       "pack": "150 ml, treats about 1,000 L",
+       "pack_units": 1000,
+       "price_tsh": 6099,
+       "src": {
+        "name": "Jumia Kenya",
+        "u": "https://www.jumia.co.ke/waterguard-drinking-water-purifier-58949465.html",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 300,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Aquatabs",
+       "product": "67 mg water purification tablets (1 tablet per 20 L)",
+       "pack": "100 tablets, treats 2,000 L",
+       "pack_units": 2000,
+       "price_tsh": 10165,
+       "src": {
+        "name": "Jumia Kenya",
+        "u": "https://www.jumia.co.ke/aquatabs-67mg-water-purification-tablets-pack-of-100-330120133.html",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 500,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Aquaguard",
+       "product": "Water purifier liquid",
+       "pack": "500 ml (litres treated not stated)",
+       "pack_units": null,
+       "price_tsh": 2033,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/face-care-whitening/aquaguard-water-purifier-500ml/p/9272",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 100,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "mcare",
+     "name": {
+      "en": "Shower and body wash for mum",
+      "sw": "Sabuni ya kuogea ya mama"
+     },
+     "why": {
+      "en": "Skin is often drier and more sensitive in pregnancy. A mild, creamy wash every day is part of the mother’s own care; strongly perfumed soaps are the commonest irritant.",
+      "sw": "Ngozi mara nyingi huwa kavu zaidi na nyeti wakati wa ujauzito. Sabuni laini yenye krimu kila siku ni sehemu ya kujitunza kwa mama; sabuni zenye manukato makali ndizo huwasha ngozi zaidi."
+     },
+     "qty": {
+      "en": "750 ml",
+      "sw": "Mililita 750"
+     },
+     "qty_formula": "about 8 ml a day × 91 days ≈ 730 ml → 750 ml.",
+     "units": 750,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Dove",
+       "product": "Dove Shower Cream",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 12000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026875053c6d5732d0a35ef",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Dove",
+       "product": "Dove Shower Gel Relaxing Natural",
+       "pack": "500 ml",
+       "pack_units": 500,
+       "price_tsh": 13800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6a930e3fd4b3dce59b40cdf3",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Hobby",
+       "product": "Hobby Body Wash, assorted",
+       "pack": "1 L",
+       "pack_units": 1000,
+       "price_tsh": 15800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/68de835e92a77f6bb268ba9a",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Nivea",
+       "product": "Nivea Shower Gel Creme Soft",
+       "pack": "250 ml",
+       "pack_units": 250,
+       "price_tsh": 11500,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60c064c6753c0d1ace90a872",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Dettol",
+       "product": "Dettol Shower Gel Sensitive",
+       "pack": "300 ml",
+       "pack_units": 300,
+       "price_tsh": 13000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60bf5ba6791c2d11b5e2a64f",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "skin",
+     "name": {
+      "en": "Body lotion for stretching skin",
+      "sw": "Losheni ya mwili kwa ngozi inayotanuka"
+     },
+     "why": {
+      "en": "From the second trimester the skin of the belly, breasts and thighs stretches and often itches. A rich lotion eases dryness. No cream or oil has been shown to prevent stretch marks, and Afya makes no such claim. Intense itching, especially of the palms and soles, is a reason to tell the clinic.",
+      "sw": "Kuanzia miezi mitatu ya pili ngozi ya tumbo, matiti na mapaja hutanuka na mara nyingi huwasha. Losheni nzito hupunguza ukavu. Hakuna krimu wala mafuta yaliyothibitishwa kuzuia michirizi, na Afya haitoi dai hilo. Muwasho mkali, hasa wa viganja na nyayo, ni sababu ya kuiambia kliniki."
+     },
+     "qty": {
+      "en": "800 ml (two 400 ml bottles)",
+      "sw": "Mililita 800 (chupa mbili za ml 400)"
+     },
+     "qty_formula": "about 8 ml a day (belly, breasts, thighs) × 91 days ≈ 730 ml → two 400 ml bottles.",
+     "units": 800,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Dove",
+       "product": "Dove Intensive Nourish Body Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 12700,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/630f80a1fa11de0a43b3ab91",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Vaseline",
+       "product": "Vaseline Intensive Dry Skin Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 14600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60c06eda753c0d1ace90a894",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vaseline",
+       "product": "Vaseline Intensive Cocoa Glow Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 14600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60c06e8e753c0d1ace90a893",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vaseline",
+       "product": "Vaseline Intensive Aloe Smooth Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 14600,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60c06e5c753c0d1ace90a892",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Bodidoc",
+       "product": "Bodidoc Deep Hydrating Tissue Oil Lotion",
+       "pack": "400 ml",
+       "pack_units": 400,
+       "price_tsh": 15000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/bodydoc-lotion",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "tpm",
+     "name": {
+      "en": "Fluoride toothpaste",
+      "sw": "Dawa ya meno yenye floraidi"
+     },
+     "why": {
+      "en": "Hormonal change makes gums swell and bleed more easily in pregnancy. Twice-daily brushing with fluoride toothpaste is the simple protection. Check that the pack says it contains fluoride.",
+      "sw": "Mabadiliko ya homoni hufanya fizi kuvimba na kutoa damu kwa urahisi zaidi wakati wa ujauzito. Kupiga mswaki mara mbili kwa siku kwa dawa ya meno yenye floraidi ndiyo kinga rahisi. Hakikisha pakiti inaonyesha kuwa ina floraidi."
+     },
+     "qty": {
+      "en": "One tube of about 190 g",
+      "sw": "Tyubu moja ya takriban gramu 190"
+     },
+     "qty_formula": "about 2 g a day (two brushings) × 91 days ≈ 180 g → one 190 g tube.",
+     "units": 190,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Whitedent",
+       "product": "Whitedent Herbal Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 4100,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b959d53c6d5732d0a378c",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true,
+       "note": "Fluoride content not shown on the listing; confirm on the pack before it is the default."
+      },
+      {
+       "brand": "Whitedent",
+       "product": "Whitedent Gel Toothpaste",
+       "pack": "190 g",
+       "pack_units": 190,
+       "price_tsh": 3800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/66eb11b5ad21bfe77df6b23e",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false,
+       "note": "Fluoride content not shown on the listing; confirm on the pack before it is the default."
+      },
+      {
+       "brand": "Colgate",
+       "product": "Colgate Maximum Protection",
+       "pack": "140 g",
+       "pack_units": 140,
+       "price_tsh": 5900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026787c53c6d5732d0a35c5",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Sensodyne",
+       "product": "Sensodyne Extra Fresh",
+       "pack": "75 ml",
+       "pack_units": 75,
+       "price_tsh": 5300,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b7d5a53c6d5732d0a3735",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Colgate",
+       "product": "Colgate Natural Extracts Toothpaste",
+       "pack": "75 ml",
+       "pack_units": 75,
+       "price_tsh": 8500,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/colgate-natural-extracts-toothpaste-75ml",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "tbr",
+     "name": {
+      "en": "Toothbrush",
+      "sw": "Mswaki"
+     },
+     "why": {
+      "en": "A fresh brush every three months, as dentists advise; a soft or medium head is kinder to bleeding gums.",
+      "sw": "Mswaki mpya kila baada ya miezi mitatu, kama madaktari wa meno wanavyoshauri; mswaki laini au wa wastani ni bora kwa fizi zinazotoa damu."
+     },
+     "qty": {
+      "en": "1 brush",
+      "sw": "Mswaki 1"
+     },
+     "qty_formula": "1 brush every 3 months = 1 per trimester box.",
+     "units": 1,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Double Action",
+       "product": "Activated Charcoal Toothbrush (Medium)",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 2000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/charcoal-infused-double-action-toothbrush-medium",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Colgate",
+       "product": "Colgate Extra Clean Tooth Brush Medium",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 2900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/6026784453c6d5732d0a35c4",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Eco-Smile",
+       "product": "Essential Toothbrush with Tongue Scraper",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 3000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/eco-smile-essential-toothbrush-with-a-tongue-scraper",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Oral-B",
+       "product": "Oral B 3 Effect Toothbrush 40 Medium",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 3200,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602b6ef453c6d5732d0a36fe",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Whitedent",
+       "product": "Whitedent toothbrush regular",
+       "pack": "1",
+       "pack_units": 1,
+       "price_tsh": 350,
+       "src": {
+        "name": "superstore.co.tz",
+        "u": "https://superstore.co.tz/shop/all-products/whitedent-toothbrush-regular/",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; price as recorded in the code on 2 Nov 2026.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "lin",
+     "name": {
+      "en": "Panty liners",
+      "sw": "Pedi nyembamba za kila siku (panty liners)"
+     },
+     "why": {
+      "en": "Vaginal discharge normally increases in pregnancy. Breathable, unscented liners keep the day comfortable. A change in colour or smell, itching or any bleeding is a reason to go to the clinic.",
+      "sw": "Ute wa ukeni kwa kawaida huongezeka wakati wa ujauzito. Pedi nyembamba zisizo na manukato na zinazopitisha hewa humpa mama faraja mchana. Mabadiliko ya rangi au harufu, muwasho au damu yoyote ni sababu ya kwenda kliniki."
+     },
+     "qty": {
+      "en": "80 liners",
+      "sw": "Pedi 80"
+     },
+     "qty_formula": "about one a day on most days × 91 days → two packs of 40 = 80.",
+     "units": 80,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Kotex",
+       "product": "Normal panty liners",
+       "pack": "40",
+       "pack_units": 40,
+       "price_tsh": 5083,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pantyliners/kotex-panty-liners-normal40-s/p/95513",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 250,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Molped",
+       "product": "Intense panty liners",
+       "pack": "20",
+       "pack_units": 20,
+       "price_tsh": 3253,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pantyliners/molped-panty-linner-intense-pr20-s/p/221959",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 160,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Always",
+       "product": "Everyday panty liners, large",
+       "pack": "16",
+       "pack_units": 16,
+       "price_tsh": 5387,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pantyliners/always-everyday-large-liner16/p/23396",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 265,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Always",
+       "product": "Dailies 100% organic cotton panty liners",
+       "pack": "28",
+       "pack_units": 28,
+       "price_tsh": 17281,
+       "src": {
+        "name": "Portal Pharmacy (Kenya)",
+        "u": "https://portalpharmacy.ke/feminine-care/always-dailies-100-organic-cotton-pantiliners-x28",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 850,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row. Above the range of the others; premium swap.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "iwash",
+     "name": {
+      "en": "Gentle intimate wash, external use only",
+      "sw": "Sabuni laini ya sehemu za siri, matumizi ya nje tu"
+     },
+     "why": {
+      "en": "The vagina cleans itself. Wash only the outside, once a day, with water and a mild unperfumed cleanser; never douche. Perfumed soaps and gels irritate, which is why a gentle, pH-balanced wash is offered. Plain water is also enough.",
+      "sw": "Uke hujisafisha wenyewe. Osha sehemu ya nje tu, mara moja kwa siku, kwa maji na sabuni laini isiyo na manukato; usisafishe ndani ya uke kamwe. Sabuni na jeli zenye manukato huwasha, ndiyo sababu sabuni laini yenye pH sawia inatolewa. Maji safi peke yake pia yanatosha."
+     },
+     "qty": {
+      "en": "1 bottle of about 250 ml",
+      "sw": "Chupa 1 ya takriban ml 250"
+     },
+     "qty_formula": "2–3 ml once a day × 91 days ≈ 230 ml → one 250 ml bottle.",
+     "units": 250,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Beauty Formulas",
+       "product": "Feminine Intimate Wash, gentle",
+       "pack": "250 ml",
+       "pack_units": 250,
+       "price_tsh": 18195,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-tampons-hygiene/b-formulas-intimate-wash-gentl250ml/p/84764",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 895,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Vivasol",
+       "product": "Daily Intimate V Wash",
+       "pack": "100 ml",
+       "pack_units": 100,
+       "price_tsh": 15000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/daily-intimate-wash-vivasol-v-wash",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Femfresh",
+       "product": "Intimate Sensitive Wash",
+       "pack": "250 ml",
+       "pack_units": 250,
+       "price_tsh": 30495,
+       "src": {
+        "name": "Portal Pharmacy (Kenya)",
+        "u": "https://portalpharmacy.ke/feminine-care/femfresh-intimate-sensitive-wash-250ml",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1500,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Sebamed",
+       "product": "Feminine Intimate Wash pH 3.8",
+       "pack": "200 ml",
+       "pack_units": 200,
+       "price_tsh": 50825,
+       "src": {
+        "name": "Portal Pharmacy (Kenya)",
+        "u": "https://portalpharmacy.ke/feminine-care/intimate-wash/sebamed-feminine-intimate-wash-200ml",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 2500,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row. Above the range of the others; premium swap.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "lip",
+     "name": {
+      "en": "Lip balm for mum",
+      "sw": "Mafuta ya midomo ya mama"
+     },
+     "why": {
+      "en": "Nausea, mouth-breathing at night, the heat and, later, labour dry the lips. A plain shea or petrolatum balm without camphor, menthol or mint is kind to cracked lips and safe near a newborn’s face.",
+      "sw": "Kichefuchefu, kupumua kwa mdomo usiku, joto na, baadaye, uchungu wa kujifungua hukausha midomo. Mafuta ya kawaida ya shea au ya petroli yasiyo na kafuri, menthol wala mnanaa ni laini kwa midomo iliyopasuka na salama karibu na uso wa mtoto mchanga."
+     },
+     "qty": {
+      "en": "2 sticks",
+      "sw": "Vijiti 2"
+     },
+     "qty_formula": "one 4.8 g stick lasts about 6 weeks at 3–4 uses a day → 2 per 13 weeks.",
+     "units": 2,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Nivea",
+       "product": "Nivea Shea Butter Lip Balm",
+       "pack": "4.8 g stick",
+       "pack_units": 1,
+       "price_tsh": 10000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/nivea-lip-balm-with-shea-butter-4-8g",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Nivea",
+       "product": "Hydro Care lip balm",
+       "pack": "4.8 g stick",
+       "pack_units": 1,
+       "price_tsh": 10084,
+       "src": {
+        "name": "Goodlife Pharmacy (Kenya)",
+        "u": "https://www.goodlife.co.ke/product/nivea-lip-balm-hydro-care/",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 496,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Vaseline",
+       "product": "Lip Therapy Original tin",
+       "pack": "20 g tin (counted as one piece; lasts longer than a stick)",
+       "pack_units": 1,
+       "price_tsh": 7827,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/digestive-health-lip/vaseline-lip-balm-original-20g/p/71572",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 385,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Sebamed",
+       "product": "Lip Defence stick SPF 30",
+       "pack": "4.8 g stick",
+       "pack_units": 1,
+       "price_tsh": 15044,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/digestive-health-lip/sebamed-lip-defence-stick-sp30-4-8g/p/82108",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 740,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "dkit",
+     "name": {
+      "en": "Clean delivery kit for the hospital bag",
+      "sw": "Kifurushi safi cha kujifungulia kwa begi la hospitali"
+     },
+     "why": {
+      "en": "Many Tanzanian facilities ask mothers to bring their own delivery supplies (gauze, a cover sheet, gloves). A sealed kit in the third-trimester box means the hospital bag is ready well before 36 weeks.",
+      "sw": "Vituo vingi vya afya Tanzania huwataka akina mama walete vifaa vyao vya kujifungulia (shashi, shuka la kujifungulia, glavu). Kifurushi kilichofungwa ndani ya boksi la miezi mitatu ya mwisho humaanisha begi la hospitali liko tayari kabla ya wiki ya 36."
+     },
+     "qty": {
+      "en": "1 sealed kit",
+      "sw": "Kifurushi 1 kilichofungwa"
+     },
+     "qty_formula": "1 per pregnancy.",
+     "units": 1,
+     "kind": "goods",
+     "cost_class": "pharm",
+     "brands": [
+      {
+       "brand": "MamaSave",
+       "product": "MamaSave Delivery Kit, “Standards”",
+       "pack": "1 kit",
+       "pack_units": 1,
+       "price_tsh": 25000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/mamasave-delivery-kit",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "MamaSave",
+       "product": "MamaSave Delivery Kit, “Care”",
+       "pack": "1 kit",
+       "pack_units": 1,
+       "price_tsh": 28000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/mamasave-delivery-kit",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Variant price from the page data.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "MamaSave",
+       "product": "MamaSave Delivery Kit, “Plus”",
+       "pack": "1 kit",
+       "pack_units": 1,
+       "price_tsh": 35000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/mamasave-delivery-kit",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Variant price from the page data.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "mpad",
+     "name": {
+      "en": "Long night or maternity pads for the hospital bag",
+      "sw": "Pedi ndefu za usiku au za uzazi kwa begi la hospitali"
+     },
+     "why": {
+      "en": "Bleeding after birth (lochia) is heaviest in the first days. Long, absorbent pads, changed at least every four hours, are kinder to stitches. Twenty cover the hospital stay and the first days home; the Mama na Mtoto box continues from there.",
+      "sw": "Damu ya baada ya kujifungua huwa nyingi zaidi siku za mwanzo. Pedi ndefu zinazonyonya vizuri, zinazobadilishwa angalau kila saa nne, ni laini zaidi kwa mishono. Pedi ishirini zinatosha muda wa hospitali na siku za mwanzo nyumbani; boksi la Mama na Mtoto linaendelea kutoka hapo."
+     },
+     "qty": {
+      "en": "20 pads",
+      "sw": "Pedi 20"
+     },
+     "qty_formula": "about 6–8 a day for the first 2–3 days → 20.",
+     "units": 20,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Human Cherish",
+       "product": "Human Cherish Pads 338 mm",
+       "pack": "8 pads",
+       "pack_units": 8,
+       "price_tsh": 3800,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a3f7d53c6d5732d0a3650",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Always",
+       "product": "Always Maxi Thick Softer Extra Long",
+       "pack": "7 pads",
+       "pack_units": 7,
+       "price_tsh": 1900,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/60263ec453c6d5732d0a3559",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Kotex",
+       "product": "Kotex Maxi Wide Super Wings Long",
+       "pack": "8 pads",
+       "pack_units": 8,
+       "price_tsh": 4400,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a66f253c6d5732d0a3692",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Human Cherish",
+       "product": "Human Cherish HC Pads, “Kubwa” 338 mm",
+       "pack": "10 pads (count from the page address only)",
+       "pack_units": 10,
+       "price_tsh": 5000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/human-cherish-hc-hq-aerobic-sanitary-pads10s",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Medicott",
+       "product": "Maternity pads",
+       "pack": "10 pads",
+       "pack_units": 10,
+       "price_tsh": 1931,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/woman-pads/medicott-maternity-pads-x10/p/997",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 95,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "mbr",
+     "name": {
+      "en": "Maternity briefs",
+      "sw": "Chupi za baada ya kujifungua"
+     },
+     "why": {
+      "en": "Soft, high-waisted briefs hold maternity pads securely and do not press on a caesarean wound or perineal stitches.",
+      "sw": "Chupi laini za kiuno kirefu hushikilia pedi za uzazi vizuri na hazibani jeraha la upasuaji wala mishono ya njia ya uzazi."
+     },
+     "qty": {
+      "en": "1 pack",
+      "sw": "Pakiti 1"
+     },
+     "qty_formula": "1 pack for the hospital stay and first weeks.",
+     "units": 1,
+     "kind": "goods",
+     "cost_class": "own",
+     "brands": [
+      {
+       "brand": "Baby Banda",
+       "product": "Maternity briefs",
+       "pack": "1 pack (count not stated)",
+       "pack_units": null,
+       "price_tsh": 19618,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/trousers-dress/baby-banda-maternity-briefs/p/71847",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 965,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Whisper",
+       "product": "Super Absorbent overnight period pants M–L",
+       "pack": "6",
+       "pack_units": null,
+       "price_tsh": 11181,
+       "src": {
+        "name": "Portal Pharmacy (Kenya)",
+        "u": "https://portalpharmacy.ke/feminine-care/whisper-super-absorbent-period-panty-m-l-6-panties",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 550,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Bébéconfort",
+       "product": "Stretch net maternity panties",
+       "pack": "5 pairs",
+       "pack_units": null,
+       "price_tsh": 65000,
+       "src": {
+        "name": "findandgetgroup.com",
+        "u": "https://findandgetgroup.com/products/bbconfort-stretch-net-panties-5pk",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; price as recorded in the code on 2 Nov 2026. Above the range of the others; premium swap.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "nbd",
+     "name": {
+      "en": "First newborn nappies",
+      "sw": "Nepi za kwanza za mtoto mchanga"
+     },
+     "why": {
+      "en": "Newborn-size nappies for the first two to three days, so the family leaves the ward prepared whatever stock the ward has. The Mama na Mtoto box takes over after that.",
+      "sw": "Nepi za saizi ya mtoto mchanga kwa siku mbili hadi tatu za kwanza, ili familia iondoke wodini ikiwa tayari bila kujali wodi ina nini. Boksi la Mama na Mtoto linaendelea baada ya hapo."
+     },
+     "qty": {
+      "en": "26 nappies",
+      "sw": "Nepi 26"
+     },
+     "qty_formula": "8–10 changes a day × 2–3 days ≈ 26.",
+     "units": 26,
+     "kind": "goods",
+     "cost_class": "brand",
+     "brands": [
+      {
+       "brand": "Huggies",
+       "product": "Huggies New Born 6 kg",
+       "pack": "26",
+       "pack_units": 26,
+       "price_tsh": 25000,
+       "src": {
+        "name": "Shoppers Supermarket",
+        "u": "https://www.shoppers.co.tz/product-detail/602a445353c6d5732d0a3661",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "afya_choice": false,
+       "default": true
+      },
+      {
+       "brand": "Softcare",
+       "product": "Premium Soft Diapers S (3–6 kg), “No. 1 - 14’s Pack”",
+       "pack": "14",
+       "pack_units": 14,
+       "price_tsh": 6000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/softcare-premium-soft-diapers-for-3-6-kg-s-no-1",
+        "chk": "2026-11-09"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Headline price re-confirmed 10 Nov 2026; variant labels conflict on the page (title says 40, variant data says 14). Two packs ship. Confirm by phone (R3).",
+       "afya_choice": true,
+       "default": false
+      },
+      {
+       "brand": "Softcare",
+       "product": "Premium Soft Diapers S (3–6 kg), “No. 1 - 48’s Pack”",
+       "pack": "48",
+       "pack_units": 48,
+       "price_tsh": 17000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/softcare-premium-soft-diapers-for-3-6-kg-s-no-1",
+        "chk": "2026-11-09"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Variant price from R3 (9 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Huggies",
+       "product": "Huggies Newborn Diapers Size 1 (3.6–6.4 kg), 31’s",
+       "pack": "31",
+       "pack_units": 31,
+       "price_tsh": 42000,
+       "src": {
+        "name": "AfyaDepot",
+        "u": "https://afyadepot.co.tz/product/huggies-newborn-diapers",
+        "chk": "2026-11-10"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Pack size from the variant label recorded in R3 (9 Nov 2026).",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "Pampers",
+       "product": "New Baby S1 2–5 kg",
+       "pack": "34",
+       "pack_units": 34,
+       "price_tsh": 23339,
+       "src": {
+        "name": "Carrefour Kenya",
+        "u": "https://www.carrefour.ke/mafken/en/baby-diapers/pampers-newborn-dry-s1-34pcs/p/186283",
+        "chk": "2026-11-02"
+       },
+       "orig": {
+        "cur": "KES",
+        "amount": 1148,
+        "rate": 20.33,
+        "date": "2026-11-10"
+       },
+       "status": "KE",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    },
+    {
+     "key": "body",
+     "name": {
+      "en": "Newborn bodysuits for the hospital bag",
+      "sw": "Nguo za mtoto mchanga (bodysuits) kwa begi la hospitali"
+     },
+     "why": {
+      "en": "Clean cotton for the baby to leave the ward in, whatever the facility provides. Long sleeves and a cap keep a newborn warm; skin-to-skin contact does the rest (WHO 2022 postnatal care).",
+      "sw": "Nguo safi za pamba kwa mtoto kutoka nazo wodini, bila kujali kituo kinatoa nini. Mikono mirefu na kofia humpa mtoto mchanga joto; kugusana ngozi kwa ngozi na mama hufanya kazi iliyobaki (WHO 2022, huduma baada ya kujifungua)."
+     },
+     "qty": {
+      "en": "1 set (3 bodysuits or 2 kimonos)",
+      "sw": "Seti 1 (bodysuits 3 au kimono 2)"
+     },
+     "qty_formula": "1 set for the stay and the first days.",
+     "units": 1,
+     "kind": "goods",
+     "cost_class": "own",
+     "brands": [
+      {
+       "brand": "Generic",
+       "product": "Long-sleeve kimono bodysuits 0–6 months",
+       "pack": "2",
+       "pack_units": null,
+       "price_tsh": 25000,
+       "src": {
+        "name": "epictotostore.co.tz",
+        "u": "https://epictotostore.co.tz/product/bodysuit-set-2-pack-long-sleeve-kimono-wrap-white-0-6-months/",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; price as recorded in the code on 2 Nov 2026.",
+       "afya_choice": true,
+       "default": true
+      },
+      {
+       "brand": "Sunnozy",
+       "product": "Bodysuits 0–3 months, short sleeve",
+       "pack": "3",
+       "pack_units": null,
+       "price_tsh": 30000,
+       "src": {
+        "name": "epictotostore.co.tz",
+        "u": "https://epictotostore.co.tz/product/bodysuit-set-3-pack-short-sleeve-white-baby-unisex-0-3-months-sunnozy/",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; price as recorded in the code on 2 Nov 2026.",
+       "afya_choice": false,
+       "default": false
+      },
+      {
+       "brand": "George",
+       "product": "Long-sleeve bodysuits, 100% cotton, 0–3 months",
+       "pack": "3",
+       "pack_units": null,
+       "price_tsh": 65000,
+       "src": {
+        "name": "findandgetgroup.com",
+        "u": "https://findandgetgroup.com/products/george-baby-3pack-bodysuit-am-longsleeve",
+        "chk": "2026-11-02"
+       },
+       "orig": null,
+       "status": "TZ",
+       "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; price as recorded in the code on 2 Nov 2026. Above the range of the others; premium swap.",
+       "afya_choice": false,
+       "default": false
+      }
+     ]
+    }
+   ],
+   "pricing": {
+    "shelf_value": 242878,
+    "landed_goods": 175452,
+    "packing": 6500,
+    "delivery": 3500,
+    "plans": {
+     "buy_once": {
+      "price": 242500,
+      "saving_vs_shelf": 378,
+      "margin": 57048,
+      "margin_pct": 23.5
+     },
+     "m1": {
+      "price": 235500,
+      "saving_vs_shelf": 7378,
+      "margin": 47693,
+      "margin_pct": 20.3
+     },
+     "m6": {
+      "price": 228500,
+      "saving_vs_shelf": 14378,
+      "margin": 40763,
+      "margin_pct": 17.8
+     },
+     "m12": {
+      "price": 221000,
+      "saving_vs_shelf": 21878,
+      "margin": 33338,
+      "margin_pct": 15.1
+     }
+    },
+    "monthly_alt_12m_margin_per_month": 7281
+   }
+  }
+ ],
+ "luxury": [
+  {
+   "stage": "t1",
+   "tier": "premium",
+   "name": {
+    "en": "Satin sleep bonnet",
+    "sw": "Kofia ya satin ya kulalia"
+   },
+   "brand": "Storesome",
+   "product": "Satin sleep cap",
+   "pack": "1",
+   "price_tsh": 3354,
+   "src": {
+    "name": "Carrefour Kenya",
+    "u": "https://www.carrefour.ke/mafken/en/hair-accessories/storesome-satin-sleep-cap-wm002/p/238791",
+    "chk": "2026-11-02"
+   },
+   "orig": {
+    "cur": "KES",
+    "amount": 165,
+    "rate": 20.33,
+    "date": "2026-11-10"
+   },
+   "status": "KE",
+   "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row."
+  },
+  {
+   "stage": "t1",
+   "tier": "luxury",
+   "name": {
+    "en": "Bath & Body Works fine fragrance mist, travel size",
+    "sw": "Manukato ya Bath & Body Works, saizi ya safari"
+   },
+   "brand": "Bath & Body Works",
+   "product": "A Thousand Wishes fine fragrance mist",
+   "pack": "88 ml",
+   "price_tsh": 45742,
+   "src": {
+    "name": "Portal Pharmacy (Kenya)",
+    "u": "https://portalpharmacy.ke/bbw-a-thousand-wishes-mist",
+    "chk": "2026-11-02"
+   },
+   "orig": {
+    "cur": "KES",
+    "amount": 2250,
+    "rate": 20.33,
+    "date": "2026-11-10"
+   },
+   "status": "KE",
+   "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row."
+  },
+  {
+   "stage": "t2",
+   "tier": "premium",
+   "name": {
+    "en": "Cotton newborn beanies, 2-pack",
+    "sw": "Kofia mbili za pamba za mtoto mchanga"
+   },
+   "brand": "Dymples",
+   "product": "Cotton newborn beanies",
+   "pack": "2",
+   "price_tsh": 5000,
+   "src": {
+    "name": "epictotostore.co.tz",
+    "u": "https://epictotostore.co.tz/product/baby-hats-2-pack-white-cotton-beanies-with-bear-ears-newborn-dymples/",
+    "chk": "2026-11-02"
+   },
+   "orig": null,
+   "status": "TZ",
+   "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; price as recorded in the code on 2 Nov 2026."
+  },
+  {
+   "stage": "t2",
+   "tier": "luxury",
+   "name": {
+    "en": "Bath & Body Works Ultra Shea body cream",
+    "sw": "Krimu ya mwili ya Bath & Body Works Ultra Shea"
+   },
+   "brand": "Bath & Body Works",
+   "product": "A Thousand Wishes Ultra Shea body cream",
+   "pack": "226 g",
+   "price_tsh": 50825,
+   "src": {
+    "name": "Portal Pharmacy (Kenya)",
+    "u": "https://portalpharmacy.ke/bath-and-body-works-a-thousand-wishes-ultra-shea-body-cream-8-0-oz",
+    "chk": "2026-11-02"
+   },
+   "orig": {
+    "cur": "KES",
+    "amount": 2500,
+    "rate": 20.33,
+    "date": "2026-11-10"
+   },
+   "status": "KE",
+   "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row."
+  },
+  {
+   "stage": "t3",
+   "tier": "premium",
+   "name": {
+    "en": "Cotton swaddle blanket",
+    "sw": "Blanketi la pamba la kumfunika mtoto"
+   },
+   "brand": "Generic",
+   "product": "Cotton swaddle blanket",
+   "pack": "1",
+   "price_tsh": 20000,
+   "src": {
+    "name": "epictotostore.co.tz",
+    "u": "https://epictotostore.co.tz/product/gray-baby-swaddle-blanket-white-stripe-cotton-soft-stylish/",
+    "chk": "2026-11-02"
+   },
+   "orig": null,
+   "status": "TZ",
+   "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; price as recorded in the code on 2 Nov 2026."
+  },
+  {
+   "stage": "t3",
+   "tier": "luxury",
+   "name": {
+    "en": "Bath & Body Works fine fragrance mist",
+    "sw": "Manukato ya Bath & Body Works"
+   },
+   "brand": "Bath & Body Works",
+   "product": "Warm Vanilla Sugar fine fragrance mist (for the mother; not sprayed near the baby)",
+   "pack": "236 ml",
+   "price_tsh": 50825,
+   "src": {
+    "name": "Portal Pharmacy (Kenya)",
+    "u": "https://portalpharmacy.ke/bbw-warm-vanilla-sugar-mist",
+    "chk": "2026-11-02"
+   },
+   "orig": {
+    "cur": "KES",
+    "amount": 2500,
+    "rate": 20.33,
+    "date": "2026-11-10"
+   },
+   "status": "KE",
+   "note": "Not re-opened: host refused by this session’s network proxy on 10 Nov 2026; KES amount from the 2 Nov 2026 code row."
+  }
+ ],
+ "tiers": {
+  "en": "Regular = the core box with default brands. Premium = core + the premium item of that trimester. Luxury = core + the luxury item. The luxury item is priced as its own line at shelf price, outside the saving (D4).",
+  "sw": "Kawaida = boksi la msingi lenye chapa za msingi. Premium = boksi la msingi + bidhaa ya premium ya kipindi hicho. Anasa = boksi la msingi + bidhaa ya anasa. Bidhaa ya anasa ina bei yake peke yake kwa bei ya rafu, nje ya punguzo (D4)."
+ },
+ "services": [
+  "antenatal-support",
+  "midwife-home-visit"
+ ],
+ "services_note": {
+  "en": "antenatal-support: in-store blood pressure, weight and danger-sign check, and reminders for the 8 WHO antenatal contacts, IPTp and tetanus vaccine; store and public services, fee 0. midwife-home-visit: optional add-on in the third trimester (birth preparedness and breastfeeding preparation); partner price not yet quoted (R7), so not in the box price.",
+  "sw": "antenatal-support: kupima shinikizo la damu, uzito na dalili za hatari dukani, na vikumbusho vya mahudhurio 8 ya WHO ya kliniki ya ujauzito, IPTp na chanjo ya pepopunda; huduma za duka na za umma, ada 0. midwife-home-visit: huduma ya hiari katika miezi mitatu ya mwisho (maandalizi ya kujifungua na ya kunyonyesha); bei ya mshirika bado haijatolewa (R7), hivyo haimo kwenye bei ya boksi."
+ },
+ "pricing_rule": {
+  "formula": "D4 (10 Nov 2026): core price = shelf value of the trimester box goods × (1 − 3% / 6% / 9% for 1 / 6 / 12-month plans), nearest 500, never above shelf; packing (M 5,000, L 6,500) and one delivery 3,500 included. Check: price − goods at landed cost (R3 shares 78% brand / 72% pharm / 50% own) − packing − delivery − 1% points ≥ 0.",
+  "note": "Price is per trimester box. Medicines and the luxury line are outside the shelf value."
+ },
+ "packing": {
+  "film": {
+   "en": null,
+   "sw": null
+  },
+  "poster": null
+ },
+ "open": [
+  {
+   "en": "The treated net is an estimate (TSh 10,000); no Tanzanian retail listing for a WHO-prequalified long-lasting net was found. A distributor quote is needed before the box can be final.",
+   "sw": "Bei ya chandarua chenye dawa ni makadirio (TSh 10,000); hakuna bei ya rejareja Tanzania iliyopatikana kwa chandarua cha muda mrefu kilichoidhinishwa na WHO. Bei ya msambazaji inahitajika kabla boksi halijakamilika."
+  },
+  {
+   "en": "Ginger tea, panty liners, intimate wash, water treatment and maternity briefs have only Kenyan prices (KES converted at 20.33, not re-opened). Tanzanian prices are needed from the Kariakoo calls or a distributor.",
+   "sw": "Chai ya tangawizi, pedi nyembamba, sabuni ya sehemu za siri, dawa ya kutibu maji na chupi za baada ya kujifungua zina bei za Kenya tu (KES zimebadilishwa kwa 20.33, hazikufunguliwa tena). Bei za Tanzania zinahitajika kutoka simu za Kariakoo au kwa msambazaji."
+  },
+  {
+   "en": "Bodysuits and the premium items come from Tanzanian shops that could not be re-opened (prices from 2 Nov 2026).",
+   "sw": "Nguo za mtoto na bidhaa za premium zinatoka maduka ya Tanzania ambayo hayakuweza kufunguliwa tena (bei za 2 Nov 2026)."
+  },
+  {
+   "en": "Confirm on the pack: the active ingredient of each repellent and that it may be used in pregnancy; that the Whitedent toothpaste contains fluoride.",
+   "sw": "Hakikisha kwenye pakiti: kiambato hai cha kila dawa ya mbu na kwamba inafaa wakati wa ujauzito; na kwamba dawa ya meno ya Whitedent ina floraidi."
+  },
+  {
+   "en": "Landed costs are R3 planning shares (78/72/50%), not supplier quotes. The margins below depend on them.",
+   "sw": "Gharama za kufikisha bidhaa ni makadirio ya mipango ya R3 (78/72/50%), si bei za wasambazaji. Faida zilizo hapa chini zinategemea makadirio hayo."
+  },
+  {
+   "en": "The midwife home visit has no partner quote yet (R7).",
+   "sw": "Ziara ya mkunga nyumbani bado haina bei ya mshirika (R7)."
+  },
+  {
+   "en": "Kiswahili terms to be checked by a native speaker: priklampsia, pedi nyembamba za kila siku, chupi za baada ya kujifungua, sabuni laini ya sehemu za siri.",
+   "sw": "Maneno ya Kiswahili yakaguliwe na mzungumzaji asilia: priklampsia, pedi nyembamba za kila siku, chupi za baada ya kujifungua, sabuni laini ya sehemu za siri."
+  }
+ ]
+}

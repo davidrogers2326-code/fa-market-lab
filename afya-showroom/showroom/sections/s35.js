@@ -31,6 +31,10 @@ const RENDERS={'mama-na-mtoto':{closed:'assets/boxes/mama-na-mtoto-closed.webp',
  altClosed:{en:'The Afya Box for Mama na Mtoto: a green box with the lid lifted, gold lettering on the side',sw:'Afya Box ya Mama na Mtoto: boksi la kijani lenye mfuniko ulioinuliwa, maandishi ya dhahabu ubavuni'},
  altOpen:{en:'The same box open, with six unbranded items rising out of it',sw:'Boksi hilohilo likiwa wazi, vitu sita visivyo na chapa vikiinuka kutoka ndani'},
  tags:[[[31,17],[31,4],'Nappies','Nepi'],[[60,12],[60,2],'Baby wipes','Vitambaa vya mtoto'],[[80,20],[80,9],'Sanitary pads','Pedi'],[[45,47],[45,58],'Body lotion','Losheni'],[[57,48],[57,71],'Vitamins, via the partner pharmacy','Vitamini, kupitia famasia mshirika'],[[69,47],[69,58],'Developmental toy','Kichezeo cha makuzi']]}};
+RENDERS['mama-mjamzito']={closed:'assets/boxes/mama-mjamzito-closed.webp',open:'assets/boxes/mama-mjamzito-open.webp',dots:true,
+ altClosed:{en:'The Afya Box for Mama Mjamzito: a green box with the lid lifted, gold lettering on the side',sw:'Afya Box ya Mama Mjamzito: boksi la kijani lenye mfuniko ulioinuliwa, maandishi ya dhahabu ubavuni'},
+ altOpen:{en:'The same box open, with six unbranded pregnancy items rising out of it',sw:'Boksi hilohilo likiwa wazi, vitu sita vya ujauzito visivyo na chapa vikiinuka kutoka ndani'},
+ tags:[[[35,22],[35,22],'Mosquito net','Chandarua'],[[44,40],[44,40],'Ginger tea','Chai ya tangawizi'],[[53,22],[53,22],'Body lotion','Losheni ya mwili'],[[62,22],[62,22],'Body wash','Sabuni ya kuogea'],[[58,46],[58,46],'Panty liners','Pedi nyembamba'],[[71,34],[71,34],'Mosquito repellent','Dawa ya kufukuza mbu']]};
 const PLANS=[['m1','1 month','Mwezi 1'],['m6','6 months · Gold','Miezi 6 · Gold'],['m12','12 months · Platinum','Miezi 12 · Platinum']];
 const TIERS=[['regular','Regular','Kawaida'],['premium','Premium','Bora'],['luxury','Luxury','Anasa']];
 const STATUS={TZ:['Tanzanian shelf price','Bei ya rafu Tanzania'],KE:['Kenyan shelf price, converted','Bei ya rafu Kenya, imebadilishwa'],EST:['Estimate','Makadirio']};
@@ -101,7 +105,7 @@ function sourcesOf(b){const seen=new Map();const add=s=>{if(s&&s.u&&!seen.has(s.
 
 function packageHTML(key){const b=DATA().boxes[key],nm=nameOf(key),R=RENDERS[key]||{};
  const head=`<h2 class="ab-pkg-title">${E(nm?nm[1]:key)}</h2><p>${E(nm?T(nm[2],nm[3]):'')}</p>`;
- let h=P().boxOpens({id:'abPkgBox',head,closed:R.closed,open:R.open,altClosed:R.altClosed,altOpen:R.altOpen,tags:R.tags});
+ let h=P().boxOpens({id:'abPkgBox',head,closed:R.closed,open:R.open,altClosed:R.altClosed,altOpen:R.altOpen,tags:R.tags,dots:R.dots});
  if(!b)return h+`<p class="ab-notice">${E(T('Item list in research.','Orodha ya vitu inafanyiwa utafiti.'))}</p>`;
  if(!st.stage||!b.stages.some(s=>s.key===st.stage))st.stage=b.stages[0].key;
  const stage=b.stages.find(s=>s.key===st.stage);

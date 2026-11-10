@@ -30,7 +30,7 @@ function boxOpens(cfg){const T=A().T,E=A().E,id=cfg.id||'abBox',tags=cfg.tags||[
     ${cfg.open?`<img class="ab-render ab-open" data-open src="${E(cfg.open)}" width="1376" height="768" alt="${E(L(cfg.altOpen))}">`:''}
     <div class="ab-tags" aria-hidden="true">${tagsHTML}</div></div>${legend}`
   :`<div class="ab-frame ab-img-out" data-frame>${E(T('Box render in production','Picha ya boksi inaandaliwa'))}</div>`;
- return `<section class="ab-boxopens" id="${id}" data-boxopens aria-label="${E(T('The Afya Box opens','Afya Box inafunguka'))}">
+ return `<section class="ab-boxopens${cfg.dots?' ab-dots':''}" id="${id}" data-boxopens aria-label="${E(T('The Afya Box opens','Afya Box inafunguka'))}">
   <div class="ab-stage"><div class="ab-head">${cfg.head||''}</div>
    <div class="ab-world">${media}</div>
    <div class="ab-hint" aria-hidden="true"><span>${E(T('Closed','Limefungwa'))}</span><div class="ab-track"><i data-prog></i></div><span>${E(T('Open','Liko wazi'))}</span></div>

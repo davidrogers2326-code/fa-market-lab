@@ -15,6 +15,7 @@ window.ABE=E;
 const isLean=()=>!!(window.MODEL&&MODEL.isLean&&MODEL.isLean());
 function setFund(o){if(!window.MODEL||!MODEL.setOpt)return;if((isLean()?'lean':'flag')===o)return;
   try{sessionStorage.setItem('afyaScroll',String(scrollY))}catch(e){}
+  try{const m={};document.querySelectorAll('[data-num]').forEach(el=>{m[el.dataset.num]=+el.dataset.val});sessionStorage.setItem('afyaNums',JSON.stringify(m))}catch(e){}
   MODEL.setOpt(o);location.reload()}
 const FROM_OPT='s1-3';                          /* D1: the switch is visible from section 1.3 onward */
 const showsOpt=id=>{const i=ALL.findIndex(x=>x.id===id),j=ALL.findIndex(x=>x.id===FROM_OPT);return i>=j&&j>=0};
@@ -68,7 +69,17 @@ function pagerHTML(pv,nx){return `<nav class="ab-pager" aria-label="${E(T('Previ
 function figsHTML(list){return `<div class="ab-figs">${list.map(f=>`<div class="ab-fig"><span class="ab-v">${f.v}</span><span class="ab-l">${E(f.l)}</span>${f.s?`<span class="ab-s">${f.s}</span>`:''}</div>`).join('')}</div>`}
 function doorsHTML(ids){return `<div class="ab-doors">${ids.map(id=>{const t=ALL.find(x=>x.id===id);return t?`<a href="#${t.id}"><small>${E(t.no)} →</small><span>${E(t.title)}</span></a>`:''}).join('')}</div>`}
 function openHTML(items){return items&&items.length?`<section class="ab-block ab-oq"><h2>${E(T('Not yet verified','Bado haijathibitishwa'))}</h2><ul>${items.map(x=>`<li>${x}</li>`).join('')}</ul></section>`:''}
-window.AB={T,E,sourcesHTML,pagerHTML,figsHTML,doorsHTML,openHTML,isLean,VERSION};
+
+/* C6.4 · funding switch: numbers marked <span data-num="key" data-val="123" data-fmt="tsh|tshM|int|pct">…</span>
+   count from their value under the previous option to the new one after the switch (static under reduced motion). */
+const FMT={tsh:n=>'TSh '+Math.round(n).toLocaleString('en-US'),tshM:n=>'TSh '+(Math.abs(n)>=1e9?(n/1e9).toFixed(2)+(lang()==='sw'?' bilioni':'B'):Math.round(n/1e6)+(lang()==='sw'?' milioni':'M')),int:n=>Math.round(n).toLocaleString('en-US'),pct:n=>(Math.round(n*10)/10)+'%'};
+function numHTML(key,val,fmt){fmt=fmt||'tsh';return `<span data-num="${E(key)}" data-val="${val}" data-fmt="${fmt}">${(FMT[fmt]||FMT.tsh)(val)}</span>`}
+function animateNums(){let prev=null;try{prev=JSON.parse(sessionStorage.getItem('afyaNums')||'null');sessionStorage.removeItem('afyaNums')}catch(e){}
+ if(!prev||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+ const els=[...document.querySelectorAll('[data-num]')].filter(el=>prev[el.dataset.num]!=null&&prev[el.dataset.num]!==+el.dataset.val);if(!els.length)return;
+ const t0=performance.now(),D=700;(function f(t){const k=Math.min(1,(t-t0)/D),e=1-Math.pow(1-k,3);
+  els.forEach(el=>{const a=prev[el.dataset.num],b=+el.dataset.val;el.textContent=(FMT[el.dataset.fmt]||FMT.tsh)(a+(b-a)*e)});if(k<1)requestAnimationFrame(f)})(t0)}
+window.AB={T,E,sourcesHTML,pagerHTML,figsHTML,doorsHTML,openHTML,isLean,VERSION,numHTML,FMT};
 
 /* ---------- router ---------- */
 window.section=function(id){const i=ALL.findIndex(x=>x.id===id),s=ALL[i],p=s.part,pv=ALL[i-1],nx=ALL[i+1];
@@ -88,7 +99,7 @@ window.route=function(){applyLang();window.AFYA_LANG=lang();
  let y=0;try{y=+sessionStorage.getItem('afyaScroll')||0;sessionStorage.removeItem('afyaScroll')}catch(e){}
  window.scrollTo(0,y);
  const S=window.SECTIONS[id];if(S&&S.init){try{S.init()}catch(e){console.error(e)}}
- window.dispatchEvent(new Event('afya:route'))};
+ window.dispatchEvent(new Event('afya:route'));animateNums()};
 
 function paintChrome(){document.documentElement.lang=lang();
  document.getElementById('abTop').innerHTML=topbar();
