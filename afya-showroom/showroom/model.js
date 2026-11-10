@@ -9,11 +9,11 @@ const A={ // base-case inputs
     visitors_day_start:40, visitors_day_m12:110, conversion:0.50, basket:25000, retail_gm:0.32 },
   check:{ minutes:4, quick_seconds:50, // quick check at the door: blood pressure, pulse and oxygen in about 50 seconds; the full check below takes about 4 minutes
     // one free Afya Check: 15 measurements in about 4 minutes (self-service kiosk, adviser nearby)
-    free_readings:['Height','Weight','Body mass index (BMI)','Body fat %','Muscle mass','Body water %','Bone mass','Visceral fat level','Basal metabolic rate','Body age estimate','Blood pressure','Pulse','Blood oxygen (SpO2)','Body temperature','Vision screening'],
+    free_readings:['Height','Weight','Body mass index (BMI)','Body composition','Blood pressure and pulse','Blood oxygen (SpO2)','Body temperature'], /* basic tier, 7 measurements: research/R2-kiosk.md, approved 10 Nov 2026 (D-13) */
     paid_tests:[['Blood glucose',3000],['Total cholesterol',5000],['Uric acid',4000],['Haemoglobin',5000],['Urine test · 14 values',3000],['Lipid profile · 4 values',15000]], // finger-prick or strip tests by a trained adviser; planning prices
     kiosk_usd:4990, checks_day_m12:60, check_to_purchase:0.35, price:0 },
-  members:{ end_y1:600, plans:{m1:1.00,m6:0.969,m12:0.938}, // member saving 3% / 6% / 9% off shelf on 1 / 6 / 12-month plans (section 3.5 engine) // price factor vs monthly plan; members are built from joins minus leavers (join_rate, monthly_churn)
-    avg_box:80500, box_products_gm:0.26, // margin on box goods after the 8% member discount, 0-12% plan discounts and free starter devices
+  members:{ end_y1:600, plans:{m1:1.00,m6:0.969,m12:0.938}, // v2: price factor vs the 1-month plan under D4 (0.94/0.97, 0.91/0.97); member saving 3% / 6% / 9% off shelf on 1 / 6 / 12-month plans (section 3.5 engine) // price factor vs monthly plan; members are built from joins minus leavers (join_rate, monthly_churn)
+    avg_box:80500, box_products_gm:0.138, // v2 (10 Nov 2026, founder decision): margin on box goods under the approved D4 rule (3/6/9% below shelf, packing and delivery inside the price), from research/R3-pricing.md §5 planning costs (78/72/50% landed shares; 12-month gross margin 7–15% on baby stages). Was 0.26. To be replaced by supplier quotes.
     packing_delivery_in_price:8500, pd_margin:0, // box at landed cost (S 3,500, M 5,000, L 6,500) + delivery 3,500, charged at cost
     monthly_churn:0.08, // 8% leave each month; subscription benchmarks 8-15% (churnkey.co)
     join_rate:0.03, check_join_rate:0.06 }, // 3% of paying store customers and 6% of Afya Check users who did not buy join a box in a month (planning estimate)

@@ -7,8 +7,8 @@
 const A=()=>window.AB, T=(e,s)=>A().T(e,s), E=s=>A().E(s);
 
 const SRC=[
- {t:'Mayige et al., Tanzania Journal of Health Research 27(2), 2026: hypertension among adults aged 18–69, 2023 National STEPS survey',u:'https://nhrdr.nimr.or.tz/records/209'},
- {t:'WHO, United Republic of Tanzania hypertension country profile (2012 STEPS survey data)',u:'https://cdn.who.int/media/docs/default-source/country-profiles/hypertension/tza_en.pdf'},
+ {t:'Mayige et al., Tanzania Journal of Health Research 27(2), 2026: hypertension among adults aged 18–69, 2023 National STEPS survey (doi 10.4314/thrb.v27i2.8)',u:'https://nhrdr.nimr.or.tz/records/209',chk:'9 Nov 2026'},
+ {t:'WHO, United Republic of Tanzania hypertension country profile (2012 STEPS survey, adults aged 25–64)',u:'https://cdn.who.int/media/docs/default-source/country-profiles/hypertension/tza_en.pdf',chk:'9 Nov 2026'},
  {t:'Afya Basics financial model v1.2, base case (planning estimates)',u:''}];
 const cite=n=>`<sup><a href="#abSrc" class="ab-cite" aria-label="${E(T('Source','Chanzo'))} ${n}">${n}</a></sup>`;
 
@@ -54,7 +54,7 @@ function render(s,p,pv,nx){const N=numbers(),seed=N.seed;
  <section class="ab-block">
   <h2>${E(T('Care has moved home. Shopping for it has not.','Huduma ya afya imehamia nyumbani. Ununuzi wake bado haujahamia.'))}</h2>
   <div class="ab-body" style="margin-top:16px">
-   <p>${T(`Almost one Tanzanian adult in four has raised blood pressure${cite(1)}. Of every hundred adults with hypertension, about two have it under control${cite(2)}. The condition is managed at home, every day, with tablets, monitors and refills. The shops that supply families were built for one-off purchases: they keep no record, do not deliver and run out.`,`Karibu mtu mzima mmoja kati ya wanne nchini Tanzania ana shinikizo la juu la damu${cite(1)}. Kati ya kila watu wazima mia wenye shinikizo la juu la damu, takriban wawili ndio wamelidhibiti${cite(2)}. Hali hii inasimamiwa nyumbani kila siku, kwa vidonge, vipimo na kujaza tena. Maduka yanayohudumia familia yalijengwa kwa manunuzi ya mara moja: hayaweki kumbukumbu, hayaleti nyumbani na bidhaa huisha.`)}</p>
+   <p>${T(`Almost one Tanzanian adult in four has raised blood pressure (2023)${cite(1)}. Of every hundred adults with hypertension, about two had it under control in the last national survey to measure control (2012)${cite(2)}. The condition is managed at home, every day, with tablets, monitors and refills. The shops that supply families were built for one-off purchases: they keep no record, do not deliver and run out.`,`Karibu mtu mzima mmoja kati ya wanne nchini Tanzania ana shinikizo la juu la damu (2023)${cite(1)}. Kati ya kila watu wazima mia wenye shinikizo la juu la damu, takriban wawili walikuwa wamelidhibiti katika utafiti wa mwisho wa kitaifa uliopima udhibiti (2012)${cite(2)}. Hali hii inasimamiwa nyumbani kila siku, kwa vidonge, vipimo na kujaza tena. Maduka yanayohudumia familia yalijengwa kwa manunuzi ya mara moja: hayaweki kumbukumbu, hayaleti nyumbani na bidhaa huisha.`)}</p>
    <p>${E(T('Afya Basics brings the products, a free health check and partner care services into one store and one monthly membership. Medicines are sold only by a licensed partner pharmacy.','Afya Basics inaleta bidhaa, kipimo cha afya cha bure na huduma za washirika katika duka moja na uanachama mmoja wa kila mwezi. Dawa zinauzwa na famasia mshirika yenye leseni pekee.'))}</p>
   </div>
  </section>
@@ -82,10 +82,9 @@ function render(s,p,pv,nx){const N=numbers(),seed=N.seed;
  </section>
 
  ${A().openHTML([
-  E(T('The two health figures above have not yet been re-opened at source and dated; this is done in the research phase before publication.','Takwimu mbili za afya hapo juu bado hazijafunguliwa tena kwenye chanzo na kuwekewa tarehe; hili linafanyika katika awamu ya utafiti kabla ya kuchapishwa.')),
   E(T('The five numbers come from the financial model and will change when the price research (box prices, partner services) and the pre-sale plan are complete.','Namba tano zinatoka kwenye modeli ya fedha na zitabadilika utafiti wa bei (bei za boksi, huduma za washirika) na mpango wa mauzo ya awali utakapokamilika.'))])}
 
- <div id="abSrc">${A().sourcesHTML(SRC.map(x=>({t:x.t,u:x.u})))}</div>
+ <div id="abSrc">${A().sourcesHTML(SRC.map(x=>({t:x.t,u:x.u,chk:x.chk})))}</div>
  ${A().pagerHTML(pv,nx)}
  </div></article>`}
 

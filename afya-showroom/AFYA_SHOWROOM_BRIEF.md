@@ -1,6 +1,7 @@
 # AFYA BASICS INVESTOR SHOWROOM — REFURBISHMENT BRIEF
 
-Version 1.1 · 9 November 2026 · Owner: Fahmy Abbas Cothema
+Version 1.2 · 10 November 2026 · Owner: Fahmy Abbas Cothema
+(1.2: D4 corrected and approved; R1 corrections; decisions D-12 to D-16.)
 (1.1: B12 tightened to no faces at all; E1 locked to the three approved renders; section count corrected to 36; founder decisions of 9 Nov recorded in Part J.)
 For: Claude Code (the build agent). Read this whole file before writing any code.
 
@@ -183,17 +184,25 @@ Glows, gradient text, neon colours, blue/purple tech lighting, floating device m
 
 The order never changes between packages. A package without a finished item list (R6) is shown with sections 1–3 only and a clearly labelled "item list in research" notice — never with placeholder items presented as real.
 
-### D4. Pricing formula (from the existing Research Lab; keep as the single source of truth)
+### D4. Pricing formula (single source of truth; corrected 10 Nov 2026 from R3, approved by the founder)
 ```
-Price per box = shelf value × (1 − member saving by plan: 3% / 6% / 9%)
-              + service fee
-              + packing at landed cost of the box size (S 3,500 · M 5,000 · L 6,500)
-              + delivery 3,500
-              → rounded to the nearest 500
-Plans: 1-month, 6-month (Gold), 12-month (Platinum) with the discounts and
-perks already defined in sections 3.4/3.5.
+Core price  = shelf value of the box goods × (1 − member saving by plan: 3% / 6% / 9%)
+              → rounded to the nearest 500, never above the shelf value
+              (packing at landed cost of the box size S 3,500 · M 5,000 · L 6,500
+               and delivery 3,500 are INCLUDED in this price, not added)
+Service fee = Σ included partner services at partner price × 1.25, each rounded to the nearest 500,
+              (partner price = the negotiated rate Afya pays, about 70% of the walk-in price, R7;
+               never the walk-in price, or the member would pay more than walking in)
+              charged in the month the service is delivered (store and public services: 0)
+Price per box = Core price + Service fee
+Check: Core price − goods at landed cost − packing − delivery − points ≥ 0;
+       if not, the box is delivered less often or collected in store.
+       Pregnancy boxes are delivered once per trimester (founder decision, 10 Nov 2026).
+Excluded from shelf value and from the saving: medicines (sold by the partner pharmacy),
+and the "taste of luxury" item, which is priced as its own line.
+Plans: 1-month, 6-month (Gold), 12-month (Platinum), plus buy once at shelf price.
 ```
-Note for R3: the current showroom states both a member saving of 3/6/9% by plan and plan perks of "13/16/20% below shelf". These cannot both be true of the same price. R3 must resolve which is the headline saving and how it is composed, then the formula above is corrected once and every number follows.
+Resolved (R3, 10 Nov 2026): the headline member saving is 3% / 6% / 9% below shelf, with packing and delivery included in the price. The old "13/16/20% below shelf" is withdrawn: it cannot be funded once packing and delivery are recovered (B18).
 Shelf value is rebuilt from the store's own shelf prices each quarter; members see the new price before renewal. This formula drives both the item tables and the Build-your-box calculator. If R3 changes any constant, change it once, here, and let every number follow.
 
 ---
@@ -237,21 +246,21 @@ Each package states what to find, where, what the output looks like, and which s
 ### R1. Regulation and compliance (feeds 4.5, 7.1, 7.3)
 **Already found (7 Nov 2026):**
 - Cosmetics and food regulation moved from TMDA to TBS in July 2019; TMDA keeps medicines and medical devices.
-- Pre-packaged food and cosmetics must be registered with TBS before importation (Standards (Imports Registration and Batch Certification) Regulations, GN 681 of 2021); any trader importing or selling cosmetics/food must be registered as an importer (Standards Act, Cap 130). Fees published: TZS 50,000 registration, TZS 150,000 premise registration.
-- Each shipment needs a PVoC Certificate of Conformity issued before shipping by a TBS contractor (Intertek, Bureau Veritas): minimum USD 250, maximum USD 5,000 per shipment; product registration (Route B) recommended for frequent shipments of the same products, renewable annually.
-- Missing the CoC: 15% of CIF value penalty plus destination inspection (TZS 100,000 inspection fee, testing fees vary).
-- Company: private limited company with TZS 1M capital ≈ TZS 217,200 in BRELA fees; since 15 April 2025 BRELA blocks companies that have not filed beneficial-owner (UBO) information; then TIN at TRA and a municipal business licence.
+- Pre-packaged food and cosmetics must be registered with TBS before importation (Standards (Imports Registration and Batch Certification) Regulations, GN 681 of 2021); any trader importing or selling cosmetics/food must be registered as an importer (Standards Act, Cap 130). Fees (corrected by R1, 9 Nov 2026): TBS retail cosmetics premise registration TZS 150,000; TBS registration of each imported cosmetic product TZS 440,000 (variants half price, valid 5 years); the TZS 50,000 importer fee is not in the TBS fee regulations (to confirm with TBS).
+- Each shipment needs a PVoC Certificate of Conformity issued before shipping by a TBS-appointed contractor (for China: CCIC, Intertek, SGS, TÜV Rheinland, WSCT; for India: SGS, TÜV, Intertek; Bureau Veritas is not a TBS PVoC contractor): 0.50% of FOB under Route A (0.45% Route B, 0.25% Route C), minimum USD 250, maximum USD 5,000 per shipment; product registration (Route B) recommended for frequent shipments of the same products, renewable annually.
+- Missing the CoC: a penalty of 15% of the invoice value as assessed by TRA (corrected from "15% of CIF") plus destination inspection (TZS 100,000 inspection fee, testing fees vary).
+- Company: private limited company with TZS 1M capital ≈ TZS 221,000 in BRELA fees (BRELA 95,000 + 50,000 + 22,000 per document, memorandum stamp duty TSh 10,000; corrected from 217,200); since 15 April 2025 BRELA blocks companies that have not filed beneficial-owner (UBO) information; then TIN at TRA and a municipal business licence.
 **To do:** verify every figure above on the TBS, BRELA and TRA sites and record the check date; obtain one written quote from a Dar es Salaam clearing agent for a 20 ft container of mixed cosmetics/consumables from China; confirm whether the Afya Check kiosk (R2) needs TMDA medical-device registration when used for non-diagnostic screening; list which product families in 3.6 are TBS-regulated, TMDA-regulated or unregulated.
 **Output:** `research/R1-compliance.md` with a fee table (TSh, with source and date), a 15-step licence checklist (replacing the current one in 7.1 where it differs), and a compliance budget line of TSh 8–12M to be confirmed by the agent's quote.
 
 ### R2. Afya Check Station (feeds 3.3, 4.1)
 **Already found:** Chinese all-in-one kiosks (height, weight, BMI, blood pressure, SpO2, temperature, body composition) list at about USD 3,267–3,630; units adding ECG, glucose and uric acid at about USD 6,820–7,425 (HW-V7000 class). Indicative landed cost for the basic tier ≈ TSh 9–10M.
-**Decision to carry:** basic tier only; no blood-prick tests (consumables, trained staff, medical-device territory). Presented as a wellness screening station, 50-second flow.
+**Decision to carry:** basic tier only; no blood-prick tests (consumables, trained staff, medical-device territory). Presented as a wellness screening station, 50-second flow. **Approved 10 Nov 2026 (R2):** basic tier with 7 measurements (height, weight, BMI, body composition, blood pressure with pulse, SpO2, temperature); bought through a TMDA-registered local dealer; the kiosk is a Class B medical device for TMDA (registration US$2,500, R1).
 **To do:** three supplier quotes with CE/ISO certificates, warranty terms and spare-part availability; freight and duty to Dar; a maintenance budget (assume one failure per year); confirm the 15-measurement list in 3.3 against what the basic tier actually measures and correct the section.
 **Output:** `research/R2-kiosk.md` with a comparison table and the chosen spec; corrected measurement list for 3.3.
 
 ### R3. Pricing benchmark and churn defence (feeds 3.5, 6.1, 6.2)
-**Already found:** a licensed Tanzanian online pharmacy (AfyaDepot, afyadepot.co.tz) sells e.g. Softcare diapers at TSh 6,000–26,000 with same-day delivery in Dar es Salaam and free delivery above TZS 250,000 — a live benchmark for retail prices and delivery expectations.
+**Already found:** a licensed Tanzanian online pharmacy (AfyaDepot, afyadepot.co.tz) sells e.g. Softcare diapers at TSh 6,000–26,000 with same-day delivery in Dar es Salaam and free delivery above TZS 150,000 on pharmacy orders in Dar (corrected from 250,000; checked 9 Nov 2026) — a live benchmark for retail prices and delivery expectations.
 **To do:** for every item in the Mama na Mtoto list (R6), record the shelf price from (a) AfyaDepot, (b) one Dar supermarket chain's online listing, (c) a Kariakoo wholesale phone enquiry (two calls, logged with date and contact role). Build the box price from the D4 formula and show that the member price is at or below the sum of shelf prices before the "taste of luxury" item and services are added. If it is not, change items or suppliers until it is — this is the condition on which the whole model rests.
 **Output:** `research/R3-pricing.md` plus `data/prices.json` consumed by the Build-your-box calculator and the 3.5 tables; a one-page "why members stay" argument for 5.3 based on the number, not adjectives.
 
@@ -414,6 +423,13 @@ These need an answer before the section that depends on them is built.
 - D-9 The showroom has 36 sections.
 - D-10 The separate landing page and cover are retired; 0.1 is the home page.
 - D-11 Confirm in R4 whether the investor share is 30% in both options or set per option.
+- D-12 (10 Nov 2026) Pricing rule approved as the corrected D4. Pregnancy boxes are delivered once per trimester. Mama na Mtoto is built as two boxes: Mama Mjamzito (pregnancy) and Mama na Mtoto (mother and baby), which settles J-2.
+- D-13 Kiosk: basic tier, 7 measurements, TMDA-registered local dealer (R2). Section 3.3 is corrected to 7 measurements.
+- D-14 Products: launch with locally registered products (compliance fees ≈ TSh 2.3M); Afya's own TBS product registration (≈ TSh 11.1M for 20 products) moves to launch Phase 2. Both figures appear in 4.5 and 6.3.
+- D-15 Second price benchmark: Shoppers Supermarket (www.shoppers.co.tz), which settles J-4.
+- D-16 0.1 health figures shown with their survey years (2023 and 2012).
+- D-17 (10 Nov 2026) Financial model box-goods margin set to 13.8% to match D4 (was 26%). Flagship break-even moves from month 10 to month 12, year-1 loss from TSh 93M to TSh 120M; start-small break-even month 8 → 10. The seed stays TSh 340M / 150M; the extra early losses are absorbed by the working-capital reserve, and 6.3 says so.
+- D-18 Mama Mjamzito renders approved: two Weavy runs, 14 credits.
 
 ---
 

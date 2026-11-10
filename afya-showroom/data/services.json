@@ -1,0 +1,153 @@
+[
+ {
+  "key": "postnatal-check",
+  "name": {
+   "en": "Postnatal check for mother and baby",
+   "sw": "Uchunguzi wa mama na mtoto baada ya kujifungua"
+  },
+  "what": {
+   "en": "A private-clinic check of the mother (blood pressure, healing, bleeding, mood) and the baby (weight, feeding, jaundice, cord), around week 6.",
+   "sw": "Uchunguzi katika kliniki binafsi wa mama (shinikizo la damu, kupona, kutokwa damu, hali ya moyo) na wa mtoto (uzito, ulishaji, manjano, kitovu), karibu wiki ya 6."
+  },
+  "who_provides": {
+   "en": "Private hospital or clinic with a maternity or paediatric service (doctor or nurse-midwife).",
+   "sw": "Hospitali au kliniki binafsi yenye huduma ya uzazi au ya watoto (daktari au muuguzi-mkunga)."
+  },
+  "walkin_tsh": 40000,
+  "src": null,
+  "status": "EST",
+  "member_in_box_tsh": 35000,
+  "addon_member_tsh": 36000,
+  "provider_net_tsh": 32400,
+  "afya_tsh": 3600,
+  "partner_price_in_box_tsh": 28000,
+  "afya_in_box_tsh": 7000,
+  "included_in_box_by_default": false,
+  "free_public_alternative": {
+   "en": "Free at government RCH (reproductive and child health) clinics under the 2007 National Health Policy: postnatal care for the mother and care for children under five. Afya’s own week-6 mood and blood-pressure screen in store is also free.",
+   "sw": "Ni bure katika kliniki za serikali za RCH (afya ya uzazi na mtoto) chini ya Sera ya Taifa ya Afya ya 2007: huduma ya mama baada ya kujifungua na ya watoto chini ya miaka mitano. Uchunguzi wa Afya dukani wa wiki ya 6 (hali ya moyo na shinikizo la damu) pia ni bure."
+  },
+  "note": "EST (planning, no quote). No Dar private postnatal-check fee was found online. 40,000 reuses the model.js planning figure for a women’s-health clinic consult (Gynaecology check-up, Postnatal physiotherapy, Lactation consultant). Offered as an add-on only: the week-6 check is free at RCH clinics and Afya’s week-6 screen is a store service (code: part3c.js mama svc, w:store)."
+ },
+ {
+  "key": "baby-weigh-in",
+  "name": {
+   "en": "Monthly growth and weigh-in check",
+   "sw": "Kupima ukuaji na uzito kila mwezi"
+  },
+  "what": {
+   "en": "The baby is weighed and measured each month and the reading is added to the growth chart in the app.",
+   "sw": "Mtoto hupimwa uzito na urefu kila mwezi na kipimo huongezwa kwenye chati ya ukuaji kwenye programu."
+  },
+  "who_provides": {
+   "en": "Afya Basics store adviser (store service, no partner).",
+   "sw": "Mshauri wa duka la Afya Basics (huduma ya duka, bila mshirika)."
+  },
+  "walkin_tsh": null,
+  "src": null,
+  "status": "EST",
+  "member_in_box_tsh": 0,
+  "addon_member_tsh": 0,
+  "provider_net_tsh": 0,
+  "afya_tsh": 0,
+  "partner_price_in_box_tsh": null,
+  "afya_in_box_tsh": 0,
+  "included_in_box_by_default": false,
+  "free_public_alternative": {
+   "en": "Free monthly growth monitoring at government RCH clinics for children under five (2007 National Health Policy).",
+   "sw": "Ufuatiliaji wa ukuaji kila mwezi ni bure katika kliniki za serikali za RCH kwa watoto chini ya miaka mitano (Sera ya Taifa ya Afya ya 2007)."
+  },
+  "note": "Store service: no partner, no service fee (D4: store and public services 0). Its cost sits in the core price. No private walk-in price found or needed. Code already treats it as a store service (part3c.js mama svc, w:store; model.js services.packs mama instore)."
+ },
+ {
+  "key": "baby-massage",
+  "name": {
+   "en": "Baby massage session",
+   "sw": "Kipindi cha kumkanda mtoto"
+  },
+  "what": {
+   "en": "A short session or small class where a trained practitioner teaches the parent gentle baby massage for bonding and comfort.",
+   "sw": "Kipindi kifupi au darasa dogo ambapo mtaalamu aliyefunzwa humfundisha mzazi kumkanda mtoto taratibu kwa ukaribu na faraja."
+  },
+  "who_provides": {
+   "en": "Baby wellness studio, physiotherapist or nurse trained in infant massage.",
+   "sw": "Studio ya afya ya mtoto, mtaalamu wa tiba ya viungo au muuguzi aliyefunzwa kukanda watoto."
+  },
+  "walkin_tsh": 25000,
+  "src": null,
+  "status": "EST",
+  "member_in_box_tsh": 22000,
+  "addon_member_tsh": 22500,
+  "provider_net_tsh": 20250,
+  "afya_tsh": 2250,
+  "partner_price_in_box_tsh": 17500,
+  "afya_in_box_tsh": 4500,
+  "included_in_box_by_default": true,
+  "free_public_alternative": null,
+  "note": "EST (planning, no quote). No Dar baby-massage provider or price was found online. 25,000 is the model.js walk-in planning figure (mama pack). part3c.js uses the same 25,000 as the partner price, which would put the member at 31,500 (126% of walk-in): see R7 §5."
+ },
+ {
+  "key": "midwife-home-visit",
+  "name": {
+   "en": "Midwife or nurse home visit",
+   "sw": "Ziara ya mkunga au muuguzi nyumbani"
+  },
+  "what": {
+   "en": "A registered midwife or nurse visits the home in the first two weeks: mother’s recovery, baby’s cord, weight and breastfeeding.",
+   "sw": "Mkunga au muuguzi aliyesajiliwa hutembelea nyumbani katika wiki mbili za kwanza: kupona kwa mama, kitovu cha mtoto, uzito na unyonyeshaji."
+  },
+  "who_provides": {
+   "en": "Home-care nursing agency or private midwife registered with the Tanzania Nursing and Midwifery Council.",
+   "sw": "Kampuni ya huduma za uuguzi nyumbani au mkunga binafsi aliyesajiliwa na Baraza la Uuguzi na Ukunga Tanzania."
+  },
+  "walkin_tsh": 50000,
+  "src": {
+   "name": "AfyaDepot (afyadepot.co.tz), Home Nursing Care: Senior Home-care Visit, 50,000 Tsh / unit (comparable, not a midwife quote)",
+   "u": "https://www.afyadepot.co.tz/product/senior-home-care-visit",
+   "chk": "2026-11-10"
+  },
+  "status": "EST",
+  "member_in_box_tsh": 44000,
+  "addon_member_tsh": 45000,
+  "provider_net_tsh": 40500,
+  "afya_tsh": 4500,
+  "partner_price_in_box_tsh": 35000,
+  "afya_in_box_tsh": 9000,
+  "included_in_box_by_default": true,
+  "free_public_alternative": {
+   "en": "Government postnatal care is free at RCH clinics (2007 National Health Policy), but it is given at the clinic, not at home.",
+   "sw": "Huduma ya serikali baada ya kujifungua ni bure katika kliniki za RCH (Sera ya Taifa ya Afya ya 2007), lakini hutolewa kliniki, si nyumbani."
+  },
+  "note": "EST anchored to a Dar comparable. AfyaDepot lists a nurse home visit for older people at 50,000 Tsh (checked 10 Nov 2026); no midwife postnatal-visit price was found. Code planning figure was 40,000 as the partner price (part3c.js), which gives a member price of 50,000 = 100% of the comparable walk-in. This file uses partner price 35,000 (70% of 50,000)."
+ },
+ {
+  "key": "antenatal-support",
+  "name": {
+   "en": "Antenatal class or check-in",
+   "sw": "Darasa au mazungumzo ya maandalizi ya kujifungua"
+  },
+  "what": {
+   "en": "A group class or one-to-one check-in on birth preparation, breastfeeding and newborn care. It is not a medical antenatal visit: those belong to the clinic.",
+   "sw": "Darasa la kikundi au mazungumzo ya mmoja kwa mmoja kuhusu maandalizi ya kujifungua, unyonyeshaji na matunzo ya mtoto mchanga. Si ziara ya kitabibu ya kliniki ya wajawazito: hiyo ni ya kliniki."
+  },
+  "who_provides": {
+   "en": "Private midwife, maternity hospital education unit or antenatal fitness studio.",
+   "sw": "Mkunga binafsi, kitengo cha elimu cha hospitali ya uzazi au studio ya mazoezi ya wajawazito."
+  },
+  "walkin_tsh": 20000,
+  "src": null,
+  "status": "EST",
+  "member_in_box_tsh": 17500,
+  "addon_member_tsh": 18000,
+  "provider_net_tsh": 16200,
+  "afya_tsh": 1800,
+  "partner_price_in_box_tsh": 14000,
+  "afya_in_box_tsh": 3500,
+  "included_in_box_by_default": true,
+  "free_public_alternative": {
+   "en": "Medical antenatal visits, iron and folic acid and malaria prevention are free at government RCH clinics (2007 National Health Policy). Afya never charges for them; it only reminds.",
+   "sw": "Ziara za kitabibu za kliniki ya wajawazito, vidonge vya madini ya chuma na foliki na kinga ya malaria ni bure katika kliniki za serikali za RCH (Sera ya Taifa ya Afya ya 2007). Afya haitozi chochote kwa hayo; inakumbusha tu."
+  },
+  "note": "EST (planning, no quote). No Dar antenatal-class price was found online. 20,000 is the model.js walk-in planning figure (preg pack, Prenatal class). part3c.js lists it as optional and uses 20,000 as the partner price."
+ }
+]
