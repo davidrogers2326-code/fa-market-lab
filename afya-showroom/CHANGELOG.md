@@ -13,7 +13,7 @@
 
 **Standing open items (keep until closed)**
 - **Native Kiswahili review of medical and technical terms.** The terms are listed in R6 Mama na Mtoto, R6 Mama Mjamzito, R7, R9, and in the 3.3, 3.4, 4.2, 4.5, 7.1 and 7.3 rebuild notes (e.g. "muundo wa mwili", "priklampsia", "toleo", "Cheti cha Ulinganifu", "pochi ya simu").
-- **Packing film check.** Watch the Mama na Mtoto packing films frame by frame (gloved hands only, the approved box design, no faces), and add captions in both languages (K3).
+- **Packing film.** Checked 10 Nov 2026 (66-second film, frame sheet). It has no people. But it shows the old box with a coral band (fails B15) and an on-screen price built the old way: shelf −3% plus box 8,500 plus delivery 3,500 = TSh 195,500, which contradicts the approved D4. It also has no gloved-hands packing. **Withdrawn from the Mama na Mtoto page**; the written packing description stays. A new film on the locked box design, with captions in both languages, is needed (K3). This needs a founder decision, because a video render costs credits. The other 16 package films in 4.3 (`AFYA_PACKF`) very likely share the old box and are to be checked when 4.3 is rebuilt.
 
 ## Phase 3 · Mama na Mtoto end to end — 10 November 2026 (approved)
 
