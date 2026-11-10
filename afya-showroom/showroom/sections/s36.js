@@ -103,18 +103,18 @@ function M(){const I=window.MODEL.inputs,use=I.seed.use||[],lean=A().isLean();
  return {lean,stock:stock?stock[1]:null,fams:m?+m[1]:I.product_families,comp:comp?comp[1]:null,bpi:I.brands_per_item}}
 
 /* ---------- primary visual: families per Care Zone, split by who sells them ---------- */
-function zoneSVG(){const Z=SUM().zones,max=Math.max(...Z.map(z=>z.fam)),W=1000,rowH=58,top=34,lx=250,bw=W-lx-90,H=top+Z.length*rowH+20;
+function zoneSVG(v){const Z=SUM().zones,max=Math.max(...Z.map(z=>z.fam)),W=v?400:1000,rowH=v?98:58,top=v?40:34,lx=v?0:250,bw=W-lx-(v?50:90),H=top+Z.length*rowH+20,dy=v?26:0;
  const rows=Z.map((z,i)=>{const pp=[...PP].filter(k=>k.startsWith(z.k+'_')).length,own=z.fam-pp,y=top+i*rowH,w1=own/max*bw,w2=pp/max*bw;
-  return `<g><text x="${lx-14}" y="${y+22}" text-anchor="end" font-size="16" fill="var(--ink)">${E(TL(z.n))}</text>
-   <rect x="${lx}" y="${y+6}" width="${w1}" height="24" fill="var(--green)"/>
-   ${pp?`<rect x="${lx+w1}" y="${y+6}" width="${w2}" height="24" fill="url(#s36h)" stroke="var(--ink)" stroke-width="1" stroke-dasharray="4 3"/>`:''}
-   <text x="${lx+w1+w2+10}" y="${y+24}" font-size="16" fill="var(--gold)">${z.fam}</text>
-   <text x="${lx}" y="${y+48}" font-size="13" fill="var(--mute)">${E(T(`${own} on Afya’s shelves`,`${own} kwenye rafu za Afya`))}${pp?' · '+E(T(`${pp} at the partner pharmacy`,`${pp} kwenye famasia mshirika`)):''}</text></g>`}).join('');
- return `<svg class="s36-chart" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="s36ct"><title id="s36ct">${L('Product families per Care Zone, split between Afya’s own shelves and the partner pharmacy','Familia za bidhaa kwa kila Eneo la Huduma, zikigawanywa kati ya rafu za Afya na famasia mshirika')}</title>
-  <defs><pattern id="s36h" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="var(--mute)" stroke-width="2"/></pattern></defs>
-  <line x1="${lx}" y1="${top-6}" x2="${lx}" y2="${H-14}" stroke="var(--line)"/>
+  return `<g><text x="${v?0:lx-14}" y="${y+(v?14:22)}" text-anchor="${v?'start':'end'}" font-size="16" fill="var(--ink)">${E(TL(z.n))}</text>
+   <rect x="${lx}" y="${y+6+dy}" width="${w1}" height="24" fill="var(--green)"/>
+   ${pp?`<rect x="${lx+w1}" y="${y+6+dy}" width="${w2}" height="24" fill="url(#s36h${v?'v':''})" stroke="var(--ink)" stroke-width="1" stroke-dasharray="4 3"/>`:''}
+   <text x="${lx+w1+w2+10}" y="${y+24+dy}" font-size="16" fill="var(--gold)">${z.fam}</text>
+   <text x="${lx}" y="${y+48+dy}" font-size="13" fill="var(--mute)">${E(T(`${own} on Afya’s shelves`,`${own} kwenye rafu za Afya`))}${pp?' · '+E(T(`${pp} at the partner pharmacy`,`${pp} kwenye famasia mshirika`)):''}</text></g>`}).join('');
+ return `<svg class="s36-chart ${v?'s36-v':'s36-h'}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="s36ct${v?'v':''}"><title id="s36ct${v?'v':''}">${L('Product families per Care Zone, split between Afya’s own shelves and the partner pharmacy','Familia za bidhaa kwa kila Eneo la Huduma, zikigawanywa kati ya rafu za Afya na famasia mshirika')}</title>
+  <defs><pattern id="s36h${v?'v':''}" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="var(--mute)" stroke-width="2"/></pattern></defs>
+  ${v?'':`<line x1="${lx}" y1="${top-6}" x2="${lx}" y2="${H-14}" stroke="var(--line)"/>`}
   <rect x="${lx}" y="4" width="14" height="14" fill="var(--green)"/><text x="${lx+22}" y="16" font-size="13" fill="var(--mute)">${L('Afya’s shelves','Rafu za Afya')}</text>
-  <rect x="${lx+190}" y="4" width="14" height="14" fill="url(#s36h)" stroke="var(--ink)" stroke-dasharray="4 3"/><text x="${lx+212}" y="16" font-size="13" fill="var(--mute)">${L('Medicines: partner pharmacy','Dawa: famasia mshirika')}</text>
+  <rect x="${lx+(v?150:190)}" y="4" width="14" height="14" fill="url(#s36h${v?'v':''})" stroke="var(--ink)" stroke-dasharray="4 3"/><text x="${lx+(v?172:212)}" y="16" font-size="13" fill="var(--mute)">${L('Medicines: partner pharmacy','Dawa: famasia mshirika')}</text>
   ${rows}</svg>`}
 
 /* ---------- catalogue explorer (lib.js loaded on demand) ---------- */
@@ -123,7 +123,8 @@ function needLib(cb){if(window.AFYA_LIB)return cb();
  if(!document.getElementById('r6lib')){const s=document.createElement('script');s.id='r6lib';s.src='sections/range/lib.js?v=2';s.async=true;document.head.appendChild(s)}
  let n=0;const t=setInterval(()=>{if(window.AFYA_LIB){clearInterval(t);cb()}else if(++n>200){clearInterval(t);const r=document.getElementById('s36Res');if(r)r.innerHTML=`<p class="ab-mute">${L('The catalogue could not be loaded. Reload the page to try again.','Katalogi haikuweza kupakiwa. Pakia ukurasa upya kujaribu tena.')}</p>`}},50)}
 const chip=k=>`<span class="s36-chip s36-${k}">${L(FLAG[k][0],FLAG[k][1])}</span>`;
-function famProducts(f){const P=window.AFYA_LIB.P;return f.p.map(i=>P[i]).filter(x=>!(NO_MULTI.has(f.k)&&(x[9]===2||x[9]===3)))}
+/* medicine families show only the real shop listings: no Afya own-label medicine and no Afya pack variants (D-5) */
+function famProducts(f){const P=window.AFYA_LIB.P,pp=PP.has(f.k);return f.p.map(i=>P[i]).filter(x=>pp?(x[5]!=='OWN'&&x[9]<=1):!(NO_MULTI.has(f.k)&&(x[9]===2||x[9]===3||x[5]==='OWN')))}
 function priceCell(x,isPP){if(isPP)return `<span class="ab-mute">${L('Sold and priced by the partner pharmacy','Inauzwa na kuwekewa bei na famasia mshirika')}</span>`;
  const src=x[6]?` <a href="${E(x[6])}" target="_blank" rel="noopener">${L('source','chanzo')}</a>`:'';const k=x[9];
  if(x[5]==='OWN')return `<span class="ab-gold">${tsh(x[4])}</span> ${est()}<br><span class="ab-mute">${L('Afya own label, planned for launch phase 2','Chapa ya Afya, imepangwa kwa awamu ya 2 ya uzinduzi')}</span>`;
@@ -156,7 +157,7 @@ function lisheHTML(){const N=((window.AFYA_DATA||{}).nutrition)||[];if(!N.length
  const G=new Map();N.forEach(x=>{const k=band(x);if(!G.has(k))G.set(k,[]);G.get(k).push(x)});
  const price=x=>{const s=x.src&&x.src.u?` <a href="${E(x.src.u)}" target="_blank" rel="noopener">${E(x.src.name||T('source','chanzo'))}</a>`:'';
   return x.status==='KE'&&x.orig?`${tsh(x.price_tsh)}<br><span class="ab-mute">${L('Kenyan shelf price','Bei ya rafu Kenya')}: ${E(x.orig.cur)} ${nf(x.orig.amount)} × ${x.orig.rate} (BoT, ${FXD})${s}</span>`:`${tsh(x.price_tsh)}<br><span class="ab-mute">${L('Tanzanian shelf price','Bei ya rafu Tanzania')}${s}</span>`};
- return [...G].map(([g,rows])=>`<h3>${E(g)}</h3><div class="ab-tw"><table class="ab-t"><thead><tr><th>${L('Food','Chakula')}</th><th>${L('Why it is on the shelf','Kwa nini kiko rafuni')}</th><th>${L('Shelf price','Bei ya rafu')}</th></tr></thead><tbody>${rows.map(x=>`<tr><td><b>${E(T(x.name.en,x.name.sw))}</b><br><span class="ab-mute" lang="en">${E(x.brand||'')} · ${E(x.product||'')} · ${E(x.pack||'')}</span></td><td>${E(T(x.why.en,x.why.sw))}</td><td class="ab-n">${price(x)}</td></tr>`).join('')}</tbody></table></div>`).join('')}
+ return [...G].map(([g,rows])=>`<h3>${E(g)}</h3><div class="ab-tw"><table class="ab-t"><thead><tr><th>${L('Food','Chakula')}</th><th>${L('Why it is on the shelf','Kwa nini kiko rafuni')}</th><th>${L('Shelf price','Bei ya rafu')}</th></tr></thead><tbody>${rows.map(x=>`<tr><td><b>${E(T(x.name.en,x.name.sw))}</b><br><span class="ab-mute" lang="en">${E(x.brand||'')} · ${E(x.product||'')} · ${E(x.pack||'')}</span></td><td>${E(T(x.why.en,x.why.sw))}</td><td class="s36-pr">${price(x)}</td></tr>`).join('')}</tbody></table></div>`).join('')}
 
 /* ---------- regulator summary ---------- */
 function regTable(){const C=SUM().zones.flatMap(z=>z.cats);const cnt=k=>C.filter(c=>CATREG[c.k]&&CATREG[c.k].f.includes(k)).length;
@@ -194,6 +195,8 @@ const CSS=`
 .s36 figure.ab-visual{margin-left:0;margin-right:0}
 .s36 figcaption{margin-top:var(--s2);color:var(--mute);font-size:var(--fs-cap);max-width:var(--measure)}
 .s36 .s36-chart{display:block;width:100%;height:auto}
+.s36 .s36-v{display:none;max-width:480px}
+@media (max-width:720px){.s36 .s36-h{display:none}.s36 .s36-v{display:block}}
 .s36 .ab-block p+p,.s36 .ab-block h2+p{margin-top:var(--s2)}
 .s36 h3{font-size:var(--fs-sub);font-weight:600;margin:var(--s4) 0 0}
 .s36 .s36-ctl{display:flex;flex-wrap:wrap;gap:var(--s2);margin-top:var(--s3);align-items:flex-end}
@@ -223,6 +226,8 @@ const CSS=`
 .s36 .s36-fam summary small{color:var(--mute);font-size:var(--fs-cap)}
 .s36 .s36-fb{padding:0 0 var(--s2) 20px}
 .s36 .s36-fb>p{max-width:var(--measure)}
+.s36 .s36-fb table{min-width:560px}
+.s36 td.s36-pr{color:var(--gold);font-variant-numeric:tabular-nums;min-width:200px;max-width:280px}
 @media (max-width:720px){.s36 .s36-lb{flex:1 1 100%}.s36 .s36-fb{padding-left:0}}
 `;
 
@@ -243,7 +248,7 @@ function render(s,p,pv,nx){const m=M(),t=SUM().tot,ppN=PP.size;
  <div class="ab-sec-no">${E(s.no)}</div><h1 id="h-s3-6">${E(s.title)}</h1>
  <p class="ab-summary">${L(`The range is ${nf(t.fam)} product families and ${nf(t.prod)} product lines across six Care Zones, each family with a reason to be on the shelf and a sourced price. Every category carries the regulator that governs it: TBS for cosmetics and food, TMDA for medical devices. Medicines are not Afya stock: the licensed partner pharmacy sells all of them. Infant formula is never listed. Filter the catalogue below, then see the Lishe nutrition shelf.`,`Bidhaa ni familia ${nf(t.fam)} na bidhaa ${nf(t.prod)} katika Maeneo sita ya Huduma, kila familia ikiwa na sababu ya kuwa rafuni na bei yenye chanzo. Kila kundi linaonyesha mdhibiti wake: TBS kwa vipodozi na chakula, TMDA kwa vifaa tiba. Dawa si bidhaa za Afya: famasia mshirika yenye leseni inaziuza zote. Maziwa ya kopo ya watoto hayaorodheshwi kamwe. Chuja katalogi hapa chini, kisha tazama rafu ya Lishe.`)}</p>
 
- <figure class="ab-visual">${zoneSVG()}
+ <figure class="ab-visual">${zoneSVG(false)}${zoneSVG(true)}
   <figcaption>${L('Product families per Care Zone. Hatched: medicine families, sold at the partner pharmacy counter and not stocked by Afya. Source: Afya Basics range catalogue, November 2026.','Familia za bidhaa kwa kila Eneo la Huduma. Mistari ya mshazari: familia za dawa, zinauzwa kwenye kaunta ya famasia mshirika na hazibebwi na Afya. Chanzo: katalogi ya bidhaa za Afya Basics, Novemba 2026.')}</figcaption></figure>
 
  <div class="ab-body">
