@@ -45,7 +45,7 @@ const order=()=>LINEUP.flatMap(g=>g[1].map(b=>b[0]));
 
 /* ---------- pricing ---------- */
 function chosenBrand(it){const k=st.box+'|'+it.key,i=st.pick[k];const bs=it.brands||[];if(i!=null&&bs[i])return bs[i];return bs.find(b=>b.default)||bs[0]||null}
-function stageLines(stage){return (stage.items||[]).filter(it=>it.kind!=='medicine').map(it=>{const b=chosenBrand(it);return {it,b,cost:D4().lineCost(b,it.units)}})}
+function stageLines(stage){return (stage.items||[]).filter(it=>it.kind!=='medicine'&&!it.optional).map(it=>{const b=chosenBrand(it);return {it,b,cost:D4().lineCost(b,it.units)}})}
 function svcList(b){const S=DATA().services||[];return (b.services||[]).map(k=>S.find(s=>s.key===k)).filter(Boolean)}
 function luxuryFor(b,tier){return (b.luxury||[]).find(x=>x.tier===tier)||null}
 function priceStage(b,stage,plan,tier){const lines=stageLines(stage),shelf=D4().shelfValue(lines),missing=lines.filter(l=>l.cost==null).length;
@@ -79,13 +79,14 @@ function tiersHTML(b,stage){const head=`<tr><th>${E(T('Tier','Ngazi'))}</th><th>
 function buildHTML(b,stage){const lines=stageLines(stage);
  const rows=lines.map(({it,b:br})=>{const bs=it.brands||[],cur=bs.indexOf(br);return `<label class="ab-bb"><span>${E(L(it.name))}<small>${E(L(it.qty))}</small></span><select data-item="${E(it.key)}">${bs.map((x,i)=>`<option value="${i}"${i===cur?' selected':''}>${E(x.brand)} · ${E(x.pack||'')} · ${tsh(x.price_tsh)}${x.afya_choice?' · '+E(T('Afya Choice','Chaguo la Afya')):''}</option>`).join('')}</select></label>`}).join('');
  return `<div class="ab-bb-ctl">${planSeg()}${tierSeg()}</div><div class="ab-bb-grid"><div class="ab-bb-list">${rows}</div><aside class="ab-bb-sum" id="abSum" aria-live="polite"></aside></div>`}
-function sumHTML(b,stage){const r=priceStage(b,stage,st.plan,st.tier),lux=st.tier!=='regular'?luxuryFor(b,st.tier):null,per=b.delivery==='per-trimester'?T('per trimester box','kwa boksi la miezi mitatu'):b.delivery==='every-2-months'?T('per two-month box','kwa boksi la miezi miwili'):T('per month','kwa mwezi');
+function sumHTML(b,stage){const r=priceStage(b,stage,st.plan,st.tier),lux=st.tier!=='regular'?luxuryFor(b,st.tier):null,dm=stage&&stage.delivery_mode&&typeof stage.delivery_mode==='object'?stage.delivery_mode:null,per=dm?T('per box','kwa boksi'):b.delivery==='per-trimester'?T('per trimester box','kwa boksi la miezi mitatu'):b.delivery==='every-2-months'?T('per two-month box','kwa boksi la miezi miwili'):b.delivery==='every-3-months'?T('per three-month box','kwa boksi la miezi mitatu'):T('per month','kwa mwezi');
  return `<dl><div><dt>${E(T('Shelf value of the goods','Thamani ya bidhaa rafuni'))}</dt><dd>${tsh(r.shelf)}</dd></div>
  <div><dt>${E(T('Member price for the goods, packing and delivery included','Bei ya mwanachama kwa bidhaa, ufungashaji na usafirishaji ukiwemo'))}</dt><dd class="ab-gold">${tsh(r.core)}</dd></div>
  ${lux?`<div><dt>${E(L(lux.name))}</dt><dd>${tsh(lux.price_tsh)}</dd></div>`:''}
  <div class="ab-tot"><dt>${E(T('Total','Jumla'))} · ${E(per)}</dt><dd class="ab-gold">${tsh(r.total)}</dd></div>
  <div><dt>${E(T('Saving against the shelf','Akiba ukilinganisha na rafu'))}</dt><dd>${tsh(r.saving)}</dd></div></dl>
  ${r.missing?`<p class="ab-mute">${E(T(`${r.missing} item(s) have no sourced price yet and are left out of the total.`,`Vitu ${r.missing} bado havina bei yenye chanzo na havijajumuishwa.`))}</p>`:''}
+ ${dm?`<p class="ab-mute">${E(T('Delivery: ','Usafirishaji: '))}${E(L(dm))}</p>`:b.delivery_note?`<p class="ab-mute">${E(L(b.delivery_note))}</p>`:''}
  <p class="ab-mute">${E(T('Partner services are added in the month they are delivered (step 5).','Huduma za washirika zinaongezwa katika mwezi zinapotolewa (hatua ya 5).'))}</p>`}
 
 function packingHTML(b){const f=b.packing&&b.packing.film;const src=f?(window.AFYA_LANG==='sw'?f.sw:f.en):null;
