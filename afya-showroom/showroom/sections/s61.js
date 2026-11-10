@@ -9,7 +9,7 @@
 const A=()=>window.AB,T=(e,s)=>A().T(e,s),E=s=>A().E(s),N=(k,v,f)=>A().numHTML(k,v,f);
 const sw=()=>window.AFYA_LANG==='sw';
 const tsh=n=>'TSh '+Math.round(n).toLocaleString('en-US');
-const tshM=(n,d)=>{const v=n/1e6,a=Math.abs(v),x=(v<0?'−':'')+String(parseFloat(a.toFixed(d!=null?d:a>=100?0:1)));return sw()?'TSh '+x+' milioni':'TSh '+x+'M'};
+const tshM=(n,d)=>{if(Math.abs(n)>=1e9){const b=n/1e9,y=(b<0?'−':'')+String(parseFloat(Math.abs(b).toFixed(2)));return sw()?'TSh '+y+' bilioni':'TSh '+y+'B'}const v=n/1e6,a=Math.abs(v),x=(v<0?'−':'')+String(parseFloat(a.toFixed(d!=null?d:a>=100?0:1)));return sw()?'TSh '+x+' milioni':'TSh '+x+'M'};
 const pc=(n,d)=>String(parseFloat((n*100).toFixed(d==null?1:d)))+'%';
 const est=()=>`<span class="ab-est">${E(T('estimate','makadirio'))}</span>`;
 const sum=a=>a.reduce((t,x)=>t+x,0);
@@ -211,7 +211,7 @@ const CSS=`<style>
 .s61-hgrid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));margin-top:var(--s3);border-top:1px solid var(--line)}
 .s61-hn{padding:var(--s3) var(--s2) var(--s2) 0;border-right:1px solid var(--line);padding-left:var(--s2)}
 .s61-hn:first-child{padding-left:0}.s61-hn:last-child{border-right:0}
-.s61-hv{display:block;color:var(--gold);font-size:var(--fs-title);font-weight:600;line-height:1.15;font-variant-numeric:tabular-nums}
+.s61-hv{display:block;color:var(--gold);font-size:calc(var(--fs-title) - 4px);white-space:nowrap;font-weight:600;line-height:1.15;font-variant-numeric:tabular-nums}
 .s61-hl{display:block;margin-top:8px;font-size:calc(var(--fs-body) - 2px)}
 .s61-hs{display:block;margin-top:6px;color:var(--mute);font-size:var(--fs-cap)}
 .s61-hero figcaption{margin-top:var(--s2);font-size:var(--fs-cap);max-width:var(--measure)}
@@ -232,6 +232,9 @@ const CSS=`<style>
 .s61-sout b{display:block;font-size:var(--fs-sub);font-weight:600;font-variant-numeric:tabular-nums}
 .s61-sout span{display:block;font-size:var(--fs-cap)}
 .s61-sout p{margin-top:var(--s2);font-size:var(--fs-cap)}
+.s61-body .ab-block>p,.s61-body .ab-block>h3+p{margin-top:var(--s2)}
+.s61-ctl{margin-top:var(--s3)}
+.s61-pl td:first-child{white-space:nowrap}
 .s61-ul{margin:var(--s2) 0 0;padding-left:20px;max-width:var(--measure)}
 .s61-ul li{margin:8px 0}
 @media (max-width:860px){.s61-hgrid{grid-template-columns:1fr 1fr}.s61-hn{border-right:0;border-bottom:1px solid var(--line);padding-left:0!important}.s61-hn:nth-child(odd){padding-right:var(--s2)}.s61-sens{grid-template-columns:1fr}}
@@ -245,7 +248,7 @@ function render(s,p,pv,nx){const M=window.MODEL,I=M.inputs,r=M.get('base'),lean=
  <div class="ab-sec-no">${E(s.no)}</div><h1 id="h-s6-1">${E(s.title)}</h1>
  <p class="ab-summary">${E(T('This section shows the first store’s money, month by month, for the funding option selected. One financial model produces every figure: revenue, profit, cash and twelve years of growth. Switch between the base, best and downside cases and the charts and tables recalculate. Box margins follow the approved price rule, and the sensitivity tool runs the same model again with your inputs. Every figure is a planning estimate until supplier quotes and the pre-sale replace the assumptions.','Sehemu hii inaonyesha fedha za duka la kwanza, mwezi kwa mwezi, kwa chaguo la mtaji lililochaguliwa. Modeli moja ya fedha inatoa kila takwimu: mapato, faida, fedha taslimu na miaka kumi na miwili ya ukuaji. Badilisha kati ya hali ya msingi, hali bora na hali mbaya, na chati na majedwali yanakokotolewa upya. Faida za maboksi zinafuata kanuni ya bei iliyoidhinishwa, na zana ya unyeti inaendesha modeli ileile tena kwa pembejeo zako. Kila takwimu ni makadirio ya mipango hadi bei za wasambazaji na mauzo ya awali zitakapochukua nafasi ya makisio.'))}</p>
  ${heroHTML()}
- <div class="ab-body">
+ <div class="ab-body s61-body">
  <section class="ab-block"><h2>${E(T('One store, modelled month by month','Duka moja, limepangwa mwezi kwa mwezi'))}</h2>
   <p>${T(`Every projection starts with one store. In this option it is ${lean?'a start-small store':'the street-front flagship'} of ${N('u-area',I.store.area_m2,'int')} m², open ${E(I.store.hours)}, with a team of ${N('u-team',team,'int')} people ${lean?'on one long shift':'on two shifts'}. Year 1 is modelled month by month from activity inside that store: visitors, the share who buy, members who join the Afya Box from store customers and from the free Afya Check, online orders, partner care packs and Afya Kazini business accounts. From year 2 the model works in whole years and store counts, and every later store scales the first one’s results.`,`Kila makadirio yanaanza na duka moja. Katika chaguo hili ni ${lean?'duka dogo la kuanzia':'duka kuu la mbele ya barabara'} la m² ${N('u-area',I.store.area_m2,'int')}, linalofunguliwa ${E(I.store.hours)}, likiwa na timu ya watu ${N('u-team',team,'int')} ${lean?'kwa zamu moja ndefu':'kwa zamu mbili'}. Mwaka 1 umepangwa mwezi kwa mwezi kutokana na shughuli ndani ya duka hilo: wageni, sehemu wanaonunua, wanachama wanaojiunga na Afya Box kutoka kwa wateja wa dukani na kutoka kipimo cha bure cha Afya Check, oda za mtandaoni, vifurushi vya huduma za washirika na akaunti za biashara za Afya Kazini. Kuanzia mwaka 2 modeli inafanya kazi kwa miaka mizima na idadi ya maduka, na kila duka linalofuata linakuza matokeo ya lile la kwanza.`)}</p>
   ${engineHTML(I,r)}
