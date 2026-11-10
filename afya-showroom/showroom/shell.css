@@ -256,3 +256,4 @@ img.ab-img-out{object-position:-9999px -9999px}
 .ab-sec input,.ab-sec select,.ab-sec textarea{accent-color:var(--green);color:var(--ink);background-color:var(--surface);border-color:var(--line)}
 .ab-sec input[type=range]{background-color:transparent}
 .ab-sec hr{color:var(--line);border:0;border-top:1px solid var(--line)}
+.ab-ver{font-size:var(--fs-cap);margin:var(--s3) 0 0;text-align:center}

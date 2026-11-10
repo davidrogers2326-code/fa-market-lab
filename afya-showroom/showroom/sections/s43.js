@@ -118,7 +118,7 @@ const CSS=`<style>
 </style>`;
 
 /* ---------- primary visual: the six steps from shelf to doorstep (inline SVG, two layouts) ---------- */
-const STEPS=[['Pick','Kuchukua','by the member’s locked list','kwa orodha iliyofungwa ya mwanachama'],['Pack','Kufungasha','gloved hands, fixed layout','kwa glavu, mpangilio maalum'],['Check and seal','Kukagua na kufunga','photographed, then closed','inapigwa picha, kisha inafungwa'],['Wave','Awamu','grouped by area and route','inapangwa kwa eneo na njia'],['Ride','Kusafirisha','electric motorbike, tracked','pikipiki ya umeme, inafuatiliwa'],['Prove','Kuthibitisha','a 4-digit code at the door','namba ya tarakimu 4 mlangoni']];
+const STEPS=[['Pick','Kuchukua','by the member’s locked list','kwa orodha iliyofungwa ya mwanachama'],['Pack','Kufungasha','gloved hands, fixed layout','kwa glavu, mpangilio maalum'],['Check and seal','Kukagua','photographed, then closed','inapigwa picha, kisha inafungwa'],['Wave','Awamu','grouped by area and route','inapangwa kwa eneo na njia'],['Ride','Kusafirisha','electric motorbike, tracked','pikipiki ya umeme, inafuatiliwa'],['Prove','Kuthibitisha','a 4-digit code at the door','namba ya tarakimu 4 mlangoni']];
 function flowSVG(cols){const rows=Math.ceil(STEPS.length/cols),cw=cols===6?180:160,ch=cols===6?136:140,gx=cols===6?8:12,gy=26,W=cols*cw+(cols-1)*gx,H=rows*ch+(rows-1)*gy;let g='';
  STEPS.forEach((s,i)=>{const c=i%cols,r=Math.floor(i/cols),x=c*(cw+gx),y=r*(ch+gy);
   g+=`<rect x="${x+.5}" y="${y+.5}" width="${cw-1}" height="${ch-1}" style="fill:var(--bg);stroke:var(--line)"/>`+
