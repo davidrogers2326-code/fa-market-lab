@@ -92,7 +92,7 @@ function slides(n){const I=n.I,sd=n.seed,Tr=sd.tranches.map(t=>t*sd.amount),mm=B
  return [
  /* 1 */ {h:T('A health-essentials store in Dar es Salaam, with a monthly box that reaches the home before anything runs out.','Duka la bidhaa za afya jijini Dar es Salaam, na boksi la kila mwezi linalofika nyumbani kabla kitu hakijaisha.'),
   v:`${img('assets/boxes/mama-na-mtoto-closed.webp',1376,768,'The Afya Box for Mama na Mtoto: a green box with the lid lifted, gold lettering on the side','Afya Box ya Mama na Mtoto: boksi la kijani lenye mfuniko ulioinuliwa, maandishi ya dhahabu ubavuni')}
-   ${mm?big(`${tsh(mm.from)} ${tag('model')}`,L(`Mama na Mtoto, ${mm.per.en} on the 12-month plan, against ${tsh(mm.shelf)} for the same goods at shelf price${''}`,`Mama na Mtoto, ${mm.per.sw} kwa mpango wa miezi 12, ukilinganisha na ${tsh(mm.shelf)} kwa bidhaa hizohizo kwa bei ya rafu`)+cite(7),L('Packing and delivery included','Ufungashaji na usafirishaji ukiwemo')):''}`,
+   ${mm?big(`${tsh(mm.from)} ${tag('model')}`,L(`Mama na Mtoto, ${mm.per.en} on the 12-month plan, against ${tsh(mm.shelf)} for the same goods at shelf price${''}`,`Mama na Mtoto, ${mm.per.sw}, kwa mpango wa miezi 12, ukilinganisha na ${tsh(mm.shelf)} kwa bidhaa hizohizo kwa bei ya rafu`)+cite(7),L('Packing and delivery included','Ufungashaji na usafirishaji ukiwemo')):''}`,
   n:[`<p>Open with the one line on the slide, and nothing before it. Afya Basics is a health-essentials store in Dar es Salaam, and the Afya Box is a monthly delivery of what a household uses, chosen for one stage of life or one condition.</p><p>Then give the one fact. The Mama na Mtoto box costs ${tsh(mm?mm.from:0)} ${mm?mm.per.en:''} on the 12-month plan. The same goods cost ${tsh(mm?mm.shelf:0)} at shelf price, and packing and delivery are already inside the member price. Every item in that box has a sourced shelf price in section 3.5.</p><p>Say plainly that there are no sales yet. Every number in this presentation is a model figure or a target, and the slide says which.</p>`,
    `<p>Anza na mstari mmoja ulio kwenye slaidi, bila kitu kingine kabla yake. Afya Basics ni duka la bidhaa za afya jijini Dar es Salaam, na Afya Box ni mzigo wa kila mwezi wa vitu ambavyo kaya inatumia, uliochaguliwa kwa hatua moja ya maisha au hali moja ya afya.</p><p>Kisha toa ukweli mmoja. Boksi la Mama na Mtoto linagharimu ${tsh(mm?mm.from:0)} ${mm?mm.per.sw:''} kwa mpango wa miezi 12. Bidhaa hizohizo zinagharimu ${tsh(mm?mm.shelf:0)} kwa bei ya rafu, na ufungashaji na usafirishaji tayari viko ndani ya bei ya mwanachama. Kila kitu katika boksi hilo kina bei ya rafu yenye chanzo katika sehemu 3.5.</p><p>Sema wazi kwamba bado hakuna mauzo. Kila namba katika wasilisho hili ni ya modeli au ni lengo, na slaidi inaonyesha ni ipi.</p>`],go:'s3-5'},
 
@@ -207,6 +207,7 @@ const CSS=`
 .s02 .s02-bar{display:flex;flex-wrap:wrap;gap:var(--s1) var(--s2);align-items:center;padding:var(--s2);border-bottom:1px solid var(--line)}
 .s02 .s02-bar .s02-ct{color:var(--mute);font-size:var(--fs-cap);font-variant-numeric:tabular-nums;min-width:9ch}
 .s02 .s02-bar .s02-sp{flex:1 1 auto}
+.s02 .s02-bar .ab-btn{padding:7px 14px;min-height:34px;font-size:var(--fs-cap)}
 .s02 .s02-slide{padding:var(--s4);min-height:460px}
 .s02 .s02-slide[hidden]{display:none}
 .s02 .s02-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:var(--s4);align-items:start}
@@ -220,7 +221,7 @@ const CSS=`
 .s02 .s02-big b{display:block;color:var(--gold);font-size:var(--fs-sub);font-weight:600;font-variant-numeric:tabular-nums;line-height:1.25}
 .s02 .s02-big>span{display:block;margin-top:4px;color:var(--ink);font-size:calc(var(--fs-body) - 1px)}
 .s02 .s02-big>small{display:block;margin-top:4px;color:var(--mute);font-size:var(--fs-cap)}
-.s02 .s02-figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:0;border-top:1px solid var(--line)}
+.s02 .s02-figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0;border-top:1px solid var(--line)}
 .s02 .s02-figs>.s02-big{padding:var(--s2) var(--s2) var(--s2) 0;border-bottom:1px solid var(--line)}
 .s02 .s02-cap{color:var(--mute);font-size:var(--fs-cap);max-width:var(--measure)}
 .s02 .s02-per{display:block;color:var(--mute);font-size:var(--fs-cap);font-weight:400;white-space:normal}
@@ -247,6 +248,7 @@ const CSS=`
 .s02 .s02-all p{max-width:var(--measure)}.s02 .s02-all p+p{margin-top:var(--s1)}
 .s02 .ab-body>p+p{margin-top:var(--s2)}
 @media (max-width:860px){.s02 .s02-grid{grid-template-columns:minmax(0,1fr);gap:var(--s3)}.s02 .s02-slide{padding:var(--s3);min-height:0}.s02 .s02-lu{grid-template-columns:repeat(2,minmax(0,1fr))}.s02 .s02-notes{padding:var(--s3)}}
+@media (max-width:560px){.s02 [data-s02="full"]{display:none}.s02 .s02-bar .s02-sp{display:none}}
 @media (max-width:420px){.s02 .s02-slide{padding:var(--s2)}.s02 .s02-bar{padding:var(--s1) var(--s2)}.s02 .s02-notes{padding:var(--s2)}}
 `;
 

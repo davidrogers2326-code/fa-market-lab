@@ -16,16 +16,16 @@ const est=()=>`<span class="ab-est">${E(T('estimate','makadirio'))}</span>`;
 const FAM=523,PROD=2796,AD_PAGES=1239,AD_FREE=150000;  /* catalogue (3.6); AfyaDepot sitemap and home-page banner, 9 Nov 2026 (R3) */
 
 const RS={
- ad:{t:'AfyaDepot sitemap (1,239 product pages, lastmod 9 Nov 2026) and product pages; every AfyaDepot price used is linked in section 3.5',u:'https://afyadepot.co.tz/sitemap.xml',chk:'9 Nov 2026'},
- adh:{t:'AfyaDepot home page banner: “Free delivery on 150K+ Pharmacy orders in Dar”',u:'https://afyadepot.co.tz/',chk:'9 Nov 2026'},
- adp:{t:'AfyaDepot delivery and return policy (5,500 / 9,000 delivery fees below the threshold; quoted from a search result, the page returned 404)',u:'https://afyadepot.co.tz/delivery-return-policy',chk:'9 Nov 2026'},
- sh:{t:'Shoppers Supermarket product pages (www.shoppers.co.tz), prices seen 2 Nov 2026; each is linked in section 3.5',u:'https://www.shoppers.co.tz/',chk:'2 Nov 2026'},
- addo:{t:'D-tree, 8 May 2023: Scaling up pharmacy-based healthcare models (over 17,400 accredited drug dispensing outlets; about one in three acutely ill Tanzanians go to an ADDO first)',u:'https://www.d-tree.org/scaling-up-pharmacy-based-healthcare-models-to-achieve-health-for-all/'},
- plos:{t:'Embrey M. et al., PLOS ONE 11(11), 2016: Understanding the role of accredited drug dispensing outlets in Tanzania’s health system',u:'https://pmc.ncbi.nlm.nih.gov/articles/PMC5100953'},
- who:{t:'WHO news release, 28 Nov 2017: 1 in 10 medical products in low- and middle-income countries is substandard or falsified',u:'https://www.who.int/news/item/28-11-2017-1-in-10-medical-products-in-developing-countries-is-substandard-or-falsified'},
- gl:{t:'LeapFrog Investments, 2025: Goodlife Pharmacies exit note (19 stores in November 2016, 148 in July 2025, Kenya and Uganda)',u:'https://leapfroginvest.com/wp-content/uploads/2025/10/Goodlife-Pharmacies_ExitNote-Ext_2025.pdf'},
- glp:{t:'Proparco: financing for Goodlife Pharmacies’ expansion (development-finance debt)',u:'https://proparco.fr/en/actualites/proparco-grants-12m-goodlife-pharmacies-strengthen-its-commitment-healthcare-sector'}};
-const cite=k=>`<a href="${E(RS[k].u)}" target="_blank" rel="noopener">${E(RS[k].t.split(':')[0])}</a>`;
+ ad:{n:'AfyaDepot, 9 Nov 2026',t:'AfyaDepot sitemap (1,239 product pages, lastmod 9 Nov 2026) and product pages; every AfyaDepot price used is linked in section 3.5',u:'https://afyadepot.co.tz/sitemap.xml',chk:'9 Nov 2026'},
+ adh:{n:'AfyaDepot home page',t:'AfyaDepot home page banner: “Free delivery on 150K+ Pharmacy orders in Dar”',u:'https://afyadepot.co.tz/',chk:'9 Nov 2026'},
+ adp:{n:'AfyaDepot policy page',t:'AfyaDepot delivery and return policy (5,500 / 9,000 delivery fees below the threshold; quoted from a search result, the page returned 404)',u:'https://afyadepot.co.tz/delivery-return-policy',chk:'9 Nov 2026'},
+ sh:{n:'Shoppers Supermarket',t:'Shoppers Supermarket product pages (www.shoppers.co.tz), prices seen 2 Nov 2026; each is linked in section 3.5',u:'https://www.shoppers.co.tz/',chk:'2 Nov 2026'},
+ addo:{n:'D-tree, 2023',t:'D-tree, 8 May 2023: Scaling up pharmacy-based healthcare models (over 17,400 accredited drug dispensing outlets; about one in three acutely ill Tanzanians go to an ADDO first)',u:'https://www.d-tree.org/scaling-up-pharmacy-based-healthcare-models-to-achieve-health-for-all/'},
+ plos:{n:'PLOS ONE, 2016',t:'Embrey M. et al., PLOS ONE 11(11), 2016: Understanding the role of accredited drug dispensing outlets in Tanzania’s health system',u:'https://pmc.ncbi.nlm.nih.gov/articles/PMC5100953'},
+ who:{n:'WHO, 2017',t:'WHO news release, 28 Nov 2017: 1 in 10 medical products in low- and middle-income countries is substandard or falsified',u:'https://www.who.int/news/item/28-11-2017-1-in-10-medical-products-in-developing-countries-is-substandard-or-falsified'},
+ gl:{n:'LeapFrog, 2025',t:'LeapFrog Investments, 2025: Goodlife Pharmacies exit note (19 stores in November 2016, 148 in July 2025, Kenya and Uganda)',u:'https://leapfroginvest.com/wp-content/uploads/2025/10/Goodlife-Pharmacies_ExitNote-Ext_2025.pdf'},
+ glp:{n:'Proparco',t:'Proparco: financing for Goodlife Pharmacies’ expansion (development-finance debt)',u:'https://proparco.fr/en/actualites/proparco-grants-12m-goodlife-pharmacies-strengthen-its-commitment-healthcare-sector'}};
+const cite=k=>`<a href="${E(RS[k].u)}" target="_blank" rel="noopener">${E(RS[k].n||RS[k].t.split(':')[0])}</a>`;
 
 /* ---------- live figures from the box data ---------- */
 function defLines(stage){return (stage.items||[]).filter(i=>i.kind!=='medicine'&&!i.optional).map(it=>{const b=(it.brands||[]).find(x=>x.default)||(it.brands||[])[0];return {it,b,cost:D4().lineCost(b,it.units)}})}
@@ -117,14 +117,14 @@ function render(s,p,pv,nx){const f=facts(),M=window.MODEL,I=M.inputs,b=M.get('ba
  <section class="ab-block"><h2>${E(T('Key figures','Takwimu muhimu'))}</h2>
   ${A().figsHTML([
    {v:`${nf(FAM)} · ${nf(PROD)}`,l:T('Product families and products in the Afya catalogue (section 3.6)','Familia za bidhaa na bidhaa katika orodha ya Afya (sehemu ya 3.6)'),s:E(T('Afya catalogue','Orodha ya Afya'))},
-   {v:nf(f.ad),l:T('Box brand lines priced from AfyaDepot, each below its price for members','Chapa za maboksi zilizowekwa bei kutoka AfyaDepot, kila moja chini ya bei yake kwa wanachama'),s:cite('ad')},
+   {v:nf(f.ad),l:T('Box brand lines priced from AfyaDepot; on each, members pay less than AfyaDepot asks','Chapa za maboksi zilizowekwa bei kutoka AfyaDepot; kwa kila moja, wanachama wanalipa kidogo kuliko bei ya AfyaDepot'),s:cite('ad')},
    {v:tsh(AD_FREE),l:T('AfyaDepot’s free-delivery threshold in Dar; every Afya Box includes delivery','Kiwango cha AfyaDepot cha kufikisha bure Dar; kila Afya Box inajumuisha kufikisha'),s:cite('adh')},
    {v:'17,400+',l:T('Accredited drug dispensing outlets in Tanzania, almost all single shops','Maduka ya dawa yaliyoidhinishwa Tanzania, karibu yote ni maduka moja moja'),s:cite('addo')}])}
  </section>
 
  ${ex?`<section class="ab-block"><h2>${E(T('What a member saves','Mwanachama anaokoa kiasi gani'))}</h2>
   <p>${E(T(`Mama na Mtoto, ${L(ex.stage.label)}, default brands, regular tier, packing and delivery included.`,`Mama na Mtoto, ${L(ex.stage.label)}, chapa za kawaida, ngazi ya kawaida, ufungashaji na usafirishaji ukiwemo.`))}</p>
-  <div class="ab-tw"><table class="ab-t"><thead><tr><th>${E(T('Plan','Mpango'))}</th><th>${E(T('Price a month','Bei kwa mwezi'))}</th><th>${E(T('Below the shelf','Chini ya rafu'))}</th><th>${E(T('Saving over a year','Akiba kwa mwaka'))}</th></tr></thead><tbody>
+  <div class="ab-tw"><table class="ab-t"><thead><tr><th>${E(T('Plan','Mpango'))}</th><th>${E(T('Price a month','Bei kwa mwezi'))}</th><th>${E(T('Below the shelf','Chini ya rafu'))}</th><th>${E(T('Saving over a year at this price','Akiba kwa mwaka kwa bei hii'))} ${est()}</th></tr></thead><tbody>
    <tr><td>${E(T('Shelf value of the goods','Thamani ya bidhaa rafuni'))}</td><td class="ab-n">${tsh(ex.m1.shelf)}</td><td class="ab-n">—</td><td class="ab-n">—</td></tr>
    ${[['m1','1 month','Mwezi 1'],['m6','6 months · Gold','Miezi 6 · Gold'],['m12','12 months · Platinum','Miezi 12 · Platinum']].map(pl=>{const r=ex[pl[0]];return `<tr><td>${E(T(pl[1],pl[2]))}</td><td class="ab-n">${tsh(r.total)}</td><td class="ab-n">${tsh(r.saving)}</td><td class="ab-n">${tsh(r.saving*12)}</td></tr>`}).join('')}
   </tbody></table></div>
