@@ -2,7 +2,7 @@
    The board, reserved matters, approval limits, governance calendar and access levels are kept as plain data records
    (window.AFYA_GOV) and rendered from them, so the same records can later drive the company's own online reporting and
    access system (Part J-6) without rework. D-6: the two founders are named together; no split and no relationship.
-   The investor pack and the 21:00 report read the selected funding option from MODEL (B5); numbers that differ between
+   The investor pack and the nightly report read the selected funding option from MODEL (B5); numbers that differ between
    the options are wrapped in AB.numHTML. Approval limits and speed targets are proposals, labelled as such.
    The report mock-up is a flat panel on the C2 tokens: no device frame, no shadow, no cross symbol. */
 (function(){
@@ -338,7 +338,7 @@ function init(){const M=window.MODEL,I=M.inputs,$=id=>document.getElementById(id
   $('s72-msg').innerHTML=`<b>${E(T(`Store 1 · a typical day in month ${mm}`,`Duka 1 · siku ya kawaida mwezi ${mm}`))}</b><hr>
    ${row(T('Walk-in sales','Mauzo ya dukani'),tsh(w))}${row(T('Afya Box revenue (one day’s share)','Mapato ya Afya Box (sehemu ya siku moja)'),tsh(bx))}${row(T('Online and WhatsApp','Mtandaoni na WhatsApp'),tsh(on))}${row(T('Services and business kits','Huduma na vifurushi vya biashara'),tsh(ot))}${row(T('Total','Jumla'),tsh(w+bx+on+ot),1)}<hr>
    ${row(T('Visitors','Wageni'),nf(m.visitors_day))}${row(T('New members (average)','Wanachama wapya (wastani)'),(m.joins/d).toFixed(1))}${row(T('Members leaving (average)','Wanachama wanaoondoka (wastani)'),(m.left/d).toFixed(1))}${row(T('Cash-up','Hesabu ya fedha'),T('matched','inalingana'))}<hr>
-   <span class="al">${E(T('Stock: 2 items below reorder point, orders drafted for approval','Stoku: bidhaa 2 chini ya kiwango cha kuagiza, oda zimeandaliwa kwa idhini'))}</span><br>${E(T('Issue: 1 delivery late (rain), customer called back','Changamoto: usafirishaji 1 umechelewa (mvua), mteja amepigiwa simu'))}<br><span class="al">${E(T('Licence: TMDA permit renewal due in 54 days','Leseni: kuhuisha kibali cha TMDA kunatakiwa ndani ya siku 54'))}</span><time>21:00</time>`;
+   <span class="al">${E(T('Stock: 2 items below reorder point, orders drafted for approval','Stoku: bidhaa 2 chini ya kiwango cha kuagiza, oda zimeandaliwa kwa idhini'))}</span><br>${E(T('Issue: 1 delivery late (rain), customer called back','Changamoto: usafirishaji 1 umechelewa (mvua), mteja amepigiwa simu'))}<br><span class="al">${E(T('Licence: TMDA permit renewal due in 54 days','Leseni: kuhuisha kibali cha TMDA kunatakiwa ndani ya siku 54'))}</span>`;
   press('[data-s72day]',document.querySelector(`[data-s72day="${mm}"]`))};
  document.querySelectorAll('[data-s72day]').forEach(b=>b.onclick=()=>rep(+b.dataset.s72day));rep(12);
  /* access highlight */
